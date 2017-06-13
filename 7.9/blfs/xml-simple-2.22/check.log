@@ -1,0 +1,17 @@
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/0_Config.t ............ ok
+t/1_XMLin.t ............. ok
+t/2_XMLout.t ............ ok
+t/3_Storable.t .......... ok
+t/4_MemShare.t .......... ok
+t/5_MemCopy.t ........... ok
+t/6_ObjIntf.t ........... ok
+t/7_SaxStuff.t .......... ok
+t/8_Namespaces.t ........ ok
+t/9_Strict.t ............ ok
+t/A_XMLParser.t ......... ok
+t/B_Hooks.t ............. ok
+t/release-pod-syntax.t .. skipped: these tests are for release candidate testing
+All tests successful.
+Files=13, Tests=501, 14 wallclock secs ( 0.14 usr  0.02 sys +  3.06 cusr  0.16 csys =  3.38 CPU)
+Result: PASS

@@ -1,0 +1,10 @@
+patch -Np1 -i ../parted-3.2-devmapper-1.patch
+
+./configure --prefix=/usr --disable-static &&
+make &&
+
+make -C doc html                                       &&
+makeinfo --html      -o doc/html       doc/parted.texi &&
+makeinfo --plaintext -o doc/parted.txt doc/parted.texi
+
+sed -i '/t0251-gpt-unicode.sh/d' tests/Makefile

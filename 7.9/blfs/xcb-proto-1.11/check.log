@@ -1,0 +1,14 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make  check-local
+make[2]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+Making check in xcbgen
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11'

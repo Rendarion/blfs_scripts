@@ -1,0 +1,101 @@
+sh unix/configure "cc" "-I. -Ibzip2 -DUNIX  " "bzip2"
+Check C compiler operation
+  Ok
+Check C compiler type (optimization options)
+  GNU C (-O3)
+Check for the C preprocessor
+Check if we can use asm code
+Check for ANSI options
+Check for prototypes
+Check the handling of const
+Check for time_t
+Check for size_t
+Check for off_t
+Check for Large File Support
+  off_t is 8 bytes
+-- yes we have Large File Support!
+Check for wide char support
+  __STDC_ISO_10646__ = 201505
+-- have wchar_t with known UCS encoding - enabling Unicode support!
+Check for setlocale support (needed for UNICODE Native check)
+-- have setlocale, can check for charset type
+--  - enabling UTF8-native support!
+Check for gcc no-builtin flag
+Check for fchmod
+Check for fchown
+Check for lchown
+Check for nl_langinfo
+Check for lchmod
+Check for memset
+Check for errno declaration
+Check for directory libraries
+Check for readlink
+Check for directory include file
+Check for non existent include files
+Check for term I/O include file
+Check for MBCS include files
+Check for MBCS support
+-- have MBCS support
+Check for MBCS mbschr
+Check for MBCS mbsrchr
+Check for valloc
+Check for /usr/local/bin and /usr/local/man
+Checking for OS specialties
+Check for symbolic links
+Check bzip2 support
+  Check for bzip2 sources in unzip's bzip2 subdirectory
+-- bzip2 sources not found - no bzip2 support
+eval make -f unix/Makefile unzips ACONF_DEP=flags `cat flags`
+make[1]: Entering directory '/sources/7.9/unzip60'
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  unzip.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  crc32.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  crypt.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  envargs.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  explode.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  extract.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  fileio.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  globals.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  inflate.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  list.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  match.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  process.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  ttyio.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  ubz2err.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  unreduce.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  unshrink.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  zipinfo.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  unix/unix.c
+cc -o unzip  -Lbzip2 unzip.o crc32.o  crypt.o envargs.o explode.o extract.o fileio.o globals.o inflate.o list.o match.o process.o ttyio.o ubz2err.o unreduce.o unshrink.o zipinfo.o unix.o  -s
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  funzip.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DFUNZIP -o cryptf.o crypt.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DFUNZIP -o globalsf.o globals.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DFUNZIP -o inflatef.o inflate.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DFUNZIP -o ttyiof.o ttyio.c
+cc -o funzip  funzip.o crc32.o  cryptf.o globalsf.o inflatef.o ttyiof.o -s
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o unzipsfx.o unzip.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o crc32_.o crc32.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o crypt_.o crypt.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o extract_.o extract.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o fileio_.o fileio.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o globals_.o globals.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o inflate_.o inflate.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o match_.o match.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o process_.o process.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o ttyio_.o ttyio.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o ubz2err_.o ubz2err.c
+cc -c -I. -Ibzip2 -DUNIX -O3 -DLARGE_FILE_SUPPORT -DUNICODE_SUPPORT -DUNICODE_WCHAR -DUNICODE_SUPPORT -DUTF8_MAYBE_NATIVE -DHAVE_DIRENT_H -DHAVE_TERMIOS_H -D_MBCS  -DSFX -o unix_.o unix/unix.c
+cc -o unzipsfx  unzipsfx.o crc32_.o  crypt_.o extract_.o fileio_.o globals_.o inflate_.o match_.o process_.o ttyio_.o ubz2err_.o unix_.o -s
+make[1]: Leaving directory '/sources/7.9/unzip60'
+mkdir -p /usr/bin
+cp unzip funzip unzipsfx /usr/bin
+cp unix/zipgrep /usr/bin
+rm -f /usr/bin/zipinfo
+ln /usr/bin/unzip /usr/bin/zipinfo
+mkdir -p /usr/share/man/man1
+cp man/funzip.1 /usr/share/man/man1/funzip.1
+cp man/unzip.1 /usr/share/man/man1/unzip.1
+cp man/unzipsfx.1 /usr/share/man/man1/unzipsfx.1
+cp man/zipgrep.1 /usr/share/man/man1/zipgrep.1
+cp man/zipinfo.1 /usr/share/man/man1/zipinfo.1
+chmod 755 /usr/bin/funzip /usr/bin/unzip /usr/bin/unzipsfx /usr/bin/zipgrep /usr/bin/zipinfo
+chmod 644 /usr/share/man/man1/funzip.1 /usr/share/man/man1/unzip.1 /usr/share/man/man1/unzipsfx.1 /usr/share/man/man1/zipgrep.1 /usr/share/man/man1/zipinfo.1

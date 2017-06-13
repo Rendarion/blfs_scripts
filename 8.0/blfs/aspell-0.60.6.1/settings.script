@@ -1,0 +1,11 @@
+URL=(
+"https://ftp.gnu.org/gnu/aspell/aspell-0.60.6.1.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

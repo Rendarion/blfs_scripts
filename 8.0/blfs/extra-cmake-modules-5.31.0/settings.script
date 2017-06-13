@@ -1,0 +1,12 @@
+URL=(
+"http://download.kde.org/stable/frameworks/5.31/extra-cmake-modules-5.31.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+)

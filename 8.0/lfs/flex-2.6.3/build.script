@@ -1,0 +1,4 @@
+HELP2MAN=/tools/bin/true \
+./configure --prefix=/usr --docdir=/usr/share/doc/"$PKG"
+
+make

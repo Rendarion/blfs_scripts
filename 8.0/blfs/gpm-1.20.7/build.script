@@ -1,0 +1,4 @@
+sed -i -e 's:<gpm.h>:"headers/gpm.h":' src/prog/{display-buttons,display-coords,get-versions}.c &&
+./autogen.sh                                &&
+./configure --prefix=/usr --sysconfdir=/etc &&
+make

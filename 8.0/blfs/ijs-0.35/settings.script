@@ -1,0 +1,11 @@
+URL=(
+"https://www.openprinting.org/download/ijs/download/ijs-0.35.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

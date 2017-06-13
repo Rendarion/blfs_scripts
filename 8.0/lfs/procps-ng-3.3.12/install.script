@@ -1,0 +1,49 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+SCRIPTDIR="$PWD"
+PKG=$(basename $PWD)
+URL=""
+ARC=$(basename $(find /sources/$LFSVS/ -maxdepth 1 -type f -name "$PKG.*"))
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# clean up leftover build-folders
+
+if [ -a "$PKG" ]
+  then
+    rm -rf "$PKG"
+  fi
+
+# unpack package
+
+tar -xf "$ARC"
+cd "$PKG"
+
+# configure, build and install
+
+./configure --prefix=/usr                  \
+            --exec-prefix=                 \
+            --libdir=/usr/lib              \
+            --docdir=/usr/share/doc/"$PKG" \
+            --disable-static               \
+            --disable-kill
+
+make
+
+sed -i -r 's|(pmap_initname)\\\$|\1|' testsuite/pmap.test/pmap.exp
+make check | tee "$SCRIPTDIR/check.log"
+
+porg -lp "$PKG" "$SCRIPTDIR/porg.script"
+
+# clean up
+
+if [ $PKG != "" ]
+  then
+    rm -rf "/sources/$LFSVS/$PKG"
+  fi

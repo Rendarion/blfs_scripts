@@ -1,0 +1,32 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://downloads.sourceforge.net/freetype/freetype-2.6.3.tar.bz2"
+"http://downloads.sourceforge.net/freetype/freetype-doc-2.6.3.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libpng-1.6.21"
+"which-2.21"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

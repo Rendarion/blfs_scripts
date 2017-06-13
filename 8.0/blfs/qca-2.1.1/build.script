@@ -1,0 +1,15 @@
+sed -i 's/BSD/DEFAULT/' CMakeLists.txt
+
+sed -i 's@ca-bundle.pem@ca-bundle.crt@' CMakeLists.txt
+
+mkdir build
+cd    build &&
+
+cmake -DCMAKE_INSTALL_PREFIX=$QT5DIR            \
+      -DCMAKE_INSTALL_LIBDIR=lib                \
+      -DCMAKE_BUILD_TYPE=Release                \
+      -DQCA_MAN_INSTALL_DIR:PATH=/usr/share/man \
+      ..                                        &&
+
+make
+

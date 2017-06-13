@@ -1,0 +1,532 @@
+Making check in pkgconfig
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+Making check in gst
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making check in parse
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+Making check in printf
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making check in libs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making check in gst
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+Making check in base
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+Making check in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+Making check in net
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+Making check in check
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making check in libcheck
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making check in helpers
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making check in plugins
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making check in elements
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making check in benchmarks
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make  gst/gstabi gst/gstatomicqueue gst/gstbuffer gst/gstbufferlist gst/gstbufferpool gst/gstmeta gst/gstmemory gst/gstbus gst/gstcaps gst/gstcapsfeatures gst/gstcpp libs/gstlibscpp gst/gstdatetime gst/gstdevice gst/gstinfo gst/gstiterator gst/gstmessage gst/gstminiobject gst/gstobject gst/gstpad gst/gstparamspecs gst/gstpipeline gst/gstpoll gst/gstprotection gst/gstprintf gst/gstsegment gst/gstsystemclock gst/gstclock gst/gststructure gst/gsttag gst/gsttagsetter gst/gsttask gst/gsttoc gst/gsttocsetter gst/gstvalue generic/states pipelines/simple-launch-lines pipelines/cleanup pipelines/parse-launch gst/gst gst/gstbin gst/gstchildproxy gst/gstcontext gst/gstcontroller gst/gstelement gst/gstelementfactory gst/gstevent gst/gstghostpad gst/gstplugin gst/gstpreset gst/gstprotection gst/gstquery gst/gstregistry gst/gsturi gst/gstutils generic/sinks elements/capsfilter elements/concat elements/fakesink elements/fakesrc elements/fdsrc elements/filesink elements/filesrc elements/funnel elements/identity elements/multiqueue elements/selector elements/tee elements/queue elements/queue2 elements/valve elements/streamiddemux libs/baseparse libs/basesrc libs/basesink libs/sparsefile libs/controller libs/queuearray libs/typefindhelper pipelines/seek pipelines/stress pipelines/queue-error libs/libsabi libs/adapter libs/bitreader libs/bytereader libs/bytewriter libs/bitreader-noinline libs/bytereader-noinline libs/bytewriter-noinline libs/flowcombiner libs/sparsefile libs/collectpads libs/gstharness libs/gstnetclientclock libs/gstnettimeprovider libs/gsttestclock libs/transform1 libs/transform2 tools/gstinspect
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+  CC       gst/gstabi.o
+  CCLD     gst/gstabi
+  CC       gst/gstatomicqueue.o
+  CCLD     gst/gstatomicqueue
+  CC       gst/gstbuffer.o
+  CCLD     gst/gstbuffer
+  CC       gst/gstbufferlist.o
+  CCLD     gst/gstbufferlist
+  CC       gst/gstbufferpool.o
+  CCLD     gst/gstbufferpool
+  CC       gst/gstmeta.o
+  CCLD     gst/gstmeta
+  CC       gst/gstmemory.o
+  CCLD     gst/gstmemory
+  CC       gst/gstbus.o
+  CCLD     gst/gstbus
+  CC       gst/gstcaps.o
+  CCLD     gst/gstcaps
+  CC       gst/gstcapsfeatures.o
+  CCLD     gst/gstcapsfeatures
+  CXX      gst/gstcpp.o
+  CXXLD    gst/gstcpp
+  CXX      libs/gstlibscpp.o
+  CXXLD    libs/gstlibscpp
+  CC       gst/gstdatetime.o
+  CCLD     gst/gstdatetime
+  CC       gst/gstdevice.o
+  CCLD     gst/gstdevice
+  CC       gst/gstinfo.o
+  CCLD     gst/gstinfo
+  CC       gst/gstiterator.o
+  CCLD     gst/gstiterator
+  CC       gst/gstmessage.o
+  CCLD     gst/gstmessage
+  CC       gst/gstminiobject.o
+  CCLD     gst/gstminiobject
+  CC       gst/gstobject.o
+  CCLD     gst/gstobject
+  CC       gst/gstpad.o
+  CCLD     gst/gstpad
+  CC       gst/gstparamspecs.o
+  CCLD     gst/gstparamspecs
+  CC       gst/gstpipeline.o
+  CCLD     gst/gstpipeline
+  CC       gst/gstpoll.o
+  CCLD     gst/gstpoll
+  CC       gst/gstprotection.o
+  CCLD     gst/gstprotection
+  CC       gst/gstprintf.o
+  CCLD     gst/gstprintf
+  CC       gst/gstsegment.o
+  CCLD     gst/gstsegment
+  CC       gst/gstsystemclock.o
+  CCLD     gst/gstsystemclock
+  CC       gst/gstclock.o
+  CCLD     gst/gstclock
+  CC       gst/gststructure.o
+  CCLD     gst/gststructure
+  CC       gst/gsttag.o
+  CCLD     gst/gsttag
+  CC       gst/gsttagsetter.o
+  CCLD     gst/gsttagsetter
+  CC       gst/gsttask.o
+  CCLD     gst/gsttask
+  CC       gst/gsttoc.o
+  CCLD     gst/gsttoc
+  CC       gst/gsttocsetter.o
+  CCLD     gst/gsttocsetter
+  CC       gst/gstvalue.o
+  CCLD     gst/gstvalue
+  CC       generic/states.o
+  CCLD     generic/states
+  CC       pipelines/simple-launch-lines.o
+  CCLD     pipelines/simple-launch-lines
+  CC       pipelines/cleanup.o
+  CCLD     pipelines/cleanup
+  CC       pipelines/parse-launch.o
+  CCLD     pipelines/parse-launch
+  CC       gst/gst.o
+  CCLD     gst/gst
+  CC       gst/gstbin.o
+  CCLD     gst/gstbin
+  CC       gst/gstchildproxy.o
+  CCLD     gst/gstchildproxy
+  CC       gst/gstcontext.o
+  CCLD     gst/gstcontext
+  CC       gst/gstcontroller.o
+  CCLD     gst/gstcontroller
+  CC       gst/gstelement.o
+  CCLD     gst/gstelement
+  CC       gst/gstelementfactory.o
+  CCLD     gst/gstelementfactory
+  CC       gst/gstevent.o
+  CCLD     gst/gstevent
+  CC       gst/gstghostpad.o
+  CCLD     gst/gstghostpad
+  CC       gst/gstplugin.o
+  CCLD     gst/gstplugin
+  CC       gst/gstpreset.o
+  CCLD     gst/gstpreset
+make[3]: 'gst/gstprotection' is up to date.
+  CC       gst/gstquery.o
+  CCLD     gst/gstquery
+  CC       gst/gstregistry.o
+  CCLD     gst/gstregistry
+  CC       gst/gsturi.o
+  CCLD     gst/gsturi
+  CC       gst/gstutils.o
+  CCLD     gst/gstutils
+  CC       generic/sinks.o
+  CCLD     generic/sinks
+  CC       elements/capsfilter.o
+  CCLD     elements/capsfilter
+  CC       elements/concat.o
+  CCLD     elements/concat
+  CC       elements/fakesink.o
+  CCLD     elements/fakesink
+  CC       elements/fakesrc.o
+  CCLD     elements/fakesrc
+  CC       elements/elements_fdsrc-fdsrc.o
+  CCLD     elements/fdsrc
+  CC       elements/filesink.o
+  CCLD     elements/filesink
+  CC       elements/elements_filesrc-filesrc.o
+  CCLD     elements/filesrc
+  CC       elements/funnel.o
+  CCLD     elements/funnel
+  CC       elements/identity.o
+  CCLD     elements/identity
+  CC       elements/multiqueue.o
+  CCLD     elements/multiqueue
+  CC       elements/selector.o
+  CCLD     elements/selector
+  CC       elements/tee.o
+  CCLD     elements/tee
+  CC       elements/queue.o
+  CCLD     elements/queue
+  CC       elements/queue2.o
+  CCLD     elements/queue2
+  CC       elements/valve.o
+  CCLD     elements/valve
+  CC       elements/streamiddemux.o
+  CCLD     elements/streamiddemux
+  CC       libs/baseparse.o
+  CCLD     libs/baseparse
+  CC       libs/basesrc.o
+  CCLD     libs/basesrc
+  CC       libs/basesink.o
+  CCLD     libs/basesink
+  CC       libs/sparsefile.o
+  CCLD     libs/sparsefile
+  CC       libs/controller.o
+  CCLD     libs/controller
+  CC       libs/queuearray.o
+  CCLD     libs/queuearray
+  CC       libs/typefindhelper.o
+  CCLD     libs/typefindhelper
+  CC       pipelines/seek.o
+  CCLD     pipelines/seek
+  CC       pipelines/stress.o
+  CCLD     pipelines/stress
+  CC       pipelines/queue-error.o
+  CCLD     pipelines/queue-error
+  CC       libs/libsabi.o
+  CCLD     libs/libsabi
+  CC       libs/adapter.o
+  CCLD     libs/adapter
+  CC       libs/bitreader.o
+  CCLD     libs/bitreader
+  CC       libs/bytereader.o
+  CCLD     libs/bytereader
+  CC       libs/bytewriter.o
+  CCLD     libs/bytewriter
+  CC       libs/bitreader-noinline.o
+  CCLD     libs/bitreader-noinline
+  CC       libs/bytereader-noinline.o
+  CCLD     libs/bytereader-noinline
+  CC       libs/bytewriter-noinline.o
+  CCLD     libs/bytewriter-noinline
+  CC       libs/flowcombiner.o
+  CCLD     libs/flowcombiner
+make[3]: 'libs/sparsefile' is up to date.
+  CC       libs/collectpads.o
+  CCLD     libs/collectpads
+  CC       libs/gstharness.o
+  CCLD     libs/gstharness
+  CC       libs/gstnetclientclock.o
+  CCLD     libs/gstnetclientclock
+  CC       libs/gstnettimeprovider.o
+  CCLD     libs/gstnettimeprovider
+  CC       libs/gsttestclock.o
+  CCLD     libs/gsttestclock
+  CC       libs/transform1.o
+  CCLD     libs/transform1
+  CC       libs/transform2.o
+  CCLD     libs/transform2
+  CC       tools/gstinspect.o
+  CCLD     tools/gstinspect
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+PASS: gst/gstabi
+PASS: gst/gstatomicqueue
+PASS: gst/gstbuffer
+PASS: gst/gstbufferlist
+PASS: gst/gstbufferpool
+PASS: gst/gstmeta
+PASS: gst/gstmemory
+PASS: gst/gstbus
+PASS: gst/gstcaps
+PASS: gst/gstcapsfeatures
+PASS: gst/gstcpp
+PASS: libs/gstlibscpp
+PASS: gst/gstdatetime
+PASS: gst/gstdevice
+PASS: gst/gstinfo
+PASS: gst/gstiterator
+PASS: gst/gstmessage
+PASS: gst/gstminiobject
+PASS: gst/gstobject
+PASS: gst/gstpad
+PASS: gst/gstparamspecs
+PASS: gst/gstpipeline
+PASS: gst/gstpoll
+PASS: gst/gstprotection
+PASS: gst/gstprintf
+PASS: gst/gstsegment
+PASS: gst/gstsystemclock
+PASS: gst/gstclock
+PASS: gst/gststructure
+PASS: gst/gsttag
+PASS: gst/gsttagsetter
+PASS: gst/gsttask
+PASS: gst/gsttoc
+PASS: gst/gsttocsetter
+PASS: gst/gstvalue
+PASS: generic/states
+PASS: pipelines/simple-launch-lines
+PASS: pipelines/cleanup
+PASS: pipelines/parse-launch
+PASS: gst/gst
+PASS: gst/gstbin
+PASS: gst/gstchildproxy
+PASS: gst/gstcontext
+PASS: gst/gstcontroller
+PASS: gst/gstelement
+PASS: gst/gstelementfactory
+PASS: gst/gstevent
+PASS: gst/gstghostpad
+PASS: gst/gstplugin
+PASS: gst/gstpreset
+PASS: gst/gstquery
+PASS: gst/gstregistry
+PASS: gst/gsturi
+PASS: gst/gstutils
+PASS: generic/sinks
+PASS: elements/capsfilter
+PASS: elements/concat
+PASS: elements/fakesink
+PASS: elements/fakesrc
+PASS: elements/fdsrc
+PASS: elements/filesink
+PASS: elements/filesrc
+PASS: elements/funnel
+PASS: elements/identity
+PASS: elements/multiqueue
+PASS: elements/selector
+PASS: elements/tee
+PASS: elements/queue
+PASS: elements/queue2
+PASS: elements/valve
+PASS: elements/streamiddemux
+PASS: libs/baseparse
+PASS: libs/basesrc
+PASS: libs/basesink
+PASS: libs/sparsefile
+PASS: libs/controller
+PASS: libs/queuearray
+PASS: libs/typefindhelper
+PASS: pipelines/seek
+PASS: pipelines/stress
+PASS: pipelines/queue-error
+PASS: libs/libsabi
+PASS: libs/adapter
+PASS: libs/bitreader
+PASS: libs/bytereader
+PASS: libs/bytewriter
+PASS: libs/bitreader-noinline
+PASS: libs/bytereader-noinline
+PASS: libs/bytewriter-noinline
+PASS: libs/flowcombiner
+PASS: libs/collectpads
+PASS: libs/gstharness
+PASS: libs/gstnetclientclock
+PASS: libs/gstnettimeprovider
+PASS: libs/gsttestclock
+PASS: libs/transform1
+PASS: libs/transform2
+PASS: tools/gstinspect
+============================================================================
+Testsuite summary for GStreamer 1.6.3
+============================================================================
+# TOTAL: 100
+# PASS:  100
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+Making check in misc
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+Making check in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+Making check in helloworld
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+Making check in manual
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[6]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+PASS: bin
+PASS: elementcreate
+PASS: elementfactory
+PASS: elementget
+PASS: elementlink
+PASS: elementmake
+PASS: ghostpad
+PASS: init
+============================================================================
+Testsuite summary for GStreamer 1.6.3
+============================================================================
+# TOTAL: 8
+# PASS:  8
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+Making check in memory
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+Making check in netclock
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+Making check in ptp
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+Making check in stepping
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+Making check in streamiddemux
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+Making check in streams
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+Making check in adapter
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making check in design
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+Making check in gst
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+Making check in libs
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+Making check in plugins
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/po'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/po'
+Making check in m4
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/m4'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+Making check in m4
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+Making check in data
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/data'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3'
+Checking symbols in ./libs/gst/controller/.libs/libgstcontroller-1.0.so
+Checking symbols in ./libs/gst/base/.libs/libgstbase-1.0.so
+Checking symbols in ./gst/.libs/libgstreamer-1.0.so
+Checking symbols in ./libs/gst/net/.libs/libgstnet-1.0.so
+Checking if all enum and flag _get_type() funcs are inited in gst_init()
+Checking if all enum and flag _get_type() funcs are deinited in gst_deinit()

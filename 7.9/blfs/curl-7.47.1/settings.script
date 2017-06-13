@@ -1,0 +1,32 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"https://curl.haxx.se/download/curl-7.47.1.tar.lzma"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"certificate_authority_certificates"
+"openssl-1.0.2g"
+#"gnutls-3.4.9"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

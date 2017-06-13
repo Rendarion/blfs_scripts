@@ -1,0 +1,55 @@
+Making check in m4
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/m4'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/doc'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+PASS: t-version
+Unspecified source: Success
+gcrypt: Invalid length specifier in S-expression
+GnuPG: Unknown packet
+GpgSM: Certificate too young
+GPG Agent: Bad CA certificate
+Pinentry: Operation cancelled
+SCD: Card removed
+GPGME: Bad secret key
+Keybox: Too late to cancel LDAP
+PASS: t-strerror
+PASS: t-syserror
+PASS: t-lock
+PASS: t-printf
+PASS: t-poll
+==================
+All 6 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+Making check in po
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/po'
+Making check in lang
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+Making check in cl
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21'

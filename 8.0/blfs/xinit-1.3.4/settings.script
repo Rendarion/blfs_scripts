@@ -1,0 +1,15 @@
+URL=(
+"http://ftp.x.org/pub/individual/app/xinit-1.3.4.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+"twm-1.0.9"
+"xclock-1.0.7"
+"xterm-327"
+)

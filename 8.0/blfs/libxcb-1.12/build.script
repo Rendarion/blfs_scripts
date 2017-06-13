@@ -1,0 +1,9 @@
+patch -Np1 -i ../libxcb-1.12-python3-1.patch
+
+sed -i "s/pthread-stubs//" configure &&
+
+./configure $XORG_CONFIG      \
+            --enable-xinput   \
+            --without-doxygen \
+            --docdir='${datadir}'/doc/libxcb-1.12 &&
+make

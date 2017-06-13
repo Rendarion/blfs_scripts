@@ -1,0 +1,43 @@
+Done. Now run 'make install'.
+make  unit
+make[1]: Entering directory '/sources/7.9/dejagnu-1.5.3'
+g++ -DPACKAGE_NAME=\"GNU\ DejaGnu\" -DPACKAGE_TARNAME=\"dejagnu\" -DPACKAGE_VERSION=\"1.5.3\" -DPACKAGE_STRING=\"GNU\ DejaGnu\ 1.5.3\" -DPACKAGE_BUGREPORT=\"bug-dejagnu@gnu.org\" -DPACKAGE_URL=\"http://www.gnu.org/software/dejagnu/\" -DPACKAGE=\"dejagnu\" -DVERSION=\"1.5.3\" -I.    -I. -g -g -O2 -MT unit.o -MD -MP -MF .deps/unit.Tpo -c -o unit.o `test -f 'testsuite/libdejagnu/unit.cc' || echo './'`testsuite/libdejagnu/unit.cc
+mv -f .deps/unit.Tpo .deps/unit.Po
+g++ -I. -g -g -O2   -o unit unit.o  
+make[1]: Leaving directory '/sources/7.9/dejagnu-1.5.3'
+make  check-DEJAGNU
+make[1]: Entering directory '/sources/7.9/dejagnu-1.5.3'
+Making a new site.exp file ...
+srcdir='.'; export srcdir; \
+EXPECT=/tools/bin/expect; export EXPECT; \
+if /bin/sh -c "./runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='dejagnu'; for tool in $l; do \
+    if ./runtest  --srcdir ./testsuite RUNTEST=./runtest ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find './runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+Test Run By lfs on Sun Jun  5 13:48:13 2016
+Native configuration is x86_64-unknown-linux-gnu
+
+		===  tests ===
+
+Schedule of variations:
+    unix
+
+Running target unix
+Using ./testsuite/../config/base-config.exp as tool-and-target-specific interface file.
+Using ./config/unix.exp as generic interface file for target.
+Using ./testsuite/config/default.exp as tool-and-target-specific interface file.
+Running ./testsuite/libdejagnu/tunit.exp ...
+Running ./testsuite/runtest.all/libs.exp ...
+Running ./testsuite/runtest.all/load_lib.exp ...
+Running ./testsuite/runtest.all/options.exp ...
+Running ./testsuite/runtest.all/stats-sub.exp ...
+Running ./testsuite/runtest.all/stats.exp ...
+
+		===  Summary ===
+
+# of expected passes		68
+make[1]: Leaving directory '/sources/7.9/dejagnu-1.5.3'

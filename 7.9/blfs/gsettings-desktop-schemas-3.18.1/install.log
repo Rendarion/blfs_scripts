@@ -1,0 +1,346 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for gobject-introspection... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking whether NLS is requested... yes
+checking for intltool >= 0.50.1... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gsettings-desktop-schemas.pc
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/gsettings-desktop-schemas-msvc.mak
+config.status: creating headers/Makefile
+config.status: creating schemas/Makefile
+config.status: creating po/Makefile.in
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+              gsettings-desktop-schemas 3.18.1
+              ================================
+
+        prefix:                             /usr
+        exec_prefix:                        ${prefix}
+        libdir:                             ${exec_prefix}/lib
+        bindir:                             ${exec_prefix}/bin
+        sbindir:                            ${exec_prefix}/sbin
+        sysconfdir:                         ${prefix}/etc
+        localstatedir:                      ${prefix}/var
+        datadir:                            ${datarootdir}
+        source code location:               .
+        Maintainer mode:                    yes
+
+Making all in headers
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+  GISCAN   GDesktopEnums-3.0.gir
+  GICOMP   GDesktopEnums-3.0.gir
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+Making all in schemas
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+  GEN      org.gnome.desktop.enums.xml
+  GEN      org.gnome.desktop.default-applications.gschema.xml
+  GEN      org.gnome.desktop.default-applications.gschema.valid
+  GEN      org.gnome.desktop.interface.gschema.xml
+  GEN      org.gnome.desktop.interface.gschema.valid
+  GEN      org.gnome.desktop.lockdown.gschema.xml
+  GEN      org.gnome.desktop.lockdown.gschema.valid
+  GEN      org.gnome.system.locale.gschema.xml
+  GEN      org.gnome.system.locale.gschema.valid
+  GEN      org.gnome.system.location.gschema.xml
+  GEN      org.gnome.system.location.gschema.valid
+  GEN      org.gnome.system.proxy.gschema.xml
+  GEN      org.gnome.system.proxy.gschema.valid
+  GEN      org.gnome.desktop.sound.gschema.xml
+  GEN      org.gnome.desktop.sound.gschema.valid
+  GEN      org.gnome.desktop.thumbnail-cache.gschema.xml
+  GEN      org.gnome.desktop.thumbnail-cache.gschema.valid
+  GEN      org.gnome.desktop.a11y.gschema.xml
+  GEN      org.gnome.desktop.a11y.gschema.valid
+  GEN      org.gnome.desktop.a11y.keyboard.gschema.xml
+  GEN      org.gnome.desktop.a11y.keyboard.gschema.valid
+  GEN      org.gnome.desktop.a11y.applications.gschema.xml
+  GEN      org.gnome.desktop.a11y.applications.gschema.valid
+  GEN      org.gnome.desktop.a11y.magnifier.gschema.xml
+  GEN      org.gnome.desktop.a11y.magnifier.gschema.valid
+  GEN      org.gnome.desktop.a11y.mouse.gschema.xml
+  GEN      org.gnome.desktop.a11y.mouse.gschema.valid
+  GEN      org.gnome.desktop.thumbnailers.gschema.xml
+  GEN      org.gnome.desktop.thumbnailers.gschema.valid
+  GEN      org.gnome.desktop.session.gschema.xml
+  GEN      org.gnome.desktop.session.gschema.valid
+  GEN      org.gnome.desktop.background.gschema.xml
+  GEN      org.gnome.desktop.background.gschema.valid
+  GEN      org.gnome.desktop.datetime.gschema.xml
+  GEN      org.gnome.desktop.datetime.gschema.valid
+  GEN      org.gnome.desktop.media-handling.gschema.xml
+  GEN      org.gnome.desktop.media-handling.gschema.valid
+  GEN      org.gnome.desktop.screensaver.gschema.xml
+  GEN      org.gnome.desktop.screensaver.gschema.valid
+  GEN      org.gnome.desktop.search-providers.gschema.xml
+  GEN      org.gnome.desktop.search-providers.gschema.valid
+  GEN      org.gnome.desktop.wm.keybindings.gschema.xml
+  GEN      org.gnome.desktop.wm.keybindings.gschema.valid
+  GEN      org.gnome.desktop.wm.preferences.gschema.xml
+  GEN      org.gnome.desktop.wm.preferences.gschema.valid
+  GEN      org.gnome.desktop.input-sources.gschema.xml
+  GEN      org.gnome.desktop.input-sources.gschema.valid
+  GEN      org.gnome.desktop.privacy.gschema.xml
+  GEN      org.gnome.desktop.privacy.gschema.valid
+  GEN      org.gnome.desktop.notifications.gschema.xml
+  GEN      org.gnome.desktop.notifications.gschema.valid
+  GEN      org.gnome.desktop.app-folders.gschema.xml
+  GEN      org.gnome.desktop.app-folders.gschema.valid
+  GEN      org.gnome.desktop.peripherals.gschema.xml
+  GEN      org.gnome.desktop.peripherals.gschema.valid
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+Making all in po
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/po'
+  MSGFMT as.gmo
+  MSGFMT bg.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT nb.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT tg.gmo
+  MSGFMT tr.gmo
+  MSGFMT uk.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+  MSGFMT ug.gmo
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/po'
+Making all in build
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+Making all in win32
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'
+Making install in headers
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/gsettings-desktop-schemas'
+ /usr/bin/install -c -m 644 gdesktop-enums.h '/usr/include/gsettings-desktop-schemas'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GDesktopEnums-3.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 GDesktopEnums-3.0.typelib '/usr/lib/girepository-1.0'
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/headers'
+Making install in schemas
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/GConf/gsettings'
+ /usr/bin/install -c -m 644 gsettings-desktop-schemas.convert wm-schemas.convert '/usr/share/GConf/gsettings'
+if test -n "org.gnome.desktop.default-applications.gschema.xml org.gnome.desktop.interface.gschema.xml org.gnome.desktop.lockdown.gschema.xml org.gnome.system.locale.gschema.xml org.gnome.system.location.gschema.xml org.gnome.system.proxy.gschema.xml org.gnome.desktop.sound.gschema.xml org.gnome.desktop.thumbnail-cache.gschema.xml org.gnome.desktop.a11y.gschema.xml org.gnome.desktop.a11y.keyboard.gschema.xml org.gnome.desktop.a11y.applications.gschema.xml org.gnome.desktop.a11y.magnifier.gschema.xml org.gnome.desktop.a11y.mouse.gschema.xml org.gnome.desktop.thumbnailers.gschema.xml org.gnome.desktop.session.gschema.xml org.gnome.desktop.background.gschema.xml org.gnome.desktop.datetime.gschema.xml org.gnome.desktop.media-handling.gschema.xml org.gnome.desktop.screensaver.gschema.xml org.gnome.desktop.search-providers.gschema.xml org.gnome.desktop.wm.keybindings.gschema.xml org.gnome.desktop.wm.preferences.gschema.xml org.gnome.desktop.input-sources.gschema.xml org.gnome.desktop.privacy.gschema.xml org.gnome.desktop.notifications.gschema.xml org.gnome.desktop.app-folders.gschema.xml org.gnome.desktop.peripherals.gschema.xml org.gnome.desktop.enums.xml"; then \
+	test -z "/usr/share/glib-2.0/schemas" || /bin/mkdir -p "/usr/share/glib-2.0/schemas"; \
+	/usr/bin/install -c -m 644 org.gnome.desktop.default-applications.gschema.xml org.gnome.desktop.interface.gschema.xml org.gnome.desktop.lockdown.gschema.xml org.gnome.system.locale.gschema.xml org.gnome.system.location.gschema.xml org.gnome.system.proxy.gschema.xml org.gnome.desktop.sound.gschema.xml org.gnome.desktop.thumbnail-cache.gschema.xml org.gnome.desktop.a11y.gschema.xml org.gnome.desktop.a11y.keyboard.gschema.xml org.gnome.desktop.a11y.applications.gschema.xml org.gnome.desktop.a11y.magnifier.gschema.xml org.gnome.desktop.a11y.mouse.gschema.xml org.gnome.desktop.thumbnailers.gschema.xml org.gnome.desktop.session.gschema.xml org.gnome.desktop.background.gschema.xml org.gnome.desktop.datetime.gschema.xml org.gnome.desktop.media-handling.gschema.xml org.gnome.desktop.screensaver.gschema.xml org.gnome.desktop.search-providers.gschema.xml org.gnome.desktop.wm.keybindings.gschema.xml org.gnome.desktop.wm.preferences.gschema.xml org.gnome.desktop.input-sources.gschema.xml org.gnome.desktop.privacy.gschema.xml org.gnome.desktop.notifications.gschema.xml org.gnome.desktop.app-folders.gschema.xml org.gnome.desktop.peripherals.gschema.xml org.gnome.desktop.enums.xml "/usr/share/glib-2.0/schemas"; \
+	test -n "" || glib-compile-schemas /usr/share/glib-2.0/schemas; \
+fi
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/schemas'
+Making install in po
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/po'
+linguas="as bg bs ca ca@valencia cs da de el en_GB eo es eu fi fr gl gu he hi hu id it ja kk lt lv ml nb oc or pa pl pt pt_BR ru sk sl sr sr@latin sv tg tr uk vi zh_CN zh_HK zh_TW ug "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/gsettings-desktop-schemas-3.18.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/gsettings-desktop-schemas.mo; \
+    echo "installing $lang.gmo as $dir/gsettings-desktop-schemas.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/gsettings-desktop-schemas.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/gsettings-desktop-schemas.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/gsettings-desktop-schemas.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gsettings-desktop-schemas.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/gsettings-desktop-schemas.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/gsettings-desktop-schemas.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/gsettings-desktop-schemas.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/gsettings-desktop-schemas.mo
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/po'
+Making install in build
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[3]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build/win32'
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[3]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1/build'
+make[1]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'
+make[2]: Entering directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/pkgconfig'
+ /usr/bin/install -c -m 644 gsettings-desktop-schemas.pc '/usr/share/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'
+make[1]: Leaving directory '/sources/7.9/gsettings-desktop-schemas-3.18.1'

@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.sourceforge.net/infozip/unzip60.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

@@ -1,0 +1,10 @@
+# set up variables from settings.script
+
+#LFSVS=$(basename $(dirname $PWD))
+#source /sources/scripts/$LFSVS/blfs/settings.script
+
+#make install
+
+#cd ../blfs-bootscripts-20150924
+#make install-x
+

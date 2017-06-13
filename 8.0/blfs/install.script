@@ -1,0 +1,147 @@
+# accepted options:
+PARAMS=(
+"--build"
+"--dep-check"
+"--deploy"
+"--no-test"
+"--retain"
+)
+
+# check for unrecognized options
+
+declare -A PA_TEST
+
+for i in ${PARAMS[@]}
+  do :
+    PA_TEST[$i]=1
+  done
+
+for j in "$@"
+  do :
+    if [[ ! ${PA_TEST[$j]} ]]
+      then
+        echo "unrecognized option '$j'"
+        exit
+     fi
+  done
+
+# set up variables from settings.script
+
+source ../settings.script
+
+export PKG=$(basename $PWD)
+PTH=$(dirname $PWD)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  else                            su -c "$*"
+  fi
+}
+
+export -f as_root
+
+source $PWD/settings.script # required for URL, ARC and DEP
+
+# check dependencies
+
+for i in "${DEP[@]}"
+  do :
+    if [ ! -e "/var/log/porg/$i" ]
+      then
+        if [[ "$@" == *"--dep-check"* ]]
+          then
+            if [ -e "$PTH/$i" ]
+              then
+                printf "%s" "installing missing dependency: $i"
+                cd "$PTH/$i"
+                touch install.log
+                ../install.script --dep-check > install.log 2>&1
+                echo " ... done!"
+              else
+                echo "$PTH/$i"
+                printf "%s\n" "unresolvable dependency: $i"
+              fi
+          else
+            printf "%s\n" "warning: missing dependency: $i"
+          fi
+      fi
+  done
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# download source
+
+k=0
+
+for j in ${ARC[@]}
+  do :
+    if [ ! -f "/sources/$LFSVS/$j" ]
+      then
+        wget "${URL[$k]}"
+      fi
+    k=$(($k+1))
+  done
+
+# clean up leftover build-folders
+
+if [[ -a "/sources/$LFSVS/$PKG" && ! "$@" == *"--retain"* ]]
+  then
+    rm -rf "$PKG"
+  fi
+
+# check if blfs-bootscripts are available
+
+$((echo $BOOTSCRIPTARC) | cut -d . -f 1)
+
+if [ ! -e "/sources/$LFSVS/$((echo $BOOTSCRIPTARC) | cut -d . -f 1)" ]
+  then
+    wget "$BOOTSCRIPTSURL"
+    tar -xf /sources/$LFSVS/$BOOTSCRIPTSARC
+  fi
+
+# unpack package
+
+mkdir "$PKG"
+tar -xf "$ARC" --directory "$PKG" --strip-components=1
+
+if [[ "$ARC" == *.zip ]]
+  then
+    unzip "$ARC" -d "$PKG"
+  fi
+
+cd "$PKG"
+
+# configure and build
+if [[ "$@" == *"--build"* || ! "$@" == *"--deploy"* ]]
+  then
+    $PTH/$PKG/build.script | tee "$PTH/$PKG/build.log"
+  fi
+
+# run test suite
+
+if [[ -a "$PTH/$PKG/check.script" && ! "$@" == *"--no-test"* ]]
+  then
+    $PTH/$PKG/check.script | tee "$PTH/$PKG/check.log"
+  fi
+
+# install
+if [[ "$@" == *"--deploy"* || ! "$@" == *"--build"* ]]
+  then
+    as_root porg -lp+ "$PKG" "$PTH/$PKG/porg.script"
+  fi
+
+# run "after install" tests
+if [[ -a "$PTH/$PKG/check_b.script" && ! "$@" == *"--no-test"* ]]
+  then
+    $PTH/$PKG/check_b.script | tee "$PTH/$PKG/check_b.log"
+  fi
+
+# clean up
+
+if [[ $PKG != "" && ! "$@" == *"--retain"* ]]
+  then
+    rm -rf /sources/$LFSVS/$PKG
+  fi

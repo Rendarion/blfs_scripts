@@ -1,0 +1,7 @@
+sed -i -e '/^docdir/ s:$:/libjpeg-turbo-1.4.2:' Makefile.in &&
+
+./configure --prefix=/usr           \
+            --mandir=/usr/share/man \
+            --with-jpeg8            \
+            --disable-static &&
+make

@@ -1,0 +1,4 @@
+make install &&
+
+install -v -m755    tools/qt-faststart /usr/bin &&
+install -v -m644    doc/*.txt /usr/share/doc/ffmpeg-3.2.4

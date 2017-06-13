@@ -1,0 +1,17 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/npth-1.2/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/npth-1.2/src'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/npth-1.2/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/npth-1.2/tests'
+PASS: t-mutex
+PASS: t-thread
+==================
+All 2 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/npth-1.2/tests'
+make[1]: Leaving directory '/sources/7.9/npth-1.2/tests'
+make[1]: Entering directory '/sources/7.9/npth-1.2'
+make[1]: Leaving directory '/sources/7.9/npth-1.2'

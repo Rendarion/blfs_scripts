@@ -1,0 +1,100 @@
+Making check in include/epoxy
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+Making check in test
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make  libegl_common.la libglx_common.la   egl_has_extension_nocontext egl_gl egl_gles1_without_glx egl_gles2_without_glx glx_beginend glx_public_api glx_public_api_core glx_glxgetprocaddress_nocontext glx_has_extension_nocontext glx_static glx_shared_znow glx_alias_prefer_same_name glx_gles2 egl_and_glx_different_pointers_egl_glx egl_and_glx_different_pointers_egl egl_and_glx_different_pointers_glx  headerguards miscdefines khronos_typedefs
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+  CC       egl_common.lo
+  CCLD     libegl_common.la
+  CC       glx_common.lo
+  CCLD     libglx_common.la
+  CC       egl_has_extension_nocontext.o
+  CCLD     egl_has_extension_nocontext
+  CC       egl_gl.o
+  CCLD     egl_gl
+  CC       egl_gles1_without_glx-egl_without_glx.o
+  CCLD     egl_gles1_without_glx
+  CC       egl_gles2_without_glx-egl_without_glx.o
+  CCLD     egl_gles2_without_glx
+  CC       glx_beginend.o
+  CCLD     glx_beginend
+  CC       glx_public_api.o
+  CCLD     glx_public_api
+  CC       glx_public_api_core.o
+  CCLD     glx_public_api_core
+  CC       glx_glxgetprocaddress_nocontext.o
+  CCLD     glx_glxgetprocaddress_nocontext
+  CC       glx_has_extension_nocontext.o
+  CCLD     glx_has_extension_nocontext
+  CC       glx_static-glx_static.o
+  CCLD     glx_static
+  CC       glx_static.o
+  CCLD     glx_shared_znow
+  CC       glx_gles2.o
+  CC       dlwrap.o
+  CCLD     glx_alias_prefer_same_name
+  CCLD     glx_gles2
+  CC       egl_and_glx_different_pointers_egl_glx-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_egl_glx-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_egl_glx
+  CC       egl_and_glx_different_pointers_egl-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_egl-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_egl
+  CC       egl_and_glx_different_pointers_glx-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_glx-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_glx
+  CC       headerguards.o
+  CCLD     headerguards
+  CC       miscdefines.o
+  CCLD     miscdefines
+  CC       khronos_typedefs.o
+  CC       khronos_typedefs_nonepoxy.o
+  CCLD     khronos_typedefs
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make[3]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+SKIP: egl_has_extension_nocontext
+SKIP: egl_gl
+SKIP: egl_gles1_without_glx
+SKIP: egl_gles2_without_glx
+SKIP: glx_beginend
+SKIP: glx_public_api
+SKIP: glx_public_api_core
+SKIP: glx_glxgetprocaddress_nocontext
+SKIP: glx_has_extension_nocontext
+SKIP: glx_static
+SKIP: glx_shared_znow
+SKIP: glx_alias_prefer_same_name
+SKIP: glx_gles2
+SKIP: egl_and_glx_different_pointers_egl_glx
+SKIP: egl_and_glx_different_pointers_egl
+SKIP: egl_and_glx_different_pointers_glx
+PASS: headerguards
+PASS: miscdefines
+PASS: khronos_typedefs
+============================================================================
+Testsuite summary for libepoxy 1.3.1
+============================================================================
+# TOTAL: 19
+# PASS:  3
+# SKIP:  16
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1'

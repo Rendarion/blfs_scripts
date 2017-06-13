@@ -1,0 +1,32 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://xmlsoft.org/sources/libxslt-1.1.28.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxml2-2.9.3"
+"docbook-xml-4.5"
+"docbook-xsl-1.79.1"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

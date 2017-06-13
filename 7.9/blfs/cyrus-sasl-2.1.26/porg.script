@@ -1,0 +1,5 @@
+make install &&
+install -v -dm755 /usr/share/doc/cyrus-sasl-2.1.26 &&
+install -v -m644  doc/{*.{html,txt,fig},ONEWS,TODO} \
+    saslauthd/LDAP_SASLAUTHD /usr/share/doc/cyrus-sasl-2.1.26 &&
+install -v -dm700 /var/lib/sasl

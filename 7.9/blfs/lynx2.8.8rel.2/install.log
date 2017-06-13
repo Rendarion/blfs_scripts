@@ -1,0 +1,803 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+Configuring for linux-gnu
+checking for DESTDIR... 
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for executable suffix... 
+checking for object suffix... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking version of gcc... 5.3.0
+checking for gcc option to accept ANSI C... none needed
+checking $CC variable... ok
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets ${MAKE}... yes
+checking for a BSD compatible install... /usr/bin/install -c
+checking for bison... bison -y
+checking for tdlint... no
+checking for lint... no
+checking for alint... no
+checking for splint... no
+checking for lclint... no
+checking for makeflags variable... 
+checking if filesystem supports mixed-case filenames... yes
+checking for exctags... no
+checking for ctags... no
+checking for exetags... no
+checking for etags... no
+checking for ctags... no
+checking for etags... no
+checking for windres... none
+checking for ranlib... ranlib
+checking for ar... ar
+checking for options to update archives... -curv
+checking if you want to see long compiling messages... yes
+checking if you want to check memory-leaks... no
+checking if you want to enable debug-code... no
+checking if you want to enable lynx trace code *recommended* ... yes
+checking if you want verbose trace code... no
+checking if you want to turn on gcc warnings... no
+checking if you want to use dbmalloc for testing... no
+checking if you want to use dmalloc for testing... no
+checking $CC variable... ok
+checking for gcc option to accept ANSI C... -DCC_HAS_PROTOS
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGE_FILES value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseeko... yes
+checking whether to use struct dirent64... no
+checking for PATH separator... :
+checking for msginit... /usr/bin/msginit
+checking for ranlib... (cached) ranlib
+checking for ANSI C header files... yes
+checking for inline... inline
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking for argz.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for nl_types.h... yes
+checking for malloc.h... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for feof_unlocked... yes
+checking for fgets_unlocked... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for stpcpy... yes
+checking for strchr... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for iconv... yes
+checking if the declaration of iconv() needs const.... no
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking whether NLS is requested... no
+checking if you want full utility pathnames... yes
+checking for system mailer... unknown
+checking system mail flags... -t -oi
+checking if we must define _GNU_SOURCE... yes
+checking if _XOPEN_SOURCE really is set... yes
+checking if SIGWINCH is defined... yes
+checking if you want NSS compatible SSL libraries... no
+checking if you want ssl library... yes
+checking if you want gnutls support... no
+checking if you want gnutls-openssl compat... no
+checking if you want socks library... no
+checking if you want socks5 library... no
+checking for network libraries... working...
+checking for gethostname... yes
+checking for main in -linet... no
+checking for socket... yes
+checking for gethostbyname... yes
+checking for inet_ntoa... yes
+checking for gethostbyname... (cached) yes
+checking for strcasecmp... (cached) yes
+checking for inet_aton function... yes
+checking if you want to use pkg-config... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config for openssl... yes
+checking for X509 support... yes
+checking whether to enable ipv6... no
+checking for screen type... ncursesw
+checking for specific curses-directory... no
+checking for multibyte character support... yes
+Looking for ncursesw-config
+checking for ncursesw6-config... ncursesw6-config
+checking if we have identified curses headers... ncurses.h
+checking for ncurses.h... yes
+checking for chtype typedef... yes
+checking if chtype is scalar or struct... scalar
+checking if you want the wide-curses features... yes
+checking if color-style code should be used... yes
+checking for location of style-sheet file... /etc/lynx/lynx.lss
+checking for the default configuration-file... /etc/lynx/lynx.cfg
+checking for the default configuration-path... /etc/lynx
+checking if htmlized lynx.cfg should be built... no
+checking if local doc directory should be linked to help page... no
+checking for MIME library directory... /etc
+checking if locale-charset selection logic should be used... yes
+checking if you want only a few charsets... no
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking for arpa/inet.h... yes
+checking for fcntl.h... yes
+checking for limits.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for sys/fcntl.h... yes
+checking for sys/filio.h... no
+checking for sys/ioctl.h... yes
+checking for sys/param.h... (cached) yes
+checking for sys/timeb.h... yes
+checking for sys/time.h... yes
+checking for syslog.h... yes
+checking for termio.h... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking for vfork.h... no
+checking termio.h and termios.h... yes
+checking for sigaction and structs... yes
+checking for sys/wait.h... yes
+checking for union wait... no
+checking for uid_t in sys/types.h... yes
+checking type of array argument to getgroups... gid_t
+checking for off_t... (cached) yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... (cached) yes
+checking for mode_t... yes
+checking for ssize_t... yes
+checking for socklen_t... yes
+checking for long long type... yes
+checking for tm.tm_gmtoff... yes
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 8
+checking for off_t... (cached) yes
+checking size of off_t... 8
+checking for time_t... yes
+checking size of time_t... 8
+checking for intptr_t... yes
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking for unistd.h... (cached) yes
+checking for vfork.h... (cached) no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... (cached) yes
+checking for working vfork... (cached) yes
+checking if we should use fcntl or ioctl... ioctl
+checking for broken/missing definition of remove... no
+checking for lstat... yes 
+checking for atoll... yes
+checking for ctermid... yes
+checking for cuserid... yes
+checking for ftime... yes
+checking for getcwd... (cached) yes
+checking for getgroups... yes
+checking for gettimeofday... yes
+checking for getuid... (cached) yes
+checking for mktemp... yes
+checking for mkdtemp... yes
+checking for popen... yes
+checking for putenv... (cached) yes
+checking for readdir... yes
+checking for setuid... yes
+checking for strerror... yes
+checking for truncate... yes
+checking for ttyname... yes
+checking for unsetenv... yes
+checking for sleep... yes
+checking for usleep... yes
+checking for vasprintf... yes
+checking for waitpid... yes
+checking for mktime... yes
+checking for strstr... yes
+checking for random-integer functions... srandom/random
+checking for range of random-integers... INT_MAX
+checking for sleep declaration... yes
+checking for strstr declaration... yes
+checking for getgrgid declaration... yes
+checking for getgrnam declaration... yes
+checking if TRUE/FALSE are defined... yes
+checking if external errno is declared... yes
+checking if external errno exists... no
+checking if we can set errno... yes
+checking for setlocale()... yes
+checking if NGROUPS is defined... yes
+checking if external sys_nerr is declared... yes
+checking if external sys_nerr exists... yes
+checking if external sys_errlist is declared... yes
+checking if external sys_errlist exists... yes
+checking for lastlog.h... yes
+checking for paths.h... yes
+checking for lastlog path... _PATH_LASTLOG
+checking for utmp implementation... utmp
+checking if utmp.ut_host is declared... yes
+checking if utmp.ut_syslen is declared... no
+checking if utmp.ut_name is declared... ut_name
+checking for exit-status in utmp... ut_exit.e_exit
+checking if utmp.ut_xtime is declared... yes
+checking if utmp.ut_session is declared... yes
+checking if utmp is SYSV flavor... yes
+checking if external h_errno exists... no
+checking if bibp: URLs should be supported... yes
+checking if configuration info should be browsable... yes
+checking if new-style forms-based options screen should be used... yes
+checking if old-style options menu should be used... yes
+checking if sessions code should be used... yes
+checking if session-caching code should be used... yes
+checking if address-list page should be used... yes
+checking if experimental CJK logic should be used... no
+checking if experimental Japanese UTF-8 logic should be used... no
+checking if you want to use default-colors... no
+checking if experimental keyboard-layout logic should be used... no
+checking if experimental nested-table logic should be used... no
+checking if alternative line-edit bindings should be used... yes
+checking if ascii case-conversion should be used... yes
+checking if you want to use extended HTML DTD logic... yes
+checking if file-upload logic should be used... yes
+checking if IDNA support should be used... yes
+configure: WARNING: Cannot find idn library
+checking if element-justification logic should be used... yes
+checking if partial-display should be used... yes
+checking if persistent-cookie logic should be used... yes
+checking if html source should be colorized... yes
+checking if progress-bar code should be used... yes
+checking if read-progress message should show ETA... yes
+checking if source caching should be used... yes
+checking if scrollbar code should be used... yes
+checking if charset-selection logic should be used... no
+checking if you want to use external commands... no
+checking if you want to use setfont support... no
+checking if you want cgi-link support... no
+checking if you want change-exec support... no
+checking if you want exec-links support... no
+checking if you want exec-scripts support... no
+checking if you want internal-links feature... no
+checking if you want to fork NSL requests... no
+checking if you want to log URL requests via syslog... no
+checking if you want to underline links... no
+checking if help files should be gzip'ed... no
+checking if you want to use libbz2 for decompression of some bzip2 files... yes
+checking if you want to use zlib for decompression of some gzip files... yes
+checking for zError... yes
+checking if you want to exclude FINGER code... no
+checking if you want to exclude GOPHER code... no
+checking if you want to exclude NEWS code... no
+checking if you want to exclude FTP code... no
+checking if you want to include WAIS code... no
+checking if directory-editor code should be used... yes
+checking if you wish to allow extracting from archives via DirEd... yes
+checking if DirEd mode should override keys... yes
+checking if you wish to allow permissions commands via DirEd... yes
+checking if you wish to allow executable-permission commands via DirEd... yes
+checking if you wish to allow "tar" commands from DirEd... yes
+checking if you wish to allow "uudecode" commands from DirEd... yes
+checking if you wish to allow "zip" and "unzip" commands from DirEd... yes
+checking if you wish to allow "gzip" and "gunzip" commands from DirEd... yes
+checking if you want long-directory listings... yes
+checking if parent-directory references are permitted... yes
+checking for telnet... /usr/bin/telnet
+checking for tn3270... no
+checking for tn3270... no
+checking for rlogin... no
+checking for rlogin... no
+checking for mv... /bin/mv
+checking for gzip... /bin/gzip
+checking for gunzip... /bin/gunzip
+checking for unzip... no
+checking for unzip... no
+checking for bzip2... /bin/bzip2
+checking for tar... /bin/tar
+checking for compress... no
+checking for compress... no
+checking for rm... /bin/rm
+checking for uudecode... no
+checking for uudecode... no
+checking for zcat... /bin/zcat
+checking for zip... no
+checking for zip... no
+checking for /usr/bin/install... /usr/bin/install -c
+checking if we can include termio.h with curses... yes
+checking for ncursesw/term.h... no
+checking for term.h... yes
+checking if curses supports alternate-character set... acs_map
+checking if curses supports fancy attributes... yes
+checking for function curses_version... yes
+checking for obsolete/broken version of ncurses... no
+checking if curses supports color attributes... yes
+checking for termio.h... (cached) yes
+checking for termios.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking whether termios.h needs _POSIX_SOURCE... no
+checking declaration of size-change... yes
+checking if ttytype is declared in curses library... yes
+checking if curses supports wide characters... yes
+checking if we must include wchar.h to declare mbstate_t... no
+checking if we must define _XOPEN_SOURCE_EXTENDED... no
+checking for term.h... term.h
+checking for unctrl.h... unctrl.h
+checking for assume_default_colors... yes
+checking for cbreak... yes
+checking for define_key... yes
+checking for delscreen... yes
+checking for getattrs... yes
+checking for getbegx... yes
+checking for getbegy... yes
+checking for keypad... yes
+checking for napms... yes
+checking for newpad... yes
+checking for newterm... yes
+checking for pnoutrefresh... yes
+checking for resizeterm... yes
+checking for touchline... yes
+checking for touchwin... yes
+checking for use_default_colors... yes
+checking for use_legacy_coding... yes
+checking for wattr_get... yes
+checking for wborder... yes
+checking for wredrawln... yes
+checking for wresize... yes
+checking for _nc_free_and_exit... yes
+checking for _nc_freeall... yes
+checking for an rpath option... -Wl,-rpath,
+checking if rpath-hack should be disabled... no
+checking for updated LDFLAGS... maybe
+checking for ldd... ldd
+srcdir is .
+updating cache config.cache
+configure: creating ./config.status
+config.status: creating makefile
+config.status: creating WWW/Library/Implementation/makefile
+config.status: creating src/makefile
+config.status: creating src/chrtrans/makefile
+config.status: creating lynx_cfg.h
+/bin/sh -c 'SHELL=/bin/sh /bin/sh ./scripts/cfg_defs.sh .'
+Constructing sed-script help_files.sed
+sed	-e '/^#/d' -e '/^$/d' \
+	-e 's%\(.*\)=\(.*\@.*\)$%s=@\1@=\2=g%' \
+	-e 's%\(.*\)=\(http:.*\)$%s=@\1@=\2=g%' \
+	-e 's%\(.*\)=\(ftp:.*\)$%s=@\1@=\2=g%' \
+	-e 's%\(.*\)=\(.*\.html\)$%s=@\1@=\2=g%' \
+	help_files.tmp | tr '=' '"' > help_files.sed
+Appending interim-fix for existing html files to help_files.sed
+sed	-e '/^#/d' -e '/[:@]/d' -e '/^$/d' \
+	-e 's%\(.*\)=\(.*\.html\)$%s=\2=\2=g%' \
+	-e 's%\.html=%\\.html=%' \
+	help_files.tmp | tr '=' '"' >> help_files.sed
+if test -n ""; then echo "s%\\(\\\)*\%%g" >> help_files.sed; fi
+Creating LYHelp.h
+**********************************************
+
+       Help files will NOT be gzipped.
+
+**********************************************
+cd ./WWW/Library/Implementation && make  DESTDIR="" CC="gcc" LY_CFLAGS="-O2 " CPPFLAGS="-D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE" LYFLAGS=""
+make[1]: Entering directory '/sources/7.9/lynx2.8.8rel.2/WWW/Library/Implementation'
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTParse.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAccess.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTTP.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTFile.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTBTree.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTFTP.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTTCP.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/SGML.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTMLDTD.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTChunk.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTPlain.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTMLGen.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAtom.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAnchor.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTStyle.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTList.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c -DVC=\"2.14\" ../../../WWW/Library/Implementation/HTString.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c -DVC=\"2.14\" ../../../WWW/Library/Implementation/HTRules.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTFormat.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTMIME.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTNews.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTGopher.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTTelnet.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTFinger.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTWSRC.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAAUtil.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAABrow.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTGroup.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAAProt.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTAssoc.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTLex.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTUU.c
+gcc -DHAVE_CONFIG_H  -I../../.. -I../../../src -I../../.. -I../../../src  -I../../../WWW/Library/Implementation  -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2    -I../../../WWW/Library/Implementation/ -DACCESS_AUTH -c ../../../WWW/Library/Implementation/HTDOS.c
+ar -curv ./libwww.a ./HTParse.o ./HTAccess.o ./HTTP.o ./HTFile.o	./HTBTree.o ./HTFTP.o ./HTTCP.o ./SGML.o ./HTMLDTD.o ./HTChunk.o ./HTPlain.o ./HTMLGen.o ./HTAtom.o ./HTAnchor.o ./HTStyle.o ./HTList.o ./HTString.o ./HTRules.o ./HTFormat.o  ./HTMIME.o ./HTNews.o  ./HTGopher.o ./HTTelnet.o ./HTFinger.o ./HTWSRC.o  ./HTAAUtil.o ./HTAABrow.o ./HTGroup.o ./HTAAProt.o ./HTAssoc.o  ./HTLex.o    ./HTUU.o ./HTDOS.o
+a - ./HTParse.o
+a - ./HTAccess.o
+a - ./HTTP.o
+a - ./HTFile.o
+a - ./HTBTree.o
+a - ./HTFTP.o
+a - ./HTTCP.o
+a - ./SGML.o
+a - ./HTMLDTD.o
+a - ./HTChunk.o
+a - ./HTPlain.o
+a - ./HTMLGen.o
+a - ./HTAtom.o
+a - ./HTAnchor.o
+a - ./HTStyle.o
+a - ./HTList.o
+a - ./HTString.o
+a - ./HTRules.o
+a - ./HTFormat.o
+a - ./HTMIME.o
+a - ./HTNews.o
+a - ./HTGopher.o
+a - ./HTTelnet.o
+a - ./HTFinger.o
+a - ./HTWSRC.o
+a - ./HTAAUtil.o
+a - ./HTAABrow.o
+a - ./HTGroup.o
+a - ./HTAAProt.o
+a - ./HTAssoc.o
+a - ./HTLex.o
+a - ./HTUU.o
+a - ./HTDOS.o
+ranlib ./libwww.a
+make[1]: Leaving directory '/sources/7.9/lynx2.8.8rel.2/WWW/Library/Implementation'
+cd ./src/chrtrans && make  DESTDIR="" CC="gcc" all SITE_DEFS="" BUILD_CFLAGS="-O2 " BUILD_CPPFLAGS="-D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -DHAVE_CONFIG_H" BUILD_LDFLAGS="" BUILD_LIBS="-lz -lbz2 -lncursesw -lssl -lcrypto" BUILD_CC="gcc"
+make[1]: Entering directory '/sources/7.9/lynx2.8.8rel.2/src/chrtrans'
+gcc -I../.. -I../../src -I../../src/chrtrans -I../../WWW/Library/Implementation -I../../   -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -DHAVE_CONFIG_H -O2  -c ./makeuctb.c
+gcc -I../.. -I../../src -I../../src/chrtrans -I../../WWW/Library/Implementation -I../../   -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -DHAVE_CONFIG_H -O2   -o makeuctb makeuctb.o  -lz -lbz2 -lncursesw -lssl -lcrypto
+./makeuctb ./cp1250_uni.tbl cp1250_uni.h
+makeuctb: windows-1250: translation map (_windows_1250).
+./makeuctb ./cp1251_uni.tbl cp1251_uni.h
+makeuctb: windows-1251: translation map (_windows_1251).
+./makeuctb ./cp1252_uni.tbl cp1252_uni.h
+makeuctb: windows-1252: translation map (_windows_1252).
+./makeuctb ./cp1253_uni.tbl cp1253_uni.h
+makeuctb: windows-1253: translation map (_windows_1253).
+./makeuctb ./cp1255_uni.tbl cp1255_uni.h
+makeuctb: windows-1255: translation map (_windows_1255).
+./makeuctb ./cp1256_uni.tbl cp1256_uni.h
+makeuctb: windows-1256: translation map (_windows_1256).
+./makeuctb ./cp1257_uni.tbl cp1257_uni.h
+makeuctb: windows-1257: translation map (_windows_1257).
+./makeuctb ./cp437_uni.tbl cp437_uni.h
+makeuctb: cp437: translation map (_cp437).
+./makeuctb ./cp737_uni.tbl cp737_uni.h
+makeuctb: cp737: translation map (_cp737).
+./makeuctb ./cp775_uni.tbl cp775_uni.h
+makeuctb: cp775: translation map (_cp775).
+./makeuctb ./cp850_uni.tbl cp850_uni.h
+makeuctb: cp850: translation map (_cp850).
+./makeuctb ./cp852_uni.tbl cp852_uni.h
+makeuctb: cp852: translation map (_cp852).
+./makeuctb ./cp857_uni.tbl cp857_uni.h
+makeuctb: cp857: translation map (_cp857).
+./makeuctb ./cp862_uni.tbl cp862_uni.h
+makeuctb: cp862: translation map (_cp862).
+./makeuctb ./cp864_uni.tbl cp864_uni.h
+makeuctb: cp864: translation map (_cp864).
+./makeuctb ./cp866_uni.tbl cp866_uni.h
+makeuctb: cp866: translation map (_cp866).
+./makeuctb ./cp866u_uni.tbl cp866u_uni.h
+makeuctb: cp866u: translation map (_cp866u).
+./makeuctb ./cp869_uni.tbl cp869_uni.h
+makeuctb: cp869: translation map (_cp869).
+./makeuctb ./def7_uni.tbl def7_uni.h
+makeuctb: us-ascii: default translation map ().
+./makeuctb ./dmcs_uni.tbl dmcs_uni.h
+makeuctb: dec-mcs: translation map (_dec_mcs).
+./makeuctb ./hp_uni.tbl hp_uni.h
+makeuctb: hp-roman8: translation map (_hp_roman8).
+./makeuctb ./iso01_uni.tbl iso01_uni.h
+makeuctb: iso-8859-1: translation map (_iso_8859_1).
+./makeuctb ./iso02_uni.tbl iso02_uni.h
+makeuctb: iso-8859-2: translation map (_iso_8859_2).
+./makeuctb ./iso03_uni.tbl iso03_uni.h
+makeuctb: iso-8859-3: translation map (_iso_8859_3).
+./makeuctb ./iso04_uni.tbl iso04_uni.h
+makeuctb: iso-8859-4: translation map (_iso_8859_4).
+./makeuctb ./iso05_uni.tbl iso05_uni.h
+makeuctb: iso-8859-5: translation map (_iso_8859_5).
+./makeuctb ./iso06_uni.tbl iso06_uni.h
+makeuctb: iso-8859-6: translation map (_iso_8859_6).
+./makeuctb ./iso07_uni.tbl iso07_uni.h
+makeuctb: iso-8859-7: translation map (_iso_8859_7).
+./makeuctb ./iso08_uni.tbl iso08_uni.h
+makeuctb: iso-8859-8: translation map (_iso_8859_8).
+./makeuctb ./iso09_uni.tbl iso09_uni.h
+makeuctb: iso-8859-9: translation map (_iso_8859_9).
+./makeuctb ./iso10_uni.tbl iso10_uni.h
+makeuctb: iso-8859-10: translation map (_iso_8859_10).
+./makeuctb ./iso13_uni.tbl iso13_uni.h
+makeuctb: iso-8859-13: translation map (_iso_8859_13).
+./makeuctb ./iso14_uni.tbl iso14_uni.h
+makeuctb: iso-8859-14: translation map (_iso_8859_14).
+./makeuctb ./iso15_uni.tbl iso15_uni.h
+makeuctb: iso-8859-15: translation map (_iso_8859_15).
+./makeuctb ./koi8r_uni.tbl koi8r_uni.h
+makeuctb: koi8-r: translation map (_koi8_r).
+./makeuctb ./koi8u_uni.tbl koi8u_uni.h
+makeuctb: koi8-u: translation map (_koi8_u).
+./makeuctb ./mac_uni.tbl mac_uni.h
+makeuctb: macintosh: translation map (_macintosh).
+./makeuctb ./mnem2_suni.tbl mnem2_suni.h
+makeuctb: mnemonic: translation map (_mnemonic).
+./makeuctb ./mnem_suni.tbl mnem_suni.h
+makeuctb: mnem: translation map (_mnem).
+./makeuctb ./next_uni.tbl next_uni.h
+makeuctb: next: translation map (_next).
+./makeuctb ./pt154_uni.tbl pt154_uni.h
+makeuctb: ptcp154: translation map (_ptcp154).
+./makeuctb ./rfc_suni.tbl rfc_suni.h
+makeuctb: mnemonic+ascii+0: translation map (_mnemonic_ascii_0).
+./makeuctb ./utf8_uni.tbl utf8_uni.h
+makeuctb: utf-8: translation map (_utf_8).
+./makeuctb ./viscii_uni.tbl viscii_uni.h
+makeuctb: viscii: translation map (_viscii).
+make[1]: Leaving directory '/sources/7.9/lynx2.8.8rel.2/src/chrtrans'
+cd ./src && make  DESTDIR="" CC="gcc" all CFLAGS="-O2 " CPPFLAGS="-D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE" LDFLAGS="" LIBS="-lz -lbz2 -lncursesw -lssl -lcrypto   " SITE_DEFS="" WWWINC=./WWW/Library/Implementation WWWLIB=".././WWW/Library/Implementation/libwww.a"
+make[1]: Entering directory '/sources/7.9/lynx2.8.8rel.2/src'
+Compiling Lynx sources
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYebcdic.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYClean.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYShowInfo.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYEdit.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYStrings.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYMail.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c HTAlert.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c GridText.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYGetFile.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYMain.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYMainLoop.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYCurses.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYBookmark.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYmktime.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYUtils.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYOptions.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYReadCFG.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYSearch.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYHistory.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYForms.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYPrint.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYrcFile.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYDownload.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYNews.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYKeymap.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c HTML.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c HTFWriter.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c HTInit.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c DefaultStyle.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYUpload.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYLeaks.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYexit.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYJump.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYList.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYCgi.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYTraversal.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYEditmap.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYCharSets.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYCharUtils.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYMap.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYCookie.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYStyle.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYHash.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYPrettySrc.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c TRSTable.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c parsdate.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c UCdomap.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c UCAux.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c UCAuto.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYSession.c
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2  -c LYLocal.c
+Linking and creating Lynx executable
+gcc -DHAVE_CONFIG_H  -DLOCALEDIR=\"/usr/share/locale\" -I. -I.. -Ichrtrans -I./chrtrans -I.. -I../src -I.././WWW/Library/Implementation    -D_GNU_SOURCE  -DLINUX -D_GNU_SOURCE -O2   -o lynx  LYebcdic.o LYClean.o LYShowInfo.o LYEdit.o LYStrings.o LYMail.o HTAlert.o GridText.o LYGetFile.o LYMain.o LYMainLoop.o LYCurses.o LYBookmark.o LYmktime.o LYUtils.o LYOptions.o LYReadCFG.o LYSearch.o LYHistory.o LYForms.o LYPrint.o LYrcFile.o LYDownload.o LYNews.o LYKeymap.o HTML.o HTFWriter.o HTInit.o DefaultStyle.o LYUpload.o LYLeaks.o LYexit.o LYJump.o LYList.o LYCgi.o LYTraversal.o LYEditmap.o LYCharSets.o LYCharUtils.o LYMap.o LYCookie.o LYStyle.o LYHash.o LYPrettySrc.o TRSTable.o parsdate.o UCdomap.o UCAux.o UCAuto.o  LYSession.o LYLocal.o  .././WWW/Library/Implementation/libwww.a -lz -lbz2 -lncursesw -lssl -lcrypto    
+Copying Lynx executable into top-level directory
+rm -f ../lynx
+cp lynx ../
+Welcome to Lynx!
+make[1]: Leaving directory '/sources/7.9/lynx2.8.8rel.2/src'
+/bin/sh -c \
+'if test -f /usr/bin/`echo lynx|    sed 's,x,x,'` ; then \
+      mv -f /usr/bin/`echo lynx|    sed 's,x,x,'` /usr/bin/lynx.old; fi'
+/usr/bin/install -c lynx /usr/bin/`echo lynx|    sed 's,x,x,'`
+/usr/bin/install -c -m 644 ./lynx.man /usr/share/man/man1/`echo lynx|    sed 's,x,x,'`.1
+mkdir -p /etc/lynx
+** installing ./lynx.cfg as /etc/lynx/lynx.cfg
+** installing ./samples/lynx.lss as /etc/lynx/lynx.lss
+
+Use make install-help to install the help-files
+Use make install-doc to install extra documentation files
+
+mkdir -p /usr/share/doc/lynx-2.8.8rel.2/lynx_help
+/bin/sh -c 'if cd "/usr/share/doc/lynx-2.8.8rel.2/lynx_help" ; then \
+	WD=`pwd` ; \
+	TAIL=`basename "/usr/share/doc/lynx-2.8.8rel.2/lynx_help"` ; \
+	HEAD=`echo "$WD"|sed -e "s,/${TAIL}$,,"` ; \
+	test "x$WD" != "x$HEAD" && rm -fr * ; \
+	fi'
+test -d /usr/share/doc/lynx-2.8.8rel.2/lynx_help/keystrokes || mkdir /usr/share/doc/lynx-2.8.8rel.2/lynx_help/keystrokes
+Translating/copying html files
+/bin/sh -c 'sed_prog=`pwd`/help_files.sed && \
+	cd ./lynx_help && \
+	dirs=keystrokes && \
+	files="*.html */*.html" && \
+	for f in $files ; do \
+		sed -f $sed_prog $f > /usr/share/doc/lynx-2.8.8rel.2/lynx_help/$f ; \
+	done && \
+	if test "" != "" ; then \
+		(cd /usr/share/doc/lynx-2.8.8rel.2/lynx_help &&  $files ) \
+	fi'
+Updating /etc/lynx/lynx.cfg
+/bin/sh -c \
+'if test -f /etc/lynx/lynx.cfg ; then \
+	mv /etc/lynx/lynx.cfg /etc/lynx/lynx.tmp ; \
+else \
+	cp ./lynx.cfg /etc/lynx/lynx.tmp ; \
+fi'
+Updating /etc/lynx/lynx.cfg to point to installed help-files
+sed	-e '/^HELPFILE:http/s!^!#!' \
+	-e '/^#HELPFILE:file/s!#!!' \
+	/etc/lynx/lynx.tmp | \
+/bin/sh ./scripts/cfg_path.sh lynx_help /usr/share/doc/lynx-2.8.8rel.2/lynx_help | \
+/bin/sh ./scripts/cfg_path.sh lynx_doc  /usr/share/doc/lynx-2.8.8rel.2/lynx_help | \
+sed	-e '/^HELPFILE:file/s!$!!' \
+	-e '/^HELPFILE:file/s!$!!' \
+	>/etc/lynx/lynx.cfg
+chmod 644 /etc/lynx/lynx.cfg
+rm -f /etc/lynx/lynx.tmp
+mkdir -p /usr/share/doc/lynx-2.8.8rel.2/lynx_doc
+Copying sample files
+/bin/sh -c '\
+	( umask 022; \
+	  cd . && \
+	  /bin/tar -cf - C[HO]* PROBLEMS README docs samples test ) | \
+	( umask 022; \
+	  cd /usr/share/doc/lynx-2.8.8rel.2/lynx_doc && \
+	  chmod -R u+w . && /bin/tar -xf - )'
+/bin/sh -c 'if test "" != "" ; then \
+	(cd /usr/share/doc/lynx-2.8.8rel.2/lynx_doc &&  -f docs/CHANGES*.[0-9] docs/*.announce ) \
+fi'
+/bin/sh -c 'for name in COPYING COPYHEADER; do \
+	cd /usr/share/doc/lynx-2.8.8rel.2/lynx_help && rm -f $name ;\
+	r= ;\
+	test "ln -s" = "ln -s" || r=`echo /usr/share/doc/lynx-2.8.8rel.2/lynx_help|sed -e "s%[^/]\+%..%g" -e "s%^.%%"`; \
+	cd /usr/share/doc/lynx-2.8.8rel.2/lynx_help && ( ln -s $r/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/$name . || cp /usr/share/doc/lynx-2.8.8rel.2/lynx_doc/$name . );\
+	done'
+/bin/sh -c 'case `id|sed -e "s/(.*//"` in uid=0) chown -R root /usr/share/doc/lynx-2.8.8rel.2/lynx_doc;; esac'
+Full installation complete.
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/README' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/win-386.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/VMSWAIS.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.6' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/TCPWARE.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CRAWL.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.defines' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/SOCKETSHR.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.jp' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.options' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/OS-390.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.cookies' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.5' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.release' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.sslcerts' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.ssl' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/pdcurses.key' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.8' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.chartrans' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/FM.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/IBMPC-charsets.announce' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/slang.key' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/djgpp.key' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.metrics' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.3' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.rootcerts' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.7' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/README.TRST' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs/CHANGES2.4' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/docs' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/nobody' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/circle.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/README.txt' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/quickbrown.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/special_urls.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/ISO_LATIN1_test.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/triangle.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/raw8bit.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/spaces.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/tabtest.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/iso-8859-1a.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/tags.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/ALT88592.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/test-styles.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/X' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/cp-1252a.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/c1.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/utf-8-demo.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/sgml.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/TestComment.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/unicode.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/iso-8859-2a.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/image.jpg' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/cp-1252.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/iso-8859-1.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/koi8-r.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/iso-8859-2.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/square.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test/bad-html.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/test' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/PROBLEMS' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/COPYHEADER' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/mime.types' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/jumps.htm' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/mild-colors.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/bright-blue.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/oldlynx' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/oldlynx.bat' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/blue-background.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/midnight.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/keepviewer' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx.ico' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/home.htm' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynxdump' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/mailto-form.pl' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/mailcap' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/jumpsVMS.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx_bookmarks.htm' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/installdirs.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx-demo.cfg' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/cernrules.txt' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/jumpsUnix.html' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx.com' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/opaque.lss' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx-keymaps' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples/lynx.bat' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/samples' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/COPYING' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/COPYHEADER.asc' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/COPYING.asc' from 10186 to root
+changed group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc/CHANGES' from 10186 to root
+group of '/usr/share/doc/lynx-2.8.8rel.2/lynx_doc' retained as root

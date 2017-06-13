@@ -1,0 +1,27 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+
+DEP=(
+"xorg_build_environment"
+"libpng-1.6.21"
+#"mesa-11.1.2"
+"mesa_with_wayland-11.1.2"
+"xbitmaps-1.1.1"
+"xcb-util-0.4.0"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

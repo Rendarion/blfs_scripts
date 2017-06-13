@@ -1,0 +1,42 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://archive.xfce.org/src/xfce/xfce4-session/4.12/xfce4-session-4.12.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libwnck-2.30.7"
+"libxfce4ui-4.12.1"
+"which-2.21"
+"xorg_applications"
+"desktop-file-utils-0.22"
+"shared-mime-info-1.5"
+"polkit-gnome-0.105"
+"xfdesktop-4.12.3"
+"consolekit2-1.0.1"
+"dbus-1.10.6"
+"gnupg-2.1.11"
+"hicolor-icon-theme-0.15"
+"openssh-7.1p2"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

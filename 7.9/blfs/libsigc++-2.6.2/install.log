@@ -1,0 +1,1059 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports GNU make features... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gm4... no
+checking for m4... m4
+checking for perl... /usr/bin/perl
+checking for dot... dot
+checking for doxygen... doxygen
+checking for xsltproc... /usr/bin/xsltproc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libstdc documentation... libstdc++.tag@
+checking if C++ compiler supports the use of a particular specialization when calling operator() template methods.... yes
+checking if C++ compiler supports the use of a particular specialization when calling operator() template methods omitting the template keyword.... yes
+checking if C++ compiler allows usage of member function in initialization of static member field.... yes
+checking whether C++ library symbols are declared in namespace std... yes
+checking for non-standard Sun libCstd reverse_iterator... no
+checking which C++ compiler warning flags to use... -Wall
+configure: Deprecated API will be built, for backwards-compatibility.
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating sigc++-2.0.pc
+config.status: creating sigc++-2.0-uninstalled.pc
+config.status: creating sigc++/Makefile
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Doxyfile
+config.status: creating MSVC_Net2013/sigc.rc
+config.status: creating config.h
+config.status: creating sigc++config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing MSVC_Net2013/sigc++config.h commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+Making all in sigc++
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+depbase=`echo signal.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT signal.lo -MD -MP -MF $depbase.Tpo -c -o signal.lo signal.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT signal.lo -MD -MP -MF .deps/signal.Tpo -c signal.cc  -fPIC -DPIC -o .libs/signal.o
+depbase=`echo signal_base.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT signal_base.lo -MD -MP -MF $depbase.Tpo -c -o signal_base.lo signal_base.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT signal_base.lo -MD -MP -MF .deps/signal_base.Tpo -c signal_base.cc  -fPIC -DPIC -o .libs/signal_base.o
+depbase=`echo trackable.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT trackable.lo -MD -MP -MF $depbase.Tpo -c -o trackable.lo trackable.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT trackable.lo -MD -MP -MF .deps/trackable.Tpo -c trackable.cc  -fPIC -DPIC -o .libs/trackable.o
+depbase=`echo connection.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT connection.lo -MD -MP -MF $depbase.Tpo -c -o connection.lo connection.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT connection.lo -MD -MP -MF .deps/connection.Tpo -c connection.cc  -fPIC -DPIC -o .libs/connection.o
+depbase=`echo functors/slot.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT functors/slot.lo -MD -MP -MF $depbase.Tpo -c -o functors/slot.lo functors/slot.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT functors/slot.lo -MD -MP -MF functors/.deps/slot.Tpo -c functors/slot.cc  -fPIC -DPIC -o functors/.libs/slot.o
+depbase=`echo functors/slot_base.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT functors/slot_base.lo -MD -MP -MF $depbase.Tpo -c -o functors/slot_base.lo functors/slot_base.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT functors/slot_base.lo -MD -MP -MF functors/.deps/slot_base.Tpo -c functors/slot_base.cc  -fPIC -DPIC -o functors/.libs/slot_base.o
+depbase=`echo adaptors/lambda/lambda.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT adaptors/lambda/lambda.lo -MD -MP -MF $depbase.Tpo -c -o adaptors/lambda/lambda.lo adaptors/lambda/lambda.cc &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I.. -Wall -g -O2 -std=c++11 -MT adaptors/lambda/lambda.lo -MD -MP -MF adaptors/lambda/.deps/lambda.Tpo -c adaptors/lambda/lambda.cc  -fPIC -DPIC -o adaptors/lambda/.libs/lambda.o
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11 -no-undefined -version-info 0:0:0  -o libsigc-2.0.la -rpath /usr/lib signal.lo signal_base.lo trackable.lo connection.lo functors/slot.lo functors/slot_base.lo adaptors/lambda/lambda.lo  
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o  .libs/signal.o .libs/signal_base.o .libs/trackable.o .libs/connection.o functors/.libs/slot.o functors/.libs/slot_base.o adaptors/lambda/.libs/lambda.o   -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. /usr/lib/../lib64/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crtn.o  -O2   -Wl,-soname -Wl,libsigc-2.0.so.0 -o .libs/libsigc-2.0.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libsigc-2.0.so.0" && ln -s "libsigc-2.0.so.0.0.0" "libsigc-2.0.so.0")
+libtool: link: (cd ".libs" && rm -f "libsigc-2.0.so" && ln -s "libsigc-2.0.so.0.0.0" "libsigc-2.0.so")
+libtool: link: ( cd ".libs" && rm -f "libsigc-2.0.la" && ln -s "../libsigc-2.0.la" "libsigc-2.0.la" )
+make[3]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/examples'
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT hello_world.o -MD -MP -MF .deps/hello_world.Tpo -c -o hello_world.o hello_world.cc
+mv -f .deps/hello_world.Tpo .deps/hello_world.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o hello_world hello_world.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/hello_world hello_world.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT member_method.o -MD -MP -MF .deps/member_method.Tpo -c -o member_method.o member_method.cc
+mv -f .deps/member_method.Tpo .deps/member_method.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o member_method member_method.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/member_method member_method.o  ../sigc++/.libs/libsigc-2.0.so
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/examples'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2'
+Making check in sigc++
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make  test_accum_iter test_accumulated test_bind test_bind_ref test_bind_refptr test_bind_return test_compose test_copy_invalid_slot test_cpp11_lambda test_custom test_deduce_result_type test_disconnect test_disconnect_during_emit test_exception_catch test_functor_trait test_hide test_limit_reference test_mem_fun test_ptr_fun test_retype test_retype_return test_signal test_signal_move test_size test_slot test_slot_disconnect test_slot_move test_trackable test_trackable_move test_track_obj test_visit_each
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_accum_iter.o -MD -MP -MF .deps/test_accum_iter.Tpo -c -o test_accum_iter.o test_accum_iter.cc
+mv -f .deps/test_accum_iter.Tpo .deps/test_accum_iter.Po
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT testutilities.o -MD -MP -MF .deps/testutilities.Tpo -c -o testutilities.o testutilities.cc
+mv -f .deps/testutilities.Tpo .deps/testutilities.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_accum_iter test_accum_iter.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_accum_iter test_accum_iter.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_accumulated.o -MD -MP -MF .deps/test_accumulated.Tpo -c -o test_accumulated.o test_accumulated.cc
+mv -f .deps/test_accumulated.Tpo .deps/test_accumulated.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_accumulated test_accumulated.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_accumulated test_accumulated.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind.o -MD -MP -MF .deps/test_bind.Tpo -c -o test_bind.o test_bind.cc
+mv -f .deps/test_bind.Tpo .deps/test_bind.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind test_bind.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind test_bind.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_ref.o -MD -MP -MF .deps/test_bind_ref.Tpo -c -o test_bind_ref.o test_bind_ref.cc
+mv -f .deps/test_bind_ref.Tpo .deps/test_bind_ref.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_ref test_bind_ref.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_ref test_bind_ref.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_refptr.o -MD -MP -MF .deps/test_bind_refptr.Tpo -c -o test_bind_refptr.o test_bind_refptr.cc
+mv -f .deps/test_bind_refptr.Tpo .deps/test_bind_refptr.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_refptr test_bind_refptr.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_refptr test_bind_refptr.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_return.o -MD -MP -MF .deps/test_bind_return.Tpo -c -o test_bind_return.o test_bind_return.cc
+mv -f .deps/test_bind_return.Tpo .deps/test_bind_return.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_return test_bind_return.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_return test_bind_return.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_compose.o -MD -MP -MF .deps/test_compose.Tpo -c -o test_compose.o test_compose.cc
+mv -f .deps/test_compose.Tpo .deps/test_compose.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_compose test_compose.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_compose test_compose.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_copy_invalid_slot.o -MD -MP -MF .deps/test_copy_invalid_slot.Tpo -c -o test_copy_invalid_slot.o test_copy_invalid_slot.cc
+mv -f .deps/test_copy_invalid_slot.Tpo .deps/test_copy_invalid_slot.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_copy_invalid_slot test_copy_invalid_slot.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_copy_invalid_slot test_copy_invalid_slot.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_cpp11_lambda.o -MD -MP -MF .deps/test_cpp11_lambda.Tpo -c -o test_cpp11_lambda.o test_cpp11_lambda.cc
+mv -f .deps/test_cpp11_lambda.Tpo .deps/test_cpp11_lambda.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_cpp11_lambda test_cpp11_lambda.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_cpp11_lambda test_cpp11_lambda.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_custom.o -MD -MP -MF .deps/test_custom.Tpo -c -o test_custom.o test_custom.cc
+mv -f .deps/test_custom.Tpo .deps/test_custom.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_custom test_custom.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_custom test_custom.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_deduce_result_type.o -MD -MP -MF .deps/test_deduce_result_type.Tpo -c -o test_deduce_result_type.o test_deduce_result_type.cc
+mv -f .deps/test_deduce_result_type.Tpo .deps/test_deduce_result_type.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_deduce_result_type test_deduce_result_type.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_deduce_result_type test_deduce_result_type.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_disconnect.o -MD -MP -MF .deps/test_disconnect.Tpo -c -o test_disconnect.o test_disconnect.cc
+mv -f .deps/test_disconnect.Tpo .deps/test_disconnect.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_disconnect test_disconnect.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_disconnect test_disconnect.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_disconnect_during_emit.o -MD -MP -MF .deps/test_disconnect_during_emit.Tpo -c -o test_disconnect_during_emit.o test_disconnect_during_emit.cc
+mv -f .deps/test_disconnect_during_emit.Tpo .deps/test_disconnect_during_emit.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_disconnect_during_emit test_disconnect_during_emit.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_disconnect_during_emit test_disconnect_during_emit.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_exception_catch.o -MD -MP -MF .deps/test_exception_catch.Tpo -c -o test_exception_catch.o test_exception_catch.cc
+mv -f .deps/test_exception_catch.Tpo .deps/test_exception_catch.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_exception_catch test_exception_catch.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_exception_catch test_exception_catch.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_functor_trait.o -MD -MP -MF .deps/test_functor_trait.Tpo -c -o test_functor_trait.o test_functor_trait.cc
+mv -f .deps/test_functor_trait.Tpo .deps/test_functor_trait.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_functor_trait test_functor_trait.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_functor_trait test_functor_trait.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_hide.o -MD -MP -MF .deps/test_hide.Tpo -c -o test_hide.o test_hide.cc
+mv -f .deps/test_hide.Tpo .deps/test_hide.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_hide test_hide.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_hide test_hide.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_limit_reference.o -MD -MP -MF .deps/test_limit_reference.Tpo -c -o test_limit_reference.o test_limit_reference.cc
+mv -f .deps/test_limit_reference.Tpo .deps/test_limit_reference.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_limit_reference test_limit_reference.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_limit_reference test_limit_reference.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_mem_fun.o -MD -MP -MF .deps/test_mem_fun.Tpo -c -o test_mem_fun.o test_mem_fun.cc
+mv -f .deps/test_mem_fun.Tpo .deps/test_mem_fun.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_mem_fun test_mem_fun.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_mem_fun test_mem_fun.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_ptr_fun.o -MD -MP -MF .deps/test_ptr_fun.Tpo -c -o test_ptr_fun.o test_ptr_fun.cc
+mv -f .deps/test_ptr_fun.Tpo .deps/test_ptr_fun.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_ptr_fun test_ptr_fun.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_ptr_fun test_ptr_fun.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_retype.o -MD -MP -MF .deps/test_retype.Tpo -c -o test_retype.o test_retype.cc
+mv -f .deps/test_retype.Tpo .deps/test_retype.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_retype test_retype.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_retype test_retype.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_retype_return.o -MD -MP -MF .deps/test_retype_return.Tpo -c -o test_retype_return.o test_retype_return.cc
+mv -f .deps/test_retype_return.Tpo .deps/test_retype_return.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_retype_return test_retype_return.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_retype_return test_retype_return.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_signal.o -MD -MP -MF .deps/test_signal.Tpo -c -o test_signal.o test_signal.cc
+mv -f .deps/test_signal.Tpo .deps/test_signal.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_signal test_signal.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_signal test_signal.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_signal_move.o -MD -MP -MF .deps/test_signal_move.Tpo -c -o test_signal_move.o test_signal_move.cc
+mv -f .deps/test_signal_move.Tpo .deps/test_signal_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_signal_move test_signal_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_signal_move test_signal_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_size.o -MD -MP -MF .deps/test_size.Tpo -c -o test_size.o test_size.cc
+mv -f .deps/test_size.Tpo .deps/test_size.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_size test_size.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_size test_size.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot.o -MD -MP -MF .deps/test_slot.Tpo -c -o test_slot.o test_slot.cc
+mv -f .deps/test_slot.Tpo .deps/test_slot.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot test_slot.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot test_slot.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot_disconnect.o -MD -MP -MF .deps/test_slot_disconnect.Tpo -c -o test_slot_disconnect.o test_slot_disconnect.cc
+mv -f .deps/test_slot_disconnect.Tpo .deps/test_slot_disconnect.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot_disconnect test_slot_disconnect.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot_disconnect test_slot_disconnect.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot_move.o -MD -MP -MF .deps/test_slot_move.Tpo -c -o test_slot_move.o test_slot_move.cc
+mv -f .deps/test_slot_move.Tpo .deps/test_slot_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot_move test_slot_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot_move test_slot_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_trackable.o -MD -MP -MF .deps/test_trackable.Tpo -c -o test_trackable.o test_trackable.cc
+mv -f .deps/test_trackable.Tpo .deps/test_trackable.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_trackable test_trackable.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_trackable test_trackable.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_trackable_move.o -MD -MP -MF .deps/test_trackable_move.Tpo -c -o test_trackable_move.o test_trackable_move.cc
+mv -f .deps/test_trackable_move.Tpo .deps/test_trackable_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_trackable_move test_trackable_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_trackable_move test_trackable_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_track_obj.o -MD -MP -MF .deps/test_track_obj.Tpo -c -o test_track_obj.o test_track_obj.cc
+mv -f .deps/test_track_obj.Tpo .deps/test_track_obj.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_track_obj test_track_obj.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_track_obj test_track_obj.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_visit_each.o -MD -MP -MF .deps/test_visit_each.Tpo -c -o test_visit_each.o test_visit_each.cc
+mv -f .deps/test_visit_each.Tpo .deps/test_visit_each.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_visit_each test_visit_each.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_visit_each test_visit_each.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[3]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+PASS: test_accum_iter
+PASS: test_accumulated
+PASS: test_bind
+PASS: test_bind_ref
+PASS: test_bind_refptr
+PASS: test_bind_return
+PASS: test_compose
+PASS: test_copy_invalid_slot
+PASS: test_cpp11_lambda
+PASS: test_custom
+PASS: test_deduce_result_type
+PASS: test_disconnect
+PASS: test_disconnect_during_emit
+PASS: test_exception_catch
+PASS: test_functor_trait
+PASS: test_hide
+PASS: test_limit_reference
+PASS: test_mem_fun
+PASS: test_ptr_fun
+PASS: test_retype
+PASS: test_retype_return
+PASS: test_signal
+PASS: test_signal_move
+PASS: test_size
+PASS: test_slot
+PASS: test_slot_disconnect
+PASS: test_slot_move
+PASS: test_trackable
+PASS: test_trackable_move
+PASS: test_track_obj
+PASS: test_visit_each
+============================================================================
+Testsuite summary for libsigc++ 2.6.2
+============================================================================
+# TOTAL: 31
+# PASS:  31
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/examples'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2'
+Making install in sigc++
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[3]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libsigc-2.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libsigc-2.0.so.0.0.0 /usr/lib/libsigc-2.0.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libsigc-2.0.so.0.0.0 libsigc-2.0.so.0 || { rm -f libsigc-2.0.so.0 && ln -s libsigc-2.0.so.0.0.0 libsigc-2.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsigc-2.0.so.0.0.0 libsigc-2.0.so || { rm -f libsigc-2.0.so && ln -s libsigc-2.0.so.0.0.0 libsigc-2.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsigc-2.0.lai /usr/lib/libsigc-2.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/sigc++-2.0/sigc++'
+ /bin/mkdir -p '/usr/include/sigc++-2.0/sigc++/adaptors/lambda'
+ /usr/bin/install -c -m 644  adaptors/lambda/base.h adaptors/lambda/select.h '/usr/include/sigc++-2.0/sigc++/adaptors/lambda'
+ /bin/mkdir -p '/usr/include/sigc++-2.0/sigc++/adaptors'
+ /usr/bin/install -c -m 644  adaptors/adaptors.h adaptors/bound_argument.h adaptors/deduce_result_type.h adaptors/adaptor_trait.h adaptors/bind.h adaptors/bind_return.h adaptors/retype_return.h adaptors/hide.h adaptors/retype.h adaptors/compose.h adaptors/exception_catch.h adaptors/track_obj.h '/usr/include/sigc++-2.0/sigc++/adaptors'
+ /usr/bin/install -c -m 644  sigc++.h bind.h bind_return.h connection.h reference_wrapper.h retype_return.h signal_base.h slot.h trackable.h type_traits.h visit_each.h signal.h limit_reference.h '/usr/include/sigc++-2.0/sigc++/.'
+ /bin/mkdir -p '/usr/include/sigc++-2.0/sigc++/functors'
+ /usr/bin/install -c -m 644  functors/functors.h functors/slot_base.h functors/functor_trait.h functors/slot.h functors/ptr_fun.h functors/mem_fun.h '/usr/include/sigc++-2.0/sigc++/functors'
+make[3]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/examples'
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/examples'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/examples'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p '/usr/share/doc/libsigc++-2.0/reference/html'
+/usr/bin/perl -- "../docs/doc-install.pl" --verbose --mode=0644  -t '/usr/share/doc/libsigc++-2.0/reference/html' --glob -- 'reference/html/*.css' 'reference/html/*.gif' 'reference/html/*.html' 'reference/html/*.js' 'reference/html/*.png'
+doc-install: Copying tabs.css
+doc-install: Copying doxygen.css
+doc-install: Copying doxygen-extra.css
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor1-members.html
+doc-install: Copying pages.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor5-members.html
+doc-install: Copying namespacemembers_v.html
+doc-install: Copying group__sigcfunctors.html
+doc-install: Copying namespacemembers_func_v.html
+doc-install: Copying classsigc_1_1track__obj__functor3.html
+doc-install: Copying structsigc_1_1adapts.html
+doc-install: Copying functions_p.html
+doc-install: Copying classsigc_1_1pointer__functor0.html
+doc-install: Copying structsigc_1_1type__trait_3_01void_01_4-members.html
+doc-install: Copying modules.html
+doc-install: Copying classsigc_1_1signal0.html
+doc-install: Copying classsigc_1_1signal5-members.html
+doc-install: Copying classsigc_1_1pointer__functor2-members.html
+doc-install: Copying classsigc_1_1track__obj__functor7.html
+doc-install: Copying classsigc_1_1pointer__functor2.html
+doc-install: Copying functions_b.html
+doc-install: Copying classsigc_1_1bound__mem__functor3.html
+doc-install: Copying structsigc_1_1unwrap__reference.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor5.html
+doc-install: Copying namespacemembers_func_p.html
+doc-install: Copying functions_h.html
+doc-install: Copying structsigc_1_1nil.html
+doc-install: Copying classsigc_1_1slot__base.html
+doc-install: Copying classsigc_1_1volatile__mem__functor3-members.html
+doc-install: Copying dir_ea4abdd77c05d5873cecf571a6d96de7.html
+doc-install: Copying annotated.html
+doc-install: Copying functions_type_v.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor3-members.html
+doc-install: Copying structsigc_1_1deduce__result__type.html
+doc-install: Copying group__slot.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor5.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor4-members.html
+doc-install: Copying classsigc_1_1mem__functor3-members.html
+doc-install: Copying classsigc_1_1mem__functor6.html
+doc-install: Copying structsigc_1_1adaptor__trait_3_01T__functor_00_01true_01_4-members.html
+doc-install: Copying namespacesigc.html
+doc-install: Copying classsigc_1_1volatile__mem__functor2.html
+doc-install: Copying namespacemembers_func.html
+doc-install: Copying functions_e.html
+doc-install: Copying functions_t.html
+doc-install: Copying classsigc_1_1bound__mem__functor4-members.html
+doc-install: Copying classsigc_1_1signal2-members.html
+doc-install: Copying structsigc_1_1type__trait_3_01T__type_01_6_01_4-members.html
+doc-install: Copying classsigc_1_1const__limit__reference_3_01T__type_00_01true_01_4-members.html
+doc-install: Copying structsigc_1_1exception__catch__functor.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor4-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor6.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor7.html
+doc-install: Copying classsigc_1_1track__obj__functor4.html
+doc-install: Copying structsigc_1_1hide__functor_3-1_00_01T__functor_01_4.html
+doc-install: Copying classsigc_1_1signal7-members.html
+doc-install: Copying structsigc_1_1adaptor__trait_3_01T__functor_00_01false_01_4.html
+doc-install: Copying classsigc_1_1pointer__functor4-members.html
+doc-install: Copying functions_func_h.html
+doc-install: Copying group__compose.html
+doc-install: Copying functions_type_c.html
+doc-install: Copying classsigc_1_1signal7.html
+doc-install: Copying functions_type_g.html
+doc-install: Copying functions_type_d.html
+doc-install: Copying functions_f.html
+doc-install: Copying functions_m.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor0-members.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor6-members.html
+doc-install: Copying classsigc_1_1slot6-members.html
+doc-install: Copying classsigc_1_1const__mem__functor4.html
+doc-install: Copying classsigc_1_1volatile__limit__reference_3_01T__type_00_01true_01_4.html
+doc-install: Copying structsigc_1_1retype__return__functor-members.html
+doc-install: Copying classsigc_1_1bound__argument.html
+doc-install: Copying namespacemembers_func_u.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor1-members.html
+doc-install: Copying classsigc_1_1track__obj__functor2-members.html
+doc-install: Copying structsigc_1_1visitor-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor4.html
+doc-install: Copying classsigc_1_1slot1-members.html
+doc-install: Copying structsigc_1_1hide__functor_3_010_00_01T__functor_01_4-members.html
+doc-install: Copying structsigc_1_1deduce__result__type-members.html
+doc-install: Copying namespacemembers_d.html
+doc-install: Copying structsigc_1_1adaptor__trait.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor5.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor0.html
+doc-install: Copying classsigc_1_1const__limit__reference.html
+doc-install: Copying namespacemembers_t.html
+doc-install: Copying classsigc_1_1const__mem__functor0-members.html
+doc-install: Copying classsigc_1_1bound__mem__functor5-members.html
+doc-install: Copying structsigc_1_1type__trait_3_01const_01T__type_01_6_01_4.html
+doc-install: Copying classsigc_1_1signal3-members.html
+doc-install: Copying classsigc_1_1pointer__functor7-members.html
+doc-install: Copying classsigc_1_1const__mem__functor5.html
+doc-install: Copying functions_func_v.html
+doc-install: Copying structsigc_1_1bind__return__functor.html
+doc-install: Copying structsigc_1_1type__trait_3_01T__type[N]_4.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor4-members.html
+doc-install: Copying structsigc_1_1connection-members.html
+doc-install: Copying classsigc_1_1bound__argument_3_01reference__wrapper_3_01T__wrapped_01_4_01_4.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor0-members.html
+doc-install: Copying classsigc_1_1signal-members.html
+doc-install: Copying hierarchy.html
+doc-install: Copying classsigc_1_1signal2.html
+doc-install: Copying namespacemembers_h.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor7-members.html
+doc-install: Copying structsigc_1_1bind__return__functor-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor5.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor3-members.html
+doc-install: Copying classsigc_1_1bound__argument_3_01const__reference__wrapper_3_01T__wrapped_01_4_01_4-members.html
+doc-install: Copying structsigc_1_1compose2__functor-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor1.html
+doc-install: Copying since_2_4.html
+doc-install: Copying structsigc_1_1type__trait-members.html
+doc-install: Copying namespacemembers_r.html
+doc-install: Copying group__hide.html
+doc-install: Copying classsigc_1_1bound__mem__functor4.html
+doc-install: Copying classsigc_1_1signal_1_1accumulated.html
+doc-install: Copying classsigc_1_1mem__functor2-members.html
+doc-install: Copying classsigc_1_1limit__reference.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor2-members.html
+doc-install: Copying structsigc_1_1trackable.html
+doc-install: Copying namespacemembers_p.html
+doc-install: Copying classsigc_1_1signal4-members.html
+doc-install: Copying structsigc_1_1unwrap__reference_3_01reference__wrapper_3_01T__type_01_4_01_4-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor3.html
+doc-install: Copying structsigc_1_1unwrap__reference-members.html
+doc-install: Copying namespacemembers_m.html
+doc-install: Copying group__ptr__fun.html
+doc-install: Copying classsigc_1_1can__deduce__result__type__with__decltype.html
+doc-install: Copying classsigc_1_1bound__mem__functor0-members.html
+doc-install: Copying structsigc_1_1compose1__functor.html
+doc-install: Copying classsigc_1_1slot4-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor6-members.html
+doc-install: Copying structsigc_1_1exception__catch__functor-members.html
+doc-install: Copying classsigc_1_1signal1.html
+doc-install: Copying classsigc_1_1volatile__mem__functor1.html
+doc-install: Copying structsigc_1_1reference__wrapper.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor7-members.html
+doc-install: Copying structsigc_1_1type__trait_3_01T__type[N]_4-members.html
+doc-install: Copying classsigc_1_1volatile__mem__functor0-members.html
+doc-install: Copying classsigc_1_1signal3.html
+doc-install: Copying namespacemembers_func_e.html
+doc-install: Copying classsigc_1_1bound__mem__functor5.html
+doc-install: Copying classsigc_1_1volatile__mem__functor6.html
+doc-install: Copying group__track__obj.html
+doc-install: Copying classsigc_1_1signal_1_1accumulated-members.html
+doc-install: Copying classsigc_1_1mem__functor7.html
+doc-install: Copying structsigc_1_1trackable-members.html
+doc-install: Copying classsigc_1_1bound__mem__functor7-members.html
+doc-install: Copying functions_type_t.html
+doc-install: Copying structsigc_1_1bind__functor.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor7.html
+doc-install: Copying classsigc_1_1const__mem__functor1.html
+doc-install: Copying classsigc_1_1mem__functor7-members.html
+doc-install: Copying classsigc_1_1bound__mem__functor6.html
+doc-install: Copying classsigc_1_1bound__mem__functor6-members.html
+doc-install: Copying classsigc_1_1slot5-members.html
+doc-install: Copying structsigc_1_1retype__return__functor.html
+doc-install: Copying namespacemembers_func_r.html
+doc-install: Copying structsigc_1_1adapts-members.html
+doc-install: Copying group__retype.html
+doc-install: Copying classsigc_1_1const__mem__functor0.html
+doc-install: Copying namespacemembers_func_c.html
+doc-install: Copying classsigc_1_1const__mem__functor5-members.html
+doc-install: Copying index.html
+doc-install: Copying functions_type_e.html
+doc-install: Copying classsigc_1_1const__mem__functor2-members.html
+doc-install: Copying classsigc_1_1slot-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor1-members.html
+doc-install: Copying classsigc_1_1slot5.html
+doc-install: Copying classsigc_1_1limit__reference_3_01T__type_00_01true_01_4-members.html
+doc-install: Copying structsigc_1_1reference__wrapper-members.html
+doc-install: Copying structsigc_1_1slot__list-members.html
+doc-install: Copying structsigc_1_1retype__functor-members.html
+doc-install: Copying structsigc_1_1adaptor__trait_3_01T__functor_00_01true_01_4.html
+doc-install: Copying functions_o.html
+doc-install: Copying classsigc_1_1slot3-members.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor7-members.html
+doc-install: Copying functions_d.html
+doc-install: Copying classsigc_1_1const__volatile__limit__reference_3_01T__type_00_01true_01_4-members.html
+doc-install: Copying functions_type_f.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor3.html
+doc-install: Copying functions_func_t.html
+doc-install: Copying classsigc_1_1limit__reference_3_01T__type_00_01true_01_4.html
+doc-install: Copying classsigc_1_1mem__functor2.html
+doc-install: Copying classsigc_1_1track__obj__functor1-members.html
+doc-install: Copying classsigc_1_1pointer__functor5-members.html
+doc-install: Copying classsigc_1_1signal.html
+doc-install: Copying classsigc_1_1slot4.html
+doc-install: Copying classsigc_1_1bound__mem__functor2.html
+doc-install: Copying classsigc_1_1slot0.html
+doc-install: Copying structsigc_1_1signal__base.html
+doc-install: Copying classsigc_1_1bound__mem__functor1-members.html
+doc-install: Copying functions_s.html
+doc-install: Copying functions_func_p.html
+doc-install: Copying structsigc_1_1retype__functor.html
+doc-install: Copying functions_func_~.html
+doc-install: Copying structsigc_1_1adaptor__base.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor7-members.html
+doc-install: Copying structsigc_1_1unwrap__reference_3_01const__reference__wrapper_3_01T__type_01_4_01_4.html
+doc-install: Copying classsigc_1_1slot7.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor5-members.html
+doc-install: Copying classsigc_1_1mem__functor3.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor2-members.html
+doc-install: Copying classsigc_1_1const__volatile__limit__reference.html
+doc-install: Copying classsigc_1_1const__limit__reference-members.html
+doc-install: Copying classsigc_1_1volatile__mem__functor3.html
+doc-install: Copying functions_func_f.html
+doc-install: Copying structsigc_1_1exception__catch__functor_3_01T__functor_00_01T__catcher_00_01void_01_4.html
+doc-install: Copying classsigc_1_1pointer__functor4.html
+doc-install: Copying structsigc_1_1functor__base.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor2.html
+doc-install: Copying classsigc_1_1pointer__functor1.html
+doc-install: Copying functions_func_i.html
+doc-install: Copying classsigc_1_1signal6-members.html
+doc-install: Copying structsigc_1_1compose1__functor-members.html
+doc-install: Copying structsigc_1_1compose2__functor.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor6.html
+doc-install: Copying classsigc_1_1track__obj__functor2.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor2.html
+doc-install: Copying classsigc_1_1volatile__limit__reference_3_01T__type_00_01true_01_4-members.html
+doc-install: Copying classsigc_1_1bound__mem__functor7.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor0.html
+doc-install: Copying functions_type_s.html
+doc-install: Copying classsigc_1_1volatile__mem__functor4-members.html
+doc-install: Copying classsigc_1_1slot1.html
+doc-install: Copying functions_l.html
+doc-install: Copying functions_r.html
+doc-install: Copying classsigc_1_1const__limit__reference_3_01T__type_00_01true_01_4.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor7.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor2-members.html
+doc-install: Copying structsigc_1_1visitor.html
+doc-install: Copying classsigc_1_1signal1-members.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor0.html
+doc-install: Copying classsigc_1_1volatile__mem__functor7-members.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor1-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor3.html
+doc-install: Copying classsigc_1_1slot.html
+doc-install: Copying inherits.html
+doc-install: Copying namespacemembers.html
+doc-install: Copying classsigc_1_1track__obj__functor1.html
+doc-install: Copying functions_func_e.html
+doc-install: Copying classsigc_1_1bound__mem__functor1.html
+doc-install: Copying structsigc_1_1hide__functor_3-1_00_01T__functor_01_4-members.html
+doc-install: Copying classsigc_1_1mem__functor4.html
+doc-install: Copying structsigc_1_1slot__iterator.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor6-members.html
+doc-install: Copying functions_func_d.html
+doc-install: Copying classsigc_1_1volatile__mem__functor1-members.html
+doc-install: Copying structsigc_1_1functor__trait.html
+doc-install: Copying functions_func_o.html
+doc-install: Copying structsigc_1_1unwrap__reference_3_01const__reference__wrapper_3_01T__type_01_4_01_4-members.html
+doc-install: Copying classsigc_1_1const__mem__functor6.html
+doc-install: Copying classsigc_1_1volatile__mem__functor5.html
+doc-install: Copying classsigc_1_1slot0-members.html
+doc-install: Copying classsigc_1_1mem__functor0.html
+doc-install: Copying classsigc_1_1const__mem__functor4-members.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor5-members.html
+doc-install: Copying dir_5fbc72877197f8c6013d0f619df5433c.html
+doc-install: Copying namespacemembers_func_t.html
+doc-install: Copying classsigc_1_1volatile__limit__reference.html
+doc-install: Copying namespacemembers_func_h.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor0-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor2-members.html
+doc-install: Copying structsigc_1_1hide__functor.html
+doc-install: Copying classsigc_1_1const__volatile__limit__reference_3_01T__type_00_01true_01_4.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor4.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor2.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor0-members.html
+doc-install: Copying namespacemembers_c.html
+doc-install: Copying classsigc_1_1track__obj__functor5-members.html
+doc-install: Copying deprecated.html
+doc-install: Copying classsigc_1_1slot3.html
+doc-install: Copying structsigc_1_1type__trait_3_01T__type_01_6_01_4.html
+doc-install: Copying functions_type_i.html
+doc-install: Copying functions_func.html
+doc-install: Copying classsigc_1_1bound__mem__functor3-members.html
+doc-install: Copying classsigc_1_1volatile__mem__functor5-members.html
+doc-install: Copying classsigc_1_1can__deduce__result__type__with__decltype-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor5-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor3-members.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor7.html
+doc-install: Copying functions_type_r.html
+doc-install: Copying structsigc_1_1slot__iterator-members.html
+doc-install: Copying namespacemembers_u.html
+doc-install: Copying structsigc_1_1connection.html
+doc-install: Copying classsigc_1_1signal4.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor3-members.html
+doc-install: Copying structsigc_1_1signal__base-members.html
+doc-install: Copying group__adaptors.html
+doc-install: Copying since_2_2_11.html
+doc-install: Copying classsigc_1_1mem__functor6-members.html
+doc-install: Copying classsigc_1_1mem__functor0-members.html
+doc-install: Copying classsigc_1_1track__obj__functor5.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor6.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor0.html
+doc-install: Copying dir_0bd3c8d814eb03171de012519d7a2ccd.html
+doc-install: Copying structsigc_1_1unwrap__reference_3_01reference__wrapper_3_01T__type_01_4_01_4.html
+doc-install: Copying classsigc_1_1pointer__functor6-members.html
+doc-install: Copying classsigc_1_1const__volatile__limit__reference-members.html
+doc-install: Copying structsigc_1_1adaptor__functor-members.html
+doc-install: Copying structsigc_1_1retype__return__functor_3_01void_00_01T__functor_01_4-members.html
+doc-install: Copying classsigc_1_1mem__functor1.html
+doc-install: Copying classsigc_1_1signal6.html
+doc-install: Copying structsigc_1_1type__trait_3_01const_01T__type_01_6_01_4-members.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor4.html
+doc-install: Copying structsigc_1_1type__trait.html
+doc-install: Copying classsigc_1_1volatile__limit__reference-members.html
+doc-install: Copying structsigc_1_1exception__catch__functor_3_01T__functor_00_01T__catcher_00_01void_01_4-members.html
+doc-install: Copying classsigc_1_1const__mem__functor6-members.html
+doc-install: Copying namespacemembers_func_m.html
+doc-install: Copying classsigc_1_1mem__functor4-members.html
+doc-install: Copying functions_type_p.html
+doc-install: Copying group__mem__fun.html
+doc-install: Copying classsigc_1_1track__obj__functor7-members.html
+doc-install: Copying classsigc_1_1volatile__mem__functor6-members.html
+doc-install: Copying classsigc_1_1track__obj__functor6-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor4.html
+doc-install: Copying structsigc_1_1type__trait_3_01void_01_4.html
+doc-install: Copying classsigc_1_1const__mem__functor3.html
+doc-install: Copying functions_func_c.html
+doc-install: Copying classsigc_1_1bound__argument_3_01reference__wrapper_3_01T__wrapped_01_4_01_4-members.html
+doc-install: Copying functions_c.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor1.html
+doc-install: Copying classsigc_1_1const__volatile__mem__functor3.html
+doc-install: Copying functions_~.html
+doc-install: Copying functions_v.html
+doc-install: Copying classsigc_1_1bound__argument-members.html
+doc-install: Copying classsigc_1_1const__mem__functor3-members.html
+doc-install: Copying classsigc_1_1slot7-members.html
+doc-install: Copying classsigc_1_1pointer__functor1-members.html
+doc-install: Copying namespacemembers_e.html
+doc-install: Copying namespaces.html
+doc-install: Copying classsigc_1_1slot6.html
+doc-install: Copying classsigc_1_1volatile__mem__functor7.html
+doc-install: Copying classsigc_1_1track__obj__functor4-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor4-members.html
+doc-install: Copying dir_5c02128c554eaa40138b2e605fc08970.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor1.html
+doc-install: Copying functions_func_m.html
+doc-install: Copying classes.html
+doc-install: Copying functions_func_b.html
+doc-install: Copying namespacemembers_type.html
+doc-install: Copying classsigc_1_1volatile__mem__functor4.html
+doc-install: Copying functions.html
+doc-install: Copying classsigc_1_1bound__argument_3_01const__reference__wrapper_3_01T__wrapped_01_4_01_4.html
+doc-install: Copying classsigc_1_1volatile__mem__functor2-members.html
+doc-install: Copying classsigc_1_1track__obj__functor6.html
+doc-install: Copying classsigc_1_1volatile__mem__functor0.html
+doc-install: Copying functions_vars.html
+doc-install: Copying classsigc_1_1mem__functor5.html
+doc-install: Copying classsigc_1_1const__mem__functor7-members.html
+doc-install: Copying structsigc_1_1functor__trait-members.html
+doc-install: Copying classsigc_1_1slot2.html
+doc-install: Copying structsigc_1_1adaptor__functor.html
+doc-install: Copying structsigc_1_1slot__const__iterator.html
+doc-install: Copying classsigc_1_1signal0-members.html
+doc-install: Copying structsigc_1_1retype__return__functor_3_01void_00_01T__functor_01_4.html
+doc-install: Copying functions_u.html
+doc-install: Copying classsigc_1_1mem__functor5-members.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor2.html
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor6-members.html
+doc-install: Copying classsigc_1_1pointer__functor7.html
+doc-install: Copying group__exception__catch.html
+doc-install: Copying classsigc_1_1pointer__functor0-members.html
+doc-install: Copying functions_i.html
+doc-install: Copying classsigc_1_1signal5.html
+doc-install: Copying structsigc_1_1adaptor__trait_3_01T__functor_00_01false_01_4-members.html
+doc-install: Copying classsigc_1_1pointer__functor3-members.html
+doc-install: Copying classsigc_1_1pointer__functor6.html
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor6.html
+doc-install: Copying structsigc_1_1slot__const__iterator-members.html
+doc-install: Copying classsigc_1_1const__mem__functor7.html
+doc-install: Copying classsigc_1_1bound__mem__functor0.html
+doc-install: Copying classsigc_1_1pointer__functor3.html
+doc-install: Copying structsigc_1_1const__reference__wrapper.html
+doc-install: Copying classsigc_1_1slot2-members.html
+doc-install: Copying functions_func_r.html
+doc-install: Copying structsigc_1_1hide__functor_3_010_00_01T__functor_01_4.html
+doc-install: Copying structsigc_1_1const__reference__wrapper-members.html
+doc-install: Copying classsigc_1_1slot__base-members.html
+doc-install: Copying graph_legend.html
+doc-install: Copying group__bind.html
+doc-install: Copying functions_type.html
+doc-install: Copying functions_g.html
+doc-install: Copying classsigc_1_1limit__reference-members.html
+doc-install: Copying structsigc_1_1slot__list.html
+doc-install: Copying classsigc_1_1bound__mem__functor2-members.html
+doc-install: Copying functions_func_s.html
+doc-install: Copying functions_func_u.html
+doc-install: Copying classsigc_1_1track__obj__functor3-members.html
+doc-install: Copying classsigc_1_1const__mem__functor1-members.html
+doc-install: Copying classsigc_1_1bound__const__mem__functor1.html
+doc-install: Copying functions_n.html
+doc-install: Copying functions_func_l.html
+doc-install: Copying group__signal.html
+doc-install: Copying classsigc_1_1const__mem__functor2.html
+doc-install: Copying functions_func_n.html
+doc-install: Copying classsigc_1_1mem__functor1-members.html
+doc-install: Copying classsigc_1_1pointer__functor5.html
+doc-install: Copying jquery.js
+doc-install: Copying dynsections.js
+doc-install: Copying inherit_graph_31.png
+doc-install: Copying inherit_graph_8.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor6__inherit__graph.png
+doc-install: Copying nav_g.png
+doc-install: Copying sync_off.png
+doc-install: Copying inherit_graph_36.png
+doc-install: Copying classsigc_1_1slot5__inherit__graph.png
+doc-install: Copying arrowright.png
+doc-install: Copying inherit_graph_12.png
+doc-install: Copying inherit_graph_45.png
+doc-install: Copying classsigc_1_1const__mem__functor1__inherit__graph.png
+doc-install: Copying classsigc_1_1mem__functor1__inherit__graph.png
+doc-install: Copying structsigc_1_1retype__functor__inherit__graph.png
+doc-install: Copying classsigc_1_1slot__base__inherit__graph.png
+doc-install: Copying structsigc_1_1signal__base__inherit__graph.png
+doc-install: Copying nav_f.png
+doc-install: Copying bc_s.png
+doc-install: Copying classsigc_1_1signal1__inherit__graph.png
+doc-install: Copying nav_h.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor1__inherit__graph.png
+doc-install: Copying open.png
+doc-install: Copying doc.png
+doc-install: Copying tab_s.png
+doc-install: Copying inherit_graph_47.png
+doc-install: Copying inherit_graph_33.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor6__inherit__graph.png
+doc-install: Copying structsigc_1_1adaptor__functor__inherit__graph.png
+doc-install: Copying classsigc_1_1volatile__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1volatile__mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor2__inherit__graph.png
+doc-install: Copying tab_a.png
+doc-install: Copying classsigc_1_1track__obj__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor1__inherit__graph.png
+doc-install: Copying structsigc_1_1exception__catch__functor__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1signal7__inherit__graph.png
+doc-install: Copying folderopen.png
+doc-install: Copying structsigc_1_1compose2__functor__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor0__inherit__graph.png
+doc-install: Copying sync_on.png
+doc-install: Copying classsigc_1_1volatile__mem__functor7__inherit__graph.png
+doc-install: Copying inherit_graph_41.png
+doc-install: Copying inherit_graph_9.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor3__inherit__graph.png
+doc-install: Copying inherit_graph_6.png
+doc-install: Copying inherit_graph_30.png
+doc-install: Copying classsigc_1_1bound__mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor7__inherit__graph.png
+doc-install: Copying classsigc_1_1track__obj__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1slot__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor0__inherit__graph.png
+doc-install: Copying classsigc_1_1slot7__inherit__graph.png
+doc-install: Copying classsigc_1_1signal0__inherit__graph.png
+doc-install: Copying classsigc_1_1slot1__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1signal5__inherit__graph.png
+doc-install: Copying classsigc_1_1mem__functor0__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1slot3__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor1__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor7__inherit__graph.png
+doc-install: Copying bdwn.png
+doc-install: Copying inherit_graph_13.png
+doc-install: Copying inherit_graph_35.png
+doc-install: Copying doxygen.png
+doc-install: Copying inherit_graph_21.png
+doc-install: Copying classsigc_1_1volatile__mem__functor5__inherit__graph.png
+doc-install: Copying inherit_graph_10.png
+doc-install: Copying inherit_graph_37.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor2__inherit__graph.png
+doc-install: Copying splitbar.png
+doc-install: Copying inherit_graph_5.png
+doc-install: Copying structsigc_1_1adapts__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor1__inherit__graph.png
+doc-install: Copying structsigc_1_1adaptor__base__inherit__graph.png
+doc-install: Copying inherit_graph_0.png
+doc-install: Copying structsigc_1_1retype__return__functor__inherit__graph.png
+doc-install: Copying inherit_graph_42.png
+doc-install: Copying inherit_graph_2.png
+doc-install: Copying structsigc_1_1functor__base__inherit__graph.png
+doc-install: Copying inherit_graph_44.png
+doc-install: Copying inherit_graph_34.png
+doc-install: Copying inherit_graph_24.png
+doc-install: Copying inherit_graph_17.png
+doc-install: Copying classsigc_1_1volatile__mem__functor3__inherit__graph.png
+doc-install: Copying arrowdown.png
+doc-install: Copying classsigc_1_1slot0__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1track__obj__functor4__inherit__graph.png
+doc-install: Copying inherit_graph_27.png
+doc-install: Copying classsigc_1_1track__obj__functor1__inherit__graph.png
+doc-install: Copying inherit_graph_22.png
+doc-install: Copying classsigc_1_1signal2__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor5__inherit__graph.png
+doc-install: Copying inherit_graph_18.png
+doc-install: Copying classsigc_1_1const__mem__functor0__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1track__obj__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor7__inherit__graph.png
+doc-install: Copying classsigc_1_1signal3__inherit__graph.png
+doc-install: Copying tab_b.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1slot4__inherit__graph.png
+doc-install: Copying structsigc_1_1trackable__inherit__graph.png
+doc-install: Copying structsigc_1_1hide__functor_3_010_00_01T__functor_01_4__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor7__inherit__graph.png
+doc-install: Copying inherit_graph_29.png
+doc-install: Copying inherit_graph_28.png
+doc-install: Copying inherit_graph_11.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor1__inherit__graph.png
+doc-install: Copying inherit_graph_3.png
+doc-install: Copying classsigc_1_1pointer__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor0__inherit__graph.png
+doc-install: Copying classsigc_1_1volatile__mem__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1volatile__mem__functor1__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor7__inherit__graph.png
+doc-install: Copying inherit_graph_25.png
+doc-install: Copying classsigc_1_1mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1pointer__functor4__inherit__graph.png
+doc-install: Copying inherit_graph_39.png
+doc-install: Copying inherit_graph_38.png
+doc-install: Copying structsigc_1_1retype__return__functor_3_01void_00_01T__functor_01_4__inherit__graph.png
+doc-install: Copying classsigc_1_1slot6__inherit__graph.png
+doc-install: Copying inherit_graph_1.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor3__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor0__inherit__graph.png
+doc-install: Copying structsigc_1_1compose1__functor__inherit__graph.png
+doc-install: Copying inherit_graph_43.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor0__inherit__graph.png
+doc-install: Copying inherit_graph_7.png
+doc-install: Copying classsigc_1_1mem__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor4__inherit__graph.png
+doc-install: Copying classsigc_1_1mem__functor3__inherit__graph.png
+doc-install: Copying inherit_graph_23.png
+doc-install: Copying inherit_graph_15.png
+doc-install: Copying inherit_graph_16.png
+doc-install: Copying closed.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor7__inherit__graph.png
+doc-install: Copying inherit_graph_26.png
+doc-install: Copying classsigc_1_1pointer__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor7__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__volatile__mem__functor6__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__const__mem__functor0__inherit__graph.png
+doc-install: Copying classsigc_1_1const__mem__functor5__inherit__graph.png
+doc-install: Copying classsigc_1_1const__volatile__mem__functor6__inherit__graph.png
+doc-install: Copying structsigc_1_1hide__functor_3-1_00_01T__functor_01_4__inherit__graph.png
+doc-install: Copying graph_legend.png
+doc-install: Copying inherit_graph_32.png
+doc-install: Copying classsigc_1_1mem__functor7__inherit__graph.png
+doc-install: Copying classsigc_1_1mem__functor5__inherit__graph.png
+doc-install: Copying inherit_graph_14.png
+doc-install: Copying classsigc_1_1signal_1_1accumulated__inherit__graph.png
+doc-install: Copying classsigc_1_1slot2__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__volatile__mem__functor5__inherit__graph.png
+doc-install: Copying folderclosed.png
+doc-install: Copying classsigc_1_1track__obj__functor2__inherit__graph.png
+doc-install: Copying classsigc_1_1track__obj__functor7__inherit__graph.png
+doc-install: Copying classsigc_1_1signal__inherit__graph.png
+doc-install: Copying inherit_graph_40.png
+doc-install: Copying classsigc_1_1signal4__inherit__graph.png
+doc-install: Copying classsigc_1_1volatile__mem__functor0__inherit__graph.png
+doc-install: Copying inherit_graph_46.png
+doc-install: Copying inherit_graph_19.png
+doc-install: Copying classsigc_1_1signal6__inherit__graph.png
+doc-install: Copying classsigc_1_1bound__mem__functor6__inherit__graph.png
+doc-install: Copying tab_h.png
+doc-install: Copying classsigc_1_1bound__mem__functor1__inherit__graph.png
+doc-install: Copying structsigc_1_1bind__return__functor__inherit__graph.png
+doc-install: Copying inherit_graph_4.png
+doc-install: Copying inherit_graph_20.png
+/bin/mkdir -p '/usr/share/devhelp/books/libsigc++-2.0'
+/usr/bin/perl -- "../docs/doc-install.pl" --verbose --mode=0644 --book-base='/usr/share/doc/libsigc++-2.0/reference/html' -t '/usr/share/devhelp/books/libsigc++-2.0' -- reference/libsigc++-2.0.devhelp2
+doc-install: Using base path /usr/share/doc/libsigc++-2.0/reference/html for Devhelp book
+doc-install: Translating libsigc++-2.0.devhelp2 (rewrote base path)
+ /bin/mkdir -p '/usr/share/doc/libsigc++-2.0/images'
+ /usr/bin/install -c -m 644 images/libsigc_logo.gif images/top.gif '/usr/share/doc/libsigc++-2.0/images'
+ /bin/mkdir -p '/usr/share/doc/libsigc++-2.0/tutorial/html'
+ /usr/bin/install -c -m 644 manual/html/ch01.html manual/html/ch02.html manual/html/ch02s02.html manual/html/ch02s03.html manual/html/ch02s04.html manual/html/ch03.html manual/html/ch03s02.html manual/html/ch04.html manual/html/ch04s02.html manual/html/ch05.html manual/html/index.html '/usr/share/doc/libsigc++-2.0/tutorial/html'
+ /bin/mkdir -p '/usr/share/doc/libsigc++-2.0'
+ /usr/bin/install -c -m 644 index.html '/usr/share/doc/libsigc++-2.0'
+ /bin/mkdir -p '/usr/share/doc/libsigc++-2.0/reference'
+ /usr/bin/install -c -m 644 reference/libsigc++-2.0.tag '/usr/share/doc/libsigc++-2.0/reference'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 sigc++-2.0.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/sigc++-2.0/include'
+ /usr/bin/install -c -m 644 sigc++config.h '/usr/lib/sigc++-2.0/include'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2'

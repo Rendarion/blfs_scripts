@@ -1,0 +1,12 @@
+URL=(
+"https://github.com/anholt/libepoxy/releases/download/v1.4/libepoxy-1.4.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"mesa-13.0.4"
+)

@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/libsndfile-1.0.27 &&
+make

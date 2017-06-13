@@ -1,0 +1,14 @@
+URL=(
+"http://www.freedesktop.org/software/harfbuzz/release/harfbuzz-1.4.2.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"icu-58.2"
+"freetype-2.7.1"
+)

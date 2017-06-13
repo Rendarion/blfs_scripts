@@ -1,0 +1,101 @@
+Making check in lib
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+Making check in po
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/po'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/po'
+Making check in sed
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/sed'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/sed'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/doc'
+Making check in testsuite
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make  
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+PASS: appquit
+PASS: enable
+PASS: sep
+PASS: inclib
+PASS: 8bit
+PASS: newjis
+PASS: xabcx
+PASS: dollar
+PASS: noeol
+PASS: noeolw
+PASS: modulo
+PASS: numsub
+PASS: numsub2
+PASS: numsub3
+PASS: numsub4
+PASS: numsub5
+PASS: 0range
+PASS: bkslashes
+PASS: head
+PASS: madding
+PASS: mac-mf
+PASS: empty
+PASS: xbxcx
+PASS: xbxcx3
+PASS: recall
+PASS: recall2
+PASS: xemacs
+PASS: fasts
+PASS: uniq
+PASS: manis
+PASS: khadafy
+PASS: linecnt
+PASS: eval
+PASS: distrib
+PASS: 8to7
+PASS: y-bracket
+PASS: y-newline
+PASS: allsub
+PASS: cv-vars
+PASS: classes
+PASS: middle
+PASS: bsd
+PASS: stdin
+PASS: flipcase
+PASS: insens
+PASS: subwrite
+PASS: writeout
+PASS: readin
+PASS: insert
+PASS: utf8-1
+PASS: utf8-2
+PASS: utf8-3
+PASS: utf8-4
+PASS: badenc
+PASS: inplace-hold
+PASS: brackets
+PASS: amp-escape
+PASS: help
+PASS: version
+PASS: file
+PASS: quiet
+PASS: factor
+PASS: binary3
+PASS: binary2
+PASS: binary
+PASS: dc
+===================
+All 66 tests passed
+===================
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make[1]: Entering directory '/sources/7.9/sed-4.2.2'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2'

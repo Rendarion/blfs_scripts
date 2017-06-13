@@ -1,0 +1,14 @@
+URL=(
+"http://downloads.webmproject.org/releases/webp/libwebp-0.6.0.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libjpeg-turbo-1.5.1"
+"libpng-1.6.28"
+"libtiff-4.0.7"
+)

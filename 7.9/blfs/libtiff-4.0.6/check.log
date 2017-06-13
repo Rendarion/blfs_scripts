@@ -1,0 +1,223 @@
+Making check in port
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/port'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/port'
+Making check in libtiff
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/libtiff'
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/libtiff'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/tools'
+Making check in build
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/build'
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/build'
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/build'
+Making check in contrib
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib'
+Making check in addtiffo
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/addtiffo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/addtiffo'
+Making check in dbs
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/dbs'
+Making check in xtiff
+make[3]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/dbs/xtiff'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/dbs/xtiff'
+make[3]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/dbs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/dbs'
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/dbs'
+Making check in iptcutil
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/iptcutil'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/iptcutil'
+Making check in mfs
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/mfs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/mfs'
+Making check in pds
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/pds'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/pds'
+Making check in ras
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/ras'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/ras'
+Making check in stream
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/stream'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/stream'
+Making check in tags
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/tags'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/tags'
+Making check in win_dib
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib/win_dib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib/win_dib'
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/contrib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib'
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/contrib'
+Making check in test
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/test'
+make  ascii_tag long_tag short_tag strip_rw rewrite custom_dir raw_decode
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/test'
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT ascii_tag.o -MD -MP -MF .deps/ascii_tag.Tpo -c -o ascii_tag.o ascii_tag.c
+mv -f .deps/ascii_tag.Tpo .deps/ascii_tag.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o ascii_tag ascii_tag.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/ascii_tag ascii_tag.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT long_tag.o -MD -MP -MF .deps/long_tag.Tpo -c -o long_tag.o long_tag.c
+mv -f .deps/long_tag.Tpo .deps/long_tag.Po
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT check_tag.o -MD -MP -MF .deps/check_tag.Tpo -c -o check_tag.o check_tag.c
+mv -f .deps/check_tag.Tpo .deps/check_tag.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o long_tag long_tag.o check_tag.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/long_tag long_tag.o check_tag.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT short_tag.o -MD -MP -MF .deps/short_tag.Tpo -c -o short_tag.o short_tag.c
+mv -f .deps/short_tag.Tpo .deps/short_tag.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o short_tag short_tag.o check_tag.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/short_tag short_tag.o check_tag.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT strip_rw.o -MD -MP -MF .deps/strip_rw.Tpo -c -o strip_rw.o strip_rw.c
+mv -f .deps/strip_rw.Tpo .deps/strip_rw.Po
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT strip.o -MD -MP -MF .deps/strip.Tpo -c -o strip.o strip.c
+mv -f .deps/strip.Tpo .deps/strip.Po
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT test_arrays.o -MD -MP -MF .deps/test_arrays.Tpo -c -o test_arrays.o test_arrays.c
+mv -f .deps/test_arrays.Tpo .deps/test_arrays.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o strip_rw strip_rw.o strip.o test_arrays.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/strip_rw strip_rw.o strip.o test_arrays.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT rewrite_tag.o -MD -MP -MF .deps/rewrite_tag.Tpo -c -o rewrite_tag.o rewrite_tag.c
+mv -f .deps/rewrite_tag.Tpo .deps/rewrite_tag.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o rewrite rewrite_tag.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/rewrite rewrite_tag.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT custom_dir.o -MD -MP -MF .deps/custom_dir.Tpo -c -o custom_dir.o custom_dir.c
+mv -f .deps/custom_dir.Tpo .deps/custom_dir.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o custom_dir custom_dir.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/custom_dir custom_dir.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+gcc -DHAVE_CONFIG_H -I. -I../libtiff  -I../libtiff   -g -O2 -Wall -W -MT raw_decode.o -MD -MP -MF .deps/raw_decode.Tpo -c -o raw_decode.o raw_decode.c
+mv -f .deps/raw_decode.Tpo .deps/raw_decode.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -W   -o raw_decode raw_decode.o ../libtiff/libtiff.la -llzma -ljpeg -lz -lm 
+libtool: link: gcc -g -O2 -Wall -W -o .libs/raw_decode raw_decode.o  ../libtiff/.libs/libtiff.so /usr/lib/liblzma.so /usr/lib/libjpeg.so -lz -lm -pthread
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/test'
+make[3]: Entering directory '/sources/7.9/libtiff-4.0.6/test'
+PASS: ascii_tag
+PASS: long_tag
+PASS: short_tag
+PASS: strip_rw
+PASS: rewrite
+PASS: custom_dir
+PASS: raw_decode
+PASS: bmp2tiff_palette.sh
+PASS: bmp2tiff_rgb.sh
+PASS: gif2tiff.sh
+PASS: ppm2tiff_pbm.sh
+PASS: ppm2tiff_pgm.sh
+PASS: ppm2tiff_ppm.sh
+PASS: tiffcp-g3.sh
+PASS: tiffcp-g3-1d.sh
+PASS: tiffcp-g3-1d-fill.sh
+PASS: tiffcp-g3-2d.sh
+PASS: tiffcp-g3-2d-fill.sh
+PASS: tiffcp-g4.sh
+PASS: tiffcp-logluv.sh
+PASS: tiffcp-thumbnail.sh
+PASS: tiffdump.sh
+PASS: tiffinfo.sh
+PASS: tiffcp-split.sh
+PASS: tiffcp-split-join.sh
+PASS: tiff2ps-PS1.sh
+PASS: tiff2ps-PS2.sh
+PASS: tiff2ps-PS3.sh
+PASS: tiff2ps-EPS1.sh
+PASS: tiff2pdf.sh
+PASS: tiffcrop-doubleflip-logluv-3c-16b.sh
+PASS: tiffcrop-doubleflip-minisblack-1c-16b.sh
+PASS: tiffcrop-doubleflip-minisblack-1c-8b.sh
+PASS: tiffcrop-doubleflip-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-doubleflip-miniswhite-1c-1b.sh
+PASS: tiffcrop-doubleflip-palette-1c-1b.sh
+PASS: tiffcrop-doubleflip-palette-1c-4b.sh
+PASS: tiffcrop-doubleflip-palette-1c-8b.sh
+PASS: tiffcrop-doubleflip-rgb-3c-16b.sh
+PASS: tiffcrop-doubleflip-rgb-3c-8b.sh
+PASS: tiffcrop-extract-logluv-3c-16b.sh
+PASS: tiffcrop-extract-minisblack-1c-16b.sh
+PASS: tiffcrop-extract-minisblack-1c-8b.sh
+PASS: tiffcrop-extract-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-extract-miniswhite-1c-1b.sh
+PASS: tiffcrop-extract-palette-1c-1b.sh
+PASS: tiffcrop-extract-palette-1c-4b.sh
+PASS: tiffcrop-extract-palette-1c-8b.sh
+PASS: tiffcrop-extract-rgb-3c-16b.sh
+PASS: tiffcrop-extract-rgb-3c-8b.sh
+PASS: tiffcrop-extractz14-logluv-3c-16b.sh
+PASS: tiffcrop-extractz14-minisblack-1c-16b.sh
+PASS: tiffcrop-extractz14-minisblack-1c-8b.sh
+PASS: tiffcrop-extractz14-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-extractz14-miniswhite-1c-1b.sh
+PASS: tiffcrop-extractz14-palette-1c-1b.sh
+PASS: tiffcrop-extractz14-palette-1c-4b.sh
+PASS: tiffcrop-extractz14-palette-1c-8b.sh
+PASS: tiffcrop-extractz14-rgb-3c-16b.sh
+PASS: tiffcrop-extractz14-rgb-3c-8b.sh
+PASS: tiffcrop-R90-logluv-3c-16b.sh
+PASS: tiffcrop-R90-minisblack-1c-16b.sh
+PASS: tiffcrop-R90-minisblack-1c-8b.sh
+PASS: tiffcrop-R90-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-R90-miniswhite-1c-1b.sh
+PASS: tiffcrop-R90-palette-1c-1b.sh
+PASS: tiffcrop-R90-palette-1c-4b.sh
+PASS: tiffcrop-R90-palette-1c-8b.sh
+PASS: tiffcrop-R90-rgb-3c-16b.sh
+PASS: tiffcrop-R90-rgb-3c-8b.sh
+PASS: tiff2rgba-logluv-3c-16b.sh
+PASS: tiff2rgba-minisblack-1c-16b.sh
+PASS: tiff2rgba-minisblack-1c-8b.sh
+PASS: tiff2rgba-minisblack-2c-8b-alpha.sh
+PASS: tiff2rgba-miniswhite-1c-1b.sh
+PASS: tiff2rgba-palette-1c-1b.sh
+PASS: tiff2rgba-palette-1c-4b.sh
+PASS: tiff2rgba-palette-1c-8b.sh
+PASS: tiff2rgba-rgb-3c-16b.sh
+PASS: tiff2rgba-rgb-3c-8b.sh
+PASS: tiff2rgba-quad-tile.jpg.sh
+============================================================================
+Testsuite summary for LibTIFF Software 4.0.6
+============================================================================
+# TOTAL: 81
+# PASS:  81
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libtiff-4.0.6/test'
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/test'
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/test'
+Making check in man
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/man'
+Making check in html
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6/html'
+Making check in images
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/html/images'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/html/images'
+Making check in man
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/html/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/html/man'
+make[2]: Entering directory '/sources/7.9/libtiff-4.0.6/html'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtiff-4.0.6/html'
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6/html'
+make[1]: Entering directory '/sources/7.9/libtiff-4.0.6'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/libtiff-4.0.6'

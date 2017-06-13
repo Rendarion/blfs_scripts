@@ -1,0 +1,12 @@
+URL=(
+"https://download.kde.org/stable/partitionmanager/3.0.1/src/partitionmanager-3.0.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"kde_frameworks-5.31.0"
+)

@@ -1,0 +1,6 @@
+PKG=$(basename $PWD)
+
+make install
+
+install -v -dm755 /usr/share/doc/$PKG
+install -v -m644 doc/*.{html,png,css} /usr/share/doc/$PKG

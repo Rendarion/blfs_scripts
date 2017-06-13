@@ -1,0 +1,3 @@
+# Kicks of LFS installation and loging
+
+./install.script 2>&1 | tee install.log

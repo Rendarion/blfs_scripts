@@ -1,0 +1,151 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/librsvg-2.40.13'
+Making check in .
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+Making check in gdk-pixbuf-loader
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+  GEN      gdk-pixbuf-loaders
+  CCLD     rsvg-loader
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  check-am
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make     rsvg-test crash styles \
+                   ./fixtures/crash/bug620238.svg ./fixtures/crash/mask-cycles.svg ./fixtures/crash/marker-cycles.svg ./fixtures/crash/pattern-fallback-cycles.svg  ./fixtures/reftests/nonexisting-filter.svg ./fixtures/reftests/gzip-compressed.svg ./fixtures/reftests/duplicate-id.svg ./fixtures/reftests/include-compressed.svg ./fixtures/reftests/gzip-compressed-ref.png ./fixtures/reftests/duplicate-id-ref.png ./fixtures/reftests/include-compressed-ref.png ./fixtures/reftests/nonexisting-filter-ref.png   fixtures/dimensions/bug564527.svg fixtures/dimensions/bug614018.svg fixtures/dimensions/bug612951.svg fixtures/dimensions/bug608102.svg fixtures/dimensions/sub-rect-no-unit.svg fixtures/styles/bug620693.svg fixtures/styles/bug614704.svg fixtures/styles/bug614606.svg fixtures/styles/important.svg fixtures/styles/svg-class.svg fixtures/styles/bug592207.svg fixtures/styles/bug338160.svg fixtures/styles/bug379629.svg fixtures/styles/bug614643.svg fixtures/styles/bug418823.svg fixtures/styles/order.svg
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+  CC       rsvg-test.o
+  CC       test-utils.o
+  CCLD     rsvg-test
+  CC       crash.o
+  CCLD     crash
+  CC       styles.o
+  CCLD     styles
+make[4]: Nothing to be done for 'fixtures/crash/bug620238.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/mask-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/marker-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/pattern-fallback-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/nonexisting-filter.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/nonexisting-filter-ref.png'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug564527.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug614018.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug612951.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug608102.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/sub-rect-no-unit.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug620693.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614704.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614606.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/important.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/svg-class.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug592207.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug338160.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug379629.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614643.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug418823.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/order.svg'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+PASS: rsvg-test 1 /rsvg/reftest/duplicate-id.svg
+PASS: rsvg-test 2 /rsvg/reftest/gzip-compressed.svg
+PASS: rsvg-test 3 /rsvg/reftest/include-compressed.svg
+PASS: rsvg-test 4 /rsvg/reftest/nonexisting-filter.svg
+PASS: crash 1 /crash/bug620238.svg
+PASS: crash 2 /crash/marker-cycles.svg
+PASS: crash 3 /crash/mask-cycles.svg
+PASS: crash 4 /crash/pattern-fallback-cycles.svg
+PASS: styles 1 /styles/override presentation attribute
+PASS: styles 2 /styles/svg-element-style
+PASS: styles 3 /styles/presentation attribute in svg element
+PASS: styles 4 /styles/selectors/type
+PASS: styles 5 /styles/selectors/class
+PASS: styles 6 /styles/selectors/#id
+PASS: styles 7 /styles/selectors/style
+PASS: styles 8 /styles/selectors/style property prior than class
+PASS: styles 9 /styles/selectors/#id prior than class
+PASS: styles 10 /styles/selectors/type#id prior than class
+PASS: styles 11 /styles/selectors/class#id prior than class
+PASS: styles 12 /styles/selectors/type.class#id prior than class
+PASS: styles 13 /styles/selectors/#id prior than type
+PASS: styles 14 /styles/selectors/comma-separate (fill)
+PASS: styles 15 /styles/selectors/comma-separete (stroke)
+PASS: styles 16 /styles/selectors/2 or more selectors (fill)
+PASS: styles 17 /styles/selectors/2 or more selectors (stroke)
+PASS: styles 18 /styles/!important/stroke
+PASS: styles 19 /styles/!important/stroke-width
+PASS: styles 20 /styles/!important/class
+PASS: styles 21 /styles/!important/element
+PASS: styles 22 /styles/!important/#id prior than class
+PASS: styles 23 /styles/!important/class prior than type
+PASS: styles 24 /styles/!important/presentation attribute is invalid
+PASS: styles 25 /styles/!important/style prior than class
+make[6]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  all-am
+make[7]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[6]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+============================================================================
+Testsuite summary for RSVG 2.40.13
+============================================================================
+# TOTAL: 33
+# PASS:  33
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+Making check in tools
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tools'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tools'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/doc'
+Making check in build
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+Making check in win32
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+Making check in vs9
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+Making check in vs10
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+Making check in vs11
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+Making check in vs12
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+Making check in vs14
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[1]: Leaving directory '/sources/7.9/librsvg-2.40.13'

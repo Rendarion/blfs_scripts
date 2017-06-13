@@ -1,0 +1,623 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for xsltproc... no
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DEPS... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.30... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... (cached) /usr/bin/msgmerge
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... none
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating po/Makefile.in
+config.status: creating Makefile
+config.status: creating compat/Makefile
+config.status: creating geometry/Makefile
+config.status: creating geometry/digital_vndr/Makefile
+config.status: creating geometry/sgi_vndr/Makefile
+config.status: creating keycodes/Makefile
+config.status: creating keycodes/digital_vndr/Makefile
+config.status: creating keycodes/sgi_vndr/Makefile
+config.status: creating rules/Makefile
+config.status: creating rules/bin/Makefile
+config.status: creating rules/compat/Makefile
+config.status: creating symbols/Makefile
+config.status: creating symbols/digital_vndr/Makefile
+config.status: creating symbols/fujitsu_vndr/Makefile
+config.status: creating symbols/hp_vndr/Makefile
+config.status: creating symbols/jolla_vndr/Makefile
+config.status: creating symbols/macintosh_vndr/Makefile
+config.status: creating symbols/nec_vndr/Makefile
+config.status: creating symbols/nokia_vndr/Makefile
+config.status: creating symbols/sgi_vndr/Makefile
+config.status: creating symbols/sharp_vndr/Makefile
+config.status: creating symbols/sony_vndr/Makefile
+config.status: creating symbols/sun_vndr/Makefile
+config.status: creating symbols/xfree68_vndr/Makefile
+config.status: creating types/Makefile
+config.status: creating xkeyboard-config.pc
+config.status: creating docs/Makefile
+config.status: creating man/Makefile
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+config.status: executing po/stamp-it commands
+***********************************************************
+  xkeyboard-config is configured with the following parameters:
+    XKB base directory: ${datarootdir}/X11/xkb
+    Symbolic link(s) to legacy rules: xorg
+    Compatibility rules are included
+***********************************************************
+Making all in compat
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/compat'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/compat'
+Making all in geometry
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+Making all in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+Making all in keycodes
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+Making all in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+Making all in po
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/po'
+file=`echo af | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file af.po
+file=`echo az | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file az.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo crh | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file crh.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo ka | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ka.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo ky | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ky.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/po'
+Making all in rules
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+Making all in bin
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+Making all in compat
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+sh ../bin/mln_s.sh 2 .
+sh ../bin/mln_s.sh 3 .
+sh ../bin/mln_s.sh 4 .
+sh ../bin/mlnvn_s.sh 2 .
+sh ../bin/mlnvn_s.sh 3 .
+sh ../bin/mlnvn_s.sh 4 .
+sh ../bin/ml_s.sh .
+sh ../bin/ml1_s.sh .
+sh ../bin/mlv_s.sh .
+sh ../bin/ml1v1_s.sh .
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+HDR="./HDR" ./merge.sh base base.hdr.part base.lists.part base.lists.base.part compat/base.lists.part HDR base.m_k.part HDR base.l1_k.part HDR base.l_k.part HDR base.o_k.part HDR base.ml_g.part HDR base.m_g.part HDR compat/base.mlv_s.part   base.mlv_s.part HDR compat/base.ml_s.part    base.ml_s.part HDR compat/base.ml1_s.part   base.ml1_s.part HDR compat/base.ml1v1_s.part HDR compat/base.ml2_s.part    base.ml2_s.part HDR compat/base.ml3_s.part    base.ml3_s.part HDR compat/base.ml4_s.part    base.ml4_s.part HDR compat/base.ml2v2_s.part HDR compat/base.ml3v3_s.part HDR compat/base.ml4v4_s.part HDR base.m_s.part HDR base.ml_s1.part HDR compat/base.lv_c.part HDR compat/base.l1v1_c.part HDR compat/base.l2v2_c.part HDR compat/base.l3v3_c.part HDR compat/base.l4v4_c.part HDR base.ml_c.part HDR base.ml1_c.part HDR base.m_t.part HDR base.lo_s.part HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part HDR compat/base.o_s.part     base.o_s.part HDR base.o_c.part HDR base.o_t.part
+HDR="./HDR" ./merge.sh evdev base.hdr.part base.lists.part evdev.lists.part compat/base.lists.part HDR evdev.m_k.part HDR base.l1_k.part HDR base.l_k.part HDR base.o_k.part HDR base.ml_g.part HDR base.m_g.part HDR compat/base.mlv_s.part   base.mlv_s.part HDR compat/base.ml_s.part    base.ml_s.part HDR compat/base.ml1_s.part   base.ml1_s.part HDR compat/base.ml1v1_s.part HDR compat/base.ml2_s.part    base.ml2_s.part HDR compat/base.ml3_s.part    base.ml3_s.part HDR compat/base.ml4_s.part    base.ml4_s.part HDR compat/base.ml2v2_s.part HDR compat/base.ml3v3_s.part HDR compat/base.ml4v4_s.part HDR evdev.m_s.part HDR HDR compat/base.lv_c.part HDR compat/base.l1v1_c.part HDR compat/base.l2v2_c.part HDR compat/base.l3v3_c.part HDR compat/base.l4v4_c.part HDR base.ml_c.part HDR base.ml1_c.part HDR base.m_t.part HDR base.lo_s.part HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part HDR compat/base.o_s.part     base.o_s.part HDR base.o_c.part HDR base.o_t.part
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations base.xml.in base.xml
+Merging translations into base.xml.
+CREATED base.xml
+perl ./xml2lst.pl < base.xml > base.lst
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations evdev.xml.in evdev.xml
+Merging translations into evdev.xml.
+CREATED evdev.xml
+perl ./xml2lst.pl < evdev.xml > evdev.lst
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations base.extras.xml.in base.extras.xml
+Merging translations into base.extras.xml.
+CREATED base.extras.xml
+LC_ALL=C /usr/bin/intltool-merge  -x -u --no-translations evdev.extras.xml.in evdev.extras.xml
+Merging translations into evdev.extras.xml.
+CREATED evdev.extras.xml
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+Making all in symbols
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+Making all in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+Making all in fujitsu_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+Making all in hp_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+Making all in jolla_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+Making all in macintosh_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+Making all in nec_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+Making all in nokia_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+Making all in sharp_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+Making all in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+Making all in sony_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+Making all in sun_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+Making all in xfree68_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+Making all in types
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/types'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/types'
+Making all in docs
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/docs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/docs'
+Making all in man
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17'
+Making install in compat
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/compat'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/compat'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/compat'
+ /usr/bin/install -c -m 644 accessx basic caps complete iso9995 japan ledcaps lednum ledscroll level5 misc mousekeys olpc pc pc98 xfree86 xtest README '/usr/share/X11/xkb/compat'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/compat'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/compat'
+Making install in geometry
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+Making install in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc unix '/usr/share/X11/xkb/geometry/digital_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/digital_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry/sgi_vndr'
+ /usr/bin/install -c -m 644 indigo indy O2 '/usr/share/X11/xkb/geometry/sgi_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry/sgi_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/geometry'
+ /usr/bin/install -c -m 644 amiga ataritt chicony dell everex fujitsu hhk hp keytronic kinesis macintosh microsoft nec nokia northgate pc sanwa sony thinkpad sun teck typematrix winbook README '/usr/share/X11/xkb/geometry'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/geometry'
+Making install in keycodes
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+Making install in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc '/usr/share/X11/xkb/keycodes/digital_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/digital_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes/sgi_vndr'
+ /usr/bin/install -c -m 644 indigo indy iris '/usr/share/X11/xkb/keycodes/sgi_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes/sgi_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/keycodes'
+ /usr/bin/install -c -m 644 aliases amiga ataritt empty evdev fujitsu hp ibm jolla macintosh olpc sony sun xfree86 xfree98 README '/usr/share/X11/xkb/keycodes'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/keycodes'
+Making install in po
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/po'
+linguas="af az bg ca crh cs da de el en_GB eo es fi fr gl hr hu id it ja ka ko ky lt nb nl pl pt_BR ro ru rw sk sl sq sr sv tr uk vi zh_CN zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/xkeyboard-config-2.17/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/xkeyboard-config.mo; \
+    echo "installing $lang.gmo as $dir/xkeyboard-config.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/xkeyboard-config.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/xkeyboard-config.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/xkeyboard-config.mo.m; \
+    echo "installing $lang.gmo.m as $dir/xkeyboard-config.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/xkeyboard-config.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/xkeyboard-config.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/xkeyboard-config.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/xkeyboard-config.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xkeyboard-config.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xkeyboard-config.mo
+installing crh.gmo as /usr/share/locale/crh/LC_MESSAGES/xkeyboard-config.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xkeyboard-config.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xkeyboard-config.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xkeyboard-config.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xkeyboard-config.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xkeyboard-config.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/xkeyboard-config.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xkeyboard-config.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/xkeyboard-config.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xkeyboard-config.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/xkeyboard-config.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/xkeyboard-config.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/xkeyboard-config.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/xkeyboard-config.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/xkeyboard-config.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/xkeyboard-config.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/xkeyboard-config.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/xkeyboard-config.mo
+installing ky.gmo as /usr/share/locale/ky/LC_MESSAGES/xkeyboard-config.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/xkeyboard-config.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/xkeyboard-config.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/xkeyboard-config.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xkeyboard-config.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/xkeyboard-config.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/xkeyboard-config.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/xkeyboard-config.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/xkeyboard-config.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/xkeyboard-config.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/xkeyboard-config.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/xkeyboard-config.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/xkeyboard-config.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/xkeyboard-config.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/xkeyboard-config.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/xkeyboard-config.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/xkeyboard-config.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xkeyboard-config.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xkeyboard-config.mo
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/po'
+Making install in rules
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+Making install in bin
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/bin'
+Making install in compat
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules/compat'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/rules'
+ /usr/bin/install -c -m 644 base evdev xfree98 base.lst evdev.lst xkb.dtd README '/usr/share/X11/xkb/rules'
+ /bin/mkdir -p '/usr/share/X11/xkb/rules'
+ /usr/bin/install -c -m 644 base.xml evdev.xml base.extras.xml evdev.extras.xml '/usr/share/X11/xkb/rules'
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/xkeyboard-config-2.17/rules'
+for file in `echo "xorg" | sed 's/,/ /'` ; do \
+	extra_rules_file=$file ; \
+	extra_dir_file=$extra_rules_file.xml ; \
+	extra_lst_file=$extra_rules_file.lst ; \
+	ln -sf base     /usr/share/X11/xkb/rules/$extra_rules_file ; \
+	ln -sf base.lst /usr/share/X11/xkb/rules/$extra_lst_file ; \
+	ln -sf base.xml /usr/share/X11/xkb/rules/$extra_dir_file ; \
+done
+make[4]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/rules'
+Making install in symbols
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+Making install in digital_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/digital_vndr'
+ /usr/bin/install -c -m 644 lk pc us vt '/usr/share/X11/xkb/symbols/digital_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/digital_vndr'
+Making install in fujitsu_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/fujitsu_vndr'
+ /usr/bin/install -c -m 644 jp us '/usr/share/X11/xkb/symbols/fujitsu_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/fujitsu_vndr'
+Making install in hp_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/hp_vndr'
+ /usr/bin/install -c -m 644 us '/usr/share/X11/xkb/symbols/hp_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/hp_vndr'
+Making install in jolla_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/jolla_vndr'
+ /usr/bin/install -c -m 644 sbj '/usr/share/X11/xkb/symbols/jolla_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/jolla_vndr'
+Making install in macintosh_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/macintosh_vndr'
+ /usr/bin/install -c -m 644 apple ch de dk fi fr gb is it jp latam nl no pt se us '/usr/share/X11/xkb/symbols/macintosh_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/macintosh_vndr'
+Making install in nec_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/nec_vndr'
+ /usr/bin/install -c -m 644 jp '/usr/share/X11/xkb/symbols/nec_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nec_vndr'
+Making install in nokia_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/nokia_vndr'
+ /usr/bin/install -c -m 644 rx-44 rx-51 su-8w '/usr/share/X11/xkb/symbols/nokia_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/nokia_vndr'
+Making install in sharp_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sharp_vndr'
+ /usr/bin/install -c -m 644 sl-c3x00 ws003sh ws007sh ws011sh ws020sh '/usr/share/X11/xkb/symbols/sharp_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sharp_vndr'
+Making install in sgi_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sgi_vndr'
+ /usr/bin/install -c -m 644 jp '/usr/share/X11/xkb/symbols/sgi_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sgi_vndr'
+Making install in sony_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sony_vndr'
+ /usr/bin/install -c -m 644 us '/usr/share/X11/xkb/symbols/sony_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sony_vndr'
+Making install in sun_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/sun_vndr'
+ /usr/bin/install -c -m 644 ara be br ca ch cz de dk ee es fi fr gb gr it jp kr lt lv nl no pl pt ro ru se sk solaris tr tw ua us '/usr/share/X11/xkb/symbols/sun_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/sun_vndr'
+Making install in xfree68_vndr
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols/xfree68_vndr'
+ /usr/bin/install -c -m 644 amiga ataritt '/usr/share/X11/xkb/symbols/xfree68_vndr'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols/xfree68_vndr'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[3]: Entering directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 af al am apl ara at az ba bd be bg br brai bt bw by ca cd ch cm cn cz de dk ee es et epo eu fi fo fr gb ge gh gn gr hr hu ie '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 il in iq ir is it jp ke kg kh kr kz la latam latin lk lt lv ma mao md me mk ml mm mn mt mv ng nl no np pc ph pk pl pt ro rs ru '/usr/share/X11/xkb/symbols'
+ /usr/bin/install -c -m 644 se si sk sn sy th terminate tg tj tm tr tw tz ua us uz vn za altwin capslock compose ctrl empty eurosign rupeesign group inet keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl typo '/usr/share/X11/xkb/symbols'
+make[3]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/symbols'
+Making install in types
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/types'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/types'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xkb/types'
+ /usr/bin/install -c -m 644 basic cancel caps complete default extra iso9995 level5 mousekeys nokia numpad pc README '/usr/share/X11/xkb/types'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/types'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/types'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/docs'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/docs'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/docs'
+Making install in man
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17/man'
+make[1]: Entering directory '/sources/7.9/xkeyboard-config-2.17'
+make[2]: Entering directory '/sources/7.9/xkeyboard-config-2.17'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/pkgconfig'
+ /usr/bin/install -c -m 644 xkeyboard-config.pc '/usr/share/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/xkeyboard-config-2.17'
+make[1]: Leaving directory '/sources/7.9/xkeyboard-config-2.17'

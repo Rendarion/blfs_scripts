@@ -1,0 +1,2 @@
+make install
+install -v -Dm644 doc/I18N-HOWTO /usr/share/doc/"$PKG"/I18N-HOWTO

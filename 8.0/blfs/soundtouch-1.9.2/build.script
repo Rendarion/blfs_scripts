@@ -1,0 +1,4 @@
+./bootstrap &&
+./configure --prefix=/usr \
+            --docdir=/usr/share/doc/soundtouch-1.9.2 &&
+make

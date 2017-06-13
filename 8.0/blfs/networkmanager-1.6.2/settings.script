@@ -1,0 +1,27 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/NetworkManager/1.6/NetworkManager-1.6.2.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"dbus-glib-0.108"
+"libgudev-231"
+"libndp-1.6"
+"libnl-3.2.29"
+"nss-3.29"
+"consolekit2-1.0.2"
+"dhcpcd-6.11.5"
+"gobject-introspection-1.50.0"
+"iptables-1.6.1"
+"libsoup-2.56.0"
+"newt-0.52.19"
+"polkit-0.113"
+"upower-0.99.4"
+"vala-0.34.4"
+"wpa_supplicant-2.6"
+"pygobject-3.22.0"
+)

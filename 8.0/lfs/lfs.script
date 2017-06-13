@@ -1,0 +1,89 @@
+# read settings variables from settings.script file
+
+source settings.script
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+# create mountpoints for partitions and mount them
+
+as_root mkdir -pv $LFS
+as_root mount -v -t ext4 /dev/$BUILDPART $LFS
+as_root mkdir -pv $LFS/sources
+as_root mount -v -t ext4 /dev/$SOURCEPART $LFS/sources
+as_root mkdir -pv $LFS/boot
+as_root mount -o remount,rw /dev/$BOOTPART /boot
+as_root mount -v -t ext4 /dev/$BOOTPART $LFS/boot
+
+# apply correct permissions to /sources/$LFSVS subfolder
+if [ -a "$LFS/sources/$LFSVS" ]
+  then
+    as_root chmod -R a+wt $LFS/sources/$LFSVS
+  fi
+
+# download the LFS sources according to script
+
+#cd /sources/scripts/$LFSVS/lfs/LFS_SOURCES-$LFSVS
+#touch install.log
+#printf "%s" "Downloading sources"
+#as_root ./install.script > install.log 2>&1
+#echo " ... done!"
+#cd /sources/scripts/$LFSVS/lfs
+
+# set up lfs user and apply correct permissions
+
+as_root userdel -r lfs
+
+as_root groupadd lfs
+as_root useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+
+as_root passwd lfs
+
+as_root chown -R lfs $LFS/sources/$LFSVS/
+as_root chown -R lfs $LFS/sources/scripts/$LFSVS/
+
+# set up toolchain according to script
+
+cd /sources/scripts/$LFSVS/lfs/tools/
+touch tools.log
+printf "%s" "Setting up toolchain"
+as_root ./tools.script > tools.log 2>&1
+echo " ... done!"
+
+# backup tools
+
+as_root chown -R root:root $LFS/tools
+as_root mkdir -p $LFS/toolsbu/$LFSVS/tools
+as_root cp -r $LFS/tools $LFS/toolsbu/$LFSVS/
+
+cd /sources/scripts/$LFSVS/lfs
+
+as_root mkdir -pv $LFS/{dev,proc,sys,run}
+
+as_root mknod -m 600 $LFS/dev/console c 5 1
+as_root mknod -m 666 $LFS/dev/null c 1 3
+
+as_root mount -v --bind /dev $LFS/dev
+
+as_root mount -vt devpts devpts $LFS/dev/pts -o gid=5,mode=620
+as_root mount -vt proc proc $LFS/proc
+as_root mount -vt sysfs sysfs $LFS/sys
+as_root mount -vt tmpfs tmpfs $LFS/run
+
+if [ -h $LFS/dev/shm ]; then
+  as_root mkdir -pv $LFS/$(readlink $LFS/dev/shm)
+fi
+
+as_root chroot "$LFS" /tools/bin/env -i HOME=/root TERM="$TERM" PS1='\u:\w\$ ' PATH=/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin LFSVS=$LFSVS  bash /sources/scripts/$LFSVS/lfs/lfs.withchroot.script
+
+as_root chroot "$LFS" /tools/bin/env -i HOME=/root TERM="$TERM" PS1='\u:\w\$ ' PATH=/bin:/usr/bin:/sbin:/usr/sbin LFSVS=$LFSVS /tools/bin/bash /sources/scripts/$LFSVS/lfs/lfs.withchroot2.script
+
+as_root chroot "$LFS" /usr/bin/env -i HOME=/root TERM="$TERM" PS1='\u:\w\$ ' PATH=/bin:/usr/bin:/sbin:/usr/sbin LFSVS=$LFSVS /bin/bash /sources/scripts/$LFSVS/lfs/lfs.withchroot3.script
+
+# clean up lfs user
+as_root userdel -r lfs

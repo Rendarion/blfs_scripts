@@ -1,0 +1,2706 @@
+patching file hw/xfree86/common/xf86Init.c
+patching file hw/xfree86/common/xf86platformBus.c
+Hunk #2 succeeded at 542 (offset 3 lines).
+patching file hw/xfree86/modes/xf86Crtc.c
+Hunk #1 succeeded at 3562 (offset 175 lines).
+patching file dix/window.c
+patching file hw/xwayland/xwayland-glamor.c
+patching file hw/xwayland/xwayland-output.c
+patching file hw/xwayland/xwayland-shm.c
+patching file include/window.h
+patching file hw/xwayland/xwayland-output.c
+Hunk #1 succeeded at 299 (offset 1 line).
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc option to accept ISO C99... none needed
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking for doxygen... no
+checking for X.Org SGML entities >= 1.8... no
+checking whether to build documentation... yes
+checking whether to build developer documentation... yes
+checking for xmlto... no
+checking for fop... no
+checking for xsltproc... no
+checking whether to build unit test cases... auto
+checking whether the linker accepts -Wl,-wrap,exit... yes
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for cpp... /usr/bin/cpp
+checking if /usr/bin/cpp requires -undef... yes
+checking if /usr/bin/cpp requires -traditional... yes
+checking for dtrace... not_found
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for dlfcn.h... (cached) yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking for an ANSI C-conforming const... yes
+checking for typeof syntax and keyword spelling... typeof
+checking whether byte ordering is bigendian... no
+checking size of unsigned long... 8
+checking for pid_t... yes
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking for backtrace... yes
+checking for ffs... yes
+checking for geteuid... yes
+checking for getuid... yes
+checking for issetugid... no
+checking for getresuid... yes
+checking for getdtablesize... yes
+checking for getifaddrs... yes
+checking for getpeereid... no
+checking for getpeerucred... no
+checking for getprogname... no
+checking for getzoneid... no
+checking for mmap... yes
+checking for seteuid... yes
+checking for shmctl64... no
+checking for strncasecmp... yes
+checking for vasprintf... yes
+checking for vsnprintf... yes
+checking for walkcontext... no
+checking for reallocarray... no
+checking for strcasecmp... yes
+checking for strcasestr... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for strndup... yes
+checking whether program_invocation_short_name is declared... yes
+checking for SO_PEERCRED in sys/socket.h... yes
+checking for sqrt in -lm... yes
+checking for cbrt... yes
+checking ndbm.h usability... yes
+checking ndbm.h presence... yes
+checking for ndbm.h... yes
+checking dbm.h usability... yes
+checking dbm.h presence... yes
+checking for dbm.h... yes
+checking rpcsvc/dbm.h usability... no
+checking rpcsvc/dbm.h presence... no
+checking for rpcsvc/dbm.h... no
+checking linux/agpgart.h usability... yes
+checking linux/agpgart.h presence... yes
+checking for linux/agpgart.h... yes
+checking sys/agpio.h usability... no
+checking sys/agpio.h presence... no
+checking for sys/agpio.h... no
+checking sys/agpgart.h usability... no
+checking sys/agpgart.h presence... no
+checking for sys/agpgart.h... no
+checking linux/fb.h usability... yes
+checking linux/fb.h presence... yes
+checking for linux/fb.h... yes
+checking for sys/linker.h... no
+checking for SYSV IPC... yes
+checking machine/apmvar.h usability... no
+checking machine/apmvar.h presence... no
+checking for machine/apmvar.h... no
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for backtrace in -lc... yes
+checking for root directory for font files... /usr/share/fonts/X11
+checking for directory for misc files... ${FONTROOTDIR}/misc
+checking for directory for OTF files... ${FONTROOTDIR}/OTF
+checking for directory for TTF files... ${FONTROOTDIR}/TTF
+checking for directory for Type1 files... ${FONTROOTDIR}/Type1
+checking for directory for 75dpi files... ${FONTROOTDIR}/75dpi
+checking for directory for 100dpi files... ${FONTROOTDIR}/100dpi
+checking for default font path... ${FONTROOTDIR}/misc/,${FONTROOTDIR}/TTF/,${FONTROOTDIR}/OTF/,${FONTROOTDIR}/Type1/,${FONTROOTDIR}/100dpi/,${FONTROOTDIR}/75dpi/
+checking to see if we can install the Xorg server as root... yes
+checking if Xtrans should support UNIX socket connections... yes
+checking if Xtrans should support TCP socket connections... yes
+checking for library containing socket... none required
+checking for library containing gethostbyname... none required
+checking for getaddrinfo... yes
+checking if IPv6 support should be built... yes
+checking for struct sockaddr_in.sin_len... no
+checking for socklen_t... yes
+checking for struct msghdr.msg_control... yes
+checking if Xtrans should support os-specific local connections... no
+checking for authdes_seccreate... no
+checking for authdes_create... yes
+checking for library containing getsecretkey... none required
+checking if Secure RPC authentication ("SUN-DES-1") should be supported... yes
+checking for PIXMAN... yes
+checking for SYSTEMD_DAEMON... no
+checking for SYSTEMD_DAEMON... no
+checking for UDEV... yes
+checking for udev_monitor_filter_add_match_tag... yes
+checking for udev_enumerate_add_match_tag... yes
+checking for DBUS... no
+checking for HAL... no
+checking for glibc...... yes
+checking for clock_gettime... yes
+checking for a useful monotonic clock ...... yes
+checking whether to track client ids... yes
+checking for DRI2PROTO... yes
+Checking temp dir /run/shm
+checking for DRI3PROTO... yes
+checking for sigaction... yes
+checking for XSHMFENCE... yes
+configure: DRI3 enabled
+checking for LIBDRM... yes
+checking for XLIB... yes
+checking for GL... yes
+checking for XDMCP... yes
+checking for XdmcpWrap in -lXdmcp... yes
+checking for SHA1Init... no
+checking for CC_SHA1_Init... no
+checking for wincrypt.h... no
+checking for SHA1Init in -lmd... no
+checking for LIBSHA1... no
+checking for nettle_sha1_init in -lnettle... yes
+checking for gcry_md_open in -lgcrypt... yes
+checking for SHA1_Init in -lcrypto... yes
+checking for OPENSSL... yes
+checking for SHA1 implementation... libnettle
+checking for XSERVERCFLAGS... yes
+checking for XSERVERLIBS... yes
+checking for LIBUNWIND... no
+checking if SVR4 needs to be defined... no
+checking whether to build Xvfb DDX... yes
+checking for XNESTMODULES... yes
+checking whether to build Xnest DDX... yes
+checking whether to build Xorg DDX... yes
+checking for symbol visibility support... yes
+checking whether to build Xorg PCI functions... checking for PCIACCESS... yes
+yes
+
+checking linux/apm_bios.h usability... yes
+checking linux/apm_bios.h presence... yes
+checking for linux/apm_bios.h... yes
+checking for DGA... yes
+checking for DGA... yes
+checking for XF86VIDMODE... yes
+checking for XF86VIDMODE... yes
+checking for XORG_MODULES... yes
+checking for GLAMOR... yes
+checking for GBM... yes
+checking whether GBM_BO_USE_LINEAR is declared... yes
+checking whether to build XWin DDX... no
+checking dependency style of $(CC)... none
+checking for DMXMODULES... yes
+checking for XDMXCONFIG_DEP... yes
+checking whether to build Xdmx DDX... no
+checking for XWAYLANDMODULES... yes
+checking whether to build Xwayland DDX... yes
+checking for wayland-scanner... /usr/bin/wayland-scanner
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glx/Makefile
+config.status: creating include/Makefile
+config.status: creating composite/Makefile
+config.status: creating damageext/Makefile
+config.status: creating dbe/Makefile
+config.status: creating dix/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/dtrace/Makefile
+config.status: creating man/Makefile
+config.status: creating fb/Makefile
+config.status: creating glamor/Makefile
+config.status: creating record/Makefile
+config.status: creating config/Makefile
+config.status: creating mi/Makefile
+config.status: creating miext/Makefile
+config.status: creating miext/sync/Makefile
+config.status: creating miext/damage/Makefile
+config.status: creating miext/shadow/Makefile
+config.status: creating miext/rootless/Makefile
+config.status: creating os/Makefile
+config.status: creating pseudoramiX/Makefile
+config.status: creating randr/Makefile
+config.status: creating render/Makefile
+config.status: creating xkb/Makefile
+config.status: creating Xext/Makefile
+config.status: creating Xi/Makefile
+config.status: creating xfixes/Makefile
+config.status: creating exa/Makefile
+config.status: creating dri3/Makefile
+config.status: creating present/Makefile
+config.status: creating hw/Makefile
+config.status: creating hw/xfree86/Makefile
+config.status: creating hw/xfree86/Xorg.sh
+config.status: creating hw/xfree86/common/Makefile
+config.status: creating hw/xfree86/common/xf86Build.h
+config.status: creating hw/xfree86/ddc/Makefile
+config.status: creating hw/xfree86/dixmods/Makefile
+config.status: creating hw/xfree86/doc/Makefile
+config.status: creating hw/xfree86/dri/Makefile
+config.status: creating hw/xfree86/dri2/Makefile
+config.status: creating hw/xfree86/dri2/pci_ids/Makefile
+config.status: creating hw/xfree86/drivers/Makefile
+config.status: creating hw/xfree86/drivers/modesetting/Makefile
+config.status: creating hw/xfree86/exa/Makefile
+config.status: creating hw/xfree86/exa/man/Makefile
+config.status: creating hw/xfree86/fbdevhw/Makefile
+config.status: creating hw/xfree86/fbdevhw/man/Makefile
+config.status: creating hw/xfree86/glamor_egl/Makefile
+config.status: creating hw/xfree86/i2c/Makefile
+config.status: creating hw/xfree86/int10/Makefile
+config.status: creating hw/xfree86/loader/Makefile
+config.status: creating hw/xfree86/man/Makefile
+config.status: creating hw/xfree86/modes/Makefile
+config.status: creating hw/xfree86/os-support/Makefile
+config.status: creating hw/xfree86/os-support/bsd/Makefile
+config.status: creating hw/xfree86/os-support/bus/Makefile
+config.status: creating hw/xfree86/os-support/hurd/Makefile
+config.status: creating hw/xfree86/os-support/misc/Makefile
+config.status: creating hw/xfree86/os-support/linux/Makefile
+config.status: creating hw/xfree86/os-support/solaris/Makefile
+config.status: creating hw/xfree86/os-support/stub/Makefile
+config.status: creating hw/xfree86/parser/Makefile
+config.status: creating hw/xfree86/ramdac/Makefile
+config.status: creating hw/xfree86/shadowfb/Makefile
+config.status: creating hw/xfree86/vbe/Makefile
+config.status: creating hw/xfree86/vgahw/Makefile
+config.status: creating hw/xfree86/x86emu/Makefile
+config.status: creating hw/xfree86/utils/Makefile
+config.status: creating hw/xfree86/utils/man/Makefile
+config.status: creating hw/xfree86/utils/cvt/Makefile
+config.status: creating hw/xfree86/utils/gtf/Makefile
+config.status: creating hw/dmx/config/Makefile
+config.status: creating hw/dmx/config/man/Makefile
+config.status: creating hw/dmx/doc/Makefile
+config.status: creating hw/dmx/doxygen/doxygen.conf
+config.status: creating hw/dmx/doxygen/Makefile
+config.status: creating hw/dmx/examples/Makefile
+config.status: creating hw/dmx/input/Makefile
+config.status: creating hw/dmx/glxProxy/Makefile
+config.status: creating hw/dmx/Makefile
+config.status: creating hw/dmx/man/Makefile
+config.status: creating hw/vfb/Makefile
+config.status: creating hw/vfb/man/Makefile
+config.status: creating hw/xnest/Makefile
+config.status: creating hw/xnest/man/Makefile
+config.status: creating hw/xwin/Makefile
+config.status: creating hw/xwin/glx/Makefile
+config.status: creating hw/xwin/man/Makefile
+config.status: creating hw/xwin/winclipboard/Makefile
+config.status: creating hw/xquartz/Makefile
+config.status: creating hw/xquartz/GL/Makefile
+config.status: creating hw/xquartz/bundle/Makefile
+config.status: creating hw/xquartz/man/Makefile
+config.status: creating hw/xquartz/mach-startup/Makefile
+config.status: creating hw/xquartz/pbproxy/Makefile
+config.status: creating hw/xquartz/xpr/Makefile
+config.status: creating hw/kdrive/Makefile
+config.status: creating hw/kdrive/ephyr/Makefile
+config.status: creating hw/kdrive/ephyr/man/Makefile
+config.status: creating hw/kdrive/fake/Makefile
+config.status: creating hw/kdrive/fbdev/Makefile
+config.status: creating hw/kdrive/linux/Makefile
+config.status: creating hw/kdrive/src/Makefile
+config.status: creating hw/xwayland/Makefile
+config.status: creating test/Makefile
+config.status: creating test/xi1/Makefile
+config.status: creating test/xi2/Makefile
+config.status: creating xserver.ent
+config.status: creating xorg-server.pc
+config.status: creating include/do-not-use-config.h
+config.status: creating include/xorg-server.h
+config.status: creating include/dix-config.h
+config.status: creating include/xorg-config.h
+config.status: creating include/xkb-config.h
+config.status: creating include/xwin-config.h
+config.status: creating include/kdrive-config.h
+config.status: creating include/version-config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing sdksyms commands
+Making all in doc
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making all in dtrace
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making all in man
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/man'
+  GEN      Xserver.1
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/man'
+Making all in include
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make  all-am
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+Making all in dix
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make  all-am
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+  CC       atom.lo
+  CC       colormap.lo
+  CC       cursor.lo
+  CC       devices.lo
+  CC       dispatch.lo
+  CC       dixfonts.lo
+  CC       main.lo
+  CC       dixutils.lo
+  CC       enterleave.lo
+  CC       events.lo
+  CC       eventconvert.lo
+  CC       extension.lo
+  CC       ffs.lo
+  CC       gc.lo
+  CC       getevents.lo
+  CC       globals.lo
+  CC       glyphcurs.lo
+  CC       grabs.lo
+  CC       initatoms.lo
+  CC       inpututils.lo
+  CC       pixmap.lo
+  CC       privates.lo
+  CC       property.lo
+  CC       ptrveloc.lo
+  CC       region.lo
+  CC       registry.lo
+  CC       resource.lo
+  CC       selection.lo
+  CC       swaprep.lo
+  CC       swapreq.lo
+  CC       tables.lo
+  CC       touch.lo
+  CC       window.lo
+  CCLD     libdix.la
+  CC       stubmain.lo
+  CCLD     libmain.la
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+Making all in fb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/fb'
+  CC       libfb_la-fb24_32.lo
+  CC       libfb_la-fballpriv.lo
+  CC       libfb_la-fbarc.lo
+  CC       libfb_la-fbbits.lo
+  CC       libfb_la-fbblt.lo
+  CC       libfb_la-fbbltone.lo
+  CC       libfb_la-fbcmap_mi.lo
+  CC       libfb_la-fbcopy.lo
+  CC       libfb_la-fbfill.lo
+  CC       libfb_la-fbfillrect.lo
+  CC       libfb_la-fbfillsp.lo
+  CC       libfb_la-fbgc.lo
+  CC       libfb_la-fbgetsp.lo
+  CC       libfb_la-fbglyph.lo
+  CC       libfb_la-fbimage.lo
+  CC       libfb_la-fbline.lo
+  CC       libfb_la-fboverlay.lo
+  CC       libfb_la-fbpict.lo
+  CC       libfb_la-fbpixmap.lo
+  CC       libfb_la-fbpoint.lo
+  CC       libfb_la-fbpush.lo
+  CC       libfb_la-fbscreen.lo
+  CC       libfb_la-fbseg.lo
+  CC       libfb_la-fbsetsp.lo
+  CC       libfb_la-fbsolid.lo
+  CC       libfb_la-fbtrap.lo
+  CC       libfb_la-fbutil.lo
+  CC       libfb_la-fbwindow.lo
+  CCLD     libfb.la
+  CC       libwfb_la-fb24_32.lo
+  CC       libwfb_la-fballpriv.lo
+  CC       libwfb_la-fbarc.lo
+  CC       libwfb_la-fbbits.lo
+  CC       libwfb_la-fbblt.lo
+  CC       libwfb_la-fbbltone.lo
+  CC       libwfb_la-fbcmap_mi.lo
+  CC       libwfb_la-fbcopy.lo
+  CC       libwfb_la-fbfill.lo
+  CC       libwfb_la-fbfillrect.lo
+  CC       libwfb_la-fbfillsp.lo
+  CC       libwfb_la-fbgc.lo
+  CC       libwfb_la-fbgetsp.lo
+  CC       libwfb_la-fbglyph.lo
+  CC       libwfb_la-fbimage.lo
+  CC       libwfb_la-fbline.lo
+  CC       libwfb_la-fboverlay.lo
+  CC       libwfb_la-fbpict.lo
+  CC       libwfb_la-fbpixmap.lo
+  CC       libwfb_la-fbpoint.lo
+  CC       libwfb_la-fbpush.lo
+  CC       libwfb_la-fbscreen.lo
+  CC       libwfb_la-fbseg.lo
+  CC       libwfb_la-fbsetsp.lo
+  CC       libwfb_la-fbsolid.lo
+  CC       libwfb_la-fbtrap.lo
+  CC       libwfb_la-fbutil.lo
+  CC       libwfb_la-fbwindow.lo
+  CCLD     libwfb.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/fb'
+Making all in mi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/mi'
+  CC       miarc.lo
+  CC       mibitblt.lo
+  CC       micmap.lo
+  CC       micopy.lo
+  CC       midash.lo
+  CC       midispcur.lo
+  CC       mieq.lo
+  CC       miexpose.lo
+  CC       mifillarc.lo
+  CC       mifillrct.lo
+  CC       migc.lo
+  CC       miglblt.lo
+  CC       mioverlay.lo
+  CC       mipointer.lo
+  CC       mipoly.lo
+  CC       mipolypnt.lo
+  CC       mipolyrect.lo
+  CC       mipolyseg.lo
+  CC       mipolytext.lo
+  CC       mipushpxl.lo
+  CC       miscrinit.lo
+  CC       misprite.lo
+  CC       mivaltree.lo
+  CC       miwideline.lo
+  CC       miwindow.lo
+  CC       mizerarc.lo
+  CC       mizerclip.lo
+  CC       mizerline.lo
+  CCLD     libmi.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/mi'
+Making all in Xext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xext'
+  CC       bigreq.lo
+  CC       geext.lo
+  CC       shape.lo
+  CC       sleepuntil.lo
+  CC       sync.lo
+  CC       xcmisc.lo
+  CC       xtest.lo
+  CC       shm.lo
+  CC       xvmain.lo
+  CC       xvdisp.lo
+  CC       xvmc.lo
+  CC       hashtable.lo
+  CC       xres.lo
+  CC       saver.lo
+  CC       panoramiX.lo
+  CC       panoramiXprocs.lo
+  CC       panoramiXSwap.lo
+  CC       xace.lo
+  CC       dpms.lo
+  CCLD     libXext.la
+  CC       dpmsstubs.lo
+  CCLD     libXextdpmsstubs.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xext'
+Making all in miext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making all in sync
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+  CC       misync.lo
+  CC       misyncfd.lo
+  CC       misyncshm.lo
+  CCLD     libsync.la
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+Making all in damage
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+  CC       damage.lo
+  CCLD     libdamage.la
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+Making all in shadow
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+  CC       shadow.lo
+  CC       shafb4.lo
+  CC       shafb8.lo
+  CC       shalloc.lo
+  CC       shiplan2p4.lo
+  CC       shiplan2p8.lo
+  CC       shpacked.lo
+  CC       shplanar8.lo
+  CC       shplanar.lo
+  CC       shrot16pack_180.lo
+  CC       shrot16pack_270.lo
+  CC       shrot16pack_270YX.lo
+  CC       shrot16pack_90.lo
+  CC       shrot16pack_90YX.lo
+  CC       shrot16pack.lo
+  CC       shrot32pack_180.lo
+  CC       shrot32pack_270.lo
+  CC       shrot32pack_90.lo
+  CC       shrot32pack.lo
+  CC       shrot8pack_180.lo
+  CC       shrot8pack_270.lo
+  CC       shrot8pack_90.lo
+  CC       shrot8pack.lo
+  CC       shrotate.lo
+  CCLD     libshadow.la
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+Making all in rootless
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+  CC       rootlessCommon.lo
+  CC       rootlessGC.lo
+  CC       rootlessScreen.lo
+  CC       rootlessValTree.lo
+  CC       rootlessWindow.lo
+  CCLD     librootless.la
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making all in os
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/os'
+  CC       WaitFor.lo
+  CC       access.lo
+  CC       auth.lo
+  CC       backtrace.lo
+  CC       client.lo
+  CC       connection.lo
+  CC       io.lo
+  CC       mitauth.lo
+  CC       oscolor.lo
+  CC       osinit.lo
+  CC       utils.lo
+  CC       xdmauth.lo
+  CC       xsha1.lo
+  CC       xstrans.lo
+  CC       xprintf.lo
+  CC       log.lo
+  CC       rpcauth.lo
+  CC       xdmcp.lo
+  CC       busfault.lo
+  CC       reallocarray.lo
+  CC       strlcat.lo
+  CC       strlcpy.lo
+  CCLD     libos.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/os'
+Making all in randr
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/randr'
+  CC       randr.lo
+  CC       rrcrtc.lo
+  CC       rrdispatch.lo
+  CC       rrinfo.lo
+  CC       rrmode.lo
+  CC       rrmonitor.lo
+  CC       rroutput.lo
+  CC       rrpointer.lo
+  CC       rrproperty.lo
+  CC       rrprovider.lo
+  CC       rrproviderproperty.lo
+  CC       rrscreen.lo
+  CC       rrsdispatch.lo
+  CC       rrtransform.lo
+  CC       rrxinerama.lo
+  CCLD     librandr.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/randr'
+Making all in render
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/render'
+  CC       animcur.lo
+  CC       filter.lo
+  CC       glyph.lo
+  CC       matrix.lo
+  CC       miindex.lo
+  CC       mipict.lo
+  CC       mirect.lo
+  CC       mitrap.lo
+  CC       mitri.lo
+  CC       picture.lo
+  CC       render.lo
+  CCLD     librender.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/render'
+Making all in Xi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xi'
+  CC       allowev.lo
+  CC       chgdctl.lo
+  CC       chgfctl.lo
+  CC       chgkbd.lo
+  CC       chgkmap.lo
+  CC       chgprop.lo
+  CC       chgptr.lo
+  CC       closedev.lo
+  CC       devbell.lo
+  CC       exevents.lo
+  CC       extinit.lo
+  CC       getbmap.lo
+  CC       getdctl.lo
+  CC       getfctl.lo
+  CC       getfocus.lo
+  CC       getkmap.lo
+  CC       getmmap.lo
+  CC       getprop.lo
+  CC       getselev.lo
+  CC       getvers.lo
+  CC       grabdev.lo
+  CC       grabdevb.lo
+  CC       grabdevk.lo
+  CC       gtmotion.lo
+  CC       listdev.lo
+  CC       opendev.lo
+  CC       queryst.lo
+  CC       selectev.lo
+  CC       sendexev.lo
+  CC       setbmap.lo
+  CC       setdval.lo
+  CC       setfocus.lo
+  CC       setmmap.lo
+  CC       setmode.lo
+  CC       ungrdev.lo
+  CC       ungrdevb.lo
+  CC       ungrdevk.lo
+  CC       xiallowev.lo
+  CC       xibarriers.lo
+  CC       xichangecursor.lo
+  CC       xichangehierarchy.lo
+  CC       xigetclientpointer.lo
+  CC       xigrabdev.lo
+  CC       xipassivegrab.lo
+  CC       xiproperty.lo
+  CC       xiquerydevice.lo
+  CC       xiquerypointer.lo
+  CC       xiqueryversion.lo
+  CC       xiselectev.lo
+  CC       xisetclientpointer.lo
+  CC       xisetdevfocus.lo
+  CC       xiwarppointer.lo
+  CCLD     libXi.la
+  CC       stubs.lo
+  CCLD     libXistubs.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xi'
+Making all in xkb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xkb'
+  CC       ddxBeep.lo
+  CC       ddxCtrls.lo
+  CC       ddxLEDs.lo
+  CC       ddxLoad.lo
+  CC       xkb.lo
+  CC       xkbUtils.lo
+  CC       xkbEvents.lo
+  CC       xkbAccessX.lo
+  CC       xkbSwap.lo
+  CC       xkbLEDs.lo
+  CC       xkbInit.lo
+  CC       xkbActions.lo
+  CC       xkbPrKeyEv.lo
+  CC       maprules.lo
+  CC       xkmread.lo
+  CC       xkbtext.lo
+  CC       xkbfmisc.lo
+  CC       xkbout.lo
+  CC       XKBMisc.lo
+  CC       XKBAlloc.lo
+  CC       XKBGAlloc.lo
+  CC       XKBMAlloc.lo
+  CCLD     libxkb.la
+  CC       ddxVT.lo
+  CC       ddxPrivate.lo
+  CC       ddxKillSrv.lo
+  CCLD     libxkbstubs.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xkb'
+Making all in dbe
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dbe'
+  CC       dbe.lo
+  CC       midbe.lo
+  CCLD     libdbe.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dbe'
+Making all in record
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/record'
+  CC       record.lo
+  CC       set.lo
+  CCLD     librecord.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/record'
+Making all in xfixes
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+  CC       cursor.lo
+  CC       region.lo
+  CC       saveset.lo
+  CC       select.lo
+  CC       xfixes.lo
+  CCLD     libxfixes.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+Making all in damageext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/damageext'
+  CC       damageext.lo
+  CCLD     libdamageext.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/damageext'
+Making all in composite
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/composite'
+  CC       compalloc.lo
+  CC       compext.lo
+  CC       compinit.lo
+  CC       compoverlay.lo
+  CC       compwindow.lo
+  CCLD     libcomposite.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/composite'
+Making all in glx
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glx'
+  CC       indirect_dispatch.lo
+  CC       indirect_dispatch_swap.lo
+  CC       indirect_reqsize.lo
+  CC       indirect_size_get.lo
+  CC       indirect_table.lo
+  CC       clientinfo.lo
+  CC       createcontext.lo
+  CC       extension_string.lo
+  CC       indirect_util.lo
+  CC       indirect_program.lo
+  CC       indirect_texture_compression.lo
+  CC       glxcmds.lo
+  CC       glxcmdsswap.lo
+  CC       glxext.lo
+  CC       glxdriswrast.lo
+  CC       glxdricommon.lo
+  CC       glxscreens.lo
+  CC       render2.lo
+  CC       render2swap.lo
+  CC       renderpix.lo
+  CC       renderpixswap.lo
+  CC       rensize.lo
+  CC       single2.lo
+  CC       single2swap.lo
+  CC       singlepix.lo
+  CC       singlepixswap.lo
+  CC       singlesize.lo
+  CC       swap_interval.lo
+  CC       xfont.lo
+  CCLD     libglx.la
+  CC       glxdri2.lo
+  CCLD     libglxdri.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glx'
+Making all in present
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/present'
+  CC       present.lo
+  CC       present_event.lo
+  CC       present_fake.lo
+  CC       present_fence.lo
+  CC       present_notify.lo
+  CC       present_request.lo
+  CC       present_screen.lo
+  CCLD     libpresent.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/present'
+Making all in dri3
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dri3'
+  CC       dri3.lo
+  CC       dri3_request.lo
+  CC       dri3_screen.lo
+  CCLD     libdri3.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dri3'
+Making all in exa
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/exa'
+  CC       exa.lo
+  CC       exa_classic.lo
+  CC       exa_migration_classic.lo
+  CC       exa_driver.lo
+  CC       exa_mixed.lo
+  CC       exa_migration_mixed.lo
+  CC       exa_accel.lo
+  CC       exa_glyphs.lo
+  CC       exa_offscreen.lo
+  CC       exa_render.lo
+  CC       exa_unaccel.lo
+  CCLD     libexa.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/exa'
+Making all in glamor
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glamor'
+  CC       glamor.lo
+  CC       glamor_copy.lo
+  CC       glamor_core.lo
+  CC       glamor_dash.lo
+  CC       glamor_font.lo
+  CC       glamor_glx.lo
+  CC       glamor_composite_glyphs.lo
+  CC       glamor_image.lo
+  CC       glamor_lines.lo
+  CC       glamor_segs.lo
+  CC       glamor_render.lo
+  CC       glamor_gradient.lo
+  CC       glamor_prepare.lo
+  CC       glamor_program.lo
+  CC       glamor_rects.lo
+  CC       glamor_spans.lo
+  CC       glamor_text.lo
+  CC       glamor_transfer.lo
+  CC       glamor_transform.lo
+  CC       glamor_trapezoid.lo
+  CC       glamor_triangles.lo
+  CC       glamor_addtraps.lo
+  CC       glamor_glyphblt.lo
+  CC       glamor_points.lo
+  CC       glamor_pixmap.lo
+  CC       glamor_largepixmap.lo
+  CC       glamor_picture.lo
+  CC       glamor_vbo.lo
+  CC       glamor_window.lo
+  CC       glamor_fbo.lo
+  CC       glamor_compositerects.lo
+  CC       glamor_utils.lo
+  CC       glamor_xv.lo
+  CC       glamor_sync.lo
+  CCLD     libglamor.la
+  CC       glamor_egl_stubs.lo
+  CCLD     libglamor_egl_stubs.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glamor'
+Making all in config
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/config'
+  CC       config.lo
+  CC       udev.lo
+  CCLD     libconfig.la
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/config'
+Making all in hw
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making all in xfree86
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+  GEN      xorg.conf.example
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making all in common
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+  GEN      xf86DefModeSet.c
+  GEN      xf86DefModeSet.c
+make  all-am
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+  CC       xf86Configure.lo
+  CC       xf86Bus.lo
+  CC       xf86Config.lo
+  CC       xf86Cursor.lo
+  CC       xf86DGA.lo
+  CC       xf86DPMS.lo
+  CC       xf86Events.lo
+  CC       xf86Globals.lo
+  CC       xf86AutoConfig.lo
+  CC       xf86Option.lo
+  CC       xf86Init.lo
+  CC       xf86VidMode.lo
+  CC       xf86fbman.lo
+  CC       xf86cmap.lo
+  CC       xf86Helper.lo
+  CC       xf86PM.lo
+  CC       xf86Xinput.lo
+  CC       xisb.lo
+  CC       xf86Mode.lo
+  CC       xorgHelper.lo
+  CC       xf86Extensions.lo
+  CC       xf86vmode.lo
+  CC       xf86xv.lo
+  CC       xf86xvmc.lo
+  CC       xf86fbBus.lo
+  CC       xf86noBus.lo
+  CC       xf86pciBus.lo
+  CC       xf86VGAarbiter.lo
+  CC       xf86platformBus.lo
+  CC       xf86RandR.lo
+  CC       xf86DefModeSet.lo
+  CCLD     libcommon.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+Making all in ddc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+  CC       ddc.lo
+  CC       interpret_edid.lo
+  CC       print_edid.lo
+  CC       ddcProperty.lo
+  CCLD     libddc.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+Making all in x86emu
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+  CC       debug.lo
+  CC       decode.lo
+  CC       fpu.lo
+  CC       ops2.lo
+  CC       ops.lo
+  CC       prim_ops.lo
+  CC       sys.lo
+  CCLD     libx86emu.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+Making all in int10
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+  CC       helper_exec.lo
+  CC       helper_mem.lo
+  CC       xf86int10.lo
+  CC       xf86int10module.lo
+  CC       xf86x86emu.lo
+  CC       generic.lo
+  CC       x86emu.lo
+  CCLD     libint10.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+Making all in os-support
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making all in bus
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+  CC       Pci.lo
+  CC       nobus.lo
+  CCLD     libbus.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+Making all in linux
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+  CC       lnx_init.lo
+  CC       lnx_video.lo
+  CC       lnx_agp.lo
+  CC       lnx_kmod.lo
+  CC       lnx_bell.lo
+  CC       lnx_platform.lo
+  CC       VTsw_usl.lo
+  CC       posix_tty.lo
+  CC       vidmem.lo
+  CC       sigio.lo
+  CC       lnx_acpi.lo
+  CC       lnx_apm.lo
+  CCLD     liblinux.la
+copying selected object files to avoid basename conflicts...
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+Making all in misc
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+  CC       SlowBcopy.lo
+  CCLD     libmisc.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+  CCLD     libxorgos.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making all in parser
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+  CC       Device.lo
+  CC       Files.lo
+  CC       Flags.lo
+  CC       Input.lo
+  CC       InputClass.lo
+  CC       OutputClass.lo
+  CC       Layout.lo
+  CC       Module.lo
+  CC       Video.lo
+  CC       Monitor.lo
+  CC       Pointer.lo
+  CC       Screen.lo
+  CC       Vendor.lo
+  CC       read.lo
+  CC       scan.lo
+  CC       write.lo
+  CC       DRI.lo
+  CC       Extensions.lo
+  CCLD     libxf86config.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+Making all in ramdac
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+  CC       xf86RamDac.lo
+  CC       xf86RamDacCmap.lo
+  CC       xf86Cursor.lo
+  CC       xf86HWCurs.lo
+  CC       IBM.lo
+  CC       BT.lo
+  CC       TI.lo
+  CCLD     libramdac.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+Making all in vgahw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+  CC       vgaHW.lo
+  CC       vgaHWmodule.lo
+  CCLD     libvgahw.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+Making all in loader
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+  CC       loader.lo
+  CC       loadmod.lo
+  CC       os.lo
+  CCLD     libloader.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+Making all in modes
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+  CC       xf86Crtc.lo
+  CC       xf86Cursors.lo
+  CC       xf86cvt.lo
+  CC       xf86gtf.lo
+  CC       xf86EdidModes.lo
+  CC       xf86Modes.lo
+  CC       xf86RandR12.lo
+  CC       xf86Rotate.lo
+  CC       xf86DiDGA.lo
+  CCLD     libxf86modes.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+Making all in dri
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+  CC       dri.lo
+  CC       xf86dri.lo
+  CCLD     libdri.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+Making all in dri2
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making all in pci_ids
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+  CC       dri2.lo
+  CC       dri2ext.lo
+  CCLD     libdri2.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making all in .
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+  GEN      sdksyms.c
+  CC       sdksyms.o
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+  CC       libdixmods_la-miinitext.lo
+  CCLD     libdixmods.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+  CC       xf86i2c.lo
+  CCLD     libi2c.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+  CC       xkbVT.lo
+  CC       xkbPrivate.lo
+  CC       xkbKillSrv.lo
+  CCLD     libxorgxkb.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+  CCLD     Xorg
+  CC       xorg-wrapper.o
+  CCLD     Xorg.wrap
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making all in vbe
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+  CC       vbe.lo
+  CC       vbeModes.lo
+  CC       vbe_module.lo
+  CCLD     libvbe.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+Making all in i2c
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+Making all in dixmods
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+  CC       glxmodule.lo
+  CCLD     libglx.la
+  CC       libfb_la-fbmodule.lo
+  CCLD     libfb.la
+  CC       libwfb_la-fbmodule.lo
+  CCLD     libwfb.la
+  CC       shmodule.lo
+  CCLD     libshadow.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+Making all in fbdevhw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making all in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+  GEN      fbdevhw.4
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+  CC       fbdevhw.lo
+  CCLD     libfbdevhw.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making all in shadowfb
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+  CC       sfbmodule.lo
+  CC       shadow.lo
+  CCLD     libshadowfb.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+Making all in exa
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making all in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+  GEN      exa.4
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+  CC       examodule.lo
+  CCLD     libexa.la
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making all in utils
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making all in gtf
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+  CC       gtf-gtf.o
+  CCLD     gtf
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+Making all in cvt
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+  CC       cvt-cvt.o
+  CC       cvt-xf86cvt.o
+  CC       cvt-xprintf.o
+  CCLD     cvt
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+Making all in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+  GEN      cvt.1
+  GEN      gtf.1
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making all in doc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+Making all in man
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+  GEN      Xorg.1
+  GEN      Xorg.wrap.1
+  GEN      xorg.conf.5
+  GEN      xorg.conf.d.5
+  GEN      Xwrapper.config.5
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+Making all in glamor_egl
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+  CC       glamor_egl.lo
+  CC       glamor_eglmodule.lo
+  CC       glamor_xf86_xv.lo
+  CCLD     libglamoregl.la
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+Making all in drivers
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+Making all in modesetting
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+  CC       dri2.lo
+  CC       driver.lo
+  CC       drmmode_display.lo
+  CC       dumb_bo.lo
+  CC       present.lo
+  CC       vblank.lo
+  CCLD     modesetting_drv.la
+  GEN      modesetting.4
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making all in vfb
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making all in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+  GEN      Xvfb.1
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+  CC       InitInput.o
+  CC       InitOutput.o
+  CC       miinitext.o
+  CCLD     Xvfb
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making all in xnest
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making all in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+  GEN      Xnest.1
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+  CC       Args.o
+  CC       Color.o
+  CC       Cursor.o
+  CC       Display.o
+  CC       Events.o
+  CC       Font.o
+  CC       GC.o
+  CC       GCOps.o
+  CC       Handlers.o
+  CC       Init.o
+  CC       Keyboard.o
+  CC       Pixmap.o
+  CC       Pointer.o
+  CC       Screen.o
+  CC       Visual.o
+  CC       Window.o
+  CC       miinitext.o
+  CCLD     Xnest
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making all in xwayland
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+  CC       Xwayland-xwayland.o
+  CC       Xwayland-xwayland-input.o
+  CC       Xwayland-xwayland-cursor.o
+  CC       Xwayland-xwayland-shm.o
+  CC       Xwayland-xwayland-output.o
+  CC       Xwayland-xwayland-cvt.o
+  CC       Xwayland-dpmsstubs.o
+  CC       Xwayland-stubs.o
+  CC       Xwayland-miinitext.o
+  GEN      drm-client-protocol.h
+  GEN      drm-protocol.c
+  CC       Xwayland-xwayland-glamor.o
+  CC       Xwayland-drm-protocol.o
+  CCLD     Xwayland
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making all in test
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+  GEN      sdksyms.c
+make  all-recursive
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+Making all in .
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+  CC       list.o
+  CCLD     list
+  CC       string.o
+  CCLD     string
+  CC       xkb.o
+  CC       sdksyms.lo
+  CCLD     libxservertest.la
+copying selected object files to avoid basename conflicts...
+  CCLD     xkb
+  CC       input.o
+  CCLD     input
+  CC       xtest.o
+  CCLD     xtest
+  CC       misc.o
+  CCLD     misc
+  CC       fixes.o
+  CCLD     fixes
+  CC       xfree86.o
+  CCLD     xfree86
+  CC       os.o
+  CCLD     os
+  CC       signal-logging.o
+  CCLD     signal-logging
+  CC       touch.o
+  CCLD     touch
+  CC       hashtabletest.o
+  CCLD     hashtabletest
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+Making all in xi1
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+  CC       protocol-common.o
+  CC       protocol-xchangedevicecontrol.o
+  CCLD     protocol-xchangedevicecontrol
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+Making all in xi2
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+  CC       protocol-common.o
+  CC       protocol-xiqueryversion.o
+  CCLD     protocol-xiqueryversion
+  CC       protocol-xiquerydevice.o
+  CCLD     protocol-xiquerydevice
+  CC       protocol-xiselectevents.o
+  CCLD     protocol-xiselectevents
+  CC       protocol-xigetselectedevents.o
+  CCLD     protocol-xigetselectedevents
+  CC       protocol-xisetclientpointer.o
+  CCLD     protocol-xisetclientpointer
+  CC       protocol-xigetclientpointer.o
+  CCLD     protocol-xigetclientpointer
+  CC       protocol-xipassivegrabdevice.o
+  CCLD     protocol-xipassivegrabdevice
+  CC       protocol-xiquerypointer.o
+  CCLD     protocol-xiquerypointer
+  CC       protocol-xiwarppointer.o
+  CCLD     protocol-xiwarppointer
+  CC       protocol-eventconvert.o
+  CCLD     protocol-eventconvert
+  CC       xi2.o
+  CCLD     xi2
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making check in dtrace
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making check in man
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/man'
+Making check in include
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+Making check in dix
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make  check-am
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+Making check in fb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/fb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/fb'
+Making check in mi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/mi'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/mi'
+Making check in Xext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xext'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xext'
+Making check in miext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making check in sync
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+Making check in damage
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+Making check in shadow
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+Making check in rootless
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making check in os
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/os'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/os'
+Making check in randr
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/randr'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/randr'
+Making check in render
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/render'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/render'
+Making check in Xi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xi'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xi'
+Making check in xkb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xkb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xkb'
+Making check in dbe
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dbe'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dbe'
+Making check in record
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/record'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/record'
+Making check in xfixes
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+Making check in damageext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/damageext'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/damageext'
+Making check in composite
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/composite'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/composite'
+Making check in glx
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glx'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glx'
+Making check in present
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/present'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/present'
+Making check in dri3
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dri3'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dri3'
+Making check in exa
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/exa'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/exa'
+Making check in glamor
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glamor'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glamor'
+Making check in config
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/config'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/config'
+Making check in hw
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making check in xfree86
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in common
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make  check-am
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+Making check in ddc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+Making check in x86emu
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+Making check in int10
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+Making check in os-support
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making check in bus
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+Making check in linux
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+Making check in misc
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making check in parser
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+Making check in ramdac
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+Making check in vgahw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+Making check in loader
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+Making check in modes
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+Making check in dri
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+Making check in dri2
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making check in pci_ids
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making check in .
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in vbe
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+Making check in i2c
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+Making check in dixmods
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+Making check in fbdevhw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making check in shadowfb
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+Making check in exa
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making check in utils
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making check in gtf
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+Making check in cvt
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making check in doc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+Making check in man
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+Making check in glamor_egl
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+Making check in drivers
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+Making check in modesetting
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in vfb
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making check in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making check in xnest
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making check in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making check in xwayland
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making check in test
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+Making check in .
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make  libxservertest.la
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: 'libxservertest.la' is up to date.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+PASS: list
+PASS: string
+PASS: xkb
+PASS: input
+PASS: xtest
+PASS: misc
+PASS: fixes
+PASS: xfree86
+PASS: os
+PASS: signal-logging
+PASS: touch
+PASS: hashtabletest
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+Making check in xi1
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+PASS: protocol-xchangedevicecontrol
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+Making check in xi2
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+PASS: protocol-xiqueryversion
+PASS: protocol-xiquerydevice
+PASS: protocol-xiselectevents
+PASS: protocol-xigetselectedevents
+PASS: protocol-xisetclientpointer
+PASS: protocol-xigetclientpointer
+PASS: protocol-xipassivegrabdevice
+PASS: protocol-xiquerypointer
+PASS: protocol-xiwarppointer
+PASS: protocol-eventconvert
+PASS: xi2
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 11
+# PASS:  11
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making install in dtrace
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making install in man
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/man'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 Xserver.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/man'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/man'
+Making install in include
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xorg-server.h '/usr/include/xorg'
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 XIstubs.h Xprintf.h callback.h client.h closestr.h closure.h colormap.h colormapst.h hotplug.h cursor.h cursorstr.h dix.h dixaccess.h dixevents.h dixfont.h dixfontstr.h dixgrabs.h dixstruct.h events.h exevents.h extension.h extinit.h extnsionst.h gc.h gcstruct.h globals.h glx_extinit.h input.h inputstr.h list.h misc.h miscstruct.h opaque.h nonsdk_extinit.h optionstr.h os.h pixmap.h pixmapstr.h privates.h property.h '/usr/include/xorg'
+ /usr/bin/install -c -m 644 propertyst.h ptrveloc.h region.h regionstr.h registry.h resource.h rgb.h screenint.h scrnintstr.h selection.h servermd.h site.h validate.h window.h windowstr.h xkbfile.h xkbsrv.h xkbstr.h xkbrules.h xserver-properties.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+Making install in dix
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make  install-am
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg'
+ /usr/bin/install -c -m 644 protocol.txt '/usr/lib/xorg'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+Making install in fb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/fb'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/fb'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 fb.h fbrop.h fboverlay.h wfbrename.h fbpict.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/fb'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/fb'
+Making install in mi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/mi'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/mi'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 micmap.h miline.h mipointer.h mi.h migc.h mipointrst.h mizerarc.h micoord.h mistruct.h mioverlay.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/mi'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/mi'
+Making install in Xext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xext'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xext'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xvdix.h xvmcext.h geext.h geint.h shmint.h syncsdk.h panoramiXsrv.h panoramiX.h xace.h xacestr.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xext'
+Making install in miext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making install in sync
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 misync.h misyncstr.h misyncshm.h misyncfd.h '/usr/include/xorg'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+Making install in damage
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 damage.h damagestr.h '/usr/include/xorg'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+Making install in shadow
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 shadow.h '/usr/include/xorg'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+Making install in rootless
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making install in os
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/os'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/os'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/os'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/os'
+Making install in randr
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/randr'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/randr'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 randrstr.h rrtransform.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/randr'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/randr'
+Making install in render
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/render'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/render'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 picture.h mipict.h glyphstr.h picturestr.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/render'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/render'
+Making install in Xi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xi'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xi'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xi'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xi'
+Making install in xkb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xkb'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/xkb'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/var/lib/xkb'
+ /usr/bin/install -c -m 644 README.compiled '/var/lib/xkb'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xkb'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xkb'
+Making install in dbe
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dbe'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dbe'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 dbestruct.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dbe'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dbe'
+Making install in record
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/record'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/record'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/record'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/record'
+Making install in xfixes
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+Making install in damageext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/damageext'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/damageext'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/damageext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/damageext'
+Making install in composite
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/composite'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/composite'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 compositeext.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/composite'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/composite'
+Making install in glx
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glx'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/glx'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glx'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glx'
+Making install in present
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/present'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/present'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 present.h presentext.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/present'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/present'
+Making install in dri3
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dri3'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dri3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 dri3.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dri3'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dri3'
+Making install in exa
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/exa'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/exa'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 exa.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/exa'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/exa'
+Making install in glamor
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glamor'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/glamor'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 glamor.h '/usr/include/xorg'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glamor'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glamor'
+Making install in config
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/config'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/config'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/X11/xorg.conf.d'
+ /usr/bin/install -c -m 644 10-quirks.conf '/usr/share/X11/xorg.conf.d'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/config'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/config'
+Making install in hw
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making install in xfree86
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making install in common
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make  install-am
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 compiler.h fourcc.h xf86.h xf86Module.h xf86Opt.h xf86PciInfo.h xf86Priv.h xf86Privstr.h xf86cmap.h xf86fbman.h xf86str.h xf86Xinput.h xisb.h xf86xv.h xf86xvmc.h xf86xvpriv.h dgaproc.h xorgVersion.h xf86sbusBus.h xf86VGAarbiter.h xf86Optionstr.h xf86platformBus.h xaarop.h '/usr/include/xorg'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+Making install in ddc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 edid.h xf86DDC.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+Making install in x86emu
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+Making install in int10
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libint10.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libint10.so /usr/lib/xorg/modules/libint10.so
+libtool: install: /usr/bin/install -c .libs/libint10.lai /usr/lib/xorg/modules/libint10.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86int10.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+Making install in os-support
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making install in bus
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86Pci.h '/usr/include/xorg'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+Making install in linux
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+Making install in misc
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86_OSproc.h xf86_OSlib.h '/usr/include/xorg'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making install in parser
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86Parser.h xf86Optrec.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+Making install in ramdac
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 BT.h IBM.h TI.h xf86Cursor.h xf86RamDac.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+Making install in vgahw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libvgahw.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libvgahw.so /usr/lib/xorg/modules/libvgahw.so
+libtool: install: /usr/bin/install -c .libs/libvgahw.lai /usr/lib/xorg/modules/libvgahw.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 vgaHW.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+Making install in loader
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+Making install in modes
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86Crtc.h xf86Modes.h xf86RandR12.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+Making install in dri
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 dri.h sarea.h dristruct.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+Making install in dri2
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making install in pci_ids
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 dri2.h '/usr/include/xorg'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making install in .
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c Xorg '/usr/bin'
+libtool: install: /usr/bin/install -c Xorg /usr/bin/Xorg
+make  install-exec-hook
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+(cd /usr/bin && rm -f X && ln -s Xorg X)
+chown root /usr/bin/Xorg
+chmod u+s /usr/bin/Xorg
+/bin/mkdir -p /usr/libexec
+mv /usr/bin/Xorg /usr/libexec/Xorg
+/usr/bin/install -c -m 755 Xorg.sh /usr/bin/Xorg
+chown root /usr/libexec/Xorg.wrap && chmod u+s /usr/libexec/Xorg.wrap
+Makefile:1135: recipe for target 'install-exec-hook' failed
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+  GEN      install-data-local
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c Xorg.wrap '/usr/libexec'
+libtool: install: /usr/bin/install -c Xorg.wrap /usr/libexec/Xorg.wrap
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making install in vbe
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libvbe.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libvbe.so /usr/lib/xorg/modules/libvbe.so
+libtool: install: /usr/bin/install -c .libs/libvbe.lai /usr/lib/xorg/modules/libvbe.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 vbe.h vbeModes.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+Making install in i2c
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 xf86i2c.h i2c_def.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+Making install in dixmods
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules/extensions'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libglx.la '/usr/lib/xorg/modules/extensions'
+libtool: install: /usr/bin/install -c .libs/libglx.so /usr/lib/xorg/modules/extensions/libglx.so
+libtool: install: /usr/bin/install -c .libs/libglx.lai /usr/lib/xorg/modules/extensions/libglx.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules/extensions
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules/extensions
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libfb.la libwfb.la libshadow.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libfb.so /usr/lib/xorg/modules/libfb.so
+libtool: install: /usr/bin/install -c .libs/libfb.lai /usr/lib/xorg/modules/libfb.la
+libtool: install: /usr/bin/install -c .libs/libwfb.so /usr/lib/xorg/modules/libwfb.so
+libtool: install: /usr/bin/install -c .libs/libwfb.lai /usr/lib/xorg/modules/libwfb.la
+libtool: install: /usr/bin/install -c .libs/libshadow.so /usr/lib/xorg/modules/libshadow.so
+libtool: install: /usr/bin/install -c .libs/libshadow.lai /usr/lib/xorg/modules/libshadow.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+Making install in fbdevhw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making install in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man4'
+ /usr/bin/install -c -m 644 fbdevhw.4 '/usr/share/man/man4'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libfbdevhw.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libfbdevhw.so /usr/lib/xorg/modules/libfbdevhw.so
+libtool: install: /usr/bin/install -c .libs/libfbdevhw.lai /usr/lib/xorg/modules/libfbdevhw.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 fbdevhw.h '/usr/include/xorg'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making install in shadowfb
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libshadowfb.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libshadowfb.so /usr/lib/xorg/modules/libshadowfb.so
+libtool: install: /usr/bin/install -c .libs/libshadowfb.lai /usr/lib/xorg/modules/libshadowfb.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xorg'
+ /usr/bin/install -c -m 644 shadowfb.h '/usr/include/xorg'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+Making install in exa
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making install in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man4'
+ /usr/bin/install -c -m 644 exa.4 '/usr/share/man/man4'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libexa.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libexa.so /usr/lib/xorg/modules/libexa.so
+libtool: install: /usr/bin/install -c .libs/libexa.lai /usr/lib/xorg/modules/libexa.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making install in utils
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making install in gtf
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c gtf '/usr/bin'
+libtool: install: /usr/bin/install -c gtf /usr/bin/gtf
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+Making install in cvt
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c cvt '/usr/bin'
+libtool: install: /usr/bin/install -c cvt /usr/bin/cvt
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+Making install in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 cvt.1 gtf.1 '/usr/share/man/man1'
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making install in doc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+Making install in man
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 Xorg.1 Xorg.wrap.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 xorg.conf.5 xorg.conf.d.5 Xwrapper.config.5 '/usr/share/man/man5'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+Making install in glamor_egl
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xorg/modules'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libglamoregl.la '/usr/lib/xorg/modules'
+libtool: install: /usr/bin/install -c .libs/libglamoregl.so /usr/lib/xorg/modules/libglamoregl.so
+libtool: install: /usr/bin/install -c .libs/libglamoregl.lai /usr/lib/xorg/modules/libglamoregl.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+Making install in drivers
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+Making install in modesetting
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man4'
+ /usr/bin/install -c -m 644 modesetting.4 '/usr/share/man/man4'
+ /bin/mkdir -p '/usr/lib/xorg/modules/drivers'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   modesetting_drv.la '/usr/lib/xorg/modules/drivers'
+libtool: install: /usr/bin/install -c .libs/modesetting_drv.so /usr/lib/xorg/modules/drivers/modesetting_drv.so
+libtool: install: /usr/bin/install -c .libs/modesetting_drv.lai /usr/lib/xorg/modules/drivers/modesetting_drv.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xorg/modules/drivers
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xorg/modules/drivers
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[6]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making install in vfb
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making install in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 Xvfb.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c Xvfb '/usr/bin'
+libtool: install: /usr/bin/install -c Xvfb /usr/bin/Xvfb
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making install in xnest
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making install in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 Xnest.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c Xnest '/usr/bin'
+libtool: install: /usr/bin/install -c Xnest /usr/bin/Xnest
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making install in xwayland
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c Xwayland '/usr/bin'
+libtool: install: /usr/bin/install -c Xwayland /usr/bin/Xwayland
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making install in test
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+Making install in .
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+Making install in xi1
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+Making install in xi2
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 xorg-server.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xorg-server.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1'
+mkdir: created directory '/etc/X11/xorg.conf.d'

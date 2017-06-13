@@ -1,0 +1,23 @@
+tar -xf ../cfe-3.7.1.src.tar.xz -C tools &&
+tar -xf ../compiler-rt-3.7.1.src.tar.xz -C projects &&
+
+mv tools/cfe-3.7.1.src tools/clang &&
+mv projects/compiler-rt-3.7.1.src projects/compiler-rt
+
+sed -r "/ifeq.*CompilerTargetArch/s#i386#i686#g" \
+    -i projects/compiler-rt/make/platform/clang_linux.mk
+
+mkdir -v build &&
+cd       build &&
+
+CC=gcc CXX=g++                          \
+../configure --prefix=/usr              \
+             --datarootdir=/usr/share   \
+             --sysconfdir=/etc          \
+             --enable-libffi            \
+             --enable-optimized         \
+             --enable-shared            \
+             --enable-targets=host,r600 \
+             --disable-assertions       \
+             --docdir=/usr/share/doc/llvm-3.7.1 &&
+make

@@ -1,0 +1,10 @@
+cd js/src &&
+
+sed -i 's/(defined\((@TEMPLATE_FILE)\))/\1/' config/milestone.pl &&
+
+./configure --prefix=/usr       \
+            --enable-readline   \
+            --enable-threadsafe \
+            --with-system-ffi   \
+            --with-system-nspr &&
+make

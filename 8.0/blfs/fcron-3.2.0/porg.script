@@ -1,0 +1,7 @@
+groupadd -g 22 fcron &&
+useradd -d /dev/null -c "Fcron User" -g fcron -s /bin/false -u 22 fcron
+
+make install
+
+cd ../$(basename $(find "/sources/$LFSVS" -maxdepth 1 -type d -name "blfs-bootscripts*"))
+make install-$((echo $PKG) | cut -d - -f 1)

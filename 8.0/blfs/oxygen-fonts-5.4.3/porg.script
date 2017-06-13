@@ -1,0 +1,5 @@
+install -v -d -m755 /usr/share/fonts/oxygen &&
+install -v -m644 oxygen-fonts/Bold-700/*.ttf /usr/share/fonts/oxygen &&
+install -v -m644 oxygen-fonts/mono-400/*.ttf /usr/share/fonts/oxygen &&
+install -v -m644 oxygen-fonts/Regular-400/*.ttf /usr/share/fonts/oxygen &&
+fc-cache -v /usr/share/fonts/oxygen

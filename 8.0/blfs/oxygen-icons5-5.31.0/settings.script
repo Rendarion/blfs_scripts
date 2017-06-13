@@ -1,0 +1,13 @@
+URL=(
+"http://download.kde.org/stable/frameworks/5.31/oxygen-icons5-5.31.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"extra-cmake-modules-5.31.0"
+"qt-5.8.0"
+)

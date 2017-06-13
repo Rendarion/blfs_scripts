@@ -1,0 +1,1261 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /tools/bin/grep
+checking for egrep... /tools/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /tools/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for an ANSI C-conforming const... yes
+checking for working volatile... yes
+checking whether byte ordering is bigendian... no
+checking whether compiler handles -fno-common... yes
+checking whether compiler handles -Wall... yes
+checking whether compiler handles -Werror=sequence-point... yes
+checking whether compiler handles -Wextra... yes
+checking whether compiler handles -Wextra-semi... no
+checking whether compiler handles -Wembedded-directive... no
+checking whether compiler handles -Wmissing-declarations... yes
+checking whether compiler handles -Wmissing-parameter-type... yes
+checking whether compiler handles -Wmissing-prototypes... yes
+checking whether compiler handles -Wno-missing-field-initializers... yes
+checking whether compiler handles -Wredundant-decls... yes
+checking whether compiler handles -Wsign-compare... yes
+checking whether compiler handles -Wtype-limits... yes
+checking whether compiler handles -Wuninitialized... yes
+checking whether compiler handles -Wunused-but-set-parameter... yes
+checking whether compiler handles -Wunused-but-set-variable... yes
+checking whether compiler handles -Wunused-parameter... yes
+checking whether compiler handles -Wunused-result... yes
+checking whether compiler handles -Wunused-variable... yes
+checking whether compiler handles -Wnested-externs... yes
+checking whether compiler handles -Wpointer-arith... yes
+checking whether compiler handles -Wstrict-prototypes... yes
+checking whether compiler handles -Wformat-security... no
+checking whether compiler handles -Wimplicit-function-declaration... yes
+checking whether compiler handles -Wno-clobbered... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /tools/bin/sed
+checking for fgrep... /tools/bin/grep -F
+checking for ld used by gcc... /tools/bin/ld
+checking if the linker (/tools/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /tools/bin/nm -B
+checking the name lister (/tools/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /tools/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /tools/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/tools/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether to build gtk-doc documentation... no
+checking for gtkdoc-check... /usr/bin/gtkdoc-check
+checking for xsltproc... /usr/bin/xsltproc
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether to enable assertions... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking for ld used by gcc... /tools/bin/ld -m elf_x86_64
+checking if the linker (/tools/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for linux/compiler.h... no
+checking for linux/blkpg.h... yes
+checking for linux/major.h... yes
+checking asm/io.h usability... no
+checking asm/io.h presence... no
+checking for asm/io.h... no
+checking err.h usability... yes
+checking err.h presence... yes
+checking for err.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for inttypes.h... (cached) yes
+checking linux/cdrom.h usability... yes
+checking linux/cdrom.h presence... yes
+checking for linux/cdrom.h... yes
+checking linux/falloc.h usability... yes
+checking linux/falloc.h presence... yes
+checking for linux/falloc.h... yes
+checking linux/watchdog.h usability... yes
+checking linux/watchdog.h presence... yes
+checking for linux/watchdog.h... yes
+checking linux/fd.h usability... yes
+checking linux/fd.h presence... yes
+checking for linux/fd.h... yes
+checking linux/raw.h usability... yes
+checking linux/raw.h presence... yes
+checking for linux/raw.h... yes
+checking linux/tiocl.h usability... yes
+checking linux/tiocl.h presence... yes
+checking for linux/tiocl.h... yes
+checking linux/gsmmux.h usability... no
+checking linux/gsmmux.h presence... yes
+configure: WARNING: linux/gsmmux.h: present but cannot be compiled
+configure: WARNING: linux/gsmmux.h:     check for missing prerequisite headers?
+configure: WARNING: linux/gsmmux.h: see the Autoconf documentation
+configure: WARNING: linux/gsmmux.h:     section "Present But Cannot Be Compiled"
+configure: WARNING: linux/gsmmux.h: proceeding with the compiler's result
+configure: WARNING:     ## ------------------------------ ##
+configure: WARNING:     ## Report this to kzak@redhat.com ##
+configure: WARNING:     ## ------------------------------ ##
+checking for linux/gsmmux.h... no
+checking linux/version.h usability... yes
+checking linux/version.h presence... yes
+checking for linux/version.h... yes
+checking linux/securebits.h usability... yes
+checking linux/securebits.h presence... yes
+checking for linux/securebits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking net/if_dl.h usability... no
+checking net/if_dl.h presence... no
+checking for net/if_dl.h... no
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking pty.h usability... yes
+checking pty.h presence... yes
+checking for pty.h... yes
+checking security/pam_appl.h usability... no
+checking security/pam_appl.h presence... no
+checking for security/pam_appl.h... no
+checking for stdint.h... (cached) yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for stdlib.h... (cached) yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking sys/disk.h usability... no
+checking sys/disk.h presence... no
+checking for sys/disk.h... no
+checking sys/disklabel.h usability... no
+checking sys/disklabel.h presence... no
+checking for sys/disklabel.h... no
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/io.h usability... yes
+checking sys/io.h presence... yes
+checking for sys/io.h... yes
+checking sys/ioccom.h usability... no
+checking sys/ioccom.h presence... no
+checking for sys/ioccom.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/queue.h usability... yes
+checking sys/queue.h presence... yes
+checking for sys/queue.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking sys/swap.h usability... yes
+checking sys/swap.h presence... yes
+checking for sys/swap.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timex.h usability... yes
+checking sys/timex.h presence... yes
+checking for sys/timex.h... yes
+checking sys/ttydefaults.h usability... yes
+checking sys/ttydefaults.h presence... yes
+checking for sys/ttydefaults.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking for unistd.h... (cached) yes
+checking for security/pam_misc.h... no
+checking for security/openpam.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for struct termios.c_line... yes
+checking for struct stat.st_mtim.tv_nsec... yes
+checking whether _NL_TIME_WEEK_1STDAY is declared... yes
+checking whether llseek is declared... no
+checking whether lseek64 is declared... yes
+checking whether environ is declared... yes
+checking whether strsignal is declared... yes
+checking for __fpending... yes
+checking for secure_getenv... yes
+checking for __secure_getenv... no
+checking for err... yes
+checking for errx... yes
+checking for fsync... yes
+checking for utimensat... yes
+checking for getdomainname... yes
+checking for getdtablesize... yes
+checking for getexecname... no
+checking for getmntinfo... no
+checking for getrlimit... yes
+checking for getsgnam... yes
+checking for inotify_init... yes
+checking for jrand48... yes
+checking for lchown... yes
+checking for llseek... yes
+checking for lseek64... yes
+checking for mempcpy... yes
+checking for nanosleep... yes
+checking for ntp_gettime... yes
+checking for personality... yes
+checking for posix_fadvise... yes
+checking for prctl... yes
+checking for qsort_r... yes
+checking for rpmatch... yes
+checking for scandirat... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for sigqueue... yes
+checking for srandom... yes
+checking for strnchr... no
+checking for strndup... yes
+checking for strnlen... yes
+checking for sysconf... yes
+checking for sysinfo... yes
+checking for updwtmp... yes
+checking for usleep... yes
+checking for warn... yes
+checking for warnx... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for openat... yes
+checking for fstatat... yes
+checking for unlinkat... yes
+checking for ioperm... yes
+checking for iopl... yes
+checking for futimens... yes
+checking for inotify_init1... yes
+checking for open_memstream... yes
+checking for clock_gettime... yes
+checking for timer_createx... no
+checking for timer_create in -lrt... yes
+checking for struct sockaddr.sa_len... no
+checking for library containing socket... none required
+checking for dirfd... yes
+checking whether program_invocation_short_name is defined... yes
+checking whether __progname is defined... yes
+checking whether the target supports thread-local storage... yes
+checking scanf string alloc modifiers... (%ms) yes
+checking for openpty in -lutil... yes
+checking for tgetnum in -ltermcap... no
+checking for union semun... no
+checking for loff_t... yes
+checking for cpu_set_t... yes
+checking for sighandler_t... yes
+checking whether CPU_ALLOC is declared... yes
+checking crypt.h usability... yes
+checking crypt.h presence... yes
+checking for crypt.h... yes
+checking for udev_new in -ludev... no
+checking for NCURSESW... no
+checking for NCURSES... no
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking for initscr in -lncursesw... yes
+checking ncursesw/ncurses.h usability... no
+checking ncursesw/ncurses.h presence... no
+checking for ncursesw/ncurses.h... no
+checking ncurses/ncurses.h usability... no
+checking ncurses/ncurses.h presence... no
+checking for ncurses/ncurses.h... no
+checking for use_default_colors in -lncursesw... yes
+checking for resizeterm in -lncursesw... yes
+checking for TINFO... no
+checking for tgetent in -ltinfo... no
+checking for readline in -lreadline... no
+checking for syscall fallocate... SYS_fallocate
+checking for valid fallocate() function... yes
+checking for syscall unshare... SYS_unshare
+checking for unshare... yes
+checking for syscall setns... SYS_setns
+checking for setns... yes
+checking for capng_apply in -lcap-ng... no
+configure: WARNING: libcap-ng library not found; not building setpriv
+checking for crc32 in -lz... no
+configure: WARNING: z library not found; not building cramfs
+checking for syscall prlimit64... SYS_prlimit64
+checking for prlimit... yes
+checking for syscall pivot_root... SYS_pivot_root
+checking for LIBUSER... no
+configure: WARNING: PAM header file not found; not building chfn_chsh
+configure: WARNING: PAM header file not found; not building login
+configure: WARNING: PAM header file not found; not building su
+configure: WARNING: PAM header file not found; not building runuser
+checking for syscall ioprio_set... SYS_ioprio_set
+checking for syscall ioprio_get... SYS_ioprio_get
+checking for syscall sched_getaffinity... SYS_sched_getaffinity
+checking for SYSTEMD... no
+checking for SYSTEMD_DAEMON... no
+checking for SYSTEMD_JOURNAL... no
+./configure: line 27012: --exists: command not found
+configure: WARNING: libpython not found; not building pylibmount
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libblkid/docs/Makefile
+config.status: creating libblkid/docs/version.xml
+config.status: creating libblkid/src/blkid.h
+config.status: creating libfdisk/docs/Makefile
+config.status: creating libfdisk/docs/version.xml
+config.status: creating libfdisk/src/libfdisk.h
+config.status: creating libmount/docs/Makefile
+config.status: creating libmount/docs/version.xml
+config.status: creating libmount/src/libmount.h
+config.status: creating libsmartcols/docs/Makefile
+config.status: creating libsmartcols/docs/version.xml
+config.status: creating libsmartcols/src/libsmartcols.h
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+	util-linux  2.27.1
+
+	prefix:            /tools
+	exec prefix:       ${prefix}
+
+	localstatedir:     ${prefix}/var
+	bindir:            ${exec_prefix}/bin
+	sbindir:           ${exec_prefix}/sbin
+	libdir:            ${exec_prefix}/lib
+	includedir:        ${prefix}/include
+	usrbin_execdir:    ${exec_prefix}/bin
+	usrsbin_execdir:   ${exec_prefix}/sbin
+	usrlib_execdir:    ${exec_prefix}/lib
+
+	compiler:          gcc
+	cflags:            -g -O2
+	suid cflags:       
+	ldflags:           
+	suid ldflags:      
+
+	Python:            
+	Python version:    
+	Python libs:       
+
+	Bash completions:  ${datarootdir}/bash-completion/completions
+	Systemd support:   no
+
+	warnings:
+
+ -fno-common -Wall -Werror=sequence-point -Wextra -Wmissing-declarations -Wmissing-parameter-type -Wmissing-prototypes -Wno-missing-field-initializers -Wredundant-decls -Wsign-compare -Wtype-limits -Wuninitialized -Wunused-but-set-parameter -Wunused-but-set-variable -Wunused-parameter -Wunused-result -Wunused-variable -Wnested-externs -Wpointer-arith -Wstrict-prototypes -Wimplicit-function-declaration
+
+	Type 'make' or 'make <utilname>' to compile.
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/util-linux-2.27.1'
+Making all in po
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1/po'
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1'
+  CC       lib/libuuid_la-randutils.lo
+  CC       lib/libmount_la-monotonic.lo
+  CC       lib/dmesg-monotonic.o
+  CC       sys-utils/fstrim-fstrim.o
+  CC       sys-utils/ctrlaltdel.o
+  CC       sys-utils/fsfreeze.o
+  CC       sys-utils/blkdiscard.o
+  CC       lib/monotonic.o
+  CC       sys-utils/losetup-losetup.o
+  CC       sys-utils/zramctl-zramctl.o
+  CC       sys-utils/swapon-swapon.o
+  CC       sys-utils/swapon-swapon-common.o
+  CC       lib/swapon-swapprober.o
+  CC       sys-utils/swapoff-swapoff.o
+  CC       sys-utils/swapoff-swapon-common.o
+  CC       lib/swapoff-swapprober.o
+  CC       sys-utils/chcpu.o
+  CC       sys-utils/pivot_root.o
+  CC       sys-utils/switch_root.o
+  CC       sys-utils/hwclock.o
+  CC       sys-utils/hwclock-cmos.o
+  CC       sys-utils/hwclock-rtc.o
+  CC       misc-utils/blkid-blkid.o
+  CC       misc-utils/findfs-findfs.o
+  CC       misc-utils/wipefs-wipefs.o
+  CC       lib/swaplabel-swapprober.o
+  CC       disk-utils/fsck-fsck.o
+  CC       lib/fsck-monotonic.o
+  CC       disk-utils/raw.o
+  CC       disk-utils/blockdev.o
+  CC       disk-utils/fdisk-fdisk.o
+  CC       disk-utils/fdisk-fdisk-menu.o
+  CC       disk-utils/fdisk-fdisk-list.o
+  CC       disk-utils/sfdisk-sfdisk.o
+  CC       disk-utils/sfdisk-fdisk-list.o
+  CC       disk-utils/cfdisk-cfdisk.o
+  CC       text-utils/col.o
+  CC       text-utils/colcrt.o
+  CC       text-utils/colrm.o
+  CC       text-utils/column.o
+  CC       text-utils/hexdump-conv.o
+  CC       text-utils/hexdump-display.o
+  CC       text-utils/hexdump.o
+  CC       text-utils/hexdump-parse.o
+  CC       text-utils/rev.o
+  CC       text-utils/tailf.o
+  CC       text-utils/pg-pg.o
+  CC       text-utils/ul-ul.o
+  CC       term-utils/script-script.o
+  CC       lib/script-monotonic.o
+  CC       term-utils/scriptreplay.o
+  CC       term-utils/setterm-setterm.o
+  CC       term-utils/mesg.o
+  CC       term-utils/wall-wall.o
+  CC       term-utils/wall-ttymsg.o
+  CC       login-utils/last.o
+  CC       login-utils/utmpdump.o
+  CC       login-utils/lslogins-lslogins.o
+  CC       login-utils/lslogins-logindefs.o
+  CC       sys-utils/flock.o
+  CC       lib/timer.o
+  CC       sys-utils/ipcmk.o
+  CC       sys-utils/ipcrm.o
+  CC       sys-utils/ipcs.o
+  CC       sys-utils/ipcutils.o
+  CC       sys-utils/lsipc-lsipc.o
+  CC       sys-utils/lsipc-ipcutils.o
+  CC       sys-utils/renice.o
+  CC       sys-utils/setsid.o
+  CC       sys-utils/setarch.o
+  CC       sys-utils/eject-eject.o
+  CC       lib/eject-monotonic.o
+  CC       sys-utils/prlimit-prlimit.o
+  CC       sys-utils/lscpu-lscpu.o
+  CC       sys-utils/lscpu-lscpu-dmi.o
+  CC       sys-utils/fallocate.o
+  CC       sys-utils/unshare-unshare.o
+  CC       sys-utils/nsenter.o
+  CC       lib/cal-mbsalign.o
+  CC       misc-utils/cal-cal.o
+  CC       lib/cal-strutils.o
+  CC       misc-utils/logger-logger.o
+  CC       lib/logger-strutils.o
+  CC       misc-utils/look.o
+  CC       misc-utils/mcookie.o
+  CC       lib/md5.o
+  CC       misc-utils/namei.o
+  CC       lib/strutils.o
+  CC       misc-utils/whereis.o
+  CC       misc-utils/lslocks-lslocks.o
+  CC       misc-utils/uuidgen-uuidgen.o
+  CC       misc-utils/rename.o
+  CC       misc-utils/getopt.o
+  CC       disk-utils/isosize.o
+  CC       sys-utils/readprofile.o
+  CC       sys-utils/ldattach.o
+  CC       sys-utils/rtcwake.o
+  CC       misc-utils/uuidd-uuidd.o
+  CC       disk-utils/fdformat.o
+  CC       disk-utils/partx-partx.o
+  CC       disk-utils/addpart.o
+  CC       disk-utils/delpart.o
+  CC       disk-utils/resizepart.o
+  GEN      sys-utils/rtcwake.8
+  GEN      sys-utils/hwclock.8
+  GEN      misc-utils/uuidd.8
+  GEN      sys-utils/uname26.8
+  GEN      sys-utils/linux32.8
+  GEN      sys-utils/linux64.8
+  GEN      sys-utils/i386.8
+  GEN      sys-utils/x86_64.8
+  GEN      libuuid/uuid.pc
+  GEN      libblkid/blkid.pc
+  GEN      libmount/mount.pc
+  GEN      libsmartcols/smartcols.pc
+  GEN      libfdisk/fdisk.pc
+  CC       lib/libcommon_la-at.lo
+  CC       lib/libcommon_la-blkdev.lo
+  CC       lib/libcommon_la-canonicalize.lo
+  CC       lib/libcommon_la-crc32.lo
+  CC       lib/libcommon_la-crc64.lo
+  CC       lib/libcommon_la-env.lo
+  CC       lib/libcommon_la-fileutils.lo
+  CC       lib/libcommon_la-ismounted.lo
+  CC       lib/libcommon_la-color-names.lo
+  CC       lib/libcommon_la-mangle.lo
+  CC       lib/libcommon_la-match.lo
+  CC       lib/libcommon_la-mbsalign.lo
+  CC       lib/libcommon_la-md5.lo
+  CC       lib/libcommon_la-pager.lo
+  CC       lib/libcommon_la-path.lo
+  CC       lib/libcommon_la-procutils.lo
+  CC       lib/libcommon_la-randutils.lo
+  CC       lib/libcommon_la-setproctitle.lo
+  CC       lib/libcommon_la-strutils.lo
+  CC       lib/libcommon_la-sysfs.lo
+  CC       lib/libcommon_la-timeutils.lo
+  CC       lib/libcommon_la-ttyutils.lo
+  CC       lib/libcommon_la-exec_shell.lo
+  CC       lib/libcommon_la-strv.lo
+  CC       lib/libcommon_la-linux_version.lo
+  CC       lib/libcommon_la-loopdev.lo
+  CC       lib/libcommon_la-cpuset.lo
+  CC       lib/libtcolors_la-colors.lo
+  CC       lib/libtcolors_la-color-names.lo
+  CC       libuuid/src/libuuid_la-clear.lo
+  CC       libuuid/src/libuuid_la-compare.lo
+  CC       libuuid/src/libuuid_la-copy.lo
+  CC       libuuid/src/libuuid_la-gen_uuid.lo
+  CC       libuuid/src/libuuid_la-isnull.lo
+  CC       libuuid/src/libuuid_la-pack.lo
+  CC       libuuid/src/libuuid_la-parse.lo
+  CC       libuuid/src/libuuid_la-unpack.lo
+  CC       libuuid/src/libuuid_la-unparse.lo
+  CC       libuuid/src/libuuid_la-uuid_time.lo
+  CC       libblkid/src/libblkid_la-init.lo
+  CC       libblkid/src/libblkid_la-cache.lo
+  CC       libblkid/src/libblkid_la-config.lo
+  CC       libblkid/src/libblkid_la-dev.lo
+  CC       libblkid/src/libblkid_la-devname.lo
+  CC       libblkid/src/libblkid_la-devno.lo
+  CC       libblkid/src/libblkid_la-encode.lo
+  CC       libblkid/src/libblkid_la-evaluate.lo
+  CC       libblkid/src/libblkid_la-getsize.lo
+  CC       libblkid/src/libblkid_la-llseek.lo
+  CC       libblkid/src/libblkid_la-probe.lo
+  CC       libblkid/src/libblkid_la-read.lo
+  CC       libblkid/src/libblkid_la-resolve.lo
+  CC       libblkid/src/libblkid_la-save.lo
+  CC       libblkid/src/libblkid_la-tag.lo
+  CC       libblkid/src/libblkid_la-verify.lo
+  CC       libblkid/src/libblkid_la-version.lo
+  CC       libblkid/src/partitions/libblkid_la-aix.lo
+  CC       libblkid/src/partitions/libblkid_la-bsd.lo
+  CC       libblkid/src/partitions/libblkid_la-dos.lo
+  CC       libblkid/src/partitions/libblkid_la-gpt.lo
+  CC       libblkid/src/partitions/libblkid_la-mac.lo
+  CC       libblkid/src/partitions/libblkid_la-minix.lo
+  CC       libblkid/src/partitions/libblkid_la-partitions.lo
+  CC       libblkid/src/partitions/libblkid_la-sgi.lo
+  CC       libblkid/src/partitions/libblkid_la-solaris_x86.lo
+  CC       libblkid/src/partitions/libblkid_la-sun.lo
+  CC       libblkid/src/partitions/libblkid_la-ultrix.lo
+  CC       libblkid/src/partitions/libblkid_la-unixware.lo
+  CC       libblkid/src/superblocks/libblkid_la-adaptec_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-bcache.lo
+  CC       libblkid/src/superblocks/libblkid_la-befs.lo
+  CC       libblkid/src/superblocks/libblkid_la-bfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-btrfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-cramfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-ddf_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-drbd.lo
+  CC       libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo
+  CC       libblkid/src/superblocks/libblkid_la-drbdmanage.lo
+  CC       libblkid/src/superblocks/libblkid_la-exfat.lo
+  CC       libblkid/src/superblocks/libblkid_la-ext.lo
+  CC       libblkid/src/superblocks/libblkid_la-f2fs.lo
+  CC       libblkid/src/superblocks/libblkid_la-gfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-hfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-highpoint_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-hpfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-iso9660.lo
+  CC       libblkid/src/superblocks/libblkid_la-isw_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-jfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-jmicron_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-linux_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-lsi_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-luks.lo
+  CC       libblkid/src/superblocks/libblkid_la-lvm.lo
+  CC       libblkid/src/superblocks/libblkid_la-minix.lo
+  CC       libblkid/src/superblocks/libblkid_la-netware.lo
+  CC       libblkid/src/superblocks/libblkid_la-nilfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-ntfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-refs.lo
+  CC       libblkid/src/superblocks/libblkid_la-nvidia_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-ocfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-promise_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-reiserfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-romfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-silicon_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-squashfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-superblocks.lo
+  CC       libblkid/src/superblocks/libblkid_la-swap.lo
+  CC       libblkid/src/superblocks/libblkid_la-sysv.lo
+  CC       libblkid/src/superblocks/libblkid_la-ubifs.lo
+  CC       libblkid/src/superblocks/libblkid_la-udf.lo
+  CC       libblkid/src/superblocks/libblkid_la-ufs.lo
+  CC       libblkid/src/superblocks/libblkid_la-vfat.lo
+  CC       libblkid/src/superblocks/libblkid_la-via_raid.lo
+  CC       libblkid/src/superblocks/libblkid_la-vmfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-vxfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-xfs.lo
+  CC       libblkid/src/superblocks/libblkid_la-zfs.lo
+  CC       libblkid/src/topology/libblkid_la-topology.lo
+  CC       libblkid/src/topology/libblkid_la-dm.lo
+  CC       libblkid/src/topology/libblkid_la-evms.lo
+  CC       libblkid/src/topology/libblkid_la-ioctl.lo
+  CC       libblkid/src/topology/libblkid_la-lvm.lo
+  CC       libblkid/src/topology/libblkid_la-md.lo
+  CC       libblkid/src/topology/libblkid_la-sysfs.lo
+  CC       libmount/src/libmount_la-cache.lo
+  CC       libmount/src/libmount_la-fs.lo
+  CC       libmount/src/libmount_la-init.lo
+  CC       libmount/src/libmount_la-iter.lo
+  CC       libmount/src/libmount_la-lock.lo
+  CC       libmount/src/libmount_la-optmap.lo
+  CC       libmount/src/libmount_la-optstr.lo
+  CC       libmount/src/libmount_la-tab.lo
+  CC       libmount/src/libmount_la-tab_diff.lo
+  CC       libmount/src/libmount_la-tab_parse.lo
+  CC       libmount/src/libmount_la-tab_update.lo
+  CC       libmount/src/libmount_la-test.lo
+  CC       libmount/src/libmount_la-utils.lo
+  CC       libmount/src/libmount_la-version.lo
+  CC       libmount/src/libmount_la-context.lo
+  CC       libmount/src/libmount_la-context_loopdev.lo
+  CC       libmount/src/libmount_la-context_mount.lo
+  CC       libmount/src/libmount_la-context_umount.lo
+  CC       libmount/src/libmount_la-monitor.lo
+  CC       libsmartcols/src/libsmartcols_la-iter.lo
+  CC       libsmartcols/src/libsmartcols_la-symbols.lo
+  CC       libsmartcols/src/libsmartcols_la-cell.lo
+  CC       libsmartcols/src/libsmartcols_la-column.lo
+  CC       libsmartcols/src/libsmartcols_la-line.lo
+  CC       libsmartcols/src/libsmartcols_la-table.lo
+  CC       libsmartcols/src/libsmartcols_la-table_print.lo
+  CC       libsmartcols/src/libsmartcols_la-version.lo
+  CC       libsmartcols/src/libsmartcols_la-init.lo
+  CC       libfdisk/src/libfdisk_la-init.lo
+  CC       libfdisk/src/libfdisk_la-test.lo
+  CC       libfdisk/src/libfdisk_la-ask.lo
+  CC       libfdisk/src/libfdisk_la-alignment.lo
+  CC       libfdisk/src/libfdisk_la-label.lo
+  CC       libfdisk/src/libfdisk_la-utils.lo
+  CC       libfdisk/src/libfdisk_la-context.lo
+  CC       libfdisk/src/libfdisk_la-parttype.lo
+  CC       libfdisk/src/libfdisk_la-partition.lo
+  CC       libfdisk/src/libfdisk_la-table.lo
+  CC       libfdisk/src/libfdisk_la-iter.lo
+  CC       libfdisk/src/libfdisk_la-script.lo
+  CC       libfdisk/src/libfdisk_la-version.lo
+  CC       libfdisk/src/libfdisk_la-sun.lo
+  CC       libfdisk/src/libfdisk_la-sgi.lo
+  CC       libfdisk/src/libfdisk_la-dos.lo
+  CC       libfdisk/src/libfdisk_la-bsd.lo
+  CC       libfdisk/src/libfdisk_la-gpt.lo
+  CC       text-utils/more-more.o
+  CC       sys-utils/dmesg-dmesg.o
+  CC       sys-utils/mount-mount.o
+  CC       sys-utils/umount-umount.o
+  CC       sys-utils/wdctl-wdctl.o
+  CC       sys-utils/mountpoint-mountpoint.o
+  CC       misc-utils/lsblk-lsblk.o
+  CC       misc-utils/findmnt-findmnt.o
+  CC       misc-utils/kill.o
+  CC       term-utils/agetty.o
+  CC       login-utils/sulogin.o
+  CC       login-utils/sulogin-consoles.o
+  CC       login-utils/nologin.o
+  CCLD     ctrlaltdel
+  CCLD     fsfreeze
+  CCLD     pivot_root
+  CCLD     switch_root
+  CC       disk-utils/fsck.minix.o
+  CC       disk-utils/mkfs.minix.o
+  CC       disk-utils/mkfs.o
+  CC       disk-utils/mkfs.bfs.o
+  CC       disk-utils/mkswap-mkswap.o
+  CC       disk-utils/swaplabel-swaplabel.o
+  CCLD     raw
+  CC       schedutils/chrt.o
+  CC       schedutils/ionice.o
+  CC       schedutils/taskset.o
+  CCLD     colcrt
+  CCLD     rev
+  CCLD     ul
+  CCLD     scriptreplay
+  CCLD     mesg
+  CCLD     utmpdump
+  CCLD     renice
+  CCLD     setsid
+  CCLD     setarch
+  CCLD     logger
+  CCLD     look
+  CCLD     namei
+  CCLD     rename
+  CCLD     getopt
+  CCLD     readprofile
+  CCLD     libcommon.la
+  CCLD     libtcolors.la
+  CCLD     libuuid.la
+  CCLD     libsmartcols.la
+  CCLD     more
+  CCLD     dmesg
+  CCLD     wdctl
+  CCLD     kill
+  CCLD     agetty
+  CCLD     sulogin
+  CCLD     nologin
+  CCLD     blkdiscard
+  CCLD     losetup
+  CCLD     zramctl
+  CCLD     chcpu
+  CCLD     hwclock
+  CCLD     fsck.minix
+  CCLD     mkfs.minix
+  CCLD     mkfs
+  CCLD     mkfs.bfs
+  CCLD     blockdev
+  CCLD     chrt
+  CCLD     ionice
+  CCLD     taskset
+  CCLD     col
+  CCLD     colrm
+  CCLD     column
+  CCLD     hexdump
+  CCLD     tailf
+  CCLD     pg
+  CCLD     script
+  CCLD     setterm
+  CCLD     wall
+  CCLD     last
+  CCLD     lslogins
+  CCLD     flock
+  CCLD     ipcmk
+  CCLD     ipcrm
+  CCLD     ipcs
+  CCLD     lsipc
+  CCLD     prlimit
+  CCLD     lscpu
+  CCLD     fallocate
+  CCLD     unshare
+  CCLD     nsenter
+  CCLD     cal
+  CCLD     mcookie
+  CCLD     whereis
+  CCLD     uuidgen
+  CCLD     isosize
+  CCLD     ldattach
+  CCLD     rtcwake
+  CCLD     uuidd
+  CCLD     fdformat
+  CCLD     addpart
+  CCLD     delpart
+  CCLD     resizepart
+  CCLD     libblkid.la
+copying selected object files to avoid basename conflicts...
+  CCLD     libfdisk.la
+  CCLD     libmount.la
+  CCLD     blkid
+  CCLD     findfs
+  CCLD     wipefs
+  CCLD     mkswap
+  CCLD     swaplabel
+  CCLD     fsck
+  CCLD     fdisk
+  CCLD     sfdisk
+  CCLD     cfdisk
+  CCLD     eject
+  CCLD     lslocks
+  CCLD     partx
+  CCLD     mount
+  CCLD     umount
+  CCLD     mountpoint
+  CCLD     lsblk
+  CCLD     findmnt
+  CCLD     fstrim
+  CCLD     swapon
+  CCLD     swapoff
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[1]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/util-linux-2.27.1'
+Making install in po
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1/po'
+installing ca.gmo as /tools/share/locale/ca/LC_MESSAGES/util-linux.mo
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/util-linux.mo
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/util-linux.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/util-linux.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/util-linux.mo
+installing et.gmo as /tools/share/locale/et/LC_MESSAGES/util-linux.mo
+installing eu.gmo as /tools/share/locale/eu/LC_MESSAGES/util-linux.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/util-linux.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/util-linux.mo
+installing gl.gmo as /tools/share/locale/gl/LC_MESSAGES/util-linux.mo
+installing hr.gmo as /tools/share/locale/hr/LC_MESSAGES/util-linux.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/util-linux.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/util-linux.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/util-linux.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/util-linux.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/util-linux.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/util-linux.mo
+installing pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/util-linux.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/util-linux.mo
+installing sl.gmo as /tools/share/locale/sl/LC_MESSAGES/util-linux.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/util-linux.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/util-linux.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/util-linux.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/util-linux.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/util-linux.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/util-linux.mo
+if test "util-linux" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1/po'
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1'
+make[3]: Entering directory '/sources/7.9/util-linux-2.27.1'
+ /tools/bin/mkdir -p '/tools/share/bash-completion/completions'
+ /tools/bin/install -c -m 644 bash-completion/blkid bash-completion/cal bash-completion/col bash-completion/colcrt bash-completion/colrm bash-completion/column bash-completion/findmnt bash-completion/flock bash-completion/getopt bash-completion/hexdump bash-completion/ipcrm bash-completion/ipcs bash-completion/isosize bash-completion/logger bash-completion/look bash-completion/lsipc bash-completion/mcookie bash-completion/mkfs bash-completion/mkswap bash-completion/namei bash-completion/prlimit bash-completion/readprofile bash-completion/renice bash-completion/rev bash-completion/script bash-completion/scriptreplay bash-completion/setsid bash-completion/tailf bash-completion/whereis bash-completion/wipefs bash-completion/fsck bash-completion/mkfs.bfs bash-completion/fsck.minix bash-completion/mkfs.minix bash-completion/addpart bash-completion/delpart bash-completion/resizepart bash-completion/partx bash-completion/raw bash-completion/swaplabel '/tools/share/bash-completion/completions'
+ /tools/bin/mkdir -p '/tools/share/doc/util-linux/getopt/'
+ /tools/bin/install -c -m 644 bash-completion/fdformat bash-completion/blockdev bash-completion/fdisk bash-completion/sfdisk bash-completion/cfdisk bash-completion/last bash-completion/utmpdump bash-completion/uuidgen bash-completion/uuidd bash-completion/lsblk bash-completion/lslocks bash-completion/rename bash-completion/chrt bash-completion/ionice bash-completion/taskset bash-completion/chcpu bash-completion/eject bash-completion/fallocate bash-completion/hwclock bash-completion/lscpu bash-completion/losetup bash-completion/mountpoint bash-completion/nsenter bash-completion/pivot_root bash-completion/swapon bash-completion/unshare bash-completion/wdctl bash-completion/blkdiscard bash-completion/ctrlaltdel bash-completion/dmesg bash-completion/fsfreeze bash-completion/fstrim bash-completion/ldattach bash-completion/rtcwake bash-completion/setarch bash-completion/zramctl bash-completion/mesg bash-completion/wall bash-completion/setterm bash-completion/more '/tools/share/bash-completion/completions'
+ /tools/bin/install -c misc-utils/getopt-parse.bash misc-utils/getopt-parse.tcsh '/tools/share/doc/util-linux/getopt/'
+ /tools/bin/install -c -m 644 bash-completion/pg bash-completion/ul '/tools/share/bash-completion/completions'
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/mkdir -p '/tools/share/man/man3'
+ /tools/bin/install -c -m 644 libuuid/man/uuid.3 libuuid/man/uuid_clear.3 libuuid/man/uuid_compare.3 libuuid/man/uuid_copy.3 libuuid/man/uuid_generate.3 libuuid/man/uuid_is_null.3 libuuid/man/uuid_parse.3 libuuid/man/uuid_time.3 libuuid/man/uuid_unparse.3 libuuid/man/uuid_generate_random.3 libuuid/man/uuid_generate_time.3 libuuid/man/uuid_generate_time_safe.3 libblkid/libblkid.3 '/tools/share/man/man3'
+ /tools/bin/install -c -m 644 schedutils/chrt.1 schedutils/ionice.1 schedutils/taskset.1 text-utils/col.1 text-utils/colcrt.1 text-utils/colrm.1 text-utils/column.1 text-utils/hexdump.1 text-utils/rev.1 text-utils/tailf.1 text-utils/pg.1 text-utils/ul.1 text-utils/more.1 term-utils/script.1 term-utils/scriptreplay.1 term-utils/setterm.1 term-utils/mesg.1 term-utils/wall.1 login-utils/last.1 login-utils/lastb.1 login-utils/utmpdump.1 login-utils/lslogins.1 sys-utils/flock.1 sys-utils/ipcmk.1 sys-utils/ipcrm.1 sys-utils/ipcs.1 sys-utils/lsipc.1 sys-utils/renice.1 sys-utils/setsid.1 sys-utils/dmesg.1 sys-utils/eject.1 sys-utils/prlimit.1 sys-utils/lscpu.1 sys-utils/mountpoint.1 sys-utils/fallocate.1 sys-utils/unshare.1 sys-utils/nsenter.1 misc-utils/cal.1 misc-utils/logger.1 misc-utils/look.1 '/tools/share/man/man1'
+ /tools/bin/install -c -m 644 misc-utils/mcookie.1 misc-utils/namei.1 misc-utils/whereis.1 misc-utils/uuidgen.1 misc-utils/kill.1 misc-utils/rename.1 misc-utils/getopt.1 '/tools/share/man/man1'
+ /tools/bin/mkdir -p '/tools/share/man/man5'
+ /tools/bin/mkdir -p '/tools/share/man/man8'
+ /tools/bin/install -c -m 644 lib/terminal-colors.d.5 sys-utils/fstab.5 '/tools/share/man/man5'
+ /tools/bin/mkdir -p '/tools/include/blkid'
+ /tools/bin/install -c -m 644 ./libblkid/src/blkid.h '/tools/include/blkid'
+ /tools/bin/install -c -m 644 term-utils/agetty.8 login-utils/sulogin.8 login-utils/nologin.8 sys-utils/readprofile.8 sys-utils/fstrim.8 sys-utils/ctrlaltdel.8 sys-utils/fsfreeze.8 sys-utils/blkdiscard.8 sys-utils/ldattach.8 sys-utils/rtcwake.8 sys-utils/setarch.8 sys-utils/losetup.8 sys-utils/zramctl.8 sys-utils/mount.8 sys-utils/umount.8 sys-utils/swapoff.8 sys-utils/swapon.8 sys-utils/chcpu.8 sys-utils/wdctl.8 sys-utils/pivot_root.8 sys-utils/switch_root.8 sys-utils/hwclock.8 misc-utils/lslocks.8 misc-utils/lsblk.8 misc-utils/uuidd.8 misc-utils/blkid.8 misc-utils/findfs.8 misc-utils/wipefs.8 misc-utils/findmnt.8 disk-utils/fsck.minix.8 disk-utils/mkfs.minix.8 disk-utils/mkfs.8 disk-utils/isosize.8 disk-utils/mkfs.bfs.8 disk-utils/mkswap.8 disk-utils/swaplabel.8 disk-utils/fsck.8 disk-utils/raw.8 disk-utils/fdformat.8 disk-utils/blockdev.8 '/tools/share/man/man8'
+ /tools/bin/mkdir -p '/tools/include/libfdisk'
+ /tools/bin/install -c -m 644 disk-utils/fdisk.8 disk-utils/sfdisk.8 disk-utils/cfdisk.8 disk-utils/addpart.8 disk-utils/delpart.8 disk-utils/resizepart.8 disk-utils/partx.8 sys-utils/uname26.8 sys-utils/linux32.8 sys-utils/linux64.8 sys-utils/i386.8 sys-utils/x86_64.8 '/tools/share/man/man8'
+ /tools/bin/install -c -m 644 ./libfdisk/src/libfdisk.h '/tools/include/libfdisk'
+ /tools/bin/mkdir -p '/tools/include/libmount'
+ /tools/bin/mkdir -p '/tools/include/libsmartcols'
+ /tools/bin/install -c -m 644 ./libsmartcols/src/libsmartcols.h '/tools/include/libsmartcols'
+ /tools/bin/install -c -m 644 ./libmount/src/libmount.h '/tools/include/libmount'
+ /tools/bin/mkdir -p '/tools/lib/pkgconfig'
+ /tools/bin/install -c -m 644 libuuid/uuid.pc libblkid/blkid.pc libmount/mount.pc libsmartcols/smartcols.pc libfdisk/fdisk.pc '/tools/lib/pkgconfig'
+ /tools/bin/mkdir -p '/tools/include/uuid'
+ /tools/bin/install -c -m 644 libuuid/src/uuid.h '/tools/include/uuid'
+ /tools/bin/mkdir -p '/tools/bin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c more dmesg mount umount wdctl mountpoint lsblk findmnt kill '/tools/bin'
+ /tools/bin/mkdir -p '/tools/sbin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c agetty sulogin nologin fstrim ctrlaltdel fsfreeze blkdiscard losetup zramctl swapon swapoff chcpu pivot_root switch_root hwclock blkid findfs wipefs fsck.minix mkfs.minix mkfs mkfs.bfs mkswap swaplabel fsck raw blockdev fdisk sfdisk cfdisk '/tools/sbin'
+libtool: install: /tools/bin/install -c more /tools/bin/more
+libtool: install: /tools/bin/install -c dmesg /tools/bin/dmesg
+libtool: install: /tools/bin/install -c agetty /tools/sbin/agetty
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/mount /tools/bin/mount
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/umount /tools/bin/umount
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/wdctl /tools/bin/wdctl
+libtool: install: /tools/bin/install -c sulogin /tools/sbin/sulogin
+libtool: install: /tools/bin/install -c nologin /tools/sbin/nologin
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/mountpoint /tools/bin/mountpoint
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/fstrim /tools/sbin/fstrim
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c ctrlaltdel /tools/sbin/ctrlaltdel
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c fsfreeze /tools/sbin/fsfreeze
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c blkdiscard /tools/sbin/blkdiscard
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/lsblk /tools/bin/lsblk
+libtool: install: /tools/bin/install -c .libs/losetup /tools/sbin/losetup
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/zramctl /tools/sbin/zramctl
+libtool: install: /tools/bin/install -c .libs/findmnt /tools/bin/findmnt
+libtool: install: /tools/bin/install -c kill /tools/bin/kill
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+ /tools/bin/mkdir -p '/tools/bin'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c chrt ionice taskset col colcrt colrm column hexdump rev tailf pg ul script scriptreplay setterm mesg wall last utmpdump lslogins flock ipcmk ipcrm ipcs lsipc renice setsid setarch eject prlimit lscpu fallocate unshare nsenter cal logger look mcookie namei whereis lslocks uuidgen rename getopt isosize '/tools/bin'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/swapon /tools/sbin/swapon
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c chrt /tools/bin/chrt
+libtool: install: /tools/bin/install -c .libs/swapoff /tools/sbin/swapoff
+libtool: install: /tools/bin/install -c ionice /tools/bin/ionice
+libtool: install: /tools/bin/install -c chcpu /tools/sbin/chcpu
+libtool: install: /tools/bin/install -c taskset /tools/bin/taskset
+libtool: install: /tools/bin/install -c pivot_root /tools/sbin/pivot_root
+libtool: install: /tools/bin/install -c col /tools/bin/col
+libtool: install: /tools/bin/install -c switch_root /tools/sbin/switch_root
+libtool: install: /tools/bin/install -c colcrt /tools/bin/colcrt
+libtool: install: /tools/bin/install -c colrm /tools/bin/colrm
+libtool: install: /tools/bin/install -c hwclock /tools/sbin/hwclock
+libtool: install: /tools/bin/install -c column /tools/bin/column
+libtool: install: /tools/bin/install -c hexdump /tools/bin/hexdump
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c rev /tools/bin/rev
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c tailf /tools/bin/tailf
+libtool: install: /tools/bin/install -c pg /tools/bin/pg
+libtool: install: /tools/bin/install -c .libs/blkid /tools/sbin/blkid
+libtool: install: /tools/bin/install -c ul /tools/bin/ul
+libtool: install: /tools/bin/install -c script /tools/bin/script
+libtool: install: /tools/bin/install -c scriptreplay /tools/bin/scriptreplay
+libtool: install: /tools/bin/install -c setterm /tools/bin/setterm
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c mesg /tools/bin/mesg
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c wall /tools/bin/wall
+libtool: install: /tools/bin/install -c .libs/findfs /tools/sbin/findfs
+libtool: install: /tools/bin/install -c last /tools/bin/last
+libtool: install: /tools/bin/install -c utmpdump /tools/bin/utmpdump
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/wipefs /tools/sbin/wipefs
+libtool: install: /tools/bin/install -c .libs/lslogins /tools/bin/lslogins
+libtool: install: /tools/bin/install -c fsck.minix /tools/sbin/fsck.minix
+libtool: install: /tools/bin/install -c flock /tools/bin/flock
+libtool: install: /tools/bin/install -c ipcmk /tools/bin/ipcmk
+libtool: install: /tools/bin/install -c mkfs.minix /tools/sbin/mkfs.minix
+libtool: install: /tools/bin/install -c mkfs /tools/sbin/mkfs
+libtool: install: /tools/bin/install -c ipcrm /tools/bin/ipcrm
+libtool: install: /tools/bin/install -c mkfs.bfs /tools/sbin/mkfs.bfs
+libtool: install: /tools/bin/install -c ipcs /tools/bin/ipcs
+libtool: install: warning: `libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/lsipc /tools/bin/lsipc
+libtool: install: /tools/bin/install -c renice /tools/bin/renice
+libtool: install: /tools/bin/install -c .libs/mkswap /tools/sbin/mkswap
+libtool: install: /tools/bin/install -c setsid /tools/bin/setsid
+libtool: install: /tools/bin/install -c setarch /tools/bin/setarch
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/swaplabel /tools/sbin/swaplabel
+libtool: install: /tools/bin/install -c .libs/eject /tools/bin/eject
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/prlimit /tools/bin/prlimit
+libtool: install: /tools/bin/install -c .libs/fsck /tools/sbin/fsck
+libtool: install: /tools/bin/install -c raw /tools/sbin/raw
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c blockdev /tools/sbin/blockdev
+libtool: install: /tools/bin/install -c .libs/lscpu /tools/bin/lscpu
+libtool: install: /tools/bin/install -c fallocate /tools/bin/fallocate
+libtool: install: warning: `libfdisk.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c unshare /tools/bin/unshare
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c nsenter /tools/bin/nsenter
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c cal /tools/bin/cal
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c logger /tools/bin/logger
+libtool: install: warning: `libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c look /tools/bin/look
+libtool: install: /tools/bin/install -c mcookie /tools/bin/mcookie
+libtool: install: /tools/bin/install -c .libs/fdisk /tools/sbin/fdisk
+libtool: install: /tools/bin/install -c namei /tools/bin/namei
+libtool: install: /tools/bin/install -c whereis /tools/bin/whereis
+libtool: install: warning: `libfdisk.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/lslocks /tools/bin/lslocks
+libtool: install: /tools/bin/install -c .libs/sfdisk /tools/sbin/sfdisk
+libtool: install: warning: `libuuid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/uuidgen /tools/bin/uuidgen
+libtool: install: warning: `libfdisk.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c rename /tools/bin/rename
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c getopt /tools/bin/getopt
+libtool: install: warning: `libmount.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c isosize /tools/bin/isosize
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `/sources/7.9/util-linux-2.27.1/libuuid.la' has not been installed in `/tools/lib'
+ /tools/bin/mkdir -p '/tools/lib'
+ /bin/sh ./libtool   --mode=install /tools/bin/install -c   libuuid.la libblkid.la libmount.la libsmartcols.la libfdisk.la '/tools/lib'
+libtool: install: /tools/bin/install -c .libs/cfdisk /tools/sbin/cfdisk
+ /tools/bin/mkdir -p '/tools/sbin'
+  /bin/sh ./libtool   --mode=install /tools/bin/install -c readprofile ldattach rtcwake uuidd fdformat partx addpart delpart resizepart '/tools/sbin'
+libtool: install: /tools/bin/install -c .libs/libuuid.so.1.3.0 /tools/lib/libuuid.so.1.3.0
+libtool: install: (cd /tools/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so.1 || { rm -f libuuid.so.1 && ln -s libuuid.so.1.3.0 libuuid.so.1; }; })
+libtool: install: (cd /tools/lib && { ln -s -f libuuid.so.1.3.0 libuuid.so || { rm -f libuuid.so && ln -s libuuid.so.1.3.0 libuuid.so; }; })
+libtool: install: /tools/bin/install -c .libs/libuuid.lai /tools/lib/libuuid.la
+libtool: install: warning: relinking `libblkid.la'
+libtool: install: (cd /sources/7.9/util-linux-2.27.1; /bin/sh /sources/7.9/util-linux-2.27.1/libtool  --silent --tag CC --mode=relink gcc -I./libblkid/src -I./libblkid/src -I./libuuid/src -g -O2 -Wl,--version-script=./libblkid/src/libblkid.sym -version-info 2:0:1 -o libblkid.la -rpath /tools/lib libblkid/src/libblkid_la-init.lo libblkid/src/libblkid_la-cache.lo libblkid/src/libblkid_la-config.lo libblkid/src/libblkid_la-dev.lo libblkid/src/libblkid_la-devname.lo libblkid/src/libblkid_la-devno.lo libblkid/src/libblkid_la-encode.lo libblkid/src/libblkid_la-evaluate.lo libblkid/src/libblkid_la-getsize.lo libblkid/src/libblkid_la-llseek.lo libblkid/src/libblkid_la-probe.lo libblkid/src/libblkid_la-read.lo libblkid/src/libblkid_la-resolve.lo libblkid/src/libblkid_la-save.lo libblkid/src/libblkid_la-tag.lo libblkid/src/libblkid_la-verify.lo libblkid/src/libblkid_la-version.lo libblkid/src/partitions/libblkid_la-aix.lo libblkid/src/partitions/libblkid_la-bsd.lo libblkid/src/partitions/libblkid_la-dos.lo libblkid/src/partitions/libblkid_la-gpt.lo libblkid/src/partitions/libblkid_la-mac.lo libblkid/src/partitions/libblkid_la-minix.lo libblkid/src/partitions/libblkid_la-partitions.lo libblkid/src/partitions/libblkid_la-sgi.lo libblkid/src/partitions/libblkid_la-solaris_x86.lo libblkid/src/partitions/libblkid_la-sun.lo libblkid/src/partitions/libblkid_la-ultrix.lo libblkid/src/partitions/libblkid_la-unixware.lo libblkid/src/superblocks/libblkid_la-adaptec_raid.lo libblkid/src/superblocks/libblkid_la-bcache.lo libblkid/src/superblocks/libblkid_la-befs.lo libblkid/src/superblocks/libblkid_la-bfs.lo libblkid/src/superblocks/libblkid_la-btrfs.lo libblkid/src/superblocks/libblkid_la-cramfs.lo libblkid/src/superblocks/libblkid_la-ddf_raid.lo libblkid/src/superblocks/libblkid_la-drbd.lo libblkid/src/superblocks/libblkid_la-drbdproxy_datalog.lo libblkid/src/superblocks/libblkid_la-drbdmanage.lo libblkid/src/superblocks/libblkid_la-exfat.lo libblkid/src/superblocks/libblkid_la-ext.lo libblkid/src/superblocks/libblkid_la-f2fs.lo libblkid/src/superblocks/libblkid_la-gfs.lo libblkid/src/superblocks/libblkid_la-hfs.lo libblkid/src/superblocks/libblkid_la-highpoint_raid.lo libblkid/src/superblocks/libblkid_la-hpfs.lo libblkid/src/superblocks/libblkid_la-iso9660.lo libblkid/src/superblocks/libblkid_la-isw_raid.lo libblkid/src/superblocks/libblkid_la-jfs.lo libblkid/src/superblocks/libblkid_la-jmicron_raid.lo libblkid/src/superblocks/libblkid_la-linux_raid.lo libblkid/src/superblocks/libblkid_la-lsi_raid.lo libblkid/src/superblocks/libblkid_la-luks.lo libblkid/src/superblocks/libblkid_la-lvm.lo libblkid/src/superblocks/libblkid_la-minix.lo libblkid/src/superblocks/libblkid_la-netware.lo libblkid/src/superblocks/libblkid_la-nilfs.lo libblkid/src/superblocks/libblkid_la-ntfs.lo libblkid/src/superblocks/libblkid_la-refs.lo libblkid/src/superblocks/libblkid_la-nvidia_raid.lo libblkid/src/superblocks/libblkid_la-ocfs.lo libblkid/src/superblocks/libblkid_la-promise_raid.lo libblkid/src/superblocks/libblkid_la-reiserfs.lo libblkid/src/superblocks/libblkid_la-romfs.lo libblkid/src/superblocks/libblkid_la-silicon_raid.lo libblkid/src/superblocks/libblkid_la-squashfs.lo libblkid/src/superblocks/libblkid_la-superblocks.lo libblkid/src/superblocks/libblkid_la-swap.lo libblkid/src/superblocks/libblkid_la-sysv.lo libblkid/src/superblocks/libblkid_la-ubifs.lo libblkid/src/superblocks/libblkid_la-udf.lo libblkid/src/superblocks/libblkid_la-ufs.lo libblkid/src/superblocks/libblkid_la-vfat.lo libblkid/src/superblocks/libblkid_la-via_raid.lo libblkid/src/superblocks/libblkid_la-vmfs.lo libblkid/src/superblocks/libblkid_la-vxfs.lo libblkid/src/superblocks/libblkid_la-xfs.lo libblkid/src/superblocks/libblkid_la-zfs.lo libblkid/src/topology/libblkid_la-topology.lo libblkid/src/topology/libblkid_la-dm.lo libblkid/src/topology/libblkid_la-evms.lo libblkid/src/topology/libblkid_la-ioctl.lo libblkid/src/topology/libblkid_la-lvm.lo libblkid/src/topology/libblkid_la-md.lo libblkid/src/topology/libblkid_la-sysfs.lo libcommon.la libuuid.la )
+libtool: install: /tools/bin/install -c readprofile /tools/sbin/readprofile
+libtool: install: /tools/bin/install -c ldattach /tools/sbin/ldattach
+libtool: install: /tools/bin/install -c rtcwake /tools/sbin/rtcwake
+libtool: install: /tools/bin/install -c .libs/uuidd /tools/sbin/uuidd
+libtool: install: /tools/bin/install -c fdformat /tools/sbin/fdformat
+libtool: install: warning: `libblkid.la' has not been installed in `/tools/lib'
+libtool: install: warning: `libsmartcols.la' has not been installed in `/tools/lib'
+libtool: install: /tools/bin/install -c .libs/partx /tools/sbin/partx
+libtool: install: /tools/bin/install -c addpart /tools/sbin/addpart
+libtool: install: /tools/bin/install -c delpart /tools/sbin/delpart
+libtool: install: /tools/bin/install -c resizepart /tools/sbin/resizepart
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/util-linux-2.27.1'
+make[4]: Nothing to be done for 'install-data-hook'.
+make[4]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+libtool: install: /tools/bin/install -c .libs/libblkid.so.1.1.0T /tools/lib/libblkid.so.1.1.0
+libtool: install: (cd /tools/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so.1 || { rm -f libblkid.so.1 && ln -s libblkid.so.1.1.0 libblkid.so.1; }; })
+libtool: install: (cd /tools/lib && { ln -s -f libblkid.so.1.1.0 libblkid.so || { rm -f libblkid.so && ln -s libblkid.so.1.1.0 libblkid.so; }; })
+libtool: install: /tools/bin/install -c .libs/libblkid.lai /tools/lib/libblkid.la
+libtool: install: warning: relinking `libmount.la'
+libtool: install: (cd /sources/7.9/util-linux-2.27.1; /bin/sh /sources/7.9/util-linux-2.27.1/libtool  --silent --tag CC --mode=relink gcc -I./libblkid/src -I./libmount/src -I./libmount/src -g -O2 -Wl,--version-script=./libmount/src/libmount.sym -version-info 2:0:1 -o libmount.la -rpath /tools/lib lib/libmount_la-monotonic.lo libmount/src/libmount_la-cache.lo libmount/src/libmount_la-fs.lo libmount/src/libmount_la-init.lo libmount/src/libmount_la-iter.lo libmount/src/libmount_la-lock.lo libmount/src/libmount_la-optmap.lo libmount/src/libmount_la-optstr.lo libmount/src/libmount_la-tab.lo libmount/src/libmount_la-tab_diff.lo libmount/src/libmount_la-tab_parse.lo libmount/src/libmount_la-tab_update.lo libmount/src/libmount_la-test.lo libmount/src/libmount_la-utils.lo libmount/src/libmount_la-version.lo libmount/src/libmount_la-context.lo libmount/src/libmount_la-context_loopdev.lo libmount/src/libmount_la-context_mount.lo libmount/src/libmount_la-context_umount.lo libmount/src/libmount_la-monitor.lo libcommon.la libblkid.la -lrt )
+libtool: install: /tools/bin/install -c .libs/libmount.so.1.1.0T /tools/lib/libmount.so.1.1.0
+libtool: install: (cd /tools/lib && { ln -s -f libmount.so.1.1.0 libmount.so.1 || { rm -f libmount.so.1 && ln -s libmount.so.1.1.0 libmount.so.1; }; })
+libtool: install: (cd /tools/lib && { ln -s -f libmount.so.1.1.0 libmount.so || { rm -f libmount.so && ln -s libmount.so.1.1.0 libmount.so; }; })
+libtool: install: /tools/bin/install -c .libs/libmount.lai /tools/lib/libmount.la
+libtool: install: /tools/bin/install -c .libs/libsmartcols.so.1.1.0 /tools/lib/libsmartcols.so.1.1.0
+libtool: install: (cd /tools/lib && { ln -s -f libsmartcols.so.1.1.0 libsmartcols.so.1 || { rm -f libsmartcols.so.1 && ln -s libsmartcols.so.1.1.0 libsmartcols.so.1; }; })
+libtool: install: (cd /tools/lib && { ln -s -f libsmartcols.so.1.1.0 libsmartcols.so || { rm -f libsmartcols.so && ln -s libsmartcols.so.1.1.0 libsmartcols.so; }; })
+libtool: install: /tools/bin/install -c .libs/libsmartcols.lai /tools/lib/libsmartcols.la
+libtool: install: warning: relinking `libfdisk.la'
+libtool: install: (cd /sources/7.9/util-linux-2.27.1; /bin/sh /sources/7.9/util-linux-2.27.1/libtool  --silent --tag CC --mode=relink gcc -I./libuuid/src -I./libfdisk/src -I./libfdisk/src -I./libblkid/src -g -O2 -Wl,--version-script=./libfdisk/src/libfdisk.sym -version-info 2:0:1 -o libfdisk.la -rpath /tools/lib libfdisk/src/libfdisk_la-init.lo libfdisk/src/libfdisk_la-test.lo libfdisk/src/libfdisk_la-ask.lo libfdisk/src/libfdisk_la-alignment.lo libfdisk/src/libfdisk_la-label.lo libfdisk/src/libfdisk_la-utils.lo libfdisk/src/libfdisk_la-context.lo libfdisk/src/libfdisk_la-parttype.lo libfdisk/src/libfdisk_la-partition.lo libfdisk/src/libfdisk_la-table.lo libfdisk/src/libfdisk_la-iter.lo libfdisk/src/libfdisk_la-script.lo libfdisk/src/libfdisk_la-version.lo libfdisk/src/libfdisk_la-sun.lo libfdisk/src/libfdisk_la-sgi.lo libfdisk/src/libfdisk_la-dos.lo libfdisk/src/libfdisk_la-bsd.lo libfdisk/src/libfdisk_la-gpt.lo libcommon.la libuuid.la libblkid.la )
+libtool: install: /tools/bin/install -c .libs/libfdisk.so.1.1.0T /tools/lib/libfdisk.so.1.1.0
+libtool: install: (cd /tools/lib && { ln -s -f libfdisk.so.1.1.0 libfdisk.so.1 || { rm -f libfdisk.so.1 && ln -s libfdisk.so.1.1.0 libfdisk.so.1; }; })
+libtool: install: (cd /tools/lib && { ln -s -f libfdisk.so.1.1.0 libfdisk.so || { rm -f libfdisk.so && ln -s libfdisk.so.1.1.0 libfdisk.so; }; })
+libtool: install: /tools/bin/install -c .libs/libfdisk.lai /tools/lib/libfdisk.la
+libtool: install: /tools/bin/install -c .libs/libuuid.a /tools/lib/libuuid.a
+libtool: install: chmod 644 /tools/lib/libuuid.a
+libtool: install: ranlib /tools/lib/libuuid.a
+libtool: install: /tools/bin/install -c .libs/libblkid.a /tools/lib/libblkid.a
+libtool: install: chmod 644 /tools/lib/libblkid.a
+libtool: install: ranlib /tools/lib/libblkid.a
+libtool: install: /tools/bin/install -c .libs/libmount.a /tools/lib/libmount.a
+libtool: install: chmod 644 /tools/lib/libmount.a
+libtool: install: ranlib /tools/lib/libmount.a
+libtool: install: /tools/bin/install -c .libs/libsmartcols.a /tools/lib/libsmartcols.a
+libtool: install: chmod 644 /tools/lib/libsmartcols.a
+libtool: install: ranlib /tools/lib/libsmartcols.a
+libtool: install: /tools/bin/install -c .libs/libfdisk.a /tools/lib/libfdisk.a
+libtool: install: chmod 644 /tools/lib/libfdisk.a
+libtool: install: ranlib /tools/lib/libfdisk.a
+libtool: finish: PATH="/tools/bin:/bin:/usr/bin:/sbin" ldconfig -n /tools/lib
+ldconfig: /tools/lib/libstdc++.so.6.0.21-gdb.py is not an ELF file - it has the wrong magic bytes at the start.
+
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tools/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+make[4]: Entering directory '/sources/7.9/util-linux-2.27.1'
+if test "/tools/lib" != "/tools/lib" -a -f "/tools/lib/libuuid.so"; then \
+	mkdir -p /tools/lib; \
+	mv /tools/lib/libuuid.so.* /tools/lib; \
+	so_img_name=$(readlink /tools/lib/libuuid.so); \
+	so_img_rel_target=$(echo /tools/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /tools/lib && \
+		rm -f libuuid.so && \
+		ln -s $so_img_rel_target/tools/lib/$so_img_name libuuid.so); \
+fi
+if test "/tools/lib" != "/tools/lib" -a -f "/tools/lib/libblkid.so"; then \
+	mkdir -p /tools/lib; \
+	mv /tools/lib/libblkid.so.* /tools/lib; \
+	so_img_name=$(readlink /tools/lib/libblkid.so); \
+	so_img_rel_target=$(echo /tools/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /tools/lib && \
+		rm -f libblkid.so && \
+		ln -s $so_img_rel_target/tools/lib/$so_img_name libblkid.so); \
+fi
+if test "/tools/lib" != "/tools/lib" -a -f "/tools/lib/libmount.so"; then \
+	mkdir -p /tools/lib; \
+	mv /tools/lib/libmount.so.* /tools/lib; \
+	so_img_name=$(readlink /tools/lib/libmount.so); \
+	so_img_rel_target=$(echo /tools/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /tools/lib && \
+		rm -f libmount.so && \
+		ln -s $so_img_rel_target/tools/lib/$so_img_name libmount.so); \
+fi
+if test "/tools/lib" != "/tools/lib" -a -f "/tools/lib/libsmartcols.so"; then \
+	mkdir -p /tools/lib; \
+	mv /tools/lib/libsmartcols.so.* /tools/lib; \
+	so_img_name=$(readlink /tools/lib/libsmartcols.so); \
+	so_img_rel_target=$(echo /tools/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /tools/lib && \
+		rm -f libsmartcols.so && \
+		ln -s $so_img_rel_target/tools/lib/$so_img_name libsmartcols.so); \
+fi
+if test "/tools/lib" != "/tools/lib" -a -f "/tools/lib/libfdisk.so"; then \
+	mkdir -p /tools/lib; \
+	mv /tools/lib/libfdisk.so.* /tools/lib; \
+	so_img_name=$(readlink /tools/lib/libfdisk.so); \
+	so_img_rel_target=$(echo /tools/lib | sed 's,\(^/\|\)[^/][^/]*,..,g'); \
+	(cd /tools/lib && \
+		rm -f libfdisk.so && \
+		ln -s $so_img_rel_target/tools/lib/$so_img_name libfdisk.so); \
+fi
+cd /tools/bin && ln -sf last lastb
+for I in uname26 linux32 linux64   i386 x86_64     ; do \
+	cd /tools/bin && ln -sf setarch $I ; \
+done
+chmod 4755 /tools/bin/mount
+chmod 4755 /tools/bin/umount
+make[4]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[3]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[1]: Leaving directory '/sources/7.9/util-linux-2.27.1'

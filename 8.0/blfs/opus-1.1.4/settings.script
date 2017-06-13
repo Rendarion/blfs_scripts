@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.xiph.org/releases/opus/opus-1.1.4.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

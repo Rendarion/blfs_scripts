@@ -1,0 +1,1096 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for inline... inline
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking GCC version... 5.3.0
+checking if gcc accepts -Wdeclaration-after-statement... yes
+checking for memory.h... (cached) yes
+checking for cos in -lm... yes
+checking for pthread_create in -lpthread... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for OGG... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/modes/Makefile
+config.status: creating lib/books/Makefile
+config.status: creating lib/books/coupled/Makefile
+config.status: creating lib/books/uncoupled/Makefile
+config.status: creating lib/books/floor/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/vorbisfile/Makefile
+config.status: creating doc/vorbisenc/Makefile
+config.status: creating doc/libvorbis/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating include/Makefile
+config.status: creating include/vorbis/Makefile
+config.status: creating examples/Makefile
+config.status: creating test/Makefile
+config.status: creating vq/Makefile
+config.status: creating libvorbis.spec
+config.status: creating vorbis.pc
+config.status: creating vorbisenc.pc
+config.status: creating vorbisfile.pc
+config.status: creating vorbis-uninstalled.pc
+config.status: creating vorbisenc-uninstalled.pc
+config.status: creating vorbisfile-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5'
+Making all in m4
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/m4'
+Making all in include
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+Making all in vorbis
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+Making all in vq
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/vq'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/vq'
+Making all in lib
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making all in modes
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+Making all in books
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+Making all in coupled
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+Making all in uncoupled
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+Making all in floor
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT mdct.lo -MD -MP -MF .deps/mdct.Tpo -c -o mdct.lo mdct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT mdct.lo -MD -MP -MF .deps/mdct.Tpo -c mdct.c  -fPIC -DPIC -o .libs/mdct.o
+mv -f .deps/mdct.Tpo .deps/mdct.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c -o smallft.lo smallft.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT smallft.lo -MD -MP -MF .deps/smallft.Tpo -c smallft.c  -fPIC -DPIC -o .libs/smallft.o
+mv -f .deps/smallft.Tpo .deps/smallft.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT block.lo -MD -MP -MF .deps/block.Tpo -c -o block.lo block.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT block.lo -MD -MP -MF .deps/block.Tpo -c block.c  -fPIC -DPIC -o .libs/block.o
+mv -f .deps/block.Tpo .deps/block.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT envelope.lo -MD -MP -MF .deps/envelope.Tpo -c -o envelope.lo envelope.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT envelope.lo -MD -MP -MF .deps/envelope.Tpo -c envelope.c  -fPIC -DPIC -o .libs/envelope.o
+mv -f .deps/envelope.Tpo .deps/envelope.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT window.lo -MD -MP -MF .deps/window.Tpo -c -o window.lo window.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT window.lo -MD -MP -MF .deps/window.Tpo -c window.c  -fPIC -DPIC -o .libs/window.o
+mv -f .deps/window.Tpo .deps/window.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c -o lsp.lo lsp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT lsp.lo -MD -MP -MF .deps/lsp.Tpo -c lsp.c  -fPIC -DPIC -o .libs/lsp.o
+mv -f .deps/lsp.Tpo .deps/lsp.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c -o lpc.lo lpc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT lpc.lo -MD -MP -MF .deps/lpc.Tpo -c lpc.c  -fPIC -DPIC -o .libs/lpc.o
+mv -f .deps/lpc.Tpo .deps/lpc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT analysis.lo -MD -MP -MF .deps/analysis.Tpo -c -o analysis.lo analysis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT analysis.lo -MD -MP -MF .deps/analysis.Tpo -c analysis.c  -fPIC -DPIC -o .libs/analysis.o
+mv -f .deps/analysis.Tpo .deps/analysis.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT synthesis.lo -MD -MP -MF .deps/synthesis.Tpo -c -o synthesis.lo synthesis.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT synthesis.lo -MD -MP -MF .deps/synthesis.Tpo -c synthesis.c  -fPIC -DPIC -o .libs/synthesis.o
+mv -f .deps/synthesis.Tpo .deps/synthesis.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT psy.lo -MD -MP -MF .deps/psy.Tpo -c -o psy.lo psy.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT psy.lo -MD -MP -MF .deps/psy.Tpo -c psy.c  -fPIC -DPIC -o .libs/psy.o
+mv -f .deps/psy.Tpo .deps/psy.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT info.lo -MD -MP -MF .deps/info.Tpo -c -o info.lo info.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT info.lo -MD -MP -MF .deps/info.Tpo -c info.c  -fPIC -DPIC -o .libs/info.o
+mv -f .deps/info.Tpo .deps/info.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT floor1.lo -MD -MP -MF .deps/floor1.Tpo -c -o floor1.lo floor1.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT floor1.lo -MD -MP -MF .deps/floor1.Tpo -c floor1.c  -fPIC -DPIC -o .libs/floor1.o
+mv -f .deps/floor1.Tpo .deps/floor1.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT floor0.lo -MD -MP -MF .deps/floor0.Tpo -c -o floor0.lo floor0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT floor0.lo -MD -MP -MF .deps/floor0.Tpo -c floor0.c  -fPIC -DPIC -o .libs/floor0.o
+mv -f .deps/floor0.Tpo .deps/floor0.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT res0.lo -MD -MP -MF .deps/res0.Tpo -c -o res0.lo res0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT res0.lo -MD -MP -MF .deps/res0.Tpo -c res0.c  -fPIC -DPIC -o .libs/res0.o
+mv -f .deps/res0.Tpo .deps/res0.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT mapping0.lo -MD -MP -MF .deps/mapping0.Tpo -c -o mapping0.lo mapping0.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT mapping0.lo -MD -MP -MF .deps/mapping0.Tpo -c mapping0.c  -fPIC -DPIC -o .libs/mapping0.o
+mv -f .deps/mapping0.Tpo .deps/mapping0.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT registry.lo -MD -MP -MF .deps/registry.Tpo -c -o registry.lo registry.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT registry.lo -MD -MP -MF .deps/registry.Tpo -c registry.c  -fPIC -DPIC -o .libs/registry.o
+mv -f .deps/registry.Tpo .deps/registry.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT codebook.lo -MD -MP -MF .deps/codebook.Tpo -c -o codebook.lo codebook.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT codebook.lo -MD -MP -MF .deps/codebook.Tpo -c codebook.c  -fPIC -DPIC -o .libs/codebook.o
+mv -f .deps/codebook.Tpo .deps/codebook.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT sharedbook.lo -MD -MP -MF .deps/sharedbook.Tpo -c -o sharedbook.lo sharedbook.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT sharedbook.lo -MD -MP -MF .deps/sharedbook.Tpo -c sharedbook.c  -fPIC -DPIC -o .libs/sharedbook.o
+mv -f .deps/sharedbook.Tpo .deps/sharedbook.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT lookup.lo -MD -MP -MF .deps/lookup.Tpo -c -o lookup.lo lookup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT lookup.lo -MD -MP -MF .deps/lookup.Tpo -c lookup.c  -fPIC -DPIC -o .libs/lookup.o
+mv -f .deps/lookup.Tpo .deps/lookup.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT bitrate.lo -MD -MP -MF .deps/bitrate.Tpo -c -o bitrate.lo bitrate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT bitrate.lo -MD -MP -MF .deps/bitrate.Tpo -c bitrate.c  -fPIC -DPIC -o .libs/bitrate.o
+mv -f .deps/bitrate.Tpo .deps/bitrate.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -no-undefined -version-info 4:8:4  -o libvorbis.la -rpath /usr/lib mdct.lo smallft.lo block.lo envelope.lo window.lo lsp.lo lpc.lo analysis.lo synthesis.lo psy.lo info.lo floor1.lo floor0.lo res0.lo mapping0.lo registry.lo codebook.lo sharedbook.lo lookup.lo bitrate.lo -lm -logg 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/mdct.o .libs/smallft.o .libs/block.o .libs/envelope.o .libs/window.o .libs/lsp.o .libs/lpc.o .libs/analysis.o .libs/synthesis.o .libs/psy.o .libs/info.o .libs/floor1.o .libs/floor0.o .libs/res0.o .libs/mapping0.o .libs/registry.o .libs/codebook.o .libs/sharedbook.o .libs/lookup.o .libs/bitrate.o   -lm /usr/lib/libogg.so  -O3   -Wl,-soname -Wl,libvorbis.so.0 -o .libs/libvorbis.so.0.4.8
+libtool: link: (cd ".libs" && rm -f "libvorbis.so.0" && ln -s "libvorbis.so.0.4.8" "libvorbis.so.0")
+libtool: link: (cd ".libs" && rm -f "libvorbis.so" && ln -s "libvorbis.so.0.4.8" "libvorbis.so")
+libtool: link: ( cd ".libs" && rm -f "libvorbis.la" && ln -s "../libvorbis.la" "libvorbis.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT vorbisfile.lo -MD -MP -MF .deps/vorbisfile.Tpo -c -o vorbisfile.lo vorbisfile.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT vorbisfile.lo -MD -MP -MF .deps/vorbisfile.Tpo -c vorbisfile.c  -fPIC -DPIC -o .libs/vorbisfile.o
+mv -f .deps/vorbisfile.Tpo .deps/vorbisfile.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -no-undefined -version-info 6:7:3  -o libvorbisfile.la -rpath /usr/lib vorbisfile.lo libvorbis.la -logg 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/vorbisfile.o   -Wl,-rpath -Wl,/sources/7.9/libvorbis-1.3.5/lib/.libs ./.libs/libvorbis.so -L/usr/lib64 -lm /usr/lib/libogg.so  -O3   -Wl,-soname -Wl,libvorbisfile.so.3 -o .libs/libvorbisfile.so.3.3.7
+libtool: link: (cd ".libs" && rm -f "libvorbisfile.so.3" && ln -s "libvorbisfile.so.3.3.7" "libvorbisfile.so.3")
+libtool: link: (cd ".libs" && rm -f "libvorbisfile.so" && ln -s "libvorbisfile.so.3.3.7" "libvorbisfile.so")
+libtool: link: ( cd ".libs" && rm -f "libvorbisfile.la" && ln -s "../libvorbisfile.la" "libvorbisfile.la" )
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT vorbisenc.lo -MD -MP -MF .deps/vorbisenc.Tpo -c -o vorbisenc.lo vorbisenc.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -MT vorbisenc.lo -MD -MP -MF .deps/vorbisenc.Tpo -c vorbisenc.c  -fPIC -DPIC -o .libs/vorbisenc.o
+mv -f .deps/vorbisenc.Tpo .deps/vorbisenc.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -no-undefined -version-info 2:11:0  -o libvorbisenc.la -rpath /usr/lib vorbisenc.lo libvorbis.la -logg 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/vorbisenc.o   -Wl,-rpath -Wl,/sources/7.9/libvorbis-1.3.5/lib/.libs ./.libs/libvorbis.so -L/usr/lib64 -lm /usr/lib/libogg.so  -O3   -Wl,-soname -Wl,libvorbisenc.so.2 -o .libs/libvorbisenc.so.2.0.11
+libtool: link: (cd ".libs" && rm -f "libvorbisenc.so.2" && ln -s "libvorbisenc.so.2.0.11" "libvorbisenc.so.2")
+libtool: link: (cd ".libs" && rm -f "libvorbisenc.so" && ln -s "libvorbisenc.so.2.0.11" "libvorbisenc.so")
+libtool: link: ( cd ".libs" && rm -f "libvorbisenc.la" && ln -s "../libvorbisenc.la" "libvorbisenc.la" )
+gcc -DHAVE_CONFIG_H -I. -I.. -I../include    -D_V_SELFTEST -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT test_sharedbook-sharedbook.o -MD -MP -MF .deps/test_sharedbook-sharedbook.Tpo -c -o test_sharedbook-sharedbook.o `test -f 'sharedbook.c' || echo './'`sharedbook.c
+mv -f .deps/test_sharedbook-sharedbook.Tpo .deps/test_sharedbook-sharedbook.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -D_V_SELFTEST -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H   -o test_sharedbook test_sharedbook-sharedbook.o -lm 
+libtool: link: gcc -D_V_SELFTEST -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -o test_sharedbook test_sharedbook-sharedbook.o  -lm
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making all in test
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/test'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+Making all in libvorbis
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+Making all in vorbisfile
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+Making all in vorbisenc
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+echo "*** Warning: Doxygen not found; documentation will not be built."
+*** Warning: Doxygen not found; documentation will not be built.
+touch doxygen-build.stamp
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5'
+Making check in m4
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/m4'
+Making check in include
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+Making check in vorbis
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+Making check in vq
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/vq'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/vq'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making check in modes
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+Making check in books
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+Making check in coupled
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+Making check in uncoupled
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+Making check in floor
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+./test_sharedbook
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making check in test
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/test'
+gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT util.o -MD -MP -MF .deps/util.Tpo -c -o util.o util.c
+mv -f .deps/util.Tpo .deps/util.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT write_read.o -MD -MP -MF .deps/write_read.Tpo -c -o write_read.o write_read.c
+mv -f .deps/write_read.Tpo .deps/write_read.Po
+gcc -DHAVE_CONFIG_H -I. -I.. -I../include     -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H -MT test.o -MD -MP -MF .deps/test.Tpo -c -o test.o test.c
+mv -f .deps/test.Tpo .deps/test.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement  -DUSE_MEMORY_H   -o test util.o write_read.o test.o ../lib/libvorbisenc.la ../lib/libvorbis.la -logg -lm -lm
+libtool: link: gcc -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -o .libs/test util.o write_read.o test.o  ../lib/.libs/libvorbisenc.so /sources/7.9/libvorbis-1.3.5/lib/.libs/libvorbis.so ../lib/.libs/libvorbis.so /usr/lib/libogg.so -lm
+make  test
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/test'
+make[2]: 'test' is up to date.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/test'
+./test
+
+Testing 1 channel
+
+    vorbis_1ch_q-0.5_44100.ogg : ok
+    vorbis_1ch_q-0.5_48000.ogg : ok
+    vorbis_1ch_q-0.5_32000.ogg : ok
+    vorbis_1ch_q-0.5_22050.ogg : ok
+    vorbis_1ch_q-0.5_16000.ogg : ok
+    vorbis_1ch_q-0.5_96000.ogg : ok
+    vorbis_1ch_q0.5_44100.ogg : ok
+    vorbis_1ch_q0.5_48000.ogg : ok
+    vorbis_1ch_q0.5_32000.ogg : ok
+    vorbis_1ch_q0.5_22050.ogg : ok
+    vorbis_1ch_q0.5_16000.ogg : ok
+    vorbis_1ch_q0.5_96000.ogg : ok
+    vorbis_1ch_q1.5_44100.ogg : ok
+    vorbis_1ch_q1.5_48000.ogg : ok
+    vorbis_1ch_q1.5_32000.ogg : ok
+    vorbis_1ch_q1.5_22050.ogg : ok
+    vorbis_1ch_q1.5_16000.ogg : ok
+    vorbis_1ch_q1.5_96000.ogg : ok
+    vorbis_1ch_q2.5_44100.ogg : ok
+    vorbis_1ch_q2.5_48000.ogg : ok
+    vorbis_1ch_q2.5_32000.ogg : ok
+    vorbis_1ch_q2.5_22050.ogg : ok
+    vorbis_1ch_q2.5_16000.ogg : ok
+    vorbis_1ch_q2.5_96000.ogg : ok
+    vorbis_1ch_q3.5_44100.ogg : ok
+    vorbis_1ch_q3.5_48000.ogg : ok
+    vorbis_1ch_q3.5_32000.ogg : ok
+    vorbis_1ch_q3.5_22050.ogg : ok
+    vorbis_1ch_q3.5_16000.ogg : ok
+    vorbis_1ch_q3.5_96000.ogg : ok
+    vorbis_1ch_q4.5_44100.ogg : ok
+    vorbis_1ch_q4.5_48000.ogg : ok
+    vorbis_1ch_q4.5_32000.ogg : ok
+    vorbis_1ch_q4.5_22050.ogg : ok
+    vorbis_1ch_q4.5_16000.ogg : ok
+    vorbis_1ch_q4.5_96000.ogg : ok
+    vorbis_1ch_q5.5_44100.ogg : ok
+    vorbis_1ch_q5.5_48000.ogg : ok
+    vorbis_1ch_q5.5_32000.ogg : ok
+    vorbis_1ch_q5.5_22050.ogg : ok
+    vorbis_1ch_q5.5_16000.ogg : ok
+    vorbis_1ch_q5.5_96000.ogg : ok
+    vorbis_1ch_q6.5_44100.ogg : ok
+    vorbis_1ch_q6.5_48000.ogg : ok
+    vorbis_1ch_q6.5_32000.ogg : ok
+    vorbis_1ch_q6.5_22050.ogg : ok
+    vorbis_1ch_q6.5_16000.ogg : ok
+    vorbis_1ch_q6.5_96000.ogg : ok
+    vorbis_1ch_q7.5_44100.ogg : ok
+    vorbis_1ch_q7.5_48000.ogg : ok
+    vorbis_1ch_q7.5_32000.ogg : ok
+    vorbis_1ch_q7.5_22050.ogg : ok
+    vorbis_1ch_q7.5_16000.ogg : ok
+    vorbis_1ch_q7.5_96000.ogg : ok
+    vorbis_1ch_q8.5_44100.ogg : ok
+    vorbis_1ch_q8.5_48000.ogg : ok
+    vorbis_1ch_q8.5_32000.ogg : ok
+    vorbis_1ch_q8.5_22050.ogg : ok
+    vorbis_1ch_q8.5_16000.ogg : ok
+    vorbis_1ch_q8.5_96000.ogg : ok
+    vorbis_1ch_q9.5_44100.ogg : ok
+    vorbis_1ch_q9.5_48000.ogg : ok
+    vorbis_1ch_q9.5_32000.ogg : ok
+    vorbis_1ch_q9.5_22050.ogg : ok
+    vorbis_1ch_q9.5_16000.ogg : ok
+    vorbis_1ch_q9.5_96000.ogg : ok
+
+Testing 2 channels
+
+    vorbis_2ch_q-0.5_44100.ogg : ok
+    vorbis_2ch_q-0.5_48000.ogg : ok
+    vorbis_2ch_q-0.5_32000.ogg : ok
+    vorbis_2ch_q-0.5_22050.ogg : ok
+    vorbis_2ch_q-0.5_16000.ogg : ok
+    vorbis_2ch_q-0.5_96000.ogg : ok
+    vorbis_2ch_q0.5_44100.ogg : ok
+    vorbis_2ch_q0.5_48000.ogg : ok
+    vorbis_2ch_q0.5_32000.ogg : ok
+    vorbis_2ch_q0.5_22050.ogg : ok
+    vorbis_2ch_q0.5_16000.ogg : ok
+    vorbis_2ch_q0.5_96000.ogg : ok
+    vorbis_2ch_q1.5_44100.ogg : ok
+    vorbis_2ch_q1.5_48000.ogg : ok
+    vorbis_2ch_q1.5_32000.ogg : ok
+    vorbis_2ch_q1.5_22050.ogg : ok
+    vorbis_2ch_q1.5_16000.ogg : ok
+    vorbis_2ch_q1.5_96000.ogg : ok
+    vorbis_2ch_q2.5_44100.ogg : ok
+    vorbis_2ch_q2.5_48000.ogg : ok
+    vorbis_2ch_q2.5_32000.ogg : ok
+    vorbis_2ch_q2.5_22050.ogg : ok
+    vorbis_2ch_q2.5_16000.ogg : ok
+    vorbis_2ch_q2.5_96000.ogg : ok
+    vorbis_2ch_q3.5_44100.ogg : ok
+    vorbis_2ch_q3.5_48000.ogg : ok
+    vorbis_2ch_q3.5_32000.ogg : ok
+    vorbis_2ch_q3.5_22050.ogg : ok
+    vorbis_2ch_q3.5_16000.ogg : ok
+    vorbis_2ch_q3.5_96000.ogg : ok
+    vorbis_2ch_q4.5_44100.ogg : ok
+    vorbis_2ch_q4.5_48000.ogg : ok
+    vorbis_2ch_q4.5_32000.ogg : ok
+    vorbis_2ch_q4.5_22050.ogg : ok
+    vorbis_2ch_q4.5_16000.ogg : ok
+    vorbis_2ch_q4.5_96000.ogg : ok
+    vorbis_2ch_q5.5_44100.ogg : ok
+    vorbis_2ch_q5.5_48000.ogg : ok
+    vorbis_2ch_q5.5_32000.ogg : ok
+    vorbis_2ch_q5.5_22050.ogg : ok
+    vorbis_2ch_q5.5_16000.ogg : ok
+    vorbis_2ch_q5.5_96000.ogg : ok
+    vorbis_2ch_q6.5_44100.ogg : ok
+    vorbis_2ch_q6.5_48000.ogg : ok
+    vorbis_2ch_q6.5_32000.ogg : ok
+    vorbis_2ch_q6.5_22050.ogg : ok
+    vorbis_2ch_q6.5_16000.ogg : ok
+    vorbis_2ch_q6.5_96000.ogg : ok
+    vorbis_2ch_q7.5_44100.ogg : ok
+    vorbis_2ch_q7.5_48000.ogg : ok
+    vorbis_2ch_q7.5_32000.ogg : ok
+    vorbis_2ch_q7.5_22050.ogg : ok
+    vorbis_2ch_q7.5_16000.ogg : ok
+    vorbis_2ch_q7.5_96000.ogg : ok
+    vorbis_2ch_q8.5_44100.ogg : ok
+    vorbis_2ch_q8.5_48000.ogg : ok
+    vorbis_2ch_q8.5_32000.ogg : ok
+    vorbis_2ch_q8.5_22050.ogg : ok
+    vorbis_2ch_q8.5_16000.ogg : ok
+    vorbis_2ch_q8.5_96000.ogg : ok
+    vorbis_2ch_q9.5_44100.ogg : ok
+    vorbis_2ch_q9.5_48000.ogg : ok
+    vorbis_2ch_q9.5_32000.ogg : ok
+    vorbis_2ch_q9.5_22050.ogg : ok
+    vorbis_2ch_q9.5_16000.ogg : ok
+    vorbis_2ch_q9.5_96000.ogg : ok
+
+Testing 3 channels
+
+    vorbis_3ch_q-0.5_44100.ogg : ok
+    vorbis_3ch_q-0.5_48000.ogg : ok
+    vorbis_3ch_q-0.5_32000.ogg : ok
+    vorbis_3ch_q-0.5_22050.ogg : ok
+    vorbis_3ch_q-0.5_16000.ogg : ok
+    vorbis_3ch_q-0.5_96000.ogg : ok
+    vorbis_3ch_q0.5_44100.ogg : ok
+    vorbis_3ch_q0.5_48000.ogg : ok
+    vorbis_3ch_q0.5_32000.ogg : ok
+    vorbis_3ch_q0.5_22050.ogg : ok
+    vorbis_3ch_q0.5_16000.ogg : ok
+    vorbis_3ch_q0.5_96000.ogg : ok
+    vorbis_3ch_q1.5_44100.ogg : ok
+    vorbis_3ch_q1.5_48000.ogg : ok
+    vorbis_3ch_q1.5_32000.ogg : ok
+    vorbis_3ch_q1.5_22050.ogg : ok
+    vorbis_3ch_q1.5_16000.ogg : ok
+    vorbis_3ch_q1.5_96000.ogg : ok
+    vorbis_3ch_q2.5_44100.ogg : ok
+    vorbis_3ch_q2.5_48000.ogg : ok
+    vorbis_3ch_q2.5_32000.ogg : ok
+    vorbis_3ch_q2.5_22050.ogg : ok
+    vorbis_3ch_q2.5_16000.ogg : ok
+    vorbis_3ch_q2.5_96000.ogg : ok
+    vorbis_3ch_q3.5_44100.ogg : ok
+    vorbis_3ch_q3.5_48000.ogg : ok
+    vorbis_3ch_q3.5_32000.ogg : ok
+    vorbis_3ch_q3.5_22050.ogg : ok
+    vorbis_3ch_q3.5_16000.ogg : ok
+    vorbis_3ch_q3.5_96000.ogg : ok
+    vorbis_3ch_q4.5_44100.ogg : ok
+    vorbis_3ch_q4.5_48000.ogg : ok
+    vorbis_3ch_q4.5_32000.ogg : ok
+    vorbis_3ch_q4.5_22050.ogg : ok
+    vorbis_3ch_q4.5_16000.ogg : ok
+    vorbis_3ch_q4.5_96000.ogg : ok
+    vorbis_3ch_q5.5_44100.ogg : ok
+    vorbis_3ch_q5.5_48000.ogg : ok
+    vorbis_3ch_q5.5_32000.ogg : ok
+    vorbis_3ch_q5.5_22050.ogg : ok
+    vorbis_3ch_q5.5_16000.ogg : ok
+    vorbis_3ch_q5.5_96000.ogg : ok
+    vorbis_3ch_q6.5_44100.ogg : ok
+    vorbis_3ch_q6.5_48000.ogg : ok
+    vorbis_3ch_q6.5_32000.ogg : ok
+    vorbis_3ch_q6.5_22050.ogg : ok
+    vorbis_3ch_q6.5_16000.ogg : ok
+    vorbis_3ch_q6.5_96000.ogg : ok
+    vorbis_3ch_q7.5_44100.ogg : ok
+    vorbis_3ch_q7.5_48000.ogg : ok
+    vorbis_3ch_q7.5_32000.ogg : ok
+    vorbis_3ch_q7.5_22050.ogg : ok
+    vorbis_3ch_q7.5_16000.ogg : ok
+    vorbis_3ch_q7.5_96000.ogg : ok
+    vorbis_3ch_q8.5_44100.ogg : ok
+    vorbis_3ch_q8.5_48000.ogg : ok
+    vorbis_3ch_q8.5_32000.ogg : ok
+    vorbis_3ch_q8.5_22050.ogg : ok
+    vorbis_3ch_q8.5_16000.ogg : ok
+    vorbis_3ch_q8.5_96000.ogg : ok
+    vorbis_3ch_q9.5_44100.ogg : ok
+    vorbis_3ch_q9.5_48000.ogg : ok
+    vorbis_3ch_q9.5_32000.ogg : ok
+    vorbis_3ch_q9.5_22050.ogg : ok
+    vorbis_3ch_q9.5_16000.ogg : ok
+    vorbis_3ch_q9.5_96000.ogg : ok
+
+Testing 4 channels
+
+    vorbis_4ch_q-0.5_44100.ogg : ok
+    vorbis_4ch_q-0.5_48000.ogg : ok
+    vorbis_4ch_q-0.5_32000.ogg : ok
+    vorbis_4ch_q-0.5_22050.ogg : ok
+    vorbis_4ch_q-0.5_16000.ogg : ok
+    vorbis_4ch_q-0.5_96000.ogg : ok
+    vorbis_4ch_q0.5_44100.ogg : ok
+    vorbis_4ch_q0.5_48000.ogg : ok
+    vorbis_4ch_q0.5_32000.ogg : ok
+    vorbis_4ch_q0.5_22050.ogg : ok
+    vorbis_4ch_q0.5_16000.ogg : ok
+    vorbis_4ch_q0.5_96000.ogg : ok
+    vorbis_4ch_q1.5_44100.ogg : ok
+    vorbis_4ch_q1.5_48000.ogg : ok
+    vorbis_4ch_q1.5_32000.ogg : ok
+    vorbis_4ch_q1.5_22050.ogg : ok
+    vorbis_4ch_q1.5_16000.ogg : ok
+    vorbis_4ch_q1.5_96000.ogg : ok
+    vorbis_4ch_q2.5_44100.ogg : ok
+    vorbis_4ch_q2.5_48000.ogg : ok
+    vorbis_4ch_q2.5_32000.ogg : ok
+    vorbis_4ch_q2.5_22050.ogg : ok
+    vorbis_4ch_q2.5_16000.ogg : ok
+    vorbis_4ch_q2.5_96000.ogg : ok
+    vorbis_4ch_q3.5_44100.ogg : ok
+    vorbis_4ch_q3.5_48000.ogg : ok
+    vorbis_4ch_q3.5_32000.ogg : ok
+    vorbis_4ch_q3.5_22050.ogg : ok
+    vorbis_4ch_q3.5_16000.ogg : ok
+    vorbis_4ch_q3.5_96000.ogg : ok
+    vorbis_4ch_q4.5_44100.ogg : ok
+    vorbis_4ch_q4.5_48000.ogg : ok
+    vorbis_4ch_q4.5_32000.ogg : ok
+    vorbis_4ch_q4.5_22050.ogg : ok
+    vorbis_4ch_q4.5_16000.ogg : ok
+    vorbis_4ch_q4.5_96000.ogg : ok
+    vorbis_4ch_q5.5_44100.ogg : ok
+    vorbis_4ch_q5.5_48000.ogg : ok
+    vorbis_4ch_q5.5_32000.ogg : ok
+    vorbis_4ch_q5.5_22050.ogg : ok
+    vorbis_4ch_q5.5_16000.ogg : ok
+    vorbis_4ch_q5.5_96000.ogg : ok
+    vorbis_4ch_q6.5_44100.ogg : ok
+    vorbis_4ch_q6.5_48000.ogg : ok
+    vorbis_4ch_q6.5_32000.ogg : ok
+    vorbis_4ch_q6.5_22050.ogg : ok
+    vorbis_4ch_q6.5_16000.ogg : ok
+    vorbis_4ch_q6.5_96000.ogg : ok
+    vorbis_4ch_q7.5_44100.ogg : ok
+    vorbis_4ch_q7.5_48000.ogg : ok
+    vorbis_4ch_q7.5_32000.ogg : ok
+    vorbis_4ch_q7.5_22050.ogg : ok
+    vorbis_4ch_q7.5_16000.ogg : ok
+    vorbis_4ch_q7.5_96000.ogg : ok
+    vorbis_4ch_q8.5_44100.ogg : ok
+    vorbis_4ch_q8.5_48000.ogg : ok
+    vorbis_4ch_q8.5_32000.ogg : ok
+    vorbis_4ch_q8.5_22050.ogg : ok
+    vorbis_4ch_q8.5_16000.ogg : ok
+    vorbis_4ch_q8.5_96000.ogg : ok
+    vorbis_4ch_q9.5_44100.ogg : ok
+    vorbis_4ch_q9.5_48000.ogg : ok
+    vorbis_4ch_q9.5_32000.ogg : ok
+    vorbis_4ch_q9.5_22050.ogg : ok
+    vorbis_4ch_q9.5_16000.ogg : ok
+    vorbis_4ch_q9.5_96000.ogg : ok
+
+Testing 5 channels
+
+    vorbis_5ch_q-0.5_44100.ogg : ok
+    vorbis_5ch_q-0.5_48000.ogg : ok
+    vorbis_5ch_q-0.5_32000.ogg : ok
+    vorbis_5ch_q-0.5_22050.ogg : ok
+    vorbis_5ch_q-0.5_16000.ogg : ok
+    vorbis_5ch_q-0.5_96000.ogg : ok
+    vorbis_5ch_q0.5_44100.ogg : ok
+    vorbis_5ch_q0.5_48000.ogg : ok
+    vorbis_5ch_q0.5_32000.ogg : ok
+    vorbis_5ch_q0.5_22050.ogg : ok
+    vorbis_5ch_q0.5_16000.ogg : ok
+    vorbis_5ch_q0.5_96000.ogg : ok
+    vorbis_5ch_q1.5_44100.ogg : ok
+    vorbis_5ch_q1.5_48000.ogg : ok
+    vorbis_5ch_q1.5_32000.ogg : ok
+    vorbis_5ch_q1.5_22050.ogg : ok
+    vorbis_5ch_q1.5_16000.ogg : ok
+    vorbis_5ch_q1.5_96000.ogg : ok
+    vorbis_5ch_q2.5_44100.ogg : ok
+    vorbis_5ch_q2.5_48000.ogg : ok
+    vorbis_5ch_q2.5_32000.ogg : ok
+    vorbis_5ch_q2.5_22050.ogg : ok
+    vorbis_5ch_q2.5_16000.ogg : ok
+    vorbis_5ch_q2.5_96000.ogg : ok
+    vorbis_5ch_q3.5_44100.ogg : ok
+    vorbis_5ch_q3.5_48000.ogg : ok
+    vorbis_5ch_q3.5_32000.ogg : ok
+    vorbis_5ch_q3.5_22050.ogg : ok
+    vorbis_5ch_q3.5_16000.ogg : ok
+    vorbis_5ch_q3.5_96000.ogg : ok
+    vorbis_5ch_q4.5_44100.ogg : ok
+    vorbis_5ch_q4.5_48000.ogg : ok
+    vorbis_5ch_q4.5_32000.ogg : ok
+    vorbis_5ch_q4.5_22050.ogg : ok
+    vorbis_5ch_q4.5_16000.ogg : ok
+    vorbis_5ch_q4.5_96000.ogg : ok
+    vorbis_5ch_q5.5_44100.ogg : ok
+    vorbis_5ch_q5.5_48000.ogg : ok
+    vorbis_5ch_q5.5_32000.ogg : ok
+    vorbis_5ch_q5.5_22050.ogg : ok
+    vorbis_5ch_q5.5_16000.ogg : ok
+    vorbis_5ch_q5.5_96000.ogg : ok
+    vorbis_5ch_q6.5_44100.ogg : ok
+    vorbis_5ch_q6.5_48000.ogg : ok
+    vorbis_5ch_q6.5_32000.ogg : ok
+    vorbis_5ch_q6.5_22050.ogg : ok
+    vorbis_5ch_q6.5_16000.ogg : ok
+    vorbis_5ch_q6.5_96000.ogg : ok
+    vorbis_5ch_q7.5_44100.ogg : ok
+    vorbis_5ch_q7.5_48000.ogg : ok
+    vorbis_5ch_q7.5_32000.ogg : ok
+    vorbis_5ch_q7.5_22050.ogg : ok
+    vorbis_5ch_q7.5_16000.ogg : ok
+    vorbis_5ch_q7.5_96000.ogg : ok
+    vorbis_5ch_q8.5_44100.ogg : ok
+    vorbis_5ch_q8.5_48000.ogg : ok
+    vorbis_5ch_q8.5_32000.ogg : ok
+    vorbis_5ch_q8.5_22050.ogg : ok
+    vorbis_5ch_q8.5_16000.ogg : ok
+    vorbis_5ch_q8.5_96000.ogg : ok
+    vorbis_5ch_q9.5_44100.ogg : ok
+    vorbis_5ch_q9.5_48000.ogg : ok
+    vorbis_5ch_q9.5_32000.ogg : ok
+    vorbis_5ch_q9.5_22050.ogg : ok
+    vorbis_5ch_q9.5_16000.ogg : ok
+    vorbis_5ch_q9.5_96000.ogg : ok
+
+Testing 6 channels
+
+    vorbis_6ch_q-0.5_44100.ogg : ok
+    vorbis_6ch_q-0.5_48000.ogg : ok
+    vorbis_6ch_q-0.5_32000.ogg : ok
+    vorbis_6ch_q-0.5_22050.ogg : ok
+    vorbis_6ch_q-0.5_16000.ogg : ok
+    vorbis_6ch_q-0.5_96000.ogg : ok
+    vorbis_6ch_q0.5_44100.ogg : ok
+    vorbis_6ch_q0.5_48000.ogg : ok
+    vorbis_6ch_q0.5_32000.ogg : ok
+    vorbis_6ch_q0.5_22050.ogg : ok
+    vorbis_6ch_q0.5_16000.ogg : ok
+    vorbis_6ch_q0.5_96000.ogg : ok
+    vorbis_6ch_q1.5_44100.ogg : ok
+    vorbis_6ch_q1.5_48000.ogg : ok
+    vorbis_6ch_q1.5_32000.ogg : ok
+    vorbis_6ch_q1.5_22050.ogg : ok
+    vorbis_6ch_q1.5_16000.ogg : ok
+    vorbis_6ch_q1.5_96000.ogg : ok
+    vorbis_6ch_q2.5_44100.ogg : ok
+    vorbis_6ch_q2.5_48000.ogg : ok
+    vorbis_6ch_q2.5_32000.ogg : ok
+    vorbis_6ch_q2.5_22050.ogg : ok
+    vorbis_6ch_q2.5_16000.ogg : ok
+    vorbis_6ch_q2.5_96000.ogg : ok
+    vorbis_6ch_q3.5_44100.ogg : ok
+    vorbis_6ch_q3.5_48000.ogg : ok
+    vorbis_6ch_q3.5_32000.ogg : ok
+    vorbis_6ch_q3.5_22050.ogg : ok
+    vorbis_6ch_q3.5_16000.ogg : ok
+    vorbis_6ch_q3.5_96000.ogg : ok
+    vorbis_6ch_q4.5_44100.ogg : ok
+    vorbis_6ch_q4.5_48000.ogg : ok
+    vorbis_6ch_q4.5_32000.ogg : ok
+    vorbis_6ch_q4.5_22050.ogg : ok
+    vorbis_6ch_q4.5_16000.ogg : ok
+    vorbis_6ch_q4.5_96000.ogg : ok
+    vorbis_6ch_q5.5_44100.ogg : ok
+    vorbis_6ch_q5.5_48000.ogg : ok
+    vorbis_6ch_q5.5_32000.ogg : ok
+    vorbis_6ch_q5.5_22050.ogg : ok
+    vorbis_6ch_q5.5_16000.ogg : ok
+    vorbis_6ch_q5.5_96000.ogg : ok
+    vorbis_6ch_q6.5_44100.ogg : ok
+    vorbis_6ch_q6.5_48000.ogg : ok
+    vorbis_6ch_q6.5_32000.ogg : ok
+    vorbis_6ch_q6.5_22050.ogg : ok
+    vorbis_6ch_q6.5_16000.ogg : ok
+    vorbis_6ch_q6.5_96000.ogg : ok
+    vorbis_6ch_q7.5_44100.ogg : ok
+    vorbis_6ch_q7.5_48000.ogg : ok
+    vorbis_6ch_q7.5_32000.ogg : ok
+    vorbis_6ch_q7.5_22050.ogg : ok
+    vorbis_6ch_q7.5_16000.ogg : ok
+    vorbis_6ch_q7.5_96000.ogg : ok
+    vorbis_6ch_q8.5_44100.ogg : ok
+    vorbis_6ch_q8.5_48000.ogg : ok
+    vorbis_6ch_q8.5_32000.ogg : ok
+    vorbis_6ch_q8.5_22050.ogg : ok
+    vorbis_6ch_q8.5_16000.ogg : ok
+    vorbis_6ch_q8.5_96000.ogg : ok
+    vorbis_6ch_q9.5_44100.ogg : ok
+    vorbis_6ch_q9.5_48000.ogg : ok
+    vorbis_6ch_q9.5_32000.ogg : ok
+    vorbis_6ch_q9.5_22050.ogg : ok
+    vorbis_6ch_q9.5_16000.ogg : ok
+    vorbis_6ch_q9.5_96000.ogg : ok
+
+Testing 7 channels
+
+    vorbis_7ch_q-0.5_44100.ogg : ok
+    vorbis_7ch_q-0.5_48000.ogg : ok
+    vorbis_7ch_q-0.5_32000.ogg : ok
+    vorbis_7ch_q-0.5_22050.ogg : ok
+    vorbis_7ch_q-0.5_16000.ogg : ok
+    vorbis_7ch_q-0.5_96000.ogg : ok
+    vorbis_7ch_q0.5_44100.ogg : ok
+    vorbis_7ch_q0.5_48000.ogg : ok
+    vorbis_7ch_q0.5_32000.ogg : ok
+    vorbis_7ch_q0.5_22050.ogg : ok
+    vorbis_7ch_q0.5_16000.ogg : ok
+    vorbis_7ch_q0.5_96000.ogg : ok
+    vorbis_7ch_q1.5_44100.ogg : ok
+    vorbis_7ch_q1.5_48000.ogg : ok
+    vorbis_7ch_q1.5_32000.ogg : ok
+    vorbis_7ch_q1.5_22050.ogg : ok
+    vorbis_7ch_q1.5_16000.ogg : ok
+    vorbis_7ch_q1.5_96000.ogg : ok
+    vorbis_7ch_q2.5_44100.ogg : ok
+    vorbis_7ch_q2.5_48000.ogg : ok
+    vorbis_7ch_q2.5_32000.ogg : ok
+    vorbis_7ch_q2.5_22050.ogg : ok
+    vorbis_7ch_q2.5_16000.ogg : ok
+    vorbis_7ch_q2.5_96000.ogg : ok
+    vorbis_7ch_q3.5_44100.ogg : ok
+    vorbis_7ch_q3.5_48000.ogg : ok
+    vorbis_7ch_q3.5_32000.ogg : ok
+    vorbis_7ch_q3.5_22050.ogg : ok
+    vorbis_7ch_q3.5_16000.ogg : ok
+    vorbis_7ch_q3.5_96000.ogg : ok
+    vorbis_7ch_q4.5_44100.ogg : ok
+    vorbis_7ch_q4.5_48000.ogg : ok
+    vorbis_7ch_q4.5_32000.ogg : ok
+    vorbis_7ch_q4.5_22050.ogg : ok
+    vorbis_7ch_q4.5_16000.ogg : ok
+    vorbis_7ch_q4.5_96000.ogg : ok
+    vorbis_7ch_q5.5_44100.ogg : ok
+    vorbis_7ch_q5.5_48000.ogg : ok
+    vorbis_7ch_q5.5_32000.ogg : ok
+    vorbis_7ch_q5.5_22050.ogg : ok
+    vorbis_7ch_q5.5_16000.ogg : ok
+    vorbis_7ch_q5.5_96000.ogg : ok
+    vorbis_7ch_q6.5_44100.ogg : ok
+    vorbis_7ch_q6.5_48000.ogg : ok
+    vorbis_7ch_q6.5_32000.ogg : ok
+    vorbis_7ch_q6.5_22050.ogg : ok
+    vorbis_7ch_q6.5_16000.ogg : ok
+    vorbis_7ch_q6.5_96000.ogg : ok
+    vorbis_7ch_q7.5_44100.ogg : ok
+    vorbis_7ch_q7.5_48000.ogg : ok
+    vorbis_7ch_q7.5_32000.ogg : ok
+    vorbis_7ch_q7.5_22050.ogg : ok
+    vorbis_7ch_q7.5_16000.ogg : ok
+    vorbis_7ch_q7.5_96000.ogg : ok
+    vorbis_7ch_q8.5_44100.ogg : ok
+    vorbis_7ch_q8.5_48000.ogg : ok
+    vorbis_7ch_q8.5_32000.ogg : ok
+    vorbis_7ch_q8.5_22050.ogg : ok
+    vorbis_7ch_q8.5_16000.ogg : ok
+    vorbis_7ch_q8.5_96000.ogg : ok
+    vorbis_7ch_q9.5_44100.ogg : ok
+    vorbis_7ch_q9.5_48000.ogg : ok
+    vorbis_7ch_q9.5_32000.ogg : ok
+    vorbis_7ch_q9.5_22050.ogg : ok
+    vorbis_7ch_q9.5_16000.ogg : ok
+    vorbis_7ch_q9.5_96000.ogg : ok
+
+Testing 8 channels
+
+    vorbis_8ch_q-0.5_44100.ogg : ok
+    vorbis_8ch_q-0.5_48000.ogg : ok
+    vorbis_8ch_q-0.5_32000.ogg : ok
+    vorbis_8ch_q-0.5_22050.ogg : ok
+    vorbis_8ch_q-0.5_16000.ogg : ok
+    vorbis_8ch_q-0.5_96000.ogg : ok
+    vorbis_8ch_q0.5_44100.ogg : ok
+    vorbis_8ch_q0.5_48000.ogg : ok
+    vorbis_8ch_q0.5_32000.ogg : ok
+    vorbis_8ch_q0.5_22050.ogg : ok
+    vorbis_8ch_q0.5_16000.ogg : ok
+    vorbis_8ch_q0.5_96000.ogg : ok
+    vorbis_8ch_q1.5_44100.ogg : ok
+    vorbis_8ch_q1.5_48000.ogg : ok
+    vorbis_8ch_q1.5_32000.ogg : ok
+    vorbis_8ch_q1.5_22050.ogg : ok
+    vorbis_8ch_q1.5_16000.ogg : ok
+    vorbis_8ch_q1.5_96000.ogg : ok
+    vorbis_8ch_q2.5_44100.ogg : ok
+    vorbis_8ch_q2.5_48000.ogg : ok
+    vorbis_8ch_q2.5_32000.ogg : ok
+    vorbis_8ch_q2.5_22050.ogg : ok
+    vorbis_8ch_q2.5_16000.ogg : ok
+    vorbis_8ch_q2.5_96000.ogg : ok
+    vorbis_8ch_q3.5_44100.ogg : ok
+    vorbis_8ch_q3.5_48000.ogg : ok
+    vorbis_8ch_q3.5_32000.ogg : ok
+    vorbis_8ch_q3.5_22050.ogg : ok
+    vorbis_8ch_q3.5_16000.ogg : ok
+    vorbis_8ch_q3.5_96000.ogg : ok
+    vorbis_8ch_q4.5_44100.ogg : ok
+    vorbis_8ch_q4.5_48000.ogg : ok
+    vorbis_8ch_q4.5_32000.ogg : ok
+    vorbis_8ch_q4.5_22050.ogg : ok
+    vorbis_8ch_q4.5_16000.ogg : ok
+    vorbis_8ch_q4.5_96000.ogg : ok
+    vorbis_8ch_q5.5_44100.ogg : ok
+    vorbis_8ch_q5.5_48000.ogg : ok
+    vorbis_8ch_q5.5_32000.ogg : ok
+    vorbis_8ch_q5.5_22050.ogg : ok
+    vorbis_8ch_q5.5_16000.ogg : ok
+    vorbis_8ch_q5.5_96000.ogg : ok
+    vorbis_8ch_q6.5_44100.ogg : ok
+    vorbis_8ch_q6.5_48000.ogg : ok
+    vorbis_8ch_q6.5_32000.ogg : ok
+    vorbis_8ch_q6.5_22050.ogg : ok
+    vorbis_8ch_q6.5_16000.ogg : ok
+    vorbis_8ch_q6.5_96000.ogg : ok
+    vorbis_8ch_q7.5_44100.ogg : ok
+    vorbis_8ch_q7.5_48000.ogg : ok
+    vorbis_8ch_q7.5_32000.ogg : ok
+    vorbis_8ch_q7.5_22050.ogg : ok
+    vorbis_8ch_q7.5_16000.ogg : ok
+    vorbis_8ch_q7.5_96000.ogg : ok
+    vorbis_8ch_q8.5_44100.ogg : ok
+    vorbis_8ch_q8.5_48000.ogg : ok
+    vorbis_8ch_q8.5_32000.ogg : ok
+    vorbis_8ch_q8.5_22050.ogg : ok
+    vorbis_8ch_q8.5_16000.ogg : ok
+    vorbis_8ch_q8.5_96000.ogg : ok
+    vorbis_8ch_q9.5_44100.ogg : ok
+    vorbis_8ch_q9.5_48000.ogg : ok
+    vorbis_8ch_q9.5_32000.ogg : ok
+    vorbis_8ch_q9.5_22050.ogg : ok
+    vorbis_8ch_q9.5_16000.ogg : ok
+    vorbis_8ch_q9.5_96000.ogg : ok
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/test'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+Making check in libvorbis
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+Making check in vorbisfile
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+Making check in vorbisenc
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5'
+Making install in m4
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/m4'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/m4'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/m4'
+Making install in include
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+Making install in vorbis
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/vorbis'
+ /usr/bin/install -c -m 644 codec.h vorbisfile.h vorbisenc.h '/usr/include/vorbis'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include/vorbis'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/include'
+Making install in vq
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/vq'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/vq'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/vq'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/vq'
+Making install in lib
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making install in modes
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/modes'
+Making install in books
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+Making install in coupled
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/coupled'
+Making install in uncoupled
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/uncoupled'
+Making install in floor
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books/floor'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[4]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib/books'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/lib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libvorbis.la libvorbisfile.la libvorbisenc.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libvorbis.so.0.4.8 /usr/lib/libvorbis.so.0.4.8
+libtool: install: (cd /usr/lib && { ln -s -f libvorbis.so.0.4.8 libvorbis.so.0 || { rm -f libvorbis.so.0 && ln -s libvorbis.so.0.4.8 libvorbis.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libvorbis.so.0.4.8 libvorbis.so || { rm -f libvorbis.so && ln -s libvorbis.so.0.4.8 libvorbis.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvorbis.lai /usr/lib/libvorbis.la
+libtool: install: (cd /sources/7.9/libvorbis-1.3.5/lib; /bin/sh "/sources/7.9/libvorbis-1.3.5/libtool"  --tag CC --mode=relink gcc -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -no-undefined -version-info 6:7:3 -o libvorbisfile.la -rpath /usr/lib vorbisfile.lo libvorbis.la -logg )
+libtool: relink: gcc -shared  -fPIC -DPIC  .libs/vorbisfile.o   -L/usr/lib -lvorbis -L/usr/lib64 -lm -logg  -O3   -Wl,-soname -Wl,libvorbisfile.so.3 -o .libs/libvorbisfile.so.3.3.7
+libtool: install: /usr/bin/install -c .libs/libvorbisfile.so.3.3.7T /usr/lib/libvorbisfile.so.3.3.7
+libtool: install: (cd /usr/lib && { ln -s -f libvorbisfile.so.3.3.7 libvorbisfile.so.3 || { rm -f libvorbisfile.so.3 && ln -s libvorbisfile.so.3.3.7 libvorbisfile.so.3; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libvorbisfile.so.3.3.7 libvorbisfile.so || { rm -f libvorbisfile.so && ln -s libvorbisfile.so.3.3.7 libvorbisfile.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvorbisfile.lai /usr/lib/libvorbisfile.la
+libtool: install: (cd /sources/7.9/libvorbis-1.3.5/lib; /bin/sh "/sources/7.9/libvorbis-1.3.5/libtool"  --tag CC --mode=relink gcc -O3 -Wall -Wextra -ffast-math -D_REENTRANT -fsigned-char -Wdeclaration-after-statement -DUSE_MEMORY_H -no-undefined -version-info 2:11:0 -o libvorbisenc.la -rpath /usr/lib vorbisenc.lo libvorbis.la -logg )
+libtool: relink: gcc -shared  -fPIC -DPIC  .libs/vorbisenc.o   -L/usr/lib -lvorbis -L/usr/lib64 -lm -logg  -O3   -Wl,-soname -Wl,libvorbisenc.so.2 -o .libs/libvorbisenc.so.2.0.11
+libtool: install: /usr/bin/install -c .libs/libvorbisenc.so.2.0.11T /usr/lib/libvorbisenc.so.2.0.11
+libtool: install: (cd /usr/lib && { ln -s -f libvorbisenc.so.2.0.11 libvorbisenc.so.2 || { rm -f libvorbisenc.so.2 && ln -s libvorbisenc.so.2.0.11 libvorbisenc.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libvorbisenc.so.2.0.11 libvorbisenc.so || { rm -f libvorbisenc.so && ln -s libvorbisenc.so.2.0.11 libvorbisenc.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvorbisenc.lai /usr/lib/libvorbisenc.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/lib'
+Making install in test
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/test'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/test'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/test'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+Making install in libvorbis
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libvorbis-1.3.5/libvorbis'
+ /usr/bin/install -c -m 644 index.html reference.html style.css vorbis_comment.html vorbis_info.html vorbis_analysis_blockout.html vorbis_analysis_buffer.html vorbis_analysis_headerout.html vorbis_analysis_init.html vorbis_analysis_wrote.html vorbis_analysis.html vorbis_bitrate_addblock.html vorbis_bitrate_flushpacket.html vorbis_block_init.html vorbis_block_clear.html vorbis_dsp_clear.html vorbis_granule_time.html vorbis_version_string.html vorbis_info_blocksize.html vorbis_info_clear.html vorbis_info_init.html vorbis_comment_add.html vorbis_comment_add_tag.html vorbis_comment_clear.html vorbis_comment_init.html vorbis_comment_query.html vorbis_comment_query_count.html vorbis_commentheader_out.html vorbis_packet_blocksize.html vorbis_synthesis.html vorbis_synthesis_blockin.html vorbis_synthesis_halfrate.html vorbis_synthesis_halfrate_p.html vorbis_synthesis_headerin.html vorbis_synthesis_idheader.html vorbis_synthesis_init.html vorbis_synthesis_lapout.html vorbis_synthesis_pcmout.html vorbis_synthesis_read.html vorbis_synthesis_restart.html '/usr/share/doc/libvorbis-1.3.5/libvorbis'
+ /usr/bin/install -c -m 644 vorbis_synthesis_trackonly.html vorbis_block.html vorbis_dsp_state.html return.html overview.html '/usr/share/doc/libvorbis-1.3.5/libvorbis'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/libvorbis'
+Making install in vorbisfile
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libvorbis-1.3.5/vorbisfile'
+ /usr/bin/install -c -m 644 OggVorbis_File.html callbacks.html chaining_example_c.html chainingexample.html crosslap.html datastructures.html decoding.html example.html exampleindex.html fileinfo.html index.html initialization.html ov_bitrate.html ov_bitrate_instant.html ov_callbacks.html ov_clear.html ov_comment.html ov_crosslap.html ov_fopen.html ov_info.html ov_open.html ov_open_callbacks.html ov_pcm_seek.html ov_pcm_seek_lap.html ov_pcm_seek_page.html ov_pcm_seek_page_lap.html ov_pcm_tell.html ov_pcm_total.html ov_raw_seek.html ov_raw_seek_lap.html ov_raw_tell.html ov_raw_total.html ov_read.html ov_read_float.html ov_read_filter.html ov_seekable.html ov_serialnumber.html ov_streams.html ov_test.html ov_test_callbacks.html '/usr/share/doc/libvorbis-1.3.5/vorbisfile'
+ /usr/bin/install -c -m 644 ov_test_open.html ov_time_seek.html ov_time_seek_lap.html ov_time_seek_page.html ov_time_seek_page_lap.html ov_time_tell.html ov_time_total.html overview.html reference.html seekexample.html seeking.html seeking_example_c.html seeking_test_c.html seekingexample.html style.css threads.html vorbisfile_example_c.html '/usr/share/doc/libvorbis-1.3.5/vorbisfile'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisfile'
+Making install in vorbisenc
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libvorbis-1.3.5/vorbisenc'
+ /usr/bin/install -c -m 644 changes.html examples.html index.html ovectl_ratemanage2_arg.html ovectl_ratemanage_arg.html overview.html reference.html style.css vorbis_encode_ctl.html vorbis_encode_init.html vorbis_encode_setup_init.html vorbis_encode_setup_managed.html vorbis_encode_setup_vbr.html vorbis_encode_init_vbr.html '/usr/share/doc/libvorbis-1.3.5/vorbisenc'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc/vorbisenc'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[3]: Entering directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+/bin/sh /sources/7.9/libvorbis-1.3.5/install-sh -d /usr/share/doc/libvorbis-1.3.5
+if test -d vorbis; then \
+  for dir in vorbis/*; do \
+    if test -d $dir; then \
+      b=`basename $dir`; \
+      /bin/sh /sources/7.9/libvorbis-1.3.5/install-sh -d /usr/share/doc/libvorbis-1.3.5/$b; \
+      for f in $dir/*; do \
+	/usr/bin/install -c -m 644 $f /usr/share/doc/libvorbis-1.3.5/$b; \
+      done \
+    fi \
+  done \
+fi
+ /bin/mkdir -p '/usr/share/doc/libvorbis-1.3.5'
+ /usr/bin/install -c -m 644 rfc5215.xml rfc5215.txt eightphase.png fish_xiph_org.png floor1_inverse_dB_table.html floorval.png fourphase.png framing.html helper.html index.html oggstream.html programming.html squarepolar.png stereo.html stream.png v-comment.html vorbis-clip.txt vorbis-errors.txt vorbis-fidelity.html doxygen-build.stamp '/usr/share/doc/libvorbis-1.3.5'
+make[3]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5/doc'
+make[1]: Entering directory '/sources/7.9/libvorbis-1.3.5'
+make[2]: Entering directory '/sources/7.9/libvorbis-1.3.5'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 vorbis.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 vorbis.pc vorbisenc.pc vorbisfile.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libvorbis-1.3.5'
+make[1]: Leaving directory '/sources/7.9/libvorbis-1.3.5'
+'doc/Vorbis_I_spec.cfg' -> '/usr/share/doc/libvorbis-1.3.5/Vorbis_I_spec.cfg'
+'doc/Vorbis_I_spec.css' -> '/usr/share/doc/libvorbis-1.3.5/Vorbis_I_spec.css'
+'doc/Vorbis_I_spec.html' -> '/usr/share/doc/libvorbis-1.3.5/Vorbis_I_spec.html'
+'doc/Vorbis_I_spec.pdf' -> '/usr/share/doc/libvorbis-1.3.5/Vorbis_I_spec.pdf'
+'doc/Vorbis_I_spec.tex' -> '/usr/share/doc/libvorbis-1.3.5/Vorbis_I_spec.tex'

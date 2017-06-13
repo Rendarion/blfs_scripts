@@ -1,0 +1,18 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/pango/1.40/pango-1.40.3.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"fontconfig-2.12.1"
+"freetype-2.7.1"
+"harfbuzz-1.4.2"
+"glib-2.50.3"
+"cairo-1.14.8"
+"xorg_libraries"
+"gobject-introspection-1.50.0"
+)

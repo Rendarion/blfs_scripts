@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.sourceforge.net/lame/lame-3.99.5.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

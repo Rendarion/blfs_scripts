@@ -1,0 +1,13 @@
+URL=(
+"http://www.freedesktop.org/software/polkit/releases/polkit-0.113.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"js-17.0.0"
+)

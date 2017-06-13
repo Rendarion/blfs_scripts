@@ -1,0 +1,17 @@
+URL=(
+"http://ftp.x.org/pub/individual/xserver/xorg-server-1.19.1.tar.bz2"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/xorg-server-1.19.1-add_prime_support-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"openssl-1.0.2k"
+"pixman-0.34.0"
+"xorg_fonts"
+"xkeyboard-config-2.20"
+"libepoxy-1.4.0"
+)

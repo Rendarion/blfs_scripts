@@ -1,0 +1,1277 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.38.0... yes (version 2.46.2)
+checking for XML... yes
+checking for SQLITE... yes
+checking for Win32... no
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for gmtime_r... yes
+checking whether to build libsoup-gnome... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for gobject-introspection... yes
+checking for valac... /usr/bin/valac
+checking for vapigen vapigen... yes
+checking for glib-networking (glib TLS implementation)... yes
+configure: checking for programs needed for regression tests
+checking for httpd2... no
+checking for httpd... no
+checking for apache2... no
+checking for apache... no
+checking for curl... no
+checking whether to build with code coverage support... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating libsoup-2.4.pc
+config.status: creating libsoup-gnome-2.4.pc
+config.status: creating Makefile
+config.status: creating libsoup-zip
+config.status: creating libsoup/Makefile
+config.status: creating po/Makefile.in
+config.status: creating po/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating libsoup/soup-version.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po/stamp-it commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2'
+Making all in libsoup
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+  GEN      soup-enum-types.c
+  GEN      soup-enum-types.h
+./tld-parser.py ../data/effective_tld_names.dat tld_data.inc
+make  all-am
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+  CC       soup-address.lo
+  CC       soup-auth.lo
+  CC       soup-auth-basic.lo
+  CC       soup-auth-digest.lo
+  CC       soup-auth-ntlm.lo
+  CC       soup-auth-domain.lo
+  CC       soup-auth-domain-basic.lo
+  CC       soup-auth-domain-digest.lo
+  CC       soup-auth-manager.lo
+  CC       soup-body-input-stream.lo
+  CC       soup-body-output-stream.lo
+  CC       soup-cache.lo
+  CC       soup-cache-client-input-stream.lo
+  CC       soup-cache-input-stream.lo
+  CC       soup-client-input-stream.lo
+  CC       soup-connection.lo
+  CC       soup-connection-auth.lo
+  CC       soup-content-decoder.lo
+  CC       soup-content-processor.lo
+  CC       soup-content-sniffer.lo
+  CC       soup-content-sniffer-stream.lo
+  CC       soup-converter-wrapper.lo
+  CC       soup-cookie.lo
+  CC       soup-cookie-jar.lo
+  CC       soup-cookie-jar-db.lo
+  CC       soup-cookie-jar-text.lo
+  CC       soup-date.lo
+  CC       soup-directory-input-stream.lo
+  CC       soup-enum-types.lo
+  CC       soup-filter-input-stream.lo
+  CC       soup-form.lo
+  CC       soup-headers.lo
+  CC       soup-init.lo
+  CC       soup-io-stream.lo
+  CC       soup-logger.lo
+  CC       soup-message.lo
+  CC       soup-message-body.lo
+  CC       soup-message-client-io.lo
+  CC       soup-message-headers.lo
+  CC       soup-message-io.lo
+  CC       soup-message-queue.lo
+  CC       soup-message-server-io.lo
+  CC       soup-method.lo
+  CC       soup-misc.lo
+  CC       soup-multipart.lo
+  CC       soup-multipart-input-stream.lo
+  CC       soup-password-manager.lo
+  CC       soup-path-map.lo
+  CC       soup-proxy-resolver.lo
+  CC       soup-proxy-resolver-default.lo
+  CC       soup-proxy-resolver-wrapper.lo
+  CC       soup-proxy-uri-resolver.lo
+  CC       soup-request.lo
+  CC       soup-request-data.lo
+  CC       soup-request-file.lo
+  CC       soup-request-http.lo
+  CC       soup-requester.lo
+  CC       soup-server.lo
+  CC       soup-session.lo
+  CC       soup-session-async.lo
+  CC       soup-session-feature.lo
+  CC       soup-session-sync.lo
+  CC       soup-socket.lo
+  CC       soup-socket-properties.lo
+  CC       soup-status.lo
+  CC       soup-tld.lo
+  CC       soup-uri.lo
+  CC       soup-value-utils.lo
+  CC       soup-version.lo
+  CC       soup-websocket.lo
+  CC       soup-websocket-connection.lo
+  CC       soup-xmlrpc.lo
+  CC       soup-xmlrpc-old.lo
+  CCLD     libsoup-2.4.la
+  CC       soup-cookie-jar-sqlite.lo
+  CC       soup-gnome-features.lo
+  CC       soup-proxy-resolver-gnome.lo
+  CC       soup-password-manager-gnome.lo
+  CCLD     libsoup-gnome-2.4.la
+  GISCAN   Soup-2.4.gir
+g-ir-scanner: Soup: warning: 5 warnings suppressed (use --warn-all to see them)
+  GISCAN   SoupGNOME-2.4.gir
+  GICOMP   Soup-2.4.gir
+  GICOMP   SoupGNOME-2.4.gir
+/usr/bin/vapigen-0.28 --metadatadir=../libsoup --pkg gio-2.0 --library=libsoup-2.4 Soup-2.4.gir Soup-2.4.metadata Soup-2.4-custom.vala
+Generation succeeded - 0 warning(s)
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+Making all in po
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/po'
+  MSGFMT an.gmo
+  MSGFMT as.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn_IN.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fr.gmo
+  MSGFMT fur.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kn.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta.gmo
+  MSGFMT te.gmo
+  MSGFMT tg.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT uz@cyrillic.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/po'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+  CC       test-utils.lo
+  CCLD     libtest.la
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/examples'
+  CC       get.o
+  CCLD     get
+  CC       simple-httpd.o
+  CCLD     simple-httpd
+  CC       simple-proxy.o
+  CCLD     simple-proxy
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/examples'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2'
+Making check in libsoup
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make  check-local
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+Checking libsoup-2.4.so symbols
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+Making check in po
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package libsoup --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/po'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make     auth-test cache-test chunk-test chunk-io-test coding-test connection-test context-test continue-test cookies-test date forms-test header-parsing misc-test multipart-test no-ssl-test ntlm-test proxy-test pull-api range-test redirect-test requester-test resource-test session-test server-auth-test server-test sniffing-test socket-test ssl-test streaming-test timeout-test tld-test uri-parsing websocket-test xmlrpc-old-server-test xmlrpc-old-test xmlrpc-server-test xmlrpc-test ntlm-test-helper auth-test cache-test chunk-test chunk-io-test coding-test connection-test context-test continue-test cookies-test date forms-test header-parsing misc-test multipart-test no-ssl-test ntlm-test proxy-test pull-api range-test redirect-test requester-test resource-test session-test server-auth-test server-test sniffing-test socket-test ssl-test streaming-test timeout-test tld-test uri-parsing websocket-test xmlrpc-old-server-test xmlrpc-old-test xmlrpc-server-test xmlrpc-test \
+              index.txt soup-tests.gresource test-cert.pem test-key.pem xmlrpc-server.php      
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+  CC       auth-test.o
+  CCLD     auth-test
+  CC       cache-test.o
+  CCLD     cache-test
+  CC       chunk-test.o
+  CCLD     chunk-test
+  CC       chunk-io-test.o
+  CCLD     chunk-io-test
+  CC       coding-test.o
+  CCLD     coding-test
+  CC       connection-test.o
+  CCLD     connection-test
+  CC       context-test.o
+  CCLD     context-test
+  CC       continue-test.o
+  CCLD     continue-test
+  CC       cookies-test.o
+  CCLD     cookies-test
+  CC       date.o
+  CCLD     date
+  CC       forms-test.o
+  CCLD     forms-test
+  CC       header-parsing.o
+  CCLD     header-parsing
+  CC       misc-test.o
+  CCLD     misc-test
+  CC       multipart-test.o
+  CCLD     multipart-test
+  CC       no-ssl-test.o
+  CCLD     no-ssl-test
+  CC       ntlm-test.o
+  CCLD     ntlm-test
+  CC       proxy-test.o
+  CCLD     proxy-test
+  CC       pull-api.o
+  CCLD     pull-api
+  CC       range-test.o
+  CCLD     range-test
+  CC       redirect-test.o
+  CCLD     redirect-test
+  CC       requester-test.o
+  CCLD     requester-test
+  CC       resource-test.o
+  CCLD     resource-test
+  CC       session-test.o
+  CCLD     session-test
+  CC       server-auth-test.o
+  CCLD     server-auth-test
+  CC       server-test.o
+  CCLD     server-test
+  CC       sniffing-test.o
+  CCLD     sniffing-test
+  CC       socket-test.o
+  CCLD     socket-test
+  CC       ssl-test.o
+  CCLD     ssl-test
+  CC       streaming-test.o
+  CCLD     streaming-test
+  CC       timeout-test.o
+  CCLD     timeout-test
+  CC       tld-test.o
+  CCLD     tld-test
+  CC       uri-parsing.o
+  CCLD     uri-parsing
+  CC       websocket-test.o
+  CCLD     websocket-test
+  CC       xmlrpc-old-server-test.o
+  CCLD     xmlrpc-old-server-test
+  CC       xmlrpc-old-test.o
+  CCLD     xmlrpc-old-test
+  CC       xmlrpc-server-test.o
+  CCLD     xmlrpc-server-test
+  CC       xmlrpc-test.o
+  CCLD     xmlrpc-test
+  CC       ntlm-test-helper.o
+  CCLD     ntlm-test-helper
+make[3]: 'auth-test' is up to date.
+make[3]: 'cache-test' is up to date.
+make[3]: 'chunk-test' is up to date.
+make[3]: 'chunk-io-test' is up to date.
+make[3]: 'coding-test' is up to date.
+make[3]: 'connection-test' is up to date.
+make[3]: 'context-test' is up to date.
+make[3]: 'continue-test' is up to date.
+make[3]: 'cookies-test' is up to date.
+make[3]: 'date' is up to date.
+make[3]: 'forms-test' is up to date.
+make[3]: 'header-parsing' is up to date.
+make[3]: 'misc-test' is up to date.
+make[3]: 'multipart-test' is up to date.
+make[3]: 'no-ssl-test' is up to date.
+make[3]: 'ntlm-test' is up to date.
+make[3]: 'proxy-test' is up to date.
+make[3]: 'pull-api' is up to date.
+make[3]: 'range-test' is up to date.
+make[3]: 'redirect-test' is up to date.
+make[3]: 'requester-test' is up to date.
+make[3]: 'resource-test' is up to date.
+make[3]: 'session-test' is up to date.
+make[3]: 'server-auth-test' is up to date.
+make[3]: 'server-test' is up to date.
+make[3]: 'sniffing-test' is up to date.
+make[3]: 'socket-test' is up to date.
+make[3]: 'ssl-test' is up to date.
+make[3]: 'streaming-test' is up to date.
+make[3]: 'timeout-test' is up to date.
+make[3]: 'tld-test' is up to date.
+make[3]: 'uri-parsing' is up to date.
+make[3]: 'websocket-test' is up to date.
+make[3]: 'xmlrpc-old-server-test' is up to date.
+make[3]: 'xmlrpc-old-test' is up to date.
+make[3]: 'xmlrpc-server-test' is up to date.
+make[3]: 'xmlrpc-test' is up to date.
+make[3]: Nothing to be done for 'index.txt'.
+  GEN      soup-tests.gresource
+make[3]: Nothing to be done for 'test-cert.pem'.
+make[3]: Nothing to be done for 'test-key.pem'.
+make[3]: Nothing to be done for 'xmlrpc-server.php'.
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make  check-TESTS check-local
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make[4]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+SKIP: auth-test 1 /auth/main-tests # SKIP apache is not available
+SKIP: auth-test 2 /auth/relogin-tests # SKIP apache is not available
+SKIP: auth-test 3 /auth/basic-root-pspec-test # SKIP apache is not available
+SKIP: auth-test 4 /auth/pipelined-auth # SKIP apache is not available
+SKIP: auth-test 5 /auth/digest-expiration # SKIP apache is not available
+PASS: auth-test 6 /auth/select-auth
+PASS: auth-test 7 /auth/auth-close
+SKIP: auth-test 8 /auth/infinite-auth # SKIP apache is not available
+PASS: auth-test 9 /auth/disappearing-auth
+SKIP: auth-test 10 /auth/async-auth/good-password # SKIP apache is not available
+SKIP: auth-test 11 /auth/async-auth/bad-password # SKIP apache is not available
+SKIP: auth-test 12 /auth/async-auth/no-password # SKIP apache is not available
+PASS: cache-test 1 /cache/basics
+PASS: cache-test 2 /cache/cancellation
+PASS: cache-test 3 /cache/refcounting
+PASS: cache-test 4 /cache/headers
+PASS: cache-test 5 /cache/leaks
+PASS: chunk-test 1 /chunks/response
+PASS: chunk-test 2 /chunks/temporary
+PASS: chunk-test 3 /chunks/large
+PASS: chunk-test 4 /chunks/request/unstreamed
+PASS: chunk-test 5 /chunks/request/proper-streaming
+PASS: chunk-test 6 /chunks/request/hacky-streaming
+PASS: chunk-test 7 /chunks/request/proper-streaming/restart
+PASS: chunk-test 8 /chunks/request/hacky-streaming/restart
+PASS: chunk-io-test 1 /chunk-io
+PASS: coding-test 1 /coding/message/plain
+PASS: coding-test 2 /coding/message/gzip
+PASS: coding-test 3 /coding/message/deflate
+PASS: coding-test 4 /coding/message/deflate-raw
+PASS: coding-test 5 /coding/message/empty
+PASS: coding-test 6 /coding/message/gzip/with-junk
+PASS: coding-test 7 /coding/message/gzip/bad-server
+PASS: coding-test 8 /coding/message/deflate/with-junk
+PASS: coding-test 9 /coding/message/deflate/bad-server
+PASS: coding-test 10 /coding/message/deflate-raw/bad-server
+PASS: coding-test 11 /coding/request/plain
+PASS: coding-test 12 /coding/request/gzip
+PASS: coding-test 13 /coding/request/deflate
+PASS: coding-test 14 /coding/request/deflate-raw
+PASS: coding-test 15 /coding/request/empty
+PASS: coding-test 16 /coding/request/gzip/with-junk
+PASS: coding-test 17 /coding/request/gzip/bad-server
+PASS: coding-test 18 /coding/request/deflate/with-junk
+PASS: coding-test 19 /coding/request/deflate/bad-server
+PASS: coding-test 20 /coding/request/deflate-raw/bad-server
+PASS: connection-test 1 /connection/content-length-framing
+PASS: connection-test 2 /connection/persistent-connection-timeout
+PASS: connection-test 3 /connection/max-conns
+PASS: connection-test 4 /connection/non-persistent
+PASS: connection-test 5 /connection/non-idempotent
+SKIP: connection-test 6 /connection/state # SKIP apache is not available
+SKIP: connection-test 7 /connection/event # SKIP apache is not available
+PASS: context-test 1 /context/multiple
+PASS: context-test 2 /context/blocking/explicit
+PASS: context-test 3 /context/blocking/thread-default
+PASS: context-test 4 /context/nested/explicit
+PASS: context-test 5 /context/nested/thread-default
+PASS: continue-test 1 /continue/unauth_short_noexpect_nopass
+PASS: continue-test 2 /continue/unauth_long_noexpect_nopass
+PASS: continue-test 3 /continue/unauth_short_expect_nopass
+PASS: continue-test 4 /continue/unauth_long_expect_nopass
+PASS: continue-test 5 /continue/auth_short_noexpect_nopass
+PASS: continue-test 6 /continue/auth_long_noexpect_nopass
+PASS: continue-test 7 /continue/auth_short_expect_nopass
+PASS: continue-test 8 /continue/auth_long_expect_nopass
+PASS: continue-test 9 /continue/auth_short_noexpect_pass
+PASS: continue-test 10 /continue/auth_long_noexpect_pass
+PASS: continue-test 11 /continue/auth_short_expect_pass
+PASS: continue-test 12 /continue/auth_long_expect_pass
+PASS: cookies-test 1 /cookies/accept-policy
+PASS: cookies-test 2 /cookies/parsing
+PASS: date 1 /date/good/Sat, 06 Nov 2004 08:09:07 GMT
+PASS: date 2 /date/good/Sat, 06-Nov-2004 08:09:07 GMT
+PASS: date 3 /date/good/Sat, 6 Nov 2004 08:09:07 -0430
+PASS: date 4 /date/good/20041106T080907
+PASS: date 5 /date/good/2004-11-06T08:09:07
+PASS: date 6 /date/good/20041106T08:09:07
+PASS: date 7 /date/ok/Sat, 06 Nov 2004 08:09:07 GMT
+PASS: date 8 /date/ok/Sat, 6 Nov 2004 08:09:07 GMT
+PASS: date 9 /date/ok/Sat,  6 Nov 2004 08:09:07 GMT
+PASS: date 10 /date/ok/Sat, 06 Nov 2004 08:09:07
+PASS: date 11 /date/ok/06 Nov 2004 08:09:07 GMT
+PASS: date 12 /date/ok/SAT, 06 NOV 2004 08:09:07 +1000
+PASS: date 13 /date/ok/Saturday, 06-Nov-04 08:09:07 GMT
+PASS: date 14 /date/ok/Saturday, 6-Nov-04 08:09:07 GMT
+PASS: date 15 /date/ok/Saturday,  6-Nov-04 08:09:07 GMT
+PASS: date 16 /date/ok/Saturday, 06-Nov-104 08:09:07 GMT
+PASS: date 17 /date/ok/Saturday, 06-Nov-2004 08:09:07 GMT
+PASS: date 18 /date/ok/Saturday, 6-Nov-2004 08:09:07 GMT
+PASS: date 19 /date/ok/Saturday,  6-Nov-2004 08:09:07 GMT
+PASS: date 20 /date/ok/Saturday, 06-Nov-04 08:09:07
+PASS: date 21 /date/ok/06-Nov-04 08:09:07 GMT
+PASS: date 22 /date/ok/Sat Nov  6 08:09:07 2004
+PASS: date 23 /date/ok/Sat Nov 06 08:09:07 2004
+PASS: date 24 /date/ok/Sat Nov 6 08:09:07 2004
+PASS: date 25 /date/ok/Sat Nov  6 08:09:07 2004 GMT
+PASS: date 26 /date/ok/2004-11-06T08:09:07Z
+PASS: date 27 /date/ok/20041106T08:09:07Z
+PASS: date 28 /date/ok/20041106T08:09:07+00:00
+PASS: date 29 /date/ok/20041106T080907+00:00
+PASS: date 30 /date/ok/Sat, 06-Nov-2004 08:09:07 GMT
+PASS: date 31 /date/ok/Sat, 6-Nov-2004 08:09:07 GMT
+PASS: date 32 /date/ok/Sat,  6-Nov-2004 08:09:07 GMT
+PASS: date 33 /date/ok/Sat, 06-Nov-2004 08:09:07
+PASS: date 34 /date/ok/Sat, 06-Nov-04 08:09:07 GMT
+PASS: date 35 /date/ok/Sat, 6-Nov-04 08:09:07 GMT
+PASS: date 36 /date/ok/Sat,  6-Nov-04 08:09:07 GMT
+PASS: date 37 /date/ok/Sat, 06-Nov-104 08:09:07 GMT
+PASS: date 38 /date/ok/Sat, 06-Nov-04 08:09:07
+PASS: date 39 /date/ok/Sat 06-Nov-2004  08:9:07
+PASS: date 40 /date/ok/Saturday, 06-Nov-04 8:9:07 GMT
+PASS: date 41 /date/ok/Sat, 06 Nov 2004 08:09:7 GMT
+PASS: date 42 /date/ok/1099728547
+PASS: date 43 /date/bad/, 06 Nov 2004 08:09:07 GMT
+PASS: date 44 /date/bad/Sat, Nov 2004 08:09:07 GMT
+PASS: date 45 /date/bad/Sat, 06 2004 08:09:07 GMT
+PASS: date 46 /date/bad/Sat, 06 Nov 08:09:07 GMT
+PASS: date 47 /date/bad/Sat, 06 Nov 2004 :09:07 GMT
+PASS: date 48 /date/bad/Sat, 06 Nov 2004 09:07 GMT
+PASS: date 49 /date/bad/Sat, 06 Nov 2004 08::07 GMT
+PASS: date 50 /date/bad/Sat, 06 Nov 2004 08:09: GMT
+PASS: date 51 /date/bad/, 06-Nov-04 08:09:07 GMT
+PASS: date 52 /date/bad/Saturday, -Nov-04 08:09:07 GMT
+PASS: date 53 /date/bad/Saturday, Nov-04 08:09:07 GMT
+PASS: date 54 /date/bad/Saturday, 06-04 08:09:07 GMT
+PASS: date 55 /date/bad/Saturday, 06--04 08:09:07 GMT
+PASS: date 56 /date/bad/Saturday, 06-Nov- 08:09:07 GMT
+PASS: date 57 /date/bad/Saturday, 06-Nov 08:09:07 GMT
+PASS: date 58 /date/bad/Saturday, 06-Nov-04 :09:07 GMT
+PASS: date 59 /date/bad/Saturday, 06-Nov-04 09:07 GMT
+PASS: date 60 /date/bad/Saturday, 06-Nov-04 08::07 GMT
+PASS: date 61 /date/bad/Saturday, 06-Nov-04 08:09: GMT
+PASS: date 62 /date/bad/Nov  6 08:09:07 2004
+PASS: date 63 /date/bad/Sat  6 08:09:07 2004
+PASS: date 64 /date/bad/Sat Nov 08:09:07 2004
+PASS: date 65 /date/bad/Sat Nov  6 :09:07 2004
+PASS: date 66 /date/bad/Sat Nov  6 09:07 2004
+PASS: date 67 /date/bad/Sat Nov  6 08::07 2004
+PASS: date 68 /date/bad/Sat Nov  6 08:09: 2004
+PASS: date 69 /date/bad/Sat Nov  6 08:09:07
+PASS: date 70 /date/bad/Sat Nov  6 08:09:07 GMT 2004
+PASS: date 71 /date/conversions/Sat, 06 Nov 2004 08:09:07 GMT
+PASS: date 72 /date/conversions/Sat, 6 Nov 2004 08:09:07 +0000
+PASS: date 73 /date/conversions/Sat, 6 Nov 2004 08:09:07 +0430
+PASS: date 74 /date/conversions/Sat, 6 Nov 2004 08:09:07 -0430
+PASS: date 75 /date/conversions/Sat, 6 Nov 2004 08:09:07 -0000
+PASS: date 76 /date/conversions/2004-11-06T08:09:07Z
+PASS: date 77 /date/conversions/2004-11-06T08:09:07+04:30
+PASS: date 78 /date/conversions/2004-11-06T08:09:07-04:30
+PASS: date 79 /date/conversions/2004-11-06T08:09:07
+SKIP: forms-test 1 /forms/hello # SKIP /usr/bin/curl is not available
+SKIP: forms-test 2 /forms/decode # SKIP /usr/bin/curl is not available
+SKIP: forms-test 3 /forms/md5/curl # SKIP /usr/bin/curl is not available
+PASS: forms-test 4 /forms/md5/libsoup
+PASS: header-parsing 1 /header-parsing/request
+PASS: header-parsing 2 /header-parsing/response
+PASS: header-parsing 3 /header-parsing/qvalue
+PASS: header-parsing 4 /header-parsing/content-disposition
+PASS: header-parsing 5 /header-parsing/content-type
+PASS: header-parsing 6 /header-parsing/append-param
+PASS: header-parsing 7 /header-parsing/bad
+PASS: misc-test 1 /misc/host
+PASS: misc-test 2 /misc/msg-reuse
+PASS: misc-test 3 /misc/accept-language
+PASS: misc-test 4 /misc/aliases
+PASS: misc-test 5 /misc/idle-on-dispose
+PASS: misc-test 6 /misc/pause-abort
+PASS: misc-test 7 /misc/pause-cancel
+PASS: misc-test 8 /misc/callback-unref/msg
+PASS: misc-test 9 /misc/callback-unref/req
+PASS: misc-test 10 /misc/early-abort/msg
+PASS: misc-test 11 /misc/early-abort/req
+PASS: misc-test 12 /misc/cancel-while-reading/msg
+PASS: misc-test 13 /misc/cancel-while-reading/req/immediate
+PASS: misc-test 14 /misc/cancel-while-reading/req/delayed
+PASS: misc-test 15 /misc/cancel-while-reading/req/preemptive
+PASS: misc-test 16 /misc/stealing/async
+PASS: misc-test 17 /misc/stealing/sync
+PASS: multipart-test 1 /multipart/no
+PASS: multipart-test 2 /multipart/sync
+PASS: multipart-test 3 /multipart/async
+PASS: multipart-test 4 /multipart/async-small-reads
+PASS: no-ssl-test 1 /no-ssl/session-properties
+PASS: no-ssl-test 2 /no-ssl/request-error
+PASS: ntlm-test 1 /ntlm/retry
+PASS: ntlm-test 2 /ntlm/builtin/none
+PASS: ntlm-test 3 /ntlm/builtin/alice
+PASS: ntlm-test 4 /ntlm/builtin/bob
+PASS: ntlm-test 5 /ntlm/builtin/basic
+PASS: ntlm-test 6 /ntlm/winbind/none
+PASS: ntlm-test 7 /ntlm/winbind/alice
+PASS: ntlm-test 8 /ntlm/winbind/bob
+PASS: ntlm-test 9 /ntlm/winbind/basic
+PASS: ntlm-test 10 /ntlm/fallback/none
+PASS: ntlm-test 11 /ntlm/fallback/alice
+PASS: ntlm-test 12 /ntlm/fallback/bob
+PASS: ntlm-test 13 /ntlm/fallback/basic
+PASS: ntlm-test 14 /ntlm/ssp/none
+PASS: ntlm-test 15 /ntlm/ssp/alice
+PASS: ntlm-test 16 /ntlm/ssp/bob
+PASS: ntlm-test 17 /ntlm/ssp/basic
+SKIP: proxy-test 1 /proxy/fragment # SKIP apache is not available
+SKIP: proxy-test 2 /proxy/redirect # SKIP apache is not available
+SKIP: proxy-test 3 /proxy/auth-cache # SKIP apache is not available
+SKIP: proxy-test 4 /proxy/async/GET -> 200 # SKIP apache is not available
+SKIP: proxy-test 5 /proxy/async/GET -> 404 # SKIP apache is not available
+SKIP: proxy-test 6 /proxy/async/GET -> 401 -> 200 # SKIP apache is not available
+SKIP: proxy-test 7 /proxy/async/GET -> 401 -> 401 # SKIP apache is not available
+SKIP: proxy-test 8 /proxy/async/GET -> 403 # SKIP apache is not available
+SKIP: proxy-test 9 /proxy/async/GET -> 200 (unproxied) # SKIP apache is not available
+SKIP: proxy-test 10 /proxy/sync/GET -> 200 # SKIP apache is not available
+SKIP: proxy-test 11 /proxy/sync/GET -> 404 # SKIP apache is not available
+SKIP: proxy-test 12 /proxy/sync/GET -> 401 -> 200 # SKIP apache is not available
+SKIP: proxy-test 13 /proxy/sync/GET -> 401 -> 401 # SKIP apache is not available
+SKIP: proxy-test 14 /proxy/sync/GET -> 403 # SKIP apache is not available
+SKIP: proxy-test 15 /proxy/sync/GET -> 200 (unproxied) # SKIP apache is not available
+SKIP: pull-api 1 /pull-api/sync-async # SKIP apache is not available
+SKIP: pull-api 2 /pull-api/async/fast # SKIP apache is not available
+SKIP: pull-api 3 /pull-api/async/slow # SKIP apache is not available
+SKIP: range-test 1 /ranges/apache # SKIP apache is not available
+PASS: range-test 2 /ranges/libsoup
+PASS: redirect-test 1 /redirect/async/msg/0-GET-301
+PASS: redirect-test 2 /redirect/async/msg/1-GET-302
+PASS: redirect-test 3 /redirect/async/msg/2-GET-303
+PASS: redirect-test 4 /redirect/async/msg/3-GET-307
+PASS: redirect-test 5 /redirect/async/msg/4-HEAD-301
+PASS: redirect-test 6 /redirect/async/msg/5-HEAD-302
+PASS: redirect-test 7 /redirect/async/msg/6-HEAD-303
+PASS: redirect-test 8 /redirect/async/msg/7-HEAD-307
+PASS: redirect-test 9 /redirect/async/msg/8-GET-300
+PASS: redirect-test 10 /redirect/async/msg/9-GET-304
+PASS: redirect-test 11 /redirect/async/msg/10-GET-305
+PASS: redirect-test 12 /redirect/async/msg/11-GET-306
+PASS: redirect-test 13 /redirect/async/msg/12-GET-308
+PASS: redirect-test 14 /redirect/async/msg/13-HEAD-300
+PASS: redirect-test 15 /redirect/async/msg/14-HEAD-304
+PASS: redirect-test 16 /redirect/async/msg/15-HEAD-305
+PASS: redirect-test 17 /redirect/async/msg/16-HEAD-306
+PASS: redirect-test 18 /redirect/async/msg/17-HEAD-308
+PASS: redirect-test 19 /redirect/async/msg/18-GET-301
+PASS: redirect-test 20 /redirect/async/msg/19-HEAD-301
+PASS: redirect-test 21 /redirect/async/msg/20-POST-301
+PASS: redirect-test 22 /redirect/async/msg/21-POST-302
+PASS: redirect-test 23 /redirect/async/msg/22-POST-303
+PASS: redirect-test 24 /redirect/async/msg/23-POST-307
+PASS: redirect-test 25 /redirect/async/msg/24-GET-302
+PASS: redirect-test 26 /redirect/async/msg/25-GET-302
+PASS: redirect-test 27 /redirect/async/msg/26-GET-302
+PASS: redirect-test 28 /redirect/async/msg/27-GET-302
+PASS: redirect-test 29 /redirect/async/req/0-GET-301
+PASS: redirect-test 30 /redirect/async/req/1-GET-302
+PASS: redirect-test 31 /redirect/async/req/2-GET-303
+PASS: redirect-test 32 /redirect/async/req/3-GET-307
+PASS: redirect-test 33 /redirect/async/req/4-HEAD-301
+PASS: redirect-test 34 /redirect/async/req/5-HEAD-302
+PASS: redirect-test 35 /redirect/async/req/6-HEAD-303
+PASS: redirect-test 36 /redirect/async/req/7-HEAD-307
+PASS: redirect-test 37 /redirect/async/req/8-GET-300
+PASS: redirect-test 38 /redirect/async/req/9-GET-304
+PASS: redirect-test 39 /redirect/async/req/10-GET-305
+PASS: redirect-test 40 /redirect/async/req/11-GET-306
+PASS: redirect-test 41 /redirect/async/req/12-GET-308
+PASS: redirect-test 42 /redirect/async/req/13-HEAD-300
+PASS: redirect-test 43 /redirect/async/req/14-HEAD-304
+PASS: redirect-test 44 /redirect/async/req/15-HEAD-305
+PASS: redirect-test 45 /redirect/async/req/16-HEAD-306
+PASS: redirect-test 46 /redirect/async/req/17-HEAD-308
+PASS: redirect-test 47 /redirect/async/req/18-GET-301
+PASS: redirect-test 48 /redirect/async/req/19-HEAD-301
+PASS: redirect-test 49 /redirect/async/req/20-POST-301
+PASS: redirect-test 50 /redirect/async/req/21-POST-302
+PASS: redirect-test 51 /redirect/async/req/22-POST-303
+PASS: redirect-test 52 /redirect/async/req/23-POST-307
+PASS: redirect-test 53 /redirect/async/req/24-GET-302
+PASS: redirect-test 54 /redirect/async/req/25-GET-302
+PASS: redirect-test 55 /redirect/async/req/26-GET-302
+PASS: redirect-test 56 /redirect/async/req/27-GET-302
+PASS: redirect-test 57 /redirect/sync/msg/0-GET-301
+PASS: redirect-test 58 /redirect/sync/msg/1-GET-302
+PASS: redirect-test 59 /redirect/sync/msg/2-GET-303
+PASS: redirect-test 60 /redirect/sync/msg/3-GET-307
+PASS: redirect-test 61 /redirect/sync/msg/4-HEAD-301
+PASS: redirect-test 62 /redirect/sync/msg/5-HEAD-302
+PASS: redirect-test 63 /redirect/sync/msg/6-HEAD-303
+PASS: redirect-test 64 /redirect/sync/msg/7-HEAD-307
+PASS: redirect-test 65 /redirect/sync/msg/8-GET-300
+PASS: redirect-test 66 /redirect/sync/msg/9-GET-304
+PASS: redirect-test 67 /redirect/sync/msg/10-GET-305
+PASS: redirect-test 68 /redirect/sync/msg/11-GET-306
+PASS: redirect-test 69 /redirect/sync/msg/12-GET-308
+PASS: redirect-test 70 /redirect/sync/msg/13-HEAD-300
+PASS: redirect-test 71 /redirect/sync/msg/14-HEAD-304
+PASS: redirect-test 72 /redirect/sync/msg/15-HEAD-305
+PASS: redirect-test 73 /redirect/sync/msg/16-HEAD-306
+PASS: redirect-test 74 /redirect/sync/msg/17-HEAD-308
+PASS: redirect-test 75 /redirect/sync/msg/18-GET-301
+PASS: redirect-test 76 /redirect/sync/msg/19-HEAD-301
+PASS: redirect-test 77 /redirect/sync/msg/20-POST-301
+PASS: redirect-test 78 /redirect/sync/msg/21-POST-302
+PASS: redirect-test 79 /redirect/sync/msg/22-POST-303
+PASS: redirect-test 80 /redirect/sync/msg/23-POST-307
+PASS: redirect-test 81 /redirect/sync/msg/24-GET-302
+PASS: redirect-test 82 /redirect/sync/msg/25-GET-302
+PASS: redirect-test 83 /redirect/sync/msg/26-GET-302
+PASS: redirect-test 84 /redirect/sync/msg/27-GET-302
+PASS: redirect-test 85 /redirect/sync/req/0-GET-301
+PASS: redirect-test 86 /redirect/sync/req/1-GET-302
+PASS: redirect-test 87 /redirect/sync/req/2-GET-303
+PASS: redirect-test 88 /redirect/sync/req/3-GET-307
+PASS: redirect-test 89 /redirect/sync/req/4-HEAD-301
+PASS: redirect-test 90 /redirect/sync/req/5-HEAD-302
+PASS: redirect-test 91 /redirect/sync/req/6-HEAD-303
+PASS: redirect-test 92 /redirect/sync/req/7-HEAD-307
+PASS: redirect-test 93 /redirect/sync/req/8-GET-300
+PASS: redirect-test 94 /redirect/sync/req/9-GET-304
+PASS: redirect-test 95 /redirect/sync/req/10-GET-305
+PASS: redirect-test 96 /redirect/sync/req/11-GET-306
+PASS: redirect-test 97 /redirect/sync/req/12-GET-308
+PASS: redirect-test 98 /redirect/sync/req/13-HEAD-300
+PASS: redirect-test 99 /redirect/sync/req/14-HEAD-304
+PASS: redirect-test 100 /redirect/sync/req/15-HEAD-305
+PASS: redirect-test 101 /redirect/sync/req/16-HEAD-306
+PASS: redirect-test 102 /redirect/sync/req/17-HEAD-308
+PASS: redirect-test 103 /redirect/sync/req/18-GET-301
+PASS: redirect-test 104 /redirect/sync/req/19-HEAD-301
+PASS: redirect-test 105 /redirect/sync/req/20-POST-301
+PASS: redirect-test 106 /redirect/sync/req/21-POST-302
+PASS: redirect-test 107 /redirect/sync/req/22-POST-303
+PASS: redirect-test 108 /redirect/sync/req/23-POST-307
+PASS: redirect-test 109 /redirect/sync/req/24-GET-302
+PASS: redirect-test 110 /redirect/sync/req/25-GET-302
+PASS: redirect-test 111 /redirect/sync/req/26-GET-302
+PASS: redirect-test 112 /redirect/sync/req/27-GET-302
+PASS: requester-test 1 /requester/simple/SoupSession
+PASS: requester-test 2 /requester/simple/SoupSessionAsync
+PASS: requester-test 3 /requester/threaded/SoupSession
+PASS: requester-test 4 /requester/threaded/SoupSessionAsync
+PASS: requester-test 5 /requester/context/SoupSession
+PASS: requester-test 6 /requester/context/SoupSessionAsync
+PASS: requester-test 7 /requester/sync/SoupSession
+PASS: requester-test 8 /requester/sync/SoupSessionSync
+PASS: requester-test 9 /requester/null-char/SoupSession
+PASS: requester-test 10 /requester/null-char/SoupSessionAsync
+PASS: requester-test 11 /requester/close/SoupSessionAsync
+PASS: requester-test 12 /requester/close/SoupSessionSync
+PASS: resource-test 1 /resource/sync/file
+PASS: resource-test 2 /resource/sync/data
+PASS: resource-test 3 /resource/sync/gresource
+PASS: resource-test 4 /resource/async/file
+PASS: resource-test 5 /resource/async/data
+PASS: resource-test 6 /resource/async/gresource
+PASS: session-test 1 /session/SoupSession
+PASS: session-test 2 /session/SoupSessionAsync
+PASS: session-test 3 /session/SoupSessionSync
+PASS: session-test 4 /session/priority
+PASS: session-test 5 /session/property
+SKIP: server-auth-test 1 /server-auth/none/bad-user # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 2 /server-auth/none/good-user/bad-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 3 /server-auth/none/good-user/good-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 4 /server-auth/basic/bad-user # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 5 /server-auth/basic/good-user/bad-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 6 /server-auth/basic/good-user/good-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 7 /server-auth/digest/bad-user # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 8 /server-auth/digest/good-user/bad-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 9 /server-auth/digest/good-user/good-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 10 /server-auth/basic+digest/bad-user # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 11 /server-auth/basic+digest/good-user/bad-password # SKIP /usr/bin/curl is not available
+SKIP: server-auth-test 12 /server-auth/basic+digest/good-user/good-password # SKIP /usr/bin/curl is not available
+PASS: server-test 1 /server/OPTIONS *
+PASS: server-test 2 /server/aliases
+PASS: server-test 3 /server/..-in-path
+PASS: server-test 4 /server/ipv6
+PASS: server-test 5 /server/multi/port
+PASS: server-test 6 /server/multi/scheme
+PASS: server-test 7 /server/multi/family
+PASS: server-test 8 /server/import/gsocket
+PASS: server-test 9 /server/import/fd
+PASS: server-test 10 /server/accept/iostream
+PASS: server-test 11 /server/fail/404
+PASS: server-test 12 /server/fail/500
+PASS: server-test 13 /server/fail/500-pause
+PASS: server-test 14 /server/early/stream
+PASS: server-test 15 /server/early/respond
+PASS: server-test 16 /server/early/multi
+PASS: server-test 17 /server/steal/CONNECT
+PASS: sniffing-test 1 /sniffing/nosniff
+PASS: sniffing-test 2 /sniffing/multiple-headers
+PASS: sniffing-test 3 /sniffing/parameters
+PASS: sniffing-test 4 /sniffing/disabled
+PASS: sniffing-test 5 /sniffing/signals/no-sniffer
+PASS: sniffing-test 6 /sniffing/signals/with-sniffer
+PASS: sniffing-test 7 /sniffing/apache-bug/binary
+PASS: sniffing-test 8 /sniffing/apache-bug/text
+PASS: sniffing-test 9 /sniffing/type/gif
+PASS: sniffing-test 10 /sniffing/type/mbox
+PASS: sniffing-test 11 /sniffing/type/html-in-text-context
+PASS: sniffing-test 12 /sniffing/type/text-binary
+PASS: sniffing-test 13 /sniffing/type/html-binary
+PASS: sniffing-test 14 /sniffing/type/ps
+PASS: sniffing-test 15 /sniffing/type/unknown-html
+PASS: sniffing-test 16 /sniffing/type/unknown-gif
+PASS: sniffing-test 17 /sniffing/type/unknown-mbox
+PASS: sniffing-test 18 /sniffing/type/unknown-binary
+PASS: sniffing-test 19 /sniffing/type/unknown-leading-space
+PASS: sniffing-test 20 /sniffing/type/xml
+PASS: sniffing-test 21 /sniffing/type/xml+xml
+PASS: sniffing-test 22 /sniffing/type/application-xml
+PASS: sniffing-test 23 /sniffing/type/html/html
+PASS: sniffing-test 24 /sniffing/type/html/rss
+PASS: sniffing-test 25 /sniffing/type/html/atom
+PASS: sniffing-test 26 /sniffing/type/html/rdf
+PASS: sniffing-test 27 /sniffing/type/image/gif
+PASS: sniffing-test 28 /sniffing/type/image/png
+PASS: sniffing-test 29 /sniffing/type/image/jpeg
+PASS: sniffing-test 30 /sniffing/type/image/webp
+PASS: sniffing-test 31 /sniffing/type/audio/wav
+PASS: sniffing-test 32 /sniffing/type/audio/aiff
+PASS: sniffing-test 33 /sniffing/type/audio/ogg
+PASS: sniffing-test 34 /sniffing/type/video/webm
+PASS: sniffing-test 35 /sniffing/type/video/mp4
+PASS: socket-test 1 /sockets/unconnected
+PASS: socket-test 2 /sockets/from-fd/client
+PASS: socket-test 3 /sockets/from-fd/server
+PASS: socket-test 4 /sockets/from-fd/bad
+PASS: ssl-test 1 /ssl/session-properties
+PASS: ssl-test 2 /ssl/tls-interaction
+PASS: ssl-test 3 /ssl/message-properties/async
+PASS: ssl-test 4 /ssl/message-properties/sync
+PASS: ssl-test 5 /ssl/strictness/async/strict/with-ca
+PASS: ssl-test 6 /ssl/strictness/async/strict/without-ca
+PASS: ssl-test 7 /ssl/strictness/async/non-strict/with-ca
+PASS: ssl-test 8 /ssl/strictness/async/non-strict/without-ca
+PASS: ssl-test 9 /ssl/strictness/sync/strict/with-ca
+PASS: ssl-test 10 /ssl/strictness/sync/strict/without-ca
+PASS: ssl-test 11 /ssl/strictness/sync/non-strict/with-ca
+PASS: ssl-test 12 /ssl/strictness/sync/non-strict/without-ca
+PASS: streaming-test 1 /streaming/chunked
+PASS: streaming-test 2 /streaming/content-length
+PASS: streaming-test 3 /streaming/eof
+PASS: timeout-test 1 /timeout/http/async
+PASS: timeout-test 2 /timeout/http/sync
+PASS: timeout-test 3 /timeout/https/async
+PASS: timeout-test 4 /timeout/https/sync
+PASS: tld-test 1 /tld/inet
+PASS: tld-test 2 /tld/non-inet
+PASS: uri-parsing 1 /uri/absolute
+PASS: uri-parsing 2 /uri/relative
+PASS: uri-parsing 3 /uri/equality
+PASS: uri-parsing 4 /uri/null
+PASS: uri-parsing 5 /uri/normalization
+PASS: uri-parsing 6 /uri/data
+PASS: websocket-test 1 /websocket/soup/handshake
+PASS: websocket-test 2 /websocket/soup/send-client-to-server
+PASS: websocket-test 3 /websocket/soup/send-server-to-client
+PASS: websocket-test 4 /websocket/soup/send-big-packets
+PASS: websocket-test 5 /websocket/soup/send-bad-data
+PASS: websocket-test 6 /websocket/soup/close-clean-client
+PASS: websocket-test 7 /websocket/soup/close-clean-server
+PASS: websocket-test 8 /websocket/soup/message-after-closing
+PASS: websocket-test 9 /websocket/soup/protocol-negotiate
+PASS: websocket-test 10 /websocket/soup/protocol-mismatch
+PASS: websocket-test 11 /websocket/soup/protocol-server-any
+PASS: websocket-test 12 /websocket/soup/protocol-client-any
+PASS: websocket-test 13 /websocket/soup/client-context
+PASS: websocket-test 14 /websocket/direct/send-client-to-server
+PASS: websocket-test 15 /websocket/direct/send-server-to-client
+PASS: websocket-test 16 /websocket/direct/send-big-packets
+PASS: websocket-test 17 /websocket/direct/send-bad-data
+PASS: websocket-test 18 /websocket/direct/close-clean-client
+PASS: websocket-test 19 /websocket/direct/close-clean-server
+PASS: websocket-test 20 /websocket/direct/message-after-closing
+PASS: websocket-test 21 /websocket/direct/protocol-negotiate
+PASS: websocket-test 22 /websocket/direct/protocol-mismatch
+PASS: websocket-test 23 /websocket/direct/protocol-server-any
+PASS: websocket-test 24 /websocket/direct/protocol-client-any
+PASS: websocket-test 25 /websocket/direct/receive-fragmented
+PASS: xmlrpc-old-server-test 1 /xmlrpc-old-server/sum
+PASS: xmlrpc-old-server-test 2 /xmlrpc-old-server/countBools
+PASS: xmlrpc-old-server-test 3 /xmlrpc-old-server/md5sum
+PASS: xmlrpc-old-server-test 4 /xmlrpc-old-server/dateChange
+PASS: xmlrpc-old-server-test 5 /xmlrpc-old-server/echo
+PASS: xmlrpc-old-server-test 6 /xmlrpc-old-server/ping/empty-params
+PASS: xmlrpc-old-server-test 7 /xmlrpc-old-server/ping/no-params
+PASS: xmlrpc-old-server-test 8 /xmlrpc-old-server/fault/malformed
+PASS: xmlrpc-old-server-test 9 /xmlrpc-old-server/fault/method
+PASS: xmlrpc-old-server-test 10 /xmlrpc-old-server/fault/args
+SKIP: xmlrpc-old-test 1 /xmlrpc-old/sum # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 2 /xmlrpc-old/countBools # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 3 /xmlrpc-old/md5sum # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 4 /xmlrpc-old/dateChange # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 5 /xmlrpc-old/echo # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 6 /xmlrpc-old/ping/empty-params # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 7 /xmlrpc-old/ping/no-params # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 8 /xmlrpc-old/fault/malformed # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 9 /xmlrpc-old/fault/method # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-old-test 10 /xmlrpc-old/fault/args # SKIP php-xmlrpc is not available
+PASS: xmlrpc-server-test 1 /xmlrpc-server/variant/serializer
+PASS: xmlrpc-server-test 2 /xmlrpc-server/variant/deserializer
+PASS: xmlrpc-server-test 3 /xmlrpc-server/variant/fault
+PASS: xmlrpc-server-test 4 /xmlrpc-server/variant/sum
+PASS: xmlrpc-server-test 5 /xmlrpc-server/variant/countBools
+PASS: xmlrpc-server-test 6 /xmlrpc-server/variant/md5sum
+PASS: xmlrpc-server-test 7 /xmlrpc-server/variant/dateChange
+PASS: xmlrpc-server-test 8 /xmlrpc-server/variant/echo
+PASS: xmlrpc-server-test 9 /xmlrpc-server/variant/ping/empty-params
+PASS: xmlrpc-server-test 10 /xmlrpc-server/variant/ping/no-params
+PASS: xmlrpc-server-test 11 /xmlrpc-server/variant/fault/malformed
+PASS: xmlrpc-server-test 12 /xmlrpc-server/variant/fault/method
+PASS: xmlrpc-server-test 13 /xmlrpc-server/variant/fault/args
+PASS: xmlrpc-test 1 /xmlrpc/variant/serializer
+PASS: xmlrpc-test 2 /xmlrpc/variant/deserializer
+PASS: xmlrpc-test 3 /xmlrpc/variant/fault
+SKIP: xmlrpc-test 4 /xmlrpc/variant/sum # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 5 /xmlrpc/variant/countBools # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 6 /xmlrpc/variant/md5sum # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 7 /xmlrpc/variant/dateChange # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 8 /xmlrpc/variant/echo # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 9 /xmlrpc/variant/ping/empty-params # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 10 /xmlrpc/variant/ping/no-params # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 11 /xmlrpc/variant/fault/malformed # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 12 /xmlrpc/variant/fault/method # SKIP php-xmlrpc is not available
+SKIP: xmlrpc-test 13 /xmlrpc/variant/fault/args # SKIP php-xmlrpc is not available
+make[5]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make  all-am
+make[6]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[5]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+============================================================================
+Testsuite summary for libsoup 2.52.2
+============================================================================
+# TOTAL: 523
+# PASS:  458
+# SKIP:  65
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[4]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make[4]: Nothing to be done for 'kill-httpd'.
+make[4]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/examples'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2'
+Making install in libsoup
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/libsoup'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libsoup-2.4.la libsoup-gnome-2.4.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libsoup-2.4.so.1.7.0 /usr/lib/libsoup-2.4.so.1.7.0
+libtool: install: (cd /usr/lib && { ln -s -f libsoup-2.4.so.1.7.0 libsoup-2.4.so.1 || { rm -f libsoup-2.4.so.1 && ln -s libsoup-2.4.so.1.7.0 libsoup-2.4.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsoup-2.4.so.1.7.0 libsoup-2.4.so || { rm -f libsoup-2.4.so && ln -s libsoup-2.4.so.1.7.0 libsoup-2.4.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsoup-2.4.lai /usr/lib/libsoup-2.4.la
+libtool: install: (cd /sources/7.9/libsoup-2.52.2/libsoup; /bin/sh /sources/7.9/libsoup-2.52.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -Wall -Wstrict-prototypes -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Wno-format-zero-length -Werror=missing-include-dirs -Werror=aggregate-return -Werror=declaration-after-statement -version-info 8:0:7 -no-undefined -export-symbols ./libsoup-gnome-2.4.sym -o libsoup-gnome-2.4.la -rpath /usr/lib soup-cookie-jar-sqlite.lo soup-gnome-features.lo soup-proxy-resolver-gnome.lo soup-password-manager-gnome.lo libsoup-2.4.la -lgio-2.0 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libsoup-gnome-2.4.so.1.7.0T /usr/lib/libsoup-gnome-2.4.so.1.7.0
+libtool: install: (cd /usr/lib && { ln -s -f libsoup-gnome-2.4.so.1.7.0 libsoup-gnome-2.4.so.1 || { rm -f libsoup-gnome-2.4.so.1 && ln -s libsoup-gnome-2.4.so.1.7.0 libsoup-gnome-2.4.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsoup-gnome-2.4.so.1.7.0 libsoup-gnome-2.4.so || { rm -f libsoup-gnome-2.4.so && ln -s libsoup-gnome-2.4.so.1.7.0 libsoup-gnome-2.4.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsoup-gnome-2.4.lai /usr/lib/libsoup-gnome-2.4.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Soup-2.4.gir SoupGNOME-2.4.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/libsoup-gnome-2.4/libsoup'
+ /usr/bin/install -c -m 644 soup-cookie-jar-sqlite.h soup-gnome.h soup-gnome-features.h '/usr/include/libsoup-gnome-2.4/libsoup'
+ /bin/mkdir -p '/usr/include/libsoup-2.4/libsoup'
+ /usr/bin/install -c -m 644 soup.h soup-address.h soup-auth.h soup-auth-domain.h soup-auth-domain-basic.h soup-auth-domain-digest.h soup-auth-manager.h soup-autocleanups.h soup-cache.h soup-content-decoder.h soup-content-sniffer.h soup-cookie.h soup-cookie-jar.h soup-cookie-jar-db.h soup-cookie-jar-text.h soup-date.h soup-form.h soup-headers.h soup-logger.h soup-message.h soup-message-body.h soup-message-headers.h soup-method.h soup-misc.h soup-multipart.h soup-multipart-input-stream.h soup-password-manager.h soup-portability.h soup-proxy-resolver.h soup-proxy-resolver-default.h soup-proxy-uri-resolver.h soup-request.h soup-request-data.h soup-request-file.h soup-request-http.h soup-requester.h soup-server.h soup-session.h soup-session-async.h soup-session-feature.h '/usr/include/libsoup-2.4/libsoup'
+ /usr/bin/install -c -m 644 soup-session-sync.h soup-socket.h soup-status.h soup-tld.h soup-types.h soup-uri.h soup-value-utils.h soup-websocket.h soup-websocket-connection.h soup-xmlrpc.h soup-xmlrpc-old.h soup-enum-types.h '/usr/include/libsoup-2.4/libsoup'
+ /bin/mkdir -p '/usr/include/libsoup-2.4/libsoup'
+ /usr/bin/install -c -m 644 soup-version.h '/usr/include/libsoup-2.4/libsoup'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Soup-2.4.typelib SoupGNOME-2.4.typelib '/usr/lib/girepository-1.0'
+ /bin/mkdir -p '/usr/share/vala/vapi'
+ /usr/bin/install -c -m 644 libsoup-2.4.vapi libsoup-2.4.deps '/usr/share/vala/vapi'
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/libsoup'
+Making install in po
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/po'
+linguas="an as be bg bn_IN bs ca ca@valencia cs da de el en_GB eo es et eu fa fr fur gl gu he hi hu id it ja kn ko lt lv ml mr nb nl oc or pa pl pt pt_BR ro ru sk sl sr sr@latin sv ta te tg th tr ug uk uz@cyrillic vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/libsoup-2.52.2/build-aux/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/libsoup.mo; \
+    echo "installing $lang.gmo as $dir/libsoup.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/libsoup.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libsoup.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/libsoup.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libsoup.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/libsoup.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libsoup.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/libsoup.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/libsoup.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/libsoup.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/libsoup.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/libsoup.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/libsoup.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/libsoup.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/libsoup.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libsoup.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libsoup.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libsoup.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/libsoup.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/libsoup.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/libsoup.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/libsoup.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/libsoup.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/libsoup.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/libsoup.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libsoup.mo
+installing fur.gmo as /usr/share/locale/fur/LC_MESSAGES/libsoup.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/libsoup.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/libsoup.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/libsoup.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/libsoup.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libsoup.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/libsoup.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libsoup.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libsoup.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/libsoup.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/libsoup.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/libsoup.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/libsoup.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/libsoup.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/libsoup.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/libsoup.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libsoup.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/libsoup.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/libsoup.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/libsoup.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libsoup.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libsoup.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/libsoup.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/libsoup.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libsoup.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/libsoup.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/libsoup.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libsoup.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/libsoup.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libsoup.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/libsoup.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/libsoup.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/libsoup.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/libsoup.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/libsoup.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/libsoup.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libsoup.mo
+installing uz@cyrillic.gmo as /usr/share/locale/uz@cyrillic/LC_MESSAGES/libsoup.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/libsoup.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libsoup.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/libsoup.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libsoup.mo
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/po'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/tests'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/examples'
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/examples'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/examples'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/ch04.html
+ /usr/bin/install -c -m 644 ./html/ch05.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/ix01.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4.devhelp2
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-HTML-Form-Support.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-soup-method.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-Soup-Miscellaneous-Utilities.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-SoupServer-deprecated-API.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-soup-status.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-Top-Level-Domain-utils.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-Version-Information.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-WebSockets.html
+ /usr/bin/install -c -m 644 ./html/libsoup-2.4-XMLRPC-Support.html
+ /usr/bin/install -c -m 644 ./html/libsoup-build-howto.html
+ /usr/bin/install -c -m 644 ./html/libsoup-client-howto.html
+ /usr/bin/install -c -m 644 ./html/libsoup-request-howto.html
+ /usr/bin/install -c -m 644 ./html/libsoup-server-howto.html
+ /usr/bin/install -c -m 644 ./html/libsoup-session-porting.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/SoupAddress.html
+ /usr/bin/install -c -m 644 ./html/SoupAuthDomainBasic.html
+ /usr/bin/install -c -m 644 ./html/SoupAuthDomainDigest.html
+ /usr/bin/install -c -m 644 ./html/SoupAuthDomain.html
+ /usr/bin/install -c -m 644 ./html/SoupAuth.html
+ /usr/bin/install -c -m 644 ./html/SoupAuthManager.html
+ /usr/bin/install -c -m 644 ./html/SoupCache.html
+ /usr/bin/install -c -m 644 ./html/SoupContentDecoder.html
+ /usr/bin/install -c -m 644 ./html/SoupContentSniffer.html
+ /usr/bin/install -c -m 644 ./html/SoupCookie.html
+ /usr/bin/install -c -m 644 ./html/SoupCookieJarDB.html
+ /usr/bin/install -c -m 644 ./html/SoupCookieJar.html
+ /usr/bin/install -c -m 644 ./html/SoupCookieJarText.html
+ /usr/bin/install -c -m 644 ./html/SoupLogger.html
+ /usr/bin/install -c -m 644 ./html/SoupMessageBody.html
+ /usr/bin/install -c -m 644 ./html/SoupMessageHeaders.html
+ /usr/bin/install -c -m 644 ./html/SoupMessage.html
+ /usr/bin/install -c -m 644 ./html/SoupMultipart.html
+ /usr/bin/install -c -m 644 ./html/SoupMultipartInputStream.html
+ /usr/bin/install -c -m 644 ./html/SoupProxyResolverDefault.html
+ /usr/bin/install -c -m 644 ./html/SoupRequestData.html
+ /usr/bin/install -c -m 644 ./html/SoupRequestFile.html
+ /usr/bin/install -c -m 644 ./html/SoupRequest.html
+ /usr/bin/install -c -m 644 ./html/SoupRequestHTTP.html
+ /usr/bin/install -c -m 644 ./html/SoupServer.html
+ /usr/bin/install -c -m 644 ./html/SoupSessionAsync.html
+ /usr/bin/install -c -m 644 ./html/SoupSessionFeature.html
+ /usr/bin/install -c -m 644 ./html/SoupSession.html
+ /usr/bin/install -c -m 644 ./html/SoupSessionSync.html
+ /usr/bin/install -c -m 644 ./html/SoupSocket.html
+ /usr/bin/install -c -m 644 ./html/SoupURI.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs/reference'
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+make[3]: Entering directory '/sources/7.9/libsoup-2.52.2/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2/docs'
+make[1]: Entering directory '/sources/7.9/libsoup-2.52.2'
+make[2]: Entering directory '/sources/7.9/libsoup-2.52.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libsoup-2.4.pc libsoup-gnome-2.4.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libsoup-2.52.2'
+make[1]: Leaving directory '/sources/7.9/libsoup-2.52.2'

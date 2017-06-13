@@ -1,0 +1,132 @@
+Making check in exo
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/exo'
+make  check-am
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/exo'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/exo-0.10.7/exo'
+make[4]: Entering directory '/sources/7.9/exo-0.10.7/exo'
+PASS: abicheck.sh
+============================================================================
+Testsuite summary for exo 0.10.7
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/exo-0.10.7/exo'
+make[3]: Leaving directory '/sources/7.9/exo-0.10.7/exo'
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/exo'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/exo'
+Making check in exo-csource
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/exo-csource'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/exo-csource'
+Making check in exo-desktop-item-edit
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/exo-desktop-item-edit'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/exo-desktop-item-edit'
+Making check in exo-helper
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/exo-helper'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/exo-helper'
+Making check in helpers
+make[3]: Entering directory '/sources/7.9/exo-0.10.7/exo-helper/helpers'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/exo-0.10.7/exo-helper/helpers'
+make[3]: Entering directory '/sources/7.9/exo-0.10.7/exo-helper'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/exo-0.10.7/exo-helper'
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/exo-helper'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/exo-helper'
+Making check in exo-open
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/exo-open'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/exo-open'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/docs'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/docs/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/docs/reference'
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/docs'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/docs'
+Making check in icons
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/icons'
+Making check in 24x24
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/icons/24x24'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/icons/24x24'
+Making check in 48x48
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/icons/48x48'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/icons/48x48'
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/icons'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/icons'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/icons'
+Making check in pixmaps
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/pixmaps'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/pixmaps'
+Making check in po
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/po'
+XGETTEXT_ARGS="--keyword=Q_ --from-code=UTF-8" INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext --keyword=Q_ --from-code=UTF-8" srcdir=. /usr/bin/intltool-update --gettext-package exo-1 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/po'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+Making check in data
+make[3]: Entering directory '/sources/7.9/exo-0.10.7/tests/data'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/exo-0.10.7/tests/data'
+make[3]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+make  test-exo-csource test-exo-noop test-exo-string test-exo-icon-chooser-dialog test-exo-wrap-table
+make[4]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+  CC       test_exo_csource-test-exo-csource.o
+  CC       test_exo_csource-test-exo-csource-data.o
+  CCLD     test-exo-csource
+  CC       test_exo_noop-test-exo-noop.o
+  CCLD     test-exo-noop
+  CC       test_exo_string-test-exo-string.o
+  CCLD     test-exo-string
+  CC       test_exo_icon_chooser_dialog-test-exo-icon-chooser-dialog.o
+  CCLD     test-exo-icon-chooser-dialog
+  CC       test_exo_wrap_table-test-exo-wrap-table.o
+  CCLD     test-exo-wrap-table
+make[4]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+make[5]: Entering directory '/sources/7.9/exo-0.10.7/tests'
+PASS: test-exo-csource
+PASS: test-exo-noop
+PASS: test-exo-string
+============================================================================
+Testsuite summary for exo 0.10.7
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make[4]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make[3]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make[2]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7/tests'
+make[1]: Entering directory '/sources/7.9/exo-0.10.7'
+make[1]: Leaving directory '/sources/7.9/exo-0.10.7'

@@ -1,0 +1,17 @@
+URL=(
+"https://github.com/lathiat/avahi/releases/download/v0.6.32/avahi-0.6.32.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"gobject-introspection-1.50.0"
+"gtk+-2.24.31"
+"gtk+-3.22.8"
+"libdaemon-0.14"
+"libglade-2.6.4"
+)

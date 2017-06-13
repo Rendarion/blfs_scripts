@@ -1,0 +1,6 @@
+case $(uname -m) in
+   i?86) sed -i -e '/xmmintrin\.h/d' configure ;;
+esac
+
+./configure --prefix=/usr --enable-mp3rtp --disable-static &&
+make

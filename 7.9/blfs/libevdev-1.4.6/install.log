@@ -1,0 +1,204 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc option to accept ISO C99... none needed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ld used by gcc... (cached) /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... (cached) yes
+checking if gcc supports flag -Wl,--as-needed in envvar LDFLAGS... yes
+checking if gcc supports flag -Wl,--gc-sections in envvar LDFLAGS... yes
+checking if gcc supports flag -Wl,-z,relro in envvar LDFLAGS... yes
+checking if gcc supports flag -Wl,-z,now in envvar LDFLAGS... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for CHECK... no
+checking if gcc supports flag -Wall in envvar CFLAGS... yes
+checking if gcc supports flag -Wextra in envvar CFLAGS... yes
+checking if gcc supports flag -Wno-unused-parameter in envvar CFLAGS... yes
+checking if gcc supports flag -Wstrict-prototypes in envvar CFLAGS... yes
+checking if gcc supports flag -Wmissing-prototypes in envvar CFLAGS... yes
+checking if gcc supports flag -fvisibility=hidden in envvar CFLAGS... yes
+checking if gcc supports flag -pipe in envvar CFLAGS... yes
+checking if gcc supports flag -fno-strict-aliasing in envvar CFLAGS... yes
+checking if gcc supports flag -ffunction-sections in envvar CFLAGS... yes
+checking if gcc supports flag -fdata-sections in envvar CFLAGS... yes
+checking if gcc supports flag -fno-strict-aliasing in envvar CFLAGS... (cached) yes
+checking if gcc supports flag -fdiagnostics-show-option in envvar CFLAGS... yes
+checking if gcc supports flag -fno-common in envvar CFLAGS... yes
+checking for doxygen... no
+checking whether to build with gcov... no
+checking for a Python interpreter with version >= 2.6... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking for nm... /usr/bin/nm -B
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libevdev/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/libevdev.doxygen
+config.status: creating doc/libevdev.man
+config.status: creating tools/Makefile
+config.status: creating test/Makefile
+config.status: creating libevdev.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+	       Prefix				/usr
+	       Libdir				${exec_prefix}/lib
+
+	       Build documentation		no
+	       Enable unit-tests		no
+	       Enable profiling			no
+	       Static library symbol check	no - static build disabled
+	       
+make --no-print-directory all-recursive
+Making all in doc
+make[2]: Nothing to be done for 'all'.
+Making all in libevdev
+/usr/bin/python ./make-event-names.py ../include/linux/input.h  > event-names.h
+make  all-am
+  CC       libevdev-uinput.lo
+  CC       libevdev.lo
+  CC       libevdev-names.lo
+  CCLD     libevdev.la
+Making all in tools
+  CC       touchpad-edge-detector.o
+  CCLD     touchpad-edge-detector
+  CC       mouse-dpi-tool.o
+  CCLD     mouse-dpi-tool
+  CC       libevdev-tweak-device.o
+  CCLD     libevdev-tweak-device
+  CC       libevdev-events.o
+  CCLD     libevdev-events
+Making all in test
+  CC       test_compile_pedantic-test-compile-pedantic.o
+  CCLD     test-compile-pedantic
+  CC       test_link-test-link.o
+  CCLD     test-link
+Making install in doc
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 'libevdev.man' '/usr/share/man/man3/libevdev.3'
+Making install in libevdev
+make  install-am
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libevdev.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libevdev.so.2.1.12 /usr/lib/libevdev.so.2.1.12
+libtool: install: (cd /usr/lib && { ln -s -f libevdev.so.2.1.12 libevdev.so.2 || { rm -f libevdev.so.2 && ln -s libevdev.so.2.1.12 libevdev.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libevdev.so.2.1.12 libevdev.so || { rm -f libevdev.so && ln -s libevdev.so.2.1.12 libevdev.so; }; })
+libtool: install: /usr/bin/install -c .libs/libevdev.lai /usr/lib/libevdev.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libevdev-1.0/libevdev'
+ /usr/bin/install -c -m 644 libevdev.h libevdev-uinput.h '/usr/include/libevdev-1.0/libevdev'
+Making install in tools
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c touchpad-edge-detector mouse-dpi-tool libevdev-tweak-device '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/touchpad-edge-detector /usr/bin/touchpad-edge-detector
+libtool: install: /usr/bin/install -c .libs/mouse-dpi-tool /usr/bin/mouse-dpi-tool
+libtool: install: /usr/bin/install -c .libs/libevdev-tweak-device /usr/bin/libevdev-tweak-device
+make[2]: Nothing to be done for 'install-data-am'.
+Making install in test
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libevdev.pc '/usr/lib/pkgconfig'

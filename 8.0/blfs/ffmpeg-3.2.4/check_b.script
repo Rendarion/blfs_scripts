@@ -1,0 +1,7 @@
+#make fate-rsync SAMPLES=fate-suite/
+
+#rsync -vrltLW  --delete --timeout=60 --contimeout=60 \
+#      rsync://fate-suite.ffmpeg.org/fate-suite/ fate-suite/
+
+#make fate THREADS=2 SAMPLES=fate-suite/ | tee ../fate.log &&
+#grep ^TEST ../fate.log | wc -l

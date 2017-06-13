@@ -1,0 +1,433 @@
+installing missing dependency: librsvg-2.40.13 ... done!
+installing missing dependency: libxklavier-5.4 ... done!
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -lX11... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar ast be bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl oc pl pt_BR pt ro ru sk sq sr sv th tr ug uk ur_PK ur uz@Latn uz zh_CN zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-2.0 >= 2.6.0... 2.24.29
+checking GTK_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.8.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4ui-1 >= 4.8.0... 4.12.1
+checking LIBXFCE4UI_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UI_LIBS... -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4panel-1.0 >= 4.8.0... 4.12.0
+checking LIBXFCE4PANEL_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4PANEL_LIBS... -lxfce4panel-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -Wl,--export-dynamic -lgmodule-2.0 -pthread -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxklavier >= 5.0... 5.4
+checking LIBXKLAVIER_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2
+checking LIBXKLAVIER_LIBS... -lxklavier
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for librsvg-2.0 >= 2.18... 2.40.13
+checking LIBRSVG_CFLAGS... -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16
+checking LIBRSVG_LIBS... -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for librsvg-2.0 >= 2.36.2... 2.40.13
+checking LIBRSVG_2_36_2_CFLAGS... -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16
+checking LIBRSVG_2_36_2_LIBS... -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libwnck-1.0 >= 2.12... 2.30.7
+checking LIBWNCK_CFLAGS... -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBWNCK_LIBS... -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for garcon-1 >= 0.1.5... 0.5.0
+checking GARCON_CFLAGS... -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GARCON_LIBS... -lgarcon-1 -lgio-2.0 -lgthread-2.0 -pthread -lgobject-2.0 -lglib-2.0
+checking whether to build with debugging support... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating panel-plugin/Makefile
+config.status: creating flags/Makefile
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+* Debug Support:    no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+Making all in panel-plugin
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xfce4-xkb-plugin.o -MD -MP -MF .deps/xfce4_xkb_plugin-xfce4-xkb-plugin.Tpo -c -o xfce4_xkb_plugin-xfce4-xkb-plugin.o `test -f 'xfce4-xkb-plugin.c' || echo './'`xfce4-xkb-plugin.c
+mv -f .deps/xfce4_xkb_plugin-xfce4-xkb-plugin.Tpo .deps/xfce4_xkb_plugin-xfce4-xkb-plugin.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xkb-settings-dialog.o -MD -MP -MF .deps/xfce4_xkb_plugin-xkb-settings-dialog.Tpo -c -o xfce4_xkb_plugin-xkb-settings-dialog.o `test -f 'xkb-settings-dialog.c' || echo './'`xkb-settings-dialog.c
+mv -f .deps/xfce4_xkb_plugin-xkb-settings-dialog.Tpo .deps/xfce4_xkb_plugin-xkb-settings-dialog.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xkb-config.o -MD -MP -MF .deps/xfce4_xkb_plugin-xkb-config.Tpo -c -o xfce4_xkb_plugin-xkb-config.o `test -f 'xkb-config.c' || echo './'`xkb-config.c
+mv -f .deps/xfce4_xkb_plugin-xkb-config.Tpo .deps/xfce4_xkb_plugin-xkb-config.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xkb-util.o -MD -MP -MF .deps/xfce4_xkb_plugin-xkb-util.Tpo -c -o xfce4_xkb_plugin-xkb-util.o `test -f 'xkb-util.c' || echo './'`xkb-util.c
+mv -f .deps/xfce4_xkb_plugin-xkb-util.Tpo .deps/xfce4_xkb_plugin-xkb-util.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xkb-cairo.o -MD -MP -MF .deps/xfce4_xkb_plugin-xkb-cairo.Tpo -c -o xfce4_xkb_plugin-xkb-cairo.o `test -f 'xkb-cairo.c' || echo './'`xkb-cairo.c
+mv -f .deps/xfce4_xkb_plugin-xkb-cairo.Tpo .deps/xfce4_xkb_plugin-xkb-cairo.Po
+gcc -DHAVE_CONFIG_H -I. -I..   -DNDEBUG -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -MT xfce4_xkb_plugin-xkb-callbacks.o -MD -MP -MF .deps/xfce4_xkb_plugin-xkb-callbacks.Tpo -c -o xfce4_xkb_plugin-xkb-callbacks.o `test -f 'xkb-callbacks.c' || echo './'`xkb-callbacks.c
+mv -f .deps/xfce4_xkb_plugin-xkb-callbacks.Tpo .deps/xfce4_xkb_plugin-xkb-callbacks.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2   -o xfce4-xkb-plugin xfce4_xkb_plugin-xfce4-xkb-plugin.o xfce4_xkb_plugin-xkb-settings-dialog.o xfce4_xkb_plugin-xkb-config.o xfce4_xkb_plugin-xkb-util.o xfce4_xkb_plugin-xkb-cairo.o xfce4_xkb_plugin-xkb-callbacks.o -lxfce4panel-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -Wl,--export-dynamic -lgmodule-2.0 -pthread -lxfce4util -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4util -lglib-2.0 -lxklavier -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lgarcon-1 -lgio-2.0 -lgthread-2.0 -pthread -lgobject-2.0 -lglib-2.0 -lrsvg-2 -lm -lgio-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lcairo 
+libtool: link: gcc -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -pthread -I/usr/include/librsvg-2.0 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -DFLAGSDIR=\"/usr/share/xfce4/xkb/flags\" -DWNCK_I_KNOW_THIS_IS_UNSTABLE -g -O2 -o xfce4-xkb-plugin xfce4_xkb_plugin-xfce4-xkb-plugin.o xfce4_xkb_plugin-xkb-settings-dialog.o xfce4_xkb_plugin-xkb-config.o xfce4_xkb_plugin-xkb-util.o xfce4_xkb_plugin-xkb-cairo.o xfce4_xkb_plugin-xkb-callbacks.o -Wl,--export-dynamic -pthread -pthread  /usr/lib/libxfce4panel-1.0.so -L/usr/lib/../lib64 /usr/lib/libxfce4ui-1.so /usr/lib/libSM.so /usr/lib/libuuid.so /usr/lib/libICE.so /usr/lib/libxklavier.so /usr/lib/libXi.so /usr/lib/libxkbfile.so /usr/lib/libwnck-1.so /usr/lib/libstartup-notification-1.so /usr/lib/libxcb-util.so /usr/lib/libX11-xcb.so /usr/lib/libXRes.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libatk-1.0.so /usr/lib/libgarcon-1.so /usr/lib/libxfce4util.so /usr/lib/librsvg-2.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpangoft2-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgthread-2.0.so /usr/lib/libcroco-0.6.so /usr/lib/libxml2.so /usr/lib/liblzma.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so -lresolv /usr/lib/libgobject-2.0.so /usr/lib/../lib64/libffi.so /usr/lib/libcairo.so /usr/lib/libpixman-1.so /usr/lib/libfontconfig.so /usr/lib/libexpat.so /usr/lib/libharfbuzz.so /usr/lib/libglib-2.0.so /usr/lib/libpcre.so -lpthread /usr/lib/libfreetype.so -lbz2 /usr/lib/libpng16.so /usr/lib/libxcb-shm.so /usr/lib/libxcb-render.so /usr/lib/libXrender.so /usr/lib/libXext.so /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so -ldl -lz -lrt -lm -pthread -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64
+sed -e "s,\@libexecdir\@,/usr/lib,g" < xkb-plugin.desktop.in.in > xkb-plugin.desktop.in
+LC_ALL=C /usr/bin/intltool-merge  -d -u -c ../po/.intltool-merge-cache ../po xkb-plugin.desktop.in xkb-plugin.desktop
+Generating and caching the translation database
+Merging translations into xkb-plugin.desktop.
+rm xkb-plugin.desktop.in
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+Making all in flags
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+Making all in po
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo ast | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ast.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_AU | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_AU.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hr.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo kk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kk.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ms.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sq.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo ug | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ug.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo ur_PK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ur_PK.po
+file=`echo ur | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ur.po
+file=`echo uz@Latn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uz@Latn.po
+file=`echo uz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uz.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/po'
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+make[1]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+Making install in panel-plugin
+make[1]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 xkb-plugin.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c xfce4-xkb-plugin '/usr/lib/xfce4/panel/plugins'
+libtool: install: /usr/bin/install -c xfce4-xkb-plugin /usr/lib/xfce4/panel/plugins/xfce4-xkb-plugin
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+make[1]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/panel-plugin'
+Making install in flags
+make[1]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/xkb/flags'
+ /usr/bin/install -c -m 644 ae.svg al.svg am.svg ar.svg at.svg az.svg ba.svg ben.svg be.svg bg.svg bh.svg br.svg by.svg ca.svg ch.svg cu.svg cz.svg de.svg dev.svg dj.svg dk.svg dvorak.svg dz.svg ee.svg eg.svg el.svg epo.svg es.svg fi.svg fo.svg fr.svg gb.svg ge.svg gr.svg hr.svg hu.svg ie.svg il.svg iq.svg ir.svg '/usr/share/xfce4/xkb/flags'
+ /usr/bin/install -c -m 644 is.svg it.svg jo.svg jp.svg kh.svg km.svg kp.svg kr.svg kw.svg kz.svg la.svg lb.svg lt.svg lv.svg ly.svg ma.svg mk.svg mm.svg mn.svg mt.svg mx.svg nl.svg no.svg om.svg pl.svg pt.svg qa.svg ro.svg rs.svg ru.svg sa.svg sd.svg se.svg si.svg sk.svg so.svg sr.svg sy.svg th.svg tn.svg '/usr/share/xfce4/xkb/flags'
+ /usr/bin/install -c -m 644 tr.svg ua.svg us.svg uy.svg uz.svg vn.svg ye.svg '/usr/share/xfce4/xkb/flags'
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+make[1]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/flags'
+Making install in po
+make[1]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/po'
+linguas="ar ast be bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl oc pl pt_BR pt ro ru sk sq sr sv th tr ug uk ur_PK ur uz@Latn uz zh_CN zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/xfce4-xkb-plugin-0.7.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/xfce4-xkb-plugin.mo; \
+    echo "installing $lang.gmo as $dir/xfce4-xkb-plugin.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/xfce4-xkb-plugin.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/xfce4-xkb-plugin.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/xfce4-xkb-plugin.mo.m; \
+    echo "installing $lang.gmo.m as $dir/xfce4-xkb-plugin.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/xfce4-xkb-plugin.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/xfce4-xkb-plugin.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing uz@Latn.gmo as /usr/share/locale/uz@Latn/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing uz.gmo as /usr/share/locale/uz/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xfce4-xkb-plugin.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-xkb-plugin.mo
+make[1]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1/po'
+make[1]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+make[2]: Entering directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'
+make[1]: Leaving directory '/sources/7.9/xfce4-xkb-plugin-0.7.1'

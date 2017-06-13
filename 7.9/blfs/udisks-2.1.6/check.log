@@ -1,0 +1,75 @@
+Making check in data
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/data'
+Making check in udisks
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+Making check in src
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+Making check in .
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[6]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+PASS: udisks-test
+make[7]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[8]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[7]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+============================================================================
+Testsuite summary for udisks 2.1.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[5]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/tools'
+Making check in po
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package udisks2 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/po'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+Making check in man
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6'

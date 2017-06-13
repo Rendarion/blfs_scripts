@@ -1,0 +1,16 @@
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::NamespaceSupport
+Writing MYMETA.yml and MYMETA.json
+cp lib/XML/NamespaceSupport.pm blib/lib/XML/NamespaceSupport.pm
+Manifying 1 pod document
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'inc', 'blib/lib', 'blib/arch')" t/*.t
+t/00base.t .. ok
+All tests successful.
+Files=1, Tests=48,  0 wallclock secs ( 0.04 usr  0.01 sys +  0.05 cusr  0.00 csys =  0.10 CPU)
+Result: PASS
+Manifying 1 pod document
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/NamespaceSupport.pm
+Installing /usr/share/man/man3/XML::NamespaceSupport.3
+Appending installation info to /usr/lib/perl5/5.22.1/x86_64-linux/perllocal.pod

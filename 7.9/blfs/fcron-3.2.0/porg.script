@@ -1,0 +1,5 @@
+make install
+
+cd ../blfs-bootscripts-20150924
+make install-fcron
+

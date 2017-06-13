@@ -1,0 +1,34 @@
+Making check in image
+make[1]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/image'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/image'
+Making check in test
+make[1]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make  test_swap
+make[2]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/test'
+  CC       test_swap-test_swap.o
+  CCLD     test_swap
+make[2]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make[3]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/test'
+PASS: test_swap
+make[4]: Entering directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/test'
+============================================================================
+Testsuite summary for xcb-util-image 0.4.0
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make[2]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make[1]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0/test'
+make[1]: Entering directory '/sources/7.9/xcb-util-image-0.4.0'
+make[1]: Leaving directory '/sources/7.9/xcb-util-image-0.4.0'

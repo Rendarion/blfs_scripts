@@ -1,0 +1,7 @@
+LFSVS="8.0"
+BUILDPART="sda10"
+SOURCEPART="sda7"
+BOOTPART="sda3"
+#HOMEPART="sda8"
+HOSTNAME="*****"
+LFS=/mnt/lfs

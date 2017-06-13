@@ -1,0 +1,37 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/gvfs/1.26/gvfs-1.26.2.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"dbus-1.10.6"
+"glib-2.46.2"
+"gtk+-3.18.7"
+"libgudev-230"
+"libsecret-0.18.4"
+"libsoup-2.52.2"
+"udisks-2.1.6"
+"gcr-3.18.0" # not mentioned in blfs
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

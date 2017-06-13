@@ -1,0 +1,12 @@
+URL=(
+"ftp://sources.redhat.com/pub/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/sgml-common-0.6.3-manpage-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

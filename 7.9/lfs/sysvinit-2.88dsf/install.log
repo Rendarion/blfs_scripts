@@ -1,0 +1,55 @@
+patching file src/Makefile
+patching file src/init.c
+patching file src/shutdown.c
+make: Entering directory '/sources/7.9/sysvinit-2.88dsf/src'
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o init.o init.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE -DINIT_MAIN -c -o init_utmp.o utmp.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o halt.o halt.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o ifdown.o ifdown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o hddown.o hddown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o utmp.o utmp.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o shutdown.o shutdown.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o dowall.o dowall.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o runlevel.o runlevel.c
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE    killall5.c   -o killall5
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE    fstab-decode.c   -o fstab-decode
+cc -ansi -O2 -fomit-frame-pointer -W -Wall -D_GNU_SOURCE   -c -o bootlogd.o bootlogd.c
+cc   init.o init_utmp.o    -o init
+cc   halt.o ifdown.o hddown.o utmp.o reboot.h   -o halt
+cc   shutdown.o dowall.o utmp.o reboot.h   -o shutdown
+cc   runlevel.o   -o runlevel
+cc   bootlogd.o  -lutil -o bootlogd
+make: Leaving directory '/sources/7.9/sysvinit-2.88dsf/src'
+make: Entering directory '/sources/7.9/sysvinit-2.88dsf/src'
+install -m 755 -d  /sbin/
+for i in ; do \
+		install -o root -g root -m 755 $i /bin/ ; \
+	done
+for i in init halt shutdown runlevel killall5 fstab-decode bootlogd; do \
+		install -o root -g root -m 755 $i /sbin/ ; \
+	done
+for i in ; do \
+		install -o root -g root -m 755 $i /usr/bin/ ; \
+	done
+# install -m 755 -d /etc/
+# install -o root -g root -m 755 initscript.sample /etc/
+ln -sf halt /sbin/reboot
+ln -sf halt /sbin/poweroff
+ln -sf init /sbin/telinit
+install -m 755 -d /usr/include/
+install -o root -g root -m 644 initreq.h /usr/include/
+install -m 755 -d /usr/share/man/man5/
+install -m 755 -d /usr/share/man/man8/
+for i in ; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man1/; \
+	done
+for i in initscript.5 inittab.5; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man5/; \
+	done
+for i in halt.8 init.8 killall5.8  poweroff.8 reboot.8 runlevel.8 shutdown.8 telinit.8 fstab-decode.8 bootlogd.8; do \
+		install -o root -g root -m 644 ../man/$i /usr/share/man/man8/; \
+	done
+#
+# This part is skipped on Debian systems, the
+# debian.preinst script takes care of it.
+make: Leaving directory '/sources/7.9/sysvinit-2.88dsf/src'

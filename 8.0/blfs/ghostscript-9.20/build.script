@@ -1,0 +1,13 @@
+rm -rf freetype lcms2 jpeg libpng
+
+patch -Np1 -i ../ghostscript-9.20-security_fixes-1.patch 
+
+rm -rf zlib
+ 
+./configure --prefix=/usr           \
+            --disable-compile-inits \
+            --enable-dynamic        \
+            --with-system-libtiff 
+make
+
+#make so

@@ -1,0 +1,139 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether ln -s works... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DESKTOP_FILE_UTILS... yes
+checking for emacs... no
+checking for xemacs... no
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating man/Makefile
+config.status: creating misc/Makefile
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/desktop-file-utils-0.22'
+Making all in src
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/src'
+  CC       keyfileutils.o
+  CC       mimeutils.o
+  CC       validate.o
+  CC       validator.o
+  CCLD     desktop-file-validate
+  CC       install.o
+  CCLD     desktop-file-install
+  CC       update-desktop-database.o
+  CCLD     update-desktop-database
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/src'
+Making all in man
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/man'
+Making all in misc
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/misc'
+if test "no" != "no"; then \
+  am__dir=. am__subdir_includes=''; \
+  case desktop-entry-mode.elc in */*) \
+    am__dir=`echo 'desktop-entry-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval "(defun byte-compile-dest-file (f) \"desktop-entry-mode.elc\")" \
+    --eval "(unless (byte-compile-file \"desktop-entry-mode.el\") (kill-emacs 1))"; \
+else :; fi
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/misc'
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22'
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22'
+make[1]: Leaving directory '/sources/7.9/desktop-file-utils-0.22'
+Making install in src
+make[1]: Entering directory '/sources/7.9/desktop-file-utils-0.22/src'
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/src'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c desktop-file-validate desktop-file-install update-desktop-database '/usr/bin'
+make  install-exec-hook
+make[3]: Entering directory '/sources/7.9/desktop-file-utils-0.22/src'
+cd /usr/bin && \
+rm -f desktop-file-edit && \
+ln -s -f desktop-file-install desktop-file-edit
+make[3]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/src'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/src'
+make[1]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/src'
+Making install in man
+make[1]: Entering directory '/sources/7.9/desktop-file-utils-0.22/man'
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/man'
+make  install-exec-hook
+make[3]: Entering directory '/sources/7.9/desktop-file-utils-0.22/man'
+test -d /usr/share/man/man1 || mkdir -p /usr/share/man/man1
+cd /usr/share/man/man1 && \
+rm -f desktop-file-edit.1 && \
+ln -s -f desktop-file-install.1 desktop-file-edit.1
+make[3]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/man'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 desktop-file-validate.1 desktop-file-install.1 update-desktop-database.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/man'
+make[1]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/man'
+Making install in misc
+make[1]: Entering directory '/sources/7.9/desktop-file-utils-0.22/misc'
+if test "no" != "no"; then \
+  am__dir=. am__subdir_includes=''; \
+  case desktop-entry-mode.elc in */*) \
+    am__dir=`echo 'desktop-entry-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval "(defun byte-compile-dest-file (f) \"desktop-entry-mode.elc\")" \
+    --eval "(unless (byte-compile-file \"desktop-entry-mode.el\") (kill-emacs 1))"; \
+else :; fi
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22/misc'
+make[2]: Nothing to be done for 'install-exec-am'.
+if test "no" != "no"; then \
+  am__dir=. am__subdir_includes=''; \
+  case desktop-entry-mode.elc in */*) \
+    am__dir=`echo 'desktop-entry-mode.elc' | sed 's,/[^/]*$,,'`; \
+    am__subdir_includes="-L $am__dir -L ./$am__dir"; \
+  esac; \
+  test -d "$am__dir" || /bin/mkdir -p "$am__dir" || exit 1; \
+  no --batch \
+      \
+    $am__subdir_includes -L . -L . \
+    --eval "(defun byte-compile-dest-file (f) \"desktop-entry-mode.elc\")" \
+    --eval "(unless (byte-compile-file \"desktop-entry-mode.el\") (kill-emacs 1))"; \
+else :; fi
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/misc'
+make[1]: Leaving directory '/sources/7.9/desktop-file-utils-0.22/misc'
+make[1]: Entering directory '/sources/7.9/desktop-file-utils-0.22'
+make[2]: Entering directory '/sources/7.9/desktop-file-utils-0.22'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/desktop-file-utils-0.22'
+make[1]: Leaving directory '/sources/7.9/desktop-file-utils-0.22'

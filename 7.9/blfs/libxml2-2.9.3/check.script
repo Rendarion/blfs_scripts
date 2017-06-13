@@ -1,0 +1,7 @@
+tar xf ../xmlts20130923.tar.gz
+
+make check > check.log
+make check-valgrind > check-valgrind.log
+
+grep -E '^Total|expected' check.log
+grep -E '^Total|expected' check-valgrind.log

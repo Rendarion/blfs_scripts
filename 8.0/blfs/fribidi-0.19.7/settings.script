@@ -1,0 +1,11 @@
+URL=(
+"http://fribidi.org/download/fribidi-0.19.7.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

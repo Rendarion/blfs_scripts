@@ -1,0 +1,12 @@
+URL=(
+"http://sqlite.org/2017/sqlite-autoconf-3170000.tar.gz"
+"http://sqlite.org/2017/sqlite-doc-3170000.zip"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

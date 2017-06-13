@@ -1,0 +1,4 @@
+sed -i 's/-Werror//' Makefile.am &&
+./autogen.sh                     &&
+./configure --prefix=/usr        &&
+make

@@ -1,0 +1,4 @@
+sed -i 's:LIBDIR:PAM_&:g' pam_cap/Makefile &&
+make
+
+sed -i '/install.*STALIBNAME/ s/^/#/' libcap/Makefile

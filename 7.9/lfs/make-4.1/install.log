@@ -1,0 +1,507 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for ranlib... ranlib
+checking how to run the C preprocessor... gcc -E
+checking for ar... ar
+checking for perl... perl
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for library containing strerror... none required
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for library containing getpwnam... none required
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for unistd.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking for an ANSI C-conforming const... yes
+checking return type of signal handlers... void
+checking for uid_t in sys/types.h... yes
+checking for pid_t... yes
+checking for uintmax_t... yes
+checking for nanoseconds field of struct stat... st_mtim.tv_nsec
+checking whether to use high resolution file timestamps... yes
+checking for library containing clock_gettime... none required
+checking whether system uses MSDOS-style paths... no
+checking for standard gettimeofday... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for fdopen... yes
+checking for fileno... yes
+checking for dup... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for realpath... yes
+checking for sigsetmask... yes
+checking for sigaction... yes
+checking for getgroups... yes
+checking for seteuid... yes
+checking for setegid... yes
+checking for setlinebuf... yes
+checking for setreuid... yes
+checking for setregid... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setvbuf... yes
+checking for pipe... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for atexit... yes
+checking for isatty... yes
+checking for ttyname... yes
+checking whether bsd_signal is declared... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strcmpi... no
+checking for strncmpi... no
+checking for stricmp... no
+checking for strnicmp... no
+checking for working strcoll... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether closedir returns void... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GUILE... no
+checking for GUILE... no
+checking for getloadavg... yes
+checking for pstat_getdynamic... no
+checking for kstat_open in -lkstat... no
+checking for getloadavg... yes
+checking whether getloadavg requires setgid... no
+checking whether sys_siglist is declared... yes
+checking whether _sys_siglist is declared... yes
+checking whether __sys_siglist is declared... no
+checking for sys/wait.h... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking for SA_RESTART... yes
+checking whether dlopen is declared... yes
+checking whether dlsym is declared... yes
+checking whether dlerror is declared... yes
+checking for library containing dlopen... -ldl
+checking If the linker accepts -Wl,--export-dynamic... yes
+checking for location of SCCS get command... get
+checking if system libc has GNU glob... yes
+checking if malloc debugging is wanted... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glob/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config/Makefile
+config.status: creating doc/Makefile
+config.status: creating w32/Makefile
+config.status: creating tests/config-flags.pm
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: creating build.sh
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/make-4.1'
+Making all in glob
+make[2]: Entering directory '/sources/7.9/make-4.1/glob'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/make-4.1/glob'
+Making all in config
+make[2]: Entering directory '/sources/7.9/make-4.1/config'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/make-4.1/config'
+Making all in po
+make[2]: Entering directory '/sources/7.9/make-4.1/po'
+make[2]: Leaving directory '/sources/7.9/make-4.1/po'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/make-4.1/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/make-4.1/doc'
+make[2]: Entering directory '/sources/7.9/make-4.1'
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT ar.o -MD -MP -MF .deps/ar.Tpo -c -o ar.o ar.c
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT arscan.o -MD -MP -MF .deps/arscan.Tpo -c -o arscan.o arscan.c
+mv -f .deps/arscan.Tpo .deps/arscan.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT commands.o -MD -MP -MF .deps/commands.Tpo -c -o commands.o commands.c
+mv -f .deps/ar.Tpo .deps/ar.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT default.o -MD -MP -MF .deps/default.Tpo -c -o default.o default.c
+mv -f .deps/default.Tpo .deps/default.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT dir.o -MD -MP -MF .deps/dir.Tpo -c -o dir.o dir.c
+mv -f .deps/commands.Tpo .deps/commands.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT expand.o -MD -MP -MF .deps/expand.Tpo -c -o expand.o expand.c
+mv -f .deps/dir.Tpo .deps/dir.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT file.o -MD -MP -MF .deps/file.Tpo -c -o file.o file.c
+mv -f .deps/expand.Tpo .deps/expand.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT function.o -MD -MP -MF .deps/function.Tpo -c -o function.o function.c
+mv -f .deps/file.Tpo .deps/file.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT getopt.o -MD -MP -MF .deps/getopt.Tpo -c -o getopt.o getopt.c
+mv -f .deps/getopt.Tpo .deps/getopt.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT getopt1.o -MD -MP -MF .deps/getopt1.Tpo -c -o getopt1.o getopt1.c
+mv -f .deps/getopt1.Tpo .deps/getopt1.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT guile.o -MD -MP -MF .deps/guile.Tpo -c -o guile.o guile.c
+mv -f .deps/guile.Tpo .deps/guile.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT implicit.o -MD -MP -MF .deps/implicit.Tpo -c -o implicit.o implicit.c
+mv -f .deps/function.Tpo .deps/function.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT job.o -MD -MP -MF .deps/job.Tpo -c -o job.o job.c
+mv -f .deps/implicit.Tpo .deps/implicit.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT load.o -MD -MP -MF .deps/load.Tpo -c -o load.o load.c
+mv -f .deps/load.Tpo .deps/load.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT loadapi.o -MD -MP -MF .deps/loadapi.Tpo -c -o loadapi.o loadapi.c
+mv -f .deps/loadapi.Tpo .deps/loadapi.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/job.Tpo .deps/job.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT output.o -MD -MP -MF .deps/output.Tpo -c -o output.o output.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT read.o -MD -MP -MF .deps/read.Tpo -c -o read.o read.c
+mv -f .deps/output.Tpo .deps/output.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT remake.o -MD -MP -MF .deps/remake.Tpo -c -o remake.o remake.c
+mv -f .deps/remake.Tpo .deps/remake.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT rule.o -MD -MP -MF .deps/rule.Tpo -c -o rule.o rule.c
+mv -f .deps/rule.Tpo .deps/rule.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT signame.o -MD -MP -MF .deps/signame.Tpo -c -o signame.o signame.c
+mv -f .deps/signame.Tpo .deps/signame.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT strcache.o -MD -MP -MF .deps/strcache.Tpo -c -o strcache.o strcache.c
+mv -f .deps/read.Tpo .deps/read.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT variable.o -MD -MP -MF .deps/variable.Tpo -c -o variable.o variable.c
+mv -f .deps/strcache.Tpo .deps/strcache.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT version.o -MD -MP -MF .deps/version.Tpo -c -o version.o version.c
+mv -f .deps/version.Tpo .deps/version.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT vpath.o -MD -MP -MF .deps/vpath.Tpo -c -o vpath.o vpath.c
+mv -f .deps/vpath.Tpo .deps/vpath.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT hash.o -MD -MP -MF .deps/hash.Tpo -c -o hash.o hash.c
+mv -f .deps/variable.Tpo .deps/variable.Po
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.      -g -O2 -MT remote-stub.o -MD -MP -MF .deps/remote-stub.Tpo -c -o remote-stub.o remote-stub.c
+mv -f .deps/hash.Tpo .deps/hash.Po
+mv -f .deps/remote-stub.Tpo .deps/remote-stub.Po
+gcc  -g -O2 -Wl,--export-dynamic  -o make ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o guile.o implicit.o job.o load.o loadapi.o main.o misc.o output.o read.o remake.o rule.o signame.o strcache.o variable.o version.o vpath.o hash.o remote-stub.o    -ldl 
+make[2]: Leaving directory '/sources/7.9/make-4.1'
+make[1]: Leaving directory '/sources/7.9/make-4.1'
+Making check in glob
+make[1]: Entering directory '/sources/7.9/make-4.1/glob'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/make-4.1/glob'
+Making check in config
+make[1]: Entering directory '/sources/7.9/make-4.1/config'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/make-4.1/config'
+Making check in po
+make[1]: Entering directory '/sources/7.9/make-4.1/po'
+make[1]: Leaving directory '/sources/7.9/make-4.1/po'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/make-4.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/make-4.1/doc'
+make[1]: Entering directory '/sources/7.9/make-4.1'
+make  loadavg
+make[2]: Entering directory '/sources/7.9/make-4.1'
+gcc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I.  -DTEST   -g -O2 -MT loadavg-getloadavg.o -MD -MP -MF .deps/loadavg-getloadavg.Tpo -c -o loadavg-getloadavg.o `test -f 'getloadavg.c' || echo './'`getloadavg.c
+mv -f .deps/loadavg-getloadavg.Tpo .deps/loadavg-getloadavg.Po
+gcc  -g -O2 -Wl,--export-dynamic  -o loadavg loadavg-getloadavg.o  -ldl 
+make[2]: Leaving directory '/sources/7.9/make-4.1'
+make  check-local
+make[2]: Entering directory '/sources/7.9/make-4.1'
+cd tests && perl ./run_make_tests.pl -srcdir /sources/7.9/make-4.1 -make ../make 
+The system uptime program believes the load average to be:
+uptime
+ 20:51:17 up  6:06,  0 users,  load average: 1.54, 1.80, 2.23
+The GNU load average checking code thinks:
+./loadavg
+1-minute: 1.540000  5-minute: 1.800000  15-minute: 2.230000  
+------------------------------------------------------------------------------
+          Running tests for GNU make on Linux Pikachu 3.19.0 x86_64
+                                 GNU Make 4.1
+------------------------------------------------------------------------------
+
+Finding tests...
+
+features/archives ....................................... ok     (10 passed)
+features/comments ....................................... ok     (1 passed)
+features/conditionals ................................... ok     (4 passed)
+features/default_names .................................. ok     (3 passed)
+features/double_colon ................................... ok     (11 passed)
+features/echoing ........................................ ok     (4 passed)
+features/errors ......................................... ok     (2 passed)
+features/escape ......................................... ok     (8 passed)
+features/export ......................................... ok     (12 passed)
+features/include ........................................ ok     (10 passed)
+features/jobserver ...................................... ok     (2 passed)
+features/load ........................................... ok     (5 passed)
+features/loadapi ........................................ ok     (3 passed)
+features/mult_rules ..................................... ok     (2 passed)
+features/mult_targets ................................... ok     (2 passed)
+features/order_only ..................................... ok     (10 passed)
+features/output-sync .................................... ok     (14 passed)
+features/override ....................................... ok     (4 passed)
+features/parallelism .................................... ok     (9 passed)
+features/patspecific_vars ............................... ok     (10 passed)
+features/patternrules ................................... ok     (10 passed)
+features/quoting ........................................ ok     (1 passed)
+features/recursion ...................................... ok     (2 passed)
+features/reinvoke ....................................... ok     (5 passed)
+features/rule_glob ...................................... ok     (3 passed)
+features/se_explicit .................................... ok     (10 passed)
+features/se_implicit .................................... ok     (11 passed)
+features/se_statpat ..................................... ok     (4 passed)
+features/shell_assignment ............................... ok     (4 passed)
+features/statipattrules ................................. ok     (8 passed)
+features/targetvars ..................................... ok     (25 passed)
+features/utf8 ........................................... ok     (1 passed)
+features/varnesting ..................................... ok     (2 passed)
+features/vpath .......................................... ok     (2 passed)
+features/vpath2 ......................................... ok     (1 passed)
+features/vpath3 ......................................... ok     (1 passed)
+features/vpathgpath ..................................... ok     (1 passed)
+features/vpathplus ...................................... ok     (4 passed)
+functions/abspath ....................................... ok     (1 passed)
+functions/addprefix ..................................... ok     (1 passed)
+functions/addsuffix ..................................... ok     (2 passed)
+functions/andor ......................................... ok     (2 passed)
+functions/basename ...................................... ok     (1 passed)
+functions/call .......................................... ok     (3 passed)
+functions/dir ........................................... ok     (1 passed)
+functions/error ......................................... ok     (5 passed)
+functions/eval .......................................... ok     (9 passed)
+functions/file .......................................... 
+*** Test died (functions/file): Opened read-only file!
+
+FAILED (4/4 passed)
+functions/filter-out .................................... ok     (5 passed)
+functions/findstring .................................... ok     (1 passed)
+functions/flavor ........................................ ok     (1 passed)
+functions/foreach ....................................... ok     (4 passed)
+functions/guile ......................................... N/A
+functions/if ............................................ ok     (1 passed)
+functions/join .......................................... ok     (1 passed)
+functions/notdir ........................................ ok     (1 passed)
+functions/origin ........................................ ok     (1 passed)
+functions/realpath ...................................... ok     (2 passed)
+functions/shell ......................................... ok     (2 passed)
+functions/sort .......................................... ok     (2 passed)
+functions/strip ......................................... ok     (2 passed)
+functions/substitution .................................. ok     (3 passed)
+functions/suffix ........................................ ok     (1 passed)
+functions/value ......................................... ok     (1 passed)
+functions/warning ....................................... ok     (4 passed)
+functions/wildcard ...................................... ok     (6 passed)
+functions/word .......................................... ok     (16 passed)
+misc/bs-nl .............................................. ok     (20 passed)
+misc/close_stdout ....................................... ok     (1 passed)
+misc/fopen-fail ......................................... ok     (1 passed)
+misc/general1 ........................................... ok     (1 passed)
+misc/general2 ........................................... ok     (1 passed)
+misc/general3 ........................................... ok     (10 passed)
+misc/general4 ........................................... ok     (6 passed)
+misc/utf8 ............................................... ok     (1 passed)
+options/dash-B .......................................... ok     (8 passed)
+options/dash-C .......................................... ok     (2 passed)
+options/dash-I .......................................... ok     (3 passed)
+options/dash-W .......................................... ok     (10 passed)
+options/dash-e .......................................... ok     (1 passed)
+options/dash-f .......................................... ok     (4 passed)
+options/dash-k .......................................... ok     (3 passed)
+options/dash-l .......................................... ok     (1 passed)
+options/dash-n .......................................... ok     (6 passed)
+options/dash-q .......................................... ok     (10 passed)
+options/dash-t .......................................... ok     (2 passed)
+options/eval ............................................ ok     (3 passed)
+options/general ......................................... ok     (1 passed)
+options/print-directory ................................. ok     (4 passed)
+options/symlinks ........................................ ok     (10 passed)
+options/warn-undefined-variables ........................ ok     (2 passed)
+targets/DEFAULT ......................................... ok     (1 passed)
+targets/FORCE ........................................... ok     (1 passed)
+targets/INTERMEDIATE .................................... ok     (8 passed)
+targets/ONESHELL ........................................ ok     (6 passed)
+targets/PHONY ........................................... ok     (1 passed)
+targets/POSIX ........................................... ok     (4 passed)
+targets/SECONDARY ....................................... ok     (12 passed)
+targets/SILENT .......................................... ok     (1 passed)
+targets/clean ........................................... ok     (2 passed)
+variables/CURDIR ........................................ ok     (1 passed)
+variables/DEFAULT_GOAL .................................. ok     (5 passed)
+variables/GNUMAKEFLAGS .................................. ok     (3 passed)
+variables/INCLUDE_DIRS .................................. ok     (2 passed)
+variables/LIBPATTERNS ................................... ok     (2 passed)
+variables/MAKE .......................................... ok     (1 passed)
+variables/MAKECMDGOALS .................................. ok     (3 passed)
+variables/MAKEFILES ..................................... ok     (2 passed)
+variables/MAKEFLAGS ..................................... ok     (3 passed)
+variables/MAKELEVEL ..................................... ok     (1 passed)
+variables/MAKE_RESTARTS ................................. ok     (3 passed)
+variables/MFILE_LIST .................................... ok     (1 passed)
+variables/SHELL ......................................... ok     (8 passed)
+variables/automatic ..................................... ok     (7 passed)
+variables/define ........................................ ok     (16 passed)
+variables/flavors ....................................... ok     (8 passed)
+variables/negative ...................................... ok     (4 passed)
+variables/private ....................................... ok     (10 passed)
+variables/special ....................................... ok     (5 passed)
+variables/undefine ...................................... ok     (4 passed)
+
+540 Tests in 118 Categories Complete ... No Failures :-)
+
+
+===========================================================================
+ Regression PASSED: GNU Make 4.1 (x86_64-unknown-linux-gnu) built with gcc 
+===========================================================================
+
+make[2]: Leaving directory '/sources/7.9/make-4.1'
+make[1]: Leaving directory '/sources/7.9/make-4.1'
+Making install in glob
+make[1]: Entering directory '/sources/7.9/make-4.1/glob'
+make[2]: Entering directory '/sources/7.9/make-4.1/glob'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/make-4.1/glob'
+make[1]: Leaving directory '/sources/7.9/make-4.1/glob'
+Making install in config
+make[1]: Entering directory '/sources/7.9/make-4.1/config'
+make[2]: Entering directory '/sources/7.9/make-4.1/config'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/make-4.1/config'
+make[1]: Leaving directory '/sources/7.9/make-4.1/config'
+Making install in po
+make[1]: Entering directory '/sources/7.9/make-4.1/po'
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/make.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/make.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/make.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/make.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/make.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/make.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/make.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/make.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/make.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/make.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/make.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/make.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/make.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/make.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/make.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/make.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/make.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/make.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/make.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/make.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/make.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/make.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/make.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/make.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/make.mo
+if test "make" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/make-4.1/po'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/make-4.1/doc'
+make[2]: Entering directory '/sources/7.9/make-4.1/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./make.info ./make.info-1 ./make.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/make.info'
+make[2]: Leaving directory '/sources/7.9/make-4.1/doc'
+make[1]: Leaving directory '/sources/7.9/make-4.1/doc'
+make[1]: Entering directory '/sources/7.9/make-4.1'
+make[2]: Entering directory '/sources/7.9/make-4.1'
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gnumake.h '/usr/include'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c -m 644 make.1 '/usr/share/man/man1'
+  /usr/bin/install -c make '/usr/bin'
+make[2]: Leaving directory '/sources/7.9/make-4.1'
+make[1]: Leaving directory '/sources/7.9/make-4.1'

@@ -1,0 +1,5 @@
+sed -e '/using python/ s@;@: /usr/include/python${PYTHON_VERSION/3*/${PYTHON_VERSION}m} ;@' \
+    -i bootstrap.sh
+
+./bootstrap.sh --prefix=/usr &&
+./b2 stage threading=multi link=shared

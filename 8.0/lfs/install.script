@@ -1,0 +1,59 @@
+# set up package variables
+
+export PKG=$(basename $PWD)
+PTH=$(dirname $PWD)
+ARC=$(basename $(find /sources/"$LFSVS"/ -maxdepth 1 -type f -name "$PKG.*"))
+
+if [ -a settings.script ]
+  then
+    source settings.script
+  fi
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# clean up leftover build-folders
+
+if [ -a "$PKG" ]
+  then
+    rm -rf "$PKG"
+  fi
+
+# unpack package
+
+mkdir "$PKG"
+tar -xf "$ARC" --directory "$PKG" --strip-components=1
+cd "$PKG"
+
+# configure and build
+
+$PTH/$PKG/build.script
+
+# run tests
+if [ -a "$PTH/$PKG/check.script" ]
+  then
+    $PTH/$PKG/check.script | tee "$PTH/$PKG/check.log"
+  fi
+
+# deploy
+
+if [ -a "$PTH/$PKG/porg.script" ]
+  then
+    porg -lp+ "$PKG" "$PTH/$PKG/porg.script" # prefer porg.script
+  else
+    $PTH/$PKG/deploy.script
+  fi
+
+# run "after install" tests
+if [ -a "$PTH/$PKG/check_b.script" ]
+  then
+    $PTH/$PKG/check_b.script | tee "$PTH/$PKG/check_b.log"
+  fi
+
+# clean up
+
+if [ $PKG != "" ]
+  then
+    rm -rf "/sources/$LFSVS/$PKG"
+  fi

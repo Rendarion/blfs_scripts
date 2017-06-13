@@ -1,0 +1,1 @@
+echo 'LSB_VERSION="1.4"' >> /etc/lsb-release

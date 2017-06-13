@@ -1,0 +1,11 @@
+URL=(
+"http://www.surina.net/soundtouch/soundtouch-1.9.2.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

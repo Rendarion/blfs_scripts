@@ -1,0 +1,1341 @@
+patching file data/keymaps/i386/dvorak/dvorak-l.map
+patching file data/keymaps/i386/dvorak/dvorak-r.map
+patching file data/keymaps/i386/fgGIod/tr_f-latin5.map
+patching file data/keymaps/i386/qwerty/lt.l4.map
+patching file data/keymaps/i386/qwerty/lt.map
+patching file data/keymaps/i386/qwerty/no-latin1.map
+patching file data/keymaps/i386/qwerty/ru1.map
+patching file data/keymaps/i386/qwerty/ru2.map
+patching file data/keymaps/i386/qwerty/ru-cp1251.map
+patching file data/keymaps/i386/qwerty/ru-ms.map
+patching file data/keymaps/i386/qwerty/ru_win.map
+patching file data/keymaps/i386/qwerty/se-ir209.map
+patching file data/keymaps/i386/qwerty/se-lat6.map
+patching file data/keymaps/i386/qwerty/tr_q-latin5.map
+patching file data/keymaps/i386/qwerty/ua.map
+patching file data/keymaps/i386/qwerty/ua-utf.map
+patching file data/keymaps/i386/qwerty/ua-utf-ws.map
+patching file data/keymaps/i386/qwerty/ua-ws.map
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for CHECK... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for a sed that does not truncate output... /bin/sed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for memory.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for size_t... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for uid_t in sys/types.h... yes
+checking for unistd.h... (cached) yes
+checking for working chown... yes
+checking whether closedir returns void... no
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether gcc needs -traditional... no
+checking return type of signal handlers... void
+checking whether lstat correctly handles trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for alarm... yes
+checking for memset... yes
+checking for setlocale... yes
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for setpgrp... yes
+checking for malloc... yes
+checking for realloc... yes
+checking if gcc supports -Wall flag... yes
+checking if gcc supports -Wextra flag... yes
+checking if gcc supports -Wmissing-noreturn flag... yes
+checking if gcc supports -Wdisabled-optimization flag... yes
+checking if gcc supports -Wcast-align flag... yes
+checking if gcc supports -Wshadow flag... yes
+checking if gcc supports -Wmissing-format-attribute flag... yes
+checking if gcc supports -Wmissing-prototypes flag... yes
+checking if gcc supports -Wstrict-prototypes flag... yes
+checking if gcc supports -Wmissing-declarations flag... yes
+checking for doxygen... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating data/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/man/Makefile
+config.status: creating docs/man/man1/Makefile
+config.status: creating docs/man/man1/dumpkeys.1
+config.status: creating docs/man/man1/loadkeys.1
+config.status: creating docs/man/man1misc/Makefile
+config.status: creating docs/man/man5/Makefile
+config.status: creating docs/man/man8/Makefile
+config.status: creating docs/man/man8/loadunimap.8
+config.status: creating docs/man/man8/mapscrn.8
+config.status: creating docs/man/man8/setfont.8
+config.status: creating docs/man/man8misc/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/libkeymap/Makefile
+config.status: creating po/Makefile.in
+config.status: WARNING:  'po/Makefile.in.in' seems to ignore the --datarootdir setting
+config.status: creating src/Makefile
+config.status: creating src/libkeymap/Makefile
+config.status: creating src/vlock/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+	kbd 2.0.3
+	======
+
+	prefix:			/usr
+	libdir:			${exec_prefix}/lib
+	bindir:			${exec_prefix}/bin
+	datadir:		${datarootdir}
+
+	compiler:		gcc
+	cflags:			-g -O2 -Wall -Wextra -Wmissing-noreturn -Wdisabled-optimization -Wcast-align -Wshadow -Wmissing-format-attribute -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations
+
+	{get,set}keycodes:	yes
+	resizecons:		no
+	optional progs:		no
+	vlock:			no
+	libkeymap:		no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3'
+Making all in src
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+Making all in vlock
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src/vlock'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src/vlock'
+Making all in libkeymap
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make  all-am
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+  CC     array.lo
+  CC     findfile.lo
+  CC     common.lo
+common.c: In function 'lk_init':
+common.c:152:21: warning: argument 2 of 'lk_set_log_fn' might be a candidate for a format attribute [-Wsuggest-attribute=format]
+  lk_set_log_fn(ctx, log_file, stderr);
+                     ^
+  CC     kernel.lo
+  CC     dump.lo
+  CC     kmap.lo
+  CC     diacr.lo
+  CC     func.lo
+  CC     summary.lo
+  CC     loadkeys.lo
+  CC     parser.lo
+  CC     analyze.lo
+  CC     modifiers.lo
+  CC     ksyms.lo
+  CCLD   libkeymap.la
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+  CC     getfd.o
+  CC     xmalloc.o
+  CC     kbd_error.o
+  CC     psffontop.o
+  CC     utf8.o
+  CC     kdmapop.o
+  CC     loadunimap.o
+  CC     kdfontop.o
+  CC     mapscrn-mapscrn.o
+  CC     loadunimap-loadunimap.o
+  CC     dumpkeys.o
+  CC     loadkeys.o
+  CC     showkey.o
+  CC     setfont.o
+  CC     mapscrn.o
+  CC     showconsolefont.o
+  CC     setleds.o
+  CC     setmetamode.o
+  CC     kbd_mode.o
+  CC     psfxtable.o
+  CC     fgconsole.o
+  CC     kbdrate.o
+  CC     chvt.o
+  CC     deallocvt.o
+  CC     openvt.o
+  CC     kbdinfo.o
+openvt.c: In function 'main':
+openvt.c:211:5: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+     (void)setuid(getuid());
+     ^
+openvt.c:353:4: warning: ignoring return value of 'setuid', declared with attribute warn_unused_result [-Wunused-result]
+    setuid(uid);
+    ^
+  CC     setvtrgb.o
+  CC     getkeycodes.o
+  CC     setkeycodes.o
+  AR     libcommon.a
+  AR     libfont.a
+  CCLD   mapscrn
+  CCLD   loadunimap
+  CCLD   dumpkeys
+  CCLD   loadkeys
+  CCLD   showkey
+  CCLD   setfont
+  CCLD   showconsolefont
+  CCLD   setleds
+  CCLD   setmetamode
+  CCLD   kbd_mode
+  CCLD   psfxtable
+  CCLD   fgconsole
+  CCLD   kbdrate
+  CCLD   chvt
+  CCLD   deallocvt
+  CCLD   openvt
+  CCLD   kbdinfo
+  CCLD   setvtrgb
+  CCLD   getkeycodes
+  CCLD   setkeycodes
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+Making all in data
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/data'
+Making all in po
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/po'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+  CC     libkeymap-dumpkeys.o
+  CC     libkeymap-mktable.o
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-mktable.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-mktable.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-dumpkeys.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-dumpkeys.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+libkeymap-mktable.c: In function 'main':
+libkeymap-mktable.c:6:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^
+  CC     libkeymap-bkeymap.o
+  CC     libkeymap-showmaps.o
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-bkeymap.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-bkeymap.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-showmaps.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-showmaps.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+libkeymap-bkeymap.c: In function 'main':
+libkeymap-bkeymap.c:6:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^
+libkeymap-showmaps.c: In function 'main':
+libkeymap-showmaps.c:22:16: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for (i = 0; i < ctx->keymap->total; i++) {
+                ^
+libkeymap-showmaps.c:8:14: warning: unused parameter 'argc' [-Wunused-parameter]
+ int main(int argc, char **argv)
+              ^
+  CC     libkeymap-init.o
+  CC     libkeymap-kmap.o
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-init.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-init.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-init.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-init.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-kmap.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-init.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-kmap.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-init.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+  CC     libkeymap-keys.o
+  CC     libkeymap-parse.o
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-keys.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-keys.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-keys.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-keys.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-keys.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-keys.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-parse.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-parse.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-parse.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-parse.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-parse.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-parse.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+  CC     libkeymap-charset.o
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-charset.c:4:
+/tools/include/linux/wait.h:4:0: warning: "WNOHANG" redefined
+ #define WNOHANG  0x00000001
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:25:0: note: this is the location of the previous definition
+ #define WNOHANG  1 /* Don't block waiting.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-charset.c:4:
+/tools/include/linux/wait.h:5:0: warning: "WUNTRACED" redefined
+ #define WUNTRACED 0x00000002
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:26:0: note: this is the location of the previous definition
+ #define WUNTRACED 2 /* Report status of stopped children.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-charset.c:4:
+/tools/include/linux/wait.h:6:0: warning: "WSTOPPED" redefined
+ #define WSTOPPED WUNTRACED
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:29:0: note: this is the location of the previous definition
+ #define WSTOPPED 2 /* Report stopped child (same as WUNTRACED). */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-charset.c:4:
+/tools/include/linux/wait.h:7:0: warning: "WEXITED" redefined
+ #define WEXITED  0x00000004
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:30:0: note: this is the location of the previous definition
+ #define WEXITED  4 /* Report dead child.  */
+ ^
+In file included from /tools/include/linux/keyboard.h:4:0,
+                 from ./../src/libkeymap/keymap/context.h:10,
+                 from ./../src/libkeymap/keymap.h:4,
+                 from libkeymap-charset.c:4:
+/tools/include/linux/wait.h:8:0: warning: "WCONTINUED" redefined
+ #define WCONTINUED 0x00000008
+ ^
+In file included from /tools/include/stdlib.h:41:0,
+                 from libkeymap-charset.c:2:
+/tools/include/bits/waitflags.h:31:0: note: this is the location of the previous definition
+ #define WCONTINUED 8 /* Report continued child.  */
+ ^
+libkeymap-charset.c: In function 'test0':
+libkeymap-charset.c:22:4: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  s = lk_get_charset(ctx);
+    ^
+libkeymap-charset.c: In function 'test1':
+libkeymap-charset.c:45:4: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  s = lk_get_charset(ctx);
+    ^
+  CCLD   libkeymap-dumpkeys
+  CCLD   libkeymap-mktable
+  CCLD   libkeymap-bkeymap
+  CCLD   libkeymap-showmaps
+  CCLD   libkeymap-init
+  CCLD   libkeymap-kmap
+  CCLD   libkeymap-keys
+  CCLD   libkeymap-parse
+  CCLD   libkeymap-charset
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+Making all in man
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making all in man1
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+Making all in man5
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+Making all in man8
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3'
+Making check in src
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+Making check in vlock
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src/vlock'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src/vlock'
+Making check in libkeymap
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make  check-am
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+Making check in data
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/data'
+Making check in po
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/po'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+make  libkeymap-init libkeymap-kmap libkeymap-keys libkeymap-parse libkeymap-charset dumpkeys-fulltable alt-is-meta
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+make[2]: 'libkeymap-init' is up to date.
+make[2]: 'libkeymap-kmap' is up to date.
+make[2]: 'libkeymap-keys' is up to date.
+make[2]: 'libkeymap-parse' is up to date.
+make[2]: 'libkeymap-charset' is up to date.
+sed \
+	-e 's,2.0.3,2.0.3,g' \
+	-e 's,@DATADIR@,.,g' \
+	-e 's,@BUILDDIR@,.,g' \
+	<dumpkeys-fulltable.in >./dumpkeys-fulltable
+sed \
+	-e 's,2.0.3,2.0.3,g' \
+	-e 's,@DATADIR@,.,g' \
+	-e 's,@BUILDDIR@,.,g' \
+	<alt-is-meta.in >./alt-is-meta
+touch -r alt-is-meta.in ./alt-is-meta
+touch -r dumpkeys-fulltable.in ./dumpkeys-fulltable
+chmod 755 ./alt-is-meta
+chmod 755 ./dumpkeys-fulltable
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+Running suite(s): libkeymap
+100%: Checks: 3, Failures: 0, Errors: 0
+PASS: libkeymap-init
+Running suite(s): libkeymap
+100%: Checks: 2, Failures: 0, Errors: 0
+PASS: libkeymap-kmap
+Running suite(s): libkeymap
+100%: Checks: 5, Failures: 0, Errors: 0
+PASS: libkeymap-keys
+Running suite(s): libkeymap
+100%: Checks: 7, Failures: 0, Errors: 0
+PASS: libkeymap-parse
+Running suite(s): libkeymap
+100%: Checks: 2, Failures: 0, Errors: 0
+PASS: libkeymap-charset
+PASS: dumpkeys-fulltable
+PASS: alt-is-meta
+==================
+All 7 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+Making check in man
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making check in man1
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+Making check in man5
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+Making check in man8
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3'
+Making install in src
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+Making install in vlock
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src/vlock'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src/vlock'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src/vlock'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src/vlock'
+Making install in libkeymap
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make  install-am
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src/libkeymap'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/usr/bin'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c unicode_start unicode_stop '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c mapscrn loadunimap dumpkeys loadkeys showkey setfont showconsolefont setleds setmetamode kbd_mode psfxtable fgconsole kbdrate chvt deallocvt openvt kbdinfo setvtrgb getkeycodes setkeycodes '/usr/bin'
+libtool: install: /usr/bin/install -c mapscrn /usr/bin/mapscrn
+libtool: install: /usr/bin/install -c loadunimap /usr/bin/loadunimap
+libtool: install: /usr/bin/install -c dumpkeys /usr/bin/dumpkeys
+libtool: install: /usr/bin/install -c loadkeys /usr/bin/loadkeys
+libtool: install: /usr/bin/install -c showkey /usr/bin/showkey
+libtool: install: /usr/bin/install -c setfont /usr/bin/setfont
+libtool: install: /usr/bin/install -c showconsolefont /usr/bin/showconsolefont
+libtool: install: /usr/bin/install -c setleds /usr/bin/setleds
+libtool: install: /usr/bin/install -c setmetamode /usr/bin/setmetamode
+libtool: install: /usr/bin/install -c kbd_mode /usr/bin/kbd_mode
+libtool: install: /usr/bin/install -c psfxtable /usr/bin/psfxtable
+libtool: install: /usr/bin/install -c fgconsole /usr/bin/fgconsole
+libtool: install: /usr/bin/install -c kbdrate /usr/bin/kbdrate
+libtool: install: /usr/bin/install -c chvt /usr/bin/chvt
+libtool: install: /usr/bin/install -c deallocvt /usr/bin/deallocvt
+libtool: install: /usr/bin/install -c openvt /usr/bin/openvt
+libtool: install: /usr/bin/install -c kbdinfo /usr/bin/kbdinfo
+libtool: install: /usr/bin/install -c setvtrgb /usr/bin/setvtrgb
+libtool: install: /usr/bin/install -c getkeycodes /usr/bin/getkeycodes
+libtool: install: /usr/bin/install -c setkeycodes /usr/bin/setkeycodes
+make  install-exec-hook
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/src'
+for i in psfaddtable psfgettable psfstriptable; do \
+	rm -f /usr/bin/$i; \
+	ln -s psfxtable /usr/bin/$i || exit $?; \
+done
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/src'
+Making install in data
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/data'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/data'
+cp -r ./keymaps keymaps_Z
+cp -r ./consolefonts consolefonts_Z
+cp -r ./partialfonts partialfonts_Z
+chmod -R u+w consolefonts_Z partialfonts_Z
+chmod -R u+w keymaps_Z
+cd consolefonts_Z && gzip -f -n -9 * && gunzip ERRORS* README*
+cd keymaps_Z && gzip -f -n -9 */*.map */*/*.map
+cd partialfonts_Z && gzip -f -n -9 *
+install -d -m 755 /usr/share
+install -d -m 755 /usr/share/consolefonts
+install -m 644 consolefonts_Z/* /usr/share/consolefonts
+install -d -m 755 /usr/share/consolefonts/partialfonts
+install -m 644 partialfonts_Z/* /usr/share/consolefonts/partialfonts
+install -d -m 755 /usr/share/consoletrans
+install -m 644 ./consoletrans/* /usr/share/consoletrans
+install -d -m 755 /usr/share/unimaps
+install -m 644 ./unimaps/* /usr/share/unimaps
+install -d -m 755 /usr/share/keymaps
+install -d -m 755 /usr/share/keymaps/i386
+install -d -m 755 /usr/share/keymaps/mac
+for i in include sun amiga atari i386/azerty i386/bepo i386/dvorak i386/fgGIod i386/qwerty i386/qwertz i386/include i386/olpc i386/colemak mac/include mac/all; do \
+	install -d -m 755 /usr/share/keymaps/$i ;\
+	install -m 644 keymaps_Z/$i/* /usr/share/keymaps/$i ;\
+done
+rm -f /usr/share/keymaps/ppc; ln -s mac /usr/share/keymaps/ppc
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/data'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/data'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/data'
+Making install in po
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/po'
+/bin/sh ../config/mkinstalldirs /usr/share
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/kbd.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/kbd.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/kbd.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/kbd.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/kbd.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/kbd.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/kbd.mo
+mkdir -p -- /usr/share/locale/gr/LC_MESSAGES
+installing gr.gmo as /usr/share/locale/gr/LC_MESSAGES/kbd.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/kbd.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/kbd.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/kbd.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/kbd.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/kbd.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/kbd.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/kbd.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/kbd.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/kbd.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/kbd.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/kbd.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/kbd.mo
+if test "kbd" = "gettext-tools"; then \
+  /bin/sh ../config/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/po'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/tests'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+Making install in man
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making install in man1
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 chvt.1 deallocvt.1 fgconsole.1 kbd_mode.1 openvt.1 psfaddtable.1 psfgettable.1 psfstriptable.1 psfxtable.1 setleds.1 setmetamode.1 showkey.1 unicode_start.1 unicode_stop.1 dumpkeys.1 loadkeys.1 '/usr/share/man/man1'
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+cd /usr/share/man/man1 && \
+for f in dumpkeys.1 loadkeys.1; do \
+	/bin/sed -e "s#@DATADIR\@#/usr/share#g" "$f" > "$f.new"; \
+	mv -f -- "$f.new" "$f"; \
+done
+make[5]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man1'
+Making install in man5
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 keymaps.5 '/usr/share/man/man5'
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man5'
+Making install in man8
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 getkeycodes.8 kbdrate.8 setkeycodes.8 showconsolefont.8 setvtrgb.8 loadunimap.8 mapscrn.8 setfont.8 '/usr/share/man/man8'
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+cd /usr/share/man/man8 && \
+for f in loadunimap.8 mapscrn.8 setfont.8; do \
+	/bin/sed -e "s#@DATADIR\@#/usr/share#g" "$f" > "$f.new"; \
+	mv -f -- "$f.new" "$f"; \
+done
+make[5]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man/man8'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/man'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[4]: Entering directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs/reference'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+make[3]: Entering directory '/sources/7.9/kbd-2.0.3/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3/docs'
+make[1]: Entering directory '/sources/7.9/kbd-2.0.3'
+make[2]: Entering directory '/sources/7.9/kbd-2.0.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/kbd-2.0.3'
+make[1]: Leaving directory '/sources/7.9/kbd-2.0.3'
+mkdir: created directory '/usr/share/doc/kbd-2.0.3'
+'docs/doc/A20' -> '/usr/share/doc/kbd-2.0.3/A20'
+'docs/doc/A20/xfix-286mode2' -> '/usr/share/doc/kbd-2.0.3/A20/xfix-286mode2'
+'docs/doc/A20/A20.html' -> '/usr/share/doc/kbd-2.0.3/A20/A20.html'
+'docs/doc/README.Crosser' -> '/usr/share/doc/kbd-2.0.3/README.Crosser'
+'docs/doc/TODO' -> '/usr/share/doc/kbd-2.0.3/TODO'
+'docs/doc/as400.kbd' -> '/usr/share/doc/kbd-2.0.3/as400.kbd'
+'docs/doc/cirrus.videomodes' -> '/usr/share/doc/kbd-2.0.3/cirrus.videomodes'
+'docs/doc/console.docs' -> '/usr/share/doc/kbd-2.0.3/console.docs'
+'docs/doc/cp1252.txt' -> '/usr/share/doc/kbd-2.0.3/cp1252.txt'
+'docs/doc/dvorak' -> '/usr/share/doc/kbd-2.0.3/dvorak'
+'docs/doc/dvorak/dvorak.xmodmap' -> '/usr/share/doc/kbd-2.0.3/dvorak/dvorak.xmodmap'
+'docs/doc/dvorak/dvorak.diffs' -> '/usr/share/doc/kbd-2.0.3/dvorak/dvorak.diffs'
+'docs/doc/dvorak/ANSI-dvorak.gif' -> '/usr/share/doc/kbd-2.0.3/dvorak/ANSI-dvorak.gif'
+'docs/doc/dvorak/dvorak.txt' -> '/usr/share/doc/kbd-2.0.3/dvorak/dvorak.txt'
+'docs/doc/dvorak/dvorak-r.xmodmap' -> '/usr/share/doc/kbd-2.0.3/dvorak/dvorak-r.xmodmap'
+'docs/doc/dvorak/dvorak-l.xmodmap' -> '/usr/share/doc/kbd-2.0.3/dvorak/dvorak-l.xmodmap'
+'docs/doc/font-formats' -> '/usr/share/doc/kbd-2.0.3/font-formats'
+'docs/doc/font-formats/font-formats-3.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats-3.html'
+'docs/doc/font-formats/font-formats-1.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats-1.html'
+'docs/doc/font-formats/font-formats-5.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats-5.html'
+'docs/doc/font-formats/font-formats-2.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats-2.html'
+'docs/doc/font-formats/font-formats.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats.html'
+'docs/doc/font-formats/font-formats.sgml' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats.sgml'
+'docs/doc/font-formats/font-formats-4.html' -> '/usr/share/doc/kbd-2.0.3/font-formats/font-formats-4.html'
+'docs/doc/iso8859-1.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-1.txt'
+'docs/doc/iso8859-10.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-10.txt'
+'docs/doc/iso8859-11.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-11.txt'
+'docs/doc/iso8859-13.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-13.txt'
+'docs/doc/iso8859-14.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-14.txt'
+'docs/doc/iso8859-15.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-15.txt'
+'docs/doc/iso8859-2.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-2.txt'
+'docs/doc/iso8859-3.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-3.txt'
+'docs/doc/iso8859-4.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-4.txt'
+'docs/doc/iso8859-5.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-5.txt'
+'docs/doc/iso8859-6.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-6.txt'
+'docs/doc/iso8859-7.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-7.txt'
+'docs/doc/iso8859-8.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-8.txt'
+'docs/doc/iso8859-9.txt' -> '/usr/share/doc/kbd-2.0.3/iso8859-9.txt'
+'docs/doc/iso8859.info' -> '/usr/share/doc/kbd-2.0.3/iso8859.info'
+'docs/doc/kbd.FAQ-1.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-1.html'
+'docs/doc/kbd.FAQ-10.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-10.html'
+'docs/doc/kbd.FAQ-11.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-11.html'
+'docs/doc/kbd.FAQ-12.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-12.html'
+'docs/doc/kbd.FAQ-13.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-13.html'
+'docs/doc/kbd.FAQ-14.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-14.html'
+'docs/doc/kbd.FAQ-15.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-15.html'
+'docs/doc/kbd.FAQ-16.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-16.html'
+'docs/doc/kbd.FAQ-17.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-17.html'
+'docs/doc/kbd.FAQ-18.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-18.html'
+'docs/doc/kbd.FAQ-19.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-19.html'
+'docs/doc/kbd.FAQ-2.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-2.html'
+'docs/doc/kbd.FAQ-20.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-20.html'
+'docs/doc/kbd.FAQ-21.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-21.html'
+'docs/doc/kbd.FAQ-22.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-22.html'
+'docs/doc/kbd.FAQ-23.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-23.html'
+'docs/doc/kbd.FAQ-3.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-3.html'
+'docs/doc/kbd.FAQ-4.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-4.html'
+'docs/doc/kbd.FAQ-5.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-5.html'
+'docs/doc/kbd.FAQ-6.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-6.html'
+'docs/doc/kbd.FAQ-7.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-7.html'
+'docs/doc/kbd.FAQ-8.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-8.html'
+'docs/doc/kbd.FAQ-9.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ-9.html'
+'docs/doc/kbd.FAQ.html' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ.html'
+'docs/doc/kbd.FAQ.sgml' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ.sgml'
+'docs/doc/kbd.FAQ.txt' -> '/usr/share/doc/kbd-2.0.3/kbd.FAQ.txt'
+'docs/doc/keysyms.h.info' -> '/usr/share/doc/kbd-2.0.3/keysyms.h.info'
+'docs/doc/n474.doc' -> '/usr/share/doc/kbd-2.0.3/n474.doc'
+'docs/doc/repeat' -> '/usr/share/doc/kbd-2.0.3/repeat'
+'docs/doc/repeat/set_kbd_repeat-1' -> '/usr/share/doc/kbd-2.0.3/repeat/set_kbd_repeat-1'
+'docs/doc/repeat/set_kbd_repeat-2' -> '/usr/share/doc/kbd-2.0.3/repeat/set_kbd_repeat-2'
+'docs/doc/scancodes' -> '/usr/share/doc/kbd-2.0.3/scancodes'
+'docs/doc/scancodes/README' -> '/usr/share/doc/kbd-2.0.3/scancodes/README'
+'docs/doc/utf' -> '/usr/share/doc/kbd-2.0.3/utf'
+'docs/doc/utf/utfdemo' -> '/usr/share/doc/kbd-2.0.3/utf/utfdemo'
+'docs/doc/utf/utflist' -> '/usr/share/doc/kbd-2.0.3/utf/utflist'
+'docs/doc/utf/'$'\342\231\252\342\231\254' -> '/usr/share/doc/kbd-2.0.3/utf/'$'\342\231\252\342\231\254'
+'docs/doc/utf/ethiopic' -> '/usr/share/doc/kbd-2.0.3/utf/ethiopic'
+'docs/doc/utf/README' -> '/usr/share/doc/kbd-2.0.3/utf/README'

@@ -1,0 +1,24 @@
+make[1]: Entering directory '/sources/7.9/XML-Parser-2.44/Expat'
+Running Mkbootstrap for XML::Parser::Expat ()
+chmod 644 "Expat.bs"
+Manifying 1 pod document
+make[1]: Leaving directory '/sources/7.9/XML-Parser-2.44/Expat'
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/astress.t ........... ok
+t/cdata.t ............. ok
+t/decl.t .............. ok
+t/defaulted.t ......... ok
+t/encoding.t .......... ok
+t/external_ent.t ...... ok
+t/file.t .............. ok
+t/file_open_scalar.t .. ok
+t/finish.t ............ ok
+t/namespaces.t ........ ok
+t/parament.t .......... ok
+t/partial.t ........... ok
+t/skip.t .............. ok
+t/stream.t ............ ok
+t/styles.t ............ ok
+All tests successful.
+Files=15, Tests=141,  0 wallclock secs ( 0.06 usr  0.01 sys +  0.50 cusr  0.04 csys =  0.61 CPU)
+Result: PASS

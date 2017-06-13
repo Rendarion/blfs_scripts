@@ -1,0 +1,285 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+checking for an ANSI C-conforming const... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for size_t... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for PACKAGE... yes
+checking for TESTS... yes
+checking for gobject-introspection... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for xmlto... no
+checking whether to build DocBook documentation... yes
+checking for more warnings... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating libnotify.pc
+config.status: creating libnotify/Makefile
+config.status: creating libnotify/notify-features.h
+config.status: creating tests/Makefile
+config.status: creating tools/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+                    libnotify 0.7.6
+                    ========================
+
+	prefix:                   /usr
+	exec_prefix:              ${prefix}
+        bindir:                   ${exec_prefix}/bin
+        datadir:                  ${datarootdir}
+	source code location:	  .
+	cflags:		          -g -O2
+
+        Build docs:               no
+
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6'
+Making all in libnotify
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/libnotify'
+  GEN      s-enum-types-h
+  GEN      s-enum-types-c
+make  all-am
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/libnotify'
+  CC       notify.lo
+  CC       notification.lo
+  CC       notify-enum-types.lo
+  CC       notify-marshal.lo
+  CCLD     libnotify.la
+  GISCAN   Notify-0.7.gir
+  GICOMP   Notify-0.7.gir
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/libnotify'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/libnotify'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/docs'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/tools'
+  CC       notify-send.o
+  CCLD     notify-send
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/tools'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/tests'
+  CC       test-replace.o
+  CCLD     test-replace
+  CC       test-replace-widget.o
+  CCLD     test-replace-widget
+  CC       test-server-info.o
+  CCLD     test-server-info
+  CC       test-default-action.o
+  CCLD     test-default-action
+  CC       test-multi-actions.o
+  CCLD     test-multi-actions
+  CC       test-action-icons.o
+  CCLD     test-action-icons
+  CC       test-image.o
+  CCLD     test-image
+  CC       test-basic.o
+  CCLD     test-basic
+  CC       test-error.o
+  CCLD     test-error
+  CC       test-markup.o
+  CCLD     test-markup
+  CC       test-persistence.o
+  CCLD     test-persistence
+  CC       test-removal.o
+  CCLD     test-removal
+  CC       test-resident.o
+  CCLD     test-resident
+  CC       test-rtl.o
+  CCLD     test-rtl
+  CC       test-size-changes.o
+  CCLD     test-size-changes
+  CC       test-transient.o
+  CCLD     test-transient
+  CC       test-urgency.o
+  CCLD     test-urgency
+  CC       test-xy.o
+  CCLD     test-xy
+  CC       test-xy-actions.o
+  CCLD     test-xy-actions
+  CC       test-xy-stress.o
+  CCLD     test-xy-stress
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/tests'
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6'
+Making install in libnotify
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6/libnotify'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/libnotify'
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/libnotify'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libnotify.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libnotify.so.4.0.0 /usr/lib/libnotify.so.4.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libnotify.so.4.0.0 libnotify.so.4 || { rm -f libnotify.so.4 && ln -s libnotify.so.4.0.0 libnotify.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libnotify.so.4.0.0 libnotify.so || { rm -f libnotify.so && ln -s libnotify.so.4.0.0 libnotify.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnotify.lai /usr/lib/libnotify.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Notify-0.7.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/libnotify'
+ /usr/bin/install -c -m 644 notify.h notify-features.h notification.h notify-enum-types.h '/usr/include/libnotify'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Notify-0.7.typelib '/usr/lib/girepository-1.0'
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/libnotify'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/libnotify'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6/libnotify'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6/docs'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libnotify.devhelp2
+ /usr/bin/install -c -m 644 ./html/libnotify-notify.html
+ /usr/bin/install -c -m 644 ./html/NotifyNotification.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs/reference'
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/docs'
+make[3]: Entering directory '/sources/7.9/libnotify-0.7.6/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6/docs'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6/tools'
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/tools'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c notify-send '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/notify-send /usr/bin/notify-send
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/tools'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6/tools'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6/tests'
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6/tests'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6/tests'
+make[1]: Entering directory '/sources/7.9/libnotify-0.7.6'
+make[2]: Entering directory '/sources/7.9/libnotify-0.7.6'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnotify.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libnotify-0.7.6'
+make[1]: Leaving directory '/sources/7.9/libnotify-0.7.6'

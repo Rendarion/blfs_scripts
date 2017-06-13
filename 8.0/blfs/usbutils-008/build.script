@@ -1,0 +1,4 @@
+sed -i '/^usbids/ s:usb.ids:hwdata/&:' lsusb.py &&
+
+./configure --prefix=/usr --datadir=/usr/share/hwdata &&
+make

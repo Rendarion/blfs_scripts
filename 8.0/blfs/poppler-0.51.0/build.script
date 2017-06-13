@@ -1,0 +1,8 @@
+./configure --prefix=/usr               \
+            --sysconfdir=/etc           \
+            --disable-static            \
+            --enable-build-type=release \
+            --enable-cmyk               \
+            --enable-xpdf-headers       \
+            --with-testdatadir=$PWD/testfiles &&
+make

@@ -1,0 +1,11 @@
+whoami
+
+echo "$(getent passwd | awk -F: '$3 == 1000 {print $1}')"
+
+su -l "$(getent passwd | awk -F: '$3 == 1000 {print $1}')" << EOF
+echo "In"
+whoami
+EOF
+
+echo "Out"
+whoami

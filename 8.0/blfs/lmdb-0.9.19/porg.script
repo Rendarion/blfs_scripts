@@ -1,0 +1,3 @@
+cd libraries/liblmdb
+
+make prefix=/usr install

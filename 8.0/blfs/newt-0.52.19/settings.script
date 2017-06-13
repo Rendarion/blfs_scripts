@@ -1,0 +1,14 @@
+URL=(
+"http://fedorahosted.org/releases/n/e/newt/newt-0.52.19.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"popt-1.16"
+"slang-2.3.1"
+"gpm-1.20.7"
+)

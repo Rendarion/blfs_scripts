@@ -1,0 +1,124 @@
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/src'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/src'
+Making all in csslint
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/csslint'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/csslint'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in test-inputs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+Making all in test-output-refs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in build
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+if test -x ./tests/testctl ; then ./tests/testctl cleanup ; ./tests/testctl run ; fi 
+REMAINING_ARGS=cleanup
+REMAINING_ARGS=run
+cur_arg=
+run test: test-prop-ident.sh
+run test: test-several-media.sh
+run test: test-unknown-at-rule2.sh
+run test: test-unknown-at-rule.sh
+run test: test0
+run test: test1
+run test: test2
+run test: test3
+run test: test4
+run test: test5
+run test: test6
+creating tmp directory tests/test-outputs ...
+done
+executing  test-prop-ident.sh  > tests/test-outputs/test-prop-ident.sh.out ...
+done
+executing  test-several-media.sh  > tests/test-outputs/test-several-media.sh.out ...
+done
+executing  test-unknown-at-rule2.sh  > tests/test-outputs/test-unknown-at-rule2.sh.out ...
+done
+executing  test-unknown-at-rule.sh  > tests/test-outputs/test-unknown-at-rule.sh.out ...
+done
+executing  test0 ./tests/test-inputs/test0.1.css > tests/test-outputs/test0.1.css.out ...
+done
+executing  test1 ./tests/test-inputs/test1.css > tests/test-outputs/test1.css.out ...
+done
+executing  test2 ./tests/test-inputs/test2.1.css > tests/test-outputs/test2.1.css.out ...
+done
+executing  test2 ./tests/test-inputs/test2.2.css > tests/test-outputs/test2.2.css.out ...
+done
+executing  test2 ./tests/test-inputs/test2.css > tests/test-outputs/test2.css.out ...
+done
+executing  test3 ./tests/test-inputs/test3.1.css > tests/test-outputs/test3.1.css.out ...
+done
+executing  test3 ./tests/test-inputs/test3.2.css > tests/test-outputs/test3.2.css.out ...
+done
+executing  test3 ./tests/test-inputs/test3.css > tests/test-outputs/test3.css.out ...
+done
+executing  test4 ./tests/test-inputs/test4.1.css > tests/test-outputs/test4.1.css.out ...
+done
+executing  test4 ./tests/test-inputs/test4.2.css > tests/test-outputs/test4.2.css.out ...
+done
+executing  test5 ./tests/test-inputs/test5.1.css > tests/test-outputs/test5.1.css.out ...
+done
+executing  test6  > tests/test-outputs/test6.out ...
+done
+SOME TESTS ARE KO :(
+See tests/tests-error.log to see what's going on

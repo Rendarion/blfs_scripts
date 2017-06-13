@@ -1,0 +1,9 @@
+LFSVS="7.9"
+
+USERNAME="****"
+
+###### wpa_supplicant #####
+
+SSID="****"
+PSK="****"
+HASHPSK="****"

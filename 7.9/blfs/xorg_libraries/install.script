@@ -1,0 +1,62 @@
+# set up variables from settings.script
+
+source settings.script
+
+# check dependencies
+
+if [ "$1" == "--dep-check" ]
+  then
+    for i in "${DEP[@]}"
+      do :
+        if [ ! -e "/var/log/porg/$i" ]
+          then
+            if [ -e "$PTH/$i" ]
+              then
+                printf "%s" "installing missing dependency: $i"
+                cd "$PTH/$i"
+                touch build.log
+                ./install.script --dep-check > build.log 2>&1
+                echo " ... done!"
+              else
+                printf "%s\n" "unresolvable dependency: $i"
+              fi
+          fi
+      done
+  fi
+
+# move to source folder
+
+cd "/sources/$LFSVS/xc/"
+
+# download tarballs
+
+$PTH/$PKG/download.script
+
+cd "/sources/$LFSVS/xc/lib"
+
+for package in $(grep -v '^#' ../lib-7.7.md5 | awk '{print $2}')
+do
+  packagedir=${package%.tar.bz2}
+  tar -xf $package
+  pushd $packagedir
+  case $packagedir in
+    libXfont-[0-9]* )
+      ./configure $XORG_CONFIG --disable-devel-docs
+    ;;
+    libXt-[0-9]* )
+      ./configure $XORG_CONFIG \
+                  --with-appdefaultdir=/etc/X11/app-defaults
+    ;;
+    * )
+      ./configure $XORG_CONFIG
+    ;;
+  esac
+  make
+  make check 2>&1 | tee ../$packagedir-make_check.log
+  as_root porg -lp+ "$PKG" "$PTH/$PKG/porg.script"  
+  popd
+  rm -rf $packagedir
+  as_root /sbin/ldconfig
+done
+
+grep -A9 summary *make_check.log

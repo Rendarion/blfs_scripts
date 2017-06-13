@@ -1,0 +1,9 @@
+make install
+
+install -dm755 /usr/share/hwdata/ &&
+wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids
+
+# add fcron job
+
+line="0 0 3 * *   wget http://www.linux-usb.org/usb.ids -O /usr/share/hwdata/usb.ids"
+(fcrontab -u root -l; echo "$line" ) | fcrontab -u root -

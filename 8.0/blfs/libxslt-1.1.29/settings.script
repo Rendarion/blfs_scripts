@@ -1,0 +1,14 @@
+URL=(
+"http://xmlsoft.org/sources/libxslt-1.1.29.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxml2-2.9.4"
+"docbook-xml-4.5"
+"docbook-xsl-1.79.1"
+)

@@ -1,0 +1,13 @@
+URL=(
+"http://freedesktop.org/~hadess/shared-mime-info-1.8.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"libxml2-2.9.4"
+)

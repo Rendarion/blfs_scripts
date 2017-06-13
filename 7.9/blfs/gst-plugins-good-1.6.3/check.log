@@ -1,0 +1,512 @@
+Making check in gst
+make[1]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst'
+Making check in alpha
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/alpha'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/alpha'
+Making check in apetag
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/apetag'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/apetag'
+Making check in audiofx
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audiofx'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audiofx'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audiofx'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audiofx'
+Making check in audioparsers
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audioparsers'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/audioparsers'
+Making check in auparse
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/auparse'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/auparse'
+Making check in autodetect
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/autodetect'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/autodetect'
+Making check in avi
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/avi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/avi'
+Making check in cutter
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/cutter'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/cutter'
+Making check in debugutils
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/debugutils'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/debugutils'
+Making check in deinterlace
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/deinterlace'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/deinterlace'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/deinterlace'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/deinterlace'
+Making check in dtmf
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/dtmf'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/dtmf'
+Making check in effectv
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/effectv'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/effectv'
+Making check in equalizer
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/equalizer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/equalizer'
+Making check in flv
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/flv'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/flv'
+Making check in flx
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/flx'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/flx'
+Making check in goom
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/goom'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/goom'
+Making check in goom2k1
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/goom2k1'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/goom2k1'
+Making check in icydemux
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/icydemux'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/icydemux'
+Making check in id3demux
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/id3demux'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/id3demux'
+Making check in imagefreeze
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/imagefreeze'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/imagefreeze'
+Making check in interleave
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/interleave'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/interleave'
+Making check in isomp4
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/isomp4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/isomp4'
+Making check in law
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/law'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/law'
+Making check in level
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/level'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/level'
+Making check in matroska
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/matroska'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/matroska'
+Making check in multifile
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/multifile'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/multifile'
+Making check in multipart
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/multipart'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/multipart'
+Making check in replaygain
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/replaygain'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/replaygain'
+Making check in rtp
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtp'
+Making check in rtpmanager
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtpmanager'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtpmanager'
+Making check in rtsp
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtsp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/rtsp'
+Making check in shapewipe
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/shapewipe'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/shapewipe'
+Making check in smpte
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/smpte'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/smpte'
+Making check in spectrum
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/spectrum'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/spectrum'
+Making check in udp
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/udp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/udp'
+Making check in videobox
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videobox'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videobox'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videobox'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videobox'
+Making check in videocrop
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videocrop'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videocrop'
+Making check in videofilter
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videofilter'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videofilter'
+Making check in videomixer
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videomixer'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videomixer'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videomixer'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/videomixer'
+Making check in wavenc
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/wavenc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/wavenc'
+Making check in wavparse
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/wavparse'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/wavparse'
+Making check in y4m
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst/y4m'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst/y4m'
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/gst'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/gst'
+Making check in sys
+make[1]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys'
+Making check in oss
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys/oss'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys/oss'
+Making check in oss4
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys/oss4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys/oss4'
+Making check in v4l2
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys/v4l2'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys/v4l2'
+Making check in ximage
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys/ximage'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys/ximage'
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/sys'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/sys'
+Making check in ext
+make[1]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext'
+Making check in cairo
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/cairo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/cairo'
+Making check in gdk_pixbuf
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/gdk_pixbuf'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/gdk_pixbuf'
+Making check in jpeg
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/jpeg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/jpeg'
+Making check in libpng
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/libpng'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/libpng'
+Making check in soup
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/soup'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/soup'
+Making check in taglib
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/taglib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/taglib'
+Making check in vpx
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext/vpx'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext/vpx'
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/ext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/ext'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/tests'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+make  generic/states pipelines/simple-launch-lines pipelines/tagschecking elements/alphacolor elements/alpha elements/audioamplify elements/audiochebband elements/audiocheblimit elements/audiodynamic elements/audioecho elements/audiofirfilter elements/audioiirfilter elements/audioinvert elements/audiopanorama elements/audiowsincband elements/audiowsinclimit elements/aacparse elements/ac3parse elements/amrparse elements/flacparse elements/mpegaudioparse elements/wavpackparse elements/autodetect elements/avimux elements/avisubtitle elements/capssetter elements/deinterlace elements/dtmf pipelines/effectv elements/equalizer  elements/flvdemux elements/flvmux elements/gdkpixbufsink elements/qtmux elements/icydemux elements/id3demux elements/imagefreeze elements/deinterleave elements/interleave elements/jpegdec elements/jpegenc elements/mulawdec elements/mulawenc elements/level elements/matroskademux elements/matroskamux elements/matroskaparse elements/multifile elements/splitmux elements/rganalysis elements/rglimiter elements/rgvolume elements/rtp-payloading elements/rtph263 elements/rtpaux elements/rtpbin elements/rtpbin_buffer_list elements/rtpcollision elements/rtpjitterbuffer elements/rtpmux elements/rtprtx elements/rtpsession elements/shapewipe elements/souphttpsrc elements/spectrum  elements/id3v2mux elements/apev2mux elements/udpsink elements/udpsrc elements/videobox elements/aspectratiocrop elements/videocrop elements/videofilter elements/videomixer elements/vp8enc elements/vp8dec pipelines/wavenc  elements/wavparse elements/y4menc 
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+  CC       generic/states.o
+  CCLD     generic/states
+  CC       pipelines/simple-launch-lines.o
+  CCLD     pipelines/simple-launch-lines
+  CC       pipelines/tagschecking.o
+  CCLD     pipelines/tagschecking
+  CC       elements/elements_alphacolor-alphacolor.o
+  CCLD     elements/alphacolor
+  CC       elements/elements_alpha-alpha.o
+  CCLD     elements/alpha
+  CC       elements/elements_audioamplify-audioamplify.o
+  CCLD     elements/audioamplify
+  CC       elements/elements_audiochebband-audiochebband.o
+  CCLD     elements/audiochebband
+  CC       elements/elements_audiocheblimit-audiocheblimit.o
+  CCLD     elements/audiocheblimit
+  CC       elements/elements_audiodynamic-audiodynamic.o
+  CCLD     elements/audiodynamic
+  CC       elements/elements_audioecho-audioecho.o
+  CCLD     elements/audioecho
+  CC       elements/audiofirfilter.o
+  CCLD     elements/audiofirfilter
+  CC       elements/audioiirfilter.o
+  CCLD     elements/audioiirfilter
+  CC       elements/elements_audioinvert-audioinvert.o
+  CCLD     elements/audioinvert
+  CC       elements/elements_audiopanorama-audiopanorama.o
+  CCLD     elements/audiopanorama
+  CC       elements/elements_audiowsincband-audiowsincband.o
+  CCLD     elements/audiowsincband
+  CC       elements/elements_audiowsinclimit-audiowsinclimit.o
+  CCLD     elements/audiowsinclimit
+  CC       elements/aacparse.o
+  CCLD     elements/aacparse
+  CC       elements/ac3parse.o
+  CCLD     elements/ac3parse
+  CC       elements/amrparse.o
+  CCLD     elements/amrparse
+  CC       elements/flacparse.o
+  CCLD     elements/flacparse
+  CC       elements/mpegaudioparse.o
+  CCLD     elements/mpegaudioparse
+  CC       elements/wavpackparse.o
+  CCLD     elements/wavpackparse
+  CC       elements/elements_autodetect-autodetect.o
+  CCLD     elements/autodetect
+  CC       elements/avimux.o
+  CCLD     elements/avimux
+  CC       elements/avisubtitle.o
+  CCLD     elements/avisubtitle
+  CC       elements/capssetter.o
+  CCLD     elements/capssetter
+  CC       elements/elements_deinterlace-deinterlace.o
+  CCLD     elements/deinterlace
+  CC       elements/elements_dtmf-dtmf.o
+  CCLD     elements/dtmf
+  CC       pipelines/effectv.o
+  CCLD     pipelines/effectv
+  CC       elements/elements_equalizer-equalizer.o
+  CCLD     elements/equalizer
+  CC       elements/flvdemux.o
+  CCLD     elements/flvdemux
+  CC       elements/flvmux.o
+  CCLD     elements/flvmux
+  CC       elements/elements_gdkpixbufsink-gdkpixbufsink.o
+  CCLD     elements/gdkpixbufsink
+  CC       elements/elements_qtmux-qtmux.o
+  CCLD     elements/qtmux
+  CC       elements/icydemux.o
+  CCLD     elements/icydemux
+  CC       elements/id3demux.o
+  CCLD     elements/id3demux
+  CC       elements/elements_imagefreeze-imagefreeze.o
+  CCLD     elements/imagefreeze
+  CC       elements/elements_deinterleave-deinterleave.o
+  CCLD     elements/deinterleave
+  CC       elements/elements_interleave-interleave.o
+  CCLD     elements/interleave
+  CC       elements/elements_jpegdec-jpegdec.o
+  CCLD     elements/jpegdec
+  CC       elements/elements_jpegenc-jpegenc.o
+  CCLD     elements/jpegenc
+  CC       elements/elements_mulawdec-mulawdec.o
+  CCLD     elements/mulawdec
+  CC       elements/elements_mulawenc-mulawenc.o
+  CCLD     elements/mulawenc
+  CC       elements/elements_level-level.o
+  CCLD     elements/level
+  CC       elements/matroskademux.o
+  CCLD     elements/matroskademux
+  CC       elements/matroskamux.o
+  CCLD     elements/matroskamux
+  CC       elements/matroskaparse.o
+  CCLD     elements/matroskaparse
+  CC       elements/elements_multifile-multifile.o
+  CCLD     elements/multifile
+  CC       elements/splitmux.o
+  CCLD     elements/splitmux
+  CC       elements/elements_rganalysis-rganalysis.o
+  CCLD     elements/rganalysis
+  CC       elements/elements_rglimiter-rglimiter.o
+  CCLD     elements/rglimiter
+  CC       elements/elements_rgvolume-rgvolume.o
+  CCLD     elements/rgvolume
+  CC       elements/rtp-payloading.o
+  CCLD     elements/rtp-payloading
+  CC       elements/elements_rtph263-rtph263.o
+  CCLD     elements/rtph263
+  CC       elements/elements_rtpaux-rtpaux.o
+  CCLD     elements/rtpaux
+  CC       elements/rtpbin.o
+  CCLD     elements/rtpbin
+  CC       elements/elements_rtpbin_buffer_list-rtpbin_buffer_list.o
+  CCLD     elements/rtpbin_buffer_list
+  CC       elements/elements_rtpcollision-rtpcollision.o
+  CCLD     elements/rtpcollision
+  CC       elements/elements_rtpjitterbuffer-rtpjitterbuffer.o
+  CCLD     elements/rtpjitterbuffer
+  CC       elements/elements_rtpmux-rtpmux.o
+  CCLD     elements/rtpmux
+  CC       elements/elements_rtprtx-rtprtx.o
+  CCLD     elements/rtprtx
+  CC       elements/elements_rtpsession-rtpsession.o
+  CCLD     elements/rtpsession
+  CC       elements/shapewipe.o
+  CCLD     elements/shapewipe
+  CC       elements/elements_souphttpsrc-souphttpsrc.o
+  CCLD     elements/souphttpsrc
+  CC       elements/elements_spectrum-spectrum.o
+  CCLD     elements/spectrum
+  CC       elements/id3v2mux.o
+  CCLD     elements/id3v2mux
+  CC       elements/apev2mux.o
+  CCLD     elements/apev2mux
+  CC       elements/udpsink.o
+  CCLD     elements/udpsink
+  CC       elements/elements_udpsrc-udpsrc.o
+  CCLD     elements/udpsrc
+  CC       elements/videobox.o
+  CCLD     elements/videobox
+  CC       elements/elements_aspectratiocrop-aspectratiocrop.o
+  CCLD     elements/aspectratiocrop
+  CC       elements/elements_videocrop-videocrop.o
+  CCLD     elements/videocrop
+  CC       elements/elements_videofilter-videofilter.o
+  CCLD     elements/videofilter
+  CC       elements/elements_videomixer-videomixer.o
+  CCLD     elements/videomixer
+  CC       elements/vp8enc.o
+  CCLD     elements/vp8enc
+  CC       elements/vp8dec.o
+  CCLD     elements/vp8dec
+  CC       pipelines/pipelines_wavenc-wavenc.o
+  CCLD     pipelines/wavenc
+  CC       elements/wavparse.o
+  CCLD     elements/wavparse
+  CC       elements/y4menc.o
+  CCLD     elements/y4menc
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+PASS: generic/states
+PASS: pipelines/simple-launch-lines
+PASS: pipelines/tagschecking
+PASS: elements/alphacolor
+PASS: elements/alpha
+PASS: elements/audioamplify
+PASS: elements/audiochebband
+PASS: elements/audiocheblimit
+PASS: elements/audiodynamic
+PASS: elements/audioecho
+PASS: elements/audiofirfilter
+PASS: elements/audioiirfilter
+PASS: elements/audioinvert
+PASS: elements/audiopanorama
+PASS: elements/audiowsincband
+PASS: elements/audiowsinclimit
+PASS: elements/aacparse
+PASS: elements/ac3parse
+PASS: elements/amrparse
+PASS: elements/flacparse
+PASS: elements/mpegaudioparse
+PASS: elements/wavpackparse
+PASS: elements/autodetect
+PASS: elements/avimux
+PASS: elements/avisubtitle
+PASS: elements/capssetter
+PASS: elements/deinterlace
+PASS: elements/dtmf
+PASS: pipelines/effectv
+PASS: elements/equalizer
+PASS: elements/flvdemux
+PASS: elements/flvmux
+PASS: elements/gdkpixbufsink
+PASS: elements/qtmux
+PASS: elements/icydemux
+PASS: elements/id3demux
+PASS: elements/imagefreeze
+PASS: elements/deinterleave
+PASS: elements/interleave
+PASS: elements/jpegdec
+PASS: elements/jpegenc
+PASS: elements/mulawdec
+PASS: elements/mulawenc
+PASS: elements/level
+PASS: elements/matroskademux
+PASS: elements/matroskamux
+PASS: elements/matroskaparse
+PASS: elements/multifile
+FAIL: elements/splitmux
+PASS: elements/rganalysis
+PASS: elements/rglimiter
+PASS: elements/rgvolume
+PASS: elements/rtp-payloading
+PASS: elements/rtph263
+PASS: elements/rtpaux
+PASS: elements/rtpbin
+PASS: elements/rtpbin_buffer_list
+PASS: elements/rtpcollision
+PASS: elements/rtpjitterbuffer
+PASS: elements/rtpmux
+PASS: elements/rtprtx
+PASS: elements/rtpsession
+PASS: elements/shapewipe
+PASS: elements/souphttpsrc
+PASS: elements/spectrum
+PASS: elements/id3v2mux
+PASS: elements/apev2mux
+PASS: elements/udpsink
+PASS: elements/udpsrc
+PASS: elements/videobox
+PASS: elements/aspectratiocrop
+PASS: elements/videocrop
+PASS: elements/videofilter
+PASS: elements/videomixer
+PASS: elements/vp8enc
+PASS: elements/vp8dec
+PASS: pipelines/wavenc
+PASS: elements/wavparse
+PASS: elements/y4menc
+============================================================================
+Testsuite summary for GStreamer Good Plug-ins 1.6.3
+============================================================================
+# TOTAL: 79
+# PASS:  78
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/check/test-suite.log
+Please report to http://bugzilla.gnome.org/enter_bug.cgi?product=GStreamer
+============================================================================
+Makefile:3398: recipe for target 'test-suite.log' failed
+make[4]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+Makefile:3504: recipe for target 'check-TESTS' failed
+make[3]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+Makefile:4179: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/tests/check'
+Makefile:591: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/gst-plugins-good-1.6.3/tests'
+Makefile:706: recipe for target 'check-recursive' failed

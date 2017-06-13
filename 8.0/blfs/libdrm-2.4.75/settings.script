@@ -1,0 +1,12 @@
+URL=(
+"http://dri.freedesktop.org/libdrm/libdrm-2.4.75.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+)

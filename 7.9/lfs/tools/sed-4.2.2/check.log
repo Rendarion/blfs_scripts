@@ -1,0 +1,217 @@
+Making check in lib
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/lib'
+Making check in po
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/po'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/po'
+Making check in sed
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/sed'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/sed'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/doc'
+Making check in testsuite
+make[1]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make  
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+PASS: appquit
+PASS: enable
+PASS: sep
+PASS: inclib
+PASS: 8bit
+PASS: newjis
+PASS: xabcx
+PASS: dollar
+PASS: noeol
+PASS: noeolw
+PASS: modulo
+PASS: numsub
+PASS: numsub2
+PASS: numsub3
+PASS: numsub4
+PASS: numsub5
+PASS: 0range
+PASS: bkslashes
+PASS: head
+PASS: madding
+PASS: mac-mf
+PASS: empty
+PASS: xbxcx
+PASS: xbxcx3
+PASS: recall
+PASS: recall2
+PASS: xemacs
+PASS: fasts
+PASS: uniq
+PASS: manis
+PASS: khadafy
+PASS: linecnt
+PASS: eval
+PASS: distrib
+PASS: 8to7
+PASS: y-bracket
+PASS: y-newline
+PASS: allsub
+PASS: cv-vars
+PASS: classes
+PASS: middle
+PASS: bsd
+PASS: stdin
+PASS: flipcase
+PASS: insens
+PASS: subwrite
+PASS: writeout
+PASS: readin
+PASS: insert
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+echo "LC_ALL=ru_RU.UTF-8" \
+  " ../sed/sed -f ./utf8-1.sed" \
+  "< ./utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out"; \
+LC_ALL=ru_RU.UTF-8 \
+   ../sed/sed -f ./utf8-1.sed \
+	< ./utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out; \
+cmp ./utf8-1.good utf8-1.out && exit 0; \
+cmp ./utf8-1.inp utf8-1.out || exit 1; \
+locale > utf8-1.info 2>/dev/null || { rm utf8-1.info; :>utf8-1.skip; exit 77; }; \
+. utf8-1.info; rm utf8-1.info; \
+case "$LC_CTYPE" in \
+  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+    echo " ../sed/sed -f ./utf8-1.sed" \
+      " < ./utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out"; \
+     ../sed/sed -f ./utf8-1.sed \
+	< ./utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out; \
+    cmp ./utf8-1.good utf8-1.out && exit 0; \
+    cmp ./utf8-1.inp utf8-1.out || exit 1 ;; \
+  *) ;; \
+esac; \
+:>utf8-1.skip; exit 77
+LC_ALL=ru_RU.UTF-8  ../sed/sed -f ./utf8-1.sed < ./utf8-1.inp | LC_ALL=C tr -d \r > utf8-1.out
+./utf8-1.good utf8-1.out differ: char 1, line 1
+./utf8-1.inp utf8-1.out differ: char 1, line 1
+Makefile.tests:54: recipe for target 'utf8-1' failed
+make[3]: *** [utf8-1] Error 1
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+XFAIL: utf8-1
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+echo "LC_ALL=ru_RU.UTF-8" \
+  " ../sed/sed -f ./utf8-2.sed" \
+  "< ./utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out"; \
+LC_ALL=ru_RU.UTF-8 \
+   ../sed/sed -f ./utf8-2.sed \
+	< ./utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out; \
+cmp ./utf8-2.good utf8-2.out && exit 0; \
+cmp ./utf8-2.inp utf8-2.out || exit 1; \
+locale > utf8-2.info 2>/dev/null || { rm utf8-2.info; :>utf8-2.skip; exit 77; }; \
+. utf8-2.info; rm utf8-2.info; \
+case "$LC_CTYPE" in \
+  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+    echo " ../sed/sed -f ./utf8-2.sed" \
+      " < ./utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out"; \
+     ../sed/sed -f ./utf8-2.sed \
+	< ./utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out; \
+    cmp ./utf8-2.good utf8-2.out && exit 0; \
+    cmp ./utf8-2.inp utf8-2.out || exit 1 ;; \
+  *) ;; \
+esac; \
+:>utf8-2.skip; exit 77
+LC_ALL=ru_RU.UTF-8  ../sed/sed -f ./utf8-2.sed < ./utf8-2.inp | LC_ALL=C tr -d \r > utf8-2.out
+./utf8-2.good utf8-2.out differ: char 1, line 1
+./utf8-2.inp utf8-2.out differ: char 1, line 1
+Makefile.tests:54: recipe for target 'utf8-2' failed
+make[3]: *** [utf8-2] Error 1
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+XFAIL: utf8-2
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+echo "LC_ALL=ru_RU.UTF-8" \
+  " ../sed/sed -f ./utf8-3.sed" \
+  "< ./utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out"; \
+LC_ALL=ru_RU.UTF-8 \
+   ../sed/sed -f ./utf8-3.sed \
+	< ./utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out; \
+cmp ./utf8-3.good utf8-3.out && exit 0; \
+cmp ./utf8-3.inp utf8-3.out || exit 1; \
+locale > utf8-3.info 2>/dev/null || { rm utf8-3.info; :>utf8-3.skip; exit 77; }; \
+. utf8-3.info; rm utf8-3.info; \
+case "$LC_CTYPE" in \
+  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+    echo " ../sed/sed -f ./utf8-3.sed" \
+      " < ./utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out"; \
+     ../sed/sed -f ./utf8-3.sed \
+	< ./utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out; \
+    cmp ./utf8-3.good utf8-3.out && exit 0; \
+    cmp ./utf8-3.inp utf8-3.out || exit 1 ;; \
+  *) ;; \
+esac; \
+:>utf8-3.skip; exit 77
+LC_ALL=ru_RU.UTF-8  ../sed/sed -f ./utf8-3.sed < ./utf8-3.inp | LC_ALL=C tr -d \r > utf8-3.out
+./utf8-3.good utf8-3.out differ: char 1, line 1
+./utf8-3.inp utf8-3.out differ: char 1, line 1
+Makefile.tests:54: recipe for target 'utf8-3' failed
+make[3]: *** [utf8-3] Error 1
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+XFAIL: utf8-3
+make[3]: Entering directory '/sources/7.9/sed-4.2.2/testsuite'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+echo "LC_ALL=ru_RU.UTF-8" \
+  " ../sed/sed -f ./utf8-4.sed" \
+  "< ./utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out"; \
+LC_ALL=ru_RU.UTF-8 \
+   ../sed/sed -f ./utf8-4.sed \
+	< ./utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out; \
+cmp ./utf8-4.good utf8-4.out && exit 0; \
+cmp ./utf8-4.inp utf8-4.out || exit 1; \
+locale > utf8-4.info 2>/dev/null || { rm utf8-4.info; :>utf8-4.skip; exit 77; }; \
+. utf8-4.info; rm utf8-4.info; \
+case "$LC_CTYPE" in \
+  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+    echo " ../sed/sed -f ./utf8-4.sed" \
+      " < ./utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out"; \
+     ../sed/sed -f ./utf8-4.sed \
+	< ./utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out; \
+    cmp ./utf8-4.good utf8-4.out && exit 0; \
+    cmp ./utf8-4.inp utf8-4.out || exit 1 ;; \
+  *) ;; \
+esac; \
+:>utf8-4.skip; exit 77
+LC_ALL=ru_RU.UTF-8  ../sed/sed -f ./utf8-4.sed < ./utf8-4.inp | LC_ALL=C tr -d \r > utf8-4.out
+./utf8-4.good utf8-4.out differ: char 1, line 1
+./utf8-4.inp utf8-4.out differ: char 1, line 1
+Makefile.tests:54: recipe for target 'utf8-4' failed
+make[3]: *** [utf8-4] Error 1
+make[3]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+XFAIL: utf8-4
+PASS: badenc
+PASS: inplace-hold
+PASS: brackets
+PASS: amp-escape
+PASS: help
+PASS: version
+PASS: file
+PASS: quiet
+PASS: factor
+PASS: binary3
+PASS: binary2
+PASS: binary
+PASS: dc
+======================================================
+All 66 tests behaved as expected (4 expected failures)
+======================================================
+make[2]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2/testsuite'
+make[1]: Entering directory '/sources/7.9/sed-4.2.2'
+make[1]: Leaving directory '/sources/7.9/sed-4.2.2'

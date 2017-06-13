@@ -1,0 +1,40 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/andale32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arial32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/arialb32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/comic32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/courie32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/georgi32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/impact32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/times32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/trebuc32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/verdan32.exe"
+"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/webdin32.exe"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cabextract-1.6"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

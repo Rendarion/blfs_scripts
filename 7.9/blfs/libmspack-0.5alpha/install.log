@@ -1,0 +1,194 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ANSI C header files... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for mode_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking size of off_t... 8
+checking for tolower... yes
+checking for towlower... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating libmspack.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-am
+make[1]: Entering directory '/sources/7.9/libmspack-0.5alpha'
+  CC       system.lo
+  CC       cabc.lo
+  CC       cabd.lo
+  CC       chmc.lo
+  CC       chmd.lo
+  CC       hlpc.lo
+  CC       hlpd.lo
+  CC       litc.lo
+  CC       litd.lo
+  CC       kwajc.lo
+  CC       kwajd.lo
+  CC       szddc.lo
+  CC       szddd.lo
+  CC       oabc.lo
+  CC       oabd.lo
+  CC       lzxc.lo
+  CC       lzxd.lo
+  CC       mszipc.lo
+  CC       mszipd.lo
+  CC       qtmd.lo
+  CC       lzssd.lo
+  CC       crc32.lo
+  CCLD     libmspack.la
+  CCLD     libmscabd.la
+  CCLD     libmschmd.la
+  CC       cabd_md5.o
+  CC       md5.o
+  CCLD     test/cabd_md5
+  CC       cabd_memory.o
+  CCLD     test/cabd_memory
+  CC       cabd_test.o
+  CCLD     test/cabd_test
+  CC       cabrip.o
+  CCLD     test/cabrip
+  CC       chmd_md5.o
+  CCLD     test/chmd_md5
+  CC       chmx.o
+  CCLD     test/chmx
+  CC       chminfo.o
+  CCLD     test/chminfo
+  CC       multifh.o
+  CCLD     test/multifh
+  CC       expand.o
+  CCLD     test/expand
+  CC       chmd_find.o
+  CCLD     test/chmd_find
+  CC       chmd_order.o
+  CCLD     test/chmd_order
+  CC       oabx.o
+  CCLD     test/oabx
+make[1]: Leaving directory '/sources/7.9/libmspack-0.5alpha'
+make[1]: Entering directory '/sources/7.9/libmspack-0.5alpha'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libmspack.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libmspack.so.0.1.0 /usr/local/lib/libmspack.so.0.1.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmspack.so.0.1.0 libmspack.so.0 || { rm -f libmspack.so.0 && ln -s libmspack.so.0.1.0 libmspack.so.0; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmspack.so.0.1.0 libmspack.so || { rm -f libmspack.so && ln -s libmspack.so.0.1.0 libmspack.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmspack.lai /usr/local/lib/libmspack.la
+libtool: install: /usr/bin/install -c .libs/libmspack.a /usr/local/lib/libmspack.a
+libtool: install: chmod 644 /usr/local/lib/libmspack.a
+libtool: install: ranlib /usr/local/lib/libmspack.a
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/include'
+ /usr/bin/install -c -m 644 mspack/mspack.h '/usr/local/include'
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libmspack.pc '/usr/local/lib/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/libmspack-0.5alpha'

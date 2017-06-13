@@ -1,0 +1,327 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether __clang__ is declared... no
+checking whether __INTEL_COMPILER is declared... no
+checking whether __SUNPRO_C is declared... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking if gcc supports -Werror=unknown-warning-option... no
+checking if gcc supports -Werror=unused-command-line-argument... no
+checking if gcc supports -Wall... yes
+checking if gcc supports -Wpointer-arith... yes
+checking if gcc supports -Wmissing-declarations... yes
+checking if gcc supports -Wformat=2... yes
+checking if gcc supports -Wstrict-prototypes... yes
+checking if gcc supports -Wmissing-prototypes... yes
+checking if gcc supports -Wnested-externs... yes
+checking if gcc supports -Wbad-function-cast... yes
+checking if gcc supports -Wold-style-definition... yes
+checking if gcc supports -Wdeclaration-after-statement... yes
+checking if gcc supports -Wunused... yes
+checking if gcc supports -Wuninitialized... yes
+checking if gcc supports -Wshadow... yes
+checking if gcc supports -Wmissing-noreturn... yes
+checking if gcc supports -Wmissing-format-attribute... yes
+checking if gcc supports -Wredundant-decls... yes
+checking if gcc supports -Wlogical-op... yes
+checking if gcc supports -Werror=implicit... yes
+checking if gcc supports -Werror=nonnull... yes
+checking if gcc supports -Werror=init-self... yes
+checking if gcc supports -Werror=main... yes
+checking if gcc supports -Werror=missing-braces... yes
+checking if gcc supports -Werror=sequence-point... yes
+checking if gcc supports -Werror=return-type... yes
+checking if gcc supports -Werror=trigraphs... yes
+checking if gcc supports -Werror=array-bounds... yes
+checking if gcc supports -Werror=write-strings... yes
+checking if gcc supports -Werror=address... yes
+checking if gcc supports -Werror=int-to-pointer-cast... yes
+checking if gcc supports -Werror=pointer-to-int-cast... yes
+checking if gcc supports -pedantic... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Werror=attributes... yes
+checking whether make supports nested variables... (cached) yes
+checking for python3... python3
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking KHR/khrplatform.h usability... yes
+checking KHR/khrplatform.h presence... yes
+checking for KHR/khrplatform.h... yes
+checking if gcc supports -Wno-int-conversion... yes
+checking for EGL... yes
+checking for dlopen in -ldl... yes
+checking whether gcc supports -fvisibility=hidden... yes
+checking for X11... yes
+checking for GL... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating epoxy.pc
+config.status: creating Makefile
+config.status: creating include/epoxy/Makefile
+config.status: creating src/Makefile
+config.status: creating test/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+           EGL:         yes
+           GLX:         yes
+           WGL:         no
+        PYTHON:         python3
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+Making all in include/epoxy
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+  CC       dispatch_common.lo
+  CC       gl_generated_dispatch.lo
+  CC       egl_generated_dispatch.lo
+  CC       dispatch_egl.lo
+  CC       glx_generated_dispatch.lo
+  CC       dispatch_glx.lo
+  CCLD     libepoxy.la
+make[3]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+Making all in test
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1'
+Making check in include/epoxy
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+Making check in test
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make  libegl_common.la libglx_common.la   egl_has_extension_nocontext egl_gl egl_gles1_without_glx egl_gles2_without_glx glx_beginend glx_public_api glx_public_api_core glx_glxgetprocaddress_nocontext glx_has_extension_nocontext glx_static glx_shared_znow glx_alias_prefer_same_name glx_gles2 egl_and_glx_different_pointers_egl_glx egl_and_glx_different_pointers_egl egl_and_glx_different_pointers_glx  headerguards miscdefines khronos_typedefs
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+  CC       egl_common.lo
+  CCLD     libegl_common.la
+  CC       glx_common.lo
+  CCLD     libglx_common.la
+  CC       egl_has_extension_nocontext.o
+  CCLD     egl_has_extension_nocontext
+  CC       egl_gl.o
+  CCLD     egl_gl
+  CC       egl_gles1_without_glx-egl_without_glx.o
+  CCLD     egl_gles1_without_glx
+  CC       egl_gles2_without_glx-egl_without_glx.o
+  CCLD     egl_gles2_without_glx
+  CC       glx_beginend.o
+  CCLD     glx_beginend
+  CC       glx_public_api.o
+  CCLD     glx_public_api
+  CC       glx_public_api_core.o
+  CCLD     glx_public_api_core
+  CC       glx_glxgetprocaddress_nocontext.o
+  CCLD     glx_glxgetprocaddress_nocontext
+  CC       glx_has_extension_nocontext.o
+  CCLD     glx_has_extension_nocontext
+  CC       glx_static-glx_static.o
+  CCLD     glx_static
+  CC       glx_static.o
+  CCLD     glx_shared_znow
+  CC       glx_gles2.o
+  CC       dlwrap.o
+  CCLD     glx_alias_prefer_same_name
+  CCLD     glx_gles2
+  CC       egl_and_glx_different_pointers_egl_glx-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_egl_glx-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_egl_glx
+  CC       egl_and_glx_different_pointers_egl-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_egl-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_egl
+  CC       egl_and_glx_different_pointers_glx-egl_and_glx_different_pointers.o
+  CC       egl_and_glx_different_pointers_glx-dlwrap.o
+  CCLD     egl_and_glx_different_pointers_glx
+  CC       headerguards.o
+  CCLD     headerguards
+  CC       miscdefines.o
+  CCLD     miscdefines
+  CC       khronos_typedefs.o
+  CC       khronos_typedefs_nonepoxy.o
+  CCLD     khronos_typedefs
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make[3]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+SKIP: egl_has_extension_nocontext
+SKIP: egl_gl
+SKIP: egl_gles1_without_glx
+SKIP: egl_gles2_without_glx
+SKIP: glx_beginend
+SKIP: glx_public_api
+SKIP: glx_public_api_core
+SKIP: glx_glxgetprocaddress_nocontext
+SKIP: glx_has_extension_nocontext
+SKIP: glx_static
+SKIP: glx_shared_znow
+SKIP: glx_alias_prefer_same_name
+SKIP: glx_gles2
+SKIP: egl_and_glx_different_pointers_egl_glx
+SKIP: egl_and_glx_different_pointers_egl
+SKIP: egl_and_glx_different_pointers_glx
+PASS: headerguards
+PASS: miscdefines
+PASS: khronos_typedefs
+============================================================================
+Testsuite summary for libepoxy 1.3.1
+============================================================================
+# TOTAL: 19
+# PASS:  3
+# SKIP:  16
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1'
+Making install in include/epoxy
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/epoxy'
+ /usr/bin/install -c -m 644 gl.h egl.h glx.h '/usr/include/epoxy'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/include/epoxy'
+Making install in src
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+make[3]: Entering directory '/sources/7.9/libepoxy-1.3.1/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libepoxy.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libepoxy.so.0.0.0 /usr/lib/libepoxy.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libepoxy.so.0.0.0 libepoxy.so.0 || { rm -f libepoxy.so.0 && ln -s libepoxy.so.0.0.0 libepoxy.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libepoxy.so.0.0.0 libepoxy.so || { rm -f libepoxy.so && ln -s libepoxy.so.0.0.0 libepoxy.so; }; })
+libtool: install: /usr/bin/install -c .libs/libepoxy.lai /usr/lib/libepoxy.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/epoxy'
+ /usr/bin/install -c -m 644 ./../include/epoxy/gl_generated.h ./../include/epoxy/glx_generated.h ./../include/epoxy/egl_generated.h '/usr/include/epoxy'
+make[3]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/src'
+Making install in test
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1/test'
+make[1]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+make[2]: Entering directory '/sources/7.9/libepoxy-1.3.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 epoxy.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libepoxy-1.3.1'
+make[1]: Leaving directory '/sources/7.9/libepoxy-1.3.1'

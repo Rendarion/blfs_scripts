@@ -1,0 +1,11 @@
+SAVEPATH=$PATH                  &&
+PATH=$PATH:/sbin:/usr/sbin      &&
+./configure --prefix=/usr       \
+            --exec-prefix=      \
+            --enable-applib     \
+            --enable-cmdlib     \
+            --enable-pkgconfig  \
+            --enable-udev_sync  &&
+make                            &&
+PATH=$SAVEPATH                  &&
+unset SAVEPATH

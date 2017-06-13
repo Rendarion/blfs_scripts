@@ -1,0 +1,7 @@
+# backup old logs
+
+source backup_logs.script
+
+# Kicks of LFS installation and loging
+
+./lfs.script 2>&1 | tee lfs.log

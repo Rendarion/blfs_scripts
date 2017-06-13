@@ -1,0 +1,32 @@
+URL=(
+""
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"boost-1.63.0"
+"extra-cmake-modules-5.31.0"
+"docbook-xml-4.5"
+"docbook-xsl-1.79.1"
+"giflib-5.1.4"
+"libepoxy-1.4.0"
+"libgcrypt-1.7.6"
+"libjpeg-turbo-1.5.1"
+"libpng-1.6.28"
+"libxslt-1.1.29"
+"lmdb-0.9.19"
+"qtwebkit-5.8.0"
+"phonon-4.9.1"
+"shared-mime-info-1.8"
+"uri-1.71"
+"wget-1.19.1"
+"aspell-0.60.6.1"
+"avahi-0.6.32"
+"libdbusmenu-qt-0.9.3+16.04.20160218"
+"networkmanager-1.6.2"
+"polkit-qt-1-0.112.0"
+)

@@ -1,0 +1,33 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://archive.xfce.org/src/xfce/thunar/1.6/Thunar-1.6.10.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"exo-0.10.7"
+"libxfce4ui-4.12.1"
+"gnome-icon-theme-3.12.0"
+"lxde-icon-theme-0.5.1""
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

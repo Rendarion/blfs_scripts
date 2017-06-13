@@ -1,0 +1,6 @@
+make MANDIR=/usr/share/man MANSUFFIX=ssl install &&
+install -dv -m755 /usr/share/doc/$PKG  &&
+cp -vfr doc/*     /usr/share/doc/$PKG
+
+#cd ../$(basename $(find "/sources/$LFSVS" -maxdepth 1 -type d -name "blfs-bootscripts*"))
+#make install-$((echo $PKG) | cut -d - -f 1)

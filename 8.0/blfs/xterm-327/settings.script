@@ -1,0 +1,12 @@
+URL=(
+"ftp://invisible-island.net/xterm/xterm-327.tgz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_applications"
+)

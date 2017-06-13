@@ -1,0 +1,11 @@
+URL=(
+"ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

@@ -1,0 +1,7 @@
+cd build
+
+ulimit -s 32768
+
+make -k check
+
+../contrib/test_summary

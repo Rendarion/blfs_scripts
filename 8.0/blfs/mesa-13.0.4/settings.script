@@ -1,0 +1,18 @@
+URL=(
+"https://mesa.freedesktop.org/archive/13.0.4/mesa-13.0.4.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+"libdrm-2.4.75"
+"python-2.7.13"
+"elfutils-0.168"
+"libvdpau-1.1.1"
+"llvm-3.9.1"
+"wayland-1.12.0"
+)

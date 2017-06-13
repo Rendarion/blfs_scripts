@@ -1,0 +1,2 @@
+cp ../make-ca.sh-20170119 .
+cp ../certdata.txt .

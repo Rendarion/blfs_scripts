@@ -1,0 +1,5 @@
+patch -Np1 -i ../libarchive-3.1.2-upstream_fixes-1.patch &&
+
+./configure --prefix=/usr --disable-static &&
+
+make

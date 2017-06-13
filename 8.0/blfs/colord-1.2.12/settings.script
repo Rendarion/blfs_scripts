@@ -1,0 +1,20 @@
+URL=(
+"http://www.freedesktop.org/software/colord/releases/colord-1.2.12.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"dbus-1.10.14"
+"glib-2.50.3"
+"little_cms-2.8"
+"sqlite-3.17.0"
+"gobject-introspection-1.50.0"
+"libgudev-231"
+"libgusb-0.2.9"
+"polkit-0.113"
+"vala-0.34.4"
+)

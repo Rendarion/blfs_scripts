@@ -1,0 +1,11 @@
+SAVEPATH=$PATH             &&
+export PATH=$PWD/bin:$PATH &&
+
+mkdir -p build        &&
+cd       build        &&
+
+qmake ../WebKit.pro   &&
+make                  &&
+
+export PATH=$SAVEPATH &&
+unset SAVEPATH

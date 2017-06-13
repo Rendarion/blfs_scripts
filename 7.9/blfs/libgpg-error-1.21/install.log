@@ -1,0 +1,504 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: autobuild project... libgpg-error
+configure: autobuild revision... 1.21
+configure: autobuild hostname... Pikatchu
+configure: autobuild timestamp... 20160609-221918
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for gawk... (cached) gawk
+checking for ar... ar
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for windres... no
+checking for cc for build... gcc
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for ANSI C header files... (cached) yes
+checking for stdlib.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for stdint.h... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... yes
+checking for strerror_r... (cached) yes
+checking for flockfile... yes
+checking for vasprintf... yes
+checking for an ANSI C-conforming const... yes
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+configure: checking for cc features
+checking if gcc ignores unknown -Wno-* options... yes
+checking if gcc supports -Wpointer-arith... yes
+checking whether the GCC style aligned attribute is supported... yes
+checking whether the visibility attribute is supported... yes
+checking for broken visibility attribute... no
+checking for broken alias attribute... no
+checking if gcc supports -fvisibility=hidden... yes
+checking whether imported symbols can be declared weak... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking for multithread API to use... posix
+checking for pthread_rwlock_t... yes
+checking size of pthread_mutex_t... 40
+checking for unsigned long long int... yes
+configure: checking system features for estream-printf
+checking for stdint.h... (cached) yes
+checking for long long int... yes
+checking for long double... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for ptrdiff_t... yes
+checking size of unsigned long... 8
+checking size of void *... 8
+checking for nl_langinfo and THOUSANDS_SEP... yes
+configure: checking system features for estream
+checking for memrchr... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating po/Makefile.in
+config.status: creating m4/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating lang/Makefile
+config.status: creating lang/cl/Makefile
+config.status: creating lang/cl/gpg-error.asd
+config.status: creating src/versioninfo.rc
+config.status: creating src/gpg-error.w32-manifest
+config.status: creating src/gpg-error-config
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+        libgpg-error-1.21 prepared for make
+
+        Revision: 425b768  (16987)
+        Platform: x86_64-unknown-linux-gnu
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21'
+Making all in m4
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/m4'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+gawk -f ./mkerrnos.awk ./errnos.in >code-to-errno.h
+gawk -f ./mkerrcodes1.awk ./errnos.in >_mkerrcodes.h
+gcc -E   -P _mkerrcodes.h | grep GPG_ERR_ | \
+               gawk -f ./mkerrcodes.awk >mkerrcodes.h
+rm _mkerrcodes.h
+gcc -I. -I. -o mkerrcodes ./mkerrcodes.c
+./mkerrcodes | gawk -f ./mkerrcodes2.awk >code-from-errno.h
+gawk -f ./mkstrtable.awk -v textidx=2 -v nogettext=1 \
+	./err-sources.h.in >err-sources-sym.h
+gawk -f ./mkstrtable.awk -v textidx=2 -v nogettext=1 \
+	./err-codes.h.in >err-codes-sym.h
+gawk -f ./mkstrtable.awk -v textidx=2 -v nogettext=1 \
+	-v prefix=GPG_ERR_ -v namespace=errnos_ \
+	./errnos.in >errnos-sym.h
+gcc -g -O0 -I. -I. -o mkheader ./mkheader.c
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT gen-posix-lock-obj.o -MD -MP -MF .deps/gen-posix-lock-obj.Tpo -c -o gen-posix-lock-obj.o gen-posix-lock-obj.c
+mv -f .deps/gen-posix-lock-obj.Tpo .deps/gen-posix-lock-obj.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden   -o gen-posix-lock-obj gen-posix-lock-obj.o  
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o gen-posix-lock-obj gen-posix-lock-obj.o 
+./gen-posix-lock-obj >lock-obj-pub.native.h
+:
+./mkheader linux-gnu x86_64-unknown-linux-gnu  ./gpg-error.h.in \
+                   ../config.h 1.21 0x011500 >gpg-error.h
+cat ./gpg-error.def.in >_gpg-error.def.h
+gcc -E -I. -I..   _gpg-error.def.h | \
+  grep -v '^#' >gpg-error.def
+rm _gpg-error.def.h
+echo "/*dummy*/" > mkw32errmap.map.c
+make  all-am
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-posix-lock.lo -MD -MP -MF .deps/libgpg_error_la-posix-lock.Tpo -c -o libgpg_error_la-posix-lock.lo `test -f 'posix-lock.c' || echo './'`posix-lock.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-posix-lock.lo -MD -MP -MF .deps/libgpg_error_la-posix-lock.Tpo -c posix-lock.c  -fPIC -DPIC -o .libs/libgpg_error_la-posix-lock.o
+mv -f .deps/libgpg_error_la-posix-lock.Tpo .deps/libgpg_error_la-posix-lock.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-posix-thread.lo -MD -MP -MF .deps/libgpg_error_la-posix-thread.Tpo -c -o libgpg_error_la-posix-thread.lo `test -f 'posix-thread.c' || echo './'`posix-thread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-posix-thread.lo -MD -MP -MF .deps/libgpg_error_la-posix-thread.Tpo -c posix-thread.c  -fPIC -DPIC -o .libs/libgpg_error_la-posix-thread.o
+mv -f .deps/libgpg_error_la-posix-thread.Tpo .deps/libgpg_error_la-posix-thread.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-init.lo -MD -MP -MF .deps/libgpg_error_la-init.Tpo -c -o libgpg_error_la-init.lo `test -f 'init.c' || echo './'`init.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-init.lo -MD -MP -MF .deps/libgpg_error_la-init.Tpo -c init.c  -fPIC -DPIC -o .libs/libgpg_error_la-init.o
+mv -f .deps/libgpg_error_la-init.Tpo .deps/libgpg_error_la-init.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-version.lo -MD -MP -MF .deps/libgpg_error_la-version.Tpo -c -o libgpg_error_la-version.lo `test -f 'version.c' || echo './'`version.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-version.lo -MD -MP -MF .deps/libgpg_error_la-version.Tpo -c version.c  -fPIC -DPIC -o .libs/libgpg_error_la-version.o
+mv -f .deps/libgpg_error_la-version.Tpo .deps/libgpg_error_la-version.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-estream.lo -MD -MP -MF .deps/libgpg_error_la-estream.Tpo -c -o libgpg_error_la-estream.lo `test -f 'estream.c' || echo './'`estream.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-estream.lo -MD -MP -MF .deps/libgpg_error_la-estream.Tpo -c estream.c  -fPIC -DPIC -o .libs/libgpg_error_la-estream.o
+mv -f .deps/libgpg_error_la-estream.Tpo .deps/libgpg_error_la-estream.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-estream-printf.lo -MD -MP -MF .deps/libgpg_error_la-estream-printf.Tpo -c -o libgpg_error_la-estream-printf.lo `test -f 'estream-printf.c' || echo './'`estream-printf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-estream-printf.lo -MD -MP -MF .deps/libgpg_error_la-estream-printf.Tpo -c estream-printf.c  -fPIC -DPIC -o .libs/libgpg_error_la-estream-printf.o
+mv -f .deps/libgpg_error_la-estream-printf.Tpo .deps/libgpg_error_la-estream-printf.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-strsource.lo -MD -MP -MF .deps/libgpg_error_la-strsource.Tpo -c -o libgpg_error_la-strsource.lo `test -f 'strsource.c' || echo './'`strsource.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-strsource.lo -MD -MP -MF .deps/libgpg_error_la-strsource.Tpo -c strsource.c  -fPIC -DPIC -o .libs/libgpg_error_la-strsource.o
+mv -f .deps/libgpg_error_la-strsource.Tpo .deps/libgpg_error_la-strsource.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-strerror.lo -MD -MP -MF .deps/libgpg_error_la-strerror.Tpo -c -o libgpg_error_la-strerror.lo `test -f 'strerror.c' || echo './'`strerror.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-strerror.lo -MD -MP -MF .deps/libgpg_error_la-strerror.Tpo -c strerror.c  -fPIC -DPIC -o .libs/libgpg_error_la-strerror.o
+mv -f .deps/libgpg_error_la-strerror.Tpo .deps/libgpg_error_la-strerror.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-code-to-errno.lo -MD -MP -MF .deps/libgpg_error_la-code-to-errno.Tpo -c -o libgpg_error_la-code-to-errno.lo `test -f 'code-to-errno.c' || echo './'`code-to-errno.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-code-to-errno.lo -MD -MP -MF .deps/libgpg_error_la-code-to-errno.Tpo -c code-to-errno.c  -fPIC -DPIC -o .libs/libgpg_error_la-code-to-errno.o
+mv -f .deps/libgpg_error_la-code-to-errno.Tpo .deps/libgpg_error_la-code-to-errno.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-code-from-errno.lo -MD -MP -MF .deps/libgpg_error_la-code-from-errno.Tpo -c -o libgpg_error_la-code-from-errno.lo `test -f 'code-from-errno.c' || echo './'`code-from-errno.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-code-from-errno.lo -MD -MP -MF .deps/libgpg_error_la-code-from-errno.Tpo -c code-from-errno.c  -fPIC -DPIC -o .libs/libgpg_error_la-code-from-errno.o
+mv -f .deps/libgpg_error_la-code-from-errno.Tpo .deps/libgpg_error_la-code-from-errno.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-visibility.lo -MD -MP -MF .deps/libgpg_error_la-visibility.Tpo -c -o libgpg_error_la-visibility.lo `test -f 'visibility.c' || echo './'`visibility.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -DLOCALEDIR=\"/usr/share/locale\" -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT libgpg_error_la-visibility.lo -MD -MP -MF .deps/libgpg_error_la-visibility.Tpo -c visibility.c  -fPIC -DPIC -o .libs/libgpg_error_la-visibility.o
+mv -f .deps/libgpg_error_la-visibility.Tpo .deps/libgpg_error_la-visibility.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden   -Wl,--version-script=./gpg-error.vers  -version-info 17:0:17  -o libgpg-error.la -rpath /usr/lib libgpg_error_la-posix-lock.lo libgpg_error_la-posix-thread.lo libgpg_error_la-init.lo libgpg_error_la-version.lo libgpg_error_la-estream.lo libgpg_error_la-estream-printf.lo libgpg_error_la-strsource.lo libgpg_error_la-strerror.lo libgpg_error_la-code-to-errno.lo libgpg_error_la-code-from-errno.lo libgpg_error_la-visibility.lo     
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libgpg_error_la-posix-lock.o .libs/libgpg_error_la-posix-thread.o .libs/libgpg_error_la-init.o .libs/libgpg_error_la-version.o .libs/libgpg_error_la-estream.o .libs/libgpg_error_la-estream-printf.o .libs/libgpg_error_la-strsource.o .libs/libgpg_error_la-strerror.o .libs/libgpg_error_la-code-to-errno.o .libs/libgpg_error_la-code-from-errno.o .libs/libgpg_error_la-visibility.o    -O2 -Wl,--version-script=./gpg-error.vers   -Wl,-soname -Wl,libgpg-error.so.0 -o .libs/libgpg-error.so.0.17.0
+libtool: link: (cd ".libs" && rm -f "libgpg-error.so.0" && ln -s "libgpg-error.so.0.17.0" "libgpg-error.so.0")
+libtool: link: (cd ".libs" && rm -f "libgpg-error.so" && ln -s "libgpg-error.so.0.17.0" "libgpg-error.so")
+libtool: link: ( cd ".libs" && rm -f "libgpg-error.la" && ln -s "../libgpg-error.la" "libgpg-error.la" )
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT gpg_error-strsource-sym.o -MD -MP -MF .deps/gpg_error-strsource-sym.Tpo -c -o gpg_error-strsource-sym.o `test -f 'strsource-sym.c' || echo './'`strsource-sym.c
+mv -f .deps/gpg_error-strsource-sym.Tpo .deps/gpg_error-strsource-sym.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT gpg_error-strerror-sym.o -MD -MP -MF .deps/gpg_error-strerror-sym.Tpo -c -o gpg_error-strerror-sym.o `test -f 'strerror-sym.c' || echo './'`strerror-sym.c
+mv -f .deps/gpg_error-strerror-sym.Tpo .deps/gpg_error-strerror-sym.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -DLOCALEDIR=\"/usr/share/locale\"    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT gpg_error-gpg-error.o -MD -MP -MF .deps/gpg_error-gpg-error.Tpo -c -o gpg_error-gpg-error.o `test -f 'gpg-error.c' || echo './'`gpg-error.c
+mv -f .deps/gpg_error-gpg-error.Tpo .deps/gpg_error-gpg-error.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden   -o gpg-error gpg_error-strsource-sym.o gpg_error-strerror-sym.o gpg_error-gpg-error.o ./libgpg-error.la  
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o .libs/gpg-error gpg_error-strsource-sym.o gpg_error-strerror-sym.o gpg_error-gpg-error.o  ./.libs/libgpg-error.so
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/doc'
+gcc -o yat2m ./yat2m.c
+for file in gpgrt.texi ; do \
+              ./yat2m -I . --release "Libgpg-error 1.21" --source "GnuPG" --store \
+          `test -f '$file' || echo './'`$file ; done
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/doc'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-version.o -MD -MP -MF .deps/t-version.Tpo -c -o t-version.o t-version.c
+mv -f .deps/t-version.Tpo .deps/t-version.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-version t-version.o ../src/libgpg-error.la 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-version t-version.o  ../src/.libs/libgpg-error.so -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-strerror.o -MD -MP -MF .deps/t-strerror.Tpo -c -o t-strerror.o t-strerror.c
+mv -f .deps/t-strerror.Tpo .deps/t-strerror.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-strerror t-strerror.o ../src/libgpg-error.la 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-strerror t-strerror.o  ../src/.libs/libgpg-error.so -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-syserror.o -MD -MP -MF .deps/t-syserror.Tpo -c -o t-syserror.o t-syserror.c
+mv -f .deps/t-syserror.Tpo .deps/t-syserror.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-syserror t-syserror.o ../src/libgpg-error.la 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-syserror t-syserror.o  ../src/.libs/libgpg-error.so -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-lock.o -MD -MP -MF .deps/t-lock.Tpo -c -o t-lock.o t-lock.c
+mv -f .deps/t-lock.Tpo .deps/t-lock.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-lock t-lock.o ../src/libgpg-error.la -lpthread 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-lock t-lock.o  ../src/.libs/libgpg-error.so -lpthread -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-printf.o -MD -MP -MF .deps/t-printf.Tpo -c -o t-printf.o t-printf.c
+mv -f .deps/t-printf.Tpo .deps/t-printf.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-printf t-printf.o ../src/libgpg-error.la 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-printf t-printf.o  ../src/.libs/libgpg-error.so -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src    -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -MT t-poll.o -MD -MP -MF .deps/t-poll.Tpo -c -o t-poll.o t-poll.c
+mv -f .deps/t-poll.Tpo .deps/t-poll.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -no-install  -o t-poll t-poll.o ../src/libgpg-error.la -lpthread 
+libtool: link: gcc -g -O2 -Wall -Wpointer-arith -Wno-psabi -fvisibility=hidden -o t-poll t-poll.o  ../src/.libs/libgpg-error.so -lpthread -Wl,-rpath -Wl,/sources/7.9/libgpg-error-1.21/src/.libs
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+Making all in po
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/po'
+Making all in lang
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+Making all in cl
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+echo '@errnos@' | cat ../../src/err-codes.h.in - ../../src/errnos.in \
+| gawk -f ./mkerrcodes.awk >gpg-error-codes.lisp
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+Making check in m4
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/m4'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/doc'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+PASS: t-version
+Unspecified source: Success
+gcrypt: Invalid length specifier in S-expression
+GnuPG: Unknown packet
+GpgSM: Certificate too young
+GPG Agent: Bad CA certificate
+Pinentry: Operation cancelled
+SCD: Card removed
+GPGME: Bad secret key
+Keybox: Too late to cancel LDAP
+PASS: t-strerror
+PASS: t-syserror
+PASS: t-lock
+PASS: t-printf
+PASS: t-poll
+==================
+All 6 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+Making check in po
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/po'
+Making check in lang
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+Making check in cl
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+Making install in m4
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/m4'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/m4'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/m4'
+Making install in src
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgpg-error.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgpg-error.so.0.17.0 /usr/lib/libgpg-error.so.0.17.0
+libtool: install: (cd /usr/lib && { ln -s -f libgpg-error.so.0.17.0 libgpg-error.so.0 || { rm -f libgpg-error.so.0 && ln -s libgpg-error.so.0.17.0 libgpg-error.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgpg-error.so.0.17.0 libgpg-error.so || { rm -f libgpg-error.so && ln -s libgpg-error.so.0.17.0 libgpg-error.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgpg-error.lai /usr/lib/libgpg-error.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gpg-error '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gpg-error /usr/bin/gpg-error
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c gpg-error-config '/usr/bin'
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 gpg-error.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 gpg-error.h '/usr/include'
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/src'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/doc'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./gpgrt.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/gpgrt.info'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gpg-error-config.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/doc'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/doc'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/tests'
+Making install in po
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/po'
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libgpg-error.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libgpg-error.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libgpg-error.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/libgpg-error.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libgpg-error.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libgpg-error.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libgpg-error.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libgpg-error.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libgpg-error.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libgpg-error.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libgpg-error.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/libgpg-error.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libgpg-error.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libgpg-error.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libgpg-error.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libgpg-error.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/libgpg-error.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libgpg-error.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libgpg-error.mo
+if test "libgpg-error" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/po'
+Making install in lang
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+Making install in cl
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/common-lisp/source/gpg-error'
+ /usr/bin/install -c -m 644 gpg-error.asd gpg-error-package.lisp gpg-error.lisp '/usr/share/common-lisp/source/gpg-error'
+ /bin/mkdir -p '/usr/share/common-lisp/source/gpg-error'
+ /usr/bin/install -c -m 644 gpg-error-codes.lisp '/usr/share/common-lisp/source/gpg-error'
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang/cl'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21/lang'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21/lang'
+make[1]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[2]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/libgpg-error-1.21'
+make[3]: Nothing to be done for 'install-data-hook'.
+make[3]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+make[2]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+make[1]: Leaving directory '/sources/7.9/libgpg-error-1.21'
+install: creating directory '/usr/share/doc/libgpg-error-1.21'
+'README' -> '/usr/share/doc/libgpg-error-1.21/README'

@@ -1,0 +1,23 @@
+cd build
+
+make install &&
+
+for file in /usr/lib/lib{clang,LLVM,LTO}*.a
+do
+  test -f $file && chmod -v 644 $file
+done
+unset file
+
+install -v -dm755 /usr/lib/clang-analyzer &&
+
+for prog in scan-build scan-view
+do
+  cp -rfv ../tools/clang/tools/$prog /usr/lib/clang-analyzer/ &&
+  ln -sfv ../lib/clang-analyzer/$prog/$prog /usr/bin/
+done
+unset prog &&
+
+ln -sfv /usr/bin/clang \
+        /usr/lib/clang-analyzer/scan-build/ &&
+mv -v   /usr/lib/clang-analyzer/scan-build/scan-build.1 \
+        /usr/share/man/man1/

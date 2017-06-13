@@ -1,0 +1,11 @@
+URL=(
+"http://download.videolan.org/videolan/libdvdread/5.0.3/libdvdread-5.0.3.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

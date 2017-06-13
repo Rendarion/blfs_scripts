@@ -1,0 +1,12 @@
+make install
+
+cd ../blfs-bootscripts-20150924
+make install-service-dhcpcd
+
+cat > /etc/sysconfig/ifconfig.eth0 << "EOF"
+ONBOOT="yes"
+IFACE="eth0"
+SERVICE="dhcpcd"
+DHCP_START="-b -q"
+DHCP_STOP="-k"
+EOF

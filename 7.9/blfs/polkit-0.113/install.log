@@ -1,0 +1,915 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for xsltproc... /usr/bin/xsltproc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for GLIB... yes
+checking for LIBJS... no
+checking for LIBJS... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for XML_ParserCreate in -lexpat... yes
+checking for clearenv... yes
+checking for fdatasync... yes
+checking security/pam_modutil.h usability... yes
+checking security/pam_modutil.h presence... yes
+checking for security/pam_modutil.h... yes
+checking security/pam_ext.h usability... yes
+checking security/pam_ext.h presence... yes
+checking for security/pam_ext.h... yes
+checking for pam_vsyslog in -lpam... yes
+checking for /etc/redhat-release... no
+checking for /etc/SuSE-release... no
+checking for /etc/gentoo-release... no
+checking for /etc/pardus-release... no
+Linux distribution autodetection failed, specify the distribution to target using --with-os-type=
+checking for gobject-introspection... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.40.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating actions/Makefile
+config.status: creating data/Makefile
+config.status: creating data/polkit-1
+config.status: creating data/polkit-gobject-1.pc
+config.status: creating data/polkit-agent-1.pc
+config.status: creating src/Makefile
+config.status: creating src/polkit/Makefile
+config.status: creating src/polkitbackend/Makefile
+config.status: creating src/polkitagent/Makefile
+config.status: creating src/programs/Makefile
+config.status: creating src/examples/Makefile
+config.status: creating docs/version.xml
+config.status: creating docs/extensiondir.xml
+config.status: creating docs/Makefile
+config.status: creating docs/polkit/Makefile
+config.status: creating docs/man/Makefile
+config.status: creating po/Makefile.in
+config.status: creating test/Makefile
+config.status: creating test/polkit/Makefile
+config.status: creating test/polkitbackend/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+=== configuring in test/mocklibc (/sources/7.9/polkit-0.113/test/mocklibc)
+configure: running /bin/sh ./configure --disable-option-checking '--prefix=/usr'  '--sysconfdir=/etc' '--localstatedir=/var' '--disable-static' '--enable-libsystemd-login=no' '--with-authfw=shadow' --cache-file=/dev/null --srcdir=.
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for endgrent... yes
+checking for endpwent... yes
+checking for memset... yes
+checking for regcomp... yes
+checking for strdup... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating bin/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+                  polkit 0.113
+                =================
+
+        prefix:                     /usr
+        libdir:                     ${exec_prefix}/lib
+        libexecdir:                 ${exec_prefix}/libexec
+        bindir:                     ${exec_prefix}/bin
+        sbindir:                    ${exec_prefix}/sbin
+        datadir:                    ${datarootdir}
+        sysconfdir:                 /etc
+        localstatedir:              /var
+        docdir:                     ${datarootdir}/doc/${PACKAGE_TARNAME}
+
+        compiler:                   gcc
+        cflags:                     -g -O2 -Wall -Wchar-subscripts -Wmissing-declarations -Wnested-externs -Wpointer-arith -Wcast-align -Wsign-compare -Wformat -Wformat-security
+        cppflags:                   
+        xsltproc:                   /usr/bin/xsltproc
+	introspection:		    yes
+
+        Distribution/OS:            unknown
+        Authentication framework:   shadow
+        Session tracking:           ConsoleKit
+        PAM support:                no
+        systemdsystemunitdir:       
+        polkitd user:               polkitd
+
+        Maintainer mode:            no
+        Building api docs:          no
+        Building man pages:         yes
+        Building examples:          yes
+
+
+NOTE: The file /usr/lib/polkit-1/polkit-agent-helper-1 must be owned
+      by root and have mode 4755 (setuid root binary)
+
+NOTE: The file ${exec_prefix}/bin/pkexec must be owned by root and
+      have mode 4755 (setuid root binary)
+
+NOTE: The directory /etc/polkit-1/rules.d must be owned
+      by user 'polkitd' and have mode 700
+
+NOTE: The directory ${datarootdir}/polkit-1/rules.d must be owned
+      by user 'polkitd' and have mode 700
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/polkit-0.113'
+Making all in actions
+make[2]: Entering directory '/sources/7.9/polkit-0.113/actions'
+  ITMRG  org.freedesktop.policykit.policy
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/actions'
+Making all in data
+make[2]: Entering directory '/sources/7.9/polkit-0.113/data'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/data'
+Making all in src
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src'
+Making all in polkit
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+( top_builddir=`cd ../.. && pwd`; \
+ cd . && glib-mkenums --template polkitenumtypes.c.template polkitcheckauthorizationflags.h polkiterror.h polkitimplicitauthorization.h polkitauthorityfeatures.h) > \
+   polkitenumtypes.c.tmp && mv polkitenumtypes.c.tmp polkitenumtypes.c
+( top_builddir=`cd ../.. && pwd`; \
+ cd . && glib-mkenums --template polkitenumtypes.h.template polkitcheckauthorizationflags.h polkiterror.h polkitimplicitauthorization.h polkitauthorityfeatures.h) > \
+   polkitenumtypes.h.tmp && mv polkitenumtypes.h.tmp polkitenumtypes.h
+make  all-am
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+  CC       libpolkit_gobject_1_la-polkitenumtypes.lo
+  CC       libpolkit_gobject_1_la-polkitactiondescription.lo
+  CC       libpolkit_gobject_1_la-polkitauthorityfeatures.lo
+  CC       libpolkit_gobject_1_la-polkitdetails.lo
+  CC       libpolkit_gobject_1_la-polkitauthority.lo
+  CC       libpolkit_gobject_1_la-polkiterror.lo
+  CC       libpolkit_gobject_1_la-polkitsubject.lo
+  CC       libpolkit_gobject_1_la-polkitunixprocess.lo
+  CC       libpolkit_gobject_1_la-polkitsystembusname.lo
+  CC       libpolkit_gobject_1_la-polkitidentity.lo
+  CC       libpolkit_gobject_1_la-polkitunixuser.lo
+  CC       libpolkit_gobject_1_la-polkitunixgroup.lo
+  CC       libpolkit_gobject_1_la-polkitunixnetgroup.lo
+  CC       libpolkit_gobject_1_la-polkitauthorizationresult.lo
+  CC       libpolkit_gobject_1_la-polkitcheckauthorizationflags.lo
+  CC       libpolkit_gobject_1_la-polkitimplicitauthorization.lo
+  CC       libpolkit_gobject_1_la-polkittemporaryauthorization.lo
+  CC       libpolkit_gobject_1_la-polkitpermission.lo
+  CC       libpolkit_gobject_1_la-polkitunixsession.lo
+  CCLD     libpolkit-gobject-1.la
+  GISCAN   Polkit-1.0.gir
+g-ir-scanner: Polkit: warning: 2 warnings suppressed (use --warn-all to see them)
+  GICOMP   Polkit-1.0.gir
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+Making all in polkitbackend
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+./toarray.pl ./init.js init_js > initjs.h
+make  all-am
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+  CC       libpolkit_backend_1_la-polkitbackendauthority.lo
+  CC       libpolkit_backend_1_la-polkitbackendinteractiveauthority.lo
+  CC       libpolkit_backend_1_la-polkitbackendjsauthority.lo
+  CC       libpolkit_backend_1_la-polkitbackendactionpool.lo
+  CC       libpolkit_backend_1_la-polkitbackendconfigsource.lo
+  CC       libpolkit_backend_1_la-polkitbackendactionlookup.lo
+  CC       libpolkit_backend_1_la-polkitbackendsessionmonitor.lo
+  CCLD     libpolkit-backend-1.la
+  CC       polkitd-polkitd.o
+  CCLD     polkitd
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+Making all in polkitagent
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+glib-genmarshal --prefix=_polkit_agent_marshal ./polkitagentmarshal.list --header > polkitagentmarshal.h.tmp && mv polkitagentmarshal.h.tmp polkitagentmarshal.h
+(echo "#include \"polkitagentmarshal.h\""; glib-genmarshal --prefix=_polkit_agent_marshal ./polkitagentmarshal.list --body) > polkitagentmarshal.c.tmp && mv polkitagentmarshal.c.tmp polkitagentmarshal.c
+touch marshal.stamp
+( top_builddir=`cd ../.. && pwd`; \
+ cd . && glib-mkenums --template polkitagentenumtypes.c.template polkitagentlistener.h) > \
+   polkitagentenumtypes.c.tmp && mv polkitagentenumtypes.c.tmp polkitagentenumtypes.c
+( top_builddir=`cd ../.. && pwd`; \
+ cd . && glib-mkenums --template polkitagentenumtypes.h.template polkitagentlistener.h) > \
+   polkitagentenumtypes.h.tmp && mv polkitagentenumtypes.h.tmp polkitagentenumtypes.h
+make  all-am
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+  CC       libpolkit_agent_1_la-polkitagentenumtypes.lo
+  CC       libpolkit_agent_1_la-polkitagentmarshal.lo
+  CC       libpolkit_agent_1_la-polkitagentsession.lo
+  CC       libpolkit_agent_1_la-polkitagentlistener.lo
+  CC       libpolkit_agent_1_la-polkitagenttextlistener.lo
+  CCLD     libpolkit-agent-1.la
+  CC       polkit_agent_helper_1-polkitagenthelperprivate.o
+  CC       polkit_agent_helper_1-polkitagenthelper-shadow.o
+  CCLD     polkit-agent-helper-1
+  GISCAN   PolkitAgent-1.0.gir
+  GICOMP   PolkitAgent-1.0.gir
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+Making all in programs
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+  CC       pkexec-pkexec.o
+  CCLD     pkexec
+  CC       pkcheck-pkcheck.o
+  CCLD     pkcheck
+  CC       pkaction-pkaction.o
+  CCLD     pkaction
+  CC       pkttyagent-pkttyagent.o
+  CCLD     pkttyagent
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/examples'
+  CC       pk_example_frobnicate-frobnicate.o
+  CCLD     pk-example-frobnicate
+  CC       cancel-cancel.o
+  CCLD     cancel
+  ITMRG  org.freedesktop.policykit.examples.pkexec.policy
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/examples'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs'
+Making all in man
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs/man'
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl polkit.xml
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl polkitd.xml
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl pkexec.xml
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl pkcheck.xml
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl pkaction.xml
+/usr/bin/xsltproc -nonet --stringparam man.base.url.for.relative.links /usr/share/gtk-doc/html/polkit-1/ --xinclude http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl pkttyagent.xml
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs/man'
+Making all in polkit
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+Making all in po
+make[2]: Entering directory '/sources/7.9/polkit-0.113/po'
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/po'
+Making all in test
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test'
+Making all in mocklibc
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making all in src
+make[5]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pwd.lo -MD -MP -MF .deps/pwd.Tpo -c -o pwd.lo pwd.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT pwd.lo -MD -MP -MF .deps/pwd.Tpo -c pwd.c  -fPIC -DPIC -o .libs/pwd.o
+mv -f .deps/pwd.Tpo .deps/pwd.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT grp.lo -MD -MP -MF .deps/grp.Tpo -c -o grp.lo grp.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT grp.lo -MD -MP -MF .deps/grp.Tpo -c grp.c  -fPIC -DPIC -o .libs/grp.o
+mv -f .deps/grp.Tpo .deps/grp.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT netdb.lo -MD -MP -MF .deps/netdb.Tpo -c -o netdb.lo netdb.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT netdb.lo -MD -MP -MF .deps/netdb.Tpo -c netdb.c  -fPIC -DPIC -o .libs/netdb.o
+mv -f .deps/netdb.Tpo .deps/netdb.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT netgroup.lo -MD -MP -MF .deps/netgroup.Tpo -c -o netgroup.lo netgroup.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -g -O2 -MT netgroup.lo -MD -MP -MF .deps/netgroup.Tpo -c netgroup.c  -fPIC -DPIC -o .libs/netgroup.o
+mv -f .deps/netgroup.Tpo .deps/netgroup.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libmocklibc.la -rpath /usr/lib pwd.lo grp.lo netdb.lo netgroup.lo  
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/pwd.o .libs/grp.o .libs/netdb.o .libs/netgroup.o    -O2   -Wl,-soname -Wl,libmocklibc.so.0 -o .libs/libmocklibc.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libmocklibc.so.0" && ln -s "libmocklibc.so.0.0.0" "libmocklibc.so.0")
+libtool: link: (cd ".libs" && rm -f "libmocklibc.so" && ln -s "libmocklibc.so.0.0.0" "libmocklibc.so")
+libtool: link: ( cd ".libs" && rm -f "libmocklibc.la" && ln -s "../libmocklibc.la" "libmocklibc.la" )
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT netgroup-debug.o -MD -MP -MF .deps/netgroup-debug.Tpo -c -o netgroup-debug.o netgroup-debug.c
+mv -f .deps/netgroup-debug.Tpo .deps/netgroup-debug.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o mocklibc-debug-netgroup netgroup-debug.o libmocklibc.la 
+libtool: link: gcc -g -O2 -o .libs/mocklibc-debug-netgroup netgroup-debug.o  ./.libs/libmocklibc.so
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+Making all in bin
+make[5]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+sed -e 's|@libdir[@]|/usr/lib|g' -e 's|@libname[@]|libmocklibc.so|g' -e 's|@top_srcdir[@]|..|g' -e 's|@top_builddir[@]|..|g' ./mocklibc.in > mocklibc
+chmod a+x mocklibc
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[5]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making all in .
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test'
+  CC       polkittesthelper.lo
+  CCLD     libpolkit-test-helper.la
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test'
+Making all in polkit
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+Making all in polkitbackend
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+  CC       test-polkitbackendjsauthority.o
+  CCLD     polkitbackendjsauthoritytest
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test'
+make[2]: Entering directory '/sources/7.9/polkit-0.113'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113'
+Making check in actions
+make[1]: Entering directory '/sources/7.9/polkit-0.113/actions'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/actions'
+Making check in data
+make[1]: Entering directory '/sources/7.9/polkit-0.113/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/data'
+Making check in src
+make[1]: Entering directory '/sources/7.9/polkit-0.113/src'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+Making check in polkitbackend
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+Making check in polkitagent
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+Making check in programs
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/src'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/polkit-0.113/docs'
+Making check in man
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/man'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+Making check in po
+make[1]: Entering directory '/sources/7.9/polkit-0.113/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package polkit-1 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/po'
+Making check in test
+make[1]: Entering directory '/sources/7.9/polkit-0.113/test'
+Making check in mocklibc
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making check in src
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+Making check in bin
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make  mocklibc-test
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+sed -e 's|@libdir[@]|/usr/lib|g' -e 's|@libname[@]|libmocklibc.so|g' -e 's|@top_srcdir[@]|..|g' -e 's|@top_builddir[@]|..|g' ./mocklibc-test.in > mocklibc-test
+chmod a+x mocklibc-test
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[5]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+PASS: mocklibc-test
+============================================================================
+Testsuite summary for MockLibc 1.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making check in .
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+make  polkitunixusertest polkitunixgrouptest polkitunixnetgrouptest polkitidentitytest
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+  CC       polkitunixusertest.o
+  CCLD     polkitunixusertest
+  CC       polkitunixgrouptest.o
+  CCLD     polkitunixgrouptest
+  CC       polkitunixnetgrouptest.o
+  CCLD     polkitunixnetgrouptest
+  CC       polkitidentitytest.o
+  CCLD     polkitidentitytest
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+PASS: polkitunixusertest
+PASS: polkitunixgrouptest
+PASS: polkitunixnetgrouptest
+PASS: polkitidentitytest
+============================================================================
+Testsuite summary for polkit 0.113
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+Making check in polkitbackend
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make  polkitbackendjsauthoritytest
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make[3]: 'polkitbackendjsauthoritytest' is up to date.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+FAIL: polkitbackendjsauthoritytest
+============================================================================
+Testsuite summary for polkit 0.113
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See test/polkitbackend/test-suite.log
+Please report to http://lists.freedesktop.org/mailman/listinfo/polkit-devel
+============================================================================
+Makefile:768: recipe for target 'test-suite.log' failed
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:874: recipe for target 'check-TESTS' failed
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:947: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:500: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/test'
+Makefile:479: recipe for target 'check-recursive' failed
+Making install in actions
+make[1]: Entering directory '/sources/7.9/polkit-0.113/actions'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/actions'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/polkit-1/actions'
+ /usr/bin/install -c -m 644 org.freedesktop.policykit.policy '/usr/share/polkit-1/actions'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/actions'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/actions'
+Making install in data
+make[1]: Entering directory '/sources/7.9/polkit-0.113/data'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/etc/dbus-1/system.d'
+ /usr/bin/install -c -m 644 org.freedesktop.PolicyKit1.conf '/etc/dbus-1/system.d'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 polkit-gobject-1.pc polkit-agent-1.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/share/dbus-1/system-services'
+ /usr/bin/install -c -m 644 org.freedesktop.PolicyKit1.service '/usr/share/dbus-1/system-services'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/data'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/data'
+Making install in src
+make[1]: Entering directory '/sources/7.9/polkit-0.113/src'
+Making install in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make  install-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libpolkit-gobject-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpolkit-gobject-1.so.0.0.0 /usr/lib/libpolkit-gobject-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libpolkit-gobject-1.so.0.0.0 libpolkit-gobject-1.so.0 || { rm -f libpolkit-gobject-1.so.0 && ln -s libpolkit-gobject-1.so.0.0.0 libpolkit-gobject-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpolkit-gobject-1.so.0.0.0 libpolkit-gobject-1.so || { rm -f libpolkit-gobject-1.so && ln -s libpolkit-gobject-1.so.0.0.0 libpolkit-gobject-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpolkit-gobject-1.lai /usr/lib/libpolkit-gobject-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Polkit-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/polkit-1/polkit'
+ /usr/bin/install -c -m 644 polkit.h polkitprivate.h polkittypes.h polkitenumtypes.h polkitactiondescription.h polkitauthorityfeatures.h polkitdetails.h polkitauthority.h polkiterror.h polkitsubject.h polkitunixprocess.h polkitunixsession.h polkitsystembusname.h polkitidentity.h polkitunixuser.h polkitunixgroup.h polkitunixnetgroup.h polkitauthorizationresult.h polkitcheckauthorizationflags.h polkitimplicitauthorization.h polkittemporaryauthorization.h polkitpermission.h '/usr/include/polkit-1/polkit'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Polkit-1.0.typelib '/usr/lib/girepository-1.0'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+Making install in polkitbackend
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make  install-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/polkit-1'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c polkitd '/usr/lib/polkit-1'
+libtool: install: /usr/bin/install -c .libs/polkitd /usr/lib/polkit-1/polkitd
+ /bin/mkdir -p '/etc/polkit-1/rules.d'
+ /usr/bin/install -c -m 644 50-default.rules '/etc/polkit-1/rules.d'
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+mkdir -p /etc/polkit-1/rules.d
+chmod 700 /etc/polkit-1/rules.d
+chown polkitd /etc/polkit-1/rules.d
+mkdir -p /usr/share/polkit-1/rules.d
+chmod 700 /usr/share/polkit-1/rules.d
+chown polkitd /usr/share/polkit-1/rules.d
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+Making install in polkitagent
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make  install-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libpolkit-agent-1.la '/usr/lib'
+libtool: install: (cd /sources/7.9/polkit-0.113/src/polkitagent; /bin/sh /sources/7.9/polkit-0.113/libtool  --silent --tag CC --mode=relink gcc -D_POLKIT_COMPILATION -D_POLKIT_AGENT_COMPILATION -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -Wall -Wchar-subscripts -Wmissing-declarations -Wnested-externs -Wpointer-arith -Wcast-align -Wsign-compare -Wformat -Wformat-security -export-symbols-regex "(^polkit_.*)" -Wl,--as-needed -o libpolkit-agent-1.la -rpath /usr/lib libpolkit_agent_1_la-polkitagentenumtypes.lo libpolkit_agent_1_la-polkitagentmarshal.lo libpolkit_agent_1_la-polkitagentsession.lo libpolkit_agent_1_la-polkitagentlistener.lo libpolkit_agent_1_la-polkitagenttextlistener.lo -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 ../../src/polkit/libpolkit-gobject-1.la -lexpat )
+libtool: install: /usr/bin/install -c .libs/libpolkit-agent-1.so.0.0.0T /usr/lib/libpolkit-agent-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libpolkit-agent-1.so.0.0.0 libpolkit-agent-1.so.0 || { rm -f libpolkit-agent-1.so.0 && ln -s libpolkit-agent-1.so.0.0.0 libpolkit-agent-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpolkit-agent-1.so.0.0.0 libpolkit-agent-1.so || { rm -f libpolkit-agent-1.so && ln -s libpolkit-agent-1.so.0.0.0 libpolkit-agent-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpolkit-agent-1.lai /usr/lib/libpolkit-agent-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 PolkitAgent-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/polkit-1/polkitagent'
+ /usr/bin/install -c -m 644 polkitagent.h polkitagentenumtypes.h polkitagenttypes.h polkitagentsession.h polkitagentlistener.h polkitagenttextlistener.h '/usr/include/polkit-1/polkitagent'
+ /bin/mkdir -p '/usr/lib/polkit-1'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c polkit-agent-helper-1 '/usr/lib/polkit-1'
+libtool: install: /usr/bin/install -c .libs/polkit-agent-helper-1 /usr/lib/polkit-1/polkit-agent-helper-1
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 PolkitAgent-1.0.typelib '/usr/lib/girepository-1.0'
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+chown root /usr/lib/polkit-1/polkit-agent-helper-1
+chmod 4755 /usr/lib/polkit-1/polkit-agent-helper-1
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+Making install in programs
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c pkexec pkcheck pkaction pkttyagent '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pkexec /usr/bin/pkexec
+libtool: install: /usr/bin/install -c .libs/pkcheck /usr/bin/pkcheck
+libtool: install: /usr/bin/install -c .libs/pkaction /usr/bin/pkaction
+libtool: install: /usr/bin/install -c .libs/pkttyagent /usr/bin/pkttyagent
+make  install-exec-hook
+make[4]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+chmod 4755 /usr/bin/pkexec
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+Making install in examples
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/examples'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/examples'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c pk-example-frobnicate '/usr/bin'
+libtool: install: /usr/bin/install -c pk-example-frobnicate /usr/bin/pk-example-frobnicate
+ /bin/mkdir -p '/usr/share/polkit-1/actions'
+ /usr/bin/install -c -m 644 org.freedesktop.policykit.examples.pkexec.policy '/usr/share/polkit-1/actions'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/src'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/polkit-0.113/docs'
+Making install in man
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/man'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 pkexec.1 pkcheck.1 pkaction.1 pkttyagent.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 polkit.8 polkitd.8 '/usr/share/man/man8'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs/man'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/man'
+Making install in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+Making install in po
+make[1]: Entering directory '/sources/7.9/polkit-0.113/po'
+linguas="cs da "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/polkit-0.113/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/polkit-1.mo; \
+    echo "installing $lang.gmo as $dir/polkit-1.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/polkit-1.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/polkit-1.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/polkit-1.mo.m; \
+    echo "installing $lang.gmo.m as $dir/polkit-1.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/polkit-1.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/polkit-1.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/polkit-1.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/polkit-1.mo
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/po'
+Making install in test
+make[1]: Entering directory '/sources/7.9/polkit-0.113'
+make[2]: Entering directory '/sources/7.9/polkit-0.113'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113'

@@ -1,0 +1,14 @@
+URL=(
+"http://download.kde.org/stable/apps/KDE4.x/admin/polkit-qt-1-0.112.0.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+"polkit-0.113"
+"qt-5.8.0"
+)

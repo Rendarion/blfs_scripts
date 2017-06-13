@@ -1,0 +1,352 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for library containing dlopen... -ldl
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTKMM... yes
+checking for size_t... yes
+checking for uint... yes
+checking for ulong... yes
+checking for ino_t... yes
+checking for openat... yes
+checking for renameat... yes
+checking for linkat... yes
+checking for symlinkat... yes
+checking for open64... yes
+checking for creat64... yes
+checking for fopen64... yes
+checking for freopen64... yes
+checking for openat64... yes
+checking whether __open is declared... no
+checking whether __open64 is declared... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config-bot.h
+config.status: creating lib/Makefile
+config.status: creating lib/porg/Makefile
+config.status: creating lib/porg-log/Makefile
+config.status: creating porg/Makefile
+config.status: creating grop/Makefile
+config.status: creating scripts/Makefile
+config.status: creating scripts/paco2porg
+config.status: creating scripts/porgball
+config.status: creating doc/Makefile
+config.status: creating doc/porgrc
+config.status: creating doc/porgrc.5
+config.status: creating doc/porg.8
+config.status: creating doc/porgball.8
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/grop-0.10'
+Making all in lib
+make[2]: Entering directory '/sources/7.9/grop-0.10/lib'
+Making all in porg
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib/porg'
+g++ -DHAVE_CONFIG_H -I. -I../..    -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -DPORGRC='"/usr/etc/porgrc"' -g -O2 -MT libporg_a-common.o -MD -MP -MF .deps/libporg_a-common.Tpo -c -o libporg_a-common.o `test -f 'common.cc' || echo './'`common.cc
+mv -f .deps/libporg_a-common.Tpo .deps/libporg_a-common.Po
+g++ -DHAVE_CONFIG_H -I. -I../..    -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -DPORGRC='"/usr/etc/porgrc"' -g -O2 -MT libporg_a-basepkg.o -MD -MP -MF .deps/libporg_a-basepkg.Tpo -c -o libporg_a-basepkg.o `test -f 'basepkg.cc' || echo './'`basepkg.cc
+mv -f .deps/libporg_a-basepkg.Tpo .deps/libporg_a-basepkg.Po
+g++ -DHAVE_CONFIG_H -I. -I../..    -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -DPORGRC='"/usr/etc/porgrc"' -g -O2 -MT libporg_a-baseopt.o -MD -MP -MF .deps/libporg_a-baseopt.Tpo -c -o libporg_a-baseopt.o `test -f 'baseopt.cc' || echo './'`baseopt.cc
+mv -f .deps/libporg_a-baseopt.Tpo .deps/libporg_a-baseopt.Po
+g++ -DHAVE_CONFIG_H -I. -I../..    -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -DPORGRC='"/usr/etc/porgrc"' -g -O2 -MT libporg_a-rexp.o -MD -MP -MF .deps/libporg_a-rexp.Tpo -c -o libporg_a-rexp.o `test -f 'rexp.cc' || echo './'`rexp.cc
+mv -f .deps/libporg_a-rexp.Tpo .deps/libporg_a-rexp.Po
+g++ -DHAVE_CONFIG_H -I. -I../..    -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -DPORGRC='"/usr/etc/porgrc"' -g -O2 -MT libporg_a-file.o -MD -MP -MF .deps/libporg_a-file.Tpo -c -o libporg_a-file.o `test -f 'file.cc' || echo './'`file.cc
+mv -f .deps/libporg_a-file.Tpo .deps/libporg_a-file.Po
+rm -f libporg.a
+ar cru libporg.a libporg_a-common.o libporg_a-basepkg.o libporg_a-baseopt.o libporg_a-rexp.o libporg_a-file.o 
+ranlib libporg.a
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib/porg'
+Making all in porg-log
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib/porg-log'
+/bin/sh ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..    -W -ansi -Wshadow -Wmissing-declarations -Wall -g -O2 -MT libporg_log_la-log.lo -MD -MP -MF .deps/libporg_log_la-log.Tpo -c -o libporg_log_la-log.lo `test -f 'log.c' || echo './'`log.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -W -ansi -Wshadow -Wmissing-declarations -Wall -g -O2 -MT libporg_log_la-log.lo -MD -MP -MF .deps/libporg_log_la-log.Tpo -c log.c  -fPIC -DPIC -o .libs/libporg_log_la-log.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -W -ansi -Wshadow -Wmissing-declarations -Wall -g -O2 -MT libporg_log_la-log.lo -MD -MP -MF .deps/libporg_log_la-log.Tpo -c log.c -o libporg_log_la-log.o >/dev/null 2>&1
+mv -f .deps/libporg_log_la-log.Tpo .deps/libporg_log_la-log.Plo
+/bin/sh ../../libtool  --tag=CC   --mode=link gcc -W -ansi -Wshadow -Wmissing-declarations -Wall -g -O2   -o libporg-log.la -rpath /usr/lib libporg_log_la-log.lo  -ldl 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libporg_log_la-log.o   -ldl  -g -O2   -Wl,-soname -Wl,libporg-log.so.0 -o .libs/libporg-log.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libporg-log.so.0" && ln -s "libporg-log.so.0.0.0" "libporg-log.so.0")
+libtool: link: (cd ".libs" && rm -f "libporg-log.so" && ln -s "libporg-log.so.0.0.0" "libporg-log.so")
+libtool: link: ar cru .libs/libporg-log.a  libporg_log_la-log.o
+libtool: link: ranlib .libs/libporg-log.a
+libtool: link: ( cd ".libs" && rm -f "libporg-log.la" && ln -s "../libporg-log.la" "libporg-log.la" )
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib/porg-log'
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib'
+make[2]: Leaving directory '/sources/7.9/grop-0.10/lib'
+Making all in porg
+make[2]: Entering directory '/sources/7.9/grop-0.10/porg'
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-main.o -MD -MP -MF .deps/porg-main.Tpo -c -o porg-main.o `test -f 'main.cc' || echo './'`main.cc
+mv -f .deps/porg-main.Tpo .deps/porg-main.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-pkg.o -MD -MP -MF .deps/porg-pkg.Tpo -c -o porg-pkg.o `test -f 'pkg.cc' || echo './'`pkg.cc
+mv -f .deps/porg-pkg.Tpo .deps/porg-pkg.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-newpkg.o -MD -MP -MF .deps/porg-newpkg.Tpo -c -o porg-newpkg.o `test -f 'newpkg.cc' || echo './'`newpkg.cc
+mv -f .deps/porg-newpkg.Tpo .deps/porg-newpkg.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-out.o -MD -MP -MF .deps/porg-out.Tpo -c -o porg-out.o `test -f 'out.cc' || echo './'`out.cc
+mv -f .deps/porg-out.Tpo .deps/porg-out.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-db.o -MD -MP -MF .deps/porg-db.Tpo -c -o porg-db.o `test -f 'db.cc' || echo './'`db.cc
+mv -f .deps/porg-db.Tpo .deps/porg-db.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-logger.o -MD -MP -MF .deps/porg-logger.Tpo -c -o porg-logger.o `test -f 'logger.cc' || echo './'`logger.cc
+mv -f .deps/porg-logger.Tpo .deps/porg-logger.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-opt.o -MD -MP -MF .deps/porg-opt.Tpo -c -o porg-opt.o `test -f 'opt.cc' || echo './'`opt.cc
+mv -f .deps/porg-opt.Tpo .deps/porg-opt.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -MT porg-util.o -MD -MP -MF .deps/porg-util.Tpo -c -o porg-util.o `test -f 'util.cc' || echo './'`util.cc
+mv -f .deps/porg-util.Tpo .deps/porg-util.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../lib -DLIBDIR='"/usr/lib"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2   -o porg porg-main.o porg-pkg.o porg-newpkg.o porg-out.o porg-db.o porg-logger.o porg-opt.o porg-util.o ../lib/porg/libporg.a -ldl 
+libtool: link: g++ -I../lib -DLIBDIR=\"/usr/lib\" -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -g -O2 -o porg porg-main.o porg-pkg.o porg-newpkg.o porg-out.o porg-db.o porg-logger.o porg-opt.o porg-util.o  ../lib/porg/libporg.a -ldl
+make[2]: Leaving directory '/sources/7.9/grop-0.10/porg'
+Making all in grop
+make[2]: Entering directory '/sources/7.9/grop-0.10/grop'
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-main.o -MD -MP -MF .deps/grop-main.Tpo -c -o grop-main.o `test -f 'main.cc' || echo './'`main.cc
+mv -f .deps/grop-main.Tpo .deps/grop-main.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-find.o -MD -MP -MF .deps/grop-find.Tpo -c -o grop-find.o `test -f 'find.cc' || echo './'`find.cc
+mv -f .deps/grop-find.Tpo .deps/grop-find.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-util.o -MD -MP -MF .deps/grop-util.Tpo -c -o grop-util.o `test -f 'util.cc' || echo './'`util.cc
+mv -f .deps/grop-util.Tpo .deps/grop-util.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-porgball.o -MD -MP -MF .deps/grop-porgball.Tpo -c -o grop-porgball.o `test -f 'porgball.cc' || echo './'`porgball.cc
+mv -f .deps/grop-porgball.Tpo .deps/grop-porgball.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-removepkg.o -MD -MP -MF .deps/grop-removepkg.Tpo -c -o grop-removepkg.o `test -f 'removepkg.cc' || echo './'`removepkg.cc
+mv -f .deps/grop-removepkg.Tpo .deps/grop-removepkg.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-filestreeview.o -MD -MP -MF .deps/grop-filestreeview.Tpo -c -o grop-filestreeview.o `test -f 'filestreeview.cc' || echo './'`filestreeview.cc
+mv -f .deps/grop-filestreeview.Tpo .deps/grop-filestreeview.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-infotextview.o -MD -MP -MF .deps/grop-infotextview.Tpo -c -o grop-infotextview.o `test -f 'infotextview.cc' || echo './'`infotextview.cc
+mv -f .deps/grop-infotextview.Tpo .deps/grop-infotextview.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-properties.o -MD -MP -MF .deps/grop-properties.Tpo -c -o grop-properties.o `test -f 'properties.cc' || echo './'`properties.cc
+mv -f .deps/grop-properties.Tpo .deps/grop-properties.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-mainwindow.o -MD -MP -MF .deps/grop-mainwindow.Tpo -c -o grop-mainwindow.o `test -f 'mainwindow.cc' || echo './'`mainwindow.cc
+mv -f .deps/grop-mainwindow.Tpo .deps/grop-mainwindow.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-preferences.o -MD -MP -MF .deps/grop-preferences.Tpo -c -o grop-preferences.o `test -f 'preferences.cc' || echo './'`preferences.cc
+mv -f .deps/grop-preferences.Tpo .deps/grop-preferences.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-maintreeview.o -MD -MP -MF .deps/grop-maintreeview.Tpo -c -o grop-maintreeview.o `test -f 'maintreeview.cc' || echo './'`maintreeview.cc
+mv -f .deps/grop-maintreeview.Tpo .deps/grop-maintreeview.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-db.o -MD -MP -MF .deps/grop-db.Tpo -c -o grop-db.o `test -f 'db.cc' || echo './'`db.cc
+mv -f .deps/grop-db.Tpo .deps/grop-db.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-lock.o -MD -MP -MF .deps/grop-lock.Tpo -c -o grop-lock.o `test -f 'lock.cc' || echo './'`lock.cc
+mv -f .deps/grop-lock.Tpo .deps/grop-lock.Po
+g++ -DHAVE_CONFIG_H -I. -I..    -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -MT grop-opt.o -MD -MP -MF .deps/grop-opt.Tpo -c -o grop-opt.o `test -f 'opt.cc' || echo './'`opt.cc
+mv -f .deps/grop-opt.Tpo .deps/grop-opt.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -I../lib -DDATADIR='"/usr/share"' -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2   -o grop grop-main.o grop-find.o grop-util.o grop-porgball.o grop-removepkg.o grop-filestreeview.o grop-infotextview.o grop-properties.o grop-mainwindow.o grop-preferences.o grop-maintreeview.o grop-db.o grop-lock.o grop-opt.o -lgtkmm-3.0 -latkmm-1.6 -lgdkmm-3.0 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lgio-2.0 -lcairomm-1.0 -lcairo -lsigc-2.0 -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 ../lib/porg/libporg.a -ldl 
+libtool: link: g++ -I../lib -DDATADIR=\"/usr/share\" -W -ansi -pedantic -Wall -fno-operator-names -std=c++11 -Wno-deprecated-declarations -pthread -I/usr/include/gtkmm-3.0 -I/usr/lib/gtkmm-3.0/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-3.0/unix-print -I/usr/include/gdkmm-3.0 -I/usr/lib/gdkmm-3.0/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -o grop grop-main.o grop-find.o grop-util.o grop-porgball.o grop-removepkg.o grop-filestreeview.o grop-infotextview.o grop-properties.o grop-mainwindow.o grop-preferences.o grop-maintreeview.o grop-db.o grop-lock.o grop-opt.o  /usr/lib/libgtkmm-3.0.so /usr/lib/libatkmm-1.6.so /usr/lib/libgdkmm-3.0.so /usr/lib/libgiomm-2.4.so /usr/lib/libpangomm-1.4.so /usr/lib/libglibmm-2.4.so /usr/lib/libgtk-3.so /usr/lib/libgdk-3.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo-gobject.so /usr/lib/libgio-2.0.so /usr/lib/libcairomm-1.0.so /usr/lib/libcairo.so /usr/lib/libsigc-2.0.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so ../lib/porg/libporg.a -ldl -pthread
+make[2]: Leaving directory '/sources/7.9/grop-0.10/grop'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/grop-0.10/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/grop-0.10/doc'
+Making all in scripts
+make[2]: Entering directory '/sources/7.9/grop-0.10/scripts'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/grop-0.10/scripts'
+make[2]: Entering directory '/sources/7.9/grop-0.10'
+make[2]: Leaving directory '/sources/7.9/grop-0.10'
+make[1]: Leaving directory '/sources/7.9/grop-0.10'
+Making install in lib
+make[1]: Entering directory '/sources/7.9/grop-0.10/lib'
+Making install in porg
+make[2]: Entering directory '/sources/7.9/grop-0.10/lib/porg'
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib/porg'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib/porg'
+make[2]: Leaving directory '/sources/7.9/grop-0.10/lib/porg'
+Making install in porg-log
+make[2]: Entering directory '/sources/7.9/grop-0.10/lib/porg-log'
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib/porg-log'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libporg-log.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libporg-log.so.0.0.0 /usr/lib/libporg-log.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libporg-log.so.0.0.0 libporg-log.so.0 || { rm -f libporg-log.so.0 && ln -s libporg-log.so.0.0.0 libporg-log.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libporg-log.so.0.0.0 libporg-log.so || { rm -f libporg-log.so && ln -s libporg-log.so.0.0.0 libporg-log.so; }; })
+libtool: install: /usr/bin/install -c .libs/libporg-log.lai /usr/lib/libporg-log.la
+libtool: install: /usr/bin/install -c .libs/libporg-log.a /usr/lib/libporg-log.a
+libtool: install: chmod 644 /usr/lib/libporg-log.a
+libtool: install: ranlib /usr/lib/libporg-log.a
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib/porg-log'
+make[2]: Leaving directory '/sources/7.9/grop-0.10/lib/porg-log'
+make[2]: Entering directory '/sources/7.9/grop-0.10/lib'
+make[3]: Entering directory '/sources/7.9/grop-0.10/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/grop-0.10/lib'
+make[2]: Leaving directory '/sources/7.9/grop-0.10/lib'
+make[1]: Leaving directory '/sources/7.9/grop-0.10/lib'
+Making install in porg
+make[1]: Entering directory '/sources/7.9/grop-0.10/porg'
+make[2]: Entering directory '/sources/7.9/grop-0.10/porg'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c porg '/usr/bin'
+libtool: install: /usr/bin/install -c porg /usr/bin/porg
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/grop-0.10/porg'
+make[1]: Leaving directory '/sources/7.9/grop-0.10/porg'
+Making install in grop
+make[1]: Entering directory '/sources/7.9/grop-0.10/grop'
+make[2]: Entering directory '/sources/7.9/grop-0.10/grop'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c grop '/usr/bin'
+libtool: install: /usr/bin/install -c grop /usr/bin/grop
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/grop-0.10/grop'
+make[1]: Leaving directory '/sources/7.9/grop-0.10/grop'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/grop-0.10/doc'
+make[2]: Entering directory '/sources/7.9/grop-0.10/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+rc_dir="/usr/etc"; \
+rc_file="$rc_dir/porgrc"; \
+( test -d $rc_dir || /bin/sh /sources/7.9/grop-0.10/build/install-sh -d $rc_dir ); \
+( test -f $rc_file || /usr/bin/install -c -m 644 porgrc $rc_file ); \
+touch $rc_file
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 grop.desktop '/usr/share/applications'
+ /bin/mkdir -p '/usr/share/pixmaps'
+ /usr/bin/install -c -m 644 grop.png '/usr/share/pixmaps'
+ /bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 porgrc.5 '/usr/share/man/man5'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 porg.8 porgball.8 '/usr/share/man/man8'
+ /bin/mkdir -p '/usr/share/porg'
+ /usr/bin/install -c -m 644 porgrc index.html porg.png download.png faq.txt '/usr/share/porg'
+make[2]: Leaving directory '/sources/7.9/grop-0.10/doc'
+make[1]: Leaving directory '/sources/7.9/grop-0.10/doc'
+Making install in scripts
+make[1]: Entering directory '/sources/7.9/grop-0.10/scripts'
+make[2]: Entering directory '/sources/7.9/grop-0.10/scripts'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c paco2porg porgball '/usr/bin'
+/bin/sh /sources/7.9/grop-0.10/build/install-sh -d /usr/etc/bash_completion.d && \
+	/usr/bin/install -c -m 644 porg_bash_completion /usr/etc/bash_completion.d
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/grop-0.10/scripts'
+make[1]: Leaving directory '/sources/7.9/grop-0.10/scripts'
+make[1]: Entering directory '/sources/7.9/grop-0.10'
+make[2]: Entering directory '/sources/7.9/grop-0.10'
+test -d /var/log/porg || /bin/sh /sources/7.9/grop-0.10/build/install-sh -d /var/log/porg
+ /bin/mkdir -p '/usr/share/porg'
+ /usr/bin/install -c -m 644 README '/usr/share/porg'
+make[2]: Leaving directory '/sources/7.9/grop-0.10'
+make[1]: Leaving directory '/sources/7.9/grop-0.10'

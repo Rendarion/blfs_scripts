@@ -1,0 +1,11 @@
+URL=(
+"http://www.libarchive.org/downloads/libarchive-3.2.2.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

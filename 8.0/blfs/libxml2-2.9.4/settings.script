@@ -1,0 +1,13 @@
+URL=(
+"http://xmlsoft.org/sources/libxml2-2.9.4.tar.gz"
+"http://www.w3.org/XML/Test/xmlts20130923.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"Python-3.6.0"
+)

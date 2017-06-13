@@ -1,0 +1,12 @@
+URL=(
+"http://ftp.x.org/pub/individual/app/twm-1.0.9.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg-server-1.19.1"
+)

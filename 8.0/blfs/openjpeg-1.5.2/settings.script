@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.sourceforge.net/openjpeg.mirror/openjpeg-1.5.2.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

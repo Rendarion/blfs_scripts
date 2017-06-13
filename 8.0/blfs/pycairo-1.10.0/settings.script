@@ -1,0 +1,15 @@
+URL=(
+"http://cairographics.org/releases/pycairo-1.10.0.tar.bz2"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/pycairo-1.10.0-waf_unpack-1.patch"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/pycairo-1.10.0-waf_python_3_4-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cairo-1.14.8"
+"python-3.6.0"
+)

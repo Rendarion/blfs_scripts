@@ -1,0 +1,613 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/util-linux-2.27.1'
+Making check in po
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1/po'
+make[2]: Entering directory '/sources/7.9/util-linux-2.27.1'
+make  test_at test_blkdev test_canonicalize test_colors test_fileutils test_ismounted test_mangle test_procutils test_randutils test_strutils test_ttyutils test_cpuset test_sysfs test_pager test_uuid  sample-mkfs sample-partitions sample-superblocks sample-topology    test_more test_script test_consoles test_islocal test_logindefs test_dmesg test_logger test_mkfs_minix test_byteswap test_md5 test_pathnames test_sysinfo test_sigreceive test_uuidd \
+  
+make[3]: Entering directory '/sources/7.9/util-linux-2.27.1'
+  CC       lib/test_at-at.o
+  CC       lib/test_blkdev-blkdev.o
+  CC       lib/test_canonicalize-canonicalize.o
+  CC       lib/test_colors-colors.o
+  CC       lib/test_colors-color-names.o
+  CC       lib/test_fileutils-fileutils.o
+  CC       lib/test_ismounted-ismounted.o
+  CC       lib/test_mangle-mangle.o
+  CC       lib/test_procutils-procutils.o
+  CC       lib/test_procutils-at.o
+  CC       lib/test_randutils-randutils.o
+  CC       lib/test_strutils-strutils.o
+  CC       lib/test_ttyutils-ttyutils.o
+  CC       lib/test_cpuset-cpuset.o
+  CC       lib/test_sysfs-sysfs.o
+  CC       lib/test_pager-pager.o
+  CC       libuuid/src/test_uuid-test_uuid.o
+  CC       text-utils/test_more-more.o
+  CC       term-utils/test_script-script.o
+  CC       lib/test_script-monotonic.o
+  CC       login-utils/test_consoles-sulogin-consoles.o
+  CC       login-utils/test_islocal-islocal.o
+  CC       login-utils/test_logindefs-logindefs.o
+  CC       sys-utils/test_dmesg-dmesg.o
+  CC       lib/test_dmesg-monotonic.o
+  CC       misc-utils/test_logger-logger.o
+  CC       lib/test_logger-strutils.o
+  CC       disk-utils/test_mkfs_minix-mkfs.minix.o
+  CCLD     test_at
+  CCLD     test_blkdev
+  CCLD     test_canonicalize
+  CCLD     test_colors
+  CCLD     test_fileutils
+  CCLD     test_ismounted
+  CCLD     test_mangle
+  CCLD     test_procutils
+  CCLD     test_randutils
+  CCLD     test_strutils
+  CCLD     test_ttyutils
+  CCLD     test_cpuset
+  CCLD     test_sysfs
+  CCLD     test_pager
+  CCLD     test_uuid
+  CC       libblkid/samples/sample_mkfs-mkfs.o
+  CC       libblkid/samples/sample_partitions-partitions.o
+  CC       libblkid/samples/sample_superblocks-superblocks.o
+  CC       libblkid/samples/sample_topology-topology.o
+  CCLD     test_more
+  CCLD     test_script
+  CCLD     test_consoles
+  CCLD     test_islocal
+  CCLD     test_logindefs
+  CCLD     test_dmesg
+  CCLD     test_logger
+  CCLD     test_mkfs_minix
+  CC       tests/helpers/test_byteswap.o
+  CC       tests/helpers/test_md5.o
+  CC       tests/helpers/test_pathnames.o
+  CC       tests/helpers/test_sysinfo.o
+  CC       tests/helpers/test_sigreceive.o
+  CC       tests/helpers/test_uuidd-test_uuidd.o
+  CCLD     sample-mkfs
+  CCLD     sample-partitions
+  CCLD     sample-superblocks
+  CCLD     sample-topology
+  CCLD     test_byteswap
+  CCLD     test_md5
+  CCLD     test_pathnames
+  CCLD     test_sysinfo
+  CCLD     test_sigreceive
+  CCLD     test_uuidd
+make[3]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make  check-TESTS check-local
+make[3]: Entering directory '/sources/7.9/util-linux-2.27.1'
+  GEN      check-local-tests
+
+-------------------- util-linux regression tests --------------------
+
+                    For development purpose only.                    
+                 Don't execute on production system!                 
+
+              Executing the tests in parallel (2 jobs)    
+
+   blkdiscard: offsets                        ...  SKIPPED (no root permissions)
+make[4]: Entering directory '/sources/7.9/util-linux-2.27.1'
+============================================================================
+Testsuite summary for util-linux 2.27.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+       bitops: swap bytes                     ...  OK
+
+
+        blkid: low-level superblocks probing  ...
+                : adaptec-raid                ...  OK
+        blkid: partitions probing             ...
+                : bsd                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : bcache-B                    ...  OK
+        blkid: partitions probing             ...
+                : dos+bsd                     ...  OK
+        blkid: partitions probing             ...
+                : gpt                         ...  OK
+        blkid: partitions probing             ...
+                : sgi                         ...  OK
+        blkid: partitions probing             ...
+                : sun                         ...  OK
+           ...        blkid: partitions probing             ...
+                : sun                         ...  OK (all 5 sub-tests PASSED)
+        blkid: mbr-wholedisk                  ...  SKIPPED (no root permissions)
+        blkid: MD raid0 (whole-disks)         ...  SKIPPED (no root permissions)
+        blkid: low-level superblocks probing  ...
+                : bcache-C                    ...  OK
+        blkid: MD raid1 (last partition)      ...  SKIPPED (no root permissions)
+        blkid: low-level superblocks probing  ...
+                : befs                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : bfs                         ...  OK
+        blkid: MD raid1 (whole-disks)         ...  SKIPPED (no root permissions)
+        blkid: low-level superblocks probing  ...
+                : cramfs                      ...  OK
+    build-sys: config                         ...  SKIPPED (optional)
+          cal: 1 month                        ...  OK
+          cal: 1 month with week numbers      ...  OK
+          cal: 3 months                       ...  OK
+          cal: 3 months with week numbers     ...  OK
+          cal: Year 2147483646                ...  OK
+          cal: Year 2147483646 with week numbers ...  OK
+          cal: color                          ...  OK
+          cal: color with week numbers        ...  OK
+        blkid: low-level superblocks probing  ...
+                : ddf-raid                    ...  OK
+          cal: January 1753                   ...  OK
+          cal: September 1752                 ...  OK
+          cal: September 1752 with week numbers ...  OK
+          cal: week number given as argument  ...  OK
+          cal: week number corner cases       ...  OK
+          cal: year                           ...  OK
+          cal: year with week numbers         ...  OK
+        blkid: low-level superblocks probing  ...
+                : drbdmanage-control-volume   ...  OK
+          col: multibyte input                ...  OK
+        blkid: low-level superblocks probing  ...
+                : exfat                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : ext2                        ...  OK
+
+       colcrt: regressions                    ...
+                : crash1                      ...  OK
+       colcrt: regressions                    ...
+                : crash2                      ...  OK
+           ...       colcrt: regressions                    ...
+                : crash2                      ...  OK (all 2 sub-tests PASSED)
+        blkid: low-level superblocks probing  ...
+                : ext3                        ...  OK
+        colrm: basic check                    ...  OK
+       column: fill row                       ...  OK
+       column: invalid multibyte              ...  OK
+       column: multiple files                 ...  OK
+       column: separator & table              ...  OK
+       cramfs: mkfs doubles                   ...  SKIPPED (no root permissions)
+       cramfs: fsck endianness                ...  SKIPPED (no root permissions)
+       cramfs: mkfs checksums                 ...  SKIPPED (no root permissions)
+       cramfs: mkfs endianness                ...  SKIPPED (no root permissions)
+        dmesg: colors                         ...  OK
+        dmesg: levels                         ...  OK
+        dmesg: decode                         ...  OK
+        dmesg: delta                          ...  OK
+        dmesg: facilities                     ...  OK
+        dmesg: indentation                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : f2fs                        ...  OK
+        eject: umount                         ...  SKIPPED (no root permissions)
+        fdisk: align 512/4K                   ...  SKIPPED (no root permissions)
+        fdisk: align 512/4K +alignment_offset ...  SKIPPED (no root permissions)
+        fdisk: align 512/4K +MD               ...  SKIPPED (no root permissions)
+        fdisk: align 512/512                  ...  SKIPPED (no root permissions)
+        fdisk: align 512/512 +topology        ...  SKIPPED (no root permissions)
+        blkid: low-level superblocks probing  ...
+                : fat                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : fat16_noheads               ...  OK
+        blkid: low-level superblocks probing  ...
+                : fat32_label_64MB            ...  OK
+        blkid: low-level superblocks probing  ...
+                : gfs2                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : hfs                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : hfsplus                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : hpfs                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : hpt37x-raid                 ...  OK
+        blkid: low-level superblocks probing  ...
+                : hpt45x-raid                 ...  OK
+        blkid: low-level superblocks probing  ...
+                : iso-joliet                  ...  OK
+        blkid: low-level superblocks probing  ...
+                : iso-rr-joliet               ...  OK
+        blkid: low-level superblocks probing  ...
+                : iso                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : isw-raid                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : jbd                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : jfs                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : jmicron-raid                ...  OK
+        blkid: low-level superblocks probing  ...
+                : lsi-raid                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : lvm2                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : mdraid                      ...  OK
+        blkid: low-level superblocks probing  ...
+                : minix-BE                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : minix-LE                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : netware                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : nilfs2                      ...  OK
+        blkid: low-level superblocks probing  ...
+                : ntfs                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : nvidia-raid                 ...  OK
+        blkid: low-level superblocks probing  ...
+                : ocfs2                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : promise-raid                ...  OK
+        blkid: low-level superblocks probing  ...
+                : reiser3                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : reiser4                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : romfs                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : silicon-raid                ...  OK
+        blkid: low-level superblocks probing  ...
+                : small-fat32                 ...  OK
+        blkid: low-level superblocks probing  ...
+                : swap0                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : swap1                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : tuxonice                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : ubifs                       ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf-hdd-mkudffs             ...  OK
+        fdisk: nested BSD                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf-hdd-mkudffs2            ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf-hdd-udfclient-0.7.5     ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf-hdd-udfclient-0.7.7     ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf-hdd-win7                ...  OK
+        blkid: low-level superblocks probing  ...
+                : udf                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : ufs                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : via-raid                    ...  OK
+        blkid: low-level superblocks probing  ...
+                : vmfs                        ...  OK
+        blkid: low-level superblocks probing  ...
+                : vmfs_volume                 ...  OK
+        blkid: low-level superblocks probing  ...
+                : xfs-log                     ...  OK
+        blkid: low-level superblocks probing  ...
+                : xfs                         ...  OK
+        blkid: low-level superblocks probing  ...
+                : zfs                         ...  OK
+           ...        blkid: low-level superblocks probing  ...
+                : zfs                         ...  OK (all 61 sub-tests PASSED)
+        fdisk: MBR - id                       ...  OK
+        fdisk: GPT                            ...  OK
+        fdisk: MBR - dos mode                 ...  OK
+        fdisk: MBR - sort                     ...  OK
+        fdisk: invalid input tests            ...  OK
+        fdisk: MBR - non-dos mode             ...  OK
+         fsck: is mounted                     ...  SKIPPED (no root permissions)
+
+      hexdump: format-strings                 ...
+                : empty-format                ...  OK
+      hexdump: format-strings                 ...
+                : 1b_octal                    ...  OK
+      hexdump: format-strings                 ...
+                : 1b_char                     ...  OK
+      hexdump: format-strings                 ...
+                : canon                       ...  OK
+      hexdump: format-strings                 ...
+                : 2b_dec                      ...  OK
+      hexdump: format-strings                 ...
+                : 2b_octal                    ...  OK
+      hexdump: format-strings                 ...
+                : 2b_hex                      ...  OK
+           ...      hexdump: format-strings                 ...
+                : 2b_hex                      ...  OK (all 7 sub-tests PASSED)
+
+      hexdump: highlighting                   ...
+                : 1b_octal-1                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-2                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-3                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-4                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-5                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-6                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-7                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-8                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_octal-9                  ...  OK
+      hexdump: highlighting                   ...
+                : 1b_char-1                   ...  OK
+      hexdump: highlighting                   ...
+                : 1b_char-2                   ...  OK
+      hexdump: highlighting                   ...
+                : 1b_char-3                   ...  OK
+      hexdump: highlighting                   ...
+                : canon-1                     ...  OK
+      hexdump: highlighting                   ...
+                : canon-2                     ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-1                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-2                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-3                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-4                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-5                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-6                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-7                    ...  OK
+      hexdump: highlighting                   ...
+                : 2b_dec-8                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-1                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-2                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-3                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-4                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-5                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-6                    ...  OK
+      hexdump: highlighting                   ...
+                : 4b_dec-7                    ...  OK
+           ...      hexdump: highlighting                   ...
+                : 4b_dec-7                    ...  OK (all 29 sub-tests PASSED)
+      hwclock: system to hw                   ...  SKIPPED (no root permissions)
+         ipcs: headers                        ...  OK
+         ipcs: limits overflow                ...  SKIPPED (no root permissions)
+        fdisk: sunlabel tests                 ...  OK
+         ipcs: basic limits                   ...  KNOWN FAILED (ipcs/limits2)
+         ipcs: mk-rm-msg                      ...  OK
+         ipcs: mk-rm-sem                      ...  OK
+
+         ipcs: mk-rm-shm                      ...  OK
+      isosize: print-size                     ...
+                : default_output              ...  OK
+      isosize: print-size                     ...
+                : sector_output               ...  OK
+      isosize: print-size                     ...
+                : divisor_output              ...  OK
+           ...      isosize: print-size                     ...
+                : divisor_output              ...  OK (all 3 sub-tests PASSED)
+         kill: all_processes                  ...  SKIPPED (no root permissions)
+         kill: options                        ...  OK
+         kill: print_pid                      ...  OK
+         kill: queue                          ...  OK
+         kill: name_to_number                 ...  OK
+     libfdisk: GPT                            ...  SKIPPED (test_fdisk_gpt not found)
+     libmount: context                        ...  SKIPPED (no root permissions)
+     libmount: context-py                     ...  SKIPPED (pylibmount not compiled)
+     libmount: context (utab)                 ...  SKIPPED (no root permissions)
+     libmount: context-py (utab)              ...  SKIPPED (pylibmount not compiled)
+     libmount: debugging                      ...  SKIPPED (test not compiled)
+     libmount: lock                           ...  SKIPPED (test not compiled)
+     libmount: table diffs                    ...  SKIPPED (test not compiled)
+     libmount: options string                 ...  SKIPPED (test not compiled)
+     libmount: tab files-py                   ...  SKIPPED (pylibmount not compiled)
+     libmount: tab files                      ...  SKIPPED (test not compiled)
+     libmount: tags                           ...  SKIPPED (no root permissions)
+     libmount: tags-py                        ...  SKIPPED (pylibmount not compiled)
+     libmount: tab update                     ...  SKIPPED (no root permissions)
+     libmount: tab update-py                  ...  SKIPPED (pylibmount not compiled)
+     libmount: utils                          ...  SKIPPED (test not compiled)
+       logger: errors                         ...  SKIPPED (missing in PATH: socat)
+       logger: formats                        ...  SKIPPED (missing in PATH: socat)
+       logger: journald                       ...  SKIPPED (unsupported)
+       logger: options                        ...  SKIPPED (missing in PATH: socat)
+        login: islocal                        ...  OK
+        login: defs                           ...  OK
+         look: separator                      ...  OK
+      losetup: losetup-blkdev                 ...  SKIPPED (no root permissions)
+      losetup: losetup                        ...  SKIPPED (no root permissions)
+
+          md5:                                ...  OK
+        lscpu:                                ...
+                : armv7                       ...  OK
+        lscpu:                                ...
+                : ppc-qemu                    ...  OK
+        minix: mkfs checksums                 ...  SKIPPED (no root permissions)
+        minix: fsck images                    ...  SKIPPED (no root permissions)
+        minix: mkfs                           ...  SKIPPED (no root permissions)
+        lscpu:                                ...
+                : ppc64-POWER7-64cpu          ...  OK
+        lscpu:                                ...
+                : ppc64-POWER7                ...  OK
+         misc: fallocate                      ...  OK
+        lscpu:                                ...
+                : s390-kvm                    ...  OK
+        lscpu:                                ...
+                : s390-lpar                   ...  OK
+         misc: getopt                         ...  OK
+        lscpu:                                ...
+                : s390-zvm                    ...  OK
+
+         misc: getopt2                        ...
+                : alternative_option_clash    ...  OK
+         misc: getopt2                        ...
+                : alternative_option_long     ...  OK
+         misc: getopt2                        ...
+                : alternative_option_short    ...  OK
+         misc: getopt2                        ...
+                : invalid_getopt_option       ...  OK
+        lscpu:                                ...
+                : sparc64                     ...  OK
+         misc: getopt2                        ...
+                : invocation_model_one        ...  OK
+         misc: getopt2                        ...
+                : invocation_model_three_as_one ...  OK
+         misc: getopt2                        ...
+                : invocation_model_two_as_one ...  OK
+         misc: getopt2                        ...
+                : invocation_without_parameters ...  OK
+         misc: getopt2                        ...
+                : long_option_ambiguous_1     ...  OK
+         misc: getopt2                        ...
+                : longopts                    ...  OK
+        lscpu:                                ...
+                : vbox-win                    ...  OK
+         misc: getopt2                        ...
+                : name_option_long            ...  OK
+         misc: getopt2                        ...
+                : name_option_short           ...  OK
+         misc: getopt2                        ...
+                : quiet_option_long           ...  OK
+         misc: getopt2                        ...
+                : quiet_option_short          ...  OK
+         misc: getopt2                        ...
+                : quiet_output_option_long    ...  OK
+         misc: getopt2                        ...
+                : quiet_output_option_short   ...  OK
+         misc: getopt2                        ...
+                : same_long_short_options     ...  OK
+         misc: getopt2                        ...
+                : test_for_enhanced_getopt    ...  OK
+         misc: getopt2                        ...
+                : unknown_options             ...  OK
+         misc: getopt2                        ...
+                : unquoted_option_bash        ...  OK
+         misc: getopt2                        ...
+                : unquoted_option_tcsh        ...  OK
+         misc: getopt2                        ...
+                : weird_quoting_bash          ...  OK
+         misc: getopt2                        ...
+                : weird_quoting_tcsh          ...  OK
+           ...         misc: getopt2                        ...
+                : weird_quoting_tcsh          ...  OK (all 23 sub-tests PASSED)
+
+         misc: getopt3                        ...
+                : compatible                  ...  OK
+         misc: getopt3                        ...
+                : sh                          ...  OK
+         misc: getopt3                        ...
+                : csh                         ...  OK
+         misc: getopt3                        ...
+                : no-arguments                ...  OK
+         misc: getopt3                        ...
+                : posix_correctly             ...  OK
+         misc: getopt3                        ...
+                : non-option                  ...  OK
+           ...         misc: getopt3                        ...
+                : non-option                  ...  OK (all 6 sub-tests PASSED)
+         misc: ionice                         ...  OK
+        lscpu:                                ...
+                : x86_64-64cpu                ...  OK
+         misc: line                           ...  SKIPPED (line not found)
+        lscpu:                                ...
+                : x86_64-dell_e4310           ...  OK
+           ...        lscpu:                                ...
+                : x86_64-dell_e4310           ...  OK (all 11 sub-tests PASSED)
+         misc: mcookie                        ...  OK
+         misc: rev                            ...  OK
+         misc: setarch                        ...  OK
+         misc: setsid                         ...  OK
+         misc: strtosize                      ...  OK
+         misc: ul                             ...  OK
+         misc: whereis                        ...  OK
+         more: regexp                         ...  OK
+         more: squeeze                        ...  OK
+        mount: by devname                     ...  SKIPPED (no root permissions)
+        mount: fs lists                       ...  SKIPPED (no root permissions)
+         misc: swaplabel                      ...  OK
+        mount: broken fstab                   ...  SKIPPED (no root permissions)
+        mount: by devname (fstab)             ...  SKIPPED (no root permissions)
+        mount: by devname (fstab label)       ...  SKIPPED (no root permissions)
+        mount: by devname (fstab uuid)        ...  SKIPPED (no root permissions)
+        mount: by label (fstab)               ...  SKIPPED (no root permissions)
+        mount: by label (fstab devname)       ...  SKIPPED (no root permissions)
+        mount: by label (fstab uuid)          ...  SKIPPED (no root permissions)
+        mount: none                           ...  SKIPPED (no root permissions)
+        mount: by devname (fstab symlink)     ...  SKIPPED (no root permissions)
+        mount: by uuid (fstab)                ...  SKIPPED (no root permissions)
+        mount: by uuid (fstab devname)        ...  SKIPPED (no root permissions)
+        mount: by uuid (fstab label)          ...  SKIPPED (no root permissions)
+        mount: by label                       ...  SKIPPED (no root permissions)
+        mount: move                           ...  SKIPPED (no root permissions)
+        mount: regular file                   ...  SKIPPED (no root permissions)
+        mount: remount                        ...  SKIPPED (no root permissions)
+        mount: rlimit-fsize                   ...  SKIPPED (no root permissions)
+        mount: shared-subtree                 ...  SKIPPED (no root permissions)
+        mount: call mount.<type>              ...  SKIPPED (no root permissions)
+        mount: umount-all-targets             ...  SKIPPED (no root permissions)
+        mount: umount-recursive               ...  SKIPPED (no root permissions)
+        mount: by uuid                        ...  SKIPPED (no root permissions)
+        namei: basic functionality            ...  OK
+        partx: partitions probing             ...  SKIPPED (no root permissions)
+        paths: built-in                       ...  OK
+       rename: basic check                    ...  OK
+       rename: exit codes                     ...  OK
+       rename: subdir check                   ...  OK
+       rename: symlink check                  ...  OK
+   schedutils: cpuset                         ...  OK
+       script: buffering race                 ...  OK
+
+       script: options                        ...
+                : append                      ...  OK
+       script: options                        ...
+                : force                       ...  OK
+       script: options                        ...
+                : quiet                       ...  OK
+       script: options                        ...
+                : return                      ...  OK
+           ...       script: options                        ...
+                : return                      ...  OK (all 4 sub-tests PASSED)
+       script: replay                         ...  OK
+       sfdisk: MBR                            ...  SKIPPED (no root permissions)
+       sfdisk: GPT                            ...  SKIPPED (no root permissions)
+       sfdisk: resize                         ...  SKIPPED (no root permissions)
+       swapon: by devname                     ...  SKIPPED (no root permissions)
+       swapon: fix page size                  ...  SKIPPED (no root permissions)
+       swapon: fix signature                  ...  SKIPPED (no root permissions)
+       swapon: by label                       ...  SKIPPED (no root permissions)
+       swapon: by uuid                        ...  SKIPPED (no root permissions)
+        tailf: simple                         ...  OK
+
+         utmp: last                           ...
+                : nodns                       ...  OK
+           ...         utmp: last                           ...
+                : nodns                       ...  OK (all 1 sub-tests PASSED)
+
+         utmp: last ipv6                      ...
+                : nodns                       ...  OK
+           ...         utmp: last ipv6                      ...
+                : nodns                       ...  OK (all 1 sub-tests PASSED)
+         utmp: circle                         ...  OK
+         utmp: to binary                      ...  OK
+         utmp: IPv6 to binary                 ...  OK
+         utmp: to text                        ...  OK
+         utmp: IPv6 to text                   ...  OK
+ SKIPPED (no root permissions)
+       script: race conditions                ...  OK
+
+---------------------------------------------------------------------
+  All 170 tests PASSED
+---------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[2]: Leaving directory '/sources/7.9/util-linux-2.27.1'
+make[1]: Leaving directory '/sources/7.9/util-linux-2.27.1'

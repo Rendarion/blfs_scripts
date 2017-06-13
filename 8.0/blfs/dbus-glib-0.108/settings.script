@@ -1,0 +1,13 @@
+URL=(
+"http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.108.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"dbus-1.10.14"
+"glib-2.50.3"
+)

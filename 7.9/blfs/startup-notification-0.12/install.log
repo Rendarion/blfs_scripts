@@ -1,0 +1,205 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking if malloc() and friends prototypes are sn-util.h compatible... no
+checking whether realloc (NULL,) will work... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for backtrace... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for xcb... yes
+checking for xcb_aux... yes
+checking for xcb_event... yes
+checking for x11_xcb... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libsn/Makefile
+config.status: creating test/Makefile
+config.status: creating doc/Makefile
+config.status: creating libstartup-notification-1.0.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/startup-notification-0.12'
+Making all in libsn
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/libsn'
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-common.lo -MD -MP -MF .deps/sn-common.Tpo -c -o sn-common.lo sn-common.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-common.lo -MD -MP -MF .deps/sn-common.Tpo -c sn-common.c  -fPIC -DPIC -o .libs/sn-common.o
+mv -f .deps/sn-common.Tpo .deps/sn-common.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-internals.lo -MD -MP -MF .deps/sn-internals.Tpo -c -o sn-internals.lo sn-internals.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-internals.lo -MD -MP -MF .deps/sn-internals.Tpo -c sn-internals.c  -fPIC -DPIC -o .libs/sn-internals.o
+mv -f .deps/sn-internals.Tpo .deps/sn-internals.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-launchee.lo -MD -MP -MF .deps/sn-launchee.Tpo -c -o sn-launchee.lo sn-launchee.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-launchee.lo -MD -MP -MF .deps/sn-launchee.Tpo -c sn-launchee.c  -fPIC -DPIC -o .libs/sn-launchee.o
+mv -f .deps/sn-launchee.Tpo .deps/sn-launchee.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-launcher.lo -MD -MP -MF .deps/sn-launcher.Tpo -c -o sn-launcher.lo sn-launcher.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-launcher.lo -MD -MP -MF .deps/sn-launcher.Tpo -c sn-launcher.c  -fPIC -DPIC -o .libs/sn-launcher.o
+mv -f .deps/sn-launcher.Tpo .deps/sn-launcher.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-list.lo -MD -MP -MF .deps/sn-list.Tpo -c -o sn-list.lo sn-list.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-list.lo -MD -MP -MF .deps/sn-list.Tpo -c sn-list.c  -fPIC -DPIC -o .libs/sn-list.o
+mv -f .deps/sn-list.Tpo .deps/sn-list.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-monitor.lo -MD -MP -MF .deps/sn-monitor.Tpo -c -o sn-monitor.lo sn-monitor.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-monitor.lo -MD -MP -MF .deps/sn-monitor.Tpo -c sn-monitor.c  -fPIC -DPIC -o .libs/sn-monitor.o
+mv -f .deps/sn-monitor.Tpo .deps/sn-monitor.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-util.lo -MD -MP -MF .deps/sn-util.Tpo -c -o sn-util.lo sn-util.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-util.lo -MD -MP -MF .deps/sn-util.Tpo -c sn-util.c  -fPIC -DPIC -o .libs/sn-util.o
+mv -f .deps/sn-util.Tpo .deps/sn-util.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-xmessages.lo -MD -MP -MF .deps/sn-xmessages.Tpo -c -o sn-xmessages.lo sn-xmessages.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-xmessages.lo -MD -MP -MF .deps/sn-xmessages.Tpo -c sn-xmessages.c  -fPIC -DPIC -o .libs/sn-xmessages.o
+mv -f .deps/sn-xmessages.Tpo .deps/sn-xmessages.Plo
+/bin/sh ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I.. -I..  -DSN_API_NOT_YET_FROZEN=1    -g -O2 -Wall -MT sn-xutils.lo -MD -MP -MF .deps/sn-xutils.Tpo -c -o sn-xutils.lo sn-xutils.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I.. -DSN_API_NOT_YET_FROZEN=1 -g -O2 -Wall -MT sn-xutils.lo -MD -MP -MF .deps/sn-xutils.Tpo -c sn-xutils.c  -fPIC -DPIC -o .libs/sn-xutils.o
+mv -f .deps/sn-xutils.Tpo .deps/sn-xutils.Plo
+/bin/sh ../libtool --tag=CC   --mode=link gcc  -g -O2 -Wall -no-undefined  -o libstartup-notification-1.la -rpath /usr/lib sn-common.lo sn-internals.lo sn-launchee.lo sn-launcher.lo sn-list.lo sn-monitor.lo sn-util.lo sn-xmessages.lo sn-xutils.lo -lxcb -lxcb-util -lxcb -lX11-xcb -lX11 -lxcb 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/sn-common.o .libs/sn-internals.o .libs/sn-launchee.o .libs/sn-launcher.o .libs/sn-list.o .libs/sn-monitor.o .libs/sn-util.o .libs/sn-xmessages.o .libs/sn-xutils.o   /usr/lib/libxcb-util.so /usr/lib/libX11-xcb.so /usr/lib/libX11.so /usr/lib/libxcb.so  -O2   -Wl,-soname -Wl,libstartup-notification-1.so.0 -o .libs/libstartup-notification-1.so.0.0.0
+libtool: link: (cd ".libs" && rm -f "libstartup-notification-1.so.0" && ln -s "libstartup-notification-1.so.0.0.0" "libstartup-notification-1.so.0")
+libtool: link: (cd ".libs" && rm -f "libstartup-notification-1.so" && ln -s "libstartup-notification-1.so.0.0.0" "libstartup-notification-1.so")
+libtool: link: ( cd ".libs" && rm -f "libstartup-notification-1.la" && ln -s "../libstartup-notification-1.la" "libstartup-notification-1.la" )
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/libsn'
+Making all in test
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/test'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/test'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/doc'
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12'
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12'
+make[1]: Leaving directory '/sources/7.9/startup-notification-0.12'
+Making install in libsn
+make[1]: Entering directory '/sources/7.9/startup-notification-0.12/libsn'
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/libsn'
+test -z "/usr/lib" || /bin/mkdir -p "/usr/lib"
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libstartup-notification-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libstartup-notification-1.so.0.0.0 /usr/lib/libstartup-notification-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libstartup-notification-1.so.0.0.0 libstartup-notification-1.so.0 || { rm -f libstartup-notification-1.so.0 && ln -s libstartup-notification-1.so.0.0.0 libstartup-notification-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libstartup-notification-1.so.0.0.0 libstartup-notification-1.so || { rm -f libstartup-notification-1.so && ln -s libstartup-notification-1.so.0.0.0 libstartup-notification-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libstartup-notification-1.lai /usr/lib/libstartup-notification-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+test -z "/usr/include/startup-notification-1.0/libsn" || /bin/mkdir -p "/usr/include/startup-notification-1.0/libsn"
+ /usr/bin/install -c -m 644 sn.h sn-common.h sn-launchee.h sn-launcher.h sn-monitor.h sn-util.h '/usr/include/startup-notification-1.0/libsn'
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/libsn'
+make[1]: Leaving directory '/sources/7.9/startup-notification-0.12/libsn'
+Making install in test
+make[1]: Entering directory '/sources/7.9/startup-notification-0.12/test'
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/test'
+make[1]: Leaving directory '/sources/7.9/startup-notification-0.12/test'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/startup-notification-0.12/doc'
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12/doc'
+make[1]: Leaving directory '/sources/7.9/startup-notification-0.12/doc'
+make[1]: Entering directory '/sources/7.9/startup-notification-0.12'
+make[2]: Entering directory '/sources/7.9/startup-notification-0.12'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libstartup-notification-1.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/startup-notification-0.12'
+make[1]: Leaving directory '/sources/7.9/startup-notification-0.12'
+install: creating directory '/usr/share/doc/startup-notification-0.12'
+'doc/startup-notification.txt' -> '/usr/share/doc/startup-notification-0.12/startup-notification.txt'

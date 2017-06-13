@@ -1,0 +1,322 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/vala-0.28.1'
+Making check in gee
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/gee'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/gee'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/gee'
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/gee'
+Making check in ccode
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/ccode'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/ccode'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/ccode'
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/ccode'
+Making check in vala
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/vala'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/vala'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/vala'
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/vala'
+Making check in codegen
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/codegen'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/codegen'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/codegen'
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/codegen'
+Making check in compiler
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/compiler'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/compiler'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/compiler'
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/compiler'
+Making check in vapi
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/vapi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/vapi'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/vala-0.28.1/tests'
+make  check-am
+make[3]: Entering directory '/sources/7.9/vala-0.28.1/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/vala-0.28.1/tests'
+TEST: Building...[72G[0;32mOK[m
+  /basic-types/integers: [72G[0;32mOK[m
+  /basic-types/escape-chars: [72G[0;32mOK[m
+  /basic-types/floats: [72G[0;32mOK[m
+  /basic-types/strings: [72G[0;32mOK[m
+  /basic-types/arrays: [72G[0;32mOK[m
+  /basic-types/pointers: [72G[0;32mOK[m
+  /basic-types/sizeof: [72G[0;32mOK[m
+  /basic-types/bug571486: [72G[0;32mOK[m
+  /basic-types/bug591552: [72G[0;32mOK[m
+  /basic-types/bug595751: [72G[0;32mOK[m
+  /basic-types/bug596637: [72G[0;32mOK[m
+  /basic-types/bug596785: [72G[0;32mOK[m
+  /basic-types/bug632322: [72G[0;32mOK[m
+  /basic-types/bug644046: [72G[0;32mOK[m
+  /basic-types/bug647222: [72G[0;32mOK[m
+  /basic-types/bug648364: [72G[0;32mOK[m
+  /basic-types/bug650993: [72G[0;32mOK[m
+  /basic-types/bug652380: [72G[0;32mOK[m
+  /basic-types/bug655908: [72G[0;32mOK[m
+  /basic-types/bug659975: [72G[0;32mOK[m
+  /basic-types/bug678791: [72G[0;32mOK[m
+  /basic-types/bug686336: [72G[0;32mOK[m
+  /basic-types/bug729907: [72G[0;32mOK[m
+  /basic-types/bug731017: [72G[0;32mOK[m
+  /namespaces: [72G[0;32mOK[m
+  /methods/lambda: [72G[0;32mOK[m
+  /methods/closures: [72G[0;32mOK[m
+  /methods/prepostconditions: [72G[0;32mOK[m
+  /methods/symbolresolution: [72G[0;32mOK[m
+  /methods/bug595538: [72G[0;32mOK[m
+  /methods/bug596726: [72G[0;32mOK[m
+  /methods/bug597426: [72G[0;32mOK[m
+  /methods/bug598738: [72G[0;32mOK[m
+  /methods/bug599892: [72G[0;32mOK[m
+  /methods/bug613483: [72G[0;32mOK[m
+  /methods/bug620673: [72G[0;32mOK[m
+  /methods/bug622570: [72G[0;32mOK[m
+  /methods/bug626783: [72G[0;32mOK[m
+  /methods/bug639054: [72G[0;32mOK[m
+  /methods/bug642885: [72G[0;32mOK[m
+  /methods/bug642899: [72G[0;32mOK[m
+  /methods/bug646345: [72G[0;32mOK[m
+  /methods/bug648320: [72G[0;32mOK[m
+  /methods/bug649562: [72G[0;32mOK[m
+  /methods/bug652098: [72G[0;32mOK[m
+  /methods/bug653391: [72G[0;32mOK[m
+  /methods/bug653908: [72G[0;32mOK[m
+  /methods/bug663210: [72G[0;32mOK[m
+  /methods/bug723009: [72G[0;32mOK[m
+  /methods/bug723195: [72G[0;32mOK[m
+  /methods/bug726347: [72G[0;32mOK[m
+  /methods/bug736235: [72G[0;32mOK[m
+  /methods/bug737222: [72G[0;32mOK[m
+  /methods/bug743877: [72G[0;32mOK[m
+  /methods/generics: [72G[0;32mOK[m
+  /control-flow/break: [72G[0;32mOK[m
+  /control-flow/expressions-conditional: [72G[0;32mOK[m
+  /control-flow/for: [72G[0;32mOK[m
+  /control-flow/foreach: [72G[0;32mOK[m
+  /control-flow/switch: [72G[0;32mOK[m
+  /control-flow/sideeffects: [72G[0;32mOK[m
+  /control-flow/bug639482: [72G[0;32mOK[m
+  /control-flow/bug652549: [72G[0;32mOK[m
+  /control-flow/bug661985: [72G[0;32mOK[m
+  /control-flow/bug665904: [72G[0;32mOK[m
+  /control-flow/bug691514: [72G[0;32mOK[m
+  /enums/enums: [72G[0;32mOK[m
+  /enums/flags: [72G[0;32mOK[m
+  /enums/bug673879: [72G[0;32mOK[m
+  /structs/structs: [72G[0;32mOK[m
+  /structs/gvalue: [72G[0;32mOK[m
+  /structs/bug530605: [72G[0;32mOK[m
+  /structs/bug572091: [72G[0;32mOK[m
+  /structs/bug583603: [72G[0;32mOK[m
+  /structs/bug595587: [72G[0;32mOK[m
+  /structs/bug596144: [72G[0;32mOK[m
+  /structs/bug603056: [72G[0;32mOK[m
+  /structs/bug606202: [72G[0;32mOK[m
+  /structs/bug609642: [72G[0;32mOK[m
+  /structs/bug613513: [72G[0;32mOK[m
+  /structs/bug613825: [72G[0;32mOK[m
+  /structs/bug621176: [72G[0;32mOK[m
+  /structs/bug622422: [72G[0;32mOK[m
+  /structs/bug623092: [72G[0;32mOK[m
+  /structs/bug651441: [72G[0;32mOK[m
+  /structs/bug654646: [72G[0;32mOK[m
+  /structs/bug654753: [72G[0;32mOK[m
+  /structs/bug656693: [72G[0;32mOK[m
+  /structs/bug657378: [72G[0;32mOK[m
+  /structs/bug658048: [72G[0;32mOK[m
+  /structs/bug660426: [72G[0;32mOK[m
+  /structs/bug661945: [72G[0;32mOK[m
+  /structs/bug667890: [72G[0;32mOK[m
+  /structs/bug669580: [72G[0;32mOK[m
+  /structs/bug685177: [72G[0;32mOK[m
+  /structs/bug686190: [72G[0;32mOK[m
+  /structs/bug690380: [72G[0;32mOK[m
+  /structs/bug749952: [72G[0;32mOK[m
+  /delegates/delegates: [72G[0;32mOK[m
+  /delegates/bug539166: [72G[0;32mOK[m
+  /delegates/bug595610: [72G[0;32mOK[m
+  /delegates/bug595639: [72G[0;32mOK[m
+  /delegates/bug638415: [72G[0;32mOK[m
+  /delegates/bug639751: [72G[0;32mOK[m
+  /delegates/bug659778: [72G[0;32mOK[m
+  /delegates/bug703804: [72G[0;32mOK[m
+  /objects/chainup: [72G[0;32mOK[m
+  /objects/classes: [72G[0;32mOK[m
+  /objects/fields: [72G[0;32mOK[m
+  /objects/interfaces: [72G[0;32mOK[m
+  /objects/methods: [72G[0;32mOK[m
+  /objects/properties: [72G[0;32mOK[m
+  /objects/regex: [72G[0;32mOK[m
+  /objects/signals: [72G[0;32mOK[m
+  /objects/test-025: [72G[0;32mOK[m
+  /objects/test-026: [72G[0;32mOK[m
+  /objects/test-029: [72G[0;32mOK[m
+  /objects/test-034: [72G[0;32mOK[m
+  /objects/bug566909: [72G[0;32mOK[m
+  /objects/bug588203: [72G[0;32mOK[m
+  /objects/bug589928: [72G[0;32mOK[m
+  /objects/bug593260: [72G[0;32mOK[m
+  /objects/bug596621: [72G[0;32mOK[m
+  /objects/bug597155: [72G[0;32mOK[m
+  /objects/bug597161: [72G[0;32mOK[m
+  /objects/bug613486: [72G[0;32mOK[m
+  /objects/bug613840: [72G[0;32mOK[m
+  /objects/bug620675: [72G[0;32mOK[m
+  /objects/bug620706: [72G[0;32mOK[m
+  /objects/bug624594: [72G[0;32mOK[m
+  /objects/bug626038: [72G[0;32mOK[m
+  /objects/bug628639: [72G[0;32mOK[m
+  /objects/bug634782: [72G[0;32mOK[m
+  /objects/bug642809: [72G[0;32mOK[m
+  /objects/bug643711: [72G[0;32mOK[m
+  /objects/bug646362: [72G[0;32mOK[m
+  /objects/bug646792: [72G[0;32mOK[m
+  /objects/bug647018: [72G[0;32mOK[m
+  /objects/bug653138: [72G[0;32mOK[m
+  /objects/bug654702: [72G[0;32mOK[m
+  /objects/bug663134: [72G[0;32mOK[m
+  /objects/bug664529: [72G[0;32mOK[m
+  /objects/bug667668: [72G[0;32mOK[m
+  /objects/bug683646: [72G[0;32mOK[m
+  /objects/bug695671: [72G[0;32mOK[m
+  /objects/bug701978: [72G[0;32mOK[m
+  /objects/bug702736: [72G[0;32mOK[m
+  /objects/bug702846: [72G[0;32mOK[m
+  /objects/bug751338: [72G[0;32mOK[m
+  /errors/errors: [72G[0;32mOK[m
+  /errors/bug567181: [72G[0;32mOK[m
+  /errors/bug579101: [72G[0;32mOK[m
+  /errors/bug596228: [72G[0;32mOK[m
+  /errors/bug623049: [72G[0;32mOK[m
+  /errors/bug639589: [72G[0;32mOK[m
+  /errors/bug651145: [72G[0;32mOK[m
+  /asynchronous/bug595735: [72G[0;32mOK[m
+  /asynchronous/bug595755: [72G[0;32mOK[m
+  /asynchronous/bug596177: [72G[0;32mOK[m
+  /asynchronous/bug596861: [72G[0;32mOK[m
+  /asynchronous/bug597294: [72G[0;32mOK[m
+  /asynchronous/bug598677: [72G[0;32mOK[m
+  /asynchronous/bug598697: [72G[0;32mOK[m
+  /asynchronous/bug598698: [72G[0;32mOK[m
+  /asynchronous/bug599568: [72G[0;32mOK[m
+  /asynchronous/bug600827: [72G[0;32mOK[m
+  /asynchronous/bug601558: [72G[0;32mOK[m
+  /asynchronous/bug613484: [72G[0;32mOK[m
+  /asynchronous/bug620740: [72G[0;32mOK[m
+  /asynchronous/bug639591: [72G[0;32mOK[m
+  /asynchronous/bug640721: [72G[0;32mOK[m
+  /asynchronous/bug641182: [72G[0;32mOK[m
+  /asynchronous/bug646945: [72G[0;32mOK[m
+  /asynchronous/bug652252: [72G[0;32mOK[m
+  /asynchronous/bug653861: [72G[0;32mOK[m
+  /asynchronous/bug654336: [72G[0;32mOK[m
+  /asynchronous/bug654337: [72G[0;32mOK[m
+  /asynchronous/bug661961: [72G[0;32mOK[m
+  /asynchronous/bug742621: [72G[0;32mOK[m
+  /asynchronous/closures: [72G[0;32mOK[m
+  /dbus/basic-types/server: [72G[0;31mFAIL[m
+process 15105: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15106): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 39000: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.basic_types.server.check: line 4: 15106 Trace/breakpoint trap   ./test /dbus/basic-types/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/arrays/server: [72G[0;31mFAIL[m
+process 15109: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15110): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 40477: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.arrays.server.check: line 4: 15110 Trace/breakpoint trap   ./test /dbus/arrays/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/structs/server: [72G[0;31mFAIL[m
+process 15113: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15114): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 41411: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.structs.server.check: line 4: 15114 Trace/breakpoint trap   ./test /dbus/structs/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/errors/server: [72G[0;31mFAIL[m
+process 15117: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15118): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 42283: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.errors.server.check: line 4: 15118 Trace/breakpoint trap   ./test /dbus/errors/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/async/server: [72G[0;31mFAIL[m
+process 15121: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15122): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 43345: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.async.server.check: line 4: 15122 Trace/breakpoint trap   ./test /dbus/async/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/async-errors/server: [72G[0;31mFAIL[m
+process 15125: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15126): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 44651: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.async_errors.server.check: line 4: 15126 Trace/breakpoint trap   ./test /dbus/async-errors/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/signals/server: [72G[0;31mFAIL[m
+process 15129: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15130): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 45141: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.signals.server.check: line 4: 15130 Trace/breakpoint trap   ./test /dbus/signals/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/filedescriptor/server: [72G[0;31mFAIL[m
+process 15133: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15134): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 45868: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.filedescriptor.server.check: line 4: 15134 Trace/breakpoint trap   ./test /dbus/filedescriptor/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/dicts/server: [72G[0;31mFAIL[m
+process 15137: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15138): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 46442: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.dicts.server.check: line 4: 15138 Trace/breakpoint trap   ./test /dbus/dicts/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /dbus/bug596862: [72G[0;32mOK[m
+  /dbus/bug602003/server: [72G[0;31mFAIL[m
+process 15143: D-Bus library appears to be incorrectly set up; failed to read machine uuid: Failed to open "/etc/machine-id": No such file or directory
+See the manual page for dbus-uuidgen to correct this issue.
+  D-Bus not built with -rdynamic so unable to print a backtrace
+
+** (process:15144): CRITICAL **: file /sources/7.9/vala-0.28.1/tests/_test/main.c: line 47080: uncaught error: Cannot spawn a message bus without a machine-id: Unable to load /var/lib/dbus/machine-id or /etc/machine-id: Failed to open file '/var/lib/dbus/machine-id': No such file or directory (g-file-error-quark, 4)
+dbus.bug602003.server.check: line 4: 15144 Trace/breakpoint trap   ./test /dbus/bug602003/server
+kill: usage: kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+  /gir/bug651773: [72G[0;32mOK[m
+  /gir/bug667751: [72G[0;32mOK[m
+  /gir/bug742012: [72G[0;32mOK[m
+10 of 194 tests failed
+Makefile:2207: recipe for target 'check-TESTS' failed
+make[4]: Leaving directory '/sources/7.9/vala-0.28.1/tests'
+Makefile:2081: recipe for target 'check-am' failed
+make[3]: Leaving directory '/sources/7.9/vala-0.28.1/tests'
+Makefile:2083: recipe for target 'check' failed
+make[2]: Leaving directory '/sources/7.9/vala-0.28.1/tests'
+Makefile:532: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/vala-0.28.1'
+Makefile:823: recipe for target 'check' failed

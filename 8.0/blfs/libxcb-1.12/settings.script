@@ -1,0 +1,15 @@
+URL=(
+"http://xcb.freedesktop.org/dist/libxcb-1.12.tar.bz2"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/libxcb-1.12-python3-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxau-1.0.8"
+"xcb-proto-1.12"
+"libxdmcp-1.1.2"
+)

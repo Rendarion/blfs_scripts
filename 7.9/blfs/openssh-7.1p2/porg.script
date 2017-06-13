@@ -1,0 +1,17 @@
+make install &&
+install -v -m755    contrib/ssh-copy-id /usr/bin     &&
+
+install -v -m644    contrib/ssh-copy-id.1 \
+                    /usr/share/man/man1              &&
+install -v -m755 -d /usr/share/doc/openssh-7.1p2     &&
+install -v -m644    INSTALL LICENCE OVERVIEW README* \
+                    /usr/share/doc/openssh-7.1p2
+
+echo "PermitRootLogin no" >> /etc/ssh/sshd_config
+
+sed 's@d/login@d/sshd@g' /etc/pam.d/login > /etc/pam.d/sshd &&
+chmod 644 /etc/pam.d/sshd &&
+echo "UsePAM yes" >> /etc/ssh/sshd_config
+
+cd ../blfs-bootscripts-20150924
+make install-sshd

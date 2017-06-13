@@ -1,0 +1,120 @@
+Making check in gl
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+Making check in gllib
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/src'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make  Test_parser Test_tree Test_encoding Test_indefinite Test_errors Test_simple Test_overflow Test_strings Test_choice Test_encdec copynode coding-decoding2 strict-der Test_choice_ocsp \
+  crlf benchmark threadsafety decoding
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+  CC       Test_parser.o
+  CCLD     Test_parser
+  CC       Test_tree.o
+  CCLD     Test_tree
+  CC       Test_encoding.o
+  CCLD     Test_encoding
+  CC       Test_indefinite.o
+  CCLD     Test_indefinite
+  CC       Test_errors.o
+  CCLD     Test_errors
+  CC       Test_simple.o
+  CCLD     Test_simple
+  CC       Test_overflow.o
+  CCLD     Test_overflow
+  CC       Test_strings.o
+  CCLD     Test_strings
+  CC       Test_choice.o
+  CCLD     Test_choice
+  CC       Test_encdec.o
+  CCLD     Test_encdec
+  CC       copynode.o
+  CCLD     copynode
+  CC       coding-decoding2.o
+  CCLD     coding-decoding2
+  CC       strict-der.o
+  CCLD     strict-der
+  CC       Test_choice_ocsp.o
+  CCLD     Test_choice_ocsp
+make[2]: Nothing to be done for 'crlf'.
+make[2]: Nothing to be done for 'benchmark'.
+make[2]: Nothing to be done for 'threadsafety'.
+make[2]: Nothing to be done for 'decoding'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+PASS: Test_parser
+PASS: Test_tree
+PASS: Test_encoding
+PASS: Test_indefinite
+PASS: Test_errors
+PASS: Test_simple
+PASS: Test_overflow
+PASS: crlf
+PASS: threadsafety
+PASS: Test_strings
+PASS: Test_choice
+PASS: Test_encdec
+PASS: copynode
+PASS: coding-decoding2
+PASS: strict-der
+SKIP: Test_choice_ocsp
+PASS: decoding
+============================================================================
+Testsuite summary for GNU Libtasn1 4.7
+============================================================================
+# TOTAL: 17
+# PASS:  16
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+Making check in cyclo
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7'
+  GEN      public-submodule-commit

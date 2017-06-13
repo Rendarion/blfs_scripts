@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/opus-1.1.4 &&
+make

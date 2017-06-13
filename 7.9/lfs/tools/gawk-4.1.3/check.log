@@ -1,0 +1,469 @@
+Making check in .
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3'
+make 'CFLAGS=-g -O2 -DNDEBUG' 'LDFLAGS=-Wl,-export-dynamic' check-local
+make[2]: Entering directory '/sources/7.9/gawk-4.1.3'
+make[2]: Leaving directory '/sources/7.9/gawk-4.1.3'
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3/doc'
+Making check in awklib
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3/awklib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3/awklib'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3/po'
+Making check in extension
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3/extension'
+make[2]: Entering directory '/sources/7.9/gawk-4.1.3/extension'
+make[2]: Leaving directory '/sources/7.9/gawk-4.1.3/extension'
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3/extension'
+Making check in test
+make[1]: Entering directory '/sources/7.9/gawk-4.1.3/test'
+
+Any output from "cmp" is bad news, although some differences
+in floating point values are probably benign -- in particular,
+some systems may omit a leading zero and the floating point
+precision may lead to slightly different output in a few cases.
+
+Locale environment:
+	LC_ALL="C" LANG="C"
+
+addcomma
+======== Starting basic tests ========
+anchgsub
+argarray
+arrayparm
+arrayprm2
+arrayprm3
+arrayref
+arrymem1
+arryref2
+arryref3
+arryref4
+arryref5
+arynasty
+arynocls
+aryprm1
+aryprm2
+aryprm3
+aryprm4
+aryprm5
+aryprm6
+aryprm7
+aryprm8
+arysubnm
+asgext
+awkpath
+back89
+backgsub
+badbuild
+badassign1
+childin
+callparam
+clobber
+closebad
+clsflnam
+compare
+compare2
+concat1
+concat2
+concat3
+concat4
+convfmt
+defref
+datanonl
+delarpm2
+delargv
+delfunc
+delarprm
+dfastress
+dfamb1
+dynlj
+eofsplit
+exitval1
+exit2
+exitval2
+exitval3
+fcall_exit2
+fcall_exit
+fldchgnf
+fldchg
+fnarray
+fnamedat
+fnaryscl
+fnarray2
+fnmisc
+fnasgnm
+forref
+fordel
+fsbs
+forsimp
+fsspcoln
+fsrs
+funsemnl
+fstabplus
+funsmnam
+funstack
+getline
+getline2
+getline3
+getline4
+getline5
+getlnbuf
+getnr2tb
+gsubasgn
+getnr2tm
+gsubtest
+gsubtst2
+gsubtst3
+gsubtst4
+gsubtst5
+gsubtst6
+gsubtst8
+gsubtst7
+hex
+hsprint
+inpref
+inputred
+intest
+intprec
+iobug1
+leaddig
+leadnl
+litoct
+longsub
+longwrds
+manglprm
+math
+membug1
+messages
+minusstr
+mmap8k
+mtchi18n
+nasty
+nasty2
+negexp
+negrange
+nested
+nfldstr
+nfloop
+nfneg
+nfset
+nlfldsep
+nlinstr
+nlstrina
+noeffect
+nofile
+nofmtch
+noloop1
+noloop2
+nonl
+noparms
+nors
+nulrsend
+numindex
+numsubstr
+octsub
+ofmta
+ofmt
+ofmtbig
+ofmtfidl
+ofmts
+ofs1
+onlynl
+opasnidx
+opasnslf
+paramasfunc1
+paramasfunc2
+paramdup
+paramres
+paramtyp
+parse1
+paramuninitglobal
+parsefld
+parseme
+posix2008sub
+pcntplus
+prec
+prdupval
+printf1
+printf0
+prmreuse
+prmarscl
+prtoeval
+prt1eval
+range1
+rand
+rebt8b1
+rebrackloc
+redfilnm
+regeq
+regexpbrack
+regexpbrack2
+regexprange
+regrange
+reindops
+reparse
+resplit
+rri1
+rs
+rsnul1nl
+rsnulbig
+rsnulbig2
+rstest1
+rstest2
+rstest3
+rstest4
+rstest5
+rswhite
+scalar
+sclforin
+sclifin
+sortempty
+sortglos
+splitargv
+splitarr
+splitdef
+splitvar
+splitwht
+strcat1
+strnum1
+strtod
+subamp
+subi18n
+subsepnm
+subslash
+substr
+swaplns
+synerr1
+synerr2
+tradanch
+tweakfld
+uninit2
+uninit3
+uninit4
+uninit5
+uninitialized
+unterm
+uparrfs
+wideidx
+wideidx2
+widesub
+widesub2
+widesub3
+widesub4
+wjposer1
+zero2
+zeroe0
+zeroflag
+======== Done with basic tests ========
+======== Starting Unix tests ========
+fflush
+getlnhd
+localenl
+pid
+pipeio1
+pipeio2
+poundbang
+rtlen
+rtlen01
+space
+strftlng
+======== Done with Unix tests ========
+======== Starting gawk extension tests ========
+aadelete1
+aadelete2
+aarray1
+aasort
+aasorti
+argtest
+arraysort
+backw
+badargs
+beginfile1
+beginfile2
+binmode1
+charasbytes
+colonwarn
+clos1way
+crlf
+dbugeval
+delsub
+devfd
+devfd1
+devfd2
+dumpvars
+exit
+fieldwdth
+fpat1
+fpat2
+fpat3
+fpat4
+fpatnull
+fsfwfs
+funlen
+functab2
+functab1
+fwtest
+functab3
+fwtest3
+fwtest2
+gensub
+genpot
+getlndir
+gensub2
+gnuops3
+gnuops2
+gnureops
+icasefs
+id
+icasers
+igncfs
+igncdym
+ignrcase
+ignrcas2
+incdupe2
+incdupe
+incdupe4
+incdupe3
+incdupe6
+incdupe5
+include
+incdupe7
+indirectbuiltin
+include2
+indirectcall
+indirectcall2
+lint
+lintold
+lintwarn
+manyfiles
+match1
+match2
+match3
+mbstr1
+nastyparm
+negtime
+next
+nondec
+nondec2
+patsplit
+posix
+printfbad1
+printfbad2
+printfbad3
+printfbad4
+printhuge
+procinfs
+profile0
+profile1
+profile2
+profile3
+profile4
+profile5
+profile6
+profile7
+pty1
+rebuf
+regnul1
+regnul2
+regx8bit
+reginttrad
+reint
+reint2
+rsgetline
+rsglstdin
+rsstart1
+rsstart2
+rsstart3
+rstest6
+shadow
+sortfor
+sortu
+split_after_fpat
+splitarg4
+strftime
+strtonum
+switch2
+symtab1
+symtab2
+symtab3
+symtab4
+symtab5
+symtab6
+symtab7
+symtab8
+symtab9
+======== Done with gawk extension tests ========
+double1
+======== Starting machine-specific tests ========
+double2
+intformat
+======== Done with machine-specific tests ========
+%%%%%%%%%% Inadequate locale support: skipping charset tests.
+======== Starting shared library tests ========
+make[2]: Entering directory '/sources/7.9/gawk-4.1.3/test'
+fnmatch
+filefuncs
+fork
+fork2
+fts
+functab4
+inplace1
+inplace2
+inplace3
+ordchr
+ordchr2
+readdir
+readfile
+readfile2
+revout
+revtwoway
+rwarray
+======== Done with shared library tests ========
+======== Starting MPFR tests ========
+MPFR tests not supported on this system
+testext
+======== Done with MPFR tests ========
+fmtspcl
+time
+./time.ok _time differ: char 68, line 3
+Makefile:3922: recipe for target 'time' failed
+make[2]: Leaving directory '/sources/7.9/gawk-4.1.3/test'
+make[2]: Entering directory '/sources/7.9/gawk-4.1.3/test'
+1 TESTS FAILED
+Makefile:3941: recipe for target 'pass-fail' failed
+make[2]: Leaving directory '/sources/7.9/gawk-4.1.3/test'
+make[2]: Entering directory '/sources/7.9/gawk-4.1.3/test'
+for i in _* ; \
+do  \
+	if [ "$i" != "_*" ]; then \
+	echo ============== $i ============= ; \
+	base=`echo $i | sed 's/^_//'` ; \
+	if [ -r ${base}.ok ]; then \
+	diff -c ${base}.ok $i ; \
+	else \
+	diff -c "."/${base}.ok  $i ; \
+	fi ; \
+	fi ; \
+done | more
+============== _time =============
+*** time.ok	Sun Apr  5 08:13:50 2015
+--- _time	Sun Jun  5 14:06:29 2016
+***************
+*** 1,3 ****
+  gettimeofday - systime = 0
+  sleep(1.3) = 0
+! gettimeofday - systime = 0
+--- 1,3 ----
+  gettimeofday - systime = 0
+  sleep(1.3) = 0
+! gettimeofday - systime = 1
+make[2]: Leaving directory '/sources/7.9/gawk-4.1.3/test'
+Makefile:1583: recipe for target 'check' failed
+make[1]: Leaving directory '/sources/7.9/gawk-4.1.3/test'
+Makefile:742: recipe for target 'check-recursive' failed

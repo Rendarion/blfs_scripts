@@ -1,0 +1,1205 @@
+Making check in libpam
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/libpam'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/libpam'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make  tst-pam_start tst-pam_end tst-pam_fail_delay tst-pam_open_session tst-pam_close_session tst-pam_acct_mgmt tst-pam_authenticate tst-pam_chauthtok tst-pam_setcred tst-pam_get_item tst-pam_set_item tst-pam_getenvlist tst-pam_get_user tst-pam_set_data tst-pam_mkargv tst-dlopen
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_start.o -MD -MP -MF .deps/tst-pam_start.Tpo -c -o tst-pam_start.o tst-pam_start.c
+mv -f .deps/tst-pam_start.Tpo .deps/tst-pam_start.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_start tst-pam_start.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_start tst-pam_start.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_end.o -MD -MP -MF .deps/tst-pam_end.Tpo -c -o tst-pam_end.o tst-pam_end.c
+mv -f .deps/tst-pam_end.Tpo .deps/tst-pam_end.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_end tst-pam_end.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_end tst-pam_end.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_fail_delay.o -MD -MP -MF .deps/tst-pam_fail_delay.Tpo -c -o tst-pam_fail_delay.o tst-pam_fail_delay.c
+mv -f .deps/tst-pam_fail_delay.Tpo .deps/tst-pam_fail_delay.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_fail_delay tst-pam_fail_delay.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_fail_delay tst-pam_fail_delay.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_open_session.o -MD -MP -MF .deps/tst-pam_open_session.Tpo -c -o tst-pam_open_session.o tst-pam_open_session.c
+mv -f .deps/tst-pam_open_session.Tpo .deps/tst-pam_open_session.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_open_session tst-pam_open_session.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_open_session tst-pam_open_session.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_close_session.o -MD -MP -MF .deps/tst-pam_close_session.Tpo -c -o tst-pam_close_session.o tst-pam_close_session.c
+mv -f .deps/tst-pam_close_session.Tpo .deps/tst-pam_close_session.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_close_session tst-pam_close_session.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_close_session tst-pam_close_session.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_acct_mgmt.o -MD -MP -MF .deps/tst-pam_acct_mgmt.Tpo -c -o tst-pam_acct_mgmt.o tst-pam_acct_mgmt.c
+mv -f .deps/tst-pam_acct_mgmt.Tpo .deps/tst-pam_acct_mgmt.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_acct_mgmt tst-pam_acct_mgmt.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_acct_mgmt tst-pam_acct_mgmt.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_authenticate.o -MD -MP -MF .deps/tst-pam_authenticate.Tpo -c -o tst-pam_authenticate.o tst-pam_authenticate.c
+mv -f .deps/tst-pam_authenticate.Tpo .deps/tst-pam_authenticate.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_authenticate tst-pam_authenticate.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_authenticate tst-pam_authenticate.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_chauthtok.o -MD -MP -MF .deps/tst-pam_chauthtok.Tpo -c -o tst-pam_chauthtok.o tst-pam_chauthtok.c
+mv -f .deps/tst-pam_chauthtok.Tpo .deps/tst-pam_chauthtok.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_chauthtok tst-pam_chauthtok.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_chauthtok tst-pam_chauthtok.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_setcred.o -MD -MP -MF .deps/tst-pam_setcred.Tpo -c -o tst-pam_setcred.o tst-pam_setcred.c
+mv -f .deps/tst-pam_setcred.Tpo .deps/tst-pam_setcred.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_setcred tst-pam_setcred.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_setcred tst-pam_setcred.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_get_item.o -MD -MP -MF .deps/tst-pam_get_item.Tpo -c -o tst-pam_get_item.o tst-pam_get_item.c
+mv -f .deps/tst-pam_get_item.Tpo .deps/tst-pam_get_item.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_get_item tst-pam_get_item.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_get_item tst-pam_get_item.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_set_item.o -MD -MP -MF .deps/tst-pam_set_item.Tpo -c -o tst-pam_set_item.o tst-pam_set_item.c
+mv -f .deps/tst-pam_set_item.Tpo .deps/tst-pam_set_item.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_set_item tst-pam_set_item.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_set_item tst-pam_set_item.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_getenvlist.o -MD -MP -MF .deps/tst-pam_getenvlist.Tpo -c -o tst-pam_getenvlist.o tst-pam_getenvlist.c
+mv -f .deps/tst-pam_getenvlist.Tpo .deps/tst-pam_getenvlist.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_getenvlist tst-pam_getenvlist.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_getenvlist tst-pam_getenvlist.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_get_user.o -MD -MP -MF .deps/tst-pam_get_user.Tpo -c -o tst-pam_get_user.o tst-pam_get_user.c
+mv -f .deps/tst-pam_get_user.Tpo .deps/tst-pam_get_user.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_get_user tst-pam_get_user.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_get_user tst-pam_get_user.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_set_data.o -MD -MP -MF .deps/tst-pam_set_data.Tpo -c -o tst-pam_set_data.o tst-pam_set_data.c
+mv -f .deps/tst-pam_set_data.Tpo .deps/tst-pam_set_data.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_set_data tst-pam_set_data.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_set_data tst-pam_set_data.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-pam_mkargv.o -MD -MP -MF .deps/tst-pam_mkargv.Tpo -c -o tst-pam_mkargv.o tst-pam_mkargv.c
+mv -f .deps/tst-pam_mkargv.Tpo .deps/tst-pam_mkargv.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-pam_mkargv tst-pam_mkargv.o ../libpam/libpam.la 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o .libs/tst-pam_mkargv tst-pam_mkargv.o  ../libpam/.libs/libpam.so -ldl
+gcc -DHAVE_CONFIG_H -I. -I..    -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -MT tst-dlopen.o -MD -MP -MF .deps/tst-dlopen.Tpo -c -o tst-dlopen.o tst-dlopen.c
+mv -f .deps/tst-dlopen.Tpo .deps/tst-dlopen.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2  -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-dlopen tst-dlopen.o -ldl 
+libtool: link: gcc -DLIBPAM_COMPILE -I../libpam/include -I../libpam -g -O2 -Wl,--as-needed -Wl,--no-undefined -Wl,-O1 -o tst-dlopen tst-dlopen.o  -ldl
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+PASS: tst-pam_start
+PASS: tst-pam_end
+PASS: tst-pam_fail_delay
+PASS: tst-pam_open_session
+PASS: tst-pam_close_session
+PASS: tst-pam_acct_mgmt
+PASS: tst-pam_authenticate
+PASS: tst-pam_chauthtok
+PASS: tst-pam_setcred
+PASS: tst-pam_get_item
+PASS: tst-pam_set_item
+PASS: tst-pam_getenvlist
+PASS: tst-pam_get_user
+PASS: tst-pam_set_data
+PASS: tst-pam_mkargv
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 15
+# PASS:  15
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/tests'
+Making check in libpamc
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/libpamc'
+Making check in test
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/libpamc/test'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/libpamc/test'
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/libpamc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/libpamc'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/libpamc'
+Making check in libpam_misc
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/libpam_misc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/libpam_misc'
+Making check in modules
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules'
+Making check in pam_access
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+PASS: tst-pam_access
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_access'
+Making check in pam_cracklib
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_cracklib'
+Making check in pam_debug
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+PASS: tst-pam_debug
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_debug'
+Making check in pam_deny
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+PASS: tst-pam_deny
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_deny'
+Making check in pam_echo
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+PASS: tst-pam_echo
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_echo'
+Making check in pam_env
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+PASS: tst-pam_env
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_env'
+Making check in pam_exec
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+PASS: tst-pam_exec
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_exec'
+Making check in pam_faildelay
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+PASS: tst-pam_faildelay
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_faildelay'
+Making check in pam_filter
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+Making check in upperLOWER
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter/upperLOWER'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter/upperLOWER'
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+PASS: tst-pam_filter
+make[6]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+Making all in upperLOWER
+make[7]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter/upperLOWER'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter/upperLOWER'
+make[7]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[6]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_filter'
+Making check in pam_ftp
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+PASS: tst-pam_ftp
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_ftp'
+Making check in pam_group
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+PASS: tst-pam_group
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_group'
+Making check in pam_issue
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+PASS: tst-pam_issue
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_issue'
+Making check in pam_keyinit
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+PASS: tst-pam_keyinit
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_keyinit'
+Making check in pam_lastlog
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+PASS: tst-pam_lastlog
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_lastlog'
+Making check in pam_limits
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+PASS: tst-pam_limits
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_limits'
+Making check in pam_listfile
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+PASS: tst-pam_listfile
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_listfile'
+Making check in pam_localuser
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+PASS: tst-pam_localuser
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_localuser'
+Making check in pam_loginuid
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+PASS: tst-pam_loginuid
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_loginuid'
+Making check in pam_mail
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+PASS: tst-pam_mail
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mail'
+Making check in pam_mkhomedir
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+PASS: tst-pam_mkhomedir
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_mkhomedir'
+Making check in pam_motd
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+PASS: tst-pam_motd
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_motd'
+Making check in pam_namespace
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+PASS: tst-pam_namespace
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_namespace'
+Making check in pam_nologin
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+PASS: tst-pam_nologin
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_nologin'
+Making check in pam_permit
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+PASS: tst-pam_permit
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_permit'
+Making check in pam_pwhistory
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+PASS: tst-pam_pwhistory
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_pwhistory'
+Making check in pam_rhosts
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+PASS: tst-pam_rhosts
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rhosts'
+Making check in pam_rootok
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+PASS: tst-pam_rootok
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_rootok'
+Making check in pam_securetty
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+PASS: tst-pam_securetty
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_securetty'
+Making check in pam_selinux
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_selinux'
+Making check in pam_sepermit
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_sepermit'
+Making check in pam_shells
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+PASS: tst-pam_shells
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_shells'
+Making check in pam_stress
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+PASS: tst-pam_stress
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_stress'
+Making check in pam_succeed_if
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+PASS: tst-pam_succeed_if
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_succeed_if'
+Making check in pam_tally
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+PASS: tst-pam_tally
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally'
+Making check in pam_tally2
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+PASS: tst-pam_tally2
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tally2'
+Making check in pam_time
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+PASS: tst-pam_time
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_time'
+Making check in pam_timestamp
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+PASS: tst-pam_timestamp
+PASS: hmacfile
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_timestamp'
+Making check in pam_tty_audit
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_tty_audit'
+Making check in pam_umask
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+PASS: tst-pam_umask
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_umask'
+Making check in pam_unix
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+PASS: tst-pam_unix
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_unix'
+Making check in pam_userdb
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_userdb'
+Making check in pam_warn
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+PASS: tst-pam_warn
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_warn'
+Making check in pam_wheel
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+PASS: tst-pam_wheel
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_wheel'
+Making check in pam_xauth
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make[4]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+PASS: tst-pam_xauth
+make[5]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+============================================================================
+Testsuite summary for Linux-PAM 1.2.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules/pam_xauth'
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/modules'
+Making check in po
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/po'
+Making check in conf
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/conf'
+Making check in pam_conv1
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/conf/pam_conv1'
+make  check-am
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/conf/pam_conv1'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/conf/pam_conv1'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/conf/pam_conv1'
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/conf'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/conf'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/conf'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc'
+Making check in man
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/man'
+Making check in specs
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/specs'
+make  check-am
+make[3]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/specs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/specs'
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/specs'
+Making check in sag
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/sag'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/sag'
+Making check in adg
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/adg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/adg'
+Making check in mwg
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc/mwg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc/mwg'
+make[2]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/doc'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/examples'
+Making check in xtests
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1/xtests'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1/xtests'
+make[1]: Entering directory '/sources/7.9/Linux-PAM-1.2.1'
+make[1]: Leaving directory '/sources/7.9/Linux-PAM-1.2.1'
+removed '/etc/pam.d/other'

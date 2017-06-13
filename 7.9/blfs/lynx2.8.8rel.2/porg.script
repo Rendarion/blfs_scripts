@@ -1,0 +1,8 @@
+make install-full &&
+chgrp -v -R root /usr/share/doc/lynx-2.8.8rel.2/lynx_doc
+
+sed -i 's/#\(LOCALE_CHARSET\):FALSE/\1:TRUE/' /etc/lynx/lynx.cfg
+
+sed -i 's/#\(DEFAULT_EDITOR\):/\1:vi/' /etc/lynx/lynx.cfg
+
+sed -i 's/#\(PERSISTENT_COOKIES\):FALSE/\1:TRUE/' /etc/lynx/lynx.cfg

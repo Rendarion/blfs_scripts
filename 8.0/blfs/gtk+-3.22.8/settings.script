@@ -1,0 +1,18 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/gtk+/3.22/gtk+-3.22.8.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"at-spi2-atk-2.22.0"
+"gdk-pixbuf-2.36.5"
+"libepoxy-1.4.0"
+"pango-1.40.3"
+"hicolor-icon-theme-0.15"
+"adwaita-icon-theme-3.22.0"
+"gobject-introspection-1.50.0"
+)

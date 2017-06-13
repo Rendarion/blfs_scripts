@@ -1,0 +1,264 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking winapifamily.h usability... no
+checking winapifamily.h presence... no
+checking for winapifamily.h... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libebml.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-am
+make[1]: Entering directory '/sources/7.9/libebml-1.3.3'
+depbase=`echo src/Debug.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/Debug.lo -MD -MP -MF $depbase.Tpo -c -o src/Debug.lo src/Debug.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/Debug.lo -MD -MP -MF src/.deps/Debug.Tpo -c src/Debug.cpp  -fPIC -DPIC -o src/.libs/Debug.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/Debug.lo -MD -MP -MF src/.deps/Debug.Tpo -c src/Debug.cpp -o src/Debug.o >/dev/null 2>&1
+depbase=`echo src/EbmlBinary.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlBinary.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlBinary.lo src/EbmlBinary.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlBinary.lo -MD -MP -MF src/.deps/EbmlBinary.Tpo -c src/EbmlBinary.cpp  -fPIC -DPIC -o src/.libs/EbmlBinary.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlBinary.lo -MD -MP -MF src/.deps/EbmlBinary.Tpo -c src/EbmlBinary.cpp -o src/EbmlBinary.o >/dev/null 2>&1
+depbase=`echo src/EbmlContexts.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlContexts.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlContexts.lo src/EbmlContexts.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlContexts.lo -MD -MP -MF src/.deps/EbmlContexts.Tpo -c src/EbmlContexts.cpp  -fPIC -DPIC -o src/.libs/EbmlContexts.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlContexts.lo -MD -MP -MF src/.deps/EbmlContexts.Tpo -c src/EbmlContexts.cpp -o src/EbmlContexts.o >/dev/null 2>&1
+depbase=`echo src/EbmlCrc32.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlCrc32.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlCrc32.lo src/EbmlCrc32.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlCrc32.lo -MD -MP -MF src/.deps/EbmlCrc32.Tpo -c src/EbmlCrc32.cpp  -fPIC -DPIC -o src/.libs/EbmlCrc32.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlCrc32.lo -MD -MP -MF src/.deps/EbmlCrc32.Tpo -c src/EbmlCrc32.cpp -o src/EbmlCrc32.o >/dev/null 2>&1
+depbase=`echo src/EbmlDate.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlDate.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlDate.lo src/EbmlDate.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlDate.lo -MD -MP -MF src/.deps/EbmlDate.Tpo -c src/EbmlDate.cpp  -fPIC -DPIC -o src/.libs/EbmlDate.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlDate.lo -MD -MP -MF src/.deps/EbmlDate.Tpo -c src/EbmlDate.cpp -o src/EbmlDate.o >/dev/null 2>&1
+depbase=`echo src/EbmlDummy.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlDummy.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlDummy.lo src/EbmlDummy.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlDummy.lo -MD -MP -MF src/.deps/EbmlDummy.Tpo -c src/EbmlDummy.cpp  -fPIC -DPIC -o src/.libs/EbmlDummy.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlDummy.lo -MD -MP -MF src/.deps/EbmlDummy.Tpo -c src/EbmlDummy.cpp -o src/EbmlDummy.o >/dev/null 2>&1
+depbase=`echo src/EbmlElement.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlElement.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlElement.lo src/EbmlElement.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlElement.lo -MD -MP -MF src/.deps/EbmlElement.Tpo -c src/EbmlElement.cpp  -fPIC -DPIC -o src/.libs/EbmlElement.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlElement.lo -MD -MP -MF src/.deps/EbmlElement.Tpo -c src/EbmlElement.cpp -o src/EbmlElement.o >/dev/null 2>&1
+depbase=`echo src/EbmlFloat.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlFloat.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlFloat.lo src/EbmlFloat.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlFloat.lo -MD -MP -MF src/.deps/EbmlFloat.Tpo -c src/EbmlFloat.cpp  -fPIC -DPIC -o src/.libs/EbmlFloat.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlFloat.lo -MD -MP -MF src/.deps/EbmlFloat.Tpo -c src/EbmlFloat.cpp -o src/EbmlFloat.o >/dev/null 2>&1
+depbase=`echo src/EbmlHead.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlHead.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlHead.lo src/EbmlHead.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlHead.lo -MD -MP -MF src/.deps/EbmlHead.Tpo -c src/EbmlHead.cpp  -fPIC -DPIC -o src/.libs/EbmlHead.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlHead.lo -MD -MP -MF src/.deps/EbmlHead.Tpo -c src/EbmlHead.cpp -o src/EbmlHead.o >/dev/null 2>&1
+depbase=`echo src/EbmlMaster.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlMaster.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlMaster.lo src/EbmlMaster.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlMaster.lo -MD -MP -MF src/.deps/EbmlMaster.Tpo -c src/EbmlMaster.cpp  -fPIC -DPIC -o src/.libs/EbmlMaster.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlMaster.lo -MD -MP -MF src/.deps/EbmlMaster.Tpo -c src/EbmlMaster.cpp -o src/EbmlMaster.o >/dev/null 2>&1
+depbase=`echo src/EbmlSInteger.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlSInteger.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlSInteger.lo src/EbmlSInteger.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlSInteger.lo -MD -MP -MF src/.deps/EbmlSInteger.Tpo -c src/EbmlSInteger.cpp  -fPIC -DPIC -o src/.libs/EbmlSInteger.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlSInteger.lo -MD -MP -MF src/.deps/EbmlSInteger.Tpo -c src/EbmlSInteger.cpp -o src/EbmlSInteger.o >/dev/null 2>&1
+depbase=`echo src/EbmlStream.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlStream.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlStream.lo src/EbmlStream.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlStream.lo -MD -MP -MF src/.deps/EbmlStream.Tpo -c src/EbmlStream.cpp  -fPIC -DPIC -o src/.libs/EbmlStream.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlStream.lo -MD -MP -MF src/.deps/EbmlStream.Tpo -c src/EbmlStream.cpp -o src/EbmlStream.o >/dev/null 2>&1
+depbase=`echo src/EbmlString.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlString.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlString.lo src/EbmlString.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlString.lo -MD -MP -MF src/.deps/EbmlString.Tpo -c src/EbmlString.cpp  -fPIC -DPIC -o src/.libs/EbmlString.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlString.lo -MD -MP -MF src/.deps/EbmlString.Tpo -c src/EbmlString.cpp -o src/EbmlString.o >/dev/null 2>&1
+depbase=`echo src/EbmlSubHead.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlSubHead.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlSubHead.lo src/EbmlSubHead.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlSubHead.lo -MD -MP -MF src/.deps/EbmlSubHead.Tpo -c src/EbmlSubHead.cpp  -fPIC -DPIC -o src/.libs/EbmlSubHead.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlSubHead.lo -MD -MP -MF src/.deps/EbmlSubHead.Tpo -c src/EbmlSubHead.cpp -o src/EbmlSubHead.o >/dev/null 2>&1
+depbase=`echo src/EbmlUInteger.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlUInteger.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlUInteger.lo src/EbmlUInteger.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlUInteger.lo -MD -MP -MF src/.deps/EbmlUInteger.Tpo -c src/EbmlUInteger.cpp  -fPIC -DPIC -o src/.libs/EbmlUInteger.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlUInteger.lo -MD -MP -MF src/.deps/EbmlUInteger.Tpo -c src/EbmlUInteger.cpp -o src/EbmlUInteger.o >/dev/null 2>&1
+depbase=`echo src/EbmlUnicodeString.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlUnicodeString.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlUnicodeString.lo src/EbmlUnicodeString.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlUnicodeString.lo -MD -MP -MF src/.deps/EbmlUnicodeString.Tpo -c src/EbmlUnicodeString.cpp  -fPIC -DPIC -o src/.libs/EbmlUnicodeString.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlUnicodeString.lo -MD -MP -MF src/.deps/EbmlUnicodeString.Tpo -c src/EbmlUnicodeString.cpp -o src/EbmlUnicodeString.o >/dev/null 2>&1
+depbase=`echo src/EbmlVersion.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlVersion.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlVersion.lo src/EbmlVersion.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlVersion.lo -MD -MP -MF src/.deps/EbmlVersion.Tpo -c src/EbmlVersion.cpp  -fPIC -DPIC -o src/.libs/EbmlVersion.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlVersion.lo -MD -MP -MF src/.deps/EbmlVersion.Tpo -c src/EbmlVersion.cpp -o src/EbmlVersion.o >/dev/null 2>&1
+depbase=`echo src/EbmlVoid.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/EbmlVoid.lo -MD -MP -MF $depbase.Tpo -c -o src/EbmlVoid.lo src/EbmlVoid.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlVoid.lo -MD -MP -MF src/.deps/EbmlVoid.Tpo -c src/EbmlVoid.cpp  -fPIC -DPIC -o src/.libs/EbmlVoid.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/EbmlVoid.lo -MD -MP -MF src/.deps/EbmlVoid.Tpo -c src/EbmlVoid.cpp -o src/EbmlVoid.o >/dev/null 2>&1
+depbase=`echo src/IOCallback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/IOCallback.lo -MD -MP -MF $depbase.Tpo -c -o src/IOCallback.lo src/IOCallback.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/IOCallback.lo -MD -MP -MF src/.deps/IOCallback.Tpo -c src/IOCallback.cpp  -fPIC -DPIC -o src/.libs/IOCallback.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/IOCallback.lo -MD -MP -MF src/.deps/IOCallback.Tpo -c src/IOCallback.cpp -o src/IOCallback.o >/dev/null 2>&1
+depbase=`echo src/MemIOCallback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/MemIOCallback.lo -MD -MP -MF $depbase.Tpo -c -o src/MemIOCallback.lo src/MemIOCallback.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/MemIOCallback.lo -MD -MP -MF src/.deps/MemIOCallback.Tpo -c src/MemIOCallback.cpp  -fPIC -DPIC -o src/.libs/MemIOCallback.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/MemIOCallback.lo -MD -MP -MF src/.deps/MemIOCallback.Tpo -c src/MemIOCallback.cpp -o src/MemIOCallback.o >/dev/null 2>&1
+depbase=`echo src/MemReadIOCallback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/MemReadIOCallback.lo -MD -MP -MF $depbase.Tpo -c -o src/MemReadIOCallback.lo src/MemReadIOCallback.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/MemReadIOCallback.lo -MD -MP -MF src/.deps/MemReadIOCallback.Tpo -c src/MemReadIOCallback.cpp  -fPIC -DPIC -o src/.libs/MemReadIOCallback.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/MemReadIOCallback.lo -MD -MP -MF src/.deps/MemReadIOCallback.Tpo -c src/MemReadIOCallback.cpp -o src/MemReadIOCallback.o >/dev/null 2>&1
+depbase=`echo src/SafeReadIOCallback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/SafeReadIOCallback.lo -MD -MP -MF $depbase.Tpo -c -o src/SafeReadIOCallback.lo src/SafeReadIOCallback.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/SafeReadIOCallback.lo -MD -MP -MF src/.deps/SafeReadIOCallback.Tpo -c src/SafeReadIOCallback.cpp  -fPIC -DPIC -o src/.libs/SafeReadIOCallback.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/SafeReadIOCallback.lo -MD -MP -MF src/.deps/SafeReadIOCallback.Tpo -c src/SafeReadIOCallback.cpp -o src/SafeReadIOCallback.o >/dev/null 2>&1
+depbase=`echo src/StdIOCallback.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -MT src/StdIOCallback.lo -MD -MP -MF $depbase.Tpo -c -o src/StdIOCallback.lo src/StdIOCallback.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/StdIOCallback.lo -MD -MP -MF src/.deps/StdIOCallback.Tpo -c src/StdIOCallback.cpp  -fPIC -DPIC -o src/.libs/StdIOCallback.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/StdIOCallback.lo -MD -MP -MF src/.deps/StdIOCallback.Tpo -c src/StdIOCallback.cpp -o src/StdIOCallback.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CXX   --mode=link g++ -Wall -Wextra -Wno-unknown-pragmas -Wshadow  -g -O2 -version-info 4:0:0 -no-undefined  -o libebml.la -rpath /usr/lib src/Debug.lo src/EbmlBinary.lo src/EbmlContexts.lo src/EbmlCrc32.lo src/EbmlDate.lo src/EbmlDummy.lo src/EbmlElement.lo src/EbmlFloat.lo src/EbmlHead.lo src/EbmlMaster.lo src/EbmlSInteger.lo src/EbmlStream.lo src/EbmlString.lo src/EbmlSubHead.lo src/EbmlUInteger.lo src/EbmlUnicodeString.lo src/EbmlVersion.lo src/EbmlVoid.lo src/IOCallback.lo src/MemIOCallback.lo src/MemReadIOCallback.lo src/SafeReadIOCallback.lo src/StdIOCallback.lo  
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o  src/.libs/Debug.o src/.libs/EbmlBinary.o src/.libs/EbmlContexts.o src/.libs/EbmlCrc32.o src/.libs/EbmlDate.o src/.libs/EbmlDummy.o src/.libs/EbmlElement.o src/.libs/EbmlFloat.o src/.libs/EbmlHead.o src/.libs/EbmlMaster.o src/.libs/EbmlSInteger.o src/.libs/EbmlStream.o src/.libs/EbmlString.o src/.libs/EbmlSubHead.o src/.libs/EbmlUInteger.o src/.libs/EbmlUnicodeString.o src/.libs/EbmlVersion.o src/.libs/EbmlVoid.o src/.libs/IOCallback.o src/.libs/MemIOCallback.o src/.libs/MemReadIOCallback.o src/.libs/SafeReadIOCallback.o src/.libs/StdIOCallback.o   -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. /usr/lib/../lib64/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crtn.o  -g -O2   -Wl,-soname -Wl,libebml.so.4 -o .libs/libebml.so.4.0.0
+libtool: link: (cd ".libs" && rm -f "libebml.so.4" && ln -s "libebml.so.4.0.0" "libebml.so.4")
+libtool: link: (cd ".libs" && rm -f "libebml.so" && ln -s "libebml.so.4.0.0" "libebml.so")
+libtool: link: ar cru .libs/libebml.a  src/Debug.o src/EbmlBinary.o src/EbmlContexts.o src/EbmlCrc32.o src/EbmlDate.o src/EbmlDummy.o src/EbmlElement.o src/EbmlFloat.o src/EbmlHead.o src/EbmlMaster.o src/EbmlSInteger.o src/EbmlStream.o src/EbmlString.o src/EbmlSubHead.o src/EbmlUInteger.o src/EbmlUnicodeString.o src/EbmlVersion.o src/EbmlVoid.o src/IOCallback.o src/MemIOCallback.o src/MemReadIOCallback.o src/SafeReadIOCallback.o src/StdIOCallback.o
+libtool: link: ranlib .libs/libebml.a
+libtool: link: ( cd ".libs" && rm -f "libebml.la" && ln -s "../libebml.la" "libebml.la" )
+make[1]: Leaving directory '/sources/7.9/libebml-1.3.3'
+make[1]: Entering directory '/sources/7.9/libebml-1.3.3'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libebml.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libebml.so.4.0.0 /usr/lib/libebml.so.4.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libebml.so.4.0.0 libebml.so.4 || { rm -f libebml.so.4 && ln -s libebml.so.4.0.0 libebml.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libebml.so.4.0.0 libebml.so || { rm -f libebml.so && ln -s libebml.so.4.0.0 libebml.so; }; })
+libtool: install: /usr/bin/install -c .libs/libebml.lai /usr/lib/libebml.la
+libtool: install: /usr/bin/install -c .libs/libebml.a /usr/lib/libebml.a
+libtool: install: chmod 644 /usr/lib/libebml.a
+libtool: install: ranlib /usr/lib/libebml.a
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/ebml'
+ /usr/bin/install -c -m 644  ebml/Debug.h ebml/EbmlBinary.h ebml/EbmlConfig.h ebml/EbmlContexts.h ebml/EbmlCrc32.h ebml/EbmlDate.h ebml/EbmlDummy.h ebml/EbmlElement.h ebml/EbmlEndian.h ebml/EbmlFloat.h ebml/EbmlHead.h ebml/EbmlId.h ebml/EbmlMaster.h ebml/EbmlSInteger.h ebml/EbmlStream.h ebml/EbmlString.h ebml/EbmlSubHead.h ebml/EbmlTypes.h ebml/EbmlUInteger.h ebml/EbmlUnicodeString.h ebml/EbmlVersion.h ebml/EbmlVoid.h ebml/IOCallback.h ebml/MemIOCallback.h ebml/MemReadIOCallback.h ebml/SafeReadIOCallback.h ebml/StdIOCallback.h '/usr/include/ebml'
+ /bin/mkdir -p '/usr/include/ebml/c'
+ /usr/bin/install -c -m 644  ebml/c/libebml_t.h '/usr/include/ebml/c'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libebml.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/libebml-1.3.3'

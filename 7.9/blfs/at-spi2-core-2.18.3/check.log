@@ -1,0 +1,42 @@
+Making check in po
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package at-spi2-core --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/po'
+Making check in dbind
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make  dbtest
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+  CC       dbtest.o
+  CC       atspi-gmain.o
+  CCLD     dbtest
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+FAIL: dbtest
+============================================================================
+Testsuite summary for at-spi2-core 2.18.3
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See dbind/test-suite.log
+Please report to accessibility-atspi@lists.linux-foundation.org
+============================================================================
+Makefile:779: recipe for target 'test-suite.log' failed
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:885: recipe for target 'check-TESTS' failed
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:958: recipe for target 'check-am' failed
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:551: recipe for target 'check-recursive' failed

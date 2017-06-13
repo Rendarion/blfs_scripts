@@ -1,0 +1,5 @@
+make install install-dev install-lib
+chmod -v 755 /usr/lib/libattr.so
+
+mv -v /usr/lib/libattr.so.* /lib
+ln -sfv ../../lib/$(readlink /usr/lib/libattr.so) /usr/lib/libattr.so

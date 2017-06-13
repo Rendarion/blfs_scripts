@@ -1,0 +1,129 @@
+Making check in dbus
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making check in .
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making check in statemachine
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make  check-am
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make  check-am
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+Making check in test
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/lib'
+Making check in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+PASS: test-compile-nested.sh
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in core
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  check-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+Making check in interfaces
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  check-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106'

@@ -1,0 +1,2 @@
+install -v -m755 pam_cap/pam_cap.so /lib/security &&
+install -v -m644 pam_cap/capability.conf /etc/security

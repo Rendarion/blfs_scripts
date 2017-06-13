@@ -1,0 +1,7 @@
+LFSVS=$(basename $(dirname $PWD))
+source /sources/scripts/$LFSVS/blfs/settings.script
+
+make install &&
+ldconfig
+
+usermod -a -G video $USERNAME

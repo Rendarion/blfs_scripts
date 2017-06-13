@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --with-udev-dir=/lib/udev &&
+make

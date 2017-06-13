@@ -1,0 +1,92 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/xz-5.2.2/src'
+Making check in liblzma
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src/liblzma'
+Making check in api
+make[3]: Entering directory '/sources/7.9/xz-5.2.2/src/liblzma/api'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/xz-5.2.2/src/liblzma/api'
+make[3]: Entering directory '/sources/7.9/xz-5.2.2/src/liblzma'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/xz-5.2.2/src/liblzma'
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src/liblzma'
+Making check in xzdec
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src/xzdec'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src/xzdec'
+Making check in xz
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src/xz'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src/xz'
+Making check in lzmainfo
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src/lzmainfo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src/lzmainfo'
+Making check in scripts
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src/scripts'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src/scripts'
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/src'
+make[1]: Leaving directory '/sources/7.9/xz-5.2.2/src'
+Making check in po
+make[1]: Entering directory '/sources/7.9/xz-5.2.2/po'
+make[1]: Leaving directory '/sources/7.9/xz-5.2.2/po'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/xz-5.2.2/tests'
+make  create_compress_files test_check test_stream_flags test_filter_flags test_block_header test_index test_bcj_exact_size
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT create_compress_files.o -MD -MP -MF .deps/create_compress_files.Tpo -c -o create_compress_files.o create_compress_files.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_check.o -MD -MP -MF .deps/test_check.Tpo -c -o test_check.o test_check.c
+mv -f .deps/test_check.Tpo .deps/test_check.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_stream_flags.o -MD -MP -MF .deps/test_stream_flags.Tpo -c -o test_stream_flags.o test_stream_flags.c
+mv -f .deps/create_compress_files.Tpo .deps/create_compress_files.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_filter_flags.o -MD -MP -MF .deps/test_filter_flags.Tpo -c -o test_filter_flags.o test_filter_flags.c
+mv -f .deps/test_stream_flags.Tpo .deps/test_stream_flags.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_block_header.o -MD -MP -MF .deps/test_block_header.Tpo -c -o test_block_header.o test_block_header.c
+mv -f .deps/test_filter_flags.Tpo .deps/test_filter_flags.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_index.o -MD -MP -MF .deps/test_index.Tpo -c -o test_index.o test_index.c
+mv -f .deps/test_block_header.Tpo .deps/test_block_header.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src/common -I../src/liblzma/api -I../lib  -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -MT test_bcj_exact_size.o -MD -MP -MF .deps/test_bcj_exact_size.Tpo -c -o test_bcj_exact_size.o test_bcj_exact_size.c
+mv -f .deps/test_bcj_exact_size.Tpo .deps/test_bcj_exact_size.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o create_compress_files create_compress_files.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/create_compress_files create_compress_files.o  ../src/liblzma/.libs/liblzma.so -pthread
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_check test_check.o ../src/liblzma/liblzma.la   
+mv -f .deps/test_index.Tpo .deps/test_index.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_stream_flags test_stream_flags.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_check test_check.o  ../src/liblzma/.libs/liblzma.so -pthread
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_filter_flags test_filter_flags.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_stream_flags test_stream_flags.o  ../src/liblzma/.libs/liblzma.so -pthread
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_block_header test_block_header.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_filter_flags test_filter_flags.o  ../src/liblzma/.libs/liblzma.so -pthread
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_index test_index.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_block_header test_block_header.o  ../src/liblzma/.libs/liblzma.so -pthread
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2   -o test_bcj_exact_size test_bcj_exact_size.o ../src/liblzma/liblzma.la   
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_index test_index.o  ../src/liblzma/.libs/liblzma.so -pthread
+libtool: link: gcc -pthread -fvisibility=hidden -Wall -Wextra -Wvla -Wformat=2 -Winit-self -Wmissing-include-dirs -Wstrict-aliasing -Wfloat-equal -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Wlogical-op -Waggregate-return -Wstrict-prototypes -Wold-style-definition -Wmissing-prototypes -Wmissing-declarations -Wmissing-noreturn -Wredundant-decls -g -O2 -o .libs/test_bcj_exact_size test_bcj_exact_size.o  ../src/liblzma/.libs/liblzma.so -pthread
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/xz-5.2.2/tests'
+PASS: test_check
+PASS: test_stream_flags
+PASS: test_filter_flags
+PASS: test_block_header
+PASS: test_index
+PASS: test_bcj_exact_size
+PASS: test_files.sh
+test_compress.sh:
+  generated_abc.............
+  generated_random.............
+  generated_text.............
+  prepared_bcj_sparc.............
+  prepared_bcj_x86.............
+PASS: test_compress.sh
+PASS: test_scripts.sh
+==================
+All 9 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/xz-5.2.2/tests'
+make[1]: Leaving directory '/sources/7.9/xz-5.2.2/tests'
+make[1]: Entering directory '/sources/7.9/xz-5.2.2'
+make[1]: Leaving directory '/sources/7.9/xz-5.2.2'

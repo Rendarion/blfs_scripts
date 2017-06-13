@@ -1,0 +1,12 @@
+make install
+
+cat > /etc/sysconfig/ifconfig.eth0 << "EOF"
+ONBOOT="yes"
+IFACE="eth0"
+SERVICE="dhcpcd"
+DHCP_START="-b -q"
+DHCP_STOP="-k"
+EOF
+
+cd ../$(basename $(find "/sources/$LFSVS" -maxdepth 1 -type d -name "blfs-bootscripts*"))
+make install-service-$((echo $PKG) | cut -d - -f 1)

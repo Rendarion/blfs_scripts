@@ -1,0 +1,11 @@
+URL=(
+"https://openssl.org/source/openssl-1.0.2k.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

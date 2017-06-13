@@ -1,0 +1,5 @@
+PKG=$(basename $PWD)
+
+make MANDIR=/usr/share/man MANSUFFIX=ssl install &&
+install -dv -m755 /usr/share/doc/$PKG  &&
+cp -vfr doc/*     /usr/share/doc/$PKG

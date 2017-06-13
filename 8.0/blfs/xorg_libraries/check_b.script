@@ -1,0 +1,3 @@
+cd ../xc/lib
+
+grep -A9 summary *make_check.log

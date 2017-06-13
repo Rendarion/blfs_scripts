@@ -1,0 +1,30 @@
+MAKE x86_64-unknown-linux-gnu : 0 * check
+make[1]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu'
+Making check in include
+make[2]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/include'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/include'
+Making check in testsuite
+make[2]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/testsuite'
+make  check-DEJAGNU
+make[3]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/testsuite'
+Making a new site.exp file ...
+srcdir='../../testsuite'; export srcdir; \
+EXPECT=expect; export EXPECT; \
+if /bin/sh -c "runtest --version" > /dev/null 2>&1; then \
+  exit_status=0; l='libffi'; for tool in $l; do \
+    if runtest  --tool $tool --srcdir $srcdir ; \
+    then :; else exit_status=1; fi; \
+  done; \
+else echo "WARNING: could not find 'runtest'" 1>&2; :;\
+fi; \
+exit $exit_status
+make[3]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/testsuite'
+make[2]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/testsuite'
+Making check in man
+make[2]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu/man'
+make[2]: Entering directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu'
+make[2]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu'
+make[1]: Leaving directory '/sources/7.9/libffi-3.2.1/x86_64-unknown-linux-gnu'

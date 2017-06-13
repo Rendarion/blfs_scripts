@@ -1,0 +1,62 @@
+This file and the included files are provided license free, as is, with no waranty of any kind.
+
+## Introduction
+
+This is a collection of shell scripts that automatically compile and install a linux system 
+It is based on the instructions from the books for LFS and BLFS provided by http://www.linuxfromscratch.org/.
+
+LFS and BLFS do not provide a guide on how to manage installed software. The scripts aim to give the user better control over what is installed and how it is installed.
+For this goal the scripts try to make building and installing the software
+- easy
+- repeatable
+- reversable
+- customizable
+with a minimum of requirements.
+
+By using scripts to automate every step of the process, the state of the system is always known. For easy removal of installed software and logging of installed packages is handeled with porg from http://porg.sourceforge.net/.
+
+The scripts provided for LFS and BLFS work with the source files present at the download location on the web or in the source directory. A rudimentary mechanism for scaning and resolving dependencies on the fly is present. All scripts are text-file based shell scripts that aim to follow closely what the user would manually type into the console when using the books to set up a system. Repeated tasks such as downloading and extracting source-files and logging terminal output is automated. The scripts require no further manual editing, but can be easily customized. new scripts can be created easily and quickly by hand.
+
+## File structure
+
+The folders LFS, BLFS contain the scripts for installing the software according to the LFS and BLFS books accordingly. The folder EXTRA contains scripts for intalling software that is not found in the books. Each of this folders contains the following files and folders:
+- folder(.*).scripts	scripts named after the folder that create a complete installation of the system
+- settings.script	script that contains settings to be edited by the user, such as usernames, connection settings and passwords
+- install.script	Script that handles installing of the individual packages
+- BLANK/		Folder containing the defaults files needed for a creating a new package
+- Folders containing the scripts for installing individual packages
+- optional files to handle logging
+
+additional files in LFS:
+To install a complete LFS system and log the process, run start.lfs.script.
+backup_logs.script is used to move all logs from individual package folders to a backup folder.
+remove_logs.script removes all logs from the individual package folders.
+
+## package folders
+
+The following files are contained in the package folders:
+in "lfs/" only:
+- build.script		contains the instructions for compilation (usually configure and make step)
+- porg.script		contains the instructions for installing the software (deployment logged by porg)
+
+additionally:
+- settings.script	contains donwload path and misc. individual settings
+- check.script		if present runs and logs test suit (is run before installation)
+- check_b.script	if present runs and logs test suit (after installation)
+
+## install.script usage
+
+LFS:
+As an example the build of an LFS based installation is explained:
+"start.lfs.script" is executed by the user. It is necessary for loging and starts lfs.script which starts further scripts that install and build all packages in order automatically. This is done by moving to each folder and starting the install.script in /lfs. The install script than calls the scripts in the individual package folder which executes the installation. This way, each package folder is an individual entity. Each step, such as working through the packages and changing chroot environments and switching to newly built shells can be done manually, while still using the install.script to automate installing each package and it's logging. If desired, packages can be unpacked manually and installed by using the build.script and/or the porg.script and suplemental instructions without the aid of install.script and logging. In the process, the commands issued by the script follow the commands and order of the BOOK closely (with the addition of installing porg and minor alterations for scripting purposes. Necessary tools to jumpstart the BLFS package installation are also included.).
+
+BLFS:
+In /blfs, a package is installed by opening the individual package folder and executing the blfs/install.script in it. The script accepts several parameters, which can be combined for desired behaviour:
+--build		only builds the software
+--dep-check	checks for dependencies (experimental)
+--deploy	only installs the software
+--no-test	skips all tests
+--retain	does not remove the build folder before or after the process
+
+How to create a new package:
+Only a number of packages from the BLFS book is included. The process of creating a new package is simple and quick. Using the BFLS book as referece, at first, the web adress of the package and the dependencies are copied into the settings.script. The archive name will be automatically detected. If no URL is provided, it can be manually specified. This will be used by install.script to gather and unpack the package-sources. Next, the build.script needs to be edited. Usually all code-box instructions from the book, that are entered by the default user, excluding tests can be copied here. Next copy test instructions into the check.script. (If tests are done after installation they go into check_b.script. If there are no tests before and after the installation ("this package doesn't come with a test suit" for ex.) they should be removed. There is no mechanism to start a graphical environment should the tests need one.) Finally, all commands executed by the root user can be copied into the porg.script. The porg.script from BLANK/ contains "commented out" commands for automatically finding and installing boot-scripts for the package. After this the package is finalized and can be used to install software to your system.

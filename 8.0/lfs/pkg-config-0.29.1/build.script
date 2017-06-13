@@ -1,0 +1,7 @@
+./configure --prefix=/usr              \
+            --with-internal-glib       \
+            --disable-compile-warnings \
+            --disable-host-tool        \
+            --docdir=/usr/share/doc/"$PKG"
+
+make

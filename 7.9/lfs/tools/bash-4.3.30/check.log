@@ -1,0 +1,983 @@
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.30(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+Testing /sources/7.9/bash-4.3.30/bash
+version: 4.3.30(1)-release
+versinfo: 4 3 30 1 release x86_64-unknown-linux-gnu
+HOSTTYPE = x86_64
+OSTYPE = linux-gnu
+MACHTYPE = x86_64-unknown-linux-gnu
+Any output from any test, unless otherwise noted, indicates a possible anomaly
+run-alias
+run-appendop
+run-arith
+run-arith-for
+run-array
+run-array2
+run-assoc
+run-braces
+run-builtins
+108d107
+< ./source5.sub: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+121,122c120,122
+< ./source7.sub: line 5: /var/tmp/x28-29866: Permission denied
+< ./source7.sub: line 6: /var/tmp/x28-29866: No such file or directory
+---
+> abc
+> def
+> ghi
+124,134c124,131
+< ./source7.sub: line 13: /var/tmp/x29-29866: Permission denied
+< ./source7.sub: line 14: /var/tmp/x29-29866: Permission denied
+< chmod: cannot access '/var/tmp/x29-29866': No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+---
+> one.1 subshell
+> two.1 subshell
+> three.1 subshell
+> four.1 subshell
+> one.2 subshell
+> two.2 subshell
+> three.2 subshell
+> four.2 subshell
+run-case
+run-casemod
+run-comsub
+run-comsub-eof
+run-comsub-posix
+run-cond
+run-coproc
+1c1
+< 30063
+---
+> 84575
+4c4
+< 30065
+---
+> 84577
+7,8c7,8
+< ./coproc.tests: line 22: 30065 Terminated              coproc REFLECT { cat -; }
+< 30067
+---
+> ./coproc.tests: line 22: 84577 Terminated              coproc REFLECT { cat -; }
+> 84579
+run-cprint
+run-dbg-support
+run-dbg-support2
+run-dirstack
+run-dollars
+run-errors
+run-execscript
+run-exp-tests
+run-extglob
+36a37,94
+> !([*)*
+> +(a|b[)*
+> [a*(]*)z
+> +()c
+> +()x
+> abc
+> +(*)x
+> abc
+> no-file+(a|b)stuff
+> no-file+(a*(c)|b)stuff
+> abd acd
+> acd
+> abd
+> no
+> yes
+> yes
+> 1: bcdef
+> 2: def
+> 3: abcde
+> 4: abc
+> 5: ef
+> 6: ef
+> 7: abcdef
+> ab abef
+> abcfef abef
+> abcdef
+> ab abcdef abcfef abef
+> abcdef abcfef abef
+> ok 37
+> ok 38
+> ok 39
+> ok 40
+> ok 41
+> ok 42
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a.b
+> a b a,b a-b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> argv[1] = <ef>
+> a,b
+> a.c
+> a.c
+> a.c
+> a.c
+> a.c
+> a.c
+> ok 1
+> ok 2
+> ok 3
+> a ab
+> a ab
+> a ab
+> a
+run-extglob2
+run-extglob3
+run-func
+run-getopts
+run-glob-test
+run-globstar
+1c1,585
+< mkdir: cannot create directory '/var/tmp/globstar-30640': Permission denied
+---
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> 
+> lib/:
+> glob
+> readline
+> sh
+> 
+> lib/glob:
+> glob.o
+> smatch.o
+> strmatch.o
+> 
+> lib/readline:
+> bind.o
+> callback.o
+> compat.o
+> complete.o
+> display.o
+> 
+> lib/sh:
+> casemod.o
+> clktck.o
+> clock.o
+> eaccess.o
+> fdprintf.o
+> fmtullong.o
+> fmtulong.o
+> fmtumax.o
+> fpurge.o
+> getenv.o
+> input_avail.o
+> itos.o
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> alias.o builtins/history.o builtins/jobs.o builtins/kill.o builtins/let.o builtins/mapfile.o lib/glob/glob.o lib/glob/smatch.o lib/glob/strmatch.o lib/readline/bind.o lib/readline/callback.o lib/readline/compat.o lib/readline/complete.o lib/readline/display.o lib/sh/casemod.o lib/sh/clktck.o lib/sh/clock.o lib/sh/eaccess.o lib/sh/fdprintf.o lib/sh/fmtullong.o lib/sh/fmtulong.o lib/sh/fmtumax.o lib/sh/fpurge.o lib/sh/getenv.o lib/sh/input_avail.o lib/sh/itos.o pcomplib.o print_cmd.o redir.o shell.o sig.o stringlib.o subst.o syntax.o test.o trap.o unwind_prot.o variables.o version.o xmalloc.o y.tab.o
+> alias.o
+> builtins/history.o
+> builtins/jobs.o
+> builtins/kill.o
+> builtins/let.o
+> builtins/mapfile.o
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> pcomplib.o
+> print_cmd.o
+> redir.o
+> shell.o
+> sig.o
+> stringlib.o
+> subst.o
+> syntax.o
+> test.o
+> trap.o
+> unwind_prot.o
+> variables.o
+> version.o
+> xmalloc.o
+> y.tab.o
+> 
+> builtins:
+> history.o
+> jobs.o
+> kill.o
+> let.o
+> mapfile.o
+> 
+> lib:
+> glob
+> readline
+> sh
+> 
+> lib/glob:
+> glob.o
+> smatch.o
+> strmatch.o
+> 
+> lib/readline:
+> bind.o
+> callback.o
+> compat.o
+> complete.o
+> display.o
+> 
+> lib/sh:
+> casemod.o
+> clktck.o
+> clock.o
+> eaccess.o
+> fdprintf.o
+> fmtullong.o
+> fmtulong.o
+> fmtumax.o
+> fpurge.o
+> getenv.o
+> input_avail.o
+> itos.o
+> alias.o builtins builtins/history.o builtins/jobs.o builtins/kill.o builtins/let.o builtins/mapfile.o lib lib/glob lib/glob/glob.o lib/glob/smatch.o lib/glob/strmatch.o lib/readline lib/readline/bind.o lib/readline/callback.o lib/readline/compat.o lib/readline/complete.o lib/readline/display.o lib/sh lib/sh/casemod.o lib/sh/clktck.o lib/sh/clock.o lib/sh/eaccess.o lib/sh/fdprintf.o lib/sh/fmtullong.o lib/sh/fmtulong.o lib/sh/fmtumax.o lib/sh/fpurge.o lib/sh/getenv.o lib/sh/input_avail.o lib/sh/itos.o pcomplib.o print_cmd.o redir.o shell.o sig.o stringlib.o subst.o syntax.o test.o trap.o unwind_prot.o variables.o version.o xmalloc.o y.tab.o
+> bar/foo foo
+> bar/foo/ foo/
+> bar/foo/e bar/foo/f foo/a foo/b
+> <a>
+> <a/a>
+> <a/a/a>
+> <a>
+> <a/a>
+> <a/a/a>
+> <a>
+> <a/a>
+> <a/a/a>
+> == <**/a> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/b/a>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/b/a>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/b/a>
+> == <a/**> ==
+> <a/>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/a> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/b/a>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/b/a>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/b/a>
+> == <a/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <a/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <a/**/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <**/a/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/a/**/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/a/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/**/a/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> /tmp/empty
+run-heredoc
+run-herestr
+run-histexpand
+run-history
+run-ifs
+run-ifs-posix
+run-input-test
+run-intl
+2c2
+< 2
+---
+> 1
+8,15c8,14
+< a�b
+< 0000000 141 303 142
+< 0000003
+< -абвгдежзиклмноп - 31
+< -абвгдежзиклмноп- 30
+< -аб�- 5
+< 1.0000
+< 1.0000
+---
+> aéb
+> 0000000 141 303 251 142
+> 0000004
+> -абвгдежзиклмноп - 16
+> -абвгдежзиклмноп- 15
+> -абвгд- 5
+> 1,0000
+19a19
+> 1,0000
+21c21
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+23c23
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+25c25
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+27c27
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+29c29
+< 0000000 357 277 277 012
+---
+> 0000000   357 277 277 012                                                
+31c31
+< 0000000 357 277 277 012
+---
+> 0000000   357 277 277 012                                                
+33c33
+< 0000000 012
+---
+> 0000000   012                                                            
+35c35
+< 0000000 012
+---
+> 0000000   012                                                            
+37c37
+< 0000000 012
+---
+> 0000000   012                                                            
+39c39
+< 0000000 012
+---
+> 0000000   012                                                            
+41c41
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+43c43
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+45c45
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+47c47
+< 0000000 101 040 302 243 040 305 222 012
+---
+> 0000000   101 040 302 243 040 305 222 012                                
+49d48
+< /sources/7.9/bash-4.3.30/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+51c50
+< $'5\247@3\231+\306S8\237\242\352\263'
+---
+> 5�@3�+�S8���
+run-invert
+run-iquote
+run-jobs
+run-lastpipe
+run-mapfile
+run-more-exp
+run-nameref
+run-new-exp
+run-nquote
+run-nquote1
+run-nquote2
+run-nquote3
+run-nquote4
+run-nquote5
+run-posix2
+run-posixexp
+40,44d39
+< cp: cannot create regular file '/var/tmp/sh': Permission denied
+< ./posixexp1.sub: line 5: /var/tmp/sh: No such file or directory
+< sh posixexp1.sub: test 2 failed
+< ./posixexp2.sub: line 10: /var/tmp/sh: No such file or directory
+< sh posixexp2.sub: test 4 failed
+run-posixexp2
+run-posixpat
+run-posixpipe
+run-precedence
+run-printf
+253d252
+< printf2.sub: multibyte character conversion failed
+run-quote
+run-read
+run-redir
+103,107d102
+< ./redir8.sub: line 4: u: Permission denied
+< cat: u: No such file or directory
+< ./redir8.sub: line 8: u: Permission denied
+< cat: u: No such file or directory
+< ./redir8.sub: line 12: u: Permission denied
+109,110d103
+< cat: u: No such file or directory
+< ./redir8.sub: line 18: u: Permission denied
+112,121c105,114
+< cat: u: No such file or directory
+< ./redir8.sub: line 25: infile: Permission denied
+< ./redir8.sub: line 33: infile: No such file or directory
+< ./redir8.sub: line 34: 10: Bad file descriptor
+< ./redir8.sub: line 34: 10: Bad file descriptor
+< ./redir8.sub: line 39: infile: No such file or directory
+< ./redir8.sub: line 40: 8: Bad file descriptor
+< ./redir8.sub: line 40: 8: Bad file descriptor
+< ./redir8.sub: line 46: infile: No such file or directory
+< ./redir8.sub: line 53: infile: No such file or directory
+---
+> fd 10
+> fd 8
+> 1
+> 2
+> 3
+> 4
+> 1
+> 2
+> 3
+> 4
+run-rhs-exp
+run-rsh
+run-set-e
+run-set-x
+30,32d29
+< ./set-x1.sub: line 5: /var/tmp/bash-trace-10665: Permission denied
+< ./set-x1.sub: line 6: BASH_XTRACEFD: 4: invalid value for trace file descriptor
+< + echo 1
+34d30
+< + echo 2
+36d31
+< + echo 3
+38d32
+< + echo 4
+40d33
+< + unset BASH_XTRACEFD
+58c51,55
+< cat: /var/tmp/bash-trace-10665: No such file or directory
+---
+> + echo 1
+> + echo 2
+> + echo 3
+> + echo 4
+> + unset BASH_XTRACEFD
+run-shopt
+run-strip
+run-test
+152c152
+< 1
+---
+> 0
+158c158
+< 1
+---
+> 0
+run-tilde
+run-tilde2
+run-trap
+72d71
+< +[8] false
+73a73
+> +[8] false
+102d101
+< trap -- '' SIGUSR2
+103a103
+> trap -- '' SIGUSR2
+run-type
+run-varenv
+run-vredir
+1,6c1,4
+< ./vredir.tests: line 6: v: Permission denied
+< 
+< ./vredir.tests: line 12: $v: ambiguous redirect
+< ./vredir.tests: line 13: $v: ambiguous redirect
+< ./vredir.tests: line 14: $v: ambiguous redirect
+< cat: /var/tmp/foo: No such file or directory
+---
+> 10
+> foo 1
+> foo 2
+> foo 3
+13,14c11,12
+< ./vredir.tests: line 20: v: ambiguous redirect
+< ./vredir.tests: line 6: v: Permission denied
+---
+> ./vredir.tests: line 6: v: readonly variable
+> ./vredir.tests: line 6: v: cannot assign fd to variable
+19d16
+< cat: /var/tmp/foo: No such file or directory
+41d37
+< ./vredir2.sub: line 4: /var/tmp/shells-10859: Permission denied
+46d41
+< ./vredir2.sub: line 32: v: No such file or directory
+48c43,48
+< ./vredir2.sub: line 35: $v: Bad file descriptor
+---
+> /bin/bash
+> /bin/csh
+> /bin/ksh
+> /bin/sh
+> /bin/tcsh
+> /bin/zsh
+59c59,64
+< ./vredir2.sub: line 48: fd: No such file or directory
+---
+> /bin/bash
+> /bin/csh
+> /bin/ksh
+> /bin/sh
+> /bin/tcsh
+> /bin/zsh

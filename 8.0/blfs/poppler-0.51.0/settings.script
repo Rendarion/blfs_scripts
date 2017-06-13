@@ -1,0 +1,18 @@
+URL=(
+"http://poppler.freedesktop.org/poppler-0.51.0.tar.xz"
+"http://poppler.freedesktop.org/poppler-data-0.4.7.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"fontconfig-2.12.1"
+"cairo-1.14.8"
+"libjpeg-turbo-1.5.1"
+"libpng-1.6.28"
+"nss-3.29"
+"openjpeg-1.5.2"
+)

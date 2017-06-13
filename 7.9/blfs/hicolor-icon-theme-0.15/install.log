@@ -1,0 +1,43 @@
+--2016-06-10 18:10:55--  http://pkgs.fedoraproject.org/repo/pkgs/hicolor-icon-theme/hicolor-icon-theme-0.15.tar.xz/md5/6aa2b3993a883d85017c7cc0cfc0fb73/hicolor-icon-theme-0.15.tar.xz
+Resolving pkgs.fedoraproject.org... 209.132.181.4
+Connecting to pkgs.fedoraproject.org|209.132.181.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 51056 (50K) [application/x-xz]
+Saving to: 'hicolor-icon-theme-0.15.tar.xz'
+
+     0K .......... .......... .......... .......... ......... 100%  132K=0.4s
+
+2016-06-10 18:10:56 (132 KB/s) - 'hicolor-icon-theme-0.15.tar.xz' saved [51056/51056]
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+make[1]: Entering directory '/sources/7.9/hicolor-icon-theme-0.15'
+make[1]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor'
+ /usr/bin/install -c -m 644 index.theme '/usr/share/icons/hicolor'
+make  install-data-hook
+make[2]: Entering directory '/sources/7.9/hicolor-icon-theme-0.15'
+mkdir -p /usr/share/icons/hicolor
+for dir in 16x16 22x22 24x24 32x32 36x36 48x48 64x64 72x72 96x96 128x128 192x192 256x256 512x512 scalable; do \
+  for ctxt in actions animations apps categories devices emblems emotes filesystems intl mimetypes places status stock; do \
+    mkdir -p /usr/share/icons/hicolor/$dir/$ctxt; \
+    if [ "$ctxt" = "stock" ]; then \
+      for sub in chart code data form image io media navigation net object table text; do \
+        mkdir -p /usr/share/icons/hicolor/$dir/$ctxt/$sub; \
+      done \
+    fi \
+  done \
+done
+mkdir -p /usr/share/icons/hicolor/symbolic/apps
+make[2]: Leaving directory '/sources/7.9/hicolor-icon-theme-0.15'
+make[1]: Leaving directory '/sources/7.9/hicolor-icon-theme-0.15'

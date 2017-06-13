@@ -1,0 +1,1 @@
+make pkghtmldir=/usr/share/doc/lame-3.99.5 install

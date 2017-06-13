@@ -1,0 +1,127 @@
+Making check in gtksourceview
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+Making check in completion-providers
+make[3]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers'
+Making check in words
+make[4]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers/words'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers/words'
+make[4]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers'
+make[3]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview/completion-providers'
+make[3]: Entering directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+make[3]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/gtksourceview'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package gtksourceview-3.0 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/po'
+Making check in data
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data'
+Making check in language-specs
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+make[4]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+PASS: check-language.sh
+============================================================================
+Testsuite summary for gtksourceview 3.18.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+make[3]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/language-specs'
+Making check in styles
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+make[4]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+PASS: check-style.sh
+============================================================================
+Testsuite summary for gtksourceview 3.18.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+make[3]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data/styles'
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/data'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data'
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/data'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2/docs'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/docs/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/docs/reference'
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/docs'
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/docs'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make[4]: Entering directory '/sources/7.9/gtksourceview-3.18.2/tests'
+PASS: test-buffer
+PASS: test-buffer-input-stream
+PASS: test-buffer-output-stream
+PASS: test-completion-model
+PASS: test-completion-words
+PASS: test-encoding
+PASS: test-file-loader
+PASS: test-file-saver
+PASS: test-iter
+PASS: test-language
+PASS: test-languagemanager
+PASS: test-mark
+PASS: test-printcompositor
+PASS: test-regex
+PASS: test-region
+PASS: test-search-context
+PASS: test-stylescheme
+PASS: test-styleschememanager
+PASS: test-undo-manager
+PASS: test-utils
+============================================================================
+Testsuite summary for gtksourceview 3.18.2
+============================================================================
+# TOTAL: 20
+# PASS:  20
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make[3]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make[2]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2/tests'
+make[1]: Entering directory '/sources/7.9/gtksourceview-3.18.2'
+make[1]: Leaving directory '/sources/7.9/gtksourceview-3.18.2'

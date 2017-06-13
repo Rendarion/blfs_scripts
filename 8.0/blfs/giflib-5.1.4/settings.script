@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.sourceforge.net/giflib/giflib-5.1.4.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

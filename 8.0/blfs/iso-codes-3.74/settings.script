@@ -1,0 +1,12 @@
+URL=(
+"https://pkg-isocodes.alioth.debian.org/downloads/iso-codes-3.74.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"python-3.6.0"
+)

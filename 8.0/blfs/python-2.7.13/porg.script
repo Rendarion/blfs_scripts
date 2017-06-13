@@ -1,0 +1,12 @@
+make install &&
+chmod -v 755 /usr/lib/libpython2.7.so.1.0
+
+install -v -dm755 /usr/share/doc/python-2.7.13 &&
+
+tar --strip-components=1                     \
+    --no-same-owner                          \
+    --directory /usr/share/doc/python-2.7.13 \
+    -xvf ../python-2.7.13-docs-html.tar.bz2 &&
+
+find /usr/share/doc/python-2.7.13 -type d -exec chmod 0755 {} \; &&
+find /usr/share/doc/python-2.7.13 -type f -exec chmod 0644 {} \;

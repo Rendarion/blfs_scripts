@@ -1,0 +1,8 @@
+make prefix=/usr \
+     SBINDIR=/sbin \
+     PAM_LIBDIR=/lib \
+     RAISE_SETFCAP=no install
+
+chmod -v 755 /usr/lib/libcap.so &&
+mv -v /usr/lib/libcap.so.* /lib &&
+ln -sfv ../../lib/libcap.so.2 /usr/lib/libcap.so

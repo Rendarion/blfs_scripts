@@ -1,0 +1,1190 @@
+Making check in gl
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/gl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/gl'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make  check-recursive
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+Making check in .
+make[5]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make  libtests.a test-alloca-opt test-base64 test-binary-io test-byteswap test-c-ctype test-errno test-fcntl-h test-fdopen test-fgetc test-float test-fputc test-fread test-fstat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-func test-fwrite test-getdelim test-getline test-gettimeofday test-iconv test-intprops test-inttypes test-memchr test-netdb test-netinet_in test-read-file test-snprintf test-stdalign test-stdbool test-stddef test-stdint test-stdio test-stdlib test-string test-strings test-strnlen test-strverscmp test-sys_socket test-sys_stat test-sys_time test-sys_types test-sys_uio test-time test-unistd test-vasnprintf test-vasprintf test-verify test-vsnprintf test-wchar
+make[6]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+  CC       binary-io.o
+  AR       libtests.a
+  CC       test-alloca-opt.o
+  CCLD     test-alloca-opt
+  CC       test-base64.o
+  CCLD     test-base64
+  CC       test-binary-io.o
+  CCLD     test-binary-io
+  CC       test-byteswap.o
+  CCLD     test-byteswap
+  CC       test-c-ctype.o
+  CCLD     test-c-ctype
+  CC       test-errno.o
+  CCLD     test-errno
+  CC       test-fcntl-h.o
+  CCLD     test-fcntl-h
+  CC       test-fdopen.o
+  CCLD     test-fdopen
+  CC       test-fgetc.o
+  CCLD     test-fgetc
+  CC       test-float.o
+  CCLD     test-float
+  CC       test-fputc.o
+  CCLD     test-fputc
+  CC       test-fread.o
+  CCLD     test-fread
+  CC       test-fstat.o
+  CCLD     test-fstat
+  CC       test-ftell.o
+  CCLD     test-ftell
+  CC       test-ftell3.o
+  CCLD     test-ftell3
+  CC       test-ftello.o
+  CCLD     test-ftello
+  CC       test-ftello3.o
+  CCLD     test-ftello3
+  CC       test-ftello4.o
+  CCLD     test-ftello4
+  CC       test-func.o
+  CCLD     test-func
+  CC       test-fwrite.o
+  CCLD     test-fwrite
+  CC       test-getdelim.o
+  CCLD     test-getdelim
+  CC       test-getline.o
+  CCLD     test-getline
+  CC       test-gettimeofday.o
+  CCLD     test-gettimeofday
+  CC       test-iconv.o
+  CCLD     test-iconv
+  CC       test-intprops.o
+  CCLD     test-intprops
+  CC       test-inttypes.o
+  CCLD     test-inttypes
+  CC       test-memchr.o
+  CCLD     test-memchr
+  CC       test-netdb.o
+  CCLD     test-netdb
+  CC       test-netinet_in.o
+  CCLD     test-netinet_in
+  CC       test-read-file.o
+  CCLD     test-read-file
+  CC       test-snprintf.o
+  CCLD     test-snprintf
+  CC       test-stdalign.o
+  CCLD     test-stdalign
+  CC       test-stdbool.o
+  CCLD     test-stdbool
+  CC       test-stddef.o
+  CCLD     test-stddef
+  CC       test-stdint.o
+  CCLD     test-stdint
+  CC       test-stdio.o
+  CCLD     test-stdio
+  CC       test-stdlib.o
+  CCLD     test-stdlib
+  CC       test-string.o
+  CCLD     test-string
+  CC       test-strings.o
+  CCLD     test-strings
+  CC       test-strnlen.o
+  CCLD     test-strnlen
+  CC       test-strverscmp.o
+  CCLD     test-strverscmp
+  CC       test-sys_socket.o
+  CCLD     test-sys_socket
+  CC       test-sys_stat.o
+  CCLD     test-sys_stat
+  CC       test-sys_time.o
+  CCLD     test-sys_time
+  CC       test-sys_types.o
+  CCLD     test-sys_types
+  CC       test-sys_uio.o
+  CCLD     test-sys_uio
+  CC       test-time.o
+  CCLD     test-time
+  CC       test-unistd.o
+  CCLD     test-unistd
+  CC       test-vasnprintf.o
+  CCLD     test-vasnprintf
+  CC       test-vasprintf.o
+  CCLD     test-vasprintf
+  CC       test-verify.o
+  CCLD     test-verify
+  CC       test-vsnprintf.o
+  CCLD     test-vsnprintf
+  CC       test-wchar.o
+  CCLD     test-wchar
+make[6]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make  check-TESTS
+make[6]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[7]: Entering directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+PASS: test-alloca-opt
+PASS: test-base64
+PASS: test-binary-io.sh
+PASS: test-byteswap
+PASS: test-c-ctype
+PASS: test-errno
+PASS: test-fcntl-h
+PASS: test-fdopen
+PASS: test-fgetc
+SKIP: test-float
+PASS: test-fputc
+PASS: test-fread
+PASS: test-fstat
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftell3
+PASS: test-ftello.sh
+PASS: test-ftello2.sh
+PASS: test-ftello3
+PASS: test-ftello4.sh
+PASS: test-func
+PASS: test-fwrite
+PASS: test-getdelim
+PASS: test-getline
+PASS: test-gettimeofday
+PASS: test-iconv
+PASS: test-intprops
+PASS: test-inttypes
+PASS: test-memchr
+PASS: test-netdb
+PASS: test-netinet_in
+PASS: test-read-file
+PASS: test-snprintf
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-string
+PASS: test-strings
+PASS: test-strnlen
+PASS: test-strverscmp
+PASS: test-sys_socket
+PASS: test-sys_stat
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-sys_uio
+PASS: test-init.sh
+PASS: test-time
+PASS: test-unistd
+PASS: test-vasnprintf
+PASS: test-vasprintf
+SKIP: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-verify.sh
+PASS: test-vsnprintf
+PASS: test-wchar
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 59
+# PASS:  56
+# SKIP:  3
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[6]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[5]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl/tests'
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/gl'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/lib'
+Making check in includes
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/includes'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/includes'
+Making check in x509
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/x509'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/x509'
+Making check in auth
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/auth'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/auth'
+Making check in ext
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/ext'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/ext'
+Making check in algorithms
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/algorithms'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/algorithms'
+Making check in extras
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/extras'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/extras'
+Making check in accelerated
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/accelerated'
+Making check in x86
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/accelerated/x86'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/accelerated/x86'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/accelerated'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/accelerated'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/accelerated'
+Making check in opencdk
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/opencdk'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/opencdk'
+Making check in openpgp
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/openpgp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/openpgp'
+Making check in nettle
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib/nettle'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib/nettle'
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/lib'
+Making check in extra
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/extra'
+Making check in includes
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/extra/includes'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/extra/includes'
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/extra'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/extra'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/extra'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/po'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/po'
+Making check in src/gl
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/src/gl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/src/gl'
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/src/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/src/gl'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/src/gl'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/src/gl'
+Making check in src
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/src'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/src'
+Making check in libopts
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/src/libopts'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/src/libopts'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/src/libopts'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/src/libopts'
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/src'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/src'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/src'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/tests'
+Making check in .
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests'
+make  mini-record-2 simple gc set_pkcs12_cred certder certuniqueid mpi certificate_set_x509_crl dn parse_ca moredn record-sizes hostname-check cve-2008-4989 pkcs12_s2k chainverify record-sizes-range crq_key_id x509sign-verify cve-2009-1415 cve-2009-1416 crq_apis init_roundtrip pkcs12_s2k_pem dn2 mini-eagain nul-in-x509-names x509_altname pkcs12_encode mini-x509 mini-rehandshake rng-fork mini-eagain-dtls resume-dtls x509cert x509cert-tl infoaccess mini-dtls-hello-verify mini-tdb mini-dtls-rehandshake mini-alpn mini-dtls-large mini-termination mini-x509-cas mini-x509-2 pkcs12_simple mini-emsgsize-dtls chainverify-unsorted mini-overhead mini-dtls-heartbeat mini-x509-callbacks key-openssl priorities mini-dtls-srtp rsa-encrypt-decrypt mini-loss-time mini-record mini-dtls-record mini-handshake-timeout mini-record-range mini-cert-status mini-rsa-psk global-init sec-params fips-test mini-global-load name-constraints x509-extensions long-session-id mini-x509-callbacks-intr mini-dtls-lowmtu crlverify mini-dtls-discard init_fds mini-record-failure mini-rehandshake-2 custom-urls set_x509_key_mem set_x509_key_file mini-chain-unsorted x509-verify-with-crl mini-dtls-mtu mini-dtls-record-asym openpgp-callback key-import-export mini-dtls-fork mini-dtls-pthread mini-key-material x509cert-invalid strict-der mini-extension mini-supplementaldata mini-dtls0-9 mini-record-retvals mini-server-name mini-etm mini-x509-cert-callback sign-md5-rep keygen mini-tls-nonblock no-signal pkcs7-gen x509sign-verify2 mini-alignment oids atfork prf status-request status-request-ok fallback-scsv pkcs8-key-decode mini-session-verify-function auto-verify mini-x509-default-prio global-init-override ocsp   openpgp-auth openpgp-auth2 openpgp-keyring pgps2kgnu x509self x509dn anonself pskself dhepskself resume setcredcrash openpgpself \
+  rfc2253-escape-test
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests'
+  CC       mini-record-2.o
+  CCLD     mini-record-2
+  CC       simple.o
+  CCLD     simple
+  CC       gc-gc.o
+  CCLD     gc
+  CC       set_pkcs12_cred.o
+  CCLD     set_pkcs12_cred
+  CC       certder.o
+  CCLD     certder
+  CC       certuniqueid.o
+  CCLD     certuniqueid
+  CC       mpi-mpi.o
+  CCLD     mpi
+  CC       certificate_set_x509_crl.o
+  CCLD     certificate_set_x509_crl
+  CC       dn.o
+  CCLD     dn
+  CC       parse_ca.o
+  CCLD     parse_ca
+  CC       moredn.o
+  CCLD     moredn
+  CC       record-sizes.o
+  CCLD     record-sizes
+  CC       hostname-check.o
+  CCLD     hostname-check
+  CC       cve-2008-4989.o
+  CCLD     cve-2008-4989
+  CC       pkcs12_s2k-pkcs12_s2k.o
+  CCLD     pkcs12_s2k
+  CC       chainverify.o
+  CCLD     chainverify
+  CC       record-sizes-range.o
+  CCLD     record-sizes-range
+  CC       crq_key_id.o
+  CCLD     crq_key_id
+  CC       x509sign-verify.o
+  CCLD     x509sign-verify
+  CC       cve-2009-1415.o
+  CCLD     cve-2009-1415
+  CC       cve-2009-1416.o
+  CCLD     cve-2009-1416
+  CC       crq_apis.o
+  CCLD     crq_apis
+  CC       init_roundtrip.o
+  CCLD     init_roundtrip
+  CC       pkcs12_s2k_pem.o
+  CCLD     pkcs12_s2k_pem
+  CC       dn2.o
+  CCLD     dn2
+  CC       mini-eagain.o
+  CCLD     mini-eagain
+  CC       nul-in-x509-names.o
+  CCLD     nul-in-x509-names
+  CC       x509_altname.o
+  CCLD     x509_altname
+  CC       pkcs12_encode.o
+  CCLD     pkcs12_encode
+  CC       mini-x509.o
+  CCLD     mini-x509
+  CC       mini-rehandshake.o
+  CCLD     mini-rehandshake
+  CC       rng-fork.o
+  CCLD     rng-fork
+  CC       mini-eagain-dtls.o
+  CCLD     mini-eagain-dtls
+  CC       resume-dtls.o
+  CCLD     resume-dtls
+  CC       x509cert.o
+  CCLD     x509cert
+  CC       x509cert-tl.o
+  CCLD     x509cert-tl
+  CC       infoaccess.o
+  CCLD     infoaccess
+  CC       mini-dtls-hello-verify.o
+  CCLD     mini-dtls-hello-verify
+  CC       mini-tdb.o
+  CCLD     mini-tdb
+  CC       mini-dtls-rehandshake.o
+  CCLD     mini-dtls-rehandshake
+  CC       mini-alpn.o
+  CCLD     mini-alpn
+  CC       mini-dtls-large.o
+  CCLD     mini-dtls-large
+  CC       mini-termination.o
+  CCLD     mini-termination
+  CC       mini-x509-cas.o
+  CCLD     mini-x509-cas
+  CC       mini-x509-2.o
+  CCLD     mini-x509-2
+  CC       pkcs12_simple.o
+  CCLD     pkcs12_simple
+  CC       mini-emsgsize-dtls.o
+  CCLD     mini-emsgsize-dtls
+  CC       chainverify-unsorted.o
+  CCLD     chainverify-unsorted
+  CC       mini-overhead.o
+  CCLD     mini-overhead
+  CC       mini-dtls-heartbeat.o
+  CCLD     mini-dtls-heartbeat
+  CC       mini-x509-callbacks.o
+  CCLD     mini-x509-callbacks
+  CC       key-openssl.o
+  CCLD     key-openssl
+  CC       priorities.o
+  CCLD     priorities
+  CC       mini-dtls-srtp.o
+  CCLD     mini-dtls-srtp
+  CC       rsa-encrypt-decrypt.o
+  CCLD     rsa-encrypt-decrypt
+  CC       mini-loss-time.o
+  CCLD     mini-loss-time
+  CC       mini-record.o
+  CCLD     mini-record
+  CC       mini-dtls-record.o
+  CCLD     mini-dtls-record
+  CC       mini-handshake-timeout.o
+  CCLD     mini-handshake-timeout
+  CC       mini-record-range.o
+  CCLD     mini-record-range
+  CC       mini-cert-status.o
+  CCLD     mini-cert-status
+  CC       mini-rsa-psk.o
+  CCLD     mini-rsa-psk
+  CC       global-init.o
+  CCLD     global-init
+  CC       sec-params.o
+  CCLD     sec-params
+  CC       fips-test.o
+  CCLD     fips-test
+  CC       mini-global-load.o
+  CCLD     mini-global-load
+  CC       name-constraints.o
+  CCLD     name-constraints
+  CC       x509-extensions.o
+  CCLD     x509-extensions
+  CC       long-session-id.o
+  CCLD     long-session-id
+  CC       mini-x509-callbacks-intr.o
+  CCLD     mini-x509-callbacks-intr
+  CC       mini-dtls-lowmtu.o
+  CCLD     mini-dtls-lowmtu
+  CC       crlverify.o
+  CCLD     crlverify
+  CC       mini-dtls-discard.o
+  CCLD     mini-dtls-discard
+  CC       init_fds.o
+  CCLD     init_fds
+  CC       mini-record-failure.o
+  CCLD     mini-record-failure
+  CC       mini-rehandshake-2.o
+  CCLD     mini-rehandshake-2
+  CC       custom-urls.o
+  CCLD     custom-urls
+  CC       set_x509_key_mem.o
+  CCLD     set_x509_key_mem
+  CC       set_x509_key_file.o
+  CCLD     set_x509_key_file
+  CC       mini-chain-unsorted.o
+  CCLD     mini-chain-unsorted
+  CC       x509-verify-with-crl.o
+  CCLD     x509-verify-with-crl
+  CC       mini-dtls-mtu.o
+  CCLD     mini-dtls-mtu
+  CC       mini-dtls-record-asym.o
+  CCLD     mini-dtls-record-asym
+  CC       openpgp-callback.o
+  CCLD     openpgp-callback
+  CC       key-import-export.o
+  CCLD     key-import-export
+  CC       mini-dtls-fork.o
+  CCLD     mini-dtls-fork
+  CC       mini-dtls-pthread.o
+  CCLD     mini-dtls-pthread
+  CC       mini-key-material.o
+  CCLD     mini-key-material
+  CC       x509cert-invalid.o
+  CCLD     x509cert-invalid
+  CC       strict-der.o
+  CCLD     strict-der
+  CC       mini-extension.o
+  CCLD     mini-extension
+  CC       mini-supplementaldata.o
+  CCLD     mini-supplementaldata
+  CC       mini-dtls0-9.o
+  CCLD     mini-dtls0-9
+  CC       mini-record-retvals.o
+  CCLD     mini-record-retvals
+  CC       mini-server-name.o
+  CCLD     mini-server-name
+  CC       mini-etm.o
+  CCLD     mini-etm
+  CC       mini-x509-cert-callback.o
+  CCLD     mini-x509-cert-callback
+  CC       sign-md5-rep.o
+  CCLD     sign-md5-rep
+  CC       keygen.o
+  CCLD     keygen
+  CC       mini-tls-nonblock.o
+  CCLD     mini-tls-nonblock
+  CC       no-signal.o
+  CCLD     no-signal
+  CC       pkcs7-gen.o
+  CCLD     pkcs7-gen
+  CC       x509sign-verify2.o
+  CCLD     x509sign-verify2
+  CC       mini-alignment.o
+  CCLD     mini-alignment
+  CC       oids.o
+  CCLD     oids
+  CC       atfork-atfork.o
+  CCLD     atfork
+  CC       prf.o
+  CCLD     prf
+  CC       status-request.o
+  CCLD     status-request
+  CC       status-request-ok.o
+  CCLD     status-request-ok
+  CC       fallback-scsv.o
+  CCLD     fallback-scsv
+  CC       pkcs8-key-decode.o
+  CCLD     pkcs8-key-decode
+  CC       mini-session-verify-function.o
+  CCLD     mini-session-verify-function
+  CC       auto-verify.o
+  CCLD     auto-verify
+  CC       mini-x509-default-prio.o
+  CCLD     mini-x509-default-prio
+  CC       global-init-override.o
+  CCLD     global-init-override
+  CC       ocsp.o
+  CCLD     ocsp
+  CC       openpgp-auth.o
+  CCLD     openpgp-auth
+  CC       openpgp-auth2.o
+  CCLD     openpgp-auth2
+  CC       openpgp-keyring.o
+  CCLD     openpgp-keyring
+  CC       pgps2kgnu.o
+  CCLD     pgps2kgnu
+  CC       x509self.o
+  CCLD     x509self
+  CC       x509dn.o
+  CCLD     x509dn
+  CC       anonself.o
+  CCLD     anonself
+  CC       pskself.o
+  CCLD     pskself
+  CC       dhepskself.o
+  CCLD     dhepskself
+  CC       resume.o
+  CCLD     resume
+  CC       setcredcrash.o
+  CCLD     setcredcrash
+  CC       openpgpself.o
+  CCLD     openpgpself
+make[3]: Nothing to be done for 'rfc2253-escape-test'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests'
+PASS: mini-record-2
+PASS: simple
+PASS: gc
+PASS: set_pkcs12_cred
+PASS: certder
+PASS: certuniqueid
+PASS: mpi
+PASS: certificate_set_x509_crl
+PASS: dn
+PASS: parse_ca
+PASS: moredn
+PASS: record-sizes
+PASS: hostname-check
+PASS: cve-2008-4989
+PASS: pkcs12_s2k
+PASS: chainverify
+PASS: record-sizes-range
+PASS: crq_key_id
+PASS: x509sign-verify
+PASS: cve-2009-1415
+PASS: cve-2009-1416
+PASS: crq_apis
+PASS: init_roundtrip
+PASS: pkcs12_s2k_pem
+PASS: dn2
+PASS: mini-eagain
+PASS: nul-in-x509-names
+PASS: x509_altname
+PASS: pkcs12_encode
+PASS: mini-x509
+PASS: mini-rehandshake
+PASS: rng-fork
+PASS: mini-eagain-dtls
+PASS: resume-dtls
+PASS: x509cert
+PASS: x509cert-tl
+PASS: infoaccess
+PASS: mini-dtls-hello-verify
+PASS: mini-tdb
+PASS: mini-dtls-rehandshake
+PASS: mini-alpn
+PASS: mini-dtls-large
+PASS: mini-termination
+PASS: mini-x509-cas
+PASS: mini-x509-2
+PASS: pkcs12_simple
+PASS: mini-emsgsize-dtls
+PASS: chainverify-unsorted
+PASS: mini-overhead
+PASS: mini-dtls-heartbeat
+PASS: mini-x509-callbacks
+PASS: key-openssl
+PASS: priorities
+PASS: mini-dtls-srtp
+PASS: rsa-encrypt-decrypt
+PASS: mini-loss-time
+PASS: mini-record
+PASS: mini-dtls-record
+PASS: mini-handshake-timeout
+SKIP: mini-record-range
+PASS: mini-cert-status
+PASS: mini-rsa-psk
+PASS: global-init
+PASS: sec-params
+SKIP: fips-test
+PASS: mini-global-load
+PASS: name-constraints
+PASS: x509-extensions
+PASS: long-session-id
+PASS: mini-x509-callbacks-intr
+PASS: mini-dtls-lowmtu
+PASS: crlverify
+PASS: mini-dtls-discard
+PASS: init_fds
+PASS: mini-record-failure
+PASS: mini-rehandshake-2
+PASS: custom-urls
+PASS: set_x509_key_mem
+PASS: set_x509_key_file
+PASS: mini-chain-unsorted
+PASS: x509-verify-with-crl
+PASS: mini-dtls-mtu
+PASS: mini-dtls-record-asym
+PASS: openpgp-callback
+PASS: key-import-export
+PASS: mini-dtls-fork
+PASS: mini-dtls-pthread
+PASS: mini-key-material
+PASS: x509cert-invalid
+PASS: strict-der
+PASS: mini-extension
+PASS: mini-supplementaldata
+PASS: mini-dtls0-9
+PASS: mini-record-retvals
+PASS: mini-server-name
+PASS: mini-etm
+PASS: mini-x509-cert-callback
+PASS: sign-md5-rep
+PASS: keygen
+PASS: mini-tls-nonblock
+PASS: no-signal
+PASS: pkcs7-gen
+PASS: x509sign-verify2
+PASS: mini-alignment
+PASS: oids
+PASS: atfork
+PASS: prf
+PASS: status-request
+PASS: status-request-ok
+PASS: fallback-scsv
+PASS: pkcs8-key-decode
+PASS: mini-session-verify-function
+PASS: auto-verify
+PASS: mini-x509-default-prio
+PASS: global-init-override
+PASS: ocsp
+PASS: openpgp-auth
+PASS: openpgp-auth2
+PASS: openpgp-keyring
+PASS: pgps2kgnu
+PASS: x509self
+PASS: x509dn
+PASS: anonself
+PASS: pskself
+PASS: dhepskself
+PASS: resume
+PASS: setcredcrash
+PASS: openpgpself
+PASS: rfc2253-escape-test
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 129
+# PASS:  127
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests'
+Making check in rsa-md5-collision
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make  rsa-md5-collision
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make[3]: Nothing to be done for 'rsa-md5-collision'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+PASS: rsa-md5-collision
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/rsa-md5-collision'
+Making check in pkcs1-padding
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make  pkcs1-pad
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make[3]: Nothing to be done for 'pkcs1-pad'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+SKIP: pkcs1-pad
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs1-padding'
+Making check in pkcs8-decode
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make  pkcs8
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make[3]: Nothing to be done for 'pkcs8'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+PASS: pkcs8
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs8-decode'
+Making check in pkcs12-decode
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make  pkcs12
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make[3]: Nothing to be done for 'pkcs12'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+PASS: pkcs12
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/pkcs12-decode'
+Making check in userid
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make  userid
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make[3]: Nothing to be done for 'userid'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+PASS: userid
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/userid'
+Making check in cert-tests
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make  pathlen aki certtool invalid-sig email pkcs7 privkey-import name-constraints certtool-long-cn crl certtool-utf8 crq template-test pem-decoding 
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make[3]: Nothing to be done for 'pathlen'.
+make[3]: Nothing to be done for 'aki'.
+make[3]: Nothing to be done for 'certtool'.
+make[3]: Nothing to be done for 'invalid-sig'.
+make[3]: Nothing to be done for 'email'.
+make[3]: Nothing to be done for 'pkcs7'.
+make[3]: Nothing to be done for 'privkey-import'.
+make[3]: Nothing to be done for 'name-constraints'.
+make[3]: Nothing to be done for 'certtool-long-cn'.
+make[3]: Nothing to be done for 'crl'.
+make[3]: Nothing to be done for 'certtool-utf8'.
+make[3]: Nothing to be done for 'crq'.
+make[3]: Nothing to be done for 'template-test'.
+make[3]: Nothing to be done for 'pem-decoding'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+PASS: pathlen
+PASS: aki
+SKIP: certtool
+PASS: invalid-sig
+PASS: email
+PASS: pkcs7
+PASS: privkey-import
+PASS: name-constraints
+PASS: certtool-long-cn
+PASS: crl
+PASS: certtool-utf8
+PASS: crq
+SKIP: template-test
+PASS: pem-decoding
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 14
+# PASS:  12
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/cert-tests'
+Making check in key-tests
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make  key-id pkcs8
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make[3]: Nothing to be done for 'key-id'.
+make[3]: Nothing to be done for 'pkcs8'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+PASS: key-id
+PASS: pkcs8
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/key-tests'
+Making check in sha2
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make  sha2 sha2-dsa
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make[3]: Nothing to be done for 'sha2'.
+make[3]: Nothing to be done for 'sha2-dsa'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+PASS: sha2
+PASS: sha2-dsa
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/sha2'
+Making check in safe-renegotiation
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+make  srn0 srn1 srn2 srn3 srn4 srn5
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+  CC       srn0.o
+  CCLD     srn0
+  CC       srn1.o
+  CCLD     srn1
+  CC       srn2.o
+  CCLD     srn2
+  CC       srn3.o
+  CCLD     srn3
+  CC       srn4.o
+  CCLD     srn4
+  CC       srn5.o
+  CCLD     srn5
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+PASS: srn0
+PASS: srn1
+PASS: srn2
+PASS: srn3
+PASS: srn4
+PASS: srn5
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 6
+# PASS:  6
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/safe-renegotiation'
+Making check in dsa
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make  testdsa
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make[3]: Nothing to be done for 'testdsa'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+PASS: testdsa
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dsa'
+Making check in scripts
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/scripts'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/scripts'
+Making check in ecdsa
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make  ecdsa
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make[3]: Nothing to be done for 'ecdsa'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+PASS: ecdsa
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/ecdsa'
+Making check in slow
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+make  gendh cipher-test cipher-override mac-override cipher-override2 \
+  test-ciphers override-ciphers
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+  CC       gendh.o
+  CCLD     gendh
+  CC       cipher_test-cipher-test.o
+  CCLD     cipher-test
+  CC       cipher-override.o
+  CCLD     cipher-override
+  CC       mac-override.o
+  CCLD     mac-override
+  CC       cipher-override2.o
+  CCLD     cipher-override2
+make[3]: Nothing to be done for 'test-ciphers'.
+make[3]: Nothing to be done for 'override-ciphers'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+PASS: gendh
+PASS: test-ciphers
+PASS: override-ciphers
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/slow'
+Making check in dtls
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+make  dtls-stress \
+  dtls dtls-nb
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+  CC       dtls-stress.o
+  CCLD     dtls-stress
+make[3]: Nothing to be done for 'dtls'.
+make[3]: Nothing to be done for 'dtls-nb'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+PASS: dtls
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/dtls'
+Making check in srp
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+make  mini-srp
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+  CC       mini-srp.o
+  CCLD     mini-srp
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+PASS: mini-srp
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/srp'
+Making check in openpgp-certs
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make  testselfsigs testcerts
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make[3]: Nothing to be done for 'testselfsigs'.
+make[3]: Nothing to be done for 'testcerts'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+PASS: testselfsigs
+PASS: testcerts
+============================================================================
+Testsuite summary for GnuTLS 3.4.9
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests/openpgp-certs'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9/doc'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gnutls-3.4.9/doc'
+Making check in examples
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/examples'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/examples'
+Making check in cyclo
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/cyclo'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/cyclo'
+Making check in scripts
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/scripts'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/scripts'
+Making check in manpages
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/manpages'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/manpages'
+Making check in credentials
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/credentials'
+Making check in openpgp
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/credentials/openpgp'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/credentials/openpgp'
+Making check in srp
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/credentials/srp'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/credentials/srp'
+Making check in x509
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/credentials/x509'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/credentials/x509'
+make[4]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/credentials'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/credentials'
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/credentials'
+Making check in latex
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc/latex'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc/latex'
+make[3]: Entering directory '/sources/7.9/gnutls-3.4.9/doc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc'
+make[2]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9/doc'
+make[1]: Entering directory '/sources/7.9/gnutls-3.4.9'
+make[1]: Leaving directory '/sources/7.9/gnutls-3.4.9'
+  GEN      public-submodule-commit

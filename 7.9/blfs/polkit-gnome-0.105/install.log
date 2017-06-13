@@ -1,0 +1,348 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to disable maintainer-specific portions of Makefiles... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether gcc understands -Wno-sign-compare... yes
+checking what warning flags to pass to the C compiler... -Wall -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wno-sign-compare
+checking what language compliance flags to pass to the C compiler... 
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GTK... yes
+checking for GLIB... yes
+checking for POLKIT_AGENT... yes
+checking for POLKIT_GOBJECT... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+                  polkit-gnome 0.105
+                =======================
+
+        prefix:                     /usr
+        libdir:                     ${exec_prefix}/lib
+        libexecdir:                 ${exec_prefix}/libexec
+        bindir:                     ${exec_prefix}/bin
+        sbindir:                    ${exec_prefix}/sbin
+        datadir:                    ${datarootdir}
+        sysconfdir:                 ${prefix}/etc
+        localstatedir:              ${prefix}/var
+
+        compiler:                   gcc
+        cflags:                     -g -O2 -Wall -Wchar-subscripts -Wmissing-declarations -Wnested-externs -Wpointer-arith -Wcast-align -Wsign-compare
+        cppflags:                   
+
+        Maintainer mode:            yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/polkit-gnome-0.105'
+Making all in src
+make[2]: Entering directory '/sources/7.9/polkit-gnome-0.105/src'
+  CC     polkit_gnome_authentication_agent_1-polkitgnomelistener.o
+  CC     polkit_gnome_authentication_agent_1-polkitgnomeauthenticator.o
+  CC     polkit_gnome_authentication_agent_1-polkitgnomeauthenticationdialog.o
+  CC     polkit_gnome_authentication_agent_1-main.o
+  CCLD   polkit-gnome-authentication-agent-1
+make[2]: Leaving directory '/sources/7.9/polkit-gnome-0.105/src'
+Making all in po
+make[2]: Entering directory '/sources/7.9/polkit-gnome-0.105/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo be | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file be.po
+file=`echo bn_IN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bn_IN.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hi.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo kn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kn.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo mr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mr.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo or | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file or.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo ta | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ta.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory '/sources/7.9/polkit-gnome-0.105/po'
+make[2]: Entering directory '/sources/7.9/polkit-gnome-0.105'
+make[2]: Leaving directory '/sources/7.9/polkit-gnome-0.105'
+make[1]: Leaving directory '/sources/7.9/polkit-gnome-0.105'
+Making install in src
+make[1]: Entering directory '/sources/7.9/polkit-gnome-0.105/src'
+make[2]: Entering directory '/sources/7.9/polkit-gnome-0.105/src'
+test -z "/usr/libexec" || /bin/mkdir -p "/usr/libexec"
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c polkit-gnome-authentication-agent-1 '/usr/libexec'
+libtool: install: /usr/bin/install -c polkit-gnome-authentication-agent-1 /usr/libexec/polkit-gnome-authentication-agent-1
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-gnome-0.105/src'
+make[1]: Leaving directory '/sources/7.9/polkit-gnome-0.105/src'
+Making install in po
+make[1]: Entering directory '/sources/7.9/polkit-gnome-0.105/po'
+linguas="ar be bn_IN ca ca@valencia cs da de el en_GB eo es eu fi fr gl gu he hi hu id it ja kn ko lt ml mr nb or pa pl pt pt_BR ro ru sk sl sr sr@latin sv ta te th tr uk vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/polkit-gnome-0.105/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/polkit-gnome-1.mo; \
+    echo "installing $lang.gmo as $dir/polkit-gnome-1.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/polkit-gnome-1.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/polkit-gnome-1.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/polkit-gnome-1.mo.m; \
+    echo "installing $lang.gmo.m as $dir/polkit-gnome-1.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/polkit-gnome-1.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/polkit-gnome-1.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/polkit-gnome-1.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/polkit-gnome-1.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/polkit-gnome-1.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/polkit-gnome-1.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/polkit-gnome-1.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/polkit-gnome-1.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/polkit-gnome-1.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/polkit-gnome-1.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/polkit-gnome-1.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/polkit-gnome-1.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/polkit-gnome-1.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/polkit-gnome-1.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/polkit-gnome-1.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/polkit-gnome-1.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/polkit-gnome-1.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/polkit-gnome-1.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/polkit-gnome-1.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/polkit-gnome-1.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/polkit-gnome-1.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/polkit-gnome-1.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/polkit-gnome-1.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/polkit-gnome-1.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/polkit-gnome-1.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/polkit-gnome-1.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/polkit-gnome-1.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/polkit-gnome-1.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/polkit-gnome-1.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/polkit-gnome-1.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/polkit-gnome-1.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/polkit-gnome-1.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/polkit-gnome-1.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/polkit-gnome-1.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/polkit-gnome-1.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/polkit-gnome-1.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/polkit-gnome-1.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/polkit-gnome-1.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/polkit-gnome-1.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/polkit-gnome-1.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/polkit-gnome-1.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/polkit-gnome-1.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/polkit-gnome-1.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/polkit-gnome-1.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/polkit-gnome-1.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/polkit-gnome-1.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/polkit-gnome-1.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/polkit-gnome-1.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/polkit-gnome-1.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/polkit-gnome-1.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/polkit-gnome-1.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/polkit-gnome-1.mo
+make[1]: Leaving directory '/sources/7.9/polkit-gnome-0.105/po'
+make[1]: Entering directory '/sources/7.9/polkit-gnome-0.105'
+make[2]: Entering directory '/sources/7.9/polkit-gnome-0.105'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-gnome-0.105'
+make[1]: Leaving directory '/sources/7.9/polkit-gnome-0.105'

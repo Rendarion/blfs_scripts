@@ -1,0 +1,12 @@
+URL=(
+"http://downloads.sourceforge.net/qpdf/qpdf-6.0.0.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"pcre-8.40"
+)

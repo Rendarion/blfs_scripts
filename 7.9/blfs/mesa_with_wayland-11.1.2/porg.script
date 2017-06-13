@@ -1,0 +1,6 @@
+make install
+
+make -C xdemos DEMOS_PREFIX=$XORG_PREFIX install
+
+install -v -dm755 /usr/share/doc/mesa-11.1.2 &&
+cp -rfv docs/* /usr/share/doc/mesa-11.1.2

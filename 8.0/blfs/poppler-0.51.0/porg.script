@@ -1,0 +1,10 @@
+make install
+
+install -v -m755 -d        /usr/share/doc/poppler-0.51.0 &&
+install -v -m644 README*   /usr/share/doc/poppler-0.51.0 &&
+cp -vr glib/reference/html /usr/share/doc/poppler-0.51.0
+
+tar -xf ../poppler-data-0.4.7.tar.gz &&
+cd poppler-data-0.4.7
+
+make prefix=/usr install

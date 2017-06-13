@@ -1,0 +1,13 @@
+URL=(
+"http://www.ece.uvic.ca/~frodo/jasper/software/jasper-2.0.10.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+"libjpeg-turbo-1.5.1"
+)

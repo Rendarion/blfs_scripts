@@ -1,0 +1,143 @@
+mkdir: cannot create directory '/sources/7.9': File exists
+--2016-05-21 16:49:40--  http://download.savannah.gnu.org/releases/acl/acl-2.2.52.src.tar.gz
+Resolving download.savannah.gnu.org... 208.118.235.73
+Connecting to download.savannah.gnu.org|208.118.235.73|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://download.savannah.gnu.org/releases-redirect/acl/acl-2.2.52.src.tar.gz [following]
+--2016-05-21 16:49:41--  http://download.savannah.gnu.org/releases-redirect/acl/acl-2.2.52.src.tar.gz
+Reusing existing connection to download.savannah.gnu.org:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://mirror.easyname.at/nongnu//acl/acl-2.2.52.src.tar.gz [following]
+--2016-05-21 16:49:41--  http://mirror.easyname.at/nongnu//acl/acl-2.2.52.src.tar.gz
+Resolving mirror.easyname.at... 146.255.57.4
+Connecting to mirror.easyname.at|146.255.57.4|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:41--  http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz
+Connecting to download.savannah.gnu.org|208.118.235.73|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://download.savannah.gnu.org/releases-redirect/attr/attr-2.4.47.src.tar.gz [following]
+--2016-05-21 16:49:41--  http://download.savannah.gnu.org/releases-redirect/attr/attr-2.4.47.src.tar.gz
+Reusing existing connection to download.savannah.gnu.org:80.
+HTTP request sent, awaiting response... 302 Found
+Location: http://mirror.easyname.at/nongnu//attr/attr-2.4.47.src.tar.gz [following]
+--2016-05-21 16:49:41--  http://mirror.easyname.at/nongnu//attr/attr-2.4.47.src.tar.gz
+Connecting to mirror.easyname.at|146.255.57.4|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:41--  http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.xz
+Resolving ftp.gnu.org... 208.118.235.20, 2001:4830:134:3::b
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:42--  http://ftp.gnu.org/gnu/automake/automake-1.15.tar.xz
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:42--  http://ftp.gnu.org/gnu/bash/bash-4.3.30.tar.gz
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:42--  http://alpha.gnu.org/gnu/bc/bc-1.06.95.tar.bz2
+Resolving alpha.gnu.org... 208.118.235.21, 2001:4830:134:3::c
+Connecting to alpha.gnu.org|208.118.235.21|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:43--  http://ftp.gnu.org/gnu/binutils/binutils-2.26.tar.bz2
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:43--  http://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.xz
+Connecting to ftp.gnu.org|208.118.235.20|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:44--  http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+Resolving www.bzip.org... 46.235.226.80, 2a00:1098:0:86:1000:44:0:80
+Connecting to www.bzip.org|46.235.226.80|:80... connected.
+HTTP request sent, awaiting response... 416 Requested Range Not Satisfiable
+
+    The file is already fully retrieved; nothing to do.
+
+--2016-05-21 16:49:44--  http://sourceforge.net/projects/check/files/check/0.10.0/check-0.10.0.tar.gz
+Resolving sourceforge.net... 216.34.181.60
+Connecting to sourceforge.net|216.34.181.60|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://sourceforge.net/projects/check/files/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:44--  https://sourceforge.net/projects/check/files/check/0.10.0/check-0.10.0.tar.gz
+Connecting to sourceforge.net|216.34.181.60|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://sourceforge.net/projects/check/files/check/0.10.0/check-0.10.0.tar.gz/download [following]
+--2016-05-21 16:49:45--  https://sourceforge.net/projects/check/files/check/0.10.0/check-0.10.0.tar.gz/download
+Connecting to sourceforge.net|216.34.181.60|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz?r=&ts=1463842186&use_mirror=vorboss [following]
+--2016-05-21 16:49:46--  http://downloads.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz?r=&ts=1463842186&use_mirror=vorboss
+Resolving downloads.sourceforge.net... 216.34.181.59
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://vorboss.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:46--  http://vorboss.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving vorboss.dl.sourceforge.net... 5.10.152.194
+Connecting to vorboss.dl.sourceforge.net|5.10.152.194|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net [following]
+--2016-05-21 16:49:46--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=vorboss.dl.sourceforge.net
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://heanet.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:46--  http://heanet.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving heanet.dl.sourceforge.net... 193.1.193.66, 2001:770:18:aa40::c101:c142
+Connecting to heanet.dl.sourceforge.net|193.1.193.66|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=heanet.dl.sourceforge.net [following]
+--2016-05-21 16:49:47--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=heanet.dl.sourceforge.net
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://kent.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:47--  http://kent.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving kent.dl.sourceforge.net... 212.219.56.185
+Connecting to kent.dl.sourceforge.net|212.219.56.185|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=kent.dl.sourceforge.net [following]
+--2016-05-21 16:49:47--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=kent.dl.sourceforge.net
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://netcologne.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:47--  http://netcologne.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving netcologne.dl.sourceforge.net... 78.35.24.46, 2001:4dd0:1234:6::5f
+Connecting to netcologne.dl.sourceforge.net|78.35.24.46|:80... connected.
+HTTP request sent, awaiting response... 302 Moved Temporarily
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netcologne.dl.sourceforge.net [following]
+--2016-05-21 16:49:47--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netcologne.dl.sourceforge.net
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://netix.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:48--  http://netix.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving netix.dl.sourceforge.net... 87.121.121.2
+Connecting to netix.dl.sourceforge.net|87.121.121.2|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net [following]
+--2016-05-21 16:49:48--  http://downloads.sourceforge.net/mirrorproblem?failedmirror=netix.dl.sourceforge.net
+Connecting to downloads.sourceforge.net|216.34.181.59|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: http://netassist.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz [following]
+--2016-05-21 16:49:48--  http://netassist.dl.sourceforge.net/project/check/check/0.10.0/check-0.10.0.tar.gz
+Resolving netassist.dl.sourceforge.net... 62.205.134.42, 2a01:d0:0:37::2
+Connecting to netassist.dl.sourceforge.net|62.205.134.42|:80... connected.
+HTTP request sent, awaiting response... 

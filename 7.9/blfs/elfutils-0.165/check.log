@@ -1,0 +1,574 @@
+Making check in config
+make[1]: Nothing to be done for 'check'.
+Making check in m4
+make[1]: Nothing to be done for 'check'.
+Making check in lib
+make[1]: Nothing to be done for 'check'.
+Making check in libelf
+make[1]: Nothing to be done for 'check'.
+Making check in libebl
+make[1]: Nothing to be done for 'check'.
+Making check in libdwelf
+make[1]: Nothing to be done for 'check'.
+Making check in libdwfl
+make[1]: Nothing to be done for 'check'.
+Making check in libdw
+make  check-am
+make[2]: Nothing to be done for 'check-am'.
+Making check in libcpu
+make[1]: Nothing to be done for 'check'.
+Making check in libasm
+make[1]: Nothing to be done for 'check'.
+Making check in backends
+  CC       i386_init.o
+  CC       i386_init.os
+  CC       i386_symbol.o
+  CC       i386_symbol.os
+  CC       i386_corenote.o
+  CC       i386_corenote.os
+  CC       i386_cfi.o
+  CC       i386_cfi.os
+  CC       i386_retval.o
+  CC       i386_retval.os
+  CC       i386_regs.o
+  CC       i386_regs.os
+  CC       i386_auxv.o
+  CC       i386_auxv.os
+  CC       i386_syscall.o
+  CC       i386_syscall.os
+  CC       i386_initreg.o
+  CC       i386_initreg.os
+  AR       libebl_i386_pic.a
+  CC       sh_init.o
+  CC       sh_init.os
+  CC       sh_symbol.o
+  CC       sh_symbol.os
+  CC       sh_corenote.o
+  CC       sh_corenote.os
+  CC       sh_regs.o
+  CC       sh_regs.os
+  CC       sh_retval.o
+  CC       sh_retval.os
+  AR       libebl_sh_pic.a
+  CC       x86_64_init.o
+  CC       x86_64_init.os
+  CC       x86_64_symbol.o
+  CC       x86_64_symbol.os
+  CC       x86_64_corenote.o
+  CC       x86_64_corenote.os
+  CC       x86_64_cfi.o
+  CC       x86_64_cfi.os
+  CC       x86_64_retval.o
+  CC       x86_64_retval.os
+  CC       x86_64_regs.o
+  CC       x86_64_regs.os
+  CC       x86_64_syscall.o
+  CC       x86_64_syscall.os
+  CC       x86_64_initreg.o
+  CC       x86_64_initreg.os
+  CC       x32_corenote.o
+  CC       x32_corenote.os
+  AR       libebl_x86_64_pic.a
+  CC       ia64_init.o
+  CC       ia64_init.os
+  CC       ia64_symbol.o
+  CC       ia64_symbol.os
+  CC       ia64_regs.o
+  CC       ia64_regs.os
+  CC       ia64_retval.o
+  CC       ia64_retval.os
+  AR       libebl_ia64_pic.a
+  CC       alpha_init.o
+  CC       alpha_init.os
+  CC       alpha_symbol.o
+  CC       alpha_symbol.os
+  CC       alpha_retval.o
+  CC       alpha_retval.os
+  CC       alpha_regs.o
+  CC       alpha_regs.os
+  CC       alpha_corenote.o
+  CC       alpha_corenote.os
+  CC       alpha_auxv.o
+  CC       alpha_auxv.os
+  AR       libebl_alpha_pic.a
+  CC       arm_init.o
+  CC       arm_init.os
+  CC       arm_symbol.o
+  CC       arm_symbol.os
+  CC       arm_regs.o
+  CC       arm_regs.os
+  CC       arm_corenote.o
+  CC       arm_corenote.os
+  CC       arm_auxv.o
+  CC       arm_auxv.os
+  CC       arm_attrs.o
+  CC       arm_attrs.os
+  CC       arm_retval.o
+  CC       arm_retval.os
+  CC       arm_cfi.o
+  CC       arm_cfi.os
+  CC       arm_initreg.o
+  CC       arm_initreg.os
+  AR       libebl_arm_pic.a
+  CC       aarch64_init.o
+  CC       aarch64_init.os
+  CC       aarch64_regs.o
+  CC       aarch64_regs.os
+  CC       aarch64_symbol.o
+  CC       aarch64_symbol.os
+  CC       aarch64_corenote.o
+  CC       aarch64_corenote.os
+  CC       aarch64_retval.o
+  CC       aarch64_retval.os
+  CC       aarch64_cfi.o
+  CC       aarch64_cfi.os
+  CC       aarch64_initreg.o
+  CC       aarch64_initreg.os
+  AR       libebl_aarch64_pic.a
+  CC       sparc_init.o
+  CC       sparc_init.os
+  CC       sparc_symbol.o
+  CC       sparc_symbol.os
+  CC       sparc_regs.o
+  CC       sparc_regs.os
+  CC       sparc_retval.o
+  CC       sparc_retval.os
+  CC       sparc_corenote.o
+  CC       sparc_corenote.os
+  CC       sparc64_corenote.o
+  CC       sparc64_corenote.os
+  CC       sparc_auxv.o
+  CC       sparc_auxv.os
+  CC       sparc_attrs.o
+  CC       sparc_attrs.os
+  CC       sparc_cfi.o
+  CC       sparc_cfi.os
+  CC       sparc_initreg.o
+  CC       sparc_initreg.os
+  AR       libebl_sparc_pic.a
+  CC       ppc_init.o
+  CC       ppc_init.os
+  CC       ppc_symbol.o
+  CC       ppc_symbol.os
+  CC       ppc_retval.o
+  CC       ppc_retval.os
+  CC       ppc_regs.o
+  CC       ppc_regs.os
+  CC       ppc_corenote.o
+  CC       ppc_corenote.os
+  CC       ppc_auxv.o
+  CC       ppc_auxv.os
+  CC       ppc_attrs.o
+  CC       ppc_attrs.os
+  CC       ppc_syscall.o
+  CC       ppc_syscall.os
+  CC       ppc_cfi.o
+  CC       ppc_cfi.os
+  CC       ppc_initreg.o
+  CC       ppc_initreg.os
+  AR       libebl_ppc_pic.a
+  CC       ppc64_init.o
+  CC       ppc64_init.os
+  CC       ppc64_symbol.o
+  CC       ppc64_symbol.os
+  CC       ppc64_retval.o
+  CC       ppc64_retval.os
+  CC       ppc64_corenote.o
+  CC       ppc64_corenote.os
+  CC       ppc64_resolve_sym.o
+  CC       ppc64_resolve_sym.os
+  AR       libebl_ppc64_pic.a
+  CC       s390_init.o
+  CC       s390_init.os
+  CC       s390_symbol.o
+  CC       s390_symbol.os
+  CC       s390_regs.o
+  CC       s390_regs.os
+  CC       s390_retval.o
+  CC       s390_retval.os
+  CC       s390_corenote.o
+  CC       s390_corenote.os
+  CC       s390x_corenote.o
+  CC       s390x_corenote.os
+  CC       s390_cfi.o
+  CC       s390_cfi.os
+  CC       s390_initreg.o
+  CC       s390_initreg.os
+  CC       s390_unwind.o
+  CC       s390_unwind.os
+  AR       libebl_s390_pic.a
+  CC       tilegx_init.o
+  CC       tilegx_init.os
+  CC       tilegx_symbol.o
+  CC       tilegx_symbol.os
+  CC       tilegx_regs.o
+  CC       tilegx_regs.os
+  CC       tilegx_retval.o
+  CC       tilegx_retval.os
+  CC       tilegx_corenote.o
+  CC       tilegx_corenote.os
+  AR       libebl_tilegx_pic.a
+  CCLD     libebl_i386.so
+  CCLD     libebl_sh.so
+  CCLD     libebl_x86_64.so
+  CCLD     libebl_ia64.so
+  CCLD     libebl_alpha.so
+  CCLD     libebl_arm.so
+  CCLD     libebl_aarch64.so
+  CCLD     libebl_sparc.so
+  CCLD     libebl_ppc.so
+  CCLD     libebl_ppc64.so
+  CCLD     libebl_s390.so
+  CCLD     libebl_tilegx.so
+Making check in src
+  CC       i386_ld.o
+  CC       i386_ld.os
+  AR       libld_elf_i386_pic.a
+  CCLD     libld_elf_i386.so
+Making check in po
+make[1]: Nothing to be done for 'check'.
+Making check in tests
+make  arextract arsymtest newfile saridx scnnames sectiondump showptable update1 update2 update3 update4 test-nlist show-die-info get-files get-lines get-pubnames get-aranges allfcts line2addr addrscopes funcscopes show-abbrev hash newscn ecp dwflmodtest find-prologues funcretval allregs rdwrmmap dwfl-bug-addr-overflow arls dwfl-bug-fd-leak dwfl-addr-sect dwfl-bug-report early-offscn dwfl-bug-getmodules dwarf-getmacros dwarf-ranges addrcfi test-flag-nobits dwarf-getstring rerequest_tag alldts md5-sha1-test typeiter typeiter2 low_high_pc test-elf_cntl_gelf_getshdr dwflsyms dwfllines dwfl-report-elf-align varlocs backtrace backtrace-child backtrace-data backtrace-dwarf debuglink debugaltlink buildid deleted deleted-lib.so aggregate_size vdsosyms getsrc_die strptr newdata elfstrtab dwfl-proc-attach elfshphehdr elfstrmerge dwelfgnucompressed elfgetchdr elfgetzdata elfputzdata zstrptr  msg_tst md5-sha1-test asm-tst1 asm-tst2 asm-tst3 asm-tst4 asm-tst5 asm-tst6 asm-tst7 asm-tst8 asm-tst9
+  CC       arextract.o
+  CCLD     arextract
+  CC       arsymtest.o
+  CCLD     arsymtest
+  CC       newfile.o
+  CCLD     newfile
+  CC       saridx.o
+  CCLD     saridx
+  CC       scnnames.o
+  CCLD     scnnames
+  CC       sectiondump.o
+  CCLD     sectiondump
+  CC       showptable.o
+  CCLD     showptable
+  CC       update1.o
+  CCLD     update1
+  CC       update2.o
+  CCLD     update2
+  CC       update3.o
+  CCLD     update3
+  CC       update4.o
+  CCLD     update4
+  CC       test-nlist.o
+  CCLD     test-nlist
+  CC       show-die-info.o
+  CCLD     show-die-info
+  CC       get-files.o
+  CCLD     get-files
+  CC       get-lines.o
+  CCLD     get-lines
+  CC       get-pubnames.o
+  CCLD     get-pubnames
+  CC       get-aranges.o
+  CCLD     get-aranges
+  CC       allfcts.o
+  CCLD     allfcts
+  CC       line2addr.o
+  CCLD     line2addr
+  CC       addrscopes.o
+  CCLD     addrscopes
+  CC       funcscopes.o
+  CCLD     funcscopes
+  CC       show-abbrev.o
+  CCLD     show-abbrev
+  CC       hash.o
+  CCLD     hash
+  CC       newscn.o
+  CCLD     newscn
+  CC       ecp.o
+  CCLD     ecp
+  CC       dwflmodtest.o
+  CCLD     dwflmodtest
+  CC       find-prologues.o
+  CCLD     find-prologues
+  CC       funcretval.o
+  CCLD     funcretval
+  CC       allregs.o
+  CCLD     allregs
+  CC       rdwrmmap.o
+  CCLD     rdwrmmap
+  CC       dwfl-bug-addr-overflow.o
+  CCLD     dwfl-bug-addr-overflow
+  CC       arls.o
+  CCLD     arls
+  CC       dwfl-bug-fd-leak.o
+  CCLD     dwfl-bug-fd-leak
+  CC       dwfl-addr-sect.o
+  CCLD     dwfl-addr-sect
+  CC       dwfl-bug-report.o
+  CCLD     dwfl-bug-report
+  CC       early-offscn.o
+  CCLD     early-offscn
+  CC       dwfl-bug-getmodules.o
+  CCLD     dwfl-bug-getmodules
+  CC       dwarf-getmacros.o
+  CCLD     dwarf-getmacros
+  CC       dwarf-ranges.o
+  CCLD     dwarf-ranges
+  CC       addrcfi.o
+  CCLD     addrcfi
+  CC       test-flag-nobits.o
+  CCLD     test-flag-nobits
+  CC       dwarf-getstring.o
+  CCLD     dwarf-getstring
+  CC       rerequest_tag.o
+  CCLD     rerequest_tag
+  CC       alldts.o
+  CCLD     alldts
+  CC       md5-sha1-test.o
+  CCLD     md5-sha1-test
+  CC       typeiter.o
+  CCLD     typeiter
+  CC       typeiter2.o
+  CCLD     typeiter2
+  CC       low_high_pc.o
+  CCLD     low_high_pc
+  CC       test-elf_cntl_gelf_getshdr.o
+  CCLD     test-elf_cntl_gelf_getshdr
+  CC       dwflsyms.o
+  CCLD     dwflsyms
+  CC       dwfllines.o
+  CCLD     dwfllines
+  CC       dwfl-report-elf-align.o
+  CCLD     dwfl-report-elf-align
+  CC       varlocs.o
+  CCLD     varlocs
+  CC       backtrace.o
+  CCLD     backtrace
+  CC       backtrace_child-backtrace-child.o
+  CCLD     backtrace-child
+  CC       backtrace-data.o
+  CCLD     backtrace-data
+  CC       backtrace_dwarf-backtrace-dwarf.o
+  CCLD     backtrace-dwarf
+  CC       debuglink.o
+  CCLD     debuglink
+  CC       debugaltlink.o
+  CCLD     debugaltlink
+  CC       buildid.o
+  CCLD     buildid
+  CC       deleted.o
+  CC       deleted_lib_so-deleted-lib.o
+  CCLD     deleted-lib.so
+  CCLD     deleted
+make[2]: 'deleted-lib.so' is up to date.
+  CC       aggregate_size.o
+  CCLD     aggregate_size
+  CC       vdsosyms.o
+  CCLD     vdsosyms
+  CC       getsrc_die.o
+  CCLD     getsrc_die
+  CC       strptr.o
+  CCLD     strptr
+  CC       newdata.o
+  CCLD     newdata
+  CC       elfstrtab.o
+  CCLD     elfstrtab
+  CC       dwfl-proc-attach.o
+  CCLD     dwfl-proc-attach
+  CC       elfshphehdr.o
+  CCLD     elfshphehdr
+  CC       elfstrmerge.o
+  CCLD     elfstrmerge
+  CC       dwelfgnucompressed.o
+  CCLD     dwelfgnucompressed
+  CC       elfgetchdr.o
+  CCLD     elfgetchdr
+  CC       elfgetzdata.o
+  CCLD     elfgetzdata
+  CC       elfputzdata.o
+  CCLD     elfputzdata
+  CC       zstrptr.o
+  CCLD     zstrptr
+  CC       msg_tst.o
+  CCLD     msg_tst
+make[2]: 'md5-sha1-test' is up to date.
+  CC       asm-tst1.o
+  CCLD     asm-tst1
+  CC       asm-tst2.o
+  CCLD     asm-tst2
+  CC       asm-tst3.o
+  CCLD     asm-tst3
+  CC       asm-tst4.o
+  CCLD     asm-tst4
+  CC       asm-tst5.o
+  CCLD     asm-tst5
+  CC       asm-tst6.o
+  CCLD     asm-tst6
+  CC       asm-tst7.o
+  CCLD     asm-tst7
+  CC       asm-tst8.o
+  CCLD     asm-tst8
+  CC       asm-tst9.o
+  CCLD     asm-tst9
+make  check-TESTS
+PASS: run-arextract.sh
+PASS: run-arsymtest.sh
+PASS: newfile
+PASS: test-nlist
+PASS: update1
+PASS: update2
+PASS: update3
+PASS: update4
+PASS: run-show-die-info.sh
+PASS: run-get-files.sh
+PASS: run-get-lines.sh
+PASS: run-get-pubnames.sh
+PASS: run-get-aranges.sh
+PASS: run-allfcts.sh
+PASS: run-show-abbrev.sh
+PASS: run-line2addr.sh
+PASS: hash
+PASS: newscn
+PASS: run-strip-test.sh
+PASS: run-strip-test2.sh
+PASS: run-strip-test3.sh
+PASS: run-strip-test4.sh
+PASS: run-strip-test5.sh
+PASS: run-strip-test6.sh
+PASS: run-strip-test7.sh
+PASS: run-strip-test8.sh
+PASS: run-strip-test9.sh
+PASS: run-strip-test10.sh
+PASS: run-strip-groups.sh
+PASS: run-strip-reloc.sh
+PASS: run-strip-strmerge.sh
+PASS: run-unstrip-test.sh
+PASS: run-unstrip-test2.sh
+PASS: run-unstrip-test3.sh
+PASS: run-unstrip-M.sh
+PASS: run-elfstrmerge-test.sh
+PASS: run-ecp-test.sh
+PASS: run-ecp-test2.sh
+PASS: run-alldts.sh
+PASS: run-elflint-test.sh
+PASS: run-elflint-self.sh
+PASS: run-ranlib-test.sh
+PASS: run-ranlib-test2.sh
+PASS: run-ranlib-test3.sh
+PASS: run-ranlib-test4.sh
+PASS: run-addrscopes.sh
+PASS: run-strings-test.sh
+PASS: run-funcscopes.sh
+PASS: run-find-prologues.sh
+PASS: run-allregs.sh
+PASS: run-addrcfi.sh
+PASS: run-nm-self.sh
+PASS: run-readelf-self.sh
+PASS: run-readelf-test1.sh
+PASS: run-readelf-test2.sh
+PASS: run-readelf-test3.sh
+PASS: run-readelf-test4.sh
+PASS: run-readelf-twofiles.sh
+PASS: run-readelf-macro.sh
+PASS: run-readelf-loc.sh
+PASS: run-readelf-aranges.sh
+PASS: run-readelf-line.sh
+PASS: run-readelf-z.sh
+PASS: run-native-test.sh
+PASS: run-bug1-test.sh
+PASS: run-debuglink.sh
+PASS: run-debugaltlink.sh
+PASS: run-buildid.sh
+PASS: dwfl-bug-addr-overflow
+PASS: run-addrname-test.sh
+PASS: dwfl-bug-fd-leak
+PASS: dwfl-bug-report
+PASS: run-dwfl-bug-offline-rel.sh
+PASS: run-dwfl-addr-sect.sh
+PASS: run-disasm-x86.sh
+PASS: run-disasm-x86-64.sh
+PASS: run-early-offscn.sh
+PASS: run-dwarf-getmacros.sh
+PASS: run-dwarf-ranges.sh
+PASS: run-test-flag-nobits.sh
+PASS: run-prelink-addr-test.sh
+PASS: run-dwarf-getstring.sh
+PASS: run-rerequest_tag.sh
+PASS: run-typeiter.sh
+PASS: run-readelf-d.sh
+PASS: run-readelf-gdb_index.sh
+PASS: run-unstrip-n.sh
+PASS: run-low_high_pc.sh
+PASS: run-macro-test.sh
+PASS: run-elf_cntl_gelf_getshdr.sh
+PASS: run-test-archive64.sh
+PASS: run-readelf-vmcoreinfo.sh
+PASS: run-readelf-mixed-corenote.sh
+PASS: run-dwfllines.sh
+PASS: run-dwfl-report-elf-align.sh
+PASS: run-addr2line-test.sh
+PASS: run-addr2line-i-test.sh
+PASS: run-addr2line-i-lex-test.sh
+PASS: run-addr2line-i-demangle-test.sh
+PASS: run-addr2line-alt-debugpath.sh
+PASS: run-varlocs.sh
+PASS: run-funcretval.sh
+PASS: run-backtrace-native.sh
+PASS: run-backtrace-data.sh
+PASS: run-backtrace-dwarf.sh
+SKIP: run-backtrace-native-biarch.sh
+PASS: run-backtrace-native-core.sh
+SKIP: run-backtrace-native-core-biarch.sh
+PASS: run-backtrace-core-x86_64.sh
+PASS: run-backtrace-core-x32.sh
+PASS: run-backtrace-core-i386.sh
+PASS: run-backtrace-core-ppc.sh
+PASS: run-backtrace-core-s390x.sh
+PASS: run-backtrace-core-s390.sh
+PASS: run-backtrace-core-aarch64.sh
+PASS: run-backtrace-core-sparc.sh
+PASS: run-backtrace-demangle.sh
+PASS: run-stack-d-test.sh
+PASS: run-stack-i-test.sh
+PASS: run-stack-demangled-test.sh
+PASS: run-readelf-zx.sh
+PASS: run-readelf-zp.sh
+PASS: run-readelf-dwz-multi.sh
+PASS: run-allfcts-multi.sh
+PASS: run-deleted.sh
+PASS: run-linkmap-cut.sh
+PASS: run-aggregate-size.sh
+PASS: vdsosyms
+PASS: run-readelf-A.sh
+PASS: run-getsrc-die.sh
+PASS: run-strptr.sh
+PASS: newdata
+PASS: elfstrtab
+PASS: dwfl-proc-attach
+PASS: elfshphehdr
+SKIP: run-lfs-symbols.sh
+PASS: run-dwelfgnucompressed.sh
+PASS: run-elfgetchdr.sh
+PASS: run-elfgetzdata.sh
+PASS: run-elfputzdata.sh
+PASS: run-zstrptr.sh
+PASS: run-compress-test.sh
+PASS: run-readelf-zdebug.sh
+PASS: run-readelf-zdebug-rel.sh
+PASS: msg_tst
+PASS: md5-sha1-test
+PASS: run-readelf-s.sh
+PASS: run-dwflsyms.sh
+PASS: asm-tst1
+PASS: asm-tst2
+PASS: asm-tst3
+PASS: asm-tst4
+PASS: asm-tst5
+PASS: asm-tst6
+PASS: asm-tst7
+PASS: asm-tst8
+PASS: asm-tst9
+============================================================================
+Testsuite summary for elfutils 0.165
+============================================================================
+# TOTAL: 157
+# PASS:  154
+# SKIP:  3
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================

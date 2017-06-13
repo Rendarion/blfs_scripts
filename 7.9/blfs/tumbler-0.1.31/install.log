@@ -1,0 +1,807 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking if building for some Win32 platform... no
+checking dependency style of gcc... gcc3
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking linux/sched.h usability... yes
+checking linux/sched.h presence... yes
+checking for linux/sched.h... yes
+checking for memory.h... (cached) yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking syscall.h usability... yes
+checking syscall.h presence... yes
+checking for syscall.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for sched_getparam... yes
+checking for sched_setscheduler... yes
+checking for getpwnam... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar ast bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt pt_BR ro ru si sk sr sv te th tr ug uk zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for dbus-binding-tool... /usr/bin/dbus-binding-tool
+checking for GLIB... yes
+checking for GIO... yes
+checking for GMODULE... yes
+checking for GTHREAD... yes
+checking for DBUS... yes
+checking for DBUS_GLIB... yes
+checking for GDK_PIXBUF... yes
+checking for CURL... no
+checking whether to build the Cover thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for freetype-config... /usr/bin/freetype-config
+checking FREETYPE_CFLAGS... -I/usr/include/freetype2
+checking FREETYPE_LIBS... -lfreetype
+checking whether to build the FreeType thumbnailer plugin... yes
+checking for GDK_PIXBUF... yes
+checking for jpeg_start_decompress in -ljpeg... yes
+checking jpeglib.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking whether to build the JPEG thumbnailer plugin with EXIF support... yes
+checking for GDK_PIXBUF... yes
+checking whether to build the GdkPixbuf thumbnailer plugin... yes
+checking for GDK_PIXBUF... yes
+checking for FFMPEGTHUMBNAILER... no
+checking whether to build the ffmpeg video thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for GSTREAMER... no
+checking whether to build the gstreamer video thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for GSF... no
+checking whether to build the office thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for POPPLER_GLIB... no
+checking whether to build the poppler PDF/PS thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for LIBOPENRAW_GNOME... no
+checking whether to build the RAW image thumbnailer plugin... no
+checking for GDK_PIXBUF... yes
+checking for PNG... yes
+checking whether to build the freedesktop.org cache plugin... yes
+checking whether to build with debugging support... minimum
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking if gcc supports -Wno-sign-compare... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/tumbler/Makefile
+config.status: creating docs/reference/tumbler/version.xml
+config.status: creating plugins/Makefile
+config.status: creating plugins/cover-thumbnailer/Makefile
+config.status: creating plugins/font-thumbnailer/Makefile
+config.status: creating plugins/gst-thumbnailer/Makefile
+config.status: creating plugins/jpeg-thumbnailer/Makefile
+config.status: creating plugins/pixbuf-thumbnailer/Makefile
+config.status: creating plugins/ffmpeg-thumbnailer/Makefile
+config.status: creating plugins/odf-thumbnailer/Makefile
+config.status: creating plugins/poppler-thumbnailer/Makefile
+config.status: creating plugins/raw-thumbnailer/Makefile
+config.status: creating plugins/xdg-cache/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tumbler/Makefile
+config.status: creating tumbler/tumbler-1.pc
+config.status: creating tumbler/tumbler-config.h
+config.status: creating tumblerd/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+  * Debug:                                            minimum
+
+Plugins:
+
+  * GdkPixbuf thumbnailer plugin:                     yes
+  * Cover thumbnailer plugin:                         no
+  * FreeType font thumbnailer plugin:                 yes
+  * JPEG thumbnailer plugin with EXIF support:        yes
+  * Video thumbnailer plugin using ffmpegthumbnailer: no
+  * Video thumbnailer plugin using GStreamer:         no
+  * ODF thumbnailer plugin using libgsf:              no
+  * PDF/PS thumbnailer plugin using poppler:          no
+  * RAW thumbnailer plugin using libopenraw:          no
+  * Freedesktop.org cache plugin:                     yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31'
+Making all in po
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/po'
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/po'
+Making all in tumbler
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/tumbler'
+  GEN      stamp-tumbler-marshal.h
+  GEN      tumbler-marshal.c
+make  all-am
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/tumbler'
+  CC       libtumbler_1_la-tumbler-abstract-thumbnailer.lo
+  CC       libtumbler_1_la-tumbler-cache.lo
+  CC       libtumbler_1_la-tumbler-cache-plugin.lo
+  CC       libtumbler_1_la-tumbler-config.lo
+  CC       libtumbler_1_la-tumbler-enum-types.lo
+  CC       libtumbler_1_la-tumbler-file-info.lo
+  CC       libtumbler_1_la-tumbler-marshal.lo
+  CC       libtumbler_1_la-tumbler-provider-factory.lo
+  CC       libtumbler_1_la-tumbler-provider-plugin.lo
+  CC       libtumbler_1_la-tumbler-thumbnailer-provider.lo
+  CC       libtumbler_1_la-tumbler-thumbnailer.lo
+  CC       libtumbler_1_la-tumbler-thumbnail.lo
+  CC       libtumbler_1_la-tumbler-thumbnail-flavor.lo
+  CC       libtumbler_1_la-tumbler-util.lo
+  CCLD     libtumbler-1.la
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumbler'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumbler'
+Making all in plugins
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins'
+Making all in cover-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+Making all in font-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+  CC       tumbler_font_thumbnailer_la-font-thumbnailer-plugin.lo
+  CC       tumbler_font_thumbnailer_la-font-thumbnailer-provider.lo
+  CC       tumbler_font_thumbnailer_la-font-thumbnailer.lo
+  CCLD     tumbler-font-thumbnailer.la
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+Making all in gst-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+Making all in jpeg-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+  CC       tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer-plugin.lo
+  CC       tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer-provider.lo
+  CC       tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer.lo
+  CCLD     tumbler-jpeg-thumbnailer.la
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+Making all in pixbuf-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+  CC       tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer-plugin.lo
+  CC       tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer-provider.lo
+  CC       tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer.lo
+  CCLD     tumbler-pixbuf-thumbnailer.la
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+Making all in ffmpeg-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+Making all in odf-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+Making all in poppler-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+Making all in raw-thumbnailer
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+Making all in xdg-cache
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+  CC       tumbler_xdg_cache_la-xdg-cache-cache.lo
+  CC       tumbler_xdg_cache_la-xdg-cache-plugin.lo
+  CC       tumbler_xdg_cache_la-xdg-cache-thumbnail.lo
+  CCLD     tumbler-xdg-cache.la
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins'
+Making all in tumblerd
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+  GEN      tumbler-cache-service-dbus-bindings.h
+  GEN      tumbler-manager-dbus-bindings.h
+  GEN      tumbler-service-dbus-bindings.h
+make  all-am
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+  CC       tumblerd-main.o
+  CC       tumblerd-tumbler-cache-service.o
+  CC       tumblerd-tumbler-component.o
+  CC       tumblerd-tumbler-lifecycle-manager.o
+  CC       tumblerd-tumbler-manager.o
+  CC       tumblerd-tumbler-registry.o
+  CC       tumblerd-tumbler-scheduler.o
+  CC       tumblerd-tumbler-service.o
+  CC       tumblerd-tumbler-specialized-thumbnailer.o
+  CC       tumblerd-tumbler-lifo-scheduler.o
+  CC       tumblerd-tumbler-group-scheduler.o
+  CCLD     tumblerd
+sed -e "s,\@libdir\@,/usr/lib,g"				\
+    -e "s,\@TUMBLER_VERSION_API\@,1,g" < org.xfce.Tumbler.Cache1.service.in > org.xfce.Tumbler.Cache1.service
+sed -e "s,\@libdir\@,/usr/lib,g"				\
+    -e "s,\@TUMBLER_VERSION_API\@,1,g" < org.xfce.Tumbler.Manager1.service.in > org.xfce.Tumbler.Manager1.service
+sed -e "s,\@libdir\@,/usr/lib,g"				\
+    -e "s,\@TUMBLER_VERSION_API\@,1,g" < org.xfce.Tumbler.Thumbnailer1.service.in > org.xfce.Tumbler.Thumbnailer1.service
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/docs'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+Making all in tumbler
+make[4]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[4]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs'
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31'
+Making install in po
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31/po'
+linguas="ar ast bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt pt_BR ro ru si sk sr sv te th tr ug uk zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/tumbler-0.1.31/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/tumbler.mo; \
+    echo "installing $lang.gmo as $dir/tumbler.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/tumbler.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/tumbler.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/tumbler.mo.m; \
+    echo "installing $lang.gmo.m as $dir/tumbler.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/tumbler.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/tumbler.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/tumbler.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/tumbler.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/tumbler.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/tumbler.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/tumbler.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/tumbler.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/tumbler.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/tumbler.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/tumbler.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/tumbler.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/tumbler.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/tumbler.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/tumbler.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/tumbler.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/tumbler.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/tumbler.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/tumbler.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/tumbler.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/tumbler.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/tumbler.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/tumbler.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/tumbler.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/tumbler.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/tumbler.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/tumbler.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/tumbler.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/tumbler.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/tumbler.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/tumbler.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/tumbler.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/tumbler.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/tumbler.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/tumbler.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/tumbler.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/tumbler.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/tumbler.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/tumbler.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/tumbler.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/tumbler.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/tumbler.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/tumbler.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/tumbler.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/tumbler.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/tumbler.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/tumbler.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/tumbler.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/tumbler.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/tumbler.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/tumbler.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/tumbler.mo
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31/po'
+Making install in tumbler
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31/tumbler'
+make  install-am
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/tumbler'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/tumbler'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libtumbler-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libtumbler-1.so.0.0.0 /usr/lib/libtumbler-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libtumbler-1.so.0.0.0 libtumbler-1.so.0 || { rm -f libtumbler-1.so.0 && ln -s libtumbler-1.so.0.0.0 libtumbler-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libtumbler-1.so.0.0.0 libtumbler-1.so || { rm -f libtumbler-1.so && ln -s libtumbler-1.so.0.0.0 libtumbler-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtumbler-1.lai /usr/lib/libtumbler-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/tumbler-1/tumbler'
+ /usr/bin/install -c -m 644 tumbler-abstract-thumbnailer.h tumbler-cache.h tumbler-cache-plugin.h tumbler-config.h tumbler-enum-types.h tumbler-error.h tumbler-file-info.h tumbler-glib-extensions.h tumbler-marshal.h tumbler-provider-factory.h tumbler-provider-plugin.h tumbler-thumbnailer-provider.h tumbler-thumbnailer.h tumbler-thumbnail.h tumbler-thumbnail-flavor.h tumbler-util.h tumbler.h '/usr/include/tumbler-1/tumbler'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 tumbler-1.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumbler'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumbler'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumbler'
+Making install in plugins
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins'
+Making install in cover-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/cover-thumbnailer'
+Making install in font-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/tumbler-1/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   tumbler-font-thumbnailer.la '/usr/lib/tumbler-1/plugins'
+libtool: install: (cd /sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer; /bin/sh "/sources/7.9/tumbler-0.1.31/libtool"  --silent --tag CC --mode=relink gcc -I../.. -I../../plugins -I../.. -I../../plugins -DG_LOG_DOMAIN=\"tumbler-font-thumbnailer\" -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -g -O2 -avoid-version -export-dynamic -module -Wl,--as-needed -Wl,-O1 -o tumbler-font-thumbnailer.la -rpath /usr/lib/tumbler-1/plugins tumbler_font_thumbnailer_la-font-thumbnailer-plugin.lo tumbler_font_thumbnailer_la-font-thumbnailer-provider.lo tumbler_font_thumbnailer_la-font-thumbnailer.lo ../../tumbler/libtumbler-1.la -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lglib-2.0 -lfreetype -lm )
+libtool: install: /usr/bin/install -c .libs/tumbler-font-thumbnailer.soT /usr/lib/tumbler-1/plugins/tumbler-font-thumbnailer.so
+libtool: install: /usr/bin/install -c .libs/tumbler-font-thumbnailer.lai /usr/lib/tumbler-1/plugins/tumbler-font-thumbnailer.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/tumbler-1/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/tumbler-1/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/font-thumbnailer'
+Making install in gst-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/gst-thumbnailer'
+Making install in jpeg-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/tumbler-1/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   tumbler-jpeg-thumbnailer.la '/usr/lib/tumbler-1/plugins'
+libtool: install: (cd /sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer; /bin/sh "/sources/7.9/tumbler-0.1.31/libtool"  --silent --tag CC --mode=relink gcc -I../.. -I../../plugins -I../.. -I../../plugins -DG_LOG_DOMAIN=\"tumbler-jpeg-thumbnailer\" -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -module -Wl,--as-needed -Wl,-O1 -o tumbler-jpeg-thumbnailer.la -rpath /usr/lib/tumbler-1/plugins tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer-plugin.lo tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer-provider.lo tumbler_jpeg_thumbnailer_la-jpeg-thumbnailer.lo ../../tumbler/libtumbler-1.la -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lglib-2.0 -ljpeg -lm -lm )
+libtool: install: /usr/bin/install -c .libs/tumbler-jpeg-thumbnailer.soT /usr/lib/tumbler-1/plugins/tumbler-jpeg-thumbnailer.so
+libtool: install: /usr/bin/install -c .libs/tumbler-jpeg-thumbnailer.lai /usr/lib/tumbler-1/plugins/tumbler-jpeg-thumbnailer.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/tumbler-1/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/tumbler-1/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/jpeg-thumbnailer'
+Making install in pixbuf-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/tumbler-1/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   tumbler-pixbuf-thumbnailer.la '/usr/lib/tumbler-1/plugins'
+libtool: install: (cd /sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer; /bin/sh "/sources/7.9/tumbler-0.1.31/libtool"  --silent --tag CC --mode=relink gcc -I../.. -I../../plugins -I../.. -I../../plugins -DG_LOG_DOMAIN=\"tumbler-pixbuf-thumbnailer\" -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -module -Wl,--as-needed -Wl,-O1 -o tumbler-pixbuf-thumbnailer.la -rpath /usr/lib/tumbler-1/plugins tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer-plugin.lo tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer-provider.lo tumbler_pixbuf_thumbnailer_la-pixbuf-thumbnailer.lo ../../tumbler/libtumbler-1.la -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lglib-2.0 -lm )
+libtool: install: /usr/bin/install -c .libs/tumbler-pixbuf-thumbnailer.soT /usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.so
+libtool: install: /usr/bin/install -c .libs/tumbler-pixbuf-thumbnailer.lai /usr/lib/tumbler-1/plugins/tumbler-pixbuf-thumbnailer.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/tumbler-1/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/tumbler-1/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/pixbuf-thumbnailer'
+Making install in ffmpeg-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/ffmpeg-thumbnailer'
+Making install in odf-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/odf-thumbnailer'
+Making install in poppler-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/poppler-thumbnailer'
+Making install in raw-thumbnailer
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/raw-thumbnailer'
+Making install in xdg-cache
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+make[3]: Nothing to be done for 'install-exec-am'.
+/bin/sh /sources/7.9/tumbler-0.1.31/install-sh -d /usr/lib/tumbler-1/plugins/cache
+( cd /usr/lib/tumbler-1/plugins/cache ; \
+	test -x tumbler-xdg-cache.so || \
+	ln -sf tumbler-xdg-cache.so tumbler-cache-plugin.so )
+ /bin/mkdir -p '/usr/lib/tumbler-1/plugins/cache'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   tumbler-xdg-cache.la '/usr/lib/tumbler-1/plugins/cache'
+libtool: install: (cd /sources/7.9/tumbler-0.1.31/plugins/xdg-cache; /bin/sh "/sources/7.9/tumbler-0.1.31/libtool"  --silent --tag CC --mode=relink gcc -I../.. -I../../plugins -I../.. -I../../plugins -DG_LOG_DOMAIN=\"tumbler-xdg-cache\" -DPACKAGE_LOCALE_DIR=\"/usr/share/locale\" -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -g -O2 -avoid-version -export-dynamic -module -Wl,--as-needed -Wl,-O1 -o tumbler-xdg-cache.la -rpath /usr/lib/tumbler-1/plugins/cache tumbler_xdg_cache_la-xdg-cache-cache.lo tumbler_xdg_cache_la-xdg-cache-plugin.lo tumbler_xdg_cache_la-xdg-cache-thumbnail.lo ../../tumbler/libtumbler-1.la -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lglib-2.0 -lpng16 )
+libtool: install: /usr/bin/install -c .libs/tumbler-xdg-cache.soT /usr/lib/tumbler-1/plugins/cache/tumbler-xdg-cache.so
+libtool: install: /usr/bin/install -c .libs/tumbler-xdg-cache.lai /usr/lib/tumbler-1/plugins/cache/tumbler-xdg-cache.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/tumbler-1/plugins/cache
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/tumbler-1/plugins/cache
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins/xdg-cache'
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31/plugins'
+Making install in tumblerd
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make  install-am
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/etc/xdg/tumbler'
+ /usr/bin/install -c -m 644 tumbler.rc '/etc/xdg/tumbler'
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.xfce.Tumbler.Cache1.service org.xfce.Tumbler.Manager1.service org.xfce.Tumbler.Thumbnailer1.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/usr/lib/tumbler-1'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c tumblerd '/usr/lib/tumbler-1'
+libtool: install: /usr/bin/install -c .libs/tumblerd /usr/lib/tumbler-1/tumblerd
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31/tumblerd'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31/docs'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+Making install in tumbler
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[4]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/extension-api.html
+ /usr/bin/install -c -m 644 ./html/extension-tutorial.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/miscellaneous.html
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/pt01.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/thumbnails.html
+ /usr/bin/install -c -m 644 ./html/TumblerAbstractThumbnailer.html
+ /usr/bin/install -c -m 644 ./html/TumblerCache.html
+ /usr/bin/install -c -m 644 ./html/tumbler.devhelp2
+ /usr/bin/install -c -m 644 ./html/tumbler-Error-Domain-and-Types.html
+ /usr/bin/install -c -m 644 ./html/TumblerThumbnailerProvider.html
+ /usr/bin/install -c -m 644 ./html/TumblerThumbnail.html
+ /usr/bin/install -c -m 644 ./html/tumbler-tumbler-file-info.html
+ /usr/bin/install -c -m 644 ./html/tumbler-tumbler-provider-factory.html
+ /usr/bin/install -c -m 644 ./html/tumbler-tumbler-provider-plugin.html
+ /usr/bin/install -c -m 644 ./html/tumbler-Various-Enumeration-Types.html
+ /usr/bin/install -c -m 644 ./html/tumbler-Version-Information-and-Compatibility-Checks.html
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[4]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference/tumbler'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[4]: Entering directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs/reference'
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31/docs'
+make[3]: Entering directory '/sources/7.9/tumbler-0.1.31/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs'
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31/docs'
+make[1]: Entering directory '/sources/7.9/tumbler-0.1.31'
+make[2]: Entering directory '/sources/7.9/tumbler-0.1.31'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/tumbler-0.1.31'
+make[1]: Leaving directory '/sources/7.9/tumbler-0.1.31'

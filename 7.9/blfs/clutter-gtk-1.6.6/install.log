@@ -1,0 +1,321 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking if building for some Win32 platform... no
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking for cos in -lm... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for CLUTTER_GTK_DEPS... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for linguas... ja pl zh_CN 
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for gobject-introspection... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating build/Makefile
+config.status: creating build/autotools/Makefile
+config.status: creating clutter-gtk/Makefile
+config.status: creating clutter-gtk/gtk-clutter-version.h
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating examples/Makefile
+config.status: creating po/Makefile.in
+config.status: creating clutter-gtk.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+ Clutter-GTK 1.6.6 (release)
+
+   Prefix: /usr
+   Libdir: ${exec_prefix}/lib
+
+   Debug level: minimum
+   Documentation: no
+   Compiler flags: -g -O2 
+   Introspection data: auto
+   Enable deprecated symbols: yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6'
+Making all in build
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build'
+Making all in autotools
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build'
+Making all in clutter-gtk
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+  CC       gtk-clutter-actor.lo
+  CC       gtk-clutter-embed.lo
+  CC       gtk-clutter-offscreen.lo
+  CC       gtk-clutter-texture.lo
+  CC       gtk-clutter-util.lo
+  CC       gtk-clutter-window.lo
+  CCLD     libclutter-gtk-1.0.la
+  GISCAN   GtkClutter-1.0.gir
+  GICOMP   GtkClutter-1.0.gir
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+  CC       gtk-clutter-events.o
+  CCLD     gtk-clutter-events
+  CC       gtk-clutter-multistage.o
+  CCLD     gtk-clutter-multistage
+  CC       gtk-clutter-test.o
+  CCLD     gtk-clutter-test
+  CC       gtk-clutter-test-actor.o
+  CCLD     gtk-clutter-test-actor
+  CC       gtk-clutter-window-test.o
+  CCLD     gtk-clutter-window-test
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+Making all in po
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/po'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/po'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6'
+  GEN      clutter-gtk-1.0.pc
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6'
+Making install in build
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build'
+Making install in autotools
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build/autotools'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/build'
+Making install in clutter-gtk
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libclutter-gtk-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libclutter-gtk-1.0.so.0.600.6 /usr/lib/libclutter-gtk-1.0.so.0.600.6
+libtool: install: (cd /usr/lib && { ln -s -f libclutter-gtk-1.0.so.0.600.6 libclutter-gtk-1.0.so.0 || { rm -f libclutter-gtk-1.0.so.0 && ln -s libclutter-gtk-1.0.so.0.600.6 libclutter-gtk-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libclutter-gtk-1.0.so.0.600.6 libclutter-gtk-1.0.so || { rm -f libclutter-gtk-1.0.so && ln -s libclutter-gtk-1.0.so.0.600.6 libclutter-gtk-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libclutter-gtk-1.0.lai /usr/lib/libclutter-gtk-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/clutter-gtk-1.0/clutter-gtk'
+ /usr/bin/install -c -m 644 ../clutter-gtk/clutter-gtk.h ../clutter-gtk/gtk-clutter-version.h ./gtk-clutter-actor.h ./gtk-clutter-embed.h ./gtk-clutter-texture.h ./gtk-clutter-util.h ./gtk-clutter-window.h '/usr/include/clutter-gtk-1.0/clutter-gtk'
+ /bin/mkdir -p '/usr/share/gir-1.0/'
+ /usr/bin/install -c -m 644 GtkClutter-1.0.gir '/usr/share/gir-1.0/'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 GtkClutter-1.0.typelib '/usr/lib/girepository-1.0/'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/clutter-gtk'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/clutter-gtk-1.0.devhelp2
+ /usr/bin/install -c -m 644 ./html/clutter-gtk-1.0-Utility-Functions.html
+ /usr/bin/install -c -m 644 ./html/cluttergtk-glossary.html
+ /usr/bin/install -c -m 644 ./html/cluttergtk-object-hierarchy.html
+ /usr/bin/install -c -m 644 ./html/cluttergtk-object-index.html
+ /usr/bin/install -c -m 644 ./html/cluttergtk-objects.html
+ /usr/bin/install -c -m 644 ./html/GtkClutterActor.html
+ /usr/bin/install -c -m 644 ./html/GtkClutterEmbed.html
+ /usr/bin/install -c -m 644 ./html/GtkClutterWindow.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/ix01.html
+ /usr/bin/install -c -m 644 ./html/ix02.html
+ /usr/bin/install -c -m 644 ./html/ix03.html
+ /usr/bin/install -c -m 644 ./html/ix04.html
+ /usr/bin/install -c -m 644 ./html/ix05.html
+ /usr/bin/install -c -m 644 ./html/ix06.html
+ /usr/bin/install -c -m 644 ./html/ix07.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/license.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc/reference'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[3]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/doc'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/examples'
+Making install in po
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6/po'
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/cluttergtk-1.0.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/cluttergtk-1.0.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/cluttergtk-1.0.mo
+if test "clutter-gtk" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6/po'
+make[1]: Entering directory '/sources/7.9/clutter-gtk-1.6.6'
+make[2]: Entering directory '/sources/7.9/clutter-gtk-1.6.6'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 clutter-gtk-1.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6'
+make[1]: Leaving directory '/sources/7.9/clutter-gtk-1.6.6'

@@ -1,0 +1,24 @@
+as_root "chmod 0666 /etc/syslog.conf"
+
+#cat >> /etc/syslog.conf << "EOF"
+# Begin fcron addition to /etc/syslog.conf
+
+#cron.* -/var/log/cron.log
+
+# End fcron addition
+#EOF
+
+as_root "chmod 0644 /etc/syslog.conf"
+
+as_root "/etc/rc.d/init.d/sysklogd reload"
+
+sudo groupadd -g 22 fcron
+sudo useradd -d /dev/null -c "Fcron User" -g fcron -s /bin/false -u 22 fcron
+
+./configure --prefix=/usr          \
+            --sysconfdir=/etc      \
+            --localstatedir=/var   \
+            --without-sendmail     \
+            --with-boot-install=no \
+            --with-systemdsystemunitdir=no &&
+make

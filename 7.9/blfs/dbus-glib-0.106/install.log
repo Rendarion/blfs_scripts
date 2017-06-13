@@ -1,0 +1,544 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc understands -Wfloat-equal... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing socket... none required
+checking whether socklen_t is defined... yes
+checking for XML_ParserCreate_MM in -lexpat... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DBUS... yes
+checking for DBUS_GLIB... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating dbus/Makefile
+config.status: creating dbus/examples/Makefile
+config.status: creating dbus/examples/statemachine/Makefile
+config.status: creating test/Makefile
+config.status: creating test/core/Makefile
+config.status: creating test/interfaces/Makefile
+config.status: creating test/data/valid-service-files/debug-glib.service
+config.status: creating test/data/valid-service-files/debug-echo.service
+config.status: creating test/data/valid-service-files/interfaces-test.service
+config.status: creating test/lib/Makefile
+config.status: creating tools/Makefile
+config.status: creating dbus-glib-1.pc
+config.status: creating dbus-glib-1-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+                    D-BUS GLIB BINDINGS 0.106
+                  ==============
+
+	prefix:                   /usr
+	exec_prefix:              ${prefix}
+	source code location:	  .
+	compiler:		  gcc
+	cflags:		          -g -O2 -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wcast-align -Wfloat-equal -Wsign-compare -fno-strict-aliasing
+	cppflags:		  
+
+
+        Maintainer mode:          no
+        gcc coverage profiling:   no
+        Building unit tests:      no
+        Building assertions:      no
+        Building checks:          yes
+        Building Gtk-doc docs:    no
+        Bash Completion:          yes
+        Using XML parser:         
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106'
+Making all in dbus
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making all in .
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+  CC       dbus-glib.lo
+  CC       dbus-gmain.lo
+  CC       dbus-gmarshal.lo
+  CC       dbus-gobject.lo
+  CC       dbus-gproxy.lo
+  CC       dbus-gtest.lo
+  CC       dbus-gvalue.lo
+  CC       dbus-gvalue-parse-variant.lo
+  CC       dbus-gthread.lo
+  CC       dbus-gtype-specialized.lo
+  CC       dbus-gutils.lo
+  CC       dbus-gsignature.lo
+  CC       dbus-gvalue-utils.lo
+  CCLD     libdbus-glib-1.la
+  CC       dbus-gidl.lo
+  CC       dbus-gloader-expat.lo
+  CC       dbus-gparser.lo
+  CCLD     libdbus-gtool.la
+  CC       dbus-binding-tool-glib.o
+  CC       dbus-glib-tool.o
+  CCLD     dbus-binding-tool
+  CC       dbus-bash-completion-helper.o
+  CCLD     dbus-bash-completion-helper
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+/bin/sh ../../libtool --mode=execute ../../dbus/dbus-binding-tool --prefix=some_object --mode=glib-server --output=example-service-glue.h ./example-service.xml
+/bin/sh ../../libtool --mode=execute ../../dbus/dbus-binding-tool --prefix=test_object --mode=glib-server --output=example-signal-emitter-glue.h ./example-signal-emitter.xml
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making all in .
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+  CC       example-client.o
+  CCLD     example-client
+  CC       example-service.o
+  CCLD     example-service
+  CC       example-signal-recipient.o
+  CCLD     example-signal-recipient
+  CC       example-signal-emitter.o
+  CCLD     example-signal-emitter
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making all in statemachine
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+/bin/sh ../../../libtool --mode=execute ../../../dbus/dbus-binding-tool --prefix=sm_server --mode=glib-server --output=statemachine-server-glue.h statemachine-server.xml
+/bin/sh ../../../libtool --mode=execute ../../../dbus/dbus-binding-tool --prefix=sm_object --mode=glib-server --output=statemachine-glue.h statemachine.xml
+echo "#include <config.h>" > sm-marshal.c.tmp
+glib-genmarshal --prefix=sm_marshal ./sm-marshal.list --header --body >> sm-marshal.c.tmp
+mv sm-marshal.c.tmp sm-marshal.c
+glib-genmarshal --prefix=sm_marshal ./sm-marshal.list --header > sm-marshal.h.tmp && mv sm-marshal.h.tmp sm-marshal.h
+make  all-am
+make[6]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+  CC       statemachine-server.o
+  CC       sm-marshal.o
+  CC       statemachine.o
+  CCLD     statemachine-server
+make[6]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+../dbus/dbus-binding-tool --mode=glib-client --prefix=dbus_bus --output=dbus-glib-bindings.h ../dbus-bus-introspect.xml
+make  all-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+Making all in test
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+Making all in lib
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/lib'
+  CC       util.lo
+  CCLD     libtest.la
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/lib'
+Making all in .
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making all in core
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  all-am
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+  CC       test-profile.o
+  CCLD     test-profile
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+Making all in interfaces
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  all-am
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106'
+Making check in dbus
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making check in .
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making check in statemachine
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make  check-am
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make  check-am
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+Making check in test
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/lib'
+Making check in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+PASS: test-compile-nested.sh
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in core
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  check-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+Making check in interfaces
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  check-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+============================================================================
+Testsuite summary for dbus-glib 0.106
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106'
+Making install in dbus
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making install in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdbus-glib-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.so.2.3.3 /usr/lib/libdbus-glib-1.so.2.3.3
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-glib-1.so.2.3.3 libdbus-glib-1.so.2 || { rm -f libdbus-glib-1.so.2 && ln -s libdbus-glib-1.so.2.3.3 libdbus-glib-1.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdbus-glib-1.so.2.3.3 libdbus-glib-1.so || { rm -f libdbus-glib-1.so && ln -s libdbus-glib-1.so.2.3.3 libdbus-glib-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.lai /usr/lib/libdbus-glib-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-binding-tool '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/dbus-binding-tool /usr/bin/dbus-binding-tool
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-bash-completion-helper '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/dbus-bash-completion-helper /usr/libexec/dbus-bash-completion-helper
+ /bin/mkdir -p '/etc/bash_completion.d'
+ /usr/bin/install -c dbus-bash-completion.sh '/etc/bash_completion.d'
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-gtype-specialized.h dbus-gvalue-parse-variant.h dbus-glib.h dbus-glib-lowlevel.h '/usr/include/dbus-1.0/dbus'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making install in examples
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making install in .
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+Making install in statemachine
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make  install-am
+make[5]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[6]: Entering directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[5]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples/statemachine'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus/examples'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/dbus'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make  install-am
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-glib-bindings.h '/usr/include/dbus-1.0/dbus'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/tools'
+Making install in test
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+Making install in lib
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/lib'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/lib'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/lib'
+Making install in .
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making install in core
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make  install-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/core'
+Making install in interfaces
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make  install-am
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[4]: Entering directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/test/interfaces'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/test'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/dbus-binding-tool.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGConnection.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGError.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GLib-low-level.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMessage.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMethod.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GObject-related-functions.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGProxy.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib.devhelp2
+ /usr/bin/install -c -m 644 ./html/dbus-glib-Specializable-GType-System.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc/reference'
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+make[3]: Entering directory '/sources/7.9/dbus-glib-0.106/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 dbus-binding-tool.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106/doc'
+make[1]: Entering directory '/sources/7.9/dbus-glib-0.106'
+make[2]: Entering directory '/sources/7.9/dbus-glib-0.106'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-glib-1.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/dbus-glib-0.106'
+make[1]: Leaving directory '/sources/7.9/dbus-glib-0.106'

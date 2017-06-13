@@ -1,0 +1,5 @@
+make prefix=/usr                      \
+     build=release                    \
+     docdir=/usr/share/doc/mupdf-1.10a \
+     install                          &&
+ln -sfv mupdf-x11-curl /usr/bin/mupdf

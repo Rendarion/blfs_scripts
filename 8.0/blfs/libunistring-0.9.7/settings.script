@@ -1,0 +1,11 @@
+URL=(
+"http://ftp.gnu.org/gnu/libunistring/libunistring-0.9.7.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

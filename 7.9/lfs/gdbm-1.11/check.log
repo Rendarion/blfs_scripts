@@ -1,0 +1,100 @@
+Making check in po
+make[1]: Entering directory '/sources/7.9/gdbm-1.11/po'
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11/po'
+Making check in src
+make[1]: Entering directory '/sources/7.9/gdbm-1.11/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11/src'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/gdbm-1.11/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11/doc'
+Making check in compat
+make[1]: Entering directory '/sources/7.9/gdbm-1.11/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11/compat'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gdbm-1.11/tests'
+make  fdop g_open_ce g_reorg_ce gtdel gtdump gtfetch gtload gtopt gtver num2word dtload dtdump dtfetch dtdel d_creat_ce
+make[2]: Entering directory '/sources/7.9/gdbm-1.11/tests'
+  CC       fdop.o
+  CC       g_open_ce.o
+  CC       g_reorg_ce.o
+  CC       gtdel.o
+  CC       gtdump.o
+  CC       gtfetch.o
+  CC       gtload.o
+  CC       gtopt.o
+  CC       gtver.o
+  CC       num2word.o
+  CC       dtload.o
+  CC       dtdump.o
+  CC       dtfetch.o
+  CC       dtdel.o
+  CC       d_creat_ce.o
+  CCLD     fdop
+  CCLD     g_open_ce
+  CCLD     g_reorg_ce
+  CCLD     gtdel
+  CCLD     gtdump
+  CCLD     gtfetch
+  CCLD     gtload
+  CCLD     gtopt
+  CCLD     gtver
+  CCLD     num2word
+  CCLD     dtload
+  CCLD     dtdump
+  CCLD     dtfetch
+  CCLD     dtdel
+  CCLD     d_creat_ce
+make[2]: Leaving directory '/sources/7.9/gdbm-1.11/tests'
+make  check-local
+make[2]: Entering directory '/sources/7.9/gdbm-1.11/tests'
+/bin/sh ./testsuite
+## --------------------- ##
+## gdbm 1.11 test suite. ##
+## --------------------- ##
+  1: gdbm version                                    ok
+
+GDBM interface
+
+  2: create database                                 ok
+  3: fetch a record                                  ok
+  4: fetch: nonexisting record                       ok
+  5: delete a record                                 ok
+  6: delete: non existing record                     ok
+  7: delete: all records                             ok
+
+Compatibility library (dbm/ndbm)
+
+  8: create database                                 ok
+  9: converting a 1.8-style database                 ok
+ 10: fetch a record                                  ok
+ 11: fetch: nonexisting record                       ok
+ 12: fetch from a read-only database                 ok
+ 13: fetch from a read-only 1.8-style database       ok
+ 14: delete a record                                 ok
+ 15: delete: non existing record                     ok
+ 16: delete: all records                             ok
+
+DB options
+
+ 17: setopt                                          ok
+ 18: setopt: mmap options                            ok
+
+Cloexec
+
+ 19: cloexec: gdbm_open                              ok
+ 20: cloexec: gdbm_reorganize                        ok
+ 21: cloexec: dbm_open                               ok
+ 22: cloexec: dbm_open -creat                        ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 22 tests were successful.
+make[2]: Leaving directory '/sources/7.9/gdbm-1.11/tests'
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11/tests'
+make[1]: Entering directory '/sources/7.9/gdbm-1.11'
+make[1]: Leaving directory '/sources/7.9/gdbm-1.11'

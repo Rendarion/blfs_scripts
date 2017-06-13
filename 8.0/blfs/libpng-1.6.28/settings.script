@@ -1,0 +1,12 @@
+URL=(
+"http://downloads.sourceforge.net/libpng/libpng-1.6.28.tar.xz"
+"http://downloads.sourceforge.net/project/apng/libpng/libpng16/libpng-1.6.28-apng.patch.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

@@ -1,0 +1,13 @@
+URL=(
+"http://downloads.sourceforge.net/lcms/lcms2-2.8.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libjpeg-turbo-1.5.1"
+"libtiff-4.0.7"
+)

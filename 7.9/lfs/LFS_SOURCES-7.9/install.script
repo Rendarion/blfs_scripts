@@ -1,0 +1,75 @@
+# read settings variables from script 
+
+source ../settings.script
+
+if [ ! -f "/sources/$LFSVS" ]
+  then
+    mkdir "/sources/$LFSVS"
+  fi
+
+cd "/sources/$LFSVS"
+
+if [ ! -f "/sources/$LFSVS/wget-list" ]
+  then
+    wget "http://www.linuxfromscratch.org/lfs/view/$LFSVS/wget-list"
+  fi
+
+if [ ! -f "/sources/$LFSVS/md5sums" ]
+  then
+    wget "http://www.linuxfromscratch.org/lfs/view/$LFSVS/md5sums"
+  fi
+
+wget --input-file=wget-list --continue --directory-prefix="/sources/$LFSVS"
+
+pushd "/sources/$LFSVS"
+md5sum -c md5sums
+popd
+
+if [ ! -f "/sources/$LFSVS/iwlwifi-5000-ucode-8.83.5.1-1.tgz" ]
+  then
+    wget "https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-5000-ucode-8.83.5.1-1.tgz"
+  fi
+
+# porg
+
+if [ ! -f "/sources/$LFSVS/porg-0.9.tar.gz" ]
+  then
+    wget "http://downloads.sourceforge.net/project/porg/porg-0.9.tar.gz"
+  fi
+
+# additional sources to jumpstart BLFS
+
+if [ ! -f "/sources/$LFSVS/blfs-bootscripts-20150924.tar.bz2" ]
+  then
+    wget "http://www.linuxfromscratch.org/blfs/downloads/7.8/blfs-bootscripts-20150924.tar.bz2"
+  fi
+
+if [ ! -f "/sources/$LFSVS/openssl-1.0.2g.tar.gz" ]
+  then
+    wget "https://openssl.org/source/openssl-1.0.2g.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/dhcpcd-6.9.3.tar.xz" ]
+  then
+    wget "http://roy.marples.name/downloads/dhcpcd/dhcpcd-6.9.3.tar.xz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/libnl-3.2.27.tar.gz" ]
+  then
+    wget "https://github.com/thom311/libnl/releases/download/libnl3_2_27/libnl-3.2.27.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/libnl-doc-3.2.27.tar.gz" ]
+  then
+    wget "https://github.com/thom311/libnl/releases/download/libnl3_2_27/libnl-doc-3.2.27.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/wpa_supplicant-2.5.tar.gz" ]
+  then
+    wget "http://hostap.epitest.fi/releases/wpa_supplicant-2.5.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/wget-1.17.1.tar.xz" ]
+  then
+    wget "http://ftp.gnu.org/gnu/wget/wget-1.17.1.tar.xz"
+  fi

@@ -1,0 +1,11 @@
+URL=(
+"http://ftp.gnu.org/gnu/which/which-2.21.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

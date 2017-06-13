@@ -1,0 +1,13 @@
+URL=(
+"http://anduin.linuxfromscratch.org/BLFS/other/make-ca.sh-20170119"
+"http://anduin.linuxfromscratch.org/BLFS/other/certdata.txt"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"openssl-1.0.2k"
+)

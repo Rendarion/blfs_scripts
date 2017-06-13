@@ -1,0 +1,208 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for an ANSI C-conforming const... yes
+checking for C/C++ restrict keyword... __restrict
+checking for size_t... yes
+checking if gcc has a working bool type... yes
+checking whether byte ordering is bigendian... no
+checking if gcc accepts -W... yes
+checking if gcc accepts -Wall... yes
+checking if gcc accepts -std=c99... yes
+checking if gcc accepts -pedantic... yes
+checking if gcc accepts -Werror=implicit... yes
+checking if gcc accepts -Werror=missing-braces... yes
+checking if gcc accepts -Werror=return-type... yes
+checking if gcc accepts -Werror=trigraphs... yes
+checking if gcc accepts -Werror=pointer-arith... yes
+checking if gcc accepts -Werror=strict-prototypes... no
+checking if gcc accepts -Werror=missing-prototypes... yes
+checking if gcc accepts -Werror=missing-declarations... yes
+checking if gcc accepts -Werror=comment... yes
+checking if gcc accepts -Werror=vla... yes
+checking for nroff... nroff
+checking for asciidoc... no
+checking for xmlto... no
+checking for acrodist... no
+checking for ps2pdf... no
+checking for pstopdf... no
+checking for ANSI C header files... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for inttypes.h... (cached) yes
+checking for strings.h... (cached) yes
+checking stdbool.h usability... yes
+checking stdbool.h presence... yes
+checking for stdbool.h... yes
+checking for strcspn... yes
+checking for strspn... yes
+checking for vsnprintf... yes
+checking for _vsnprintf... no
+checking for snprintf... yes
+checking for _snprintf... no
+checking for strcasecmp... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for strsep... yes
+checking for strlcpy... no
+checking for getuid... yes
+checking for getgid... yes
+checking whether strcasecmp is declared... yes
+checking whether stricmp is declared... no
+checking whether strncasecmp is declared... yes
+checking whether strnicmp is declared... no
+checking whether strsep is declared... yes
+checking whether strlcpy is declared... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating rdoff/Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: executing default-1 commands
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o nasm.o nasm.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o nasmlib.o nasmlib.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o ver.o ver.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o raa.o raa.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o saa.o saa.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o rbtree.o rbtree.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o float.o float.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o insnsa.o insnsa.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o insnsb.o insnsb.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o directiv.o directiv.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o assemble.o assemble.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o labels.o labels.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o hashtbl.o hashtbl.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o crc64.o crc64.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o parser.o parser.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outform.o output/outform.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outlib.o output/outlib.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/nulldbg.o output/nulldbg.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/nullout.o output/nullout.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outbin.o output/outbin.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outaout.o output/outaout.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outcoff.o output/outcoff.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outelf.o output/outelf.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outelf32.o output/outelf32.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outelf64.o output/outelf64.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outelfx32.o output/outelfx32.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outobj.o output/outobj.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outas86.o output/outas86.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outrdf2.o output/outrdf2.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outdbg.o output/outdbg.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outieee.o output/outieee.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outmac32.o output/outmac32.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o output/outmac64.o output/outmac64.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o preproc.o preproc.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o quote.o quote.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o pptok.o pptok.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o macros.o macros.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o listing.o listing.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o eval.o eval.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o exprlib.o exprlib.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o stdscan.o stdscan.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o strfunc.o strfunc.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o tokhash.o tokhash.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o regvals.o regvals.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o regflags.o regflags.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o ilog2.o ilog2.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o lib/strlcpy.o lib/strlcpy.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o preproc-nop.o preproc-nop.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o disp8.o disp8.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o iflag.o iflag.c
+gcc  -o nasm nasm.o nasmlib.o ver.o raa.o saa.o rbtree.o float.o insnsa.o insnsb.o directiv.o assemble.o labels.o hashtbl.o crc64.o parser.o output/outform.o output/outlib.o output/nulldbg.o output/nullout.o output/outbin.o output/outaout.o output/outcoff.o output/outelf.o output/outelf32.o output/outelf64.o output/outelfx32.o output/outobj.o output/outas86.o output/outrdf2.o output/outdbg.o output/outieee.o output/outmac32.o output/outmac64.o preproc.o quote.o pptok.o macros.o listing.o eval.o exprlib.o stdscan.o strfunc.o tokhash.o regvals.o regflags.o ilog2.o lib/strlcpy.o preproc-nop.o disp8.o iflag.o  
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o ndisasm.o ndisasm.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o disasm.o disasm.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o sync.o sync.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o insnsd.o insnsd.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o insnsn.o insnsn.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o regs.o regs.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -o regdis.o regdis.c
+gcc  -o ndisasm ndisasm.o disasm.o sync.o nasmlib.o ver.o insnsd.o insnsb.o insnsn.o regs.o regdis.o disp8.o iflag.o  
+cd rdoff && make all
+make[1]: Entering directory '/sources/7.9/nasm-2.11.08/rdoff'
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdfdump.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdoff.c
+gcc  -o rdfdump rdfdump.o rdoff.o
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. ldrdf.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. symtab.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. collectn.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdlib.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. segtab.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. hash.c
+gcc  -o ldrdf ldrdf.o rdoff.o symtab.o collectn.o rdlib.o segtab.o hash.o ../nasmlib.o
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdx.c
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdfload.c
+gcc  -o rdx rdx.o rdoff.o rdfload.o symtab.o collectn.o hash.o ../nasmlib.o
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdflib.c
+gcc  -o rdflib rdflib.o
+gcc -c -g -O2 -W -Wall -std=c99 -pedantic -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I.. rdf2bin.c
+gcc  -o rdf2bin rdf2bin.o rdoff.o rdfload.o symtab.o collectn.o hash.o ../nasmlib.o
+rm -f rdf2com && ln -s rdf2bin rdf2com
+rm -f rdf2ith && ln -s rdf2bin rdf2ith
+rm -f rdf2ihx && ln -s rdf2bin rdf2ihx
+rm -f rdf2srec && ln -s rdf2bin rdf2srec
+make[1]: Leaving directory '/sources/7.9/nasm-2.11.08/rdoff'
+mkdir -p /usr/bin
+/usr/bin/install -c nasm /usr/bin/nasm
+/usr/bin/install -c ndisasm /usr/bin/ndisasm
+mkdir -p /usr/share/man/man1
+/usr/bin/install -c -m 644 ./nasm.1 /usr/share/man/man1/nasm.1
+/usr/bin/install -c -m 644 ./ndisasm.1 /usr/share/man/man1/ndisasm.1
+'doc/html/nasmdo10.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdo10.html'
+'doc/html/nasmdo11.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdo11.html'
+'doc/html/nasmdo12.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdo12.html'
+'doc/html/nasmdoc0.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc0.html'
+'doc/html/nasmdoc1.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc1.html'
+'doc/html/nasmdoc2.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc2.html'
+'doc/html/nasmdoc3.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc3.html'
+'doc/html/nasmdoc4.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc4.html'
+'doc/html/nasmdoc5.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc5.html'
+'doc/html/nasmdoc6.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc6.html'
+'doc/html/nasmdoc7.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc7.html'
+'doc/html/nasmdoc8.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc8.html'
+'doc/html/nasmdoc9.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoc9.html'
+'doc/html/nasmdoca.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoca.html'
+'doc/html/nasmdocb.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdocb.html'
+'doc/html/nasmdocc.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdocc.html'
+'doc/html/nasmdoci.html' -> '/usr/share/doc/nasm-2.11.08/html/nasmdoci.html'
+'doc/nasmdoc.txt' -> '/usr/share/doc/nasm-2.11.08/nasmdoc.txt'
+'doc/opt_var.txt' -> '/usr/share/doc/nasm-2.11.08/opt_var.txt'
+'doc/head.ps' -> '/usr/share/doc/nasm-2.11.08/head.ps'
+'doc/nasmdoc.ps' -> '/usr/share/doc/nasm-2.11.08/nasmdoc.ps'
+'doc/nasmdoc.pdf' -> '/usr/share/doc/nasm-2.11.08/nasmdoc.pdf'
+'doc/info/nasm.info' -> '/usr/share/info/nasm.info'
+'doc/info/nasm.info-1' -> '/usr/share/info/nasm.info-1'
+'doc/info/nasm.info-2' -> '/usr/share/info/nasm.info-2'
+'doc/info/nasm.info-3' -> '/usr/share/info/nasm.info-3'

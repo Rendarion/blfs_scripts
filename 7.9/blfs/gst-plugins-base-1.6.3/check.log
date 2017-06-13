@@ -1,0 +1,527 @@
+Making check in pkgconfig
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/pkgconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/pkgconfig'
+Making check in gst-libs
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs'
+Making check in gst
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst'
+Making check in tag
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/tag'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/tag'
+Making check in fft
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/fft'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/fft'
+Making check in sdp
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/sdp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/sdp'
+Making check in rtsp
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtsp'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtsp'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtsp'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtsp'
+Making check in video
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/video'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/video'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/video'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/video'
+Making check in audio
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/audio'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/audio'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/audio'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/audio'
+Making check in rtp
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtp'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtp'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtp'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/rtp'
+Making check in pbutils
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/pbutils'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/pbutils'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/pbutils'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/pbutils'
+Making check in riff
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/riff'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/riff'
+Making check in app
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/app'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/app'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/app'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/app'
+Making check in allocators
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/allocators'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst/allocators'
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs/gst'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst-libs'
+Making check in gst
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst'
+Making check in adder
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/adder'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/adder'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/adder'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/adder'
+Making check in app
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/app'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/app'
+Making check in audioconvert
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioconvert'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioconvert'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioconvert'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioconvert'
+Making check in audiorate
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audiorate'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audiorate'
+Making check in audiotestsrc
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audiotestsrc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audiotestsrc'
+Making check in encoding
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/encoding'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/encoding'
+Making check in videoconvert
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videoconvert'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videoconvert'
+Making check in gio
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/gio'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/gio'
+Making check in playback
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/playback'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/playback'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/playback'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/playback'
+Making check in audioresample
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioresample'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/audioresample'
+Making check in subparse
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/subparse'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/subparse'
+Making check in tcp
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/tcp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/tcp'
+Making check in typefind
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/typefind'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/typefind'
+Making check in videotestsrc
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videotestsrc'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videotestsrc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videotestsrc'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videotestsrc'
+Making check in videorate
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videorate'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videorate'
+Making check in videoscale
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videoscale'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/videoscale'
+Making check in volume
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/volume'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst/volume'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/volume'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst/volume'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/gst'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/gst'
+Making check in sys
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/sys'
+Making check in ximage
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/sys/ximage'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/sys/ximage'
+Making check in xvimage
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/sys/xvimage'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/sys/xvimage'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/sys'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/sys'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/sys'
+Making check in ext
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext'
+Making check in alsa
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext/alsa'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext/alsa'
+Making check in ogg
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext/ogg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext/ogg'
+Making check in pango
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext/pango'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext/pango'
+Making check in theora
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext/theora'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext/theora'
+Making check in vorbis
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext/vorbis'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext/vorbis'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/ext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/ext'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tools'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+make  generic/clock-selection generic/states libs/libsabi libs/allocators libs/audio libs/audiocdsrc libs/audiodecoder libs/audioencoder libs/discoverer libs/fft libs/navigation libs/pbutils libs/profile libs/mikey libs/rtp libs/rtpbasedepayload libs/rtpbasepayload libs/rtsp libs/rtspconnection libs/sdp libs/tag libs/video libs/videodecoder libs/videoencoder libs/xmpwriter pipelines/simple-launch-lines pipelines/basetime pipelines/capsfilter-renegotiation pipelines/streamsynchronizer elements/adder elements/appsink elements/appsrc elements/audioconvert elements/audiorate elements/audioresample elements/audiotestsrc elements/encodebin pipelines/gio pipelines/oggmux elements/textoverlay elements/decodebin elements/playbin elements/playbin-complex elements/streamsynchronizer elements/subparse elements/multifdsink elements/multisocketsink pipelines/tcp pipelines/theoraenc gst/typefindfunctions elements/videoconvert elements/videorate elements/videoscale elements/videotestsrc elements/volume elements/vorbisdec pipelines/vorbisenc pipelines/vorbisdec elements/vorbistag libs/gstlibscpp 
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+  CC       generic/clock-selection.o
+  CCLD     generic/clock-selection
+  CC       generic/states.o
+  CCLD     generic/states
+  CC       libs/libs_libsabi-libsabi.o
+  CCLD     libs/libsabi
+  CC       libs/libs_allocators-allocators.o
+  CCLD     libs/allocators
+  CC       libs/libs_audio-audio.o
+  CCLD     libs/audio
+  CC       libs/libs_audiocdsrc-audiocdsrc.o
+  CCLD     libs/audiocdsrc
+  CC       libs/libs_audiodecoder-audiodecoder.o
+  CCLD     libs/audiodecoder
+  CC       libs/libs_audioencoder-audioencoder.o
+  CCLD     libs/audioencoder
+  CC       libs/libs_discoverer-discoverer.o
+  CCLD     libs/discoverer
+  CC       libs/libs_fft-fft.o
+  CCLD     libs/fft
+  CC       libs/libs_navigation-navigation.o
+  CCLD     libs/navigation
+  CC       libs/libs_pbutils-pbutils.o
+  CCLD     libs/pbutils
+  CC       libs/libs_profile-profile.o
+  CCLD     libs/profile
+  CC       libs/libs_mikey-mikey.o
+  CCLD     libs/mikey
+  CC       libs/libs_rtp-rtp.o
+  CCLD     libs/rtp
+  CC       libs/libs_rtpbasedepayload-rtpbasedepayload.o
+  CCLD     libs/rtpbasedepayload
+  CC       libs/libs_rtpbasepayload-rtpbasepayload.o
+  CCLD     libs/rtpbasepayload
+  CC       libs/libs_rtsp-rtsp.o
+  CCLD     libs/rtsp
+  CC       libs/libs_rtspconnection-rtspconnection.o
+  CCLD     libs/rtspconnection
+  CC       libs/libs_sdp-sdp.o
+  CCLD     libs/sdp
+  CC       libs/libs_tag-tag.o
+  CCLD     libs/tag
+  CC       libs/libs_video-video.o
+  CCLD     libs/video
+  CC       libs/libs_videodecoder-videodecoder.o
+  CCLD     libs/videodecoder
+  CC       libs/libs_videoencoder-videoencoder.o
+  CCLD     libs/videoencoder
+  CC       libs/libs_xmpwriter-xmpwriter.o
+  CCLD     libs/xmpwriter
+  CC       pipelines/pipelines_simple_launch_lines-simple-launch-lines.o
+  CCLD     pipelines/simple-launch-lines
+  CC       pipelines/basetime.o
+  CCLD     pipelines/basetime
+  CC       pipelines/capsfilter-renegotiation.o
+  CCLD     pipelines/capsfilter-renegotiation
+  CC       pipelines/streamsynchronizer.o
+  CCLD     pipelines/streamsynchronizer
+  CC       elements/elements_adder-adder.o
+  CCLD     elements/adder
+  CC       elements/elements_appsink-appsink.o
+  CCLD     elements/appsink
+  CC       elements/elements_appsrc-appsrc.o
+  CCLD     elements/appsrc
+  CC       elements/elements_audioconvert-audioconvert.o
+  CCLD     elements/audioconvert
+  CC       elements/elements_audiorate-audiorate.o
+  CCLD     elements/audiorate
+  CC       elements/elements_audioresample-audioresample.o
+  CCLD     elements/audioresample
+  CC       elements/audiotestsrc.o
+  CCLD     elements/audiotestsrc
+  CC       elements/elements_encodebin-encodebin.o
+  CCLD     elements/encodebin
+  CC       pipelines/pipelines_gio-gio.o
+  CCLD     pipelines/gio
+  CC       pipelines/pipelines_oggmux-oggmux.o
+  CCLD     pipelines/oggmux
+  CC       elements/elements_textoverlay-textoverlay.o
+  CCLD     elements/textoverlay
+  CC       elements/elements_decodebin-decodebin.o
+  CCLD     elements/decodebin
+  CC       elements/elements_playbin-playbin.o
+  CCLD     elements/playbin
+  CC       elements/elements_playbin_complex-playbin-complex.o
+  CCLD     elements/playbin-complex
+  CC       elements/streamsynchronizer.o
+  CCLD     elements/streamsynchronizer
+  CC       elements/elements_subparse-subparse.o
+  CCLD     elements/subparse
+  CC       elements/multifdsink.o
+  CCLD     elements/multifdsink
+  CC       elements/elements_multisocketsink-multisocketsink.o
+  CCLD     elements/multisocketsink
+  CC       pipelines/pipelines_tcp-tcp.o
+  CCLD     pipelines/tcp
+  CC       pipelines/pipelines_theoraenc-theoraenc.o
+  CCLD     pipelines/theoraenc
+  CC       gst/gst_typefindfunctions-typefindfunctions.o
+  CCLD     gst/typefindfunctions
+  CC       elements/elements_videoconvert-videoconvert.o
+  CCLD     elements/videoconvert
+  CC       elements/videorate.o
+  CCLD     elements/videorate
+  CC       elements/elements_videoscale-videoscale.o
+  CCLD     elements/videoscale
+  CC       elements/videotestsrc.o
+  CCLD     elements/videotestsrc
+  CC       elements/elements_volume-volume.o
+  CCLD     elements/volume
+  CC       elements/elements_vorbisdec-vorbisdec.o
+  CCLD     elements/vorbisdec
+  CC       pipelines/pipelines_vorbisenc-vorbisenc.o
+  CCLD     pipelines/vorbisenc
+  CC       pipelines/pipelines_vorbisdec-vorbisdec.o
+  CCLD     pipelines/vorbisdec
+  CC       elements/elements_vorbistag-vorbistag.o
+  CCLD     elements/vorbistag
+  CXX      libs/gstlibscpp.o
+  CXXLD    libs/gstlibscpp
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+PASS: generic/clock-selection
+PASS: generic/states
+PASS: libs/libsabi
+PASS: libs/allocators
+PASS: libs/audio
+PASS: libs/audiocdsrc
+PASS: libs/audiodecoder
+PASS: libs/audioencoder
+PASS: libs/discoverer
+PASS: libs/fft
+PASS: libs/navigation
+PASS: libs/pbutils
+PASS: libs/profile
+PASS: libs/mikey
+PASS: libs/rtp
+PASS: libs/rtpbasedepayload
+PASS: libs/rtpbasepayload
+PASS: libs/rtsp
+PASS: libs/rtspconnection
+PASS: libs/sdp
+PASS: libs/tag
+PASS: libs/video
+PASS: libs/videodecoder
+PASS: libs/videoencoder
+PASS: libs/xmpwriter
+PASS: pipelines/simple-launch-lines
+PASS: pipelines/basetime
+PASS: pipelines/capsfilter-renegotiation
+PASS: pipelines/streamsynchronizer
+PASS: elements/adder
+PASS: elements/appsink
+PASS: elements/appsrc
+PASS: elements/audioconvert
+PASS: elements/audiorate
+PASS: elements/audioresample
+PASS: elements/audiotestsrc
+PASS: elements/encodebin
+PASS: pipelines/gio
+PASS: pipelines/oggmux
+PASS: elements/textoverlay
+PASS: elements/decodebin
+PASS: elements/playbin
+PASS: elements/playbin-complex
+PASS: elements/streamsynchronizer
+PASS: elements/subparse
+PASS: elements/multifdsink
+PASS: elements/multisocketsink
+PASS: pipelines/tcp
+PASS: pipelines/theoraenc
+PASS: gst/typefindfunctions
+PASS: elements/videoconvert
+PASS: elements/videorate
+PASS: elements/videoscale
+PASS: elements/videotestsrc
+PASS: elements/volume
+PASS: elements/vorbisdec
+PASS: pipelines/vorbisenc
+PASS: pipelines/vorbisdec
+PASS: elements/vorbistag
+PASS: libs/gstlibscpp
+============================================================================
+Testsuite summary for GStreamer Base Plug-ins 1.6.3
+============================================================================
+# TOTAL: 60
+# PASS:  60
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/check'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples'
+Making check in app
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/app'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/app'
+Making check in audio
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/audio'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/audio'
+Making check in dynamic
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/dynamic'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/dynamic'
+Making check in fft
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/fft'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/fft'
+Making check in seek
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/seek'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/seek'
+Making check in snapshot
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/snapshot'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/snapshot'
+Making check in playback
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/playback'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/playback'
+Making check in gio
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/gio'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/gio'
+Making check in overlay
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/overlay'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/overlay'
+Making check in playrec
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/playrec'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/playrec'
+Making check in encoding
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/encoding'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples/encoding'
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/examples'
+Making check in icles
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles'
+Making check in playback
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles/playback'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles/playback'
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests/icles'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/tests'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs'
+Making check in design
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs/design'
+make[3]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs/design'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs/design'
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs/design'
+Making check in libs
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs/libs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs/libs'
+Making check in plugins
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs/plugins'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs/plugins'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/docs'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/po'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/po'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/common'
+Making check in m4
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/common/m4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/common'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/common'
+Making check in m4
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3/m4'
+make[1]: Entering directory '/sources/7.9/gst-plugins-base-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gst-plugins-base-1.6.3'
+Checking symbols in ./gst-libs/gst/rtp/.libs/libgstrtp-1.0.so
+Checking symbols in ./gst-libs/gst/video/.libs/libgstvideo-1.0.so
+Checking symbols in ./gst-libs/gst/rtsp/.libs/libgstrtsp-1.0.so
+Checking symbols in ./gst-libs/gst/pbutils/.libs/libgstpbutils-1.0.so
+Checking symbols in ./gst-libs/gst/tag/.libs/libgsttag-1.0.so
+Checking symbols in ./gst-libs/gst/sdp/.libs/libgstsdp-1.0.so
+Checking symbols in ./gst-libs/gst/audio/.libs/libgstaudio-1.0.so
+Checking symbols in ./gst-libs/gst/app/.libs/libgstapp-1.0.so
+Checking symbols in ./gst-libs/gst/riff/.libs/libgstriff-1.0.so

@@ -1,0 +1,287 @@
+Making check in gdk-pixbuf
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making check in pixops
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[5]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+PASS: abicheck.sh
+============================================================================
+Testsuite summary for gdk-pixbuf 2.32.3
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+Making check in gdk-pixbuf
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make     animation cve-2015-4491 pixbuf-icon-serialize pixbuf-randomly-modified pixbuf-threads pixbuf-icc pixbuf-jpeg pixbuf-dpi pixbuf-stream pixbuf-resource pixbuf-scale pixbuf-short-gif-write pixbuf-save pixbuf-readonly-to-mutable pixbuf-composite  \
+                   test-image.png test-animation.gif test-animation.ani icc-profile.jpeg icc-profile.png dpi.jpeg dpi.png dpi.tiff premature-end.png premature-end.jpg bug725582-testrotate.jpg bug725582-testrotate.png cve-2015-4491.bmp large.png large.jpg ./test-images/invalid_wbmp_test_1 ./test-images/invalid_ico_test_1 ./test-images/valid_ppm_2 ./test-images/valid_gif_test ./test-images/valid_tga_test ./test-images/invalid_gif_test_1 ./test-images/invalid_tga_test_1 ./test-images/invalid_ppm_4 ./test-images/invalid_ppm_5 ./test-images/valid_ppm_1 ./test-images/invalid_ico_test_2 ./test-images/valid_ppm_3 ./test-images/invalid_bmp_1 ./test-images/invalid_png_test_2 ./test-images/invalid_png_test_3 ./test-images/valid.xbm ./test-images/invalid_png_test_4 ./test-images/valid_ppm_4 ./test-images/invalid_ppm_6 ./test-images/invalid_wbmp_test_2 ./test-images/invalid_ppm_1 ./test-images/invalid_ico_test_3 ./test-images/valid_tiff1_test ./test-images/invalid_gif_test_2 ./test-images/valid_xpm_test ./test-images/invalid_gif_test_3 ./test-images/invalid_xpm_test_1 ./test-images/invalid_gif_test_4 ./test-images/valid_jpeg_test ./test-images/valid_bmp_test ./test-images/valid_ras_test ./test-images/invalid_ppm_2 ./test-images/valid_png_test ./test-images/invalid_ppm_3 ./test-images/invalid_png_test_1 ./test-images/valid_jpeg_progressive_test ./test-images/invalid_ppm_8 ./test-images/invalid_ppm_7
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+  CC       animation.o
+  CCLD     animation
+  CC       cve-2015-4491.o
+  CC       test-common.o
+  CC       resources.o
+  CCLD     cve-2015-4491
+  CC       pixbuf-icon-serialize.o
+  CCLD     pixbuf-icon-serialize
+  CC       pixbuf-randomly-modified.o
+  CCLD     pixbuf-randomly-modified
+  CC       pixbuf-threads.o
+  CCLD     pixbuf-threads
+  CC       pixbuf-icc.o
+  CCLD     pixbuf-icc
+  CC       pixbuf-jpeg.o
+  CCLD     pixbuf-jpeg
+  CC       pixbuf-dpi.o
+  CCLD     pixbuf-dpi
+  CC       pixbuf-stream.o
+  CCLD     pixbuf-stream
+  CC       pixbuf-resource.o
+  CCLD     pixbuf-resource
+  CC       pixbuf-scale.o
+  CCLD     pixbuf-scale
+  CC       pixbuf-short-gif-write.o
+  CCLD     pixbuf-short-gif-write
+  CC       pixbuf-save.o
+  CCLD     pixbuf-save
+  CC       pixbuf-readonly-to-mutable.o
+  CCLD     pixbuf-readonly-to-mutable
+  CC       pixbuf-composite.o
+  CCLD     pixbuf-composite
+make[3]: Nothing to be done for 'test-image.png'.
+make[3]: Nothing to be done for 'test-animation.gif'.
+make[3]: Nothing to be done for 'test-animation.ani'.
+make[3]: Nothing to be done for 'icc-profile.jpeg'.
+make[3]: Nothing to be done for 'icc-profile.png'.
+make[3]: Nothing to be done for 'dpi.jpeg'.
+make[3]: Nothing to be done for 'dpi.png'.
+make[3]: Nothing to be done for 'dpi.tiff'.
+make[3]: Nothing to be done for 'premature-end.png'.
+make[3]: Nothing to be done for 'premature-end.jpg'.
+make[3]: Nothing to be done for 'bug725582-testrotate.jpg'.
+make[3]: Nothing to be done for 'bug725582-testrotate.png'.
+make[3]: Nothing to be done for 'cve-2015-4491.bmp'.
+make[3]: Nothing to be done for 'large.png'.
+make[3]: Nothing to be done for 'large.jpg'.
+make[3]: Nothing to be done for 'test-images/invalid_wbmp_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_1'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_2'.
+make[3]: Nothing to be done for 'test-images/valid_gif_test'.
+make[3]: Nothing to be done for 'test-images/valid_tga_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_tga_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_4'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_5'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_2'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_3'.
+make[3]: Nothing to be done for 'test-images/invalid_bmp_1'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_2'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_3'.
+make[3]: Nothing to be done for 'test-images/valid.xbm'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_4'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_4'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_6'.
+make[3]: Nothing to be done for 'test-images/invalid_wbmp_test_2'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_3'.
+make[3]: Nothing to be done for 'test-images/valid_tiff1_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_2'.
+make[3]: Nothing to be done for 'test-images/valid_xpm_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_3'.
+make[3]: Nothing to be done for 'test-images/invalid_xpm_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_4'.
+make[3]: Nothing to be done for 'test-images/valid_jpeg_test'.
+make[3]: Nothing to be done for 'test-images/valid_bmp_test'.
+make[3]: Nothing to be done for 'test-images/valid_ras_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_2'.
+make[3]: Nothing to be done for 'test-images/valid_png_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_3'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_1'.
+make[3]: Nothing to be done for 'test-images/valid_jpeg_progressive_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_8'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_7'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+PASS: animation 1 /animation/gif
+PASS: animation 2 /animation/ani
+PASS: cve-2015-4491 1 /pixbuf/cve-2015-4491/original
+PASS: cve-2015-4491 2 /pixbuf/cve-2015-4491/scale-overflow
+PASS: cve-2015-4491 3 /pixbuf/cve-2015-4491/scale-x-overflow
+PASS: cve-2015-4491 4 /pixbuf/cve-2015-4491/scale-y-overflow
+PASS: pixbuf-icon-serialize 1 /pixbuf/icon/serialize
+PASS: pixbuf-randomly-modified 1 /pixbuf/randomly-modified/valid_png_test
+PASS: pixbuf-randomly-modified 2 /pixbuf/randomly-modified/invalid_png_test_2
+PASS: pixbuf-randomly-modified 3 /pixbuf/randomly-modified/valid_tga_test
+PASS: pixbuf-randomly-modified 4 /pixbuf/randomly-modified/invalid_png_test_1
+PASS: pixbuf-randomly-modified 5 /pixbuf/randomly-modified/invalid_ppm_4
+PASS: pixbuf-randomly-modified 6 /pixbuf/randomly-modified/invalid_wbmp_test_2
+PASS: pixbuf-randomly-modified 7 /pixbuf/randomly-modified/invalid_xpm_test_1
+PASS: pixbuf-randomly-modified 8 /pixbuf/randomly-modified/invalid_ppm_1
+PASS: pixbuf-randomly-modified 9 /pixbuf/randomly-modified/valid.xbm
+PASS: pixbuf-randomly-modified 10 /pixbuf/randomly-modified/valid_ppm_1
+PASS: pixbuf-randomly-modified 11 /pixbuf/randomly-modified/invalid_wbmp_test_1
+PASS: pixbuf-randomly-modified 12 /pixbuf/randomly-modified/invalid_ico_test_3
+PASS: pixbuf-randomly-modified 13 /pixbuf/randomly-modified/valid_gif_test
+PASS: pixbuf-randomly-modified 14 /pixbuf/randomly-modified/valid_xpm_test
+PASS: pixbuf-randomly-modified 15 /pixbuf/randomly-modified/invalid_bmp_1
+PASS: pixbuf-randomly-modified 16 /pixbuf/randomly-modified/invalid_png_test_4
+PASS: pixbuf-randomly-modified 17 /pixbuf/randomly-modified/valid_bmp_test
+PASS: pixbuf-randomly-modified 18 /pixbuf/randomly-modified/invalid_ppm_7
+PASS: pixbuf-randomly-modified 19 /pixbuf/randomly-modified/valid_ppm_2
+PASS: pixbuf-randomly-modified 20 /pixbuf/randomly-modified/invalid_png_test_3
+PASS: pixbuf-randomly-modified 21 /pixbuf/randomly-modified/valid_ppm_3
+PASS: pixbuf-randomly-modified 22 /pixbuf/randomly-modified/invalid_ppm_5
+PASS: pixbuf-randomly-modified 23 /pixbuf/randomly-modified/invalid_ppm_6
+PASS: pixbuf-randomly-modified 24 /pixbuf/randomly-modified/invalid_ico_test_1
+PASS: pixbuf-randomly-modified 25 /pixbuf/randomly-modified/invalid_gif_test_1
+PASS: pixbuf-randomly-modified 26 /pixbuf/randomly-modified/invalid_ico_test_2
+PASS: pixbuf-randomly-modified 27 /pixbuf/randomly-modified/valid_ras_test
+PASS: pixbuf-randomly-modified 28 /pixbuf/randomly-modified/invalid_ppm_8
+PASS: pixbuf-randomly-modified 29 /pixbuf/randomly-modified/valid_tiff1_test
+PASS: pixbuf-randomly-modified 30 /pixbuf/randomly-modified/invalid_tga_test_1
+PASS: pixbuf-randomly-modified 31 /pixbuf/randomly-modified/invalid_gif_test_2
+PASS: pixbuf-randomly-modified 32 /pixbuf/randomly-modified/valid_jpeg_progressive_test
+PASS: pixbuf-randomly-modified 33 /pixbuf/randomly-modified/valid_jpeg_test
+PASS: pixbuf-randomly-modified 34 /pixbuf/randomly-modified/invalid_ppm_3
+PASS: pixbuf-randomly-modified 35 /pixbuf/randomly-modified/invalid_ppm_2
+PASS: pixbuf-randomly-modified 36 /pixbuf/randomly-modified/invalid_gif_test_4
+PASS: pixbuf-randomly-modified 37 /pixbuf/randomly-modified/valid_ppm_4
+PASS: pixbuf-randomly-modified 38 /pixbuf/randomly-modified/invalid_gif_test_3
+PASS: pixbuf-threads 1 /pixbuf/threads
+PASS: pixbuf-icc 1 /pixbuf/icc/png
+PASS: pixbuf-icc 2 /pixbuf/icc/jpeg
+PASS: pixbuf-icc 3 /pixbuf/icc/png/incremental
+PASS: pixbuf-icc 4 /pixbuf/icc/jpeg/incremental
+PASS: pixbuf-jpeg 1 /pixbuf/jpeg/inverted_cmyk_jpeg
+PASS: pixbuf-jpeg 2 /pixbuf/jpeg/type9_rotation_exif_tag
+PASS: pixbuf-dpi 1 /pixbuf/dpi/png
+PASS: pixbuf-dpi 2 /pixbuf/dpi/png-incremental
+PASS: pixbuf-dpi 3 /pixbuf/dpi/jpeg
+PASS: pixbuf-dpi 4 /pixbuf/dpi/jpeg-incremental
+PASS: pixbuf-dpi 5 /pixbuf/dpi/tiff
+PASS: pixbuf-dpi 6 /pixbuf/dpi/tiff-incremental
+PASS: pixbuf-stream 1 /pixbuf/stream
+PASS: pixbuf-stream 2 /pixbuf/stream/async
+PASS: pixbuf-stream 3 /pixbuf/stream/scale
+PASS: pixbuf-stream 4 /pixbuf/stream/scale/async
+PASS: pixbuf-resource 1 /pixbuf/resource
+PASS: pixbuf-resource 2 /pixbuf/resource/at-scale
+PASS: pixbuf-scale 1 /pixbuf/scale/png
+PASS: pixbuf-scale 2 /pixbuf/scale/bmp
+PASS: pixbuf-scale 3 /pixbuf/scale/gif
+PASS: pixbuf-scale 4 /pixbuf/scale/jpeg
+SKIP: pixbuf-scale 5 /pixbuf/scale/ras # SKIP format not supported
+PASS: pixbuf-scale 6 /pixbuf/scale/tga
+PASS: pixbuf-scale 7 /pixbuf/scale/xpm
+PASS: pixbuf-scale 8 /pixbuf/scale/xbm
+PASS: pixbuf-scale 9 /pixbuf/scale/png/large
+SKIP: pixbuf-scale 10 /pixbuf/scale/jpeg/large # SKIP format not supported
+PASS: pixbuf-scale 11 /pixbuf/add-alpha/large
+PASS: pixbuf-scale 12 /pixbuf/rotate/large
+PASS: pixbuf-short-gif-write 1 /animation/short_gif_write
+PASS: pixbuf-save 1 /pixbuf/save/roundtrip
+PASS: pixbuf-save 2 /pixbuf/save/options
+PASS: pixbuf-save 3 /pixbuf/save/ico
+PASS: pixbuf-readonly-to-mutable 1 /pixbuf/readonly/mutate
+PASS: pixbuf-readonly-to-mutable 2 /pixbuf/readonly/readpixelbytes
+PASS: pixbuf-composite 1 /pixbuf/composite
+============================================================================
+Testsuite summary for gdk-pixbuf 2.32.3
+============================================================================
+# TOTAL: 83
+# PASS:  81
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+Making check in contrib
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making check in gdk-pixbuf-xlib
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making check in build
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+Making check in win32
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+Making check in vs9
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+Making check in vs11
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+Making check in vs12
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+Making check in vs14
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'

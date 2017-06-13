@@ -1,0 +1,17 @@
+URL=(
+"http://www.mupdf.com/downloads/archive/mupdf-1.10a-source.tar.gz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/mupdf-1.10a-shared_libs-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+"harfbuzz-1.4.2"
+"libjpeg-turbo-1.5.1"
+"openjpeg-2.1.2"
+"curl-7.52.1"
+)

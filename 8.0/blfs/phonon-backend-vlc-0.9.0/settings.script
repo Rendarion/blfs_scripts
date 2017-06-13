@@ -1,0 +1,13 @@
+URL=(
+"http://download.kde.org/stable/phonon/phonon-backend-vlc/0.9.0/phonon-backend-vlc-0.9.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"phonon-4.9.1"
+"vlc-2.2.4"
+)

@@ -1,0 +1,63 @@
+Making check in gnulib/lib
+make[1]: Entering directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+make[3]: Entering directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+make[2]: Leaving directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+make[1]: Leaving directory '/sources/7.9/libpipeline-1.4.1/gnulib/lib'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/libpipeline-1.4.1/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libpipeline-1.4.1/lib'
+Making check in man
+make[1]: Entering directory '/sources/7.9/libpipeline-1.4.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libpipeline-1.4.1/man'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libpipeline-1.4.1/tests'
+make  basic argstr exec inspect pump redirect reading_long_line
+make[2]: Entering directory '/sources/7.9/libpipeline-1.4.1/tests'
+  CC       basic.o
+  CC       common.o
+  CC       argstr.o
+  CC       exec.o
+  CC       inspect.o
+  CC       pump.o
+  CC       redirect.o
+  CC       reading_long_line.o
+  CCLD     basic
+  CCLD     argstr
+  CCLD     exec
+  CCLD     inspect
+  CCLD     pump
+  CCLD     redirect
+  CCLD     reading_long_line
+make[2]: Leaving directory '/sources/7.9/libpipeline-1.4.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libpipeline-1.4.1/tests'
+make[3]: Entering directory '/sources/7.9/libpipeline-1.4.1/tests'
+PASS: argstr
+PASS: basic
+PASS: exec
+PASS: inspect
+PASS: pump
+PASS: redirect
+PASS: reading_long_line
+============================================================================
+Testsuite summary for libpipeline 1.4.1
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libpipeline-1.4.1/tests'
+make[2]: Leaving directory '/sources/7.9/libpipeline-1.4.1/tests'
+make[1]: Leaving directory '/sources/7.9/libpipeline-1.4.1/tests'
+make[1]: Entering directory '/sources/7.9/libpipeline-1.4.1'
+make[1]: Leaving directory '/sources/7.9/libpipeline-1.4.1'

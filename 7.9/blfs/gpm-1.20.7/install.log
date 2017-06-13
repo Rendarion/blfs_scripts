@@ -1,0 +1,595 @@
+rm -f config/config.guess
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: linking file 'config/config.guess'
+rm -f config/config.sub
+libtoolize: linking file 'config/config.sub'
+rm -f config/install-sh
+libtoolize: linking file 'config/install-sh'
+rm -f config/ltmain.sh
+libtoolize: linking file 'config/ltmain.sh'
+libtoolize: Consider adding 'AC_CONFIG_MACRO_DIRS([m4])' to configure.ac,
+libtoolize: and rerunning libtoolize and aclocal.
+libtoolize: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'config'.
+libtoolize: copying file 'config/config.guess'
+libtoolize: copying file 'config/config.sub'
+libtoolize: copying file 'config/install-sh'
+libtoolize: copying file 'config/ltmain.sh'
+libtoolize: Consider adding 'AC_CONFIG_MACRO_DIRS([m4])' to configure.ac,
+libtoolize: and rerunning libtoolize and aclocal.
+libtoolize: Consider adding '-I m4' to ACLOCAL_AMFLAGS in Makefile.am.
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for bison... bison -y
+checking whether ln -s works... yes
+checking for dvips... no
+checking for texi2html... no
+checking for tex... no
+checking for texindex... /usr/bin/texindex
+checking for makeinfo... /usr/bin/makeinfo
+checking for diff... /usr/bin/diff
+checking for sed... (cached) /bin/sed
+checking for emacs... no
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking linux/input.h usability... yes
+checking linux/input.h presence... yes
+checking for linux/input.h... yes
+checking linux/joystick.h usability... yes
+checking linux/joystick.h presence... yes
+checking for linux/joystick.h... yes
+checking ncurses.h usability... yes
+checking ncurses.h presence... yes
+checking for ncurses.h... yes
+checking ncurses/curses.h usability... no
+checking ncurses/curses.h presence... no
+checking for ncurses/curses.h... no
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking sys/sysmacros.h usability... yes
+checking sys/sysmacros.h presence... yes
+checking for sys/sysmacros.h... yes
+checking linux/major.h usability... yes
+checking linux/major.h presence... yes
+checking for linux/major.h... yes
+checking linux/tty.h usability... yes
+checking linux/tty.h presence... yes
+checking for linux/tty.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for __u32... yes
+checking whether system is ELF... yes
+checking for vsyslog... yes
+checking for syslog... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for tputs in -ltinfo... no
+checking for tputs in -lncurses... yes
+checking for wgetch in -lncurses... yes
+configure: creating ./config.status
+config.status: creating Makefile.include
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating contrib/Makefile
+config.status: creating doc/doc.gpm
+config.status: creating src/headers/config.h
+config.status: executing libtool commands
+touch src/.depend # to prevent unecessary warnings
+make -C src dep
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/src'
+bison -y  /sources/7.9/gpm-1.20.7/src/prog/gpm-root.y && mv y.tab.c prog/gpm-root.c
+# make links in srcdir
+Makefile:90: recipe for target '.depend' failed
+make[1]: [.depend] Error 1 (ignored)
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+gcc -I. -I /sources/7.9/gpm-1.20.7/src -M  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  $DEPS | \
+/bin/sed 's/^\(.*\)\.o\([ :]+\)/\1.o \1.lo\2/g' >> .depend ; done
+prog/display-buttons.c:39:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/display-coords.c:40:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/get-versions.c:25:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+# make links in srcdir
+Makefile:90: recipe for target 'dep' failed
+make[1]: [dep] Error 1 (ignored)
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+gcc -I. -I /sources/7.9/gpm-1.20.7/src -M  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  $DEPS | \
+/bin/sed 's/^\(.*\)\.o\([ :]+\)/\1.o \1.lo\2/g' >> .depend ; done
+prog/display-buttons.c:39:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/display-coords.c:40:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/get-versions.c:25:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/src'
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o mice.o mice.c
+mice.c: In function 'option_modem_lines':
+mice.c:187:37: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+       {"dtr",  ARGV_BOOL, u: {iptr: &lines}, value: TIOCM_DTR},
+                                     ^
+mice.c:187:37: note: (near initialization for 'optioninfo[0].u.iptr')
+mice.c:188:37: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+       {"rts",  ARGV_BOOL, u: {iptr: &lines}, value: TIOCM_RTS},
+                                     ^
+mice.c:188:37: note: (near initialization for 'optioninfo[1].u.iptr')
+mice.c:189:37: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+       {"both", ARGV_BOOL, u: {iptr: &lines}, value: TIOCM_DTR | TIOCM_RTS},
+                                     ^
+mice.c:189:37: note: (near initialization for 'optioninfo[2].u.iptr')
+mice.c: In function 'R_msc':
+mice.c:537:12: warning: variable 'dy' set but not used [-Wunused-but-set-variable]
+    int dx, dy;
+            ^
+mice.c:537:8: warning: variable 'dx' set but not used [-Wunused-but-set-variable]
+    int dx, dy;
+        ^
+mice.c: In function 'M_gunze':
+mice.c:1341:14: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+    if(sscanf(data+1, "%d,%d", &x, &y)!= 2) {
+              ^
+In file included from mice.c:45:0:
+/usr/include/stdio.h:433:12: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+ extern int sscanf (const char *__restrict __s,
+            ^
+mice.c: In function 'I_wacom':
+mice.c:1843:10: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+    while(I_wacom_RequestData(NULL, fd, buffer, BUFFER_SIZE, p)) ;
+          ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o twiddler.o twiddler.c
+twiddler.c: In function 'twiddler_key':
+twiddler.c:253:10: warning: variable 'val' set but not used [-Wunused-but-set-variable]
+    char *val;
+          ^
+twiddler.c: In function 'twiddler_rest_to_value':
+twiddler.c:432:14: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+       return (char *)twiddler_escape_sequence(ptr+1, &len /* unused */);
+              ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o synaptics.o synaptics.c
+synaptics.c: In function 'tp_hextoint':
+synaptics.c:2253:11: warning: pointer targets in passing argument 1 of 'sscanf' differ in signedness [-Wpointer-sign]
+   sscanf (bytes, "%x", &result);
+           ^
+In file included from synaptics.c:213:0:
+/usr/include/stdio.h:433:12: note: expected 'const char * restrict' but argument is of type 'unsigned char *'
+ extern int sscanf (const char *__restrict __s,
+            ^
+synaptics.c: In function 'tp_serial_send_cmd':
+synaptics.c:2320:27: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   write (fd, cmd, strlen (cmd));
+                           ^
+In file included from synaptics.c:216:0:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen (const char *__s)
+               ^
+synaptics.c:2321:37: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+   tp_serial_read (fd, junk, strlen (cmd));
+                                     ^
+In file included from synaptics.c:216:0:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'unsigned char *'
+ extern size_t strlen (const char *__s)
+               ^
+synaptics.c: In function 'syn_serial_set_mode':
+synaptics.c:2334:12: warning: pointer targets in passing argument 1 of 'sprintf' differ in signedness [-Wpointer-sign]
+   sprintf (bytes, "%%C3B%02X5555", mode);
+            ^
+In file included from synaptics.c:213:0:
+/usr/include/stdio.h:364:12: note: expected 'char * restrict' but argument is of type 'unsigned char *'
+ extern int sprintf (char *__restrict __s,
+            ^
+synaptics.c: In function 'syn_serial_read_ident':
+synaptics.c:2347:27: warning: pointer targets in passing argument 2 of 'tp_serial_send_cmd' differ in signedness [-Wpointer-sign]
+   tp_serial_send_cmd (fd, "%A");
+                           ^
+synaptics.c:2314:13: note: expected 'unsigned char *' but argument is of type 'char *'
+ static void tp_serial_send_cmd(int fd,
+             ^
+synaptics.c: In function 'syn_serial_read_model_id':
+synaptics.c:2388:29: warning: pointer targets in passing argument 2 of 'tp_serial_send_cmd' differ in signedness [-Wpointer-sign]
+     tp_serial_send_cmd (fd, "%D");
+                             ^
+synaptics.c:2314:13: note: expected 'unsigned char *' but argument is of type 'char *'
+ static void tp_serial_send_cmd(int fd,
+             ^
+synaptics.c: In function 'syn_serial_read_cap':
+synaptics.c:2416:27: warning: pointer targets in passing argument 2 of 'tp_serial_send_cmd' differ in signedness [-Wpointer-sign]
+   tp_serial_send_cmd (fd, "%B");
+                           ^
+synaptics.c:2314:13: note: expected 'unsigned char *' but argument is of type 'char *'
+ static void tp_serial_send_cmd(int fd,
+             ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/add_mouse.o daemon/add_mouse.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/init_mice.o daemon/init_mice.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/reset_mice.o daemon/reset_mice.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/build_argv.o daemon/build_argv.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/disable_paste.o daemon/disable_paste.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/do_client.o daemon/do_client.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/do_selection.o daemon/do_selection.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/get_console_size.o daemon/get_console_size.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/get_data.o daemon/get_data.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/getmousedata.o daemon/getmousedata.c
+daemon/getmousedata.c: In function 'getMouseData':
+daemon/getmousedata.c:39:16: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+    char *edata=data+type->packetlen;
+                ^
+daemon/getmousedata.c:58:17: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+          return data;
+                 ^
+daemon/getmousedata.c:89:11: warning: pointer targets in return differ in signedness [-Wpointer-sign]
+    return data;
+           ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/gpm.o daemon/gpm.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/gpm-killed.o daemon/gpm-killed.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/header.o daemon/header.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/main.o daemon/main.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/old_main.o daemon/old_main.c
+daemon/old_main.c: In function 'old_main':
+daemon/old_main.c:198:16: warning: value computed is not used [-Wunused-value]
+                ||  do_selection(&event);
+                ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/open_console.o daemon/open_console.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/check_kill.o daemon/check_kill.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/gpm_exited.o daemon/gpm_exited.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o generic/isodigit.o generic/isodigit.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o generic/getsym.o generic/getsym.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/processspecial.o daemon/processspecial.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/processconn.o daemon/processconn.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/processmouse.o daemon/processmouse.c
+daemon/processmouse.c: In function 'processMouse':
+daemon/processmouse.c:82:57: warning: pointer targets in passing argument 2 of 'which_mouse->m_type->fun' differ in signedness [-Wpointer-sign]
+             || ((*((which_mouse->m_type)->fun))(&nEvent,data)==-1) ) {
+                                                         ^
+daemon/processmouse.c:82:57: note: expected 'unsigned char *' but argument is of type 'char *'
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/processrequest.o daemon/processrequest.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/selection_copy.o daemon/selection_copy.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/selection_paste.o daemon/selection_paste.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/cmdline.o daemon/cmdline.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/loadlut.o daemon/loadlut.c
+daemon/loadlut.c: In function 'loadlut':
+daemon/loadlut.c:53:19: warning: pointer targets in passing argument 1 of 'getsym' differ in signedness [-Wpointer-sign]
+       i += getsym(charset+i, &this);
+                   ^
+In file included from daemon/loadlut.c:30:0:
+/sources/7.9/gpm-1.20.7/src/headers/daemon.h:201:7: note: expected 'const unsigned char *' but argument is of type 'char *'
+ int   getsym(const unsigned char *p0, unsigned char *res);
+       ^
+daemon/loadlut.c:55:22: warning: pointer targets in passing argument 1 of 'getsym' differ in signedness [-Wpointer-sign]
+          i += getsym(charset+i+1, &next) + 1;
+                      ^
+In file included from daemon/loadlut.c:30:0:
+/sources/7.9/gpm-1.20.7/src/headers/daemon.h:201:7: note: expected 'const unsigned char *' but argument is of type 'char *'
+ int   getsym(const unsigned char *p0, unsigned char *res);
+       ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/find_mouse_by_name.o daemon/find_mouse_by_name.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/usage.o daemon/usage.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/check_uniqueness.o daemon/check_uniqueness.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/startup.o daemon/startup.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o daemon/wait_text.o daemon/wait_text.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o report.o report.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o tools.o tools.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o gpm mice.o twiddler.o synaptics.o daemon/add_mouse.o daemon/init_mice.o daemon/reset_mice.o daemon/build_argv.o daemon/disable_paste.o daemon/do_client.o daemon/do_selection.o daemon/get_console_size.o daemon/get_data.o daemon/getmousedata.o daemon/gpm.o daemon/gpm-killed.o daemon/header.o daemon/main.o daemon/old_main.o daemon/open_console.o daemon/check_kill.o daemon/gpm_exited.o generic/isodigit.o generic/getsym.o daemon/processspecial.o daemon/processconn.o daemon/processmouse.o daemon/processrequest.o daemon/selection_copy.o daemon/selection_paste.o daemon/cmdline.o daemon/loadlut.o daemon/find_mouse_by_name.o daemon/usage.o daemon/check_uniqueness.o daemon/startup.o daemon/wait_text.o report.o tools.o   -lm
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o lib/liblow.lo lib/liblow.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o lib/libhigh.lo lib/libhigh.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o lib/libxtra.lo lib/libxtra.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o lib/report-lib.lo lib/report-lib.c
+lib/report-lib.c: In function 'gpm_report':
+lib/report-lib.c:50:4: warning: 'log_level' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    syslog(log_level, string);
+    ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o tools.lo tools.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -DPIC -fPIC -g -O2  -c -o lib/libcurses.lo lib/libcurses.c
+lib/libcurses.c: In function 'Gpm_Wgetch':
+lib/libcurses.c:148:25: warning: pointer targets in passing argument 1 of 'gpm_convert_event' differ in signedness [-Wpointer-sign]
+       gpm_convert_event(mdata,&ev);
+                         ^
+lib/libcurses.c:98:16: note: expected 'char *' but argument is of type 'unsigned char *'
+     extern int gpm_convert_event(char *data, Gpm_Event *event);
+                ^
+gcc -fPIC -shared -Wl,-soname,libgpm.so.2 \
+ -L/sources/7.9/gpm-1.20.7/src  -o lib/libgpm.so.2.1.0 lib/liblow.lo lib/libhigh.lo lib/libxtra.lo lib/report-lib.lo tools.lo lib/libcurses.lo  -lncurses  -lncurses  -lc 	
+ln -s -f libgpm.so.2.1.0 lib/libgpm.so.2
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o lib/liblow.o lib/liblow.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o lib/libhigh.o lib/libhigh.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o lib/libxtra.o lib/libxtra.c
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o lib/report-lib.o lib/report-lib.c
+lib/report-lib.c: In function 'gpm_report':
+lib/report-lib.c:50:4: warning: 'log_level' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    syslog(log_level, string);
+    ^
+gcc  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o lib/libcurses.o lib/libcurses.c
+lib/libcurses.c: In function 'Gpm_Wgetch':
+lib/libcurses.c:148:25: warning: pointer targets in passing argument 1 of 'gpm_convert_event' differ in signedness [-Wpointer-sign]
+       gpm_convert_event(mdata,&ev);
+                         ^
+lib/libcurses.c:98:16: note: expected 'char *' but argument is of type 'unsigned char *'
+     extern int gpm_convert_event(char *data, Gpm_Event *event);
+                ^
+ar rc lib/libgpm.a lib/liblow.o lib/libhigh.o lib/libxtra.o lib/report-lib.o tools.o lib/libcurses.o
+ranlib lib/libgpm.a
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/mev.o prog/mev.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/mev prog/mev.o lib/libgpm.so.2  
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/hltest.o prog/hltest.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/hltest prog/hltest.o lib/libgpm.so.2  
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/mouse-test.o prog/mouse-test.c
+prog/mouse-test.c: In function 'main':
+prog/mouse-test.c:536:42: warning: pointer targets in passing argument 2 of 'cur->this->fun' differ in signedness [-Wpointer-sign]
+           if ((*(cur->this->fun))(&event,buf+i)==-1) {
+                                          ^
+prog/mouse-test.c:536:42: note: expected 'unsigned char *' but argument is of type 'char *'
+prog/mouse-test.c:205:40: warning: value computed is not used [-Wunused-value]
+ #define CHECKFAIL(count)   ((count)==0 && noneofthem())
+                                        ^
+prog/mouse-test.c:569:4: note: in expansion of macro 'CHECKFAIL'
+    CHECKFAIL(typecount);
+    ^
+prog/mouse-test.c:610:47: warning: pointer targets in passing argument 2 of 'cur->this->fun' differ in signedness [-Wpointer-sign]
+                if ((*(cur->this->fun))(&event,buf+i)==-1) continue;
+                                               ^
+prog/mouse-test.c:610:47: note: expected 'unsigned char *' but argument is of type 'char *'
+prog/mouse-test.c:205:40: warning: value computed is not used [-Wunused-value]
+ #define CHECKFAIL(count)   ((count)==0 && noneofthem())
+                                        ^
+prog/mouse-test.c:622:4: note: in expansion of macro 'CHECKFAIL'
+    CHECKFAIL(typecount);
+    ^
+prog/mouse-test.c:652:47: warning: pointer targets in passing argument 2 of 'cur->this->fun' differ in signedness [-Wpointer-sign]
+                if ((*(cur->this->fun))(&event,buf+i)==-1) continue;
+                                               ^
+prog/mouse-test.c:652:47: note: expected 'unsigned char *' but argument is of type 'char *'
+prog/mouse-test.c:205:40: warning: value computed is not used [-Wunused-value]
+ #define CHECKFAIL(count)   ((count)==0 && noneofthem())
+                                        ^
+prog/mouse-test.c:671:4: note: in expansion of macro 'CHECKFAIL'
+    CHECKFAIL(typecount);
+    ^
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/open_console.o prog/open_console.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/mouse-test prog/mouse-test.o mice.o twiddler.o synaptics.o prog/open_console.o lib/libgpm.so.2   -lm
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/disable-paste.o prog/disable-paste.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/disable-paste prog/disable-paste.o lib/libgpm.so.2  
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/display-buttons.o prog/display-buttons.c
+prog/display-buttons.c: In function 'display_data':
+prog/display-buttons.c:52:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'time_t {aka long int}' [-Wformat=]
+    printf("[%d] delta: %ds",now,delta);
+           ^
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/display-buttons prog/display-buttons.o lib/libgpm.so.2  
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/display-coords.o prog/display-coords.c
+prog/display-coords.c: In function 'display_data':
+prog/display-coords.c:53:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'time_t {aka long int}' [-Wformat=]
+    printf("[%d] delta: %ds",now,delta);
+           ^
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/display-coords prog/display-coords.o lib/libgpm.so.2  
+gcc -Iheaders  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/get-versions.o prog/get-versions.c
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/get-versions prog/get-versions.o lib/libgpm.so.2  
+gcc -I.  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  -g -O2  -c -o prog/gpm-root.o prog/gpm-root.c
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y: In function 'scr_restore':
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:963:10: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+    int x,y, dumpfd;
+          ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:963:8: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+    int x,y, dumpfd;
+        ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y: In function 'postmenu':
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:1030:32: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ #define PUTS(s,f,b)   for(curr2=s;*curr2;PUTC(*(curr2++),f,b))
+                                ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:1045:10: note: in expansion of macro 'PUTS'
+          PUTS(draw->title,draw->head,draw->back);
+          ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:1030:32: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+ #define PUTS(s,f,b)   for(curr2=s;*curr2;PUTC(*(curr2++),f,b))
+                                ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:1053:10: note: in expansion of macro 'PUTS'
+          PUTS(item->name,draw->fore,draw->back); i+=strlen(item->name);
+          ^
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y: At top level:
+/sources/7.9/gpm-1.20.7/src/prog/gpm-root.y:446:12: warning: 'f_debug_one' defined but not used [-Wunused-function]
+ static int f_debug_one(FILE *f, Draw *draw)
+            ^
+gcc  -L/sources/7.9/gpm-1.20.7/src  -o prog/gpm-root prog/gpm-root.o   lib/libgpm.so.2
+rm prog/display-coords.o prog/hltest.o prog/mev.o prog/disable-paste.o prog/display-buttons.o prog/get-versions.o
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/doc'
+/bin/sed -f /sources/7.9/gpm-1.20.7/doc/infofilter /sources/7.9/gpm-1.20.7/doc/doc.gpm > /sources/7.9/gpm-1.20.7/doc/gpm.texinfo
+chmod 400 /sources/7.9/gpm-1.20.7/doc/gpm.texinfo
+if [ "/usr/bin/makeinfo" != "no" ]; then /usr/bin/makeinfo --no-split /sources/7.9/gpm-1.20.7/doc/gpm.texinfo -o /sources/7.9/gpm-1.20.7/doc/gpm.info; fi
+/sources/7.9/gpm-1.20.7/doc/gpm.texinfo:32: warning: undefined flag: version
+/sources/7.9/gpm-1.20.7/doc/gpm.texinfo:84: warning: multiple @setchapternewpage
+/sources/7.9/gpm-1.20.7/doc/gpm.texinfo:89: warning: @subtitle missing argument
+/sources/7.9/gpm-1.20.7/doc/gpm.texinfo:94: warning: multiple @setchapternewpage
+awk -f /sources/7.9/gpm-1.20.7/doc/manpager doc.gpm
+awk: /sources/7.9/gpm-1.20.7/doc/manpager:35: warning: escape sequence `\{' treated as plain `{'
+awk: /sources/7.9/gpm-1.20.7/doc/manpager:36: warning: escape sequence `\}' treated as plain `}'
+for i in gpm-root.1 gpm-types.7 gpm.8 mev.1 mouse-test.1; do \
+	expand $i | sed s/^'[ ]*'//g > $i.new; \
+	mv $i.new $i; \
+done;
+touch gpm.man
+rm /sources/7.9/gpm-1.20.7/doc/gpm.texinfo
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/doc'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/contrib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/contrib'
+make -C src dep
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/src'
+# make links in srcdir
+Makefile:90: recipe for target 'dep' failed
+make[1]: [dep] Error 1 (ignored)
+# create dependencies
+for DEPS in `echo *.c */*.c`; do \
+gcc -I. -I /sources/7.9/gpm-1.20.7/src -M  -I/sources/7.9/gpm-1.20.7/src -DHAVE_CONFIG_H -include headers/config.h -Wall -DSYSCONFDIR="\"/etc\"" -DSBINDIR="\"/usr/sbin\"" -D_GNU_SOURCE  $DEPS | \
+/bin/sed 's/^\(.*\)\.o\([ :]+\)/\1.o \1.lo\2/g' >> .depend ; done
+prog/display-buttons.c:39:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/display-coords.c:40:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+prog/get-versions.c:25:57: fatal error: gpm.h: No such file or directory
+compilation terminated.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/doc'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/contrib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/contrib'
+mkdir -p  /usr/lib /usr/bin /usr/sbin /usr/include /etc; \
+if test "x" != "x" ; then \
+	mkdir -p  /usr/share/emacs/site-lisp ; \
+fi
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/src'
+/usr/bin/install -c gpm /usr/sbin/gpm
+if [ -f lib/libgpm.a ] ; then \
+/usr/bin/install -c -m 644 -m 644 lib/libgpm.a /usr/lib/libgpm.a ; \
+fi
+/usr/bin/install -c -m 644 -m 644 /sources/7.9/gpm-1.20.7/src/headers/gpm.h /usr/include/gpm.h
+# POSIX requires the range of a for loop be nonempty and Bash
+# 2.x goes along; unfortunately that means an additional
+# headache in cases like this
+if test "xlibgpm.so" != "x" ; then \
+	/usr/bin/install -c -m 644 -m 644 lib/libgpm.so.2.1.0 /usr/lib/libgpm.so.2.1.0	;	\
+	cd /usr/lib && ln -s -f libgpm.so.2.1.0 libgpm.so.2 					;	\
+      echo "WARNING: We installed a lib, you should now call ldconfig" 						; 	\
+      echo "f.i.: ldconfig -n -l /usr/lib/libgpm.so.2.1.0" 								;	\
+      echo "Or to update everything just type ldconfig"											;	\
+fi
+WARNING: We installed a lib, you should now call ldconfig
+f.i.: ldconfig -n -l /usr/lib/libgpm.so.2.1.0
+Or to update everything just type ldconfig
+for i in prog/mev prog/hltest prog/mouse-test prog/disable-paste prog/display-buttons prog/display-coords prog/get-versions prog/gpm-root; do \
+	/usr/bin/install -c $i /usr/bin/`echo $i | sed 's,prog/,,'` ;\
+done
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/src'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/doc'
+mkdir -p  /usr/share/man/man1 /usr/share/man/man7 /usr/share/man/man8 /usr/share/info	
+/usr/bin/install -c -m 644 -m 644 mev.1          /usr/share/man/man1
+/usr/bin/install -c -m 644 -m 644 mouse-test.1   /usr/share/man/man1
+/usr/bin/install -c -m 644 -m 644 gpm-root.1     /usr/share/man/man1
+/usr/bin/install -c -m 644 -m 644 gpm-types.7    /usr/share/man/man7
+/usr/bin/install -c -m 644 -m 644 gpm.8          /usr/share/man/man8
+/usr/bin/install -c -m 644 -m 644 /sources/7.9/gpm-1.20.7/doc/gpm.info       /usr/share/info
+# Use install-info if available
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+  if [ -f /usr/share/info/dir ] ; then \
+	install-info --dir-file=/usr/share/info/dir /usr/share/info/gpm.info; \
+  fi; \
+fi
+#itz Sat Dec 26 23:21:05 PST 1998
+#i keep all my infopages compressed and i'm tired to do it by
+#hand, so check if there are any compressed pages and do this
+#one too
+ls /usr/share/info/*[-.]info.gz >/dev/null 2>&1 \
+	&& gzip -f /usr/share/info/gpm.info
+Makefile:117: recipe for target 'install' failed
+make[1]: [install] Error 2 (ignored)
+# Hmm.... shouldn't man pages be compressed too?
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/doc'
+make[1]: Entering directory '/sources/7.9/gpm-1.20.7/contrib'
+if [ -n "" ]; then for i in `echo `; do \
+	/usr/bin/install -c -m 644 /sources/7.9/gpm-1.20.7/contrib/$i /usr/share/emacs/site-lisp/`basename $i` ;\
+done; fi
+make[1]: Leaving directory '/sources/7.9/gpm-1.20.7/contrib'
+'/usr/lib/libgpm.so' -> 'libgpm.so.2.1.0'
+'conf/gpm-root.conf' -> '/etc/gpm-root.conf'
+install: creating directory '/usr/share/doc/gpm-1.20.7'
+install: creating directory '/usr/share/doc/gpm-1.20.7/support'
+'doc/support/logitech_1' -> '/usr/share/doc/gpm-1.20.7/support/logitech_1'
+'doc/support/logitech_2' -> '/usr/share/doc/gpm-1.20.7/support/logitech_2'
+'doc/support/logitech_3' -> '/usr/share/doc/gpm-1.20.7/support/logitech_3'
+'doc/support/mouse-maintainer-XFree' -> '/usr/share/doc/gpm-1.20.7/support/mouse-maintainer-XFree'
+'doc/support/mouse-maintainer-XFree.status' -> '/usr/share/doc/gpm-1.20.7/support/mouse-maintainer-XFree.status'
+'doc/support/README' -> '/usr/share/doc/gpm-1.20.7/support/README'
+'doc/FAQ' -> '/usr/share/doc/gpm-1.20.7/FAQ'
+'doc/HACK_GPM' -> '/usr/share/doc/gpm-1.20.7/HACK_GPM'
+'doc/README.1.20.2' -> '/usr/share/doc/gpm-1.20.7/README.1.20.2'
+'doc/README.etouch' -> '/usr/share/doc/gpm-1.20.7/README.etouch'
+'doc/README.gunze' -> '/usr/share/doc/gpm-1.20.7/README.gunze'
+'doc/README.microtouch' -> '/usr/share/doc/gpm-1.20.7/README.microtouch'
+'doc/README.synaptics' -> '/usr/share/doc/gpm-1.20.7/README.synaptics'
+'doc/README.twiddler' -> '/usr/share/doc/gpm-1.20.7/README.twiddler'
+install -d -m 755 /etc/rc.d/rc{0,1,2,3,4,5,6,S}.d
+install -d -m 755 /etc/rc.d/init.d
+install -d -m 755 /etc/sysconfig
+install -m 754 blfs/init.d/gpm        /etc/rc.d/init.d/
+ln -sf  ../init.d/gpm /etc/rc.d/rc0.d/K10gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc1.d/K10gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc2.d/S70gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc3.d/S70gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc4.d/S70gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc5.d/S70gpm
+ln -sf  ../init.d/gpm /etc/rc.d/rc6.d/K10gpm

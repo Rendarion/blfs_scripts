@@ -1,0 +1,461 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports GNU make features... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ATKMM... yes
+checking for GTHREAD_CFLAGS... -pthread
+checking for GMMPROC_DIR... /usr/lib/glibmm-2.4/proc
+configure: Deprecated API will be built, for backwards-compatibility.
+checking for perl... /usr/bin/perl
+checking for dot... dot
+checking for doxygen... doxygen
+checking for xsltproc... /usr/bin/xsltproc
+checking for libstdc documentation... libstdc++.tag@
+checking for libsigc documentation... /usr/share/doc/libsigc++-2.0/reference/libsigc++-2.0.tag@file:///usr/share/doc/libsigc++-2.0/reference/html
+checking for glibmm documentation... /usr/share/doc/glibmm-2.4/reference/glibmm-2.4.tag@file:///usr/share/doc/glibmm-2.4/reference/html
+checking which C++ compiler warning flags to use... -Wall
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating codegen/Makefile
+config.status: creating atk/atkmm-1.6.pc
+config.status: creating atk/atkmm-1.6-uninstalled.pc
+config.status: creating atk/src/Makefile
+config.status: creating atk/atkmm/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Doxyfile
+config.status: creating MSVC_Net2013/atkmm/atkmm.rc
+config.status: creating build/config.h
+config.status: creating atk/atkmmconfig.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing MSVC_Net2013/atkmm/atkmmconfig.h commands
+Making all in codegen
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/codegen'
+depbase=`echo extradefs/generate_extra_defs_atk.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H   -I.. -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT extradefs/generate_extra_defs_atk.o -MD -MP -MF $depbase.Tpo -c -o extradefs/generate_extra_defs_atk.o extradefs/generate_extra_defs_atk.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11 -no-undefined -avoid-version  -o extradefs/generate_extra_defs extradefs/generate_extra_defs_atk.o -latk-1.0 -lglibmm-2.4 -lgobject-2.0 -lglib-2.0 -lsigc-2.0 -lglibmm_generate_extra_defs-2.4 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o extradefs/generate_extra_defs extradefs/generate_extra_defs_atk.o  /usr/lib/libatk-1.0.so /usr/lib/libglibmm-2.4.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libsigc-2.0.so /usr/lib/libglibmm_generate_extra_defs-2.4.so -pthread
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/codegen'
+Making all in atk/atkmm
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT action.lo -MD -MP -MF .deps/action.Tpo -c -o action.lo action.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT action.lo -MD -MP -MF .deps/action.Tpo -c action.cc  -fPIC -DPIC -o .libs/action.o
+mv -f .deps/action.Tpo .deps/action.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT component.lo -MD -MP -MF .deps/component.Tpo -c -o component.lo component.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT component.lo -MD -MP -MF .deps/component.Tpo -c component.cc  -fPIC -DPIC -o .libs/component.o
+mv -f .deps/component.Tpo .deps/component.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT document.lo -MD -MP -MF .deps/document.Tpo -c -o document.lo document.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT document.lo -MD -MP -MF .deps/document.Tpo -c document.cc  -fPIC -DPIC -o .libs/document.o
+mv -f .deps/document.Tpo .deps/document.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT editabletext.lo -MD -MP -MF .deps/editabletext.Tpo -c -o editabletext.lo editabletext.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT editabletext.lo -MD -MP -MF .deps/editabletext.Tpo -c editabletext.cc  -fPIC -DPIC -o .libs/editabletext.o
+mv -f .deps/editabletext.Tpo .deps/editabletext.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT hyperlink.lo -MD -MP -MF .deps/hyperlink.Tpo -c -o hyperlink.lo hyperlink.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT hyperlink.lo -MD -MP -MF .deps/hyperlink.Tpo -c hyperlink.cc  -fPIC -DPIC -o .libs/hyperlink.o
+mv -f .deps/hyperlink.Tpo .deps/hyperlink.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT hypertext.lo -MD -MP -MF .deps/hypertext.Tpo -c -o hypertext.lo hypertext.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT hypertext.lo -MD -MP -MF .deps/hypertext.Tpo -c hypertext.cc  -fPIC -DPIC -o .libs/hypertext.o
+mv -f .deps/hypertext.Tpo .deps/hypertext.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT image.lo -MD -MP -MF .deps/image.Tpo -c -o image.lo image.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT image.lo -MD -MP -MF .deps/image.Tpo -c image.cc  -fPIC -DPIC -o .libs/image.o
+mv -f .deps/image.Tpo .deps/image.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT implementor.lo -MD -MP -MF .deps/implementor.Tpo -c -o implementor.lo implementor.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT implementor.lo -MD -MP -MF .deps/implementor.Tpo -c implementor.cc  -fPIC -DPIC -o .libs/implementor.o
+mv -f .deps/implementor.Tpo .deps/implementor.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT noopobject.lo -MD -MP -MF .deps/noopobject.Tpo -c -o noopobject.lo noopobject.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT noopobject.lo -MD -MP -MF .deps/noopobject.Tpo -c noopobject.cc  -fPIC -DPIC -o .libs/noopobject.o
+mv -f .deps/noopobject.Tpo .deps/noopobject.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT object.lo -MD -MP -MF .deps/object.Tpo -c -o object.lo object.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT object.lo -MD -MP -MF .deps/object.Tpo -c object.cc  -fPIC -DPIC -o .libs/object.o
+mv -f .deps/object.Tpo .deps/object.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT objectaccessible.lo -MD -MP -MF .deps/objectaccessible.Tpo -c -o objectaccessible.lo objectaccessible.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT objectaccessible.lo -MD -MP -MF .deps/objectaccessible.Tpo -c objectaccessible.cc  -fPIC -DPIC -o .libs/objectaccessible.o
+mv -f .deps/objectaccessible.Tpo .deps/objectaccessible.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT range.lo -MD -MP -MF .deps/range.Tpo -c -o range.lo range.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT range.lo -MD -MP -MF .deps/range.Tpo -c range.cc  -fPIC -DPIC -o .libs/range.o
+mv -f .deps/range.Tpo .deps/range.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT relation.lo -MD -MP -MF .deps/relation.Tpo -c -o relation.lo relation.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT relation.lo -MD -MP -MF .deps/relation.Tpo -c relation.cc  -fPIC -DPIC -o .libs/relation.o
+mv -f .deps/relation.Tpo .deps/relation.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT relationset.lo -MD -MP -MF .deps/relationset.Tpo -c -o relationset.lo relationset.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT relationset.lo -MD -MP -MF .deps/relationset.Tpo -c relationset.cc  -fPIC -DPIC -o .libs/relationset.o
+mv -f .deps/relationset.Tpo .deps/relationset.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT selection.lo -MD -MP -MF .deps/selection.Tpo -c -o selection.lo selection.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT selection.lo -MD -MP -MF .deps/selection.Tpo -c selection.cc  -fPIC -DPIC -o .libs/selection.o
+mv -f .deps/selection.Tpo .deps/selection.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT stateset.lo -MD -MP -MF .deps/stateset.Tpo -c -o stateset.lo stateset.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT stateset.lo -MD -MP -MF .deps/stateset.Tpo -c stateset.cc  -fPIC -DPIC -o .libs/stateset.o
+mv -f .deps/stateset.Tpo .deps/stateset.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT streamablecontent.lo -MD -MP -MF .deps/streamablecontent.Tpo -c -o streamablecontent.lo streamablecontent.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT streamablecontent.lo -MD -MP -MF .deps/streamablecontent.Tpo -c streamablecontent.cc  -fPIC -DPIC -o .libs/streamablecontent.o
+mv -f .deps/streamablecontent.Tpo .deps/streamablecontent.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT table.lo -MD -MP -MF .deps/table.Tpo -c -o table.lo table.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT table.lo -MD -MP -MF .deps/table.Tpo -c table.cc  -fPIC -DPIC -o .libs/table.o
+mv -f .deps/table.Tpo .deps/table.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT text.lo -MD -MP -MF .deps/text.Tpo -c -o text.lo text.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT text.lo -MD -MP -MF .deps/text.Tpo -c text.cc  -fPIC -DPIC -o .libs/text.o
+mv -f .deps/text.Tpo .deps/text.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT value.lo -MD -MP -MF .deps/value.Tpo -c -o value.lo value.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT value.lo -MD -MP -MF .deps/value.Tpo -c value.cc  -fPIC -DPIC -o .libs/value.o
+mv -f .deps/value.Tpo .deps/value.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT wrap_init.lo -MD -MP -MF .deps/wrap_init.Tpo -c -o wrap_init.lo wrap_init.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT wrap_init.lo -MD -MP -MF .deps/wrap_init.Tpo -c wrap_init.cc  -fPIC -DPIC -o .libs/wrap_init.o
+mv -f .deps/wrap_init.Tpo .deps/wrap_init.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include  -Wall -g -O2 -std=c++11 -MT init.lo -MD -MP -MF .deps/init.Tpo -c -o init.lo init.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"atkmm\" -DATKMM_BUILD=1 -pthread -I/usr/include/atk-1.0 -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -Wall -g -O2 -std=c++11 -MT init.lo -MD -MP -MF .deps/init.Tpo -c init.cc  -fPIC -DPIC -o .libs/init.o
+mv -f .deps/init.Tpo .deps/init.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11 -no-undefined -version-info 2:0:1  -o libatkmm-1.6.la -rpath /usr/lib action.lo component.lo document.lo editabletext.lo hyperlink.lo hypertext.lo image.lo implementor.lo noopobject.lo object.lo objectaccessible.lo range.lo relation.lo relationset.lo selection.lo stateset.lo streamablecontent.lo table.lo text.lo value.lo wrap_init.lo init.lo -latk-1.0 -lglibmm-2.4 -lgobject-2.0 -lglib-2.0 -lsigc-2.0 
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o  .libs/action.o .libs/component.o .libs/document.o .libs/editabletext.o .libs/hyperlink.o .libs/hypertext.o .libs/image.o .libs/implementor.o .libs/noopobject.o .libs/object.o .libs/objectaccessible.o .libs/range.o .libs/relation.o .libs/relationset.o .libs/selection.o .libs/stateset.o .libs/streamablecontent.o .libs/table.o .libs/text.o .libs/value.o .libs/wrap_init.o .libs/init.o   -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 /usr/lib/libatk-1.0.so /usr/lib/libglibmm-2.4.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libsigc-2.0.so -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. /usr/lib/../lib64/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crtn.o  -O2   -pthread -Wl,-soname -Wl,libatkmm-1.6.so.1 -o .libs/libatkmm-1.6.so.1.1.0
+libtool: link: (cd ".libs" && rm -f "libatkmm-1.6.so.1" && ln -s "libatkmm-1.6.so.1.1.0" "libatkmm-1.6.so.1")
+libtool: link: (cd ".libs" && rm -f "libatkmm-1.6.so" && ln -s "libatkmm-1.6.so.1.1.0" "libatkmm-1.6.so")
+libtool: link: ( cd ".libs" && rm -f "libatkmm-1.6.la" && ln -s "../libatkmm-1.6.la" "libatkmm-1.6.la" )
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+Making all in doc
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/doc'
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2'
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2'
+Making install in codegen
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/codegen'
+make[2]: Entering directory '/sources/7.9/atkmm-2.24.2/codegen'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/atkmm-1.6/proc/m4'
+ /usr/bin/install -c -m 644 m4/convert.m4 m4/convert_atk.m4 '/usr/lib/atkmm-1.6/proc/m4'
+make[2]: Leaving directory '/sources/7.9/atkmm-2.24.2/codegen'
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/codegen'
+Making install in atk/atkmm
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+make[2]: Entering directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libatkmm-1.6.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libatkmm-1.6.so.1.1.0 /usr/lib/libatkmm-1.6.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libatkmm-1.6.so.1.1.0 libatkmm-1.6.so.1 || { rm -f libatkmm-1.6.so.1 && ln -s libatkmm-1.6.so.1.1.0 libatkmm-1.6.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libatkmm-1.6.so.1.1.0 libatkmm-1.6.so || { rm -f libatkmm-1.6.so && ln -s libatkmm-1.6.so.1.1.0 libatkmm-1.6.so; }; })
+libtool: install: /usr/bin/install -c .libs/libatkmm-1.6.lai /usr/lib/libatkmm-1.6.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/atkmm-1.6/atkmm'
+ /usr/bin/install -c -m 644 action.h component.h document.h editabletext.h hyperlink.h hypertext.h image.h implementor.h noopobject.h object.h objectaccessible.h range.h relation.h relationset.h selection.h stateset.h streamablecontent.h table.h text.h value.h init.h wrap_init.h '/usr/include/atkmm-1.6/atkmm'
+ /bin/mkdir -p '/usr/include/atkmm-1.6/atkmm/private'
+ /usr/bin/install -c -m 644 private/action_p.h private/component_p.h private/document_p.h private/editabletext_p.h private/hyperlink_p.h private/hypertext_p.h private/image_p.h private/implementor_p.h private/noopobject_p.h private/object_p.h private/objectaccessible_p.h private/range_p.h private/relation_p.h private/relationset_p.h private/selection_p.h private/stateset_p.h private/streamablecontent_p.h private/table_p.h private/text_p.h private/value_p.h '/usr/include/atkmm-1.6/atkmm/private'
+make[2]: Leaving directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/atk/atkmm'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2/doc'
+make[2]: Entering directory '/sources/7.9/atkmm-2.24.2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p '/usr/share/doc/atkmm-1.6/reference/html'
+/usr/bin/perl -- "../doc/doc-install.pl" --verbose --mode=0644 -l 'libsigc++-2.0.tag@../../../libsigc++-2.0/reference/html/' -l 'glibmm-2.4.tag@../../../glibmm-2.4/reference/html/' -t '/usr/share/doc/atkmm-1.6/reference/html' --glob -- 'reference/html/*.css' 'reference/html/*.gif' 'reference/html/*.html' 'reference/html/*.js' 'reference/html/*.png'
+doc-install: Using base path ../../../libsigc++-2.0/reference/html/ for tag file libsigc++-2.0.tag
+doc-install: Using base path ../../../glibmm-2.4/reference/html/ for tag file glibmm-2.4.tag
+doc-install: Copying tabs.css
+doc-install: Copying doxygen.css
+doc-install: Translating pages.html (no references)
+doc-install: Translating namespacemembers_eval_t.html (no references)
+doc-install: Translating classAtk_1_1Hyperlink-members.html (rewrote 108 of 108 references)
+doc-install: Translating functions_p.html (no references)
+doc-install: Translating modules.html (no references)
+doc-install: Translating classAtk_1_1RelationSet-members.html (rewrote 92 of 92 references)
+doc-install: Translating namespacemembers_eval.html (no references)
+doc-install: Translating classAtk_1_1Relation.html (rewrote 114 of 115 references)
+doc-install: Translating functions_h.html (no references)
+doc-install: Translating annotated.html (no references)
+doc-install: Translating namespacemembers_func.html (no references)
+doc-install: Translating functions_e.html (no references)
+doc-install: Translating functions_t.html (no references)
+doc-install: Translating classAtk_1_1StreamableContent-members.html (rewrote 78 of 78 references)
+doc-install: Translating functions_func_g.html (no references)
+doc-install: Translating classAtk_1_1Document-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1Range-members.html (no references)
+doc-install: Translating functions_func_h.html (no references)
+doc-install: Translating classAtk_1_1Implementor.html (rewrote 83 of 84 references)
+doc-install: Translating classAtk_1_1Hyperlink.html (rewrote 137 of 138 references)
+doc-install: Translating functions_f.html (no references)
+doc-install: Translating namespacemembers_eval_x.html (no references)
+doc-install: Translating classAtk_1_1TextAttribute.html (rewrote 6 of 6 references)
+doc-install: Translating classAtk_1_1Range.html (rewrote 4 of 4 references)
+doc-install: Translating dir_fb9196bee162e74bfedbd5f5874b618e.html (no references)
+doc-install: Translating classlu__counter__policy__base.html (no references)
+doc-install: Translating since_1_12.html (rewrote 3 of 3 references)
+doc-install: Translating namespacemembers_t.html (no references)
+doc-install: Translating classAtk_1_1Action.html (rewrote 93 of 94 references)
+doc-install: Translating functions_func_v.html (no references)
+doc-install: Translating namespacemembers_x.html (no references)
+doc-install: Translating classAtk_1_1Table.html (rewrote 153 of 154 references)
+doc-install: Translating hierarchy.html (rewrote 4 of 4 references)
+doc-install: Translating classAtk_1_1Attribute.html (rewrote 8 of 8 references)
+doc-install: Translating classAtk_1_1Implementor-members.html (rewrote 78 of 78 references)
+doc-install: Translating namespaceAtk.html (rewrote 2 of 2 references)
+doc-install: Translating classAtk_1_1Hypertext.html (rewrote 89 of 90 references)
+doc-install: Translating namespacemembers_r.html (no references)
+doc-install: Translating classAtk_1_1ObjectAccessible-members.html (rewrote 90 of 90 references)
+doc-install: Translating classAtk_1_1Action-members.html (rewrote 78 of 78 references)
+doc-install: Translating structAtk_1_1AttributeTraits.html (no references)
+doc-install: Translating namespacemembers_l.html (no references)
+doc-install: Translating classAtk_1_1Component-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1NoOpObject.html (rewrote 273 of 278 references)
+doc-install: Translating functions_w.html (no references)
+doc-install: Translating classAtk_1_1Value-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1Component.html (rewrote 85 of 86 references)
+doc-install: Translating classAtk_1_1Table-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1Image-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1NoOpObject-members.html (rewrote 218 of 218 references)
+doc-install: Translating functions_x.html (no references)
+doc-install: Translating classAtk_1_1Image.html (rewrote 87 of 88 references)
+doc-install: Translating classAtk_1_1Text.html (rewrote 111 of 112 references)
+doc-install: Translating classAtk_1_1Document.html (rewrote 91 of 92 references)
+doc-install: Translating functions_func_w.html (no references)
+doc-install: Translating index.html (no references)
+doc-install: Translating functions_o.html (no references)
+doc-install: Translating structAtk_1_1AttributeTraits-members.html (no references)
+doc-install: Translating functions_d.html (no references)
+doc-install: Translating since_2_24.html (rewrote 1 of 1 references)
+doc-install: Translating since_2_10.html (no references)
+doc-install: Translating functions_func_t.html (no references)
+doc-install: Translating classAtk_1_1Text-members.html (rewrote 78 of 78 references)
+doc-install: Translating group__atkmmEnums.html (no references)
+doc-install: Translating functions_s.html (no references)
+doc-install: Translating functions_func_p.html (no references)
+doc-install: Translating functions_func_~.html (no references)
+doc-install: Translating classAtk_1_1Attribute-members.html (no references)
+doc-install: Translating functions_func_f.html (no references)
+doc-install: Translating classAtk_1_1Value.html (rewrote 99 of 100 references)
+doc-install: Translating functions_func_i.html (no references)
+doc-install: Translating namespacemembers_eval_s.html (no references)
+doc-install: Translating classAtk_1_1Object-members.html (rewrote 90 of 90 references)
+doc-install: Translating since_1_3.html (no references)
+doc-install: Translating classAtk_1_1Relation-members.html (rewrote 92 of 92 references)
+doc-install: Translating namespacemembers_i.html (no references)
+doc-install: Translating functions_l.html (no references)
+doc-install: Translating functions_r.html (no references)
+doc-install: Translating classAtk_1_1TextAttribute-members.html (no references)
+doc-install: Translating classAtk_1_1StreamableContent.html (rewrote 91 of 92 references)
+doc-install: Translating inherits.html (rewrote 4 of 4 references)
+doc-install: Translating namespacemembers.html (no references)
+doc-install: Translating functions_func_e.html (no references)
+doc-install: Translating functions_func_d.html (no references)
+doc-install: Translating functions_func_o.html (no references)
+doc-install: Translating namespacemembers_c.html (no references)
+doc-install: Translating deprecated.html (rewrote 4 of 4 references)
+doc-install: Translating classAtk_1_1RelationSet.html (rewrote 106 of 107 references)
+doc-install: Translating functions_func.html (no references)
+doc-install: Translating classAtk_1_1EditableText-members.html (rewrote 78 of 78 references)
+doc-install: Translating namespacemembers_s.html (no references)
+doc-install: Translating classAtk_1_1Selection.html (rewrote 87 of 88 references)
+doc-install: Translating since_1_9.html (no references)
+doc-install: Translating classAtk_1_1StateSet-members.html (rewrote 92 of 92 references)
+doc-install: Translating functions_func_c.html (no references)
+doc-install: Translating classAtk_1_1Object.html (rewrote 217 of 218 references)
+doc-install: Translating functions_c.html (no references)
+doc-install: Translating functions_~.html (no references)
+doc-install: Translating functions_v.html (no references)
+doc-install: Translating namespacemembers_eval_r.html (no references)
+doc-install: Translating classAtk_1_1ObjectAccessible.html (rewrote 176 of 177 references)
+doc-install: Translating namespaces.html (no references)
+doc-install: Translating classes.html (no references)
+doc-install: Translating namespacemembers_type.html (no references)
+doc-install: Translating functions.html (no references)
+doc-install: Translating namespacemembers_b.html (no references)
+doc-install: Translating functions_vars.html (no references)
+doc-install: Translating classAtk_1_1Selection-members.html (rewrote 78 of 78 references)
+doc-install: Translating classAtk_1_1EditableText.html (rewrote 89 of 94 references)
+doc-install: Translating functions_func_x.html (no references)
+doc-install: Translating functions_i.html (no references)
+doc-install: Translating classhash__load__check__resize__trigger__size__base.html (no references)
+doc-install: Translating namespacemembers_enum.html (no references)
+doc-install: Translating classAtk_1_1StateSet.html (rewrote 115 of 116 references)
+doc-install: Translating functions_func_r.html (no references)
+doc-install: Translating graph_legend.html (no references)
+doc-install: Translating functions_type.html (no references)
+doc-install: Translating functions_g.html (no references)
+doc-install: Translating functions_func_s.html (no references)
+doc-install: Translating classAtk_1_1Hypertext-members.html (rewrote 78 of 78 references)
+doc-install: Translating since_2_12.html (no references)
+doc-install: Translating functions_n.html (no references)
+doc-install: Translating functions_func_l.html (no references)
+doc-install: Translating functions_func_n.html (no references)
+doc-install: Copying jquery.js
+doc-install: Copying dynsections.js
+doc-install: Copying nav_g.png
+doc-install: Copying sync_off.png
+doc-install: Copying arrowright.png
+doc-install: Copying classAtk_1_1StateSet__inherit__graph.png
+doc-install: Copying nav_f.png
+doc-install: Copying bc_s.png
+doc-install: Copying nav_h.png
+doc-install: Copying open.png
+doc-install: Copying doc.png
+doc-install: Copying tab_s.png
+doc-install: Copying tab_a.png
+doc-install: Copying classAtk_1_1Table__inherit__graph.png
+doc-install: Copying folderopen.png
+doc-install: Copying classAtk_1_1NoOpObject__inherit__graph.png
+doc-install: Copying classAtk_1_1Hyperlink__inherit__graph.png
+doc-install: Copying sync_on.png
+doc-install: Copying classhash__load__check__resize__trigger__size__base__inherit__graph.png
+doc-install: Copying classAtk_1_1Implementor__inherit__graph.png
+doc-install: Copying inherit_graph_6.png
+doc-install: Copying classAtk_1_1Text__inherit__graph.png
+doc-install: Copying classAtk_1_1StreamableContent__inherit__graph.png
+doc-install: Copying classAtk_1_1EditableText__inherit__graph.png
+doc-install: Copying bdwn.png
+doc-install: Copying classAtk_1_1Component__inherit__graph.png
+doc-install: Copying doxygen.png
+doc-install: Copying classAtk_1_1ObjectAccessible__inherit__graph.png
+doc-install: Copying classAtk_1_1Hypertext__inherit__graph.png
+doc-install: Copying splitbar.png
+doc-install: Copying inherit_graph_5.png
+doc-install: Copying classAtk_1_1Document__inherit__graph.png
+doc-install: Copying inherit_graph_0.png
+doc-install: Copying inherit_graph_2.png
+doc-install: Copying arrowdown.png
+doc-install: Copying classAtk_1_1Value__inherit__graph.png
+doc-install: Copying classAtk_1_1Image__inherit__graph.png
+doc-install: Copying tab_b.png
+doc-install: Copying classAtk_1_1RelationSet__inherit__graph.png
+doc-install: Copying classlu__counter__policy__base__inherit__graph.png
+doc-install: Copying inherit_graph_3.png
+doc-install: Copying classAtk_1_1Selection__inherit__graph.png
+doc-install: Copying classAtk_1_1Relation__inherit__graph.png
+doc-install: Copying inherit_graph_1.png
+doc-install: Copying classAtk_1_1Action__inherit__graph.png
+doc-install: Copying closed.png
+doc-install: Copying classAtk_1_1Object__inherit__graph.png
+doc-install: Copying graph_legend.png
+doc-install: Copying folderclosed.png
+doc-install: Copying tab_h.png
+doc-install: Copying inherit_graph_4.png
+/bin/mkdir -p '/usr/share/devhelp/books/atkmm-1.6'
+/usr/bin/perl -- "../doc/doc-install.pl" --verbose --mode=0644 --book-base='/usr/share/doc/atkmm-1.6/reference/html' -t '/usr/share/devhelp/books/atkmm-1.6' -- reference/atkmm-1.6.devhelp2
+doc-install: Using base path /usr/share/doc/atkmm-1.6/reference/html for Devhelp book
+doc-install: Translating atkmm-1.6.devhelp2 (rewrote base path)
+ /bin/mkdir -p '/usr/share/doc/atkmm-1.6/reference'
+ /usr/bin/install -c -m 644 reference/atkmm-1.6.tag '/usr/share/doc/atkmm-1.6/reference'
+make[2]: Leaving directory '/sources/7.9/atkmm-2.24.2/doc'
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2/doc'
+make[1]: Entering directory '/sources/7.9/atkmm-2.24.2'
+make[2]: Entering directory '/sources/7.9/atkmm-2.24.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/atkmm-1.6'
+ /usr/bin/install -c -m 644 atk/atkmm.h '/usr/include/atkmm-1.6'
+ /bin/mkdir -p '/usr/lib/atkmm-1.6/include'
+ /usr/bin/install -c -m 644 atk/atkmmconfig.h '/usr/lib/atkmm-1.6/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 atk/atkmm-1.6.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/atkmm-2.24.2'
+make[1]: Leaving directory '/sources/7.9/atkmm-2.24.2'

@@ -1,0 +1,1 @@
+cp -av lib/lib*.so.5* /usr/lib

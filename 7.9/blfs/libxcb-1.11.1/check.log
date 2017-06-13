@@ -1,0 +1,61 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/libxcb-1.11.1/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libxcb-1.11.1/src'
+make[2]: Leaving directory '/sources/7.9/libxcb-1.11.1/src'
+make[1]: Leaving directory '/sources/7.9/libxcb-1.11.1/src'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+make[2]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+make -k 
+make[3]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+make[4]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+make[3]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+make -k check-TESTS check-local
+make[3]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+make[4]: Entering directory '/sources/7.9/libxcb-1.11.1/tests'
+============================================================================
+Testsuite summary for libxcb 1.11.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+make[3]: Nothing to be done for 'check-local'.
+make[3]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+make[2]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+make[1]: Leaving directory '/sources/7.9/libxcb-1.11.1/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libxcb-1.11.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxcb-1.11.1/doc'
+Making check in man
+make[1]: Entering directory '/sources/7.9/libxcb-1.11.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxcb-1.11.1/man'
+make[1]: Entering directory '/sources/7.9/libxcb-1.11.1'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libxcb-1.11.1'
+make[3]: Entering directory '/sources/7.9/libxcb-1.11.1'
+PASS: check-pc-requires
+============================================================================
+Testsuite summary for libxcb 1.11.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libxcb-1.11.1'
+make[2]: Leaving directory '/sources/7.9/libxcb-1.11.1'
+make[1]: Leaving directory '/sources/7.9/libxcb-1.11.1'

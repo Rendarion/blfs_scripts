@@ -1,0 +1,82 @@
+Making check in include
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/include'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/include'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/lib'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/lib'
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/lib'
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/lib'
+Making check in man
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/man'
+Making check in python
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/python'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/python/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/python/doc'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/python/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/python/examples'
+Making check in netlink
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/python/netlink'
+Making check in route
+make[3]: Entering directory '/sources/7.9/libnl-3.2.27/python/netlink/route'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libnl-3.2.27/python/netlink/route'
+Making check in genl
+make[3]: Entering directory '/sources/7.9/libnl-3.2.27/python/netlink/genl'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libnl-3.2.27/python/netlink/genl'
+make[3]: Entering directory '/sources/7.9/libnl-3.2.27/python/netlink'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libnl-3.2.27/python/netlink'
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/python/netlink'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/python/tests'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/python/tests'
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/python'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/python'
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/python'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/tests'
+make  
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/tests'
+make[3]: Entering directory '/sources/7.9/libnl-3.2.27/tests'
+============================================================================
+Testsuite summary for libnl 3.2.27
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libnl-3.2.27/tests'
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/tests'
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/tests'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27/src'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/src/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/src/lib'
+make[2]: Entering directory '/sources/7.9/libnl-3.2.27/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libnl-3.2.27/src'
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27/src'
+make[1]: Entering directory '/sources/7.9/libnl-3.2.27'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/libnl-3.2.27'

@@ -1,0 +1,12 @@
+URL=(
+"http://ftp.x.org/pub/individual/util/util-macros-1.19.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_build_environment"
+)

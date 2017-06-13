@@ -1,0 +1,11 @@
+URL=(
+"http://download.osgeo.org/libtiff/tiff-4.0.7.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

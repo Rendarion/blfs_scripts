@@ -1,0 +1,41 @@
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libvdpau-1.1.1/doc'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libvdpau-1.1.1/src'
+Making check in test
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1/test'
+make  dlclose
+make[2]: Entering directory '/sources/7.9/libvdpau-1.1.1/test'
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT dlclose.o -MD -MP -MF .deps/dlclose.Tpo -c -o dlclose.o dlclose.c
+mv -f .deps/dlclose.Tpo .deps/dlclose.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o dlclose dlclose.o -ldl -lX11 -lpthread 
+libtool: link: gcc -g -O2 -o dlclose dlclose.o  /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/libvdpau-1.1.1/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libvdpau-1.1.1/test'
+make[3]: Entering directory '/sources/7.9/libvdpau-1.1.1/test'
+SKIP: dlclose
+============================================================================
+Testsuite summary for libvdpau 1.1.1
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libvdpau-1.1.1/test'
+make[2]: Leaving directory '/sources/7.9/libvdpau-1.1.1/test'
+make[1]: Leaving directory '/sources/7.9/libvdpau-1.1.1/test'
+Making check in trace
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1/trace'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libvdpau-1.1.1/trace'
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1'
+make[1]: Leaving directory '/sources/7.9/libvdpau-1.1.1'

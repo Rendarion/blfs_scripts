@@ -1,0 +1,49 @@
+PKGDIR=(
+"binutils-2.25.1-p1"
+"gcc-5.2.0-p1"
+"linux-api-headers-4.2"
+"glibc-2.22"
+"libstdc++-5.2.0"
+"binutils-2.25.1-p2"
+"gcc-5.2.0-p2"
+"tcl-core-8.6.4"
+"expect-5.45"
+"dejagnu-1.5.3"
+"check-0.10.0"
+"ncurses-6.0"
+"bash-4.3.30"
+"bzip2-1.0.6"
+"coreutils-8.24"
+"diffutils-3.3"
+"file-5.24"
+"findutils-4.4.2"
+"gawk-4.1.3"
+"gettext-0.19.5.1"
+"grep-2.21"
+"gzip-1.6"
+"m4-1.4.17"
+"make-4.1"
+"patch-2.7.5"
+"perl-5.22.0"
+"sed-4.2.2"
+"tar-1.28"
+"texinfo-6.0"
+"util-linux-2.27"
+"xz-5.2.1"
+)    
+
+for i in "${PKGDIR[@]}"
+  do :
+    cd /sources/scripts/7.8/lfs/tools/$i
+
+    sed '2 iSCRIPTDIR="\$PWD"' install.script > install.script.2
+
+    sed 's/PKG=".*"/PKG=\$(basename \$PWD)/' install.script.2 > install.script.3
+
+    sed 's/\/sources\/scripts\/\$LFSVS\/tools\/\$PKG/\$SCRIPTDIR/' install.script.3 > install.script
+
+    rm install.script.2
+    rm install.script.3
+
+    chmod +x install.script
+  done

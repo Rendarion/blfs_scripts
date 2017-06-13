@@ -1,0 +1,392 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Wstrict-prototypes... yes
+checking whether gcc understands -Wnested-externs... yes
+checking whether gcc understands -Werror=missing-prototypes... yes
+checking whether gcc understands -Werror=implicit-function-declaration... yes
+checking whether gcc understands -Werror=pointer-arith... yes
+checking whether gcc understands -Werror=init-self... yes
+checking whether gcc understands -Werror=format-security... no
+checking whether gcc understands -Werror=format=2... yes
+checking whether gcc understands -Werror=missing-include-dirs... yes
+checking what warning flags to pass to the C compiler...  -Wall -Wstrict-prototypes -Wnested-externs -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Werror=missing-include-dirs
+checking what language compliance flags to pass to the C compiler... 
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing strerror... none required
+checking for pkg-config... /usr/bin/pkg-config
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for ANSI C header files... (cached) yes
+checking pkg-config is at least version 0.9.0... yes
+checking for GLIB... yes
+checking for gdbus-codegen... /usr/bin/gdbus-codegen
+checking for WNCK... yes
+checking for GTOP... yes
+checking for X... yes
+checking for gobject-introspection... yes
+checking for vapigen... /usr/bin/vapigen
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for python... /usr/bin/python
+checking for gtester2xunit dependencies... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for GTK+ - version >= 3.0.0... yes (version 3.18.7)
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/libbamf-private/Makefile
+config.status: creating lib/libbamf/Makefile
+config.status: creating lib/libbamf/libbamf3.pc
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/bamfdaemon/Makefile
+config.status: creating tests/libbamf/Makefile
+config.status: creating data/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/libbamf/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+bamf-0.5.1
+
+  Build Environment
+    Install Prefix:     /usr
+    Introspection:      yes
+    Headless tests:     no
+    Coverage Reporting: no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1'
+Making all in lib/libbamf-private
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+  GEN      bamf-gdbus-generated.c
+  GEN      bamf-gdbus-view-generated.c
+make  all-am
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+  CC       libbamf_private_la-bamf-gdbus-generated.lo
+  CC       libbamf_private_la-bamf-gdbus-view-generated.lo
+  CCLD     libbamf-private.la
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+Making all in lib/libbamf
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make  all-am
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+  CC       libbamf3_la-bamf-application.lo
+  CC       libbamf3_la-bamf-control.lo
+  CC       libbamf3_la-bamf-matcher.lo
+  CC       libbamf3_la-bamf-view.lo
+  CC       libbamf3_la-bamf-window.lo
+  CC       libbamf3_la-bamf-factory.lo
+  CC       libbamf3_la-bamf-tab.lo
+  CCLD     libbamf3.la
+  GISCAN   Bamf-3.gir
+  GICOMP   Bamf-3.gir
+  GEN      libbamf3.vapi
+Generation succeeded - 0 warning(s)
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+Making all in src
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/src'
+  CC       bamfdaemon-main.o
+  CC       bamfdaemon-bamf-daemon.o
+  CC       bamfdaemon-bamf-legacy-window.o
+  CC       bamfdaemon-bamf-legacy-window-test.o
+  CC       bamfdaemon-bamf-legacy-screen.o
+  CC       bamfdaemon-bamf-view.o
+  CC       bamfdaemon-bamf-control.o
+  CC       bamfdaemon-bamf-matcher.o
+  CC       bamfdaemon-bamf-application.o
+  CC       bamfdaemon-bamf-window.o
+  CC       bamfdaemon-bamf-tab.o
+  CC       bamfdaemon-bamf-xutils.o
+  CCLD     bamfdaemon
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/src'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/tests'
+Making all in bamfdaemon
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+  CC       test_bamf-bamf-daemon.o
+  CC       test_bamf-bamf-legacy-window.o
+  CC       test_bamf-bamf-legacy-window-test.o
+  CC       test_bamf-bamf-legacy-screen.o
+  CC       test_bamf-bamf-view.o
+  CC       test_bamf-bamf-control.o
+  CC       test_bamf-bamf-matcher.o
+  CC       test_bamf-bamf-application.o
+  CC       test_bamf-bamf-window.o
+  CC       test_bamf-bamf-tab.o
+  CC       test_bamf-bamf-xutils.o
+  CC       test_bamf-test-bamf.o
+  CC       test_bamf-test-view.o
+  CC       test_bamf-test-application.o
+  CC       test_bamf-test-window.o
+  CC       test_bamf-test-matcher.o
+  CCLD     test-bamf
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+Making all in libbamf
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+  CC       test_libbamf-test-libbamf.o
+  CC       test_libbamf-test-application.o
+  CC       test_libbamf-test-matcher.o
+  CCLD     test-libbamf
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/tests'
+Making all in data
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/data'
+  GEN      org.ayatana.bamf.service
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/data'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/doc'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference'
+Making all in libbamf
+make[4]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[4]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/doc'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/doc'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1'
+Making install in lib/libbamf-private
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make  install-am
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf-private'
+Making install in lib/libbamf
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make  install-am
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libbamf3.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libbamf3.so.2.0.0 /usr/lib/libbamf3.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libbamf3.so.2.0.0 libbamf3.so.2 || { rm -f libbamf3.so.2 && ln -s libbamf3.so.2.0.0 libbamf3.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libbamf3.so.2.0.0 libbamf3.so || { rm -f libbamf3.so && ln -s libbamf3.so.2.0.0 libbamf3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libbamf3.lai /usr/lib/libbamf3.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Bamf-3.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/libbamf3/libbamf'
+ /usr/bin/install -c -m 644 bamf-application.h bamf-control.h bamf-matcher.h bamf-view.h bamf-window.h bamf-tab.h libbamf.h '/usr/include/libbamf3/libbamf'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libbamf3.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Bamf-3.typelib '/usr/lib/girepository-1.0'
+ /bin/mkdir -p '/usr/share/vala/vapi'
+ /usr/bin/install -c -m 644 libbamf3.vapi '/usr/share/vala/vapi'
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/lib/libbamf'
+Making install in src
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/src'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/src'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/libexec/bamf'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c bamfdaemon '/usr/libexec/bamf'
+libtool: install: /usr/bin/install -c bamfdaemon /usr/libexec/bamf/bamfdaemon
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/src'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/src'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/tests'
+Making install in bamfdaemon
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/bamfdaemon'
+Making install in libbamf
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/tests/libbamf'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/tests'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/tests'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/tests'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/tests'
+Making install in data
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/data'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.ayatana.bamf.service '/usr/share/dbus-1/services'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/data'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/data'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1/doc'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference'
+Making install in libbamf
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[4]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/BamfApplication.html
+ /usr/bin/install -c -m 644 ./html/BamfControl.html
+ /usr/bin/install -c -m 644 ./html/BamfFactory.html
+ /usr/bin/install -c -m 644 ./html/BamfMatcher.html
+ /usr/bin/install -c -m 644 ./html/BamfTab.html
+ /usr/bin/install -c -m 644 ./html/BamfView.html
+ /usr/bin/install -c -m 644 ./html/BamfWindow.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libbamf.devhelp2
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[4]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference/libbamf'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[4]: Entering directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/doc/reference'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1/doc'
+make[3]: Entering directory '/sources/7.9/bamf-0.5.1/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/bamf-0.5.1/doc'
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1/doc'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1/doc'
+make[1]: Entering directory '/sources/7.9/bamf-0.5.1'
+make[2]: Entering directory '/sources/7.9/bamf-0.5.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/bamf-0.5.1'
+make[1]: Leaving directory '/sources/7.9/bamf-0.5.1'

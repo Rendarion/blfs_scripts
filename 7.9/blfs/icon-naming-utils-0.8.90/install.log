@@ -1,0 +1,25 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for perl... /usr/bin/perl
+checking for XML::Simple... ok
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating icon-naming-utils.pc
+config.status: creating icon-naming-utils-uninstalled.pc
+sed -e "s#\@PERL\@#/usr/bin/perl#g"		\
+    -e "s#\@DATADIR\@#/usr/share/icon-naming-utils#g"	\
+< icon-name-mapping.pl.in > icon-name-mapping
+make[1]: Entering directory '/sources/7.9/icon-naming-utils-0.8.90'
+test -z "/usr/libexec" || /bin/mkdir -p "/usr/libexec"
+ /usr/bin/install -c 'icon-name-mapping' '/usr/libexec/icon-name-mapping'
+test -z "/usr/share/dtds" || /bin/mkdir -p "/usr/share/dtds"
+ /usr/bin/install -c -m 644 'legacy-icon-mapping.dtd' '/usr/share/dtds/legacy-icon-mapping.dtd'
+test -z "/usr/share/pkgconfig" || /bin/mkdir -p "/usr/share/pkgconfig"
+ /usr/bin/install -c -m 644 'icon-naming-utils.pc' '/usr/share/pkgconfig/icon-naming-utils.pc'
+test -z "/usr/share/icon-naming-utils" || /bin/mkdir -p "/usr/share/icon-naming-utils"
+ /usr/bin/install -c -m 644 'legacy-icon-mapping.xml' '/usr/share/icon-naming-utils/legacy-icon-mapping.xml'
+make[1]: Leaving directory '/sources/7.9/icon-naming-utils-0.8.90'

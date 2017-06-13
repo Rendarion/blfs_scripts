@@ -1,0 +1,11 @@
+URL=(
+"http://pm-utils.freedesktop.org/releases/pm-utils-1.4.1.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

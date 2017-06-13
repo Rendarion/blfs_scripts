@@ -1,0 +1,90 @@
+# read settings variables from script 
+
+source ../settings.script
+
+if [ ! -f "/sources/$LFSVS" ]
+  then
+    mkdir "/sources/$LFSVS"
+  fi
+
+cd "/sources/$LFSVS"
+
+if [ ! -f "/sources/$LFSVS/wget-list" ]
+  then
+    wget "http://www.linuxfromscratch.org/lfs/view/$LFSVS/wget-list"
+  fi
+
+if [ ! -f "/sources/$LFSVS/md5sums" ]
+  then
+    wget "http://www.linuxfromscratch.org/lfs/view/$LFSVS/md5sums"
+  fi
+
+wget --input-file=wget-list --continue --directory-prefix="/sources/$LFSVS"
+
+pushd "/sources/$LFSVS"
+md5sum -c md5sums
+popd
+
+if [ ! -f "/sources/$LFSVS/iwlwifi-5000-ucode-8.83.5.1-1.tgz" ]
+  then
+    wget "https://wireless.wiki.kernel.org/_media/en/users/drivers/iwlwifi-5000-ucode-8.83.5.1-1.tgz"
+  fi
+
+# porg
+
+if [ ! -f "/sources/$LFSVS/porg-0.10.tar.gz" ]
+  then
+    wget "http://downloads.sourceforge.net/project/porg/porg-0.10.tar.gz"
+  fi
+
+# additional sources to jumpstart BLFS
+
+if [ ! -f "/sources/$LFSVS/blfs-bootscripts-20170225.tar.xz" ]
+  then
+    wget "http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170225.tar.xz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/openssl-1.0.2k.tar.gz" ]
+  then
+    wget "https://openssl.org/source/openssl-1.0.2k.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/libnl-3.2.29.tar.gz" ]
+  then
+    wget "https://github.com/thom311/libnl/releases/download/libnl3_2_29/libnl-3.2.29.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/libnl-doc-3.2.29.tar.gz" ]
+  then
+    wget "https://github.com/thom311/libnl/releases/download/libnl3_2_29/libnl-doc-3.2.29.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/wpa_supplicant-2.6.tar.gz" ]
+  then
+    wget "http://hostap.epitest.fi/releases/wpa_supplicant-2.6.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/dhcpcd-6.11.5.tar.xz" ]
+  then
+    wget "http://roy.marples.name/downloads/dhcpcd/dhcpcd-6.11.5.tar.xz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/libffi-3.2.1.tar.gz" ]
+  then
+    wget "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/Python-3.6.0.tar.xz" ]
+  then
+    wget "https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz"
+  fi
+
+if [ ! -f "/sources/$LFSVS/python-3.6.0-docs-html.tar.bz2" ]
+  then
+    wget " https://docs.python.org/3.6/archives/python-3.6.0-docs-html.tar.bz2"
+  fi
+
+if [ ! -f "/sources/$LFSVS/wget-1.19.1.tar.xz" ]
+  then
+    wget "http://ftp.gnu.org/gnu/wget/wget-1.19.1.tar.xz"
+  fi

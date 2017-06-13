@@ -1,0 +1,681 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+configure: autobuild project... GNU Libtasn1
+configure: autobuild revision... 4.7
+configure: autobuild hostname... Pikatchu
+configure: autobuild timestamp... 20160605T225827Z
+checking for bison... bison -y
+checking the archiver (ar) interface... ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking size of unsigned long int... 8
+checking size of unsigned int... 4
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking for complete errno.h... yes
+checking for _set_invalid_parameter_handler... no
+checking for gettimeofday... yes
+checking for nanotime... no
+checking whether stat file-mode macros are broken... no
+checking for sys/stat.h... (cached) yes
+checking for getopt.h... yes
+checking for sys/time.h... yes
+checking for sys/socket.h... yes
+checking for unistd.h... (cached) yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for mode_t... yes
+checking for nlink_t... yes
+checking whether fchmodat is declared without a macro... yes
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... yes
+checking whether futimens is declared without a macro... yes
+checking whether lchmod is declared without a macro... yes
+checking whether lstat is declared without a macro... yes
+checking whether mkdirat is declared without a macro... yes
+checking whether mkfifo is declared without a macro... yes
+checking whether mkfifoat is declared without a macro... yes
+checking whether mknod is declared without a macro... yes
+checking whether mknodat is declared without a macro... yes
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... yes
+checking whether stdin defaults to large file offsets... yes
+checking for pid_t... yes
+checking whether ftello is declared... yes
+checking for ftello... yes
+checking whether ftello works... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether gettimeofday is declared without a macro... yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for wchar_t... yes
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking whether stdint.h conforms to C99... yes
+checking for struct timespec in <time.h>... yes
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking for ftello... (cached) yes
+checking whether ftello works... (cached) yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... almost
+checking whether lseek detects pipes... yes
+checking for pmccabe... false
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking for ssize_t... yes
+checking for va_copy... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether dprintf is declared without a macro... yes
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... yes
+checking whether getline is declared without a macro... yes
+checking whether gets is declared without a macro... no
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... yes
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... yes
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... yes
+checking whether getloadavg is declared without a macro... yes
+checking whether getsubopt is declared without a macro... yes
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... yes
+checking whether initstate_r is declared without a macro... yes
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... yes
+checking whether mkostemps is declared without a macro... yes
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... yes
+checking whether posix_openpt is declared without a macro... yes
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... yes
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... yes
+checking whether secure_getenv is declared without a macro... yes
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... yes
+checking whether setstate_r is declared without a macro... yes
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... yes
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for nlink_t... (cached) yes
+checking whether fchmodat is declared without a macro... (cached) yes
+checking whether fstat is declared without a macro... (cached) yes
+checking whether fstatat is declared without a macro... (cached) yes
+checking whether futimens is declared without a macro... (cached) yes
+checking whether lchmod is declared without a macro... (cached) yes
+checking whether lstat is declared without a macro... (cached) yes
+checking whether mkdirat is declared without a macro... (cached) yes
+checking whether mkfifo is declared without a macro... (cached) yes
+checking whether mkfifoat is declared without a macro... (cached) yes
+checking whether mknod is declared without a macro... (cached) yes
+checking whether mknodat is declared without a macro... (cached) yes
+checking whether stat is declared without a macro... (cached) yes
+checking whether utimensat is declared without a macro... (cached) yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... yes
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... yes
+checking whether faccessat is declared without a macro... yes
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... yes
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... yes
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... yes
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... yes
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... yes
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... yes
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... yes
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... yes
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking for valgrind... no
+checking whether self tests are run under valgrind... no
+checking for valgrind... no
+checking whether self tests are run under valgrind... no
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking whether ffsl is declared without a macro... yes
+checking whether ffsll is declared without a macro... yes
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... yes
+checking whether stpcpy is declared without a macro... yes
+checking whether stpncpy is declared without a macro... yes
+checking whether strchrnul is declared without a macro... yes
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... yes
+checking if LD -Wl,--version-script works... yes
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for ssize_t... (cached) yes
+checking whether NULL can be used in arbitrary expressions... (cached) yes
+checking for strverscmp... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/cyclo/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating examples/Makefile
+config.status: creating gl/Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/gllib/Makefile
+config.status: creating lib/libtasn1.pc
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: summary of build options:
+
+  version:          4.7 shared 11:1:5
+  Host type:        x86_64-unknown-linux-gnu
+  Install prefix:   /usr
+  Compiler:         gcc
+  Warning flags:    errors:  warnings: 
+  Library types:    Shared=yes, Static=no
+  Valgrind:         
+  Version script:   yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7'
+Making all in gl
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+  GEN      arg-nonnull.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+  CC       gettime.lo
+  CC       progname.lo
+  CC       read-file.lo
+  CC       timespec.lo
+  CC       unistd.lo
+  CC       version-etc.lo
+  CC       version-etc-fsf.lo
+  CCLD     libgnu.la
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+Making all in lib
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+Making all in gllib
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+  GEN      arg-nonnull.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      string.h
+  GEN      sys/types.h
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[5]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+  CC       hash-pjw-bare.lo
+  CCLD     libgnu.la
+make[5]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+  CC       ASN1.lo
+  CC       coding.lo
+  CC       decoding.lo
+  CC       element.lo
+  CC       errors.lo
+  CC       gstr.lo
+  CC       parser_aux.lo
+  CC       structure.lo
+  CC       version.lo
+  CCLD     libtasn1.la
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/src'
+  CC       asn1Parser.o
+  CCLD     asn1Parser
+  CC       asn1Coding.o
+  CCLD     asn1Coding
+  CC       asn1Decoding.o
+  CC       benchmark.o
+  CCLD     asn1Decoding
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/src'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+  CC       CertificateExample.o
+  CC       pkix_asn1_tab.o
+  CCLD     CertificateExample
+  CC       CrlExample.o
+  CCLD     CrlExample
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+Making all in cyclo
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7'
+Making check in gl
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+Making check in gllib
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/src'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make  Test_parser Test_tree Test_encoding Test_indefinite Test_errors Test_simple Test_overflow Test_strings Test_choice Test_encdec copynode coding-decoding2 strict-der Test_choice_ocsp \
+  crlf benchmark threadsafety decoding
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+  CC       Test_parser.o
+  CCLD     Test_parser
+  CC       Test_tree.o
+  CCLD     Test_tree
+  CC       Test_encoding.o
+  CCLD     Test_encoding
+  CC       Test_indefinite.o
+  CCLD     Test_indefinite
+  CC       Test_errors.o
+  CCLD     Test_errors
+  CC       Test_simple.o
+  CCLD     Test_simple
+  CC       Test_overflow.o
+  CCLD     Test_overflow
+  CC       Test_strings.o
+  CCLD     Test_strings
+  CC       Test_choice.o
+  CCLD     Test_choice
+  CC       Test_encdec.o
+  CCLD     Test_encdec
+  CC       copynode.o
+  CCLD     copynode
+  CC       coding-decoding2.o
+  CCLD     coding-decoding2
+  CC       strict-der.o
+  CCLD     strict-der
+  CC       Test_choice_ocsp.o
+  CCLD     Test_choice_ocsp
+make[2]: Nothing to be done for 'crlf'.
+make[2]: Nothing to be done for 'benchmark'.
+make[2]: Nothing to be done for 'threadsafety'.
+make[2]: Nothing to be done for 'decoding'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+PASS: Test_parser
+PASS: Test_tree
+PASS: Test_encoding
+PASS: Test_indefinite
+PASS: Test_errors
+PASS: Test_simple
+PASS: Test_overflow
+PASS: crlf
+PASS: threadsafety
+PASS: Test_strings
+PASS: Test_choice
+PASS: Test_encdec
+PASS: copynode
+PASS: coding-decoding2
+PASS: strict-der
+SKIP: Test_choice_ocsp
+PASS: decoding
+============================================================================
+Testsuite summary for GNU Libtasn1 4.7
+============================================================================
+# TOTAL: 17
+# PASS:  16
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+Making check in cyclo
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7'
+  GEN      public-submodule-commit
+Making install in gl
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/gl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/gl'
+Making install in lib
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+Making install in gllib
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[5]: Entering directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[4]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib/gllib'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/lib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libtasn1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libtasn1.so.6.5.1 /usr/lib/libtasn1.so.6.5.1
+libtool: install: (cd /usr/lib && { ln -s -f libtasn1.so.6.5.1 libtasn1.so.6 || { rm -f libtasn1.so.6 && ln -s libtasn1.so.6.5.1 libtasn1.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libtasn1.so.6.5.1 libtasn1.so || { rm -f libtasn1.so && ln -s libtasn1.so.6.5.1 libtasn1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtasn1.lai /usr/lib/libtasn1.la
+libtool: finish: PATH="/usr/local/sbin:/bin:/usr/bin:/sbin:/usr/sbin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 libtasn1.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libtasn1.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/lib'
+Making install in src
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/src'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/src'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c asn1Parser asn1Coding asn1Decoding '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/asn1Parser /usr/bin/asn1Parser
+libtool: install: /usr/bin/install -c .libs/asn1Coding /usr/bin/asn1Coding
+libtool: install: /usr/bin/install -c .libs/asn1Decoding /usr/bin/asn1Decoding
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/src'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/src'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/examples'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/tests'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+Making install in cyclo
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc/cyclo'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+make[3]: Entering directory '/sources/7.9/libtasn1-4.7/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/info'
+ /usr/bin/install -c -m 644 ./libtasn1.info '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/libtasn1.info'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 asn1Parser.1 asn1Coding.1 asn1Decoding.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 man/asn1_get_length_der.3 man/asn1_get_tag_der.3 man/asn1_get_length_ber.3 man/asn1_get_octet_der.3 man/asn1_get_object_id_der.3 man/asn1_get_bit_der.3 man/asn1_der_decoding2.3 man/asn1_der_decoding.3 man/asn1_der_decoding_element.3 man/asn1_der_decoding_startEnd.3 man/asn1_expand_any_defined_by.3 man/asn1_expand_octet_string.3 man/asn1_decode_simple_der.3 man/asn1_decode_simple_ber.3 man/asn1_perror.3 man/asn1_strerror.3 man/asn1_find_node.3 man/asn1_length_der.3 man/asn1_octet_der.3 man/asn1_encode_simple_der.3 man/asn1_bit_der.3 man/asn1_der_coding.3 man/asn1_write_value.3 man/asn1_read_value.3 man/asn1_read_value_type.3 man/asn1_read_tag.3 man/asn1_read_node_value.3 man/asn1_array2tree.3 man/asn1_delete_structure.3 man/asn1_delete_structure2.3 man/asn1_delete_element.3 man/asn1_create_element.3 man/asn1_print_structure.3 man/asn1_number_of_elements.3 man/asn1_find_structure_from_oid.3 man/asn1_copy_node.3 man/asn1_dup_node.3 man/asn1_parser2tree.3 man/asn1_parser2array.3 man/asn1_check_version.3 '/usr/share/man/man3'
+make[3]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7/doc'
+make[1]: Entering directory '/sources/7.9/libtasn1-4.7'
+make[2]: Entering directory '/sources/7.9/libtasn1-4.7'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libtasn1-4.7'
+make[1]: Leaving directory '/sources/7.9/libtasn1-4.7'
+make: Entering directory '/sources/7.9/libtasn1-4.7/doc/reference'
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/intro.html
+ /usr/bin/install -c -m 644 ./html/ix02.html
+ /usr/bin/install -c -m 644 ./html/ix03.html
+ /usr/bin/install -c -m 644 ./html/ix04.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libtasn1.devhelp2
+ /usr/bin/install -c -m 644 ./html/libtasn1-libtasn1.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make: Leaving directory '/sources/7.9/libtasn1-4.7/doc/reference'

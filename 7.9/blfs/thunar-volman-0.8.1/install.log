@@ -1,0 +1,451 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking path.h usability... no
+checking path.h presence... no
+checking for path.h... no
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for dummy... no
+checking for mt... no
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar ast be bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pl pt_BR pt ro ru sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for exo-1 >= 0.10.0... 0.10.7
+checking EXO_CFLAGS... -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking EXO_LIBS... -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for glib-2.0 >= 2.30.0... 2.46.2
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-2.0 >= 2.30.0... 2.46.2
+checking GIO_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gthread-2.0 >= 2.30.0... 2.46.2
+checking GTHREAD_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTHREAD_LIBS... -lgthread-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-2.0 >= 2.24.0... 2.24.29
+checking GTK_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gudev-1.0 >= 145... 230
+checking GUDEV_CFLAGS... -I/usr/include/gudev-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GUDEV_LIBS... -lgudev-1.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4ui-1 >= 4.10.0... 4.12.1
+checking LIBXFCE4UI_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UI_LIBS... -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.10.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfconf-0 >= 4.10.0... 4.12.0
+checking XFCONF_CFLAGS... -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking XFCONF_LIBS... -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libnotify >= 0.4.0... 0.7.6
+checking LIBNOTIFY_CFLAGS... -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBNOTIFY_LIBS... -lnotify -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking whether to build with debugging support... minimum
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking PLATFORM_CPPFLAGS... 
+checking PLATFORM_CFLAGS... 
+checking PLATFORM_LDFLAGS... 
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating icons/Makefile
+config.status: creating icons/48x48/Makefile
+config.status: creating icons/scalable/Makefile
+config.status: creating po/Makefile.in
+config.status: creating thunar-volman/Makefile
+config.status: creating thunar-volman-settings/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+* Mount notifications: yes
+* Debug Support:       minimum
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1'
+Making all in icons
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+Making all in 48x48
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+Making all in scalable
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+Making all in po
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/po'
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/po'
+Making all in thunar-volman
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+  CC       thunar_volman-main.o
+  CC       thunar_volman-tvm-block-device.o
+  CC       thunar_volman-tvm-context.o
+  CC       thunar_volman-tvm-device.o
+  CC       thunar_volman-tvm-gio-extensions.o
+  CC       thunar_volman-tvm-input-device.o
+  CC       thunar_volman-tvm-pango-extensions.o
+  CC       thunar_volman-tvm-prompt.o
+  CC       thunar_volman-tvm-run.o
+  CC       thunar_volman-tvm-usb-device.o
+  CC       thunar_volman-tvm-notify.o
+  CCLD     thunar-volman
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+Making all in thunar-volman-settings
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+  CC       thunar_volman_settings-main.o
+  CC       thunar_volman_settings-tvm-command-entry.o
+  CC       thunar_volman_settings-tvm-preferences-dialog.o
+  CC       thunar_volman_settings-tvm-pango-extensions.o
+  CCLD     thunar-volman-settings
+sed -e "s,\@libexecdir\@,/usr/libexec,g" < thunar-volman-settings.desktop.in.in > thunar-volman-settings.desktop.in
+  ITMRG  thunar-volman-settings.desktop
+rm thunar-volman-settings.desktop.in
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1'
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1'
+Making install in icons
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+Making install in 48x48
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 tvm-burn-cd.png tvm-dev-pocketpc.png '/usr/share/icons/hicolor/48x48/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/48x48'
+Making install in scalable
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/scalable/apps'
+ /usr/bin/install -c -m 644 tvm-burn-cd.svg '/usr/share/icons/hicolor/scalable/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons/scalable'
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[3]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/thunar-volman-0.8.1/icons'
+Updating Gtk icon cache.
+make[4]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[3]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/icons'
+Making install in po
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1/po'
+linguas="ar ast be bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pl pt_BR pt ro ru sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/thunar-volman-0.8.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/thunar-volman.mo; \
+    echo "installing $lang.gmo as $dir/thunar-volman.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/thunar-volman.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/thunar-volman.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/thunar-volman.mo.m; \
+    echo "installing $lang.gmo.m as $dir/thunar-volman.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/thunar-volman.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/thunar-volman.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/thunar-volman.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/thunar-volman.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/thunar-volman.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/thunar-volman.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/thunar-volman.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/thunar-volman.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/thunar-volman.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/thunar-volman.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/thunar-volman.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/thunar-volman.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/thunar-volman.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/thunar-volman.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/thunar-volman.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/thunar-volman.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/thunar-volman.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/thunar-volman.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/thunar-volman.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/thunar-volman.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/thunar-volman.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/thunar-volman.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/thunar-volman.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/thunar-volman.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/thunar-volman.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/thunar-volman.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/thunar-volman.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/thunar-volman.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/thunar-volman.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/thunar-volman.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/thunar-volman.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/thunar-volman.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/thunar-volman.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/thunar-volman.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/thunar-volman.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/thunar-volman.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/thunar-volman.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/thunar-volman.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/thunar-volman.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/thunar-volman.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/thunar-volman.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/thunar-volman.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/thunar-volman.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/thunar-volman.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/thunar-volman.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/thunar-volman.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/thunar-volman.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/thunar-volman.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/thunar-volman.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/thunar-volman.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/thunar-volman.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/thunar-volman.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/thunar-volman.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/thunar-volman.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/thunar-volman.mo
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/po'
+Making install in thunar-volman
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c thunar-volman '/usr/bin'
+libtool: install: /usr/bin/install -c thunar-volman /usr/bin/thunar-volman
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman'
+Making install in thunar-volman-settings
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c thunar-volman-settings '/usr/bin'
+libtool: install: /usr/bin/install -c thunar-volman-settings /usr/bin/thunar-volman-settings
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 thunar-volman-settings.desktop '/usr/share/applications'
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1/thunar-volman-settings'
+make[1]: Entering directory '/sources/7.9/thunar-volman-0.8.1'
+make[2]: Entering directory '/sources/7.9/thunar-volman-0.8.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/thunar-volman-0.8.1'
+make[1]: Leaving directory '/sources/7.9/thunar-volman-0.8.1'

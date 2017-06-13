@@ -1,0 +1,5 @@
+patch -p1 -i ../icu4c-58.2-fix_enumeration-1.patch
+
+cd source &&
+./configure --prefix=/usr &&
+make

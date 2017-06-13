@@ -1,0 +1,457 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether build environment is sane... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for pkg-config... /usr/bin/pkg-config
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for mlock... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for GLIB... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for gobject-introspection... yes
+checking for glib-mkenums... /usr/bin/glib-mkenums
+checking pkg-config is at least version 0.9.0... yes
+checking for vapigen... yes
+checking for valac... /usr/bin/valac
+checking for libgcrypt-config... /usr/bin/libgcrypt-config
+checking for LIBGCRYPT - version >= 1.2.2... yes (1.6.5)
+checking LIBGCRYPT API version... okay
+checking whether gcc understands -Wmissing-include-dirs... yes
+checking whether gcc understands -Wundef... yes
+checking build strict... no
+checking for debug mode... default
+checking whether to build with gcov testing... no
+checking that generated files are newer than configure... done
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/reference/libsecret/Makefile
+config.status: creating docs/reference/libsecret/version.xml
+config.status: creating po/Makefile.in
+config.status: creating po/Makefile
+config.status: creating libsecret/libsecret.pc
+config.status: creating libsecret/libsecret-unstable.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+CFLAGS: -g -O2 -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_38 -DGLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_38 		-Wall -Wmissing-declarations 		-Wmissing-prototypes -Wnested-externs -Wpointer-arith 		-Wdeclaration-after-statement -Wformat=2 -Winit-self 		-Waggregate-return -Wmissing-include-dirs -Wundef -Wno-error -g
+
+OPTIONS:
+  libgcrypt:     yes
+  vala:          yes
+  Debug:         default
+  Coverage:      no
+  Manual Page:   no
+
+  GEN      temp-dbus-generated.c
+  GEN      secret-dbus-generated.c
+  GEN      secret-dbus-generated.h
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libsecret-0.18.4'
+Making all in .
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4'
+  CC       libsecret/libsecret_1_la-secret-attributes.lo
+  CC       libsecret/libsecret_1_la-secret-collection.lo
+  CC       libsecret/libsecret_1_la-secret-item.lo
+  CC       libsecret/libsecret_1_la-secret-methods.lo
+  CC       libsecret/libsecret_1_la-secret-password.lo
+  CC       libsecret/libsecret_1_la-secret-prompt.lo
+  CC       libsecret/libsecret_1_la-secret-schema.lo
+  CC       libsecret/libsecret_1_la-secret-schemas.lo
+  CC       libsecret/libsecret_1_la-secret-service.lo
+  CC       libsecret/libsecret_1_la-secret-value.lo
+  CC       libsecret/libsecret_1_la-secret-paths.lo
+  CC       libsecret/libsecret_1_la-secret-session.lo
+  CC       libsecret/libsecret_1_la-secret-util.lo
+  CC       libsecret_1_la-secret-dbus-generated.lo
+  CC       libsecret/libsecret_1_la-secret-enum-types.lo
+  CC       egg/egg-hex.lo
+  CC       egg/egg-secure-memory.lo
+  CC       egg/egg-testing.lo
+  CC       egg/egg-dh.lo
+  CC       egg/egg-hkdf.lo
+  CC       egg/egg-libgcrypt.lo
+  CCLD     libegg.la
+  CCLD     libsecret-1.la
+  CCLD     libsecret-testable.la
+  CC       libsecret/mock-service.lo
+  CCLD     libmock_service.la
+  CC       tool/secret-tool.o
+  CCLD     secret-tool
+  GISCAN   Secret-1.gir
+  GISCAN   MockService-0.gir
+  GICOMP   MockService-0.gir
+  GEN      libsecret-1.deps
+ VAPIGEN libsecret-1.vapi
+ VAPIGEN mock-service-0.vapi
+  GEN      libsecret-1.pc
+  GICOMP   Secret-1.gir
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4'
+Making all in po
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4/po'
+  MSGFMT an.gmo
+  MSGFMT ar.gmo
+  MSGFMT as.gmo
+  MSGFMT be.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fr.gmo
+  MSGFMT fur.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT tg.gmo
+  MSGFMT tr.gmo
+  MSGFMT uk.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4/po'
+Making all in docs/reference/libsecret
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[1]: Leaving directory '/sources/7.9/libsecret-0.18.4'
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/libsecret-0.18.4'
+Making install in .
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4'
+make[3]: Entering directory '/sources/7.9/libsecret-0.18.4'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libsecret-1.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libsecret-1.so.0.0.0 /usr/lib/libsecret-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libsecret-1.so.0.0.0 libsecret-1.so.0 || { rm -f libsecret-1.so.0 && ln -s libsecret-1.so.0.0.0 libsecret-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libsecret-1.so.0.0.0 libsecret-1.so || { rm -f libsecret-1.so && ln -s libsecret-1.so.0.0.0 libsecret-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libsecret-1.lai /usr/lib/libsecret-1.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c secret-tool '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/secret-tool /usr/bin/secret-tool
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Secret-1.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/libsecret-1/libsecret'
+ /usr/bin/install -c -m 644 libsecret/secret.h libsecret/secret-attributes.h libsecret/secret-collection.h libsecret/secret-item.h libsecret/secret-password.h libsecret/secret-paths.h libsecret/secret-prompt.h libsecret/secret-schema.h libsecret/secret-schemas.h libsecret/secret-service.h libsecret/secret-types.h libsecret/secret-value.h libsecret/secret-enum-types.h '/usr/include/libsecret-1/libsecret'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libsecret-1.pc libsecret/libsecret-unstable.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Secret-1.typelib '/usr/lib/girepository-1.0'
+ /bin/mkdir -p '/usr/share/vala/vapi'
+ /usr/bin/install -c -m 644 libsecret-1.vapi libsecret-1.deps '/usr/share/vala/vapi'
+make[3]: Leaving directory '/sources/7.9/libsecret-0.18.4'
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4'
+Making install in po
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4/po'
+linguas="an ar as be bs ca ca@valencia cs da de el eo es eu fa fr fur gl he hu id it ja kk ko lt lv ml nb nl oc pa pl pt pt_BR ro ru sk sl sr sr@latin sv tg tr uk zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/libsecret-0.18.4/build/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/libsecret.mo; \
+    echo "installing $lang.gmo as $dir/libsecret.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/libsecret.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libsecret.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/libsecret.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libsecret.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/libsecret.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libsecret.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/libsecret.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/libsecret.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/libsecret.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/libsecret.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/libsecret.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/libsecret.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/libsecret.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libsecret.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libsecret.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libsecret.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/libsecret.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/libsecret.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/libsecret.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/libsecret.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/libsecret.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libsecret.mo
+installing fur.gmo as /usr/share/locale/fur/LC_MESSAGES/libsecret.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/libsecret.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/libsecret.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libsecret.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/libsecret.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libsecret.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libsecret.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/libsecret.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/libsecret.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/libsecret.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/libsecret.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/libsecret.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/libsecret.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libsecret.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/libsecret.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/libsecret.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libsecret.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libsecret.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/libsecret.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/libsecret.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libsecret.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/libsecret.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/libsecret.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libsecret.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/libsecret.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libsecret.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/libsecret.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/libsecret.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libsecret.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libsecret.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/libsecret.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libsecret.mo
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4/po'
+Making install in docs/reference/libsecret
+make[2]: Entering directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[3]: Entering directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/c-examples.html
+ /usr/bin/install -c -m 644 ./html/c-lookup-example.html
+ /usr/bin/install -c -m 644 ./html/complete.html
+ /usr/bin/install -c -m 644 ./html/c-remove-example.html
+ /usr/bin/install -c -m 644 ./html/c-store-example.html
+ /usr/bin/install -c -m 644 ./html/examples.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/js-examples.html
+ /usr/bin/install -c -m 644 ./html/js-lookup-example.html
+ /usr/bin/install -c -m 644 ./html/js-remove-example.html
+ /usr/bin/install -c -m 644 ./html/js-store-example.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libsecret-DBus-Path-Related-Functions.html
+ /usr/bin/install -c -m 644 ./html/libsecret.devhelp2
+ /usr/bin/install -c -m 644 ./html/libsecret-Password-storage.html
+ /usr/bin/install -c -m 644 ./html/libsecret-Secret-Attributes.html
+ /usr/bin/install -c -m 644 ./html/libsecret-SecretError.html
+ /usr/bin/install -c -m 644 ./html/libsecret-SecretSchema.html
+ /usr/bin/install -c -m 644 ./html/migrating-api.html
+ /usr/bin/install -c -m 644 ./html/migrating.html
+ /usr/bin/install -c -m 644 ./html/migrating-introduction.html
+ /usr/bin/install -c -m 644 ./html/migrating-items.html
+ /usr/bin/install -c -m 644 ./html/migrating-keyrings.html
+ /usr/bin/install -c -m 644 ./html/migrating-locking.html
+ /usr/bin/install -c -m 644 ./html/migrating-memory.html
+ /usr/bin/install -c -m 644 ./html/migrating-misc.html
+ /usr/bin/install -c -m 644 ./html/migrating-removing.html
+ /usr/bin/install -c -m 644 ./html/migrating-schemas.html
+ /usr/bin/install -c -m 644 ./html/migrating-searching.html
+ /usr/bin/install -c -m 644 ./html/migrating-storing.html
+ /usr/bin/install -c -m 644 ./html/py-examples.html
+ /usr/bin/install -c -m 644 ./html/py-lookup-example.html
+ /usr/bin/install -c -m 644 ./html/py-remove-example.html
+ /usr/bin/install -c -m 644 ./html/py-store-example.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/SecretCollection.html
+ /usr/bin/install -c -m 644 ./html/SecretItem.html
+ /usr/bin/install -c -m 644 ./html/SecretPrompt.html
+ /usr/bin/install -c -m 644 ./html/SecretService.html
+ /usr/bin/install -c -m 644 ./html/SecretValue.html
+ /usr/bin/install -c -m 644 ./html/simple.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/using-c.html
+ /usr/bin/install -c -m 644 ./html/using.html
+ /usr/bin/install -c -m 644 ./html/using-js.html
+ /usr/bin/install -c -m 644 ./html/using-python.html
+ /usr/bin/install -c -m 644 ./html/using-vala.html
+ /usr/bin/install -c -m 644 ./html/vala-examples.html
+ /usr/bin/install -c -m 644 ./html/vala-lookup-example.html
+ /usr/bin/install -c -m 644 ./html/vala-remove-example.html
+ /usr/bin/install -c -m 644 ./html/vala-store-example.html
+make[3]: Leaving directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[2]: Leaving directory '/sources/7.9/libsecret-0.18.4/docs/reference/libsecret'
+make[1]: Leaving directory '/sources/7.9/libsecret-0.18.4'

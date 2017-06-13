@@ -1,0 +1,20 @@
+make install
+
+cat >> /etc/NetworkManager/NetworkManager.conf << "EOF"
+[main]
+plugins=keyfile
+EOF
+
+groupadd -fg 86 netdev &&
+/usr/sbin/usermod -a -G netdev $(getent passwd | awk -F: '$3 == 1000 {print $1}')
+
+cat > /usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules << "EOF"
+polkit.addRule(function(action, subject) {
+    if (action.id.indexOf("org.freedesktop.NetworkManager.") == 0 && subject.isInGroup("netdev")) {
+        return polkit.Result.YES;
+    }
+});
+EOF
+
+cd ../$(basename $(find "/sources/$LFSVS" -maxdepth 1 -type d -name "blfs-bootscripts*"))
+make install-$((echo $PKG) | cut -d - -f 1)

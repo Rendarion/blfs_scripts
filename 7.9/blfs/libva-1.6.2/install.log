@@ -1,0 +1,543 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ANSI C header files... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether __attribute__((visibility())) is supported... yes
+checking for DRM... yes
+checking for X11... yes
+checking for XEXT... yes
+checking for XFIXES... yes
+checking for GLX... yes
+checking GL/gl.h usability... yes
+checking GL/gl.h presence... yes
+checking for GL/gl.h... yes
+checking GL/glx.h usability... yes
+checking GL/glx.h presence... yes
+checking for GL/glx.h... yes
+checking for glXCreateContext in -lGL... yes
+checking for EGL... yes
+checking EGL/egl.h usability... yes
+checking EGL/egl.h presence... yes
+checking for EGL/egl.h... yes
+checking for eglGetDisplay in -lEGL... yes
+checking for WAYLAND... yes
+checking for wayland-scanner... /usr/bin/wayland-scanner
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating debian.upstream/Makefile
+config.status: creating debian.upstream/changelog
+config.status: creating debian.upstream/control
+config.status: creating debian.upstream/libva1.install
+config.status: creating debian.upstream/libva-drm1.install
+config.status: creating debian.upstream/libva-egl1.install
+config.status: creating debian.upstream/libva-glx1.install
+config.status: creating debian.upstream/libva-wayland1.install
+config.status: creating debian.upstream/libva-x11-1.install
+config.status: creating doc/Makefile
+config.status: creating dummy_drv_video/Makefile
+config.status: creating pkgconfig/Makefile
+config.status: creating pkgconfig/libva-drm.pc
+config.status: creating pkgconfig/libva-egl.pc
+config.status: creating pkgconfig/libva-glx.pc
+config.status: creating pkgconfig/libva-tpi.pc
+config.status: creating pkgconfig/libva-wayland.pc
+config.status: creating pkgconfig/libva-x11.pc
+config.status: creating pkgconfig/libva.pc
+config.status: creating test/Makefile
+config.status: creating test/basic/Makefile
+config.status: creating test/common/Makefile
+config.status: creating test/decode/Makefile
+config.status: creating test/encode/Makefile
+config.status: creating test/putsurface/Makefile
+config.status: creating test/vainfo/Makefile
+config.status: creating va/Makefile
+config.status: creating va/drm/Makefile
+config.status: creating va/egl/Makefile
+config.status: creating va/glx/Makefile
+config.status: creating va/va_version.h
+config.status: creating va/wayland/Makefile
+config.status: creating va/x11/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+libva - 1.6.2 (VA-API 0.38.1)
+
+Installation prefix .............. : /usr
+Default driver path .............. : ${exec_prefix}/lib/dri
+Extra window systems ............. : drm x11 glx egl wayland
+Build dummy driver ............... : yes
+Build documentation .............. : no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libva-1.6.2'
+Making all in va
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va'
+Making all in drm
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/drm'
+  CC       va_drm.lo
+  CC       va_drm_auth.lo
+  CC       va_drm_utils.lo
+  CC       va_drm_auth_x11.lo
+  CCLD     libva_drm.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/drm'
+Making all in x11
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/x11'
+  CC       dri2_util.lo
+  CC       va_dri2.lo
+  CC       va_dricommon.lo
+  CC       va_fglrx.lo
+  CC       va_nvctrl.lo
+  CC       va_x11.lo
+  CCLD     libva_x11.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/x11'
+Making all in glx
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/glx'
+  CC       va_glx.lo
+  CC       va_glx_impl.lo
+  CCLD     libva_glx.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/glx'
+Making all in egl
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/egl'
+  CC       va_egl.lo
+  CCLD     libva_egl.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/egl'
+Making all in wayland
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/wayland'
+  CC       va_wayland.lo
+  CC       va_wayland_drm.lo
+  CC       va_wayland_emgd.lo
+  CC       va_drm_utils.lo
+  CCLD     libva_wayland.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/wayland'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va'
+  CC       va.lo
+  CC       va_compat.lo
+  CC       va_fool.lo
+  CC       va_trace.lo
+  CCLD     libva.la
+  CC       va_tpi.lo
+  CCLD     libva-tpi.la
+  CCLD     libva-drm.la
+  CCLD     libva-x11.la
+  CCLD     libva-glx.la
+  CCLD     libva-egl.la
+  CCLD     libva-wayland.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va'
+Making all in dummy_drv_video
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+  CC       dummy_drv_video.lo
+  CC       object_heap.lo
+  CCLD     dummy_drv_video.la
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+Making all in pkgconfig
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/pkgconfig'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/pkgconfig'
+Making all in test
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test'
+Making all in common
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/common'
+  CC       libva_display_la-va_display.lo
+  CC       libva_display_la-va_display_x11.lo
+  CC       libva_display_la-va_display_drm.lo
+  CC       libva_display_la-va_display_wayland.lo
+  CCLD     libva-display.la
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/common'
+Making all in decode
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/decode'
+  CXX      mpeg2vldemo.o
+  CXXLD    mpeg2vldemo
+  CC       loadjpeg.o
+  CC       tinyjpeg.o
+  CCLD     loadjpeg
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/decode'
+Making all in encode
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/encode'
+  CC       avcenc-avcenc.o
+  CCLD     avcenc
+  CC       mpeg2vaenc-mpeg2vaenc.o
+  CCLD     mpeg2vaenc
+  CC       h264encode-h264encode.o
+  CCLD     h264encode
+  CC       jpegenc-jpegenc.o
+  CCLD     jpegenc
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/encode'
+Making all in vainfo
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/vainfo'
+  CC       vainfo-vainfo.o
+  CCLD     vainfo
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/vainfo'
+Making all in basic
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/basic'
+  CC       test_01.o
+  CCLD     test_01
+  CC       test_02.o
+  CCLD     test_02
+  CC       test_03.o
+  CCLD     test_03
+  CC       test_04.o
+  CCLD     test_04
+  CC       test_05.o
+  CCLD     test_05
+  CC       test_06.o
+  CCLD     test_06
+  CC       test_07.o
+  CCLD     test_07
+  CC       test_08.o
+  CCLD     test_08
+  CC       test_09.o
+  CCLD     test_09
+  CC       test_10.o
+  CCLD     test_10
+  CC       test_11.o
+  CCLD     test_11
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/basic'
+Making all in putsurface
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/putsurface'
+  CC       putsurface-putsurface_x11.o
+  CCLD     putsurface
+  CC       putsurface_wayland-putsurface_wayland.o
+  CCLD     putsurface_wayland
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/putsurface'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test'
+Making all in debian.upstream
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/debian.upstream'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/debian.upstream'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/doc'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2'
+Making install in va
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/va'
+Making install in drm
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va/drm'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/drm'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_drm.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/drm'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va/drm'
+Making install in x11
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va/x11'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/x11'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_dri2.h va_dricommon.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/x11'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va/x11'
+Making install in glx
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va/glx'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/glx'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_backend_glx.h va_glx.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/glx'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va/glx'
+Making install in egl
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va/egl'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/egl'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_egl.h va_backend_egl.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/egl'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va/egl'
+Making install in wayland
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va/wayland'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va/wayland'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va_backend_wayland.h va_wayland.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va/wayland'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va/wayland'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/va'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/va'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libva.la libva-tpi.la libva-drm.la libva-x11.la libva-glx.la libva-egl.la libva-wayland.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libva.so.1.3801.0 /usr/lib/libva.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva.so.1.3801.0 libva.so.1 || { rm -f libva.so.1 && ln -s libva.so.1.3801.0 libva.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva.so.1.3801.0 libva.so || { rm -f libva.so && ln -s libva.so.1.3801.0 libva.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva.lai /usr/lib/libva.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -no-undefined -o libva-tpi.la -rpath /usr/lib va_tpi.lo libva.la -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-tpi.so.1.3801.0T /usr/lib/libva-tpi.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-tpi.so.1.3801.0 libva-tpi.so.1 || { rm -f libva-tpi.so.1 && ln -s libva-tpi.so.1.3801.0 libva-tpi.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-tpi.so.1.3801.0 libva-tpi.so || { rm -f libva-tpi.so && ln -s libva-tpi.so.1.3801.0 libva-tpi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-tpi.lai /usr/lib/libva-tpi.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -o libva-drm.la -rpath /usr/lib libva.la drm/libva_drm.la -ldrm -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-drm.so.1.3801.0T /usr/lib/libva-drm.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-drm.so.1.3801.0 libva-drm.so.1 || { rm -f libva-drm.so.1 && ln -s libva-drm.so.1.3801.0 libva-drm.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-drm.so.1.3801.0 libva-drm.so || { rm -f libva-drm.so && ln -s libva-drm.so.1.3801.0 libva-drm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-drm.lai /usr/lib/libva-drm.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -o libva-x11.la -rpath /usr/lib libva.la x11/libva_x11.la -lX11 -lXext -lXfixes -ldrm -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-x11.so.1.3801.0T /usr/lib/libva-x11.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-x11.so.1.3801.0 libva-x11.so.1 || { rm -f libva-x11.so.1 && ln -s libva-x11.so.1.3801.0 libva-x11.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-x11.so.1.3801.0 libva-x11.so || { rm -f libva-x11.so && ln -s libva-x11.so.1.3801.0 libva-x11.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-x11.lai /usr/lib/libva-x11.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -o libva-glx.la -rpath /usr/lib libva.la glx/libva_glx.la libva-x11.la -lGL -lX11 -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-glx.so.1.3801.0T /usr/lib/libva-glx.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-glx.so.1.3801.0 libva-glx.so.1 || { rm -f libva-glx.so.1 && ln -s libva-glx.so.1.3801.0 libva-glx.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-glx.so.1.3801.0 libva-glx.so || { rm -f libva-glx.so && ln -s libva-glx.so.1.3801.0 libva-glx.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-glx.lai /usr/lib/libva-glx.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -o libva-egl.la -rpath /usr/lib libva.la egl/libva_egl.la -lEGL -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-egl.so.1.3801.0T /usr/lib/libva-egl.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-egl.so.1.3801.0 libva-egl.so.1 || { rm -f libva-egl.so.1 && ln -s libva-egl.so.1.3801.0 libva-egl.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-egl.so.1.3801.0 libva-egl.so || { rm -f libva-egl.so && ln -s libva-egl.so.1.3801.0 libva-egl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-egl.lai /usr/lib/libva-egl.la
+libtool: install: (cd /sources/7.9/libva-1.6.2/va; /bin/sh /sources/7.9/libva-1.6.2/libtool  --silent --tag CC --mode=relink gcc -g -O2 -version-info 3802:0:3801 -o libva-wayland.la -rpath /usr/lib libva.la wayland/libva_wayland.la -lwayland-client -ldrm -ldl )
+libtool: install: /usr/bin/install -c .libs/libva-wayland.so.1.3801.0T /usr/lib/libva-wayland.so.1.3801.0
+libtool: install: (cd /usr/lib && { ln -s -f libva-wayland.so.1.3801.0 libva-wayland.so.1 || { rm -f libva-wayland.so.1 && ln -s libva-wayland.so.1.3801.0 libva-wayland.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libva-wayland.so.1.3801.0 libva-wayland.so || { rm -f libva-wayland.so && ln -s libva-wayland.so.1.3801.0 libva-wayland.so; }; })
+libtool: install: /usr/bin/install -c .libs/libva-wayland.lai /usr/lib/libva-wayland.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/va'
+ /usr/bin/install -c -m 644 va.h va_backend.h va_backend_tpi.h va_backend_vpp.h va_compat.h va_dec_hevc.h va_dec_jpeg.h va_dec_vp8.h va_dec_vp9.h va_drmcommon.h va_enc_hevc.h va_enc_h264.h va_enc_jpeg.h va_enc_vp8.h va_enc_mpeg2.h va_tpi.h va_version.h va_vpp.h va_x11.h '/usr/include/va'
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/va'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/va'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/va'
+Making install in dummy_drv_video
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   dummy_drv_video.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/dummy_drv_video.so /usr/lib/dri/dummy_drv_video.so
+libtool: install: /usr/bin/install -c .libs/dummy_drv_video.lai /usr/lib/dri/dummy_drv_video.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/dummy_drv_video'
+Making install in pkgconfig
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/pkgconfig'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/pkgconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libva.pc libva-tpi.pc libva-drm.pc libva-x11.pc libva-glx.pc libva-egl.pc libva-wayland.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/pkgconfig'
+Making install in test
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/test'
+Making install in common
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/common'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/common'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/common'
+Making install in decode
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/decode'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/decode'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c mpeg2vldemo loadjpeg '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/mpeg2vldemo /usr/bin/mpeg2vldemo
+libtool: install: /usr/bin/install -c .libs/loadjpeg /usr/bin/loadjpeg
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/decode'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/decode'
+Making install in encode
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/encode'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/encode'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c avcenc mpeg2vaenc h264encode jpegenc '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/avcenc /usr/bin/avcenc
+libtool: install: /usr/bin/install -c .libs/mpeg2vaenc /usr/bin/mpeg2vaenc
+libtool: install: /usr/bin/install -c .libs/h264encode /usr/bin/h264encode
+libtool: install: /usr/bin/install -c .libs/jpegenc /usr/bin/jpegenc
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/encode'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/encode'
+Making install in vainfo
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/vainfo'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/vainfo'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c vainfo '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/vainfo /usr/bin/vainfo
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/vainfo'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/vainfo'
+Making install in basic
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/basic'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/basic'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/basic'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/basic'
+Making install in putsurface
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test/putsurface'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test/putsurface'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c putsurface putsurface_wayland '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/putsurface /usr/bin/putsurface
+libtool: install: /usr/bin/install -c .libs/putsurface_wayland /usr/bin/putsurface_wayland
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test/putsurface'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test/putsurface'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/test'
+make[3]: Entering directory '/sources/7.9/libva-1.6.2/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libva-1.6.2/test'
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/test'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/test'
+Making install in debian.upstream
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/debian.upstream'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/debian.upstream'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/debian.upstream'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/debian.upstream'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/libva-1.6.2/doc'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2/doc'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2/doc'
+make[1]: Entering directory '/sources/7.9/libva-1.6.2'
+make[2]: Entering directory '/sources/7.9/libva-1.6.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libva-1.6.2'
+make[1]: Leaving directory '/sources/7.9/libva-1.6.2'

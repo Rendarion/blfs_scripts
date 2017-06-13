@@ -1,0 +1,52 @@
+Making check in iso_15924
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_15924'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_15924'
+perl ../check_valid_utf8.pl ./ko.po ./hu.po ./pt.po ./ja.po ./sl.po ./sr.po ./nn.po ./vi.po ./is.po ./ml.po ./de.po ./id.po ./sv.po ./et.po ./lv.po ./nb.po ./zh_TW.po ./ru.po ./he.po ./tr.po ./fi.po ./es.po ./gl.po ./pt_BR.po ./lt.po ./eo.po ./th.po ./it.po ./br.po ./uk.po ./ar.po ./fr.po ./ia.po ./pl.po ./nl.po ./el.po ./zh_CN.po ./zh_HK.po ./fa.po ./ro.po ./oc.po ./da.po ./cs.po ./sk.po ./ca.po ./bg.po ./sr@latin.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_15924'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_15924'
+Making check in iso_3166
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_3166'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_3166'
+perl ../check_valid_utf8.pl ./tk.po ./te.po ./de.po ./ms.po ./wa.po ./el.po ./sk.po ./ta.po ./ps.po ./sq.po ./az.po ./gu.po ./ia.po ./so.po ./sw.po ./bn_IN.po ./tt.po ./ka.po ./pa.po ./tr.po ./sl.po ./fa.po ./vi.po ./da.po ./ca.po ./mk.po ./bs.po ./si.po ./ve.po ./pt.po ./or.po ./kn.po ./zh_TW.po ./sr.po ./zu.po ./pl.po ./hy.po ./mt.po ./cy.po ./eu.po ./bn.po ./be.po ./fr.po ./eo.po ./nn.po ./wo.po ./gez.po ./it.po ./crh.po ./wal.po ./br.po ./ar.po ./tig.po ./nl.po ./ga.po ./oc.po ./zh_HK.po ./ko.po ./ug.po ./tt@iqtelif.po ./nso.po ./mi.po ./kk.po ./hu.po ./ku.po ./rw.po ./he.po ./dz.po ./ti.po ./lt.po ./is.po ./ml.po ./ru.po ./id.po ./af.po ./et.po ./ast.po ./nb.po ./ja.po ./sv.po ./km.po ./ro.po ./es.po ./mr.po ./sr@latin.po ./pt_BR.po ./lv.po ./ne.po ./hr.po ./cs.po ./fo.po ./bg.po ./xh.po ./th.po ./gl.po ./tl.po ./as.po ./hi.po ./uk.po ./haw.po ./byn.po ./mn.po ./am.po ./fi.po ./zh_CN.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_3166'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_3166'
+Making check in iso_3166_2
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_3166_2'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_3166_2'
+perl ../check_valid_utf8.pl ./ve.po ./hu.po ./ja.po ./tr.po ./ga.po ./sl.po ./sr.po ./vi.po ./da.po ./de.po ./id.po ./sv.po ./en.po ./zh_TW.po ./lt.po ./eo.po ./fi.po ./es.po ./az.po ./eu.po ./fr.po ./ko.po ./th.po ./it.po ./crh.po ./ro.po ./uk.po ./cs.po ./pl.po ./nl.po ./zh_CN.po ./oc.po ./lv.po ./nso.po ./wa.po ./el.po ./sk.po ./ca.po ./bg.po ./sr@latin.po ./bs.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_3166_2'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_3166_2'
+Making check in iso_4217
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_4217'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_4217'
+perl ../check_valid_utf8.pl ./rw.po ./ja.po ./et.po ./ga.po ./sl.po ./sr.po ./nn.po ./vi.po ./is.po ./el.po ./ca.po ./hu.po ./id.po ./sv.po ./tr.po ./lv.po ./nb.po ./ru.po ./pt.po ./fi.po ./es.po ./gl.po ./hr.po ./lt.po ./fr.po ./ko.po ./mn.po ./th.po ./it.po ./br.po ./uk.po ./pt_BR.po ./cs.po ./pl.po ./nl.po ./zh_CN.po ./zh_HK.po ./oc.po ./ro.po ./zh_TW.po ./da.po ./sk.po ./de.po ./sr@latin.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_4217'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_4217'
+Making check in iso_639
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639'
+perl ../check_valid_utf8.pl ./hu.po ./xh.po ./th.po ./bs.po ./uk.po ./gl.po ./he.po ./as.po ./gez.po ./byn.po ./bg.po ./am.po ./fi.po ./zh_CN.po ./de.po ./zh_TW.po ./wa.po ./el.po ./sk.po ./ta.po ./pa.po ./kn.po ./tt.po ./ja.po ./mt.po ./ga.po ./sl.po ./fa.po ./lv.po ./vi.po ./da.po ./ca.po ./mk.po ./pt.po ./tr.po ./or.po ./rw.po ./nb.po ./mi.po ./sr.po ./be.po ./pl.po ./hi.po ./cy.po ./bn.po ./fr.po ./eo.po ./ps.po ./it.po ./crh.po ./br.po ./ar.po ./te.po ./nl.po ./ru.po ./oc.po ./zh_HK.po ./ko.po ./mn.po ./tt@iqtelif.po ./nso.po ./ve.po ./ml.po ./ms.po ./ro.po ./nn.po ./af.po ./kok.po ./ti.po ./lt.po ./is.po ./tig.po ./id.po ./az.po ./zu.po ./et.po ./ast.po ./sv.po ./es.po ./mr.po ./sr@latin.po ./pt_BR.po ./eu.po ./hr.po ./cs.po ./gu.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639'
+Making check in iso_639_3
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639_3'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639_3'
+perl ../check_valid_utf8.pl ./et.po ./es.po ./sr@latin.po ./pt_BR.po ./eu.po ./hr.po ./cs.po ./bg.po ./mn.po ./xh.po ./th.po ./uk.po ./gl.po ./gez.po ./byn.po ./ps.po ./am.po ./fi.po ./zh_CN.po ./de.po ./wa.po ./el.po ./sk.po ./ta.po ./pa.po ./eo.po ./tt.po ./ja.po ./tr.po ./ga.po ./sl.po ./fa.po ./lv.po ./vi.po ./da.po ./ca.po ./mk.po ./bs.po ./id.po ./or.po ./rw.po ./nb.po ./mi.po ./sr.po ./mr.po ./pl.po ./hi.po ./cy.po ./bn.po ./fr.po ./kn.po ./it.po ./crh.po ./br.po ./ar.po ./zh_TW.po ./nl.po ./ru.po ./oc.po ./ko.po ./tt@iqtelif.po ./nso.po ./ve.po ./ms.po ./ro.po ./nn.po ./gu.po ./af.po ./kok.po ./he.po ./ti.po ./lt.po ./is.po ./tig.po ./az.po ./zu.po ./mt.po ./pt.po ./ast.po ./sv.po ./hu.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639_3'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639_3'
+Making check in iso_639_5
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639_5'
+make  check-local
+make[2]: Entering directory '/sources/7.9/iso-codes-3.65/iso_639_5'
+perl ../check_valid_utf8.pl ./de.po ./sr.po ./sr@latin.po ./fr.po ./uk.po ./pl.po ./nl.po
+make[2]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639_5'
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65/iso_639_5'
+make[1]: Entering directory '/sources/7.9/iso-codes-3.65'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/iso-codes-3.65'

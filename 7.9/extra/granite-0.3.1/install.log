@@ -1,0 +1,167 @@
+-- The C compiler identification is GNU 5.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Vala: /usr/bin/valac  
+-- checking for a minimum Vala version of 0.23.2
+--   found Vala, version 0.28.1
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29") 
+-- Checking for modules 'gtk+-3.0>=3.14;gio-unix-2.0;gthread-2.0;gee-0.8'
+--   Found gtk+-3.0, version 3.18.7
+--   Found gio-unix-2.0, version 2.46.2
+--   Found gthread-2.0, version 2.46.2
+--   Found gee-0.8, version 0.18.0
+-- Checking for module 'gobject-introspection-1.0'
+--   Found gobject-introspection-1.0, version 1.46.0
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /sources/7.9/granite-0.3.1/build
+[  2%] Generating style-classes.c;Application.c;Drawing/Color.c;Drawing/BufferSurface.c;Drawing/Utilities.c;GtkPatch/AboutDialog.c;Services/Settings.c;Services/Logger.c;Services/Paths.c;Services/System.c;Services/Contractor.c;Services/ContractorProxy.c;Services/IconFactory.c;Services/SimpleCommand.c;Widgets/AlertView.c;Widgets/Utils.c;Widgets/WrapLabel.c;Widgets/AboutDialog.c;Widgets/ModeButton.c;Widgets/DatePicker.c;Widgets/Entries.c;Widgets/TimePicker.c;Widgets/CollapsiblePaned.c;Widgets/StaticNotebook.c;Widgets/DynamicNotebook.c;Widgets/CompositedWindow.c;Widgets/AppMenu.c;Widgets/Welcome.c;Widgets/WelcomeButton.c;Widgets/ToolButtonWithMenu.c;Widgets/PopOver.c;Widgets/ContractorView.c;Widgets/ContractorMenu.c;Widgets/DecoratedWindow.c;Widgets/LightWindow.c;Widgets/StatusBar.c;Widgets/SidebarPaned.c;Widgets/StorageBar.c;Widgets/SourceList.c;Widgets/CellRendererExpander.c;Widgets/CellRendererBadge.c;Widgets/ThinPaned.c;Widgets/OverlayBar.c;granite.vapi;granite.h
+Compilation succeeded - 16 warning(s)
+Scanning dependencies of target granite
+[  4%] Building C object lib/CMakeFiles/granite.dir/Widgets/widgets-utils.c.o
+[  6%] Building C object lib/CMakeFiles/granite.dir/Widgets/close-button.c.o
+[  8%] Building C object lib/CMakeFiles/granite.dir/style-classes.c.o
+[ 10%] Building C object lib/CMakeFiles/granite.dir/Application.c.o
+[ 12%] Building C object lib/CMakeFiles/granite.dir/Drawing/Color.c.o
+[ 14%] Building C object lib/CMakeFiles/granite.dir/Drawing/BufferSurface.c.o
+[ 16%] Building C object lib/CMakeFiles/granite.dir/Drawing/Utilities.c.o
+[ 18%] Building C object lib/CMakeFiles/granite.dir/GtkPatch/AboutDialog.c.o
+[ 20%] Building C object lib/CMakeFiles/granite.dir/Services/Settings.c.o
+[ 22%] Building C object lib/CMakeFiles/granite.dir/Services/Logger.c.o
+[ 24%] Building C object lib/CMakeFiles/granite.dir/Services/Paths.c.o
+[ 26%] Building C object lib/CMakeFiles/granite.dir/Services/System.c.o
+[ 28%] Building C object lib/CMakeFiles/granite.dir/Services/Contractor.c.o
+[ 30%] Building C object lib/CMakeFiles/granite.dir/Services/ContractorProxy.c.o
+[ 32%] Building C object lib/CMakeFiles/granite.dir/Services/IconFactory.c.o
+[ 34%] Building C object lib/CMakeFiles/granite.dir/Services/SimpleCommand.c.o
+[ 36%] Building C object lib/CMakeFiles/granite.dir/Widgets/AlertView.c.o
+[ 38%] Building C object lib/CMakeFiles/granite.dir/Widgets/Utils.c.o
+[ 40%] Building C object lib/CMakeFiles/granite.dir/Widgets/WrapLabel.c.o
+[ 42%] Building C object lib/CMakeFiles/granite.dir/Widgets/AboutDialog.c.o
+[ 44%] Building C object lib/CMakeFiles/granite.dir/Widgets/ModeButton.c.o
+[ 46%] Building C object lib/CMakeFiles/granite.dir/Widgets/DatePicker.c.o
+[ 48%] Building C object lib/CMakeFiles/granite.dir/Widgets/Entries.c.o
+[ 50%] Building C object lib/CMakeFiles/granite.dir/Widgets/TimePicker.c.o
+[ 52%] Building C object lib/CMakeFiles/granite.dir/Widgets/CollapsiblePaned.c.o
+[ 54%] Building C object lib/CMakeFiles/granite.dir/Widgets/StaticNotebook.c.o
+[ 56%] Building C object lib/CMakeFiles/granite.dir/Widgets/DynamicNotebook.c.o
+[ 58%] Building C object lib/CMakeFiles/granite.dir/Widgets/CompositedWindow.c.o
+[ 60%] Building C object lib/CMakeFiles/granite.dir/Widgets/AppMenu.c.o
+[ 62%] Building C object lib/CMakeFiles/granite.dir/Widgets/Welcome.c.o
+[ 64%] Building C object lib/CMakeFiles/granite.dir/Widgets/WelcomeButton.c.o
+[ 66%] Building C object lib/CMakeFiles/granite.dir/Widgets/ToolButtonWithMenu.c.o
+[ 68%] Building C object lib/CMakeFiles/granite.dir/Widgets/PopOver.c.o
+[ 70%] Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorView.c.o
+[ 72%] Building C object lib/CMakeFiles/granite.dir/Widgets/ContractorMenu.c.o
+[ 74%] Building C object lib/CMakeFiles/granite.dir/Widgets/DecoratedWindow.c.o
+[ 76%] Building C object lib/CMakeFiles/granite.dir/Widgets/LightWindow.c.o
+[ 78%] Building C object lib/CMakeFiles/granite.dir/Widgets/StatusBar.c.o
+[ 80%] Building C object lib/CMakeFiles/granite.dir/Widgets/SidebarPaned.c.o
+[ 82%] Building C object lib/CMakeFiles/granite.dir/Widgets/StorageBar.c.o
+[ 84%] Building C object lib/CMakeFiles/granite.dir/Widgets/SourceList.c.o
+[ 86%] Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererExpander.c.o
+[ 88%] Building C object lib/CMakeFiles/granite.dir/Widgets/CellRendererBadge.c.o
+[ 90%] Building C object lib/CMakeFiles/granite.dir/Widgets/ThinPaned.c.o
+[ 92%] Building C object lib/CMakeFiles/granite.dir/Widgets/OverlayBar.c.o
+[ 94%] Linking C shared library libgranite.so
+g-ir-scanner: link: libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/granite-0.3.1/build/lib/tmp-introspect7dJPxP/Granite-1.0 -export-dynamic tmp-introspect7dJPxP/sources/7.9/granite-0.3.1/build/lib/tmp-introspect7dJPxP/Granite-1.0.o -L. -lgranite -L/sources/7.9/granite-0.3.1/build/lib -rpath /sources/7.9/granite-0.3.1/build/lib -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/granite-0.3.1/build/lib/tmp-introspect7dJPxP/Granite-1.0 tmp-introspect7dJPxP/sources/7.9/granite-0.3.1/build/lib/tmp-introspect7dJPxP/Granite-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. -lgranite -L/sources/7.9/granite-0.3.1/build/lib /usr/lib/libgio-2.0.so -L/usr/lib/../lib64 -lz -lresolv /usr/lib/libgobject-2.0.so /usr/lib/../lib64/libffi.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libglib-2.0.so /usr/lib/libpcre.so -lpthread -pthread -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/sources/7.9/granite-0.3.1/build/lib
+[ 94%] Built target granite
+[ 96%] Generating GraniteDemo.c
+Scanning dependencies of target granite-demo
+[ 98%] Building C object demo/CMakeFiles/granite-demo.dir/GraniteDemo.c.o
+[100%] Linking C executable granite-demo
+[100%] Built target granite-demo
+Scanning dependencies of target i18n
+[100%] Built target i18n
+[ 94%] Built target granite
+[100%] Built target granite-demo
+[100%] Built target i18n
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/lib64/pkgconfig/granite.pc
+-- Installing: /usr/share/vala/vapi/granite.vapi
+-- Installing: /usr/share/vala/vapi/granite.deps
+-- Installing: /usr/include/granite/granite.h
+-- Installing: /usr/include/granite/widgets-utils.h
+-- Installing: /usr/lib64/libgranite.so.3.0.1
+-- Installing: /usr/lib64/libgranite.so.3
+-- Installing: /usr/lib64/libgranite.so
+-- Installing: /usr/share/gir-1.0/Granite-1.0.gir
+-- Installing: /usr/lib/girepository-1.0/Granite-1.0.typelib
+-- Installing: /usr/bin/granite-demo
+-- Removed runtime path from "/usr/bin/granite-demo"
+-- Installing: /usr/share/applications/granite-demo.desktop
+-- Installing: /usr/share/locale/es/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sq/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sv/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/my/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ta/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/pl/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/rue/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/lb/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/hr/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sl/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sr/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/eu/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/en_AU/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/fa/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/uk/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/am/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/te/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ar/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/fr/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/lt/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/hy/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/da/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/lv/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/et/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/nl/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/fr_CA/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/tr/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ko/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/en_GB/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/eo/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/af/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sma/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/zh_TW/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/cs/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/nb/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ro/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/hi/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ru/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ms/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/he/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/pt/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ca/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/fy/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/sk/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/pt_BR/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ja/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/bg/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/gl/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/be/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/zh_CN/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/nn/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/de/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/it/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/fi/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/id/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/ug/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/hu/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/el/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/en_CA/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/vi/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/locale/bs/LC_MESSAGES/granite.mo
+-- Installing: /usr/share/icons/hicolor/16x16/actions/open-menu.svg
+-- Installing: /usr/share/icons/hicolor/16x16/actions/appointment.svg
+-- Installing: /usr/share/icons/hicolor/22x22/actions/open-menu.svg
+-- Installing: /usr/share/icons/hicolor/24x24/actions/open-menu.svg
+-- Installing: /usr/share/icons/hicolor/24x24/actions/appointment.svg
+-- Installing: /usr/share/icons/hicolor/32x32/actions/open-menu.svg
+-- Installing: /usr/share/icons/hicolor/48x48/actions/open-menu.svg
+-- Installing: /usr/share/icons/hicolor/scalable/actions/open-menu-symbolic.svg

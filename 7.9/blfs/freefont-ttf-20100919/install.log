@@ -1,0 +1,18 @@
+install: creating directory '/usr/share/fonts/freefont'
+'FreeMonoBoldOblique.ttf' -> '/usr/share/fonts/freefont/FreeMonoBoldOblique.ttf'
+'FreeMonoBold.ttf' -> '/usr/share/fonts/freefont/FreeMonoBold.ttf'
+'FreeMonoOblique.ttf' -> '/usr/share/fonts/freefont/FreeMonoOblique.ttf'
+'FreeMono.ttf' -> '/usr/share/fonts/freefont/FreeMono.ttf'
+'FreeSansBoldOblique.ttf' -> '/usr/share/fonts/freefont/FreeSansBoldOblique.ttf'
+'FreeSansBold.ttf' -> '/usr/share/fonts/freefont/FreeSansBold.ttf'
+'FreeSansOblique.ttf' -> '/usr/share/fonts/freefont/FreeSansOblique.ttf'
+'FreeSans.ttf' -> '/usr/share/fonts/freefont/FreeSans.ttf'
+'FreeSerifBoldItalic.ttf' -> '/usr/share/fonts/freefont/FreeSerifBoldItalic.ttf'
+'FreeSerifBold.ttf' -> '/usr/share/fonts/freefont/FreeSerifBold.ttf'
+'FreeSerifItalic.ttf' -> '/usr/share/fonts/freefont/FreeSerifItalic.ttf'
+'FreeSerif.ttf' -> '/usr/share/fonts/freefont/FreeSerif.ttf'
+/usr/share/fonts/freefont: skipping, existing cache is valid: 12 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded

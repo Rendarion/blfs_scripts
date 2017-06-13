@@ -1,0 +1,4 @@
+sed -i -r 's:"(/system):"/org/gnome\1:g' schemas/*.in &&
+
+./configure --prefix=/usr &&
+make

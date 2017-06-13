@@ -1,0 +1,11 @@
+URL=(
+"http://downloads.sourceforge.net/opencore-amr/fdk-aac-0.1.5.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

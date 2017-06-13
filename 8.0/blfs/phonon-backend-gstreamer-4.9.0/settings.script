@@ -1,0 +1,18 @@
+URL=(
+"http://download.kde.org/stable/phonon/phonon-backend-gstreamer/4.9.0/phonon-backend-gstreamer-4.9.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"gstreamer-1.10.3"
+"libxml2-2.9.4"
+"phonon-4.9.1"
+"gst-plugins-base-1.10.3"
+"gst-plugins-good-1.10.3"
+"gst-plugins-bad-1.10.3" 
+"gst-plugins-ugly-1.10.3"
+)

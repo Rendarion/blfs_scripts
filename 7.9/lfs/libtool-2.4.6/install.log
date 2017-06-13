@@ -1,0 +1,638 @@
+## ------------------------- ##
+## Configuring libtool 2.4.6 ##
+## ------------------------- ##
+
+checking for GNU M4 that supports accurate traces... /usr/bin/m4
+checking whether /usr/bin/m4 accepts --gnu... yes
+checking how m4 supports trace files... --debugfile
+checking for a BSD-compatible install... /tools/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+configure: autobuild project... GNU Libtool
+configure: autobuild revision... 2.4.6
+configure: autobuild hostname... Pikachu
+configure: autobuild mode... default
+configure: autobuild timestamp... 20160605T173846Z
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking how to run the C preprocessor... gcc -E
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... (cached) ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /tools/bin/dd
+checking how to truncate binary pipes... /tools/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking what extension is used for runtime loadable modules... .so
+checking what variable specifies run-time module search path... LD_LIBRARY_PATH
+checking for the default library search path... /lib /usr/lib /usr/local/lib /opt/lib 
+checking for library containing dlopen... -ldl
+checking for dlerror... yes
+checking for shl_load... (cached) no
+checking for shl_load in -ldld... (cached) no
+checking for dld_link in -ldld... no
+checking for _ prefix in compiled symbols... no
+checking whether deplibs are loaded by dlopen... yes
+checking for argz.h... yes
+checking for error_t... yes
+checking for argz_add... yes
+checking for argz_append... yes
+checking for argz_count... yes
+checking for argz_create_sep... yes
+checking for argz_insert... yes
+checking for argz_next... yes
+checking for argz_stringify... yes
+checking if argz actually works... yes
+checking whether libtool supports -dlopen/-dlpreopen... yes
+checking for unistd.h... (cached) yes
+checking for dl.h... no
+checking for sys/dl.h... no
+checking for dld.h... no
+checking for mach-o/dyld.h... no
+checking for dirent.h... yes
+checking for closedir... yes
+checking for opendir... yes
+checking for readdir... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking whether we are using the GNU Fortran compiler... no
+checking whether  accepts -g... no
+checking for gccgo... no
+checking for gcj... no
+checking for windres... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing tests/atconfig commands
+config.status: executing depfiles commands
+config.status: executing libtool commands
+  GEN      libtoolize
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libtool-2.4.6'
+Making all in .
+make[2]: Entering directory '/sources/7.9/libtool-2.4.6'
+  CC       libltdl/loaders/dlopen.lo
+  CC       libltdl/lt__strl.lo
+  CC       libltdl/loaders/libltdl_libltdl_la-preopen.lo
+  CC       libltdl/libltdl_libltdl_la-lt__alloc.lo
+  CC       libltdl/libltdl_libltdl_la-lt_dlloader.lo
+  CC       libltdl/libltdl_libltdl_la-lt_error.lo
+  CC       libltdl/libltdl_libltdl_la-ltdl.lo
+  CC       libltdl/libltdl_libltdl_la-slist.lo
+  CCLD     libltdl/dlopen.la
+  CCLD     libltdl/libltdl.la
+make[2]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make[1]: Leaving directory '/sources/7.9/libtool-2.4.6'
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/libtool-2.4.6'
+Making check in .
+make[2]: Entering directory '/sources/7.9/libtool-2.4.6'
+make  check-local
+make[3]: Entering directory '/sources/7.9/libtool-2.4.6'
+  CC       libltdl/loaders/libltdl_libltdlc_la-preopen.lo
+  CC       libltdl/libltdl_libltdlc_la-lt__alloc.lo
+  CC       libltdl/libltdl_libltdlc_la-lt_dlloader.lo
+  CC       libltdl/libltdl_libltdlc_la-lt_error.lo
+  CC       libltdl/libltdl_libltdlc_la-ltdl.lo
+  CC       libltdl/libltdl_libltdlc_la-slist.lo
+  CCLD     libltdl/libltdlc.la
+## ----------------------------- ##
+## GNU Libtool 2.4.6 test suite. ##
+## ----------------------------- ##
+
+Functions shared with configure and libtool.
+
+  1: func_munge_path_list works                      ok
+
+Libtoolize operation.
+
+  2: libtoolize macro installation                   ok
+  3: libtoolize macro directory mismatch error       ok
+  4: multiple AC_CONFIG_MACRO_DIRS invocation        ok
+  5: multiple AC_CONFIG_MACRO_DIRS directories       ok
+  6: libtoolize ACLOCAL_AMFLAGS extraction           ok
+  7: libtoolize macro serial update                  ok
+  8: libtoolize config files serial update           ok
+  9: diagnose missing LT_CONFIG_LTDL_DIR             ok
+ 10: copy ltdl.m4 with shared macro directory        ok
+ 11: correctly parse LTDL_INIT from configure.ac     ok
+ 12: diagnose missing LTDL_INIT invocation           ok
+ 13: upgrading verbatim style aclocal.m4             expected failure (libtoolize.at:698)
+ 14: verbatim aclocal.m4 w/o AC_CONFIG_MACRO_DIRS    expected failure (libtoolize.at:789)
+ 15: nonrecursive ltdl with AC_CONFIG_MACRO_DIRS     ok
+ 16: subproject ltdl with unconventional layout      ok
+ 17: Subproject ltdl without GNU M4                  ok
+ 18: LIBTOOLIZE_OPTIONS                              ok
+ 19: cleanup old installation                        ok
+
+Basic libtool operation.
+
+ 20: check help output                               ok
+ 21: diagnose no mode specified                      ok
+ 22: quote shell meta-characters in filenames        ok
+ 23: transform source suffices                       ok
+ 24: check link mode operation                       ok
+ 25: check objectlist file operation                 ok
+ 26: test LT_SUPPORTED_TAG interface                 skipped (libtool.at:219)
+
+Linking and loading.
+
+ 27: link against a preloaded static library         expected failure (demo.at:388)
+ 28: build and dynamically load a module             expected failure (demo.at:405)
+ 29: preload static and dynamic module               expected failure (demo.at:422)
+ 30: deplibs_check_method                            expected failure (demo.at:467)
+ 31: disable fast install                            expected failure (demo.at:482)
+ 32: force PIC objects                               expected failure (demo.at:500)
+ 33: force non-PIC objects                           skipped (demo.at:535)
+ 34: hardcoding library path                         expected failure (demo.at:611)
+ 35: binary relinking at install time                expected failure (demo.at:719)
+ 36: uninstalled libraries have priority             expected failure (demo.at:790)
+ 37: linking with long file names                    expected failure (demo.at:977)
+ 38: override pic_flag at configure time             expected failure (pic_flag.at:53)
+ 39: test --with-pic                                 expected failure (with-pic.at:32)
+
+Convenience libraries.
+
+ 40: build and link against a static library         expected failure (cdemo.at:140)
+ 41: build and link against a dynamic library        expected failure (cdemo.at:155)
+ 42: build both static and dynamic                   expected failure (cdemo.at:170)
+ 43: allow_undefined_flag                            expected failure (cdemo.at:184)
+ 44: C convenience archives                          ok
+ 45: C++ convenience archives                        ok
+ 46: F77 convenience archives                        skipped (convenience.at:110)
+ 47: FC convenience archives                         skipped (convenience.at:170)
+ 48: Java convenience archives                       skipped (convenience.at:230)
+
+Library interdependencies.
+
+ 49: static library interdependencies                expected failure (depdemo.at:290)
+ 50: shared library interdependencies                expected failure (depdemo.at:307)
+ 51: shared and static interdependencies             expected failure (depdemo.at:324)
+ 52: disable fast install                            expected failure (depdemo.at:340)
+ 53: binary relinking at install time                expected failure (depdemo.at:359)
+
+Testing libtool functions.
+
+ 54: standard command line options                   ok
+ 55: mode short-hands                                ok
+ 56: debug tracing                                   ok
+ 57: duplicate members in archive tests              ok
+ 58: duplicate convenience archive names             ok
+ 59: preserve duplicate convenience deps             expected failure (duplicate_deps.at:74)
+ 60: passing CC flags through libtool                ok
+ 61: passing CXX flags through libtool               ok
+ 62: passing F77 flags through libtool               skipped (flags.at:116)
+ 63: passing FC flags through libtool                skipped (flags.at:116)
+ 64: passing GCJ flags through libtool               skipped (flags.at:116)
+ 65: inherited_linker_flags                          ok
+ 66: Link order test                                 ok
+ 67: Link order of deplibs                           ok
+ 68: Failure tests                                   ok
+ 69: shlibpath_overrides_runpath                     ok
+ 70: Runpath in libtool library files                ok
+ 71: static linking flags for programs               ok
+ 72: ccache -all-static                              ok
+ 73: Export test                                     ok
+ 74: export from a DLL with a .def file              skipped (export-def.at:35)
+ 75: sys_lib_search_path                             ok
+ 76: sys_lib_search_path on w32                      skipped (search-path.at:85)
+ 77: indirect convenience                            ok
+ 78: indirect uninstalled                            ok
+ 79: static library contains static library          expected failure (archive-in-archive.at:56)
+ 80: both of -o prog and -o prog$EXEEXT work         skipped (exeext.at:29)
+ 81: execute mode                                    ok
+ 82: bindir basic lib test                           ok
+ 83: bindir install tests                            ok
+ 84: cwrapper for uninstalled executables            ok
+ 85: cwrapper string length                          skipped (cwrapper.at:190)
+ 86: cwrapper and installed shared libraries         ok
+ 87: deplib in subdir                                ok
+ 88: inferred tag                                    ok
+ 89: CXX inferred tag                                ok
+ 90: F77 inferred tag                                skipped (infer-tag.at:56)
+ 91: FC inferred tag                                 skipped (infer-tag.at:70)
+ 92: GCJ inferred tag                                skipped (infer-tag.at:84)
+ 93: localized compiler messages                     ok
+ 94: nocase library search                           skipped (nocase.at:33)
+ 95: Install tests                                   ok
+ 96: versioning                                      ok
+
+DESTDIR tests
+
+ 97: Simple DESTDIR install                          ok
+ 98: DESTDIR with in-package deplibs                 ok
+
+Support for older m4 interface.
+
+ 99: AM_PROG_LIBTOOL                                 expected failure (old-m4-iface.at:91)
+100: AC_WITH_LTDL                                    expected failure (old-m4-iface.at:162)
+101: AC_CONFIG_MACRO_DIR                             ok
+
+Support for older libltdl interfaces.
+
+102: Makefile.inc                                    expected failure (old-ltdl-iface.at:134)
+
+Libtool subdir-objects support.
+
+103: C subdir-objects                                expected failure (am-subdir.at:78)
+104: C++ subdir-objects                              expected failure (am-subdir.at:146)
+
+Libltdl functionality.
+
+105: lt_dlexit unloading libs                        ok
+106: lt_dlopenadvise library loading                 ok
+107: lt_dlopen error messages                        expected failure (lt_dlopen.at:101)
+108: lt_dlopen archive                               ok
+109: lt_dlopenext error messages                     ok
+110: libdir of installed modules                     ok
+111: ltdl API                                        skipped (ltdl-api.at:31)
+112: dlloader API                                    ok
+113: loadlibrary error messages                      skipped (loadlibrary.at:250)
+114: syntax of .la files                             expected failure (lalib-syntax.at:133)
+115: resident modules                                ok
+116: SList functionality                             ok
+117: enforced lib prefix                             ok
+
+Dynamic ltdl runtime loading.
+
+118: dynamically ltdl preload static modules         expected failure (mdemo.at:630)
+119: dynamically ltdl load a shared module           expected failure (mdemo.at:647)
+120: ltdl load shared and static modules             expected failure (mdemo.at:664)
+121: ltdl dryrun                                     expected failure (mdemo.at:680)
+122: link with library that loads ltdl modules       expected failure (mdemo.at:841)
+
+Standalone Libltdl.
+
+123: compiling softlinked libltdl                    FAILED (standalone.at:35)
+124: compiling copied libltdl                        FAILED (standalone.at:50)
+125: installable libltdl                             FAILED (standalone.at:67)
+126: linking libltdl without autotools               FAILED (standalone.at:85)
+
+Subproject Libltdl.
+
+127: compiling softlinked libltdl                    expected failure (subproject.at:62)
+128: compiling copied libltdl                        expected failure (subproject.at:78)
+129: installable libltdl                             expected failure (subproject.at:97)
+130: linking libltdl without autotools               FAILED (subproject.at:115)
+
+Nonrecursive Automake Libltdl.
+
+131: compiling softlinked libltdl                    expected failure (nonrecursive.at:92)
+132: compiling copied libltdl                        expected failure (nonrecursive.at:116)
+133: installable libltdl                             expected failure (nonrecursive.at:142)
+
+Recursive Automake Libltdl.
+
+134: compiling softlinked libltdl                    expected failure (recursive.at:68)
+135: compiling copied libltdl                        expected failure (recursive.at:88)
+136: installable libltdl                             expected failure (recursive.at:110)
+
+C++ language support.
+
+137: static library                                  expected failure (tagdemo.at:343)
+138: shared library                                  expected failure (tagdemo.at:358)
+139: shared and static together                      expected failure (tagdemo.at:373)
+140: allow_undefined_flag                            expected failure (tagdemo.at:388)
+
+C++ template tests.
+
+141: simple template test                            ok
+142: template test with subdirs                      ok
+
+Constructors.
+
+143: C++ static constructors                         ok
+144: C++ exception handling                          ok
+
+libtool script generation.
+
+145: config.status                                   expected failure (early-libtool.at:109)
+146: config.lt                                       expected failure (early-libtool.at:216)
+
+Libtool usage in GCC
+
+147: AC_NO_EXECUTABLES                               expected failure (no-executables.at:75)
+
+Detecting identical deplibs.
+
+148: build tree relpaths                             expected failure (deplibs-ident.at:69)
+
+configure interface to libltdl.
+
+149: installable libltdl                             expected failure (configure-iface.at:145)
+150: --with-ltdl-include/lib                         expected failure (configure-iface.at:178)
+151: --with-included-ltdl                            expected failure (configure-iface.at:283)
+152: convenience libltdl                             expected failure (configure-iface.at:321)
+
+F77 language support.
+
+153: static library                                  skipped (f77demo.at:301)
+154: shared library                                  skipped (f77demo.at:316)
+155: shared and static together                      skipped (f77demo.at:331)
+
+Fortran language support.
+
+156: static library                                  skipped (fcdemo.at:315)
+157: shared library                                  skipped (fcdemo.at:330)
+158: shared and static together                      skipped (fcdemo.at:345)
+
+Mac OS X tests
+
+159: darwin fat compile                              skipped (darwin.at:42)
+160: darwin concurrent library extraction            ok
+161: darwin gdb debug information                    skipped (darwin.at:154)
+162: darwin ld warnings changing configure results   expected failure (darwin.at:225)
+163: darwin can lt_dlopen .dylib and .so files       skipped (darwin.at:249)
+
+Windows tests.
+
+164: dumpbin -symbols section hiding                 skipped (dumpbin-symbols.at:42)
+165: deplibs without file command                    ok
+
+sysroot tests
+
+166: -L=.../lib -l                                   skipped (sysroot.at:203)
+167: -L SYSROOT/.../lib -l                           skipped (sysroot.at:204)
+168: SYSROOT/.../*.la                                skipped (sysroot.at:205)
+
+Libtool stress test.
+
+169: Link option thorough search test                ok
+170: Run tests with low max_cmd_len                  ok
+ERROR: 139 tests were run,
+64 failed (59 expected failures).
+31 tests were skipped.
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+## -------------------------- ##
+## testsuite.log was created. ##
+## -------------------------- ##
+
+Please send `tests/testsuite.log' and all information you think might help:
+
+   To: <bug-libtool@gnu.org>
+   Subject: [GNU Libtool 2.4.6] testsuite: 123 124 125 126 130 failed
+
+You may investigate any problem if you feel able to do so, in which
+case the test suite provides a good starting point.  Its output may
+be found below `tests/testsuite.dir'.
+
+make[3]: *** [check-local] Error 1
+Makefile:2459: recipe for target 'check-local' failed
+make[3]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make[2]: *** [check-am] Error 2
+Makefile:1897: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make[1]: *** [check-recursive] Error 1
+Makefile:1606: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make: *** [check] Error 2
+Makefile:1899: recipe for target 'check' failed
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/libtool-2.4.6'
+Making install in .
+make[2]: Entering directory '/sources/7.9/libtool-2.4.6'
+make[3]: Entering directory '/sources/7.9/libtool-2.4.6'
+ /tools/bin/mkdir -p '/usr/bin'
+ /tools/bin/install -c libtool '/usr/bin'
+ /tools/bin/mkdir -p '/usr/include'
+ GREP='/bin/grep' SED='/bin/sed' './build-aux/inline-source' libtoolize > '/usr/bin/libtoolize'
+ /tools/bin/install -c -m 644 libltdl/ltdl.h '/usr/include'
+ /tools/bin/mkdir -p '/usr/share/info'
+ /tools/bin/install -c -m 644 ./doc/libtool.info ./doc/libtool.info-1 ./doc/libtool.info-2 '/usr/share/info'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/libtool.info'
+ /tools/bin/mkdir -p '/usr/include/libltdl'
+ /tools/bin/install -c -m 644 libltdl/libltdl/lt_system.h libltdl/libltdl/lt_error.h libltdl/libltdl/lt_dlloader.h '/usr/include/libltdl'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 ./doc/libtool.1 ./doc/libtoolize.1 '/usr/share/man/man1'
+ /tools/bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /tools/bin/install -c   libltdl/libltdl.la '/usr/lib'
+libtool: install: /tools/bin/install -c libltdl/.libs/libltdl.so.7.3.1 /usr/lib/libltdl.so.7.3.1
+libtool: install: (cd /usr/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so.7 || { rm -f libltdl.so.7 && ln -s libltdl.so.7.3.1 libltdl.so.7; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so || { rm -f libltdl.so && ln -s libltdl.so.7.3.1 libltdl.so; }; })
+libtool: install: /tools/bin/install -c libltdl/.libs/libltdl.lai /usr/lib/libltdl.la
+libtool: install: /tools/bin/install -c libltdl/.libs/libltdl.a /usr/lib/libltdl.a
+libtool: install: chmod 644 /usr/lib/libltdl.a
+libtool: install: ranlib /usr/lib/libltdl.a
+rm -rf '/usr/share/libtool'/*
+ /tools/bin/install -c -m 644 './m4/libtool.m4' '/usr/share/aclocal/libtool.m4'
+ /tools/bin/install -c -m 644 './m4/ltargz.m4' '/usr/share/aclocal/ltargz.m4'
+ /tools/bin/install -c -m 644 './m4/ltdl.m4' '/usr/share/aclocal/ltdl.m4'
+ /tools/bin/install -c -m 644 './m4/ltoptions.m4' '/usr/share/aclocal/ltoptions.m4'
+ /tools/bin/install -c -m 644 './m4/ltsugar.m4' '/usr/share/aclocal/ltsugar.m4'
+ /tools/bin/install -c -m 644 './m4/ltversion.m4' '/usr/share/aclocal/ltversion.m4'
+ /tools/bin/install -c -m 644 './m4/lt~obsolete.m4' '/usr/share/aclocal/lt~obsolete.m4'
+ /tools/bin/install -c './build-aux/compile' '/usr/share/libtool/build-aux/compile'
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+ /tools/bin/install -c './build-aux/config.guess' '/usr/share/libtool/build-aux/config.guess'
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/install -c './build-aux/config.sub' '/usr/share/libtool/build-aux/config.sub'
+ /tools/bin/install -c './build-aux/depcomp' '/usr/share/libtool/build-aux/depcomp'
+ /tools/bin/install -c './build-aux/install-sh' '/usr/share/libtool/build-aux/install-sh'
+ /tools/bin/install -c './build-aux/missing' '/usr/share/libtool/build-aux/missing'
+ /tools/bin/install -c -m 644 './build-aux/ltmain.sh' '/usr/share/libtool/build-aux/ltmain.sh'
+ /tools/bin/install -c -m 644 './libltdl/COPYING.LIB' '/usr/share/libtool/COPYING.LIB'
+ /tools/bin/install -c -m 644 './libltdl/Makefile.am' '/usr/share/libtool/Makefile.am'
+ /tools/bin/install -c -m 644 './libltdl/README' '/usr/share/libtool/README'
+ /tools/bin/install -c -m 644 './libltdl/configure.ac' '/usr/share/libtool/configure.ac'
+ /tools/bin/install -c -m 644 './libltdl/aclocal.m4' '/usr/share/libtool/aclocal.m4'
+ /tools/bin/install -c -m 644 './libltdl/Makefile.in' '/usr/share/libtool/Makefile.in'
+ /tools/bin/install -c -m 644 './libltdl/config-h.in' '/usr/share/libtool/config-h.in'
+ /tools/bin/install -c -m 644 './libltdl/configure' '/usr/share/libtool/configure'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__alloc.h' '/usr/share/libtool/libltdl/lt__alloc.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__argz_.h' '/usr/share/libtool/libltdl/lt__argz_.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__dirent.h' '/usr/share/libtool/libltdl/lt__dirent.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__glibc.h' '/usr/share/libtool/libltdl/lt__glibc.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__private.h' '/usr/share/libtool/libltdl/lt__private.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt__strl.h' '/usr/share/libtool/libltdl/lt__strl.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt_dlloader.h' '/usr/share/libtool/libltdl/lt_dlloader.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt_error.h' '/usr/share/libtool/libltdl/lt_error.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/lt_system.h' '/usr/share/libtool/libltdl/lt_system.h'
+ /tools/bin/install -c -m 644 './libltdl/libltdl/slist.h' '/usr/share/libtool/libltdl/slist.h'
+ /tools/bin/install -c -m 644 './libltdl/loaders/dld_link.c' '/usr/share/libtool/loaders/dld_link.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/dlopen.c' '/usr/share/libtool/loaders/dlopen.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/dyld.c' '/usr/share/libtool/loaders/dyld.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/load_add_on.c' '/usr/share/libtool/loaders/load_add_on.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/loadlibrary.c' '/usr/share/libtool/loaders/loadlibrary.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/preopen.c' '/usr/share/libtool/loaders/preopen.c'
+ /tools/bin/install -c -m 644 './libltdl/loaders/shl_load.c' '/usr/share/libtool/loaders/shl_load.c'
+ /tools/bin/install -c -m 644 './libltdl/lt__alloc.c' '/usr/share/libtool/lt__alloc.c'
+ /tools/bin/install -c -m 644 './libltdl/lt__argz.c' '/usr/share/libtool/lt__argz.c'
+ /tools/bin/install -c -m 644 './libltdl/lt__dirent.c' '/usr/share/libtool/lt__dirent.c'
+ /tools/bin/install -c -m 644 './libltdl/lt__strl.c' '/usr/share/libtool/lt__strl.c'
+ /tools/bin/install -c -m 644 './libltdl/lt_dlloader.c' '/usr/share/libtool/lt_dlloader.c'
+ /tools/bin/install -c -m 644 './libltdl/lt_error.c' '/usr/share/libtool/lt_error.c'
+ /tools/bin/install -c -m 644 './libltdl/ltdl.c' '/usr/share/libtool/ltdl.c'
+ /tools/bin/install -c -m 644 './libltdl/ltdl.h' '/usr/share/libtool/ltdl.h'
+ /tools/bin/install -c -m 644 './libltdl/ltdl.mk' '/usr/share/libtool/ltdl.mk'
+ /tools/bin/install -c -m 644 './libltdl/slist.c' '/usr/share/libtool/slist.c'
+chmod a+x '/usr/share/libtool/configure'
+make[3]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make[2]: Leaving directory '/sources/7.9/libtool-2.4.6'
+make[1]: Leaving directory '/sources/7.9/libtool-2.4.6'

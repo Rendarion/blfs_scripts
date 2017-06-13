@@ -1,0 +1,1203 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /tools/bin/grep
+checking for egrep... /tools/bin/grep -E
+checking for fgrep... /tools/bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /tools/bin/dd
+checking how to truncate binary pipes... /tools/bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for a BSD-compatible install... /tools/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking dependency style of gcc... gcc3
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for bison... bison -y
+checking for flex... no
+checking for lex... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking dependency style of g++... gcc3
+checking whether ln -s works... yes
+checking for gawk... (cached) gawk
+checking for bison... /usr/bin/bison
+checking for help2man... help2man
+checking for m4 that supports -P... /usr/bin/m4
+checking for indent... indent
+configure: WARNING: no indent program found: make indent target will not function
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for log10 in -lm... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for dup2... yes
+checking for isascii... yes
+checking for memset... yes
+checking for pow... yes
+checking for regcomp... yes
+checking for setlocale... yes
+checking for strchr... yes
+checking for strtol... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/fastwc/Makefile
+config.status: creating examples/manual/Makefile
+config.status: creating lib/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating tools/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/config.h
+config.status: executing libtool commands
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+Making all in lib
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/lib'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT lib.lo -MD -MP -MF .deps/lib.Tpo -c -o lib.lo lib.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -g -O2 -MT lib.lo -MD -MP -MF .deps/lib.Tpo -c lib.c  -fPIC -DPIC -o .libs/lib.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -g -O2 -MT lib.lo -MD -MP -MF .deps/lib.Tpo -c lib.c -o lib.o >/dev/null 2>&1
+mv -f .deps/lib.Tpo .deps/lib.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o libcompat.la  lib.lo  -lm 
+libtool: link: ar cru .libs/libcompat.a .libs/lib.o 
+libtool: link: ranlib .libs/libcompat.a
+libtool: link: ( cd ".libs" && rm -f "libcompat.la" && ln -s "../libcompat.la" "libcompat.la" )
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/lib'
+Making all in src
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/src'
+make  all-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c -o libmain.lo libmain.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c -o libyywrap.lo libyywrap.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/usr/share/locale\" -I../intl -g -O2 -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c libmain.c  -fPIC -DPIC -o .libs/libmain.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/usr/share/locale\" -I../intl -g -O2 -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c libyywrap.c  -fPIC -DPIC -o .libs/libyywrap.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/usr/share/locale\" -I../intl -g -O2 -MT libyywrap.lo -MD -MP -MF .deps/libyywrap.Tpo -c libyywrap.c -o libyywrap.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DLOCALEDIR=\"/usr/share/locale\" -I../intl -g -O2 -MT libmain.lo -MD -MP -MF .deps/libmain.Tpo -c libmain.c -o libmain.o >/dev/null 2>&1
+mv -f .deps/libmain.Tpo .deps/libmain.Plo
+mv -f .deps/libyywrap.Tpo .deps/libyywrap.Plo
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT ccl.o -MD -MP -MF .deps/ccl.Tpo -c -o ccl.o ccl.c
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT dfa.o -MD -MP -MF .deps/dfa.Tpo -c -o dfa.o dfa.c
+mv -f .deps/ccl.Tpo .deps/ccl.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT ecs.o -MD -MP -MF .deps/ecs.Tpo -c -o ecs.o ecs.c
+mv -f .deps/ecs.Tpo .deps/ecs.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT scanflags.o -MD -MP -MF .deps/scanflags.Tpo -c -o scanflags.o scanflags.c
+mv -f .deps/scanflags.Tpo .deps/scanflags.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT gen.o -MD -MP -MF .deps/gen.Tpo -c -o gen.o gen.c
+mv -f .deps/dfa.Tpo .deps/dfa.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.c
+mv -f .deps/main.Tpo .deps/main.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT misc.o -MD -MP -MF .deps/misc.Tpo -c -o misc.o misc.c
+mv -f .deps/gen.Tpo .deps/gen.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT nfa.o -MD -MP -MF .deps/nfa.Tpo -c -o nfa.o nfa.c
+mv -f .deps/misc.Tpo .deps/misc.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT parse.o -MD -MP -MF .deps/parse.Tpo -c -o parse.o parse.c
+mv -f .deps/nfa.Tpo .deps/nfa.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT scan.o -MD -MP -MF .deps/scan.Tpo -c -o scan.o scan.c
+mv -f .deps/parse.Tpo .deps/parse.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT skel.o -MD -MP -MF .deps/skel.Tpo -c -o skel.o skel.c
+mv -f .deps/skel.Tpo .deps/skel.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT sym.o -MD -MP -MF .deps/sym.Tpo -c -o sym.o sym.c
+mv -f .deps/sym.Tpo .deps/sym.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT tblcmp.o -MD -MP -MF .deps/tblcmp.Tpo -c -o tblcmp.o tblcmp.c
+mv -f .deps/tblcmp.Tpo .deps/tblcmp.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT yylex.o -MD -MP -MF .deps/yylex.Tpo -c -o yylex.o yylex.c
+mv -f .deps/yylex.Tpo .deps/yylex.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT options.o -MD -MP -MF .deps/options.Tpo -c -o options.o options.c
+mv -f .deps/options.Tpo .deps/options.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT scanopt.o -MD -MP -MF .deps/scanopt.Tpo -c -o scanopt.o scanopt.c
+mv -f .deps/scan.Tpo .deps/scan.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT buf.o -MD -MP -MF .deps/buf.Tpo -c -o buf.o buf.c
+mv -f .deps/scanopt.Tpo .deps/scanopt.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT tables.o -MD -MP -MF .deps/tables.Tpo -c -o tables.o tables.c
+mv -f .deps/buf.Tpo .deps/buf.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT tables_shared.o -MD -MP -MF .deps/tables_shared.Tpo -c -o tables_shared.o tables_shared.c
+mv -f .deps/tables.Tpo .deps/tables.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT filter.o -MD -MP -MF .deps/filter.Tpo -c -o filter.o filter.c
+mv -f .deps/tables_shared.Tpo .deps/tables_shared.Po
+gcc -DHAVE_CONFIG_H -I.  -DLOCALEDIR=\"/usr/share/locale\" -I../intl   -g -O2 -MT regex.o -MD -MP -MF .deps/regex.Tpo -c -o regex.o regex.c
+mv -f .deps/regex.Tpo .deps/regex.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -version-info 2:0:0  -o libfl.la -rpath /usr/lib libmain.lo libyywrap.lo  -lm 
+mv -f .deps/filter.Tpo .deps/filter.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -version-info 2:0:0  -o libfl_pic.la -rpath /usr/lib libmain.lo libyywrap.lo  -lm 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libmain.o .libs/libyywrap.o   -lm  -g -O2   -Wl,-soname -Wl,libfl.so.2 -o .libs/libfl.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libfl.so.2" && ln -s "libfl.so.2.0.0" "libfl.so.2")
+libtool: link: (cd ".libs" && rm -f "libfl.so" && ln -s "libfl.so.2.0.0" "libfl.so")
+libtool: link: ar cru .libs/libfl.a  libmain.o libyywrap.o
+libtool: link: ranlib .libs/libfl.a
+libtool: link: ( cd ".libs" && rm -f "libfl.la" && ln -s "../libfl.la" "libfl.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o flex ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o ../lib/libcompat.la -lm 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/libmain.o .libs/libyywrap.o   -lm  -g -O2   -Wl,-soname -Wl,libfl_pic.so.2 -o .libs/libfl_pic.so.2.0.0
+libtool: link: (cd ".libs" && rm -f "libfl_pic.so.2" && ln -s "libfl_pic.so.2.0.0" "libfl_pic.so.2")
+libtool: link: (cd ".libs" && rm -f "libfl_pic.so" && ln -s "libfl_pic.so.2.0.0" "libfl_pic.so")
+libtool: link: ar cru .libs/libfl_pic.a  libmain.o libyywrap.o
+libtool: link: ranlib .libs/libfl_pic.a
+libtool: link: ( cd ".libs" && rm -f "libfl_pic.la" && ln -s "../libfl_pic.la" "libfl_pic.la" )
+libtool: link: gcc -g -O2 -o flex ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o  ../lib/.libs/libcompat.a -lm
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+Making all in doc
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/doc'
+Making all in examples
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+Making all in manual
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/manual'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/manual'
+Making all in fastwc
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+Making all in po
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/po'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/po'
+Making all in tests
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+/bin/sh ../build-aux/ylwrap bison_nr_parser.y y.tab.c bison_nr_parser.c y.tab.h `echo bison_nr_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_nr_parser.output -- bison -y -d -p test 
+../src/flex -o bison_nr_scanner.c bison_nr_scanner.l
+/bin/sh ../build-aux/ylwrap bison_yylloc_parser.y y.tab.c bison_yylloc_parser.c y.tab.h `echo bison_yylloc_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_yylloc_parser.output -- bison -y -d -p test 
+/sources/7.9/flex-2.6.0/tests/bison_nr_parser.y:57.1-12: warning: deprecated directive, use '%pure-parser' [-Wdeprecated]
+ %pure_parser
+ ^^^^^^^^^^^^
+updating bison_nr_parser.h
+../src/flex -o bison_yylloc_scanner.c bison_yylloc_scanner.l
+updating bison_yylloc_parser.h
+/bin/sh ../build-aux/ylwrap bison_yylval_parser.y y.tab.c bison_yylval_parser.c y.tab.h `echo bison_yylval_parser.c | sed -e s/cc$/hh/ -e s/cpp$/hpp/ -e s/cxx$/hxx/ -e s/c++$/h++/ -e s/c$/h/` y.output bison_yylval_parser.output -- bison -y -d -p test 
+../src/flex -o bison_yylval_scanner.c bison_yylval_scanner.l
+../src/flex -o header_nr_scanner.c header_nr_scanner.l
+../src/flex -o header_r_scanner.c header_r_scanner.l
+../src/flex -o multiple_scanners_nr_1.c multiple_scanners_nr_1.l
+../src/flex -o multiple_scanners_nr_2.c multiple_scanners_nr_2.l
+../src/flex -o multiple_scanners_r_1.c multiple_scanners_r_1.l
+updating bison_yylval_parser.h
+../src/flex -o multiple_scanners_r_2.c multiple_scanners_r_2.l
+../src/flex -o top.c top.l
+make  all-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+Making all in tools
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Entering directory '/sources/7.9/flex-2.6.0'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0'
+Making check in lib
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/lib'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/lib'
+Making check in src
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/src'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/doc'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+Making check in manual
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/manual'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/manual'
+Making check in fastwc
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+Making check in po
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/po'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make  alloc_extra array_nr array_r basic_nr basic_r bison_nr bison_yylloc bison_yylval c_cxx_nr c_cxx_r ccl cxx_basic cxx_multiple_scanners debug_nr debug_r extended header_nr header_r mem_nr mem_r multiple_scanners_nr multiple_scanners_r noansi_nr noansi_r posix posixly_correct prefix_nr prefix_r quotes string_nr string_r top yyextra reject_nr.reject reject_r.reject reject_ver.table reject_ser.table include_by_buffer.direct include_by_push.direct include_by_reentrant.direct rescan_nr.direct rescan_r.direct cxx_yywrap.i3 pthread.pthread lineno_nr.one lineno_r.one lineno_trailing.one tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ce.opt tableopts_opt_nr-Cf.opt tableopts_opt_nr-CF.opt tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cae.opt tableopts_opt_nr-Caef.opt tableopts_opt_nr-CaeF.opt tableopts_opt_nr-Cam.opt tableopts_opt_nr-Caem.opt tableopts_opt_r-Ca.opt tableopts_opt_r-Ce.opt tableopts_opt_r-Cf.opt tableopts_opt_r-CF.opt tableopts_opt_r-Cm.opt tableopts_opt_r-Cem.opt tableopts_opt_r-Cae.opt tableopts_opt_r-Caef.opt tableopts_opt_r-CaeF.opt tableopts_opt_r-Cam.opt tableopts_opt_r-Caem.opt tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ce.ser tableopts_ser_nr-Cf.ser tableopts_ser_nr-CF.ser tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cae.ser tableopts_ser_nr-Caef.ser tableopts_ser_nr-CaeF.ser tableopts_ser_nr-Cam.ser tableopts_ser_nr-Caem.ser tableopts_ser_r-Ca.ser tableopts_ser_r-Ce.ser tableopts_ser_r-Cf.ser tableopts_ser_r-CF.ser tableopts_ser_r-Cm.ser tableopts_ser_r-Cem.ser tableopts_ser_r-Cae.ser tableopts_ser_r-Caef.ser tableopts_ser_r-CaeF.ser tableopts_ser_r-Cam.ser tableopts_ser_r-Caem.ser tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ce.ver tableopts_ver_nr-Cf.ver tableopts_ver_nr-CF.ver tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cae.ver tableopts_ver_nr-Caef.ver tableopts_ver_nr-CaeF.ver tableopts_ver_nr-Cam.ver tableopts_ver_nr-Caem.ver tableopts_ver_r-Ca.ver tableopts_ver_r-Ce.ver tableopts_ver_r-Cf.ver tableopts_ver_r-CF.ver tableopts_ver_r-Cm.ver tableopts_ver_r-Cem.ver tableopts_ver_r-Cae.ver tableopts_ver_r-Caef.ver tableopts_ver_r-CaeF.ver tableopts_ver_r-Cam.ver tableopts_ver_r-Caem.ver \
+  options.cn testwrapper.sh
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+../src/flex -o alloc_extra.c alloc_extra.l
+../src/flex -o array_nr.c array_nr.l
+../src/flex -o array_r.c array_r.l
+../src/flex -o basic_nr.c basic_nr.l
+../src/flex -o basic_r.c basic_r.l
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_nr_scanner.o -MD -MP -MF .deps/bison_nr_scanner.Tpo -c -o bison_nr_scanner.o bison_nr_scanner.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_nr_parser.o -MD -MP -MF .deps/bison_nr_parser.Tpo -c -o bison_nr_parser.o bison_nr_parser.c
+mv -f .deps/bison_nr_parser.Tpo .deps/bison_nr_parser.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_nr_main.o -MD -MP -MF .deps/bison_nr_main.Tpo -c -o bison_nr_main.o bison_nr_main.c
+mv -f .deps/bison_nr_main.Tpo .deps/bison_nr_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylloc_scanner.o -MD -MP -MF .deps/bison_yylloc_scanner.Tpo -c -o bison_yylloc_scanner.o bison_yylloc_scanner.c
+mv -f .deps/bison_nr_scanner.Tpo .deps/bison_nr_scanner.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylloc_parser.o -MD -MP -MF .deps/bison_yylloc_parser.Tpo -c -o bison_yylloc_parser.o bison_yylloc_parser.c
+mv -f .deps/bison_yylloc_parser.Tpo .deps/bison_yylloc_parser.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylloc_main.o -MD -MP -MF .deps/bison_yylloc_main.Tpo -c -o bison_yylloc_main.o bison_yylloc_main.c
+mv -f .deps/bison_yylloc_main.Tpo .deps/bison_yylloc_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylval_scanner.o -MD -MP -MF .deps/bison_yylval_scanner.Tpo -c -o bison_yylval_scanner.o bison_yylval_scanner.c
+mv -f .deps/bison_yylloc_scanner.Tpo .deps/bison_yylloc_scanner.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylval_parser.o -MD -MP -MF .deps/bison_yylval_parser.Tpo -c -o bison_yylval_parser.o bison_yylval_parser.c
+mv -f .deps/bison_yylval_parser.Tpo .deps/bison_yylval_parser.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT bison_yylval_main.o -MD -MP -MF .deps/bison_yylval_main.Tpo -c -o bison_yylval_main.o bison_yylval_main.c
+mv -f .deps/bison_yylval_main.Tpo .deps/bison_yylval_main.Po
+../src/flex -o c_cxx_nr.cc c_cxx_nr.lll
+../src/flex -o c_cxx_r.cc c_cxx_r.lll
+../src/flex -o ccl.c ccl.l
+../src/flex -+ -o cxx_basic.cc cxx_basic.ll
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT cxx_multiple_scanners_main.o -MD -MP -MF .deps/cxx_multiple_scanners_main.Tpo -c -o cxx_multiple_scanners_main.o cxx_multiple_scanners_main.cc
+mv -f .deps/bison_yylval_scanner.Tpo .deps/bison_yylval_scanner.Po
+../src/flex -+ -o cxx_multiple_scanners_1.cc cxx_multiple_scanners_1.ll
+../src/flex -+ -o cxx_multiple_scanners_2.cc cxx_multiple_scanners_2.ll
+../src/flex -o debug_nr.c debug_nr.l
+../src/flex -o debug_r.c debug_r.l
+../src/flex -o extended.c extended.l
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT header_nr_scanner.o -MD -MP -MF .deps/header_nr_scanner.Tpo -c -o header_nr_scanner.o header_nr_scanner.c
+mv -f .deps/cxx_multiple_scanners_main.Tpo .deps/cxx_multiple_scanners_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT header_nr_main.o -MD -MP -MF .deps/header_nr_main.Tpo -c -o header_nr_main.o header_nr_main.c
+mv -f .deps/header_nr_main.Tpo .deps/header_nr_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT header_r_scanner.o -MD -MP -MF .deps/header_r_scanner.Tpo -c -o header_r_scanner.o header_r_scanner.c
+mv -f .deps/header_nr_scanner.Tpo .deps/header_nr_scanner.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT header_r_main.o -MD -MP -MF .deps/header_r_main.Tpo -c -o header_r_main.o header_r_main.c
+mv -f .deps/header_r_main.Tpo .deps/header_r_main.Po
+../src/flex -o mem_nr.c mem_nr.l
+../src/flex -o mem_r.c mem_r.l
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_nr_main.o -MD -MP -MF .deps/multiple_scanners_nr_main.Tpo -c -o multiple_scanners_nr_main.o multiple_scanners_nr_main.c
+mv -f .deps/multiple_scanners_nr_main.Tpo .deps/multiple_scanners_nr_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_nr_1.o -MD -MP -MF .deps/multiple_scanners_nr_1.Tpo -c -o multiple_scanners_nr_1.o multiple_scanners_nr_1.c
+mv -f .deps/header_r_scanner.Tpo .deps/header_r_scanner.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_nr_2.o -MD -MP -MF .deps/multiple_scanners_nr_2.Tpo -c -o multiple_scanners_nr_2.o multiple_scanners_nr_2.c
+mv -f .deps/multiple_scanners_nr_1.Tpo .deps/multiple_scanners_nr_1.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_r_main.o -MD -MP -MF .deps/multiple_scanners_r_main.Tpo -c -o multiple_scanners_r_main.o multiple_scanners_r_main.c
+mv -f .deps/multiple_scanners_r_main.Tpo .deps/multiple_scanners_r_main.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_r_1.o -MD -MP -MF .deps/multiple_scanners_r_1.Tpo -c -o multiple_scanners_r_1.o multiple_scanners_r_1.c
+mv -f .deps/multiple_scanners_nr_2.Tpo .deps/multiple_scanners_nr_2.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT multiple_scanners_r_2.o -MD -MP -MF .deps/multiple_scanners_r_2.Tpo -c -o multiple_scanners_r_2.o multiple_scanners_r_2.c
+mv -f .deps/multiple_scanners_r_1.Tpo .deps/multiple_scanners_r_1.Po
+../src/flex -o noansi_nr.c noansi_nr.l
+../src/flex -o noansi_r.c noansi_r.l
+../src/flex -o posix.c posix.l
+mv -f .deps/multiple_scanners_r_2.Tpo .deps/multiple_scanners_r_2.Po
+POSIXLY_CORRECT=1 ../src/flex -o posixly_correct.c posixly_correct.l
+../src/flex -o prefix_nr.c prefix_nr.l
+../src/flex -o prefix_r.c prefix_r.l
+../src/flex -o quotes.c quotes.l
+../src/flex -o string_nr.c string_nr.l
+../src/flex -o string_r.c string_r.l
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT top.o -MD -MP -MF .deps/top.Tpo -c -o top.o top.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT top_main.o -MD -MP -MF .deps/top_main.Tpo -c -o top_main.o top_main.c
+mv -f .deps/top_main.Tpo .deps/top_main.Po
+../src/flex -o yyextra.c yyextra.l
+../src/flex -o reject_nr.reject.c reject.l4
+../src/flex --reentrant -o reject_r.reject.c reject.l4
+../src/flex -o reject_ver.table.c --tables-verify --tables-file=reject_ver.table.tables reject.l4
+../src/flex -o reject_ser.table.c --tables-file=reject_ser.table.tables reject.l4
+../src/flex -o include_by_buffer.direct.c include_by_buffer.direct.l
+../src/flex -o include_by_push.direct.c include_by_push.direct.l
+../src/flex -o include_by_reentrant.direct.c include_by_reentrant.direct.l
+../src/flex -o rescan_nr.direct.c rescan_nr.direct.l
+../src/flex -o rescan_r.direct.c rescan_r.direct.l
+../src/flex -+ -o cxx_yywrap.cc cxx_yywrap.ll
+../src/flex -o pthread.c pthread.l
+../src/flex -o lineno_nr.c lineno_nr.l
+../src/flex -o lineno_r.c lineno_r.l
+../src/flex -o lineno_trailing.c lineno_trailing.l
+../src/flex -P _Ca -Ca -o tableopts_opt_nr-Ca.c tableopts.l4
+../src/flex -P _Ce -Ce -o tableopts_opt_nr-Ce.c tableopts.l4
+../src/flex -P _Cf -Cf -o tableopts_opt_nr-Cf.c tableopts.l4
+../src/flex -P _CF -CF -o tableopts_opt_nr-CF.c tableopts.l4
+../src/flex -P _Cm -Cm -o tableopts_opt_nr-Cm.c tableopts.l4
+../src/flex -P _Cem -Cem -o tableopts_opt_nr-Cem.c tableopts.l4
+../src/flex -P _Cae -Cae -o tableopts_opt_nr-Cae.c tableopts.l4
+../src/flex -P _Caef -Caef -o tableopts_opt_nr-Caef.c tableopts.l4
+../src/flex -P _CaeF -CaeF -o tableopts_opt_nr-CaeF.c tableopts.l4
+../src/flex -P _Cam -Cam -o tableopts_opt_nr-Cam.c tableopts.l4
+../src/flex -P _Caem -Caem -o tableopts_opt_nr-Caem.c tableopts.l4
+../src/flex -P _Ca --reentrant -Ca  -o tableopts_opt_r-Ca.c tableopts.l4
+../src/flex -P _Ce --reentrant -Ce  -o tableopts_opt_r-Ce.c tableopts.l4
+mv -f .deps/top.Tpo .deps/top.Po
+../src/flex -P _Cf --reentrant -Cf  -o tableopts_opt_r-Cf.c tableopts.l4
+../src/flex -P _CF --reentrant -CF  -o tableopts_opt_r-CF.c tableopts.l4
+../src/flex -P _Cm --reentrant -Cm  -o tableopts_opt_r-Cm.c tableopts.l4
+../src/flex -P _Cem --reentrant -Cem  -o tableopts_opt_r-Cem.c tableopts.l4
+../src/flex -P _Cae --reentrant -Cae  -o tableopts_opt_r-Cae.c tableopts.l4
+../src/flex -P _Caef --reentrant -Caef  -o tableopts_opt_r-Caef.c tableopts.l4
+../src/flex -P _CaeF --reentrant -CaeF  -o tableopts_opt_r-CaeF.c tableopts.l4
+../src/flex -P _Cam --reentrant -Cam  -o tableopts_opt_r-Cam.c tableopts.l4
+../src/flex -P _Caem --reentrant -Caem  -o tableopts_opt_r-Caem.c tableopts.l4
+../src/flex -P _Ca --tables-file="tableopts_ser_nr-Ca.ser.tables"  -Ca -o tableopts_ser_nr-Ca.c tableopts.l4
+../src/flex -P _Ce --tables-file="tableopts_ser_nr-Ce.ser.tables"  -Ce -o tableopts_ser_nr-Ce.c tableopts.l4
+../src/flex -P _Cf --tables-file="tableopts_ser_nr-Cf.ser.tables"  -Cf -o tableopts_ser_nr-Cf.c tableopts.l4
+../src/flex -P _CF --tables-file="tableopts_ser_nr-CF.ser.tables"  -CF -o tableopts_ser_nr-CF.c tableopts.l4
+../src/flex -P _Cm --tables-file="tableopts_ser_nr-Cm.ser.tables"  -Cm -o tableopts_ser_nr-Cm.c tableopts.l4
+../src/flex -P _Cem --tables-file="tableopts_ser_nr-Cem.ser.tables"  -Cem -o tableopts_ser_nr-Cem.c tableopts.l4
+../src/flex -P _Cae --tables-file="tableopts_ser_nr-Cae.ser.tables"  -Cae -o tableopts_ser_nr-Cae.c tableopts.l4
+../src/flex -P _Caef --tables-file="tableopts_ser_nr-Caef.ser.tables"  -Caef -o tableopts_ser_nr-Caef.c tableopts.l4
+../src/flex -P _CaeF --tables-file="tableopts_ser_nr-CaeF.ser.tables"  -CaeF -o tableopts_ser_nr-CaeF.c tableopts.l4
+../src/flex -P _Cam --tables-file="tableopts_ser_nr-Cam.ser.tables"  -Cam -o tableopts_ser_nr-Cam.c tableopts.l4
+../src/flex -P _Caem --tables-file="tableopts_ser_nr-Caem.ser.tables"  -Caem -o tableopts_ser_nr-Caem.c tableopts.l4
+../src/flex -P _Ca -R --tables-file="tableopts_ser_r-Ca.ser.tables" -Ca  -o tableopts_ser_r-Ca.c tableopts.l4
+../src/flex -P _Ce -R --tables-file="tableopts_ser_r-Ce.ser.tables" -Ce  -o tableopts_ser_r-Ce.c tableopts.l4
+../src/flex -P _Cf -R --tables-file="tableopts_ser_r-Cf.ser.tables" -Cf  -o tableopts_ser_r-Cf.c tableopts.l4
+../src/flex -P _CF -R --tables-file="tableopts_ser_r-CF.ser.tables" -CF  -o tableopts_ser_r-CF.c tableopts.l4
+../src/flex -P _Cm -R --tables-file="tableopts_ser_r-Cm.ser.tables" -Cm  -o tableopts_ser_r-Cm.c tableopts.l4
+../src/flex -P _Cem -R --tables-file="tableopts_ser_r-Cem.ser.tables" -Cem  -o tableopts_ser_r-Cem.c tableopts.l4
+../src/flex -P _Cae -R --tables-file="tableopts_ser_r-Cae.ser.tables" -Cae  -o tableopts_ser_r-Cae.c tableopts.l4
+../src/flex -P _Caef -R --tables-file="tableopts_ser_r-Caef.ser.tables" -Caef  -o tableopts_ser_r-Caef.c tableopts.l4
+../src/flex -P _CaeF -R --tables-file="tableopts_ser_r-CaeF.ser.tables" -CaeF  -o tableopts_ser_r-CaeF.c tableopts.l4
+../src/flex -P _Cam -R --tables-file="tableopts_ser_r-Cam.ser.tables" -Cam  -o tableopts_ser_r-Cam.c tableopts.l4
+../src/flex -P _Caem -R --tables-file="tableopts_ser_r-Caem.ser.tables" -Caem  -o tableopts_ser_r-Caem.c tableopts.l4
+../src/flex -P _Ca --tables-file="tableopts_ver_nr-Ca.ver.tables" --tables-verify -Ca -o tableopts_ver_nr-Ca.c tableopts.l4
+../src/flex -P _Ce --tables-file="tableopts_ver_nr-Ce.ver.tables" --tables-verify -Ce -o tableopts_ver_nr-Ce.c tableopts.l4
+../src/flex -P _Cf --tables-file="tableopts_ver_nr-Cf.ver.tables" --tables-verify -Cf -o tableopts_ver_nr-Cf.c tableopts.l4
+../src/flex -P _CF --tables-file="tableopts_ver_nr-CF.ver.tables" --tables-verify -CF -o tableopts_ver_nr-CF.c tableopts.l4
+../src/flex -P _Cm --tables-file="tableopts_ver_nr-Cm.ver.tables" --tables-verify -Cm -o tableopts_ver_nr-Cm.c tableopts.l4
+../src/flex -P _Cem --tables-file="tableopts_ver_nr-Cem.ver.tables" --tables-verify -Cem -o tableopts_ver_nr-Cem.c tableopts.l4
+../src/flex -P _Cae --tables-file="tableopts_ver_nr-Cae.ver.tables" --tables-verify -Cae -o tableopts_ver_nr-Cae.c tableopts.l4
+../src/flex -P _Caef --tables-file="tableopts_ver_nr-Caef.ver.tables" --tables-verify -Caef -o tableopts_ver_nr-Caef.c tableopts.l4
+../src/flex -P _CaeF --tables-file="tableopts_ver_nr-CaeF.ver.tables" --tables-verify -CaeF -o tableopts_ver_nr-CaeF.c tableopts.l4
+../src/flex -P _Cam --tables-file="tableopts_ver_nr-Cam.ver.tables" --tables-verify -Cam -o tableopts_ver_nr-Cam.c tableopts.l4
+../src/flex -P _Caem --tables-file="tableopts_ver_nr-Caem.ver.tables" --tables-verify -Caem -o tableopts_ver_nr-Caem.c tableopts.l4
+../src/flex -P _Ca -R --tables-file="tableopts_ver_r-Ca.ver.tables" --tables-verify -Ca  -o tableopts_ver_r-Ca.c tableopts.l4
+../src/flex -P _Ce -R --tables-file="tableopts_ver_r-Ce.ver.tables" --tables-verify -Ce  -o tableopts_ver_r-Ce.c tableopts.l4
+../src/flex -P _Cf -R --tables-file="tableopts_ver_r-Cf.ver.tables" --tables-verify -Cf  -o tableopts_ver_r-Cf.c tableopts.l4
+../src/flex -P _CF -R --tables-file="tableopts_ver_r-CF.ver.tables" --tables-verify -CF  -o tableopts_ver_r-CF.c tableopts.l4
+../src/flex -P _Cm -R --tables-file="tableopts_ver_r-Cm.ver.tables" --tables-verify -Cm  -o tableopts_ver_r-Cm.c tableopts.l4
+../src/flex -P _Cem -R --tables-file="tableopts_ver_r-Cem.ver.tables" --tables-verify -Cem  -o tableopts_ver_r-Cem.c tableopts.l4
+../src/flex -P _Cae -R --tables-file="tableopts_ver_r-Cae.ver.tables" --tables-verify -Cae  -o tableopts_ver_r-Cae.c tableopts.l4
+../src/flex -P _Caef -R --tables-file="tableopts_ver_r-Caef.ver.tables" --tables-verify -Caef  -o tableopts_ver_r-Caef.c tableopts.l4
+../src/flex -P _CaeF -R --tables-file="tableopts_ver_r-CaeF.ver.tables" --tables-verify -CaeF  -o tableopts_ver_r-CaeF.c tableopts.l4
+../src/flex -P _Cam -R --tables-file="tableopts_ver_r-Cam.ver.tables" --tables-verify -Cam  -o tableopts_ver_r-Cam.c tableopts.l4
+../src/flex -P _Caem -R --tables-file="tableopts_ver_r-Caem.ver.tables" --tables-verify -Caem  -o tableopts_ver_r-Caem.c tableopts.l4
+make[3]: Nothing to be done for 'options.cn'.
+make[3]: Nothing to be done for 'testwrapper.sh'.
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT alloc_extra.o -MD -MP -MF .deps/alloc_extra.Tpo -c -o alloc_extra.o alloc_extra.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT array_nr.o -MD -MP -MF .deps/array_nr.Tpo -c -o array_nr.o array_nr.c
+mv -f .deps/array_nr.Tpo .deps/array_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT array_r.o -MD -MP -MF .deps/array_r.Tpo -c -o array_r.o array_r.c
+mv -f .deps/alloc_extra.Tpo .deps/alloc_extra.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT basic_nr.o -MD -MP -MF .deps/basic_nr.Tpo -c -o basic_nr.o basic_nr.c
+mv -f .deps/basic_nr.Tpo .deps/basic_nr.Po
+mv -f .deps/array_r.Tpo .deps/array_r.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT basic_r.o -MD -MP -MF .deps/basic_r.Tpo -c -o basic_r.o basic_r.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o bison_nr bison_nr_scanner.o bison_nr_parser.o bison_nr_main.o  -lm 
+libtool: link: gcc -g -O2 -o bison_nr bison_nr_scanner.o bison_nr_parser.o bison_nr_main.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o bison_yylloc bison_yylloc_scanner.o bison_yylloc_parser.o bison_yylloc_main.o  -lm 
+libtool: link: gcc -g -O2 -o bison_yylloc bison_yylloc_scanner.o bison_yylloc_parser.o bison_yylloc_main.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o bison_yylval bison_yylval_scanner.o bison_yylval_parser.o bison_yylval_main.o  -lm 
+libtool: link: gcc -g -O2 -o bison_yylval bison_yylval_scanner.o bison_yylval_parser.o bison_yylval_main.o  -lm
+mv -f .deps/basic_r.Tpo .deps/basic_r.Po
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT c_cxx_nr.o -MD -MP -MF .deps/c_cxx_nr.Tpo -c -o c_cxx_nr.o c_cxx_nr.cc
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT c_cxx_r.o -MD -MP -MF .deps/c_cxx_r.Tpo -c -o c_cxx_r.o c_cxx_r.cc
+mv -f .deps/c_cxx_nr.Tpo .deps/c_cxx_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT ccl.o -MD -MP -MF .deps/ccl.Tpo -c -o ccl.o ccl.c
+mv -f .deps/c_cxx_r.Tpo .deps/c_cxx_r.Po
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT cxx_basic.o -MD -MP -MF .deps/cxx_basic.Tpo -c -o cxx_basic.o cxx_basic.cc
+mv -f .deps/ccl.Tpo .deps/ccl.Po
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT cxx_multiple_scanners_1.o -MD -MP -MF .deps/cxx_multiple_scanners_1.Tpo -c -o cxx_multiple_scanners_1.o cxx_multiple_scanners_1.cc
+mv -f .deps/cxx_basic.Tpo .deps/cxx_basic.Po
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT cxx_multiple_scanners_2.o -MD -MP -MF .deps/cxx_multiple_scanners_2.Tpo -c -o cxx_multiple_scanners_2.o cxx_multiple_scanners_2.cc
+mv -f .deps/cxx_multiple_scanners_1.Tpo .deps/cxx_multiple_scanners_1.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT debug_nr.o -MD -MP -MF .deps/debug_nr.Tpo -c -o debug_nr.o debug_nr.c
+mv -f .deps/cxx_multiple_scanners_2.Tpo .deps/cxx_multiple_scanners_2.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT debug_r.o -MD -MP -MF .deps/debug_r.Tpo -c -o debug_r.o debug_r.c
+mv -f .deps/debug_nr.Tpo .deps/debug_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT extended.o -MD -MP -MF .deps/extended.Tpo -c -o extended.o extended.c
+mv -f .deps/extended.Tpo .deps/extended.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o header_nr header_nr_scanner.o header_nr_main.o  -lm 
+mv -f .deps/debug_r.Tpo .deps/debug_r.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o header_r header_r_scanner.o header_r_main.o  -lm 
+libtool: link: gcc -g -O2 -o header_nr header_nr_scanner.o header_nr_main.o  -lm
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT mem_nr.o -MD -MP -MF .deps/mem_nr.Tpo -c -o mem_nr.o mem_nr.c
+libtool: link: gcc -g -O2 -o header_r header_r_scanner.o header_r_main.o  -lm
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT mem_r.o -MD -MP -MF .deps/mem_r.Tpo -c -o mem_r.o mem_r.c
+mv -f .deps/mem_nr.Tpo .deps/mem_nr.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o multiple_scanners_nr multiple_scanners_nr_main.o multiple_scanners_nr_1.o multiple_scanners_nr_2.o  -lm 
+mv -f .deps/mem_r.Tpo .deps/mem_r.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o multiple_scanners_r multiple_scanners_r_main.o multiple_scanners_r_1.o multiple_scanners_r_2.o  -lm 
+libtool: link: gcc -g -O2 -o multiple_scanners_nr multiple_scanners_nr_main.o multiple_scanners_nr_1.o multiple_scanners_nr_2.o  -lm
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT noansi_nr.o -MD -MP -MF .deps/noansi_nr.Tpo -c -o noansi_nr.o noansi_nr.c
+libtool: link: gcc -g -O2 -o multiple_scanners_r multiple_scanners_r_main.o multiple_scanners_r_1.o multiple_scanners_r_2.o  -lm
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT noansi_r.o -MD -MP -MF .deps/noansi_r.Tpo -c -o noansi_r.o noansi_r.c
+mv -f .deps/noansi_nr.Tpo .deps/noansi_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT posix.o -MD -MP -MF .deps/posix.Tpo -c -o posix.o posix.c
+mv -f .deps/noansi_r.Tpo .deps/noansi_r.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT posixly_correct.o -MD -MP -MF .deps/posixly_correct.Tpo -c -o posixly_correct.o posixly_correct.c
+mv -f .deps/posix.Tpo .deps/posix.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT prefix_nr.o -MD -MP -MF .deps/prefix_nr.Tpo -c -o prefix_nr.o prefix_nr.c
+mv -f .deps/posixly_correct.Tpo .deps/posixly_correct.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT prefix_r.o -MD -MP -MF .deps/prefix_r.Tpo -c -o prefix_r.o prefix_r.c
+mv -f .deps/prefix_nr.Tpo .deps/prefix_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT quotes.o -MD -MP -MF .deps/quotes.Tpo -c -o quotes.o quotes.c
+mv -f .deps/prefix_r.Tpo .deps/prefix_r.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT string_nr.o -MD -MP -MF .deps/string_nr.Tpo -c -o string_nr.o string_nr.c
+mv -f .deps/quotes.Tpo .deps/quotes.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT string_r.o -MD -MP -MF .deps/string_r.Tpo -c -o string_r.o string_r.c
+mv -f .deps/string_nr.Tpo .deps/string_nr.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o top top.o top_main.o  -lm 
+libtool: link: gcc -g -O2 -o top top.o top_main.o  -lm
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT yyextra.o -MD -MP -MF .deps/yyextra.Tpo -c -o yyextra.o yyextra.c
+mv -f .deps/string_r.Tpo .deps/string_r.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT reject_nr.reject.o -MD -MP -MF .deps/reject_nr.reject.Tpo -c -o reject_nr.reject.o reject_nr.reject.c
+mv -f .deps/reject_nr.reject.Tpo .deps/reject_nr.reject.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o reject_r.reject.o reject_r.reject.c
+mv -f .deps/yyextra.Tpo .deps/yyextra.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o reject_ver.table.o reject_ver.table.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o reject_ser.table.o reject_ser.table.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT include_by_buffer.direct.o -MD -MP -MF .deps/include_by_buffer.direct.Tpo -c -o include_by_buffer.direct.o include_by_buffer.direct.c
+mv -f .deps/include_by_buffer.direct.Tpo .deps/include_by_buffer.direct.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT include_by_push.direct.o -MD -MP -MF .deps/include_by_push.direct.Tpo -c -o include_by_push.direct.o include_by_push.direct.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT include_by_reentrant.direct.o -MD -MP -MF .deps/include_by_reentrant.direct.Tpo -c -o include_by_reentrant.direct.o include_by_reentrant.direct.c
+mv -f .deps/include_by_push.direct.Tpo .deps/include_by_push.direct.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT rescan_nr.direct.o -MD -MP -MF .deps/rescan_nr.direct.Tpo -c -o rescan_nr.direct.o rescan_nr.direct.c
+mv -f .deps/include_by_reentrant.direct.Tpo .deps/include_by_reentrant.direct.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT rescan_r.direct.o -MD -MP -MF .deps/rescan_r.direct.Tpo -c -o rescan_r.direct.o rescan_r.direct.c
+mv -f .deps/rescan_nr.direct.Tpo .deps/rescan_nr.direct.Po
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT cxx_yywrap.o -MD -MP -MF .deps/cxx_yywrap.Tpo -c -o cxx_yywrap.o cxx_yywrap.cc
+mv -f .deps/rescan_r.direct.Tpo .deps/rescan_r.direct.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT pthread.o -MD -MP -MF .deps/pthread.Tpo -c -o pthread.o pthread.c
+mv -f .deps/pthread.Tpo .deps/pthread.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT lineno_nr.o -MD -MP -MF .deps/lineno_nr.Tpo -c -o lineno_nr.o lineno_nr.c
+mv -f .deps/cxx_yywrap.Tpo .deps/cxx_yywrap.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT lineno_r.o -MD -MP -MF .deps/lineno_r.Tpo -c -o lineno_r.o lineno_r.c
+mv -f .deps/lineno_nr.Tpo .deps/lineno_nr.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT lineno_trailing.o -MD -MP -MF .deps/lineno_trailing.Tpo -c -o lineno_trailing.o lineno_trailing.c
+mv -f .deps/lineno_r.Tpo .deps/lineno_r.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Ca.o tableopts_opt_nr-Ca.c
+mv -f .deps/lineno_trailing.Tpo .deps/lineno_trailing.Po
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Ce.o tableopts_opt_nr-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Cf.o tableopts_opt_nr-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-CF.o tableopts_opt_nr-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Cm.o tableopts_opt_nr-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Cem.o tableopts_opt_nr-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Cae.o tableopts_opt_nr-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Caef.o tableopts_opt_nr-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-CaeF.o tableopts_opt_nr-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Cam.o tableopts_opt_nr-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -c -o tableopts_opt_nr-Caem.o tableopts_opt_nr-Caem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Ca.o tableopts_opt_r-Ca.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Ce.o tableopts_opt_r-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cf.o tableopts_opt_r-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-CF.o tableopts_opt_r-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cm.o tableopts_opt_r-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cem.o tableopts_opt_r-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cae.o tableopts_opt_r-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Caef.o tableopts_opt_r-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-CaeF.o tableopts_opt_r-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Cam.o tableopts_opt_r-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_IS_REENTRANT -c -o tableopts_opt_r-Caem.o tableopts_opt_r-Caem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Ca.o tableopts_ser_nr-Ca.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Ce.o tableopts_ser_nr-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cf.o tableopts_ser_nr-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-CF.o tableopts_ser_nr-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cm.o tableopts_ser_nr-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cem.o tableopts_ser_nr-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cae.o tableopts_ser_nr-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Caef.o tableopts_ser_nr-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-CaeF.o tableopts_ser_nr-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Cam.o tableopts_ser_nr-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ser_nr-Caem.o tableopts_ser_nr-Caem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Ca.o tableopts_ser_r-Ca.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Ce.o tableopts_ser_r-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cf.o tableopts_ser_r-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-CF.o tableopts_ser_r-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cm.o tableopts_ser_r-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cem.o tableopts_ser_r-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cae.o tableopts_ser_r-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Caef.o tableopts_ser_r-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-CaeF.o tableopts_ser_r-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Cam.o tableopts_ser_r-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ser_r-Caem.o tableopts_ser_r-Caem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Ca.o tableopts_ver_nr-Ca.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Ce.o tableopts_ver_nr-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cf.o tableopts_ver_nr-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-CF.o tableopts_ver_nr-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cm.o tableopts_ver_nr-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cem.o tableopts_ver_nr-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cae.o tableopts_ver_nr-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Caef.o tableopts_ver_nr-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-CaeF.o tableopts_ver_nr-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Cam.o tableopts_ver_nr-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -c -o tableopts_ver_nr-Caem.o tableopts_ver_nr-Caem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Ca.o tableopts_ver_r-Ca.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Ce.o tableopts_ver_r-Ce.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cf.o tableopts_ver_r-Cf.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-CF.o tableopts_ver_r-CF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cm.o tableopts_ver_r-Cm.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cem.o tableopts_ver_r-Cem.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cae.o tableopts_ver_r-Cae.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Caef.o tableopts_ver_r-Caef.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-CaeF.o tableopts_ver_r-CaeF.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Cam.o tableopts_ver_r-Cam.c
+gcc -DHAVE_CONFIG_H -I. -I../src     -g -O2 -DTEST_HAS_TABLES_EXTERNAL -DTEST_IS_REENTRANT -c -o tableopts_ver_r-Caem.o tableopts_ver_r-Caem.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o alloc_extra alloc_extra.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o array_nr array_nr.o  -lm 
+libtool: link: gcc -g -O2 -o array_nr array_nr.o  -lm
+libtool: link: gcc -g -O2 -o alloc_extra alloc_extra.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o array_r array_r.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o basic_nr basic_nr.o  -lm 
+libtool: link: gcc -g -O2 -o array_r array_r.o  -lm
+libtool: link: gcc -g -O2 -o basic_nr basic_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o basic_r basic_r.o  -lm 
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o c_cxx_nr c_cxx_nr.o  -lm 
+libtool: link: gcc -g -O2 -o basic_r basic_r.o  -lm
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o c_cxx_r c_cxx_r.o  -lm 
+libtool: link: g++ -g -O2 -o c_cxx_nr c_cxx_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o ccl ccl.o  -lm 
+libtool: link: g++ -g -O2 -o c_cxx_r c_cxx_r.o  -lm
+libtool: link: gcc -g -O2 -o ccl ccl.o  -lm
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o cxx_basic cxx_basic.o  -lm 
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o cxx_multiple_scanners cxx_multiple_scanners_main.o cxx_multiple_scanners_1.o cxx_multiple_scanners_2.o  -lm 
+libtool: link: g++ -g -O2 -o cxx_basic cxx_basic.o  -lm
+libtool: link: g++ -g -O2 -o cxx_multiple_scanners cxx_multiple_scanners_main.o cxx_multiple_scanners_1.o cxx_multiple_scanners_2.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o debug_nr debug_nr.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o debug_r debug_r.o  -lm 
+libtool: link: gcc -g -O2 -o debug_nr debug_nr.o  -lm
+libtool: link: gcc -g -O2 -o debug_r debug_r.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o extended extended.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o mem_nr mem_nr.o  -lm 
+libtool: link: gcc -g -O2 -o extended extended.o  -lm
+libtool: link: gcc -g -O2 -o mem_nr mem_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o mem_r mem_r.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o noansi_nr noansi_nr.o  -lm 
+libtool: link: gcc -g -O2 -o mem_r mem_r.o  -lm
+libtool: link: gcc -g -O2 -o noansi_nr noansi_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o noansi_r noansi_r.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o posix posix.o  -lm 
+libtool: link: gcc -g -O2 -o noansi_r noansi_r.o  -lm
+libtool: link: gcc -g -O2 -o posix posix.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o posixly_correct posixly_correct.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o prefix_nr prefix_nr.o  -lm 
+libtool: link: gcc -g -O2 -o posixly_correct posixly_correct.o  -lm
+libtool: link: gcc -g -O2 -o prefix_nr prefix_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o prefix_r prefix_r.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o quotes quotes.o  -lm 
+libtool: link: gcc -g -O2 -o prefix_r prefix_r.o  -lm
+libtool: link: gcc -g -O2 -o quotes quotes.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o string_nr string_nr.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o string_r string_r.o  -lm 
+libtool: link: gcc -g -O2 -o string_nr string_nr.o  -lm
+libtool: link: gcc -g -O2 -o string_r string_r.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o yyextra yyextra.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o reject_nr.reject reject_nr.reject.o
+libtool: link: gcc -g -O2 -o yyextra yyextra.o  -lm
+libtool: link: gcc -g -O2 -o reject_nr.reject reject_nr.reject.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o reject_r.reject reject_r.reject.o
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o reject_ver.table reject_ver.table.o
+libtool: link: gcc -g -O2 -o reject_r.reject reject_r.reject.o 
+libtool: link: gcc -g -O2 -o reject_ver.table reject_ver.table.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o reject_ser.table reject_ser.table.o
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o include_by_buffer.direct include_by_buffer.direct.o  -lm 
+libtool: link: gcc -g -O2 -o reject_ser.table reject_ser.table.o 
+libtool: link: gcc -g -O2 -o include_by_buffer.direct include_by_buffer.direct.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o include_by_push.direct include_by_push.direct.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o include_by_reentrant.direct include_by_reentrant.direct.o  -lm 
+libtool: link: gcc -g -O2 -o include_by_push.direct include_by_push.direct.o  -lm
+libtool: link: gcc -g -O2 -o include_by_reentrant.direct include_by_reentrant.direct.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o rescan_nr.direct rescan_nr.direct.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o rescan_r.direct rescan_r.direct.o  -lm 
+libtool: link: gcc -g -O2 -o rescan_nr.direct rescan_nr.direct.o  -lm
+libtool: link: gcc -g -O2 -o rescan_r.direct rescan_r.direct.o  -lm
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o cxx_yywrap.i3 cxx_yywrap.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o pthread.pthread pthread.o -lpthread -lm 
+libtool: link: gcc -g -O2 -o pthread.pthread pthread.o  -lpthread -lm
+libtool: link: g++ -g -O2 -o cxx_yywrap.i3 cxx_yywrap.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o lineno_nr.one lineno_nr.o  -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o lineno_r.one lineno_r.o  -lm 
+libtool: link: gcc -g -O2 -o lineno_nr.one lineno_nr.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o lineno_trailing.one lineno_trailing.o  -lm 
+libtool: link: gcc -g -O2 -o lineno_r.one lineno_r.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Ca.opt -o tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ca.o
+libtool: link: gcc -g -O2 -o lineno_trailing.one lineno_trailing.o  -lm
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Ce.opt -o tableopts_opt_nr-Ce.opt tableopts_opt_nr-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Ca.opt -o tableopts_opt_nr-Ca.opt tableopts_opt_nr-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Cf.opt -o tableopts_opt_nr-Cf.opt tableopts_opt_nr-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Ce.opt -o tableopts_opt_nr-Ce.opt tableopts_opt_nr-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-CF.opt -o tableopts_opt_nr-CF.opt tableopts_opt_nr-CF.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Cf.opt -o tableopts_opt_nr-Cf.opt tableopts_opt_nr-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Cm.opt -o tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-CF.opt -o tableopts_opt_nr-CF.opt tableopts_opt_nr-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Cem.opt -o tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Cm.opt -o tableopts_opt_nr-Cm.opt tableopts_opt_nr-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Cae.opt -o tableopts_opt_nr-Cae.opt tableopts_opt_nr-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Cem.opt -o tableopts_opt_nr-Cem.opt tableopts_opt_nr-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Caef.opt -o tableopts_opt_nr-Caef.opt tableopts_opt_nr-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Cae.opt -o tableopts_opt_nr-Cae.opt tableopts_opt_nr-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-CaeF.opt -o tableopts_opt_nr-CaeF.opt tableopts_opt_nr-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Caef.opt -o tableopts_opt_nr-Caef.opt tableopts_opt_nr-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Cam.opt -o tableopts_opt_nr-Cam.opt tableopts_opt_nr-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-CaeF.opt -o tableopts_opt_nr-CaeF.opt tableopts_opt_nr-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_nr-Caem.opt -o tableopts_opt_nr-Caem.opt tableopts_opt_nr-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Cam.opt -o tableopts_opt_nr-Cam.opt tableopts_opt_nr-Cam.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Ca.opt -o tableopts_opt_r-Ca.opt tableopts_opt_r-Ca.o
+libtool: link: gcc -g -O2 -o tableopts_opt_nr-Caem.opt -o tableopts_opt_nr-Caem.opt tableopts_opt_nr-Caem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Ce.opt -o tableopts_opt_r-Ce.opt tableopts_opt_r-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Ca.opt -o tableopts_opt_r-Ca.opt tableopts_opt_r-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Cf.opt -o tableopts_opt_r-Cf.opt tableopts_opt_r-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Ce.opt -o tableopts_opt_r-Ce.opt tableopts_opt_r-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-CF.opt -o tableopts_opt_r-CF.opt tableopts_opt_r-CF.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Cf.opt -o tableopts_opt_r-Cf.opt tableopts_opt_r-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Cm.opt -o tableopts_opt_r-Cm.opt tableopts_opt_r-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-CF.opt -o tableopts_opt_r-CF.opt tableopts_opt_r-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Cem.opt -o tableopts_opt_r-Cem.opt tableopts_opt_r-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Cm.opt -o tableopts_opt_r-Cm.opt tableopts_opt_r-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Cae.opt -o tableopts_opt_r-Cae.opt tableopts_opt_r-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Cem.opt -o tableopts_opt_r-Cem.opt tableopts_opt_r-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Caef.opt -o tableopts_opt_r-Caef.opt tableopts_opt_r-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Cae.opt -o tableopts_opt_r-Cae.opt tableopts_opt_r-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-CaeF.opt -o tableopts_opt_r-CaeF.opt tableopts_opt_r-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Caef.opt -o tableopts_opt_r-Caef.opt tableopts_opt_r-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Cam.opt -o tableopts_opt_r-Cam.opt tableopts_opt_r-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-CaeF.opt -o tableopts_opt_r-CaeF.opt tableopts_opt_r-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_opt_r-Caem.opt -o tableopts_opt_r-Caem.opt tableopts_opt_r-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Cam.opt -o tableopts_opt_r-Cam.opt tableopts_opt_r-Cam.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Ca.ser -o tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ca.o
+libtool: link: gcc -g -O2 -o tableopts_opt_r-Caem.opt -o tableopts_opt_r-Caem.opt tableopts_opt_r-Caem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Ce.ser -o tableopts_ser_nr-Ce.ser tableopts_ser_nr-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Ca.ser -o tableopts_ser_nr-Ca.ser tableopts_ser_nr-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Cf.ser -o tableopts_ser_nr-Cf.ser tableopts_ser_nr-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Ce.ser -o tableopts_ser_nr-Ce.ser tableopts_ser_nr-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-CF.ser -o tableopts_ser_nr-CF.ser tableopts_ser_nr-CF.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Cf.ser -o tableopts_ser_nr-Cf.ser tableopts_ser_nr-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Cm.ser -o tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-CF.ser -o tableopts_ser_nr-CF.ser tableopts_ser_nr-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Cem.ser -o tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Cm.ser -o tableopts_ser_nr-Cm.ser tableopts_ser_nr-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Cae.ser -o tableopts_ser_nr-Cae.ser tableopts_ser_nr-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Cem.ser -o tableopts_ser_nr-Cem.ser tableopts_ser_nr-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Caef.ser -o tableopts_ser_nr-Caef.ser tableopts_ser_nr-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Cae.ser -o tableopts_ser_nr-Cae.ser tableopts_ser_nr-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-CaeF.ser -o tableopts_ser_nr-CaeF.ser tableopts_ser_nr-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Caef.ser -o tableopts_ser_nr-Caef.ser tableopts_ser_nr-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Cam.ser -o tableopts_ser_nr-Cam.ser tableopts_ser_nr-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-CaeF.ser -o tableopts_ser_nr-CaeF.ser tableopts_ser_nr-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_nr-Caem.ser -o tableopts_ser_nr-Caem.ser tableopts_ser_nr-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Cam.ser -o tableopts_ser_nr-Cam.ser tableopts_ser_nr-Cam.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Ca.ser -o tableopts_ser_r-Ca.ser tableopts_ser_r-Ca.o
+libtool: link: gcc -g -O2 -o tableopts_ser_nr-Caem.ser -o tableopts_ser_nr-Caem.ser tableopts_ser_nr-Caem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Ce.ser -o tableopts_ser_r-Ce.ser tableopts_ser_r-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Ca.ser -o tableopts_ser_r-Ca.ser tableopts_ser_r-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Cf.ser -o tableopts_ser_r-Cf.ser tableopts_ser_r-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Ce.ser -o tableopts_ser_r-Ce.ser tableopts_ser_r-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-CF.ser -o tableopts_ser_r-CF.ser tableopts_ser_r-CF.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Cf.ser -o tableopts_ser_r-Cf.ser tableopts_ser_r-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Cm.ser -o tableopts_ser_r-Cm.ser tableopts_ser_r-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-CF.ser -o tableopts_ser_r-CF.ser tableopts_ser_r-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Cem.ser -o tableopts_ser_r-Cem.ser tableopts_ser_r-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Cm.ser -o tableopts_ser_r-Cm.ser tableopts_ser_r-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Cae.ser -o tableopts_ser_r-Cae.ser tableopts_ser_r-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Cem.ser -o tableopts_ser_r-Cem.ser tableopts_ser_r-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Caef.ser -o tableopts_ser_r-Caef.ser tableopts_ser_r-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Cae.ser -o tableopts_ser_r-Cae.ser tableopts_ser_r-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-CaeF.ser -o tableopts_ser_r-CaeF.ser tableopts_ser_r-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Caef.ser -o tableopts_ser_r-Caef.ser tableopts_ser_r-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Cam.ser -o tableopts_ser_r-Cam.ser tableopts_ser_r-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-CaeF.ser -o tableopts_ser_r-CaeF.ser tableopts_ser_r-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ser_r-Caem.ser -o tableopts_ser_r-Caem.ser tableopts_ser_r-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Cam.ser -o tableopts_ser_r-Cam.ser tableopts_ser_r-Cam.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Ca.ver -o tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ca.o
+libtool: link: gcc -g -O2 -o tableopts_ser_r-Caem.ser -o tableopts_ser_r-Caem.ser tableopts_ser_r-Caem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Ce.ver -o tableopts_ver_nr-Ce.ver tableopts_ver_nr-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Ca.ver -o tableopts_ver_nr-Ca.ver tableopts_ver_nr-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Cf.ver -o tableopts_ver_nr-Cf.ver tableopts_ver_nr-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Ce.ver -o tableopts_ver_nr-Ce.ver tableopts_ver_nr-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-CF.ver -o tableopts_ver_nr-CF.ver tableopts_ver_nr-CF.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Cf.ver -o tableopts_ver_nr-Cf.ver tableopts_ver_nr-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Cm.ver -o tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-CF.ver -o tableopts_ver_nr-CF.ver tableopts_ver_nr-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Cem.ver -o tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Cm.ver -o tableopts_ver_nr-Cm.ver tableopts_ver_nr-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Cae.ver -o tableopts_ver_nr-Cae.ver tableopts_ver_nr-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Cem.ver -o tableopts_ver_nr-Cem.ver tableopts_ver_nr-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Caef.ver -o tableopts_ver_nr-Caef.ver tableopts_ver_nr-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Cae.ver -o tableopts_ver_nr-Cae.ver tableopts_ver_nr-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-CaeF.ver -o tableopts_ver_nr-CaeF.ver tableopts_ver_nr-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Caef.ver -o tableopts_ver_nr-Caef.ver tableopts_ver_nr-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Cam.ver -o tableopts_ver_nr-Cam.ver tableopts_ver_nr-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-CaeF.ver -o tableopts_ver_nr-CaeF.ver tableopts_ver_nr-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_nr-Caem.ver -o tableopts_ver_nr-Caem.ver tableopts_ver_nr-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Cam.ver -o tableopts_ver_nr-Cam.ver tableopts_ver_nr-Cam.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Ca.ver -o tableopts_ver_r-Ca.ver tableopts_ver_r-Ca.o
+libtool: link: gcc -g -O2 -o tableopts_ver_nr-Caem.ver -o tableopts_ver_nr-Caem.ver tableopts_ver_nr-Caem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Ce.ver -o tableopts_ver_r-Ce.ver tableopts_ver_r-Ce.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Ca.ver -o tableopts_ver_r-Ca.ver tableopts_ver_r-Ca.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Cf.ver -o tableopts_ver_r-Cf.ver tableopts_ver_r-Cf.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Ce.ver -o tableopts_ver_r-Ce.ver tableopts_ver_r-Ce.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-CF.ver -o tableopts_ver_r-CF.ver tableopts_ver_r-CF.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Cf.ver -o tableopts_ver_r-Cf.ver tableopts_ver_r-Cf.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Cm.ver -o tableopts_ver_r-Cm.ver tableopts_ver_r-Cm.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-CF.ver -o tableopts_ver_r-CF.ver tableopts_ver_r-CF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Cem.ver -o tableopts_ver_r-Cem.ver tableopts_ver_r-Cem.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Cm.ver -o tableopts_ver_r-Cm.ver tableopts_ver_r-Cm.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Cae.ver -o tableopts_ver_r-Cae.ver tableopts_ver_r-Cae.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Cem.ver -o tableopts_ver_r-Cem.ver tableopts_ver_r-Cem.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Caef.ver -o tableopts_ver_r-Caef.ver tableopts_ver_r-Caef.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Cae.ver -o tableopts_ver_r-Cae.ver tableopts_ver_r-Cae.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-CaeF.ver -o tableopts_ver_r-CaeF.ver tableopts_ver_r-CaeF.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Caef.ver -o tableopts_ver_r-Caef.ver tableopts_ver_r-Caef.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Cam.ver -o tableopts_ver_r-Cam.ver tableopts_ver_r-Cam.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-CaeF.ver -o tableopts_ver_r-CaeF.ver tableopts_ver_r-CaeF.o 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2   -o tableopts_ver_r-Caem.ver -o tableopts_ver_r-Caem.ver tableopts_ver_r-Caem.o
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Cam.ver -o tableopts_ver_r-Cam.ver tableopts_ver_r-Cam.o 
+libtool: link: gcc -g -O2 -o tableopts_ver_r-Caem.ver -o tableopts_ver_r-Caem.ver tableopts_ver_r-Caem.o 
+rm tableopts_ser_nr-Caem.c tableopts_ver_nr-Cm.c tableopts_opt_nr-Cf.c tableopts_ver_r-Ca.c tableopts_ser_r-Caef.c tableopts_ver_r-Cf.c tableopts_ver_nr-Ca.c tableopts_opt_r-Cam.c tableopts_ver_nr-CaeF.c tableopts_ver_nr-Cf.c tableopts_ver_r-Cam.c tableopts_opt_nr-Caem.c tableopts_ver_r-Cem.c tableopts_opt_r-Cae.c tableopts_ser_nr-Ca.c tableopts_ver_nr-Cem.c tableopts_ser_nr-Cf.c tableopts_ver_r-Caem.c tableopts_opt_r-Ce.c tableopts_ver_nr-Caem.c tableopts_opt_nr-Ce.c tableopts_ver_r-Cae.c tableopts_ver_nr-Cam.c tableopts_ser_r-Cm.c tableopts_ver_r-CF.c tableopts_ser_nr-Cm.c tableopts_opt_nr-Cae.c tableopts_ver_r-Ce.c tableopts_ser_r-Cem.c tableopts_opt_r-Cf.c tableopts_ser_r-Ca.c tableopts_ver_nr-Ce.c tableopts_ser_nr-Ce.c tableopts_opt_nr-CF.c tableopts_ser_r-CF.c tableopts_ser_nr-Cam.c tableopts_opt_nr-Ca.c tableopts_ser_nr-CF.c tableopts_opt_r-Caem.c tableopts_ser_r-CaeF.c tableopts_ver_nr-CF.c c_cxx_r.cc tableopts_ver_r-Cm.c c_cxx_nr.cc tableopts_ver_nr-Cae.c tableopts_opt_r-Cm.c tableopts_opt_r-Caef.c tableopts_opt_nr-Caef.c tableopts_opt_r-CaeF.c tableopts_opt_nr-CaeF.c tableopts_ver_r-Caef.c tableopts_ver_r-CaeF.c tableopts_ser_r-Ce.c tableopts_ser_nr-CaeF.c tableopts_ver_nr-Caef.c tableopts_ser_r-Cam.c tableopts_ser_r-Cae.c tableopts_opt_nr-Cm.c tableopts_ser_nr-Cem.c tableopts_ser_nr-Cae.c tableopts_opt_r-Cem.c tableopts_ser_nr-Caef.c tableopts_opt_r-Ca.c tableopts_opt_nr-Cem.c tableopts_ser_r-Caem.c tableopts_ser_r-Cf.c tableopts_opt_r-CF.c tableopts_opt_nr-Cam.c
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make[4]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+PASS: array_nr
+PASS: alloc_extra
+PASS: array_r
+PASS: basic_nr
+PASS: basic_r
+PASS: bison_nr
+PASS: bison_yylloc
+../src/flex -o c_cxx_nr.cc c_cxx_nr.lll
+PASS: bison_yylval
+../src/flex -o c_cxx_r.cc c_cxx_r.lll
+PASS: ccl
+PASS: cxx_basic
+PASS: cxx_multiple_scanners
+PASS: debug_nr
+PASS: debug_r
+PASS: extended
+PASS: header_nr
+PASS: header_r
+PASS: mem_nr
+PASS: mem_r
+PASS: multiple_scanners_nr
+PASS: multiple_scanners_r
+PASS: noansi_nr
+PASS: noansi_r
+PASS: posix
+PASS: posixly_correct
+PASS: prefix_nr
+PASS: prefix_r
+PASS: quotes
+PASS: string_nr
+PASS: string_r
+PASS: top
+PASS: reject_nr.reject
+PASS: reject_r.reject
+PASS: yyextra
+PASS: reject_ver.table
+PASS: reject_ser.table
+PASS: include_by_buffer.direct
+PASS: include_by_reentrant.direct
+PASS: include_by_push.direct
+PASS: rescan_nr.direct
+PASS: rescan_r.direct
+PASS: cxx_yywrap.i3
+PASS: lineno_nr.one
+PASS: lineno_r.one
+PASS: pthread.pthread
+PASS: lineno_trailing.one
+PASS: tableopts_opt_nr-Ca.opt
+PASS: tableopts_opt_nr-Ce.opt
+PASS: tableopts_opt_nr-Cf.opt
+PASS: tableopts_opt_nr-CF.opt
+PASS: tableopts_opt_nr-Cm.opt
+PASS: tableopts_opt_nr-Cem.opt
+PASS: tableopts_opt_nr-Cae.opt
+PASS: tableopts_opt_nr-Caef.opt
+PASS: tableopts_opt_nr-CaeF.opt
+PASS: tableopts_opt_nr-Cam.opt
+PASS: tableopts_opt_nr-Caem.opt
+PASS: tableopts_opt_r-Ca.opt
+PASS: tableopts_opt_r-Ce.opt
+PASS: tableopts_opt_r-Cf.opt
+PASS: tableopts_opt_r-CF.opt
+PASS: tableopts_opt_r-Cm.opt
+PASS: tableopts_opt_r-Cem.opt
+PASS: tableopts_opt_r-Cae.opt
+PASS: tableopts_opt_r-Caef.opt
+PASS: tableopts_opt_r-CaeF.opt
+PASS: tableopts_opt_r-Cam.opt
+PASS: tableopts_opt_r-Caem.opt
+PASS: tableopts_ser_nr-Ce.ser
+PASS: tableopts_ser_nr-Ca.ser
+PASS: tableopts_ser_nr-CF.ser
+PASS: tableopts_ser_nr-Cf.ser
+PASS: tableopts_ser_nr-Cm.ser
+PASS: tableopts_ser_nr-Cem.ser
+PASS: tableopts_ser_nr-Cae.ser
+PASS: tableopts_ser_nr-Caef.ser
+PASS: tableopts_ser_nr-CaeF.ser
+PASS: tableopts_ser_nr-Cam.ser
+PASS: tableopts_ser_nr-Caem.ser
+PASS: tableopts_ser_r-Ca.ser
+PASS: tableopts_ser_r-Ce.ser
+PASS: tableopts_ser_r-Cf.ser
+PASS: tableopts_ser_r-CF.ser
+PASS: tableopts_ser_r-Cm.ser
+PASS: tableopts_ser_r-Cae.ser
+PASS: tableopts_ser_r-Cem.ser
+PASS: tableopts_ser_r-Caef.ser
+PASS: tableopts_ser_r-CaeF.ser
+PASS: tableopts_ser_r-Cam.ser
+PASS: tableopts_ser_r-Caem.ser
+PASS: tableopts_ver_nr-Ce.ver
+PASS: tableopts_ver_nr-Ca.ver
+PASS: tableopts_ver_nr-Cf.ver
+PASS: tableopts_ver_nr-CF.ver
+PASS: tableopts_ver_nr-Cem.ver
+PASS: tableopts_ver_nr-Cm.ver
+PASS: tableopts_ver_nr-Cae.ver
+PASS: tableopts_ver_nr-Caef.ver
+PASS: tableopts_ver_nr-CaeF.ver
+PASS: tableopts_ver_nr-Cam.ver
+PASS: tableopts_ver_nr-Caem.ver
+PASS: tableopts_ver_r-Ca.ver
+PASS: tableopts_ver_r-Ce.ver
+PASS: tableopts_ver_r-Cf.ver
+PASS: tableopts_ver_r-CF.ver
+PASS: tableopts_ver_r-Cm.ver
+PASS: tableopts_ver_r-Cem.ver
+PASS: tableopts_ver_r-Cae.ver
+PASS: tableopts_ver_r-CaeF.ver
+PASS: tableopts_ver_r-Caef.ver
+PASS: tableopts_ver_r-Caem.ver
+PASS: tableopts_ver_r-Cam.ver
+PASS: options.cn
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT c_cxx_nr.o -MD -MP -MF .deps/c_cxx_nr.Tpo -c -o c_cxx_nr.o c_cxx_nr.cc
+g++ -DHAVE_CONFIG_H -I. -I../src     -g -O2 -MT c_cxx_r.o -MD -MP -MF .deps/c_cxx_r.Tpo -c -o c_cxx_r.o c_cxx_r.cc
+mv -f .deps/c_cxx_nr.Tpo .deps/c_cxx_nr.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o c_cxx_nr c_cxx_nr.o  -lm 
+mv -f .deps/c_cxx_r.Tpo .deps/c_cxx_r.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++  -g -O2   -o c_cxx_r c_cxx_r.o  -lm 
+libtool: link: g++ -g -O2 -o c_cxx_nr c_cxx_nr.o  -lm
+libtool: link: g++ -g -O2 -o c_cxx_r c_cxx_r.o  -lm
+PASS: c_cxx_nr
+PASS: c_cxx_r
+============================================================================
+Testsuite summary for the fast lexical analyser generator 2.6.0
+============================================================================
+# TOTAL: 114
+# PASS:  114
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Entering directory '/sources/7.9/flex-2.6.0'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0'
+Making install in lib
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/lib'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/lib'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/lib'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/lib'
+Making install in src
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/src'
+make  install-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/src'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/src'
+ /tools/bin/mkdir -p '/usr/lib'
+ /tools/bin/mkdir -p '/usr/include'
+ /bin/sh ../libtool   --mode=install /tools/bin/install -c   libfl.la libfl_pic.la '/usr/lib'
+ /tools/bin/install -c -m 644 FlexLexer.h '/usr/include'
+libtool: install: /tools/bin/install -c .libs/libfl.so.2.0.0 /usr/lib/libfl.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so.2 || { rm -f libfl.so.2 && ln -s libfl.so.2.0.0 libfl.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfl.so.2.0.0 libfl.so || { rm -f libfl.so && ln -s libfl.so.2.0.0 libfl.so; }; })
+libtool: install: /tools/bin/install -c .libs/libfl.lai /usr/lib/libfl.la
+libtool: install: /tools/bin/install -c .libs/libfl_pic.so.2.0.0 /usr/lib/libfl_pic.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libfl_pic.so.2.0.0 libfl_pic.so.2 || { rm -f libfl_pic.so.2 && ln -s libfl_pic.so.2.0.0 libfl_pic.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfl_pic.so.2.0.0 libfl_pic.so || { rm -f libfl_pic.so && ln -s libfl_pic.so.2.0.0 libfl_pic.so; }; })
+libtool: install: /tools/bin/install -c .libs/libfl_pic.lai /usr/lib/libfl_pic.la
+libtool: install: /tools/bin/install -c .libs/libfl.a /usr/lib/libfl.a
+libtool: install: chmod 644 /usr/lib/libfl.a
+libtool: install: ranlib /usr/lib/libfl.a
+libtool: install: /tools/bin/install -c .libs/libfl_pic.a /usr/lib/libfl_pic.a
+libtool: install: chmod 644 /usr/lib/libfl_pic.a
+libtool: install: ranlib /usr/lib/libfl_pic.a
+libtool: finish: PATH="/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /tools/bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /tools/bin/install -c flex '/usr/bin'
+libtool: install: /tools/bin/install -c flex /usr/bin/flex
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/src'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/doc'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/usr/share/doc/flex-2.6.0'
+ /tools/bin/install -c -m 644 flex.pdf '/usr/share/doc/flex-2.6.0'
+ /tools/bin/mkdir -p '/usr/share/info'
+ /tools/bin/mkdir -p '/usr/share/man/man1'
+ /tools/bin/install -c -m 644 ./flex.info ./flex.info-1 ./flex.info-2 '/usr/share/info'
+ /tools/bin/install -c -m 644 flex.1 '/usr/share/man/man1'
+ install-info --info-dir='/usr/share/info' '/usr/share/info/flex.info'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/doc'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/doc'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+Making install in manual
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/manual'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/examples/manual'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/examples/manual'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/manual'
+Making install in fastwc
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples/fastwc'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/examples'
+Making install in po
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/po'
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/flex.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/flex.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/flex.mo
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/flex.mo
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/flex.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/flex.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/flex.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/flex.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/flex.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/flex.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/flex.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/flex.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/flex.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/flex.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/flex.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/flex.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/flex.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/flex.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/flex.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/flex.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/flex.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/flex.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/flex.mo
+if test "flex" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/po'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make  install-am
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tests'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/flex-2.6.0/tools'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0/tools'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0/tools'
+make[1]: Entering directory '/sources/7.9/flex-2.6.0'
+make[2]: Entering directory '/sources/7.9/flex-2.6.0'
+make  install-exec-hook
+ /tools/bin/mkdir -p '/usr/share/doc/flex-2.6.0'
+make[3]: Entering directory '/sources/7.9/flex-2.6.0'
+cd /usr/bin && \
+	ln -s -f flex flex++
+ /tools/bin/install -c -m 644 AUTHORS COPYING NEWS ONEWS README '/usr/share/doc/flex-2.6.0'
+make[3]: Leaving directory '/sources/7.9/flex-2.6.0'
+make[2]: Leaving directory '/sources/7.9/flex-2.6.0'
+make[1]: Leaving directory '/sources/7.9/flex-2.6.0'
+'/usr/bin/lex' -> 'flex'

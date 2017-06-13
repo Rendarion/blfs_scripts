@@ -1,0 +1,6 @@
+cp -v perl cpan/podlators/pod2man /tools/bin
+
+PKGVS="$(echo $(basename $PWD) | cut -d - -f 2)"
+
+mkdir -pv /tools/lib/perl5/$PKGVS
+cp -Rv lib/* /tools/lib/perl5/$PKGVS

@@ -1,0 +1,19 @@
+URL=(
+"http://hostap.epitest.fi/releases/wpa_supplicant-2.6.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libnl-3.2.29"
+"openssl-1.0.2k"
+"dbus-1.10.14"
+"libxml2-2.9.4"
+)
+
+export SSID="****"
+export PSK="****"
+export HASHPSK="****"

@@ -1,0 +1,29 @@
+sed -i '/LIBTOOL_INSTALL/d' c++/Makefile.in
+
+mkdir -v build_a
+
+cd build_a
+
+../configure --prefix=/usr           \
+            --mandir=/usr/share/man \
+            --with-shared           \
+            --without-debug         \
+            --without-normal        \
+            --enable-pc-files       \
+            --enable-widec
+
+make
+
+cp -r ../build_a ../build_b
+cd ../build_b
+
+make distclean
+
+../configure --prefix=/usr    \
+            --with-shared    \
+            --without-normal \
+            --without-debug  \
+            --without-cxx-binding \
+            --with-abi-version=5 
+
+make sources libs

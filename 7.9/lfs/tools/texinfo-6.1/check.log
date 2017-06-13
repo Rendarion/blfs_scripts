@@ -1,0 +1,496 @@
+Making check in gnulib/lib
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/gnulib/lib'
+Making check in install-info
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/install-info'
+Making check in .
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/install-info'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/install-info'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/install-info/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/install-info/tests'
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/install-info/tests'
+PASS: ii-0001-test
+PASS: ii-0002-test
+PASS: ii-0004-test
+PASS: ii-0003-test
+PASS: ii-0005-test
+PASS: ii-0006-test
+PASS: ii-0008-test
+PASS: ii-0007-test
+PASS: ii-0009-test
+PASS: ii-0010-test
+PASS: ii-0011-test
+PASS: ii-0012-test
+PASS: ii-0013-test
+PASS: ii-0014-test
+PASS: ii-0016-test
+PASS: ii-0015-test
+PASS: ii-0017-test
+PASS: ii-0018-test
+PASS: ii-0020-test
+PASS: ii-0019-test
+PASS: ii-0021-test
+PASS: ii-0022-test
+PASS: ii-0023-test
+PASS: ii-0024-test
+PASS: ii-0026-test
+PASS: ii-0025-test
+PASS: ii-0028-test
+PASS: ii-0027-test
+PASS: ii-0030-test
+PASS: ii-0029-test
+PASS: ii-0031-test
+PASS: ii-0032-test
+PASS: ii-0034-test
+PASS: ii-0033-test
+PASS: ii-0036-test
+PASS: ii-0035-test
+PASS: ii-0038-test
+PASS: ii-0037-test
+PASS: ii-0040-test
+PASS: ii-0039-test
+PASS: ii-0042-test
+PASS: ii-0041-test
+PASS: ii-0043-test
+PASS: ii-0045-test
+PASS: ii-0044-test
+PASS: ii-0046-test
+PASS: ii-0047-test
+PASS: ii-0048-test
+PASS: ii-0049-test
+PASS: ii-0051-test
+PASS: ii-0050-test
+PASS: ii-0052-test
+PASS: ii-0053-test
+PASS: ii-0054-test
+PASS: ii-0055-test
+PASS: ii-0056-test
+PASS: ii-0057-test
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 57
+# PASS:  57
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/install-info/tests'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/install-info/tests'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/install-info/tests'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/install-info'
+Making check in po
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/po'
+Making check in po_document
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/po_document'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/po_document'
+Making check in tp
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/tp'
+Making check in .
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/tp'
+/tools/bin/install -c -m 644 ./t/include_reference/f--ile.png t/include_dir/f--ile.png
+/tools/bin/install -c -m 644 ./t/include_reference/f--ile.txt t/include_dir/f--ile.txt
+/tools/bin/install -c -m 644 ./t/include_reference/figure.txt t/include_dir/figure.txt
+/tools/bin/install -c -m 644 ./t/include_reference/inc_file.texi t/include_dir/inc_file.texi
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp'
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp'
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/tp'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests'
+Making check in .
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests'
+make[5]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests'
+SKIP: test_scripts/sectioning_node_footnote_end.sh
+SKIP: test_scripts/sectioning_node_footnote_use_node.sh
+SKIP: test_scripts/sectioning_test_two_include.sh
+SKIP: test_scripts/sectioning_node_footnote_separated.sh
+SKIP: test_scripts/sectioning_equivalent_nodes.sh
+SKIP: test_scripts/sectioning_equivalent_nodes_no_node.sh
+SKIP: test_scripts/sectioning_equivalent_nodes_test_renamed_nodes.sh
+SKIP: test_scripts/sectioning_nodes_after_top_before_chapter.sh
+SKIP: test_scripts/sectioning_nodes_after_top_before_chapter_use_nodes_chapter.sh
+SKIP: test_scripts/sectioning_nodes_after_top_before_section.sh
+SKIP: test_scripts/sectioning_nodes_after_top_before_section_use_nodes.sh
+SKIP: test_scripts/sectioning_nodes_after_top_before_section_use_nodes_chapter.sh
+SKIP: test_scripts/sectioning_sectioning_directions.sh
+SKIP: test_scripts/sectioning_sectioning_frames.sh
+SKIP: test_scripts/sectioning_placed_things_before_element.sh
+SKIP: test_scripts/sectioning_no_node_chapter_split.sh
+SKIP: test_scripts/sectioning_no_section_no_top_no_node.sh
+SKIP: test_scripts/sectioning_no_section_no_top.sh
+SKIP: test_scripts/sectioning_more_nodes_than_sections.sh
+SKIP: test_scripts/sectioning_one_node_no_node.sh
+SKIP: test_scripts/sectioning_one_node.sh
+SKIP: test_scripts/sectioning_more_sections_than_nodes.sh
+SKIP: test_scripts/sectioning_two_footnotes_in_nodes_separated.sh
+SKIP: test_scripts/sectioning_two_footnotes_in_nodes.sh
+SKIP: test_scripts/sectioning_top_node_up_implicit.sh
+SKIP: test_scripts/sectioning_top_node_up_explicit.sh
+SKIP: test_scripts/coverage_texi_formatting.sh
+SKIP: test_scripts/coverage_formatting.sh
+SKIP: test_scripts/coverage_formatting_fr.sh
+SKIP: test_scripts/coverage_formatting_cr.sh
+SKIP: test_scripts/indices_double_index_entry.sh
+SKIP: test_scripts/indices_split_chapter_index.sh
+SKIP: test_scripts/indices_index_split.sh
+SKIP: test_scripts/indices_index_split_nodes.sh
+SKIP: test_scripts/indices_nodes_before_top.sh
+SKIP: test_scripts/indices_index_no_node.sh
+SKIP: test_scripts/indices_nodes_before_top_nodes.sh
+SKIP: test_scripts/indices_nodes_before_top_no_nodes.sh
+SKIP: test_scripts/indices_nodes_before_top_and_sections_html_chapter.sh
+SKIP: test_scripts/indices_nodes_before_top_and_sections_monolithic.sh
+SKIP: test_scripts/indices_nodes_before_top_and_sections_html_chapter_nodes.sh
+SKIP: test_scripts/indices_index_special_region.sh
+SKIP: test_scripts/indices_index_special_region_no_region.sh
+SKIP: test_scripts/indices_index_special_region_no_insertcopying.sh
+SKIP: test_scripts/indices_index_special_region_html.sh
+SKIP: test_scripts/indices_index_special_region_no_region_html.sh
+SKIP: test_scripts/indices_index_nodes.sh
+SKIP: test_scripts/indices_index_special_region_no_insertcopying_html.sh
+SKIP: test_scripts/indices_index_nodes_nodes.sh
+SKIP: test_scripts/indices_printindex_between_node_section.sh
+SKIP: test_scripts/indices_printindex_between_part_chapter.sh
+SKIP: test_scripts/indices_index_and_node_same_name.sh
+SKIP: test_scripts/indices_index_one_node.sh
+SKIP: test_scripts/indices_index_entry_in_footnote.sh
+SKIP: test_scripts/indices_index_no_node_no_top.sh
+SKIP: test_scripts/indices_index_entry_in_footnote_info.sh
+SKIP: test_scripts/indices_index_entry_in_footnote_separated_info.sh
+SKIP: test_scripts/nested_formats_texi_nested_formats.sh
+SKIP: test_scripts/nested_formats_nested_group.sh
+SKIP: test_scripts/nested_formats_nested_itemize.sh
+SKIP: test_scripts/nested_formats_nested_menu.sh
+SKIP: test_scripts/nested_formats_nested_table.sh
+SKIP: test_scripts/nested_formats_nested_flushright.sh
+SKIP: test_scripts/nested_formats_nested_multitable.sh
+SKIP: test_scripts/nested_formats_nested_cartouche.sh
+SKIP: test_scripts/nested_formats_nested_enumerate.sh
+SKIP: test_scripts/nested_formats_nested_example.sh
+SKIP: test_scripts/nested_formats_nested_deffn.sh
+SKIP: test_scripts/nested_formats_nested_quotation.sh
+SKIP: test_scripts/contents_contents_at_begin.sh
+SKIP: test_scripts/contents_contents_at_end.sh
+SKIP: test_scripts/contents_contents_in_middle_chapter.sh
+SKIP: test_scripts/contents_contents_in_middle_section.sh
+SKIP: test_scripts/contents_double_contents.sh
+SKIP: test_scripts/contents_double_contents_setcontentsaftertitlepage.sh
+SKIP: test_scripts/contents_double_contents_chapter.sh
+SKIP: test_scripts/contents_double_contents_nodes.sh
+SKIP: test_scripts/contents_double_contents_section.sh
+SKIP: test_scripts/contents_no_content_do_contents.sh
+SKIP: test_scripts/contents_no_content.sh
+SKIP: test_scripts/contents_no_content_setcatpage.sh
+SKIP: test_scripts/contents_no_content_setcatpage_do_contents.sh
+SKIP: test_scripts/contents_contents_at_begin_inline.sh
+SKIP: test_scripts/contents_contents_at_end_inline.sh
+SKIP: test_scripts/contents_contents_in_middle_chapter_inline.sh
+SKIP: test_scripts/contents_contents_in_middle_section_inline.sh
+SKIP: test_scripts/contents_double_contents_inline.sh
+SKIP: test_scripts/contents_double_contents_setcontentsaftertitlepage_inline.sh
+SKIP: test_scripts/contents_double_contents_inline_section.sh
+SKIP: test_scripts/contents_double_contents_inline_chapter.sh
+SKIP: test_scripts/contents_double_contents_inline_nodes.sh
+SKIP: test_scripts/contents_no_content_inline.sh
+SKIP: test_scripts/contents_no_content_do_contents_inline.sh
+SKIP: test_scripts/contents_no_content_setcatpage_inline.sh
+SKIP: test_scripts/contents_double_contents_book.sh
+SKIP: test_scripts/contents_no_content_setcatpage_do_contents_inline.sh
+SKIP: test_scripts/contents_double_contents_setcontentsaftertitlepage_book_chapter.sh
+SKIP: test_scripts/contents_double_contents_setcontentsaftertitlepage_book.sh
+SKIP: test_scripts/contents_contents_and_parts.sh
+SKIP: test_scripts/contents_contents_at_begin_info.sh
+SKIP: test_scripts/contents_contents_at_end_info.sh
+SKIP: test_scripts/contents_contents_in_middle_chapter_info.sh
+SKIP: test_scripts/contents_contents_in_middle_section_info.sh
+SKIP: test_scripts/contents_double_contents_info.sh
+SKIP: test_scripts/contents_double_contents_setcontentsaftertitlepage_info.sh
+SKIP: test_scripts/layout_no_monolithic.sh
+SKIP: test_scripts/layout_no_monolithic_only_toc_out.sh
+SKIP: test_scripts/layout_navigation.sh
+SKIP: test_scripts/layout_navigation_vertical.sh
+SKIP: test_scripts/layout_navigation_no_header.sh
+SKIP: test_scripts/layout_navigation_chapter.sh
+SKIP: test_scripts/layout_navigation_no_header_vertical.sh
+SKIP: test_scripts/layout_navigation_section.sh
+SKIP: test_scripts/layout_navigation_node.sh
+SKIP: test_scripts/layout_navigation_chapter_no_header.sh
+SKIP: test_scripts/layout_navigation_section_no_header.sh
+SKIP: test_scripts/layout_navigation_chapter_vertical.sh
+SKIP: test_scripts/layout_navigation_node_no_header.sh
+SKIP: test_scripts/layout_navigation_node_vertical.sh
+SKIP: test_scripts/layout_navigation_section_vertical.sh
+SKIP: test_scripts/layout_navigation_chapter_no_header_vertical.sh
+SKIP: test_scripts/layout_navigation_section_no_header_vertical.sh
+SKIP: test_scripts/layout_navigation_test_misc_file_collision.sh
+SKIP: test_scripts/layout_navigation_node_no_header_vertical.sh
+SKIP: test_scripts/layout_formatting_xml.sh
+SKIP: test_scripts/layout_formatting_docbook.sh
+SKIP: test_scripts/layout_formatting_weird_quotes.sh
+SKIP: test_scripts/layout_formatting_html.sh
+SKIP: test_scripts/layout_formatting_html_nodes.sh
+SKIP: test_scripts/layout_formatting_plaintext.sh
+SKIP: test_scripts/layout_formatting_regions.sh
+SKIP: test_scripts/layout_formatting_html32.sh
+SKIP: test_scripts/layout_formatting_exotic.sh
+SKIP: test_scripts/layout_formatting_fr_icons.sh
+SKIP: test_scripts/layout_formatting_chm.sh
+SKIP: test_scripts/layout_formatting_nodes.sh
+PASS: test_scripts/formatting_texi_bib-example.sh
+PASS: test_scripts/formatting_texi_glossary.sh
+PASS: test_scripts/formatting_texi_cond.sh
+PASS: test_scripts/formatting_cond.sh
+PASS: test_scripts/formatting_cond_xml.sh
+PASS: test_scripts/formatting_cond_no-ifhtml_no-ifinfo_no-iftex.sh
+PASS: test_scripts/formatting_cond_ifhtml_ifinfo_iftex.sh
+PASS: test_scripts/formatting_cond_info.sh
+PASS: test_scripts/formatting_cond_info_no-ifhtml_no-ifinfo_no-iftex.sh
+PASS: test_scripts/formatting_cond_info_ifhtml_ifinfo_iftex.sh
+PASS: test_scripts/formatting_defcondx_Dbar.sh
+PASS: test_scripts/formatting_defcondx_Ubar.sh
+PASS: test_scripts/formatting_unknown_nodes_renamed.sh
+PASS: test_scripts/formatting_texi_ignore_and_comments.sh
+PASS: test_scripts/formatting_ignore_and_comments_output.sh
+PASS: test_scripts/formatting_test_redefine_need.sh
+PASS: test_scripts/formatting_one_line_no_content.sh
+PASS: test_scripts/formatting_one_line.sh
+PASS: test_scripts/formatting_empty.sh
+PASS: test_scripts/formatting_direntry_dircategory_info_split.sh
+PASS: test_scripts/formatting_split_nocopying.sh
+PASS: test_scripts/formatting_split_nocopying_split.sh
+PASS: test_scripts/formatting_split_nocopying_split_dev_null.sh
+PASS: test_scripts/formatting_simplest_test_prefix.sh
+PASS: test_scripts/formatting_simplest_test_prefix_info.sh
+PASS: test_scripts/formatting_simplest_test_css.sh
+PASS: test_scripts/formatting_simplest_test_date_in_header.sh
+PASS: test_scripts/formatting_documentlanguage_set_option.sh
+PASS: test_scripts/formatting_documentlanguage_set_unknown.sh
+PASS: test_scripts/formatting_documentlanguage_set_option_info.sh
+PASS: test_scripts/formatting_float_copying.sh
+PASS: test_scripts/formatting_simple_with_menu_docbook_info.sh
+SKIP: test_scripts/tex_html_block_EOL_tex.sh
+SKIP: test_scripts/tex_html_simplest_httex.sh
+SKIP: test_scripts/tex_html_tex.sh
+SKIP: test_scripts/tex_html_tex_notex.sh
+SKIP: test_scripts/tex_html_tex_httex.sh
+SKIP: test_scripts/tex_html_tex_accents_httex.sh
+SKIP: test_scripts/tex_html_tex_accents_l2h.sh
+SKIP: test_scripts/tex_html_tex_complex_httex.sh
+SKIP: test_scripts/tex_html_tex_complex_l2h.sh
+SKIP: test_scripts/tex_html_math_not_closed.sh
+SKIP: test_scripts/tex_html_tex_not_closed.sh
+SKIP: test_scripts/tex_html_tex_in_copying.sh
+SKIP: test_scripts/tex_html_formatting_singular.sh
+PASS: test_scripts/formatting_split_for_format_not_split.sh
+PASS: t/stdout.sh
+PASS: t/stdout_split.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 184
+# PASS:  35
+# SKIP:  149
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests'
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests'
+Making check in many_input_files
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+make[5]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+SKIP: tex_l2h.sh
+SKIP: tex_t4ht.sh
+PASS: indices.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 3
+# PASS:  1
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/many_input_files'
+Making check in htmlxref
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+make[5]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+PASS: test_scripts/htmlxref_htmlxref.sh
+PASS: test_scripts/htmlxref_htmlxref_nodes.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref'
+Making check in htmlxref-only_mono
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+make[5]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+PASS: test_scripts/htmlxref-only_mono_htmlxref.sh
+PASS: test_scripts/htmlxref-only_mono_htmlxref_nodes.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_mono'
+Making check in htmlxref-only_split
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+make[5]: Entering directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+PASS: test_scripts/htmlxref-only_split_htmlxref.sh
+PASS: test_scripts/htmlxref-only_split_htmlxref_nodes.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+make[4]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests/htmlxref-only_split'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/tp/tests'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/tp'
+Making check in Pod-Simple-Texinfo
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+PASS: prove.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/Pod-Simple-Texinfo'
+Making check in texindex
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/texindex'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/texindex'
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/texindex'
+PASS: tests/ti-helpversion.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/texindex'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/texindex'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/texindex'
+Making check in util
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/util'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/util'
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/util'
+PASS: tests/texi2dvi_helpversion.sh
+============================================================================
+Testsuite summary for GNU Texinfo 6.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/util'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/util'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/util'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/doc'
+Making check in tp_api
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/doc/tp_api'
+make  check-am
+make[3]: Entering directory '/sources/7.9/texinfo-6.1/doc/tp_api'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/texinfo-6.1/doc/tp_api'
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/doc/tp_api'
+make[2]: Entering directory '/sources/7.9/texinfo-6.1/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/texinfo-6.1/doc'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/doc'
+Making check in man
+make[1]: Entering directory '/sources/7.9/texinfo-6.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1/man'
+make[1]: Entering directory '/sources/7.9/texinfo-6.1'
+make[1]: Leaving directory '/sources/7.9/texinfo-6.1'

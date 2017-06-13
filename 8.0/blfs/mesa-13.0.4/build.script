@@ -1,0 +1,21 @@
+patch -Np1 -i ../mesa-13.0.4-add_xdemos-1.patch
+
+GLL_DRV="nouveau,svga,swrast"
+
+sed -i "/pthread_stubs_possible=/s/yes/no/" configure.ac &&
+
+./autogen.sh CFLAGS='-O2' CXXFLAGS='-O2'    \
+            --prefix=$XORG_PREFIX           \
+            --sysconfdir=/etc               \
+            --enable-texture-float          \
+            --enable-osmesa                 \
+            --enable-xa                     \
+            --enable-glx-tls                \
+            --with-egl-platforms="drm,x11,wayland"  \
+            --with-gallium-drivers=$GLL_DRV &&
+
+unset GLL_DRV &&
+
+make
+
+make -C xdemos DEMOS_PREFIX=$XORG_PREFIX

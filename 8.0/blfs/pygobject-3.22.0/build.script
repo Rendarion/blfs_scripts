@@ -1,0 +1,11 @@
+mkdir python2 &&
+pushd python2 &&
+../configure --prefix=/usr --with-python=/usr/bin/python &&
+make &&
+popd
+
+mkdir python3 &&
+pushd python3 &&
+../configure --prefix=/usr --with-python=/usr/bin/python3 &&
+make &&
+popd

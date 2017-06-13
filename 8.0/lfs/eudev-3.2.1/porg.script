@@ -1,0 +1,5 @@
+make LD_LIBRARY_PATH=/tools/lib install
+
+make -f udev-lfs-20140408/Makefile.lfs install
+
+LD_LIBRARY_PATH=/tools/lib udevadm hwdb --update

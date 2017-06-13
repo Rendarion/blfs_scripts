@@ -1,0 +1,4 @@
+tar -xf ../lua-5.3.4-tests.tar.gz
+cd lua-5.3.4-tests
+
+lua -e "_U=true" all.lua

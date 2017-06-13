@@ -1,0 +1,11 @@
+export LFSVS="8.0"
+USERNAME="****"
+
+export BOOTSCRIPTSARC="blfs-bootscripts-20170225.tar.xz"
+export BOOTSCRIPTSURL="http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20170225.tar.xz"
+
+###### wpa_supplicant #####
+
+SSID="****"
+PSK="****"
+HASHPSK="****"

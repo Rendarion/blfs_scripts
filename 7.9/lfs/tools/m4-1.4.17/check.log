@@ -1,0 +1,1090 @@
+if test -d ./.git				\
+	&& git --version >/dev/null 2>&1; then			\
+  cd . &&						\
+  git submodule --quiet foreach					\
+      test '"$(git rev-parse "$sha1")"'			\
+      = '"$(git merge-base origin "$sha1")"'			\
+    || { echo 'maint.mk: found non-public submodule commit' >&2;	\
+	 exit 1; };						\
+else								\
+  : ;								\
+fi
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/m4-1.4.17'
+Making check in .
+make[2]: Entering directory '/sources/7.9/m4-1.4.17'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/examples'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/lib'
+make  check-am
+make[3]: Entering directory '/sources/7.9/m4-1.4.17/lib'
+make[3]: Leaving directory '/sources/7.9/m4-1.4.17/lib'
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/lib'
+Making check in src
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/src'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/doc'
+Making check in checks
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/checks'
+make  check-local
+make[3]: Entering directory '/sources/7.9/m4-1.4.17/checks'
+PATH=`pwd`/../src":"$PATH; export PATH; \
+./check-them -I ./../examples ./*[0-9][0-9][0-9].* ./stackovf.test
+m4 (GNU M4) 1.4.17
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Rene' Seindal.
+Checking ./001.preprocess
+Checking ./002.debugging_
+Checking ./003.command_li
+Checking ./004.command_li
+Checking ./005.command_li
+Checking ./006.command_li
+Checking ./007.command_li
+Checking ./008.comments
+Checking ./009.comments
+Checking ./010.input_proc
+Checking ./011.input_proc
+Checking ./012.inhibiting
+Checking ./013.inhibiting
+Checking ./014.inhibiting
+Checking ./015.inhibiting
+Checking ./016.inhibiting
+Checking ./017.inhibiting
+Checking ./018.inhibiting
+Checking ./019.inhibiting
+Checking ./020.macro_argu
+Checking ./021.macro_argu
+Checking ./022.macro_argu
+Checking ./023.macro_argu
+Checking ./024.macro_argu
+Checking ./025.quoting_ar
+Checking ./026.macro_expa
+Checking ./027.macro_expa
+Checking ./028.define
+Checking ./029.define
+Checking ./030.define
+Checking ./031.arguments
+Checking ./032.arguments
+Checking ./033.arguments
+Checking ./034.arguments
+Checking ./035.arguments
+Checking ./036.arguments
+Checking ./037.pseudo_arg
+Checking ./038.pseudo_arg
+Checking ./039.pseudo_arg
+Checking ./040.pseudo_arg
+Checking ./041.pseudo_arg
+Checking ./042.pseudo_arg
+Checking ./043.pseudo_arg
+Checking ./044.pseudo_arg
+Checking ./045.pseudo_arg
+Checking ./046.undefine
+Checking ./047.undefine
+Checking ./048.defn
+Checking ./049.defn
+Checking ./050.defn
+Checking ./051.defn
+Checking ./052.defn
+Checking ./053.defn
+Checking ./054.defn
+Checking ./055.pushdef
+Checking ./056.pushdef
+Checking ./057.indir
+Checking ./058.indir
+Checking ./059.indir
+Checking ./060.builtin
+Checking ./061.builtin
+Checking ./062.builtin
+Checking ./063.builtin
+Checking ./064.builtin
+Checking ./065.ifdef
+Checking ./066.ifelse
+Checking ./067.ifelse
+Checking ./068.ifelse
+Checking ./069.ifelse
+Checking ./070.ifelse
+Checking ./071.shift
+Checking ./072.shift
+Checking ./073.shift
+Checking ./074.shift
+Checking ./075.shift
+Checking ./076.shift
+Checking ./077.shift
+Checking ./078.shift
+Checking ./079.forloop
+Checking ./080.forloop
+Checking ./081.forloop
+Checking ./082.foreach
+Checking ./083.foreach
+Checking ./084.foreach
+Checking ./085.foreach
+Checking ./086.foreach
+Checking ./087.foreach
+Checking ./088.stacks
+Checking ./089.stacks
+Checking ./090.compositio
+Checking ./091.compositio
+Checking ./092.compositio
+Checking ./093.compositio
+Checking ./094.dumpdef
+Checking ./095.dumpdef
+Checking ./096.trace
+Checking ./097.trace
+Checking ./098.trace
+Checking ./099.trace
+Checking ./100.trace
+Checking ./101.debug_leve
+Checking ./102.debug_leve
+Checking ./103.debug_leve
+Checking ./104.debug_outp
+Checking ./105.dnl
+Checking ./106.dnl
+Checking ./107.dnl
+Checking ./108.changequot
+Checking ./109.changequot
+Checking ./110.changequot
+Checking ./111.changequot
+Checking ./112.changequot
+Checking ./113.changequot
+Checking ./114.changequot
+Checking ./115.changequot
+Checking ./116.changequot
+Checking ./117.changequot
+Checking ./118.changequot
+Checking ./119.changecom
+Checking ./120.changecom
+Checking ./121.changecom
+Checking ./122.changecom
+Checking ./123.changecom
+Checking ./124.changecom
+Checking ./125.changeword
+ skipping: no changeword support
+Checking ./126.changeword
+ skipping: no changeword support
+Checking ./127.changeword
+ skipping: no changeword support
+Checking ./128.changeword
+ skipping: no changeword support
+Checking ./129.changeword
+ skipping: no changeword support
+Checking ./130.changeword
+ skipping: no changeword support
+Checking ./131.m4wrap
+Checking ./132.m4wrap
+Checking ./133.m4wrap
+Checking ./134.m4wrap
+Checking ./135.m4wrap
+Checking ./136.m4wrap
+Checking ./137.include
+Checking ./138.include
+Checking ./139.include
+Checking ./140.include
+Checking ./141.include
+Checking ./142.include
+Checking ./143.diversions
+Checking ./144.diversions
+Checking ./145.diversions
+Checking ./146.diversions
+Checking ./147.divert
+Checking ./148.divert
+Checking ./149.divert
+Checking ./150.divert
+Checking ./151.divert
+Checking ./152.undivert
+Checking ./153.undivert
+Checking ./154.undivert
+Checking ./155.undivert
+Checking ./156.undivert
+Checking ./157.undivert
+Checking ./158.divnum
+Checking ./159.cleardiver
+Checking ./160.cleardiver
+Checking ./161.len
+Checking ./162.index_macr
+Checking ./163.index_macr
+Checking ./164.index_macr
+Checking ./165.index_macr
+Checking ./166.regexp
+Checking ./167.regexp
+Checking ./168.regexp
+Checking ./169.substr
+Checking ./170.substr
+Checking ./171.translit
+Checking ./172.translit
+Checking ./173.translit
+Checking ./174.translit
+Checking ./175.patsubst
+Checking ./176.patsubst
+Checking ./177.patsubst
+Checking ./178.patsubst
+Checking ./179.patsubst
+Checking ./180.format
+Checking ./181.format
+Checking ./182.format
+Checking ./183.format
+Checking ./184.incr
+Checking ./185.eval
+Checking ./186.eval
+Checking ./187.eval
+Checking ./188.eval
+Checking ./189.eval
+Checking ./190.eval
+Checking ./191.platform_m
+Checking ./192.platform_m
+Checking ./193.platform_m
+Checking ./194.syscmd
+Checking ./195.syscmd
+Checking ./196.esyscmd
+Checking ./197.sysval
+Checking ./198.sysval
+Checking ./199.mkstemp
+Checking ./200.mkstemp
+Checking ./201.mkstemp
+Checking ./202.errprint
+Checking ./203.location
+Checking ./204.location
+Checking ./205.location
+Checking ./206.m4exit
+Checking ./207.m4exit
+Checking ./208.using_froz
+Checking ./209.using_froz
+Checking ./210.using_froz
+Checking ./211.extensions
+Checking ./212.other_inco
+Checking ./213.other_inco
+Checking ./214.improved_e
+Checking ./215.improved_f
+Checking ./216.improved_f
+Checking ./217.improved_f
+Checking ./218.improved_f
+Checking ./219.improved_f
+Checking ./220.improved_f
+Checking ./221.improved_f
+Checking ./222.improved_f
+Checking ./223.improved_f
+Checking ./224.improved_f
+Checking ./225.improved_f
+Checking ./226.improved_f
+Checking ./227.improved_f
+Checking ./228.improved_f
+Checking ./229.improved_c
+Checking ./230.improved_c
+Checking ./231.improved_m
+Checking ./232.improved_m
+Checking ./233.improved_c
+Checking ./234.improved_c
+Checking ./235.improved_c
+Checking ./236.improved_f
+Checking ./stackovf.test
+Stack soft limit set to 300K
+Pass
+
+Skipped checks were:
+  ./125.changeword ./126.changeword ./127.changeword ./128.changeword ./129.changeword ./130.changeword
+All checks successful
+make[3]: Leaving directory '/sources/7.9/m4-1.4.17/checks'
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/checks'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+Making check in .
+make[4]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+make  libtests.a test-alloca-opt test-array_list test-array_oset test-avltree_oset test-binary-io test-btowc test-c-ctype test-c-stack test-c-strcasecmp test-c-strncasecmp test-canonicalize-lgpl test-chdir test-cloexec test-close test-closein  test-dirent test-dirname test-dup test-dup2 test-environ test-errno test-fclose  test-fcntl-h test-fcntl test-fdopen test-fflush test-fflush2 test-fgetc test-filenamecat test-float test-fopen-safer test-fopen test-fpending test-fpurge test-fputc test-fread test-freadahead test-freading test-frexp-nolibm test-frexpl-nolibm test-fseek test-fseeko test-fseeko3 test-fseeko4 test-fstat test-ftell test-ftell3 test-ftello test-ftello3 test-ftello4 test-fwrite test-getcwd-lgpl test-getdtablesize test-getopt test-gettimeofday test-ignore-value test-intprops test-inttypes test-isnand-nolibm test-isnanf-nolibm test-isnanl-nolibm  test-langinfo test-link test-linkedhash_list  test-locale test-localeconv test-localename test-lseek test-lstat test-malloc-gnu test-malloca  test-math test-mbrtowc test-mbrtowc-w32 test-mbsinit test-memchr test-memchr2 test-nl_langinfo test-open test-pathmax test-pipe2 test-posix_spawn_file_actions_addclose test-posix_spawn_file_actions_adddup2 test-posix_spawn_file_actions_addopen test-posix_spawn1 test-posix_spawn2 test-printf-frexp test-printf-frexpl test-quotearg-simple test-raise test-rawmemchr test-readlink test-regex test-rename test-rmdir test-sched test-setenv test-setlocale1 test-setlocale2 test-sigaction  test-signal-h test-signbit test-sigpipe test-sigprocmask test-sleep test-snprintf  test-spawn-pipe-main test-spawn-pipe-child test-spawn test-stat test-stdbool test-stddef test-stdint  test-stdio  test-stdlib test-strchrnul test-strerror  test-string test-strnlen test-strsignal test-strstr test-strtod test-symlink  test-sys_stat  test-sys_time  test-sys_types  test-sys_wait  test-time  test-dup-safer test-unistd test-unsetenv test-vasnprintf test-vasprintf-posix test-vasprintf test-verify test-version-etc  test-wchar test-wcrtomb test-wcrtomb-w32  test-wctype-h test-write test-xalloc-die test-xvasprintf
+make[5]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+depbase=`echo gl_array_list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT gl_array_list.o -MD -MP -MF $depbase.Tpo -c -o gl_array_list.o gl_array_list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo gl_array_oset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT gl_array_oset.o -MD -MP -MF $depbase.Tpo -c -o gl_array_oset.o gl_array_oset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo localename.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT localename.o -MD -MP -MF $depbase.Tpo -c -o localename.o localename.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-alloca-opt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-alloca-opt.o -MD -MP -MF $depbase.Tpo -c -o test-alloca-opt.o test-alloca-opt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-array_list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-array_list.o -MD -MP -MF $depbase.Tpo -c -o test-array_list.o test-array_list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-array_oset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-array_oset.o -MD -MP -MF $depbase.Tpo -c -o test-array_oset.o test-array_oset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-avltree_oset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-avltree_oset.o -MD -MP -MF $depbase.Tpo -c -o test-avltree_oset.o test-avltree_oset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-binary-io.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-binary-io.o -MD -MP -MF $depbase.Tpo -c -o test-binary-io.o test-binary-io.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-btowc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-btowc.o -MD -MP -MF $depbase.Tpo -c -o test-btowc.o test-btowc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-c-ctype.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-c-ctype.o -MD -MP -MF $depbase.Tpo -c -o test-c-ctype.o test-c-ctype.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-c-stack.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-c-stack.o -MD -MP -MF $depbase.Tpo -c -o test-c-stack.o test-c-stack.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-c-strcasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-c-strcasecmp.o -MD -MP -MF $depbase.Tpo -c -o test-c-strcasecmp.o test-c-strcasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-c-strncasecmp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-c-strncasecmp.o -MD -MP -MF $depbase.Tpo -c -o test-c-strncasecmp.o test-c-strncasecmp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-canonicalize-lgpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-canonicalize-lgpl.o -MD -MP -MF $depbase.Tpo -c -o test-canonicalize-lgpl.o test-canonicalize-lgpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-chdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-chdir.o -MD -MP -MF $depbase.Tpo -c -o test-chdir.o test-chdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-cloexec.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-cloexec.o -MD -MP -MF $depbase.Tpo -c -o test-cloexec.o test-cloexec.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-close.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-close.o -MD -MP -MF $depbase.Tpo -c -o test-close.o test-close.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-closein.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-closein.o -MD -MP -MF $depbase.Tpo -c -o test-closein.o test-closein.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-dirent.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-dirent.o -MD -MP -MF $depbase.Tpo -c -o test-dirent.o test-dirent.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-dirname.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-dirname.o -MD -MP -MF $depbase.Tpo -c -o test-dirname.o test-dirname.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-dup.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-dup.o -MD -MP -MF $depbase.Tpo -c -o test-dup.o test-dup.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-dup2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-dup2.o -MD -MP -MF $depbase.Tpo -c -o test-dup2.o test-dup2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-environ.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-environ.o -MD -MP -MF $depbase.Tpo -c -o test-environ.o test-environ.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-errno.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-errno.o -MD -MP -MF $depbase.Tpo -c -o test-errno.o test-errno.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fclose.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fclose.o -MD -MP -MF $depbase.Tpo -c -o test-fclose.o test-fclose.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fcntl-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fcntl-h.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl-h.o test-fcntl-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fcntl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fcntl.o -MD -MP -MF $depbase.Tpo -c -o test-fcntl.o test-fcntl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fdopen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fdopen.o -MD -MP -MF $depbase.Tpo -c -o test-fdopen.o test-fdopen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fflush.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fflush.o -MD -MP -MF $depbase.Tpo -c -o test-fflush.o test-fflush.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fflush2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fflush2.o -MD -MP -MF $depbase.Tpo -c -o test-fflush2.o test-fflush2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fgetc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fgetc.o -MD -MP -MF $depbase.Tpo -c -o test-fgetc.o test-fgetc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-filenamecat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-filenamecat.o -MD -MP -MF $depbase.Tpo -c -o test-filenamecat.o test-filenamecat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-float.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-float.o -MD -MP -MF $depbase.Tpo -c -o test-float.o test-float.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fopen-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fopen-safer.o -MD -MP -MF $depbase.Tpo -c -o test-fopen-safer.o test-fopen-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fopen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fopen.o -MD -MP -MF $depbase.Tpo -c -o test-fopen.o test-fopen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fpending.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fpending.o -MD -MP -MF $depbase.Tpo -c -o test-fpending.o test-fpending.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fpurge.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fpurge.o -MD -MP -MF $depbase.Tpo -c -o test-fpurge.o test-fpurge.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fputc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fputc.o -MD -MP -MF $depbase.Tpo -c -o test-fputc.o test-fputc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fread.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fread.o -MD -MP -MF $depbase.Tpo -c -o test-fread.o test-fread.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-freadahead.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-freadahead.o -MD -MP -MF $depbase.Tpo -c -o test-freadahead.o test-freadahead.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-freading.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-freading.o -MD -MP -MF $depbase.Tpo -c -o test-freading.o test-freading.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-frexp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-frexp.o -MD -MP -MF $depbase.Tpo -c -o test-frexp.o test-frexp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo randomd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT randomd.o -MD -MP -MF $depbase.Tpo -c -o randomd.o randomd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-frexpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-frexpl.o -MD -MP -MF $depbase.Tpo -c -o test-frexpl.o test-frexpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo randoml.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT randoml.o -MD -MP -MF $depbase.Tpo -c -o randoml.o randoml.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fseek.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fseek.o -MD -MP -MF $depbase.Tpo -c -o test-fseek.o test-fseek.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fseeko.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fseeko.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko.o test-fseeko.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fseeko3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fseeko3.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko3.o test-fseeko3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fseeko4.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fseeko4.o -MD -MP -MF $depbase.Tpo -c -o test-fseeko4.o test-fseeko4.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fstat.o -MD -MP -MF $depbase.Tpo -c -o test-fstat.o test-fstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ftell.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ftell.o -MD -MP -MF $depbase.Tpo -c -o test-ftell.o test-ftell.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ftell3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ftell3.o -MD -MP -MF $depbase.Tpo -c -o test-ftell3.o test-ftell3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ftello.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ftello.o -MD -MP -MF $depbase.Tpo -c -o test-ftello.o test-ftello.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ftello3.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ftello3.o -MD -MP -MF $depbase.Tpo -c -o test-ftello3.o test-ftello3.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ftello4.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ftello4.o -MD -MP -MF $depbase.Tpo -c -o test-ftello4.o test-ftello4.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-fwrite.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-fwrite.o -MD -MP -MF $depbase.Tpo -c -o test-fwrite.o test-fwrite.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-getcwd-lgpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-getcwd-lgpl.o -MD -MP -MF $depbase.Tpo -c -o test-getcwd-lgpl.o test-getcwd-lgpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-getdtablesize.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-getdtablesize.o -MD -MP -MF $depbase.Tpo -c -o test-getdtablesize.o test-getdtablesize.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-getopt.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-getopt.o -MD -MP -MF $depbase.Tpo -c -o test-getopt.o test-getopt.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-gettimeofday.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-gettimeofday.o -MD -MP -MF $depbase.Tpo -c -o test-gettimeofday.o test-gettimeofday.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-ignore-value.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-ignore-value.o -MD -MP -MF $depbase.Tpo -c -o test-ignore-value.o test-ignore-value.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-intprops.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-intprops.o -MD -MP -MF $depbase.Tpo -c -o test-intprops.o test-intprops.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-inttypes.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-inttypes.o -MD -MP -MF $depbase.Tpo -c -o test-inttypes.o test-inttypes.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-isnand-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-isnand-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnand-nolibm.o test-isnand-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-isnanf-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-isnanf-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnanf-nolibm.o test-isnanf-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-isnanl-nolibm.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-isnanl-nolibm.o -MD -MP -MF $depbase.Tpo -c -o test-isnanl-nolibm.o test-isnanl-nolibm.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-langinfo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-langinfo.o -MD -MP -MF $depbase.Tpo -c -o test-langinfo.o test-langinfo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-link.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-link.o -MD -MP -MF $depbase.Tpo -c -o test-link.o test-link.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-linkedhash_list.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-linkedhash_list.o -MD -MP -MF $depbase.Tpo -c -o test-linkedhash_list.o test-linkedhash_list.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-locale.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-locale.o -MD -MP -MF $depbase.Tpo -c -o test-locale.o test-locale.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-localeconv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-localeconv.o -MD -MP -MF $depbase.Tpo -c -o test-localeconv.o test-localeconv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-localename.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-localename.o -MD -MP -MF $depbase.Tpo -c -o test-localename.o test-localename.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-lseek.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-lseek.o -MD -MP -MF $depbase.Tpo -c -o test-lseek.o test-lseek.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-lstat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-lstat.o -MD -MP -MF $depbase.Tpo -c -o test-lstat.o test-lstat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-malloc-gnu.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-malloc-gnu.o -MD -MP -MF $depbase.Tpo -c -o test-malloc-gnu.o test-malloc-gnu.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-malloca.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-malloca.o -MD -MP -MF $depbase.Tpo -c -o test-malloca.o test-malloca.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-math.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-math.o -MD -MP -MF $depbase.Tpo -c -o test-math.o test-math.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-mbrtowc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-mbrtowc.o -MD -MP -MF $depbase.Tpo -c -o test-mbrtowc.o test-mbrtowc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-mbrtowc-w32.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-mbrtowc-w32.o -MD -MP -MF $depbase.Tpo -c -o test-mbrtowc-w32.o test-mbrtowc-w32.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-mbsinit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-mbsinit.o -MD -MP -MF $depbase.Tpo -c -o test-mbsinit.o test-mbsinit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-memchr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-memchr.o -MD -MP -MF $depbase.Tpo -c -o test-memchr.o test-memchr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-memchr2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-memchr2.o -MD -MP -MF $depbase.Tpo -c -o test-memchr2.o test-memchr2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-nl_langinfo.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-nl_langinfo.o -MD -MP -MF $depbase.Tpo -c -o test-nl_langinfo.o test-nl_langinfo.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-open.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-open.o -MD -MP -MF $depbase.Tpo -c -o test-open.o test-open.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-pathmax.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-pathmax.o -MD -MP -MF $depbase.Tpo -c -o test-pathmax.o test-pathmax.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-pipe2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-pipe2.o -MD -MP -MF $depbase.Tpo -c -o test-pipe2.o test-pipe2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-posix_spawn_file_actions_addclose.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-posix_spawn_file_actions_addclose.o -MD -MP -MF $depbase.Tpo -c -o test-posix_spawn_file_actions_addclose.o test-posix_spawn_file_actions_addclose.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-posix_spawn_file_actions_adddup2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-posix_spawn_file_actions_adddup2.o -MD -MP -MF $depbase.Tpo -c -o test-posix_spawn_file_actions_adddup2.o test-posix_spawn_file_actions_adddup2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-posix_spawn_file_actions_addopen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-posix_spawn_file_actions_addopen.o -MD -MP -MF $depbase.Tpo -c -o test-posix_spawn_file_actions_addopen.o test-posix_spawn_file_actions_addopen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-posix_spawn1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-posix_spawn1.o -MD -MP -MF $depbase.Tpo -c -o test-posix_spawn1.o test-posix_spawn1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-posix_spawn2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-posix_spawn2.o -MD -MP -MF $depbase.Tpo -c -o test-posix_spawn2.o test-posix_spawn2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-printf-frexp.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-printf-frexp.o -MD -MP -MF $depbase.Tpo -c -o test-printf-frexp.o test-printf-frexp.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-printf-frexpl.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-printf-frexpl.o -MD -MP -MF $depbase.Tpo -c -o test-printf-frexpl.o test-printf-frexpl.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-quotearg-simple.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-quotearg-simple.o -MD -MP -MF $depbase.Tpo -c -o test-quotearg-simple.o test-quotearg-simple.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-raise.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-raise.o -MD -MP -MF $depbase.Tpo -c -o test-raise.o test-raise.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-rawmemchr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-rawmemchr.o -MD -MP -MF $depbase.Tpo -c -o test-rawmemchr.o test-rawmemchr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-readlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-readlink.o -MD -MP -MF $depbase.Tpo -c -o test-readlink.o test-readlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-regex.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-regex.o -MD -MP -MF $depbase.Tpo -c -o test-regex.o test-regex.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-rename.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-rename.o -MD -MP -MF $depbase.Tpo -c -o test-rename.o test-rename.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-rmdir.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-rmdir.o -MD -MP -MF $depbase.Tpo -c -o test-rmdir.o test-rmdir.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sched.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sched.o -MD -MP -MF $depbase.Tpo -c -o test-sched.o test-sched.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-setenv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-setenv.o -MD -MP -MF $depbase.Tpo -c -o test-setenv.o test-setenv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-setlocale1.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-setlocale1.o -MD -MP -MF $depbase.Tpo -c -o test-setlocale1.o test-setlocale1.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-setlocale2.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-setlocale2.o -MD -MP -MF $depbase.Tpo -c -o test-setlocale2.o test-setlocale2.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sigaction.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sigaction.o -MD -MP -MF $depbase.Tpo -c -o test-sigaction.o test-sigaction.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-signal-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-signal-h.o -MD -MP -MF $depbase.Tpo -c -o test-signal-h.o test-signal-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-signbit.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-signbit.o -MD -MP -MF $depbase.Tpo -c -o test-signbit.o test-signbit.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sigpipe.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sigpipe.o -MD -MP -MF $depbase.Tpo -c -o test-sigpipe.o test-sigpipe.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sigprocmask.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sigprocmask.o -MD -MP -MF $depbase.Tpo -c -o test-sigprocmask.o test-sigprocmask.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sleep.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sleep.o -MD -MP -MF $depbase.Tpo -c -o test-sleep.o test-sleep.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-snprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-snprintf.o -MD -MP -MF $depbase.Tpo -c -o test-snprintf.o test-snprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-spawn-pipe-main.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-spawn-pipe-main.o -MD -MP -MF $depbase.Tpo -c -o test-spawn-pipe-main.o test-spawn-pipe-main.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-spawn-pipe-child.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-spawn-pipe-child.o -MD -MP -MF $depbase.Tpo -c -o test-spawn-pipe-child.o test-spawn-pipe-child.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-spawn.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-spawn.o -MD -MP -MF $depbase.Tpo -c -o test-spawn.o test-spawn.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stat.o -MD -MP -MF $depbase.Tpo -c -o test-stat.o test-stat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stdbool.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stdbool.o -MD -MP -MF $depbase.Tpo -c -o test-stdbool.o test-stdbool.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stddef.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stddef.o -MD -MP -MF $depbase.Tpo -c -o test-stddef.o test-stddef.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stdint.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stdint.o -MD -MP -MF $depbase.Tpo -c -o test-stdint.o test-stdint.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stdio.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stdio.o -MD -MP -MF $depbase.Tpo -c -o test-stdio.o test-stdio.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-stdlib.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-stdlib.o -MD -MP -MF $depbase.Tpo -c -o test-stdlib.o test-stdlib.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strchrnul.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strchrnul.o -MD -MP -MF $depbase.Tpo -c -o test-strchrnul.o test-strchrnul.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strerror.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strerror.o -MD -MP -MF $depbase.Tpo -c -o test-strerror.o test-strerror.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-string.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-string.o -MD -MP -MF $depbase.Tpo -c -o test-string.o test-string.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strnlen.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strnlen.o -MD -MP -MF $depbase.Tpo -c -o test-strnlen.o test-strnlen.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strsignal.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strsignal.o -MD -MP -MF $depbase.Tpo -c -o test-strsignal.o test-strsignal.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strstr.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strstr.o -MD -MP -MF $depbase.Tpo -c -o test-strstr.o test-strstr.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-strtod.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-strtod.o -MD -MP -MF $depbase.Tpo -c -o test-strtod.o test-strtod.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-symlink.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-symlink.o -MD -MP -MF $depbase.Tpo -c -o test-symlink.o test-symlink.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sys_stat.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sys_stat.o -MD -MP -MF $depbase.Tpo -c -o test-sys_stat.o test-sys_stat.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sys_time.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sys_time.o -MD -MP -MF $depbase.Tpo -c -o test-sys_time.o test-sys_time.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sys_types.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sys_types.o -MD -MP -MF $depbase.Tpo -c -o test-sys_types.o test-sys_types.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-sys_wait.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-sys_wait.o -MD -MP -MF $depbase.Tpo -c -o test-sys_wait.o test-sys_wait.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-time.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-time.o -MD -MP -MF $depbase.Tpo -c -o test-time.o test-time.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-dup-safer.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-dup-safer.o -MD -MP -MF $depbase.Tpo -c -o test-dup-safer.o test-dup-safer.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-unistd.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-unistd.o -MD -MP -MF $depbase.Tpo -c -o test-unistd.o test-unistd.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-unsetenv.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-unsetenv.o -MD -MP -MF $depbase.Tpo -c -o test-unsetenv.o test-unsetenv.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-vasnprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-vasnprintf.o -MD -MP -MF $depbase.Tpo -c -o test-vasnprintf.o test-vasnprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-vasprintf-posix.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-vasprintf-posix.o -MD -MP -MF $depbase.Tpo -c -o test-vasprintf-posix.o test-vasprintf-posix.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-vasprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-vasprintf.o -MD -MP -MF $depbase.Tpo -c -o test-vasprintf.o test-vasprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-verify.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-verify.o -MD -MP -MF $depbase.Tpo -c -o test-verify.o test-verify.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-version-etc.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-version-etc.o -MD -MP -MF $depbase.Tpo -c -o test-version-etc.o test-version-etc.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-wchar.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-wchar.o -MD -MP -MF $depbase.Tpo -c -o test-wchar.o test-wchar.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-wcrtomb.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-wcrtomb.o -MD -MP -MF $depbase.Tpo -c -o test-wcrtomb.o test-wcrtomb.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-wcrtomb-w32.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-wcrtomb-w32.o -MD -MP -MF $depbase.Tpo -c -o test-wcrtomb-w32.o test-wcrtomb-w32.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-wctype-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-wctype-h.o -MD -MP -MF $depbase.Tpo -c -o test-wctype-h.o test-wctype-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-write.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-write.o -MD -MP -MF $depbase.Tpo -c -o test-write.o test-write.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-xalloc-die.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-xalloc-die.o -MD -MP -MF $depbase.Tpo -c -o test-xalloc-die.o test-xalloc-die.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo test-xvasprintf.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc  -I. -I../lib  -DIN_M4_GNULIB_TESTS=1 -I. -I. -I.. -I./.. -I../lib -I./../lib   -g -O2 -MT test-xvasprintf.o -MD -MP -MF $depbase.Tpo -c -o test-xvasprintf.o test-xvasprintf.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f libtests.a
+ar cru libtests.a gl_array_list.o gl_array_oset.o localename.o 
+ranlib libtests.a
+gcc  -g -O2   -o test-spawn-pipe-child test-spawn-pipe-child.o  
+gcc  -g -O2   -o test-spawn test-spawn.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-stat test-stat.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-stdbool test-stdbool.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-stddef test-stddef.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-stdint test-stdint.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-stdio test-stdio.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-stdlib test-stdlib.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-strchrnul test-strchrnul.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-strerror test-strerror.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-string test-string.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-strnlen test-strnlen.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-strsignal test-strsignal.o libtests.a ../lib/libm4.a libtests.a    
+gcc  -g -O2   -o test-strstr test-strstr.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-strtod test-strtod.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-symlink test-symlink.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sys_stat test-sys_stat.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sys_time test-sys_time.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sys_types test-sys_types.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sys_wait test-sys_wait.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-time test-time.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-dup-safer test-dup-safer.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-unistd test-unistd.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-unsetenv test-unsetenv.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-vasnprintf test-vasnprintf.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-vasprintf test-vasprintf.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-verify test-verify.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-version-etc test-version-etc.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-wchar test-wchar.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-wcrtomb test-wcrtomb.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-wcrtomb-w32 test-wcrtomb-w32.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-wctype-h test-wctype-h.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-write test-write.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-xalloc-die test-xalloc-die.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-xvasprintf test-xvasprintf.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-alloca-opt test-alloca-opt.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-array_list test-array_list.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-array_oset test-array_oset.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-avltree_oset test-avltree_oset.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-binary-io test-binary-io.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-btowc test-btowc.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-c-ctype test-c-ctype.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-c-stack test-c-stack.o libtests.a ../lib/libm4.a libtests.a    
+gcc  -g -O2   -o test-c-strcasecmp test-c-strcasecmp.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-c-strncasecmp test-c-strncasecmp.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-canonicalize-lgpl test-canonicalize-lgpl.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-chdir test-chdir.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-cloexec test-cloexec.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-close test-close.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-closein test-closein.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-dirent test-dirent.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-dirname test-dirname.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-dup test-dup.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-dup2 test-dup2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-environ test-environ.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-errno test-errno.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fclose test-fclose.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fcntl-h test-fcntl-h.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fcntl test-fcntl.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fdopen test-fdopen.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fflush test-fflush.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fflush2 test-fflush2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fgetc test-fgetc.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-filenamecat test-filenamecat.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-float test-float.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fopen-safer test-fopen-safer.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fopen test-fopen.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fpending test-fpending.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fpurge test-fpurge.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fputc test-fputc.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fread test-fread.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-freadahead test-freadahead.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-freading test-freading.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-frexp-nolibm test-frexp.o randomd.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-frexpl-nolibm test-frexpl.o randoml.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fseek test-fseek.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fseeko test-fseeko.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fseeko3 test-fseeko3.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fseeko4 test-fseeko4.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fstat test-fstat.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ftell test-ftell.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ftell3 test-ftell3.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ftello test-ftello.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ftello3 test-ftello3.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ftello4 test-ftello4.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-fwrite test-fwrite.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-getcwd-lgpl test-getcwd-lgpl.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-getdtablesize test-getdtablesize.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-getopt test-getopt.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-gettimeofday test-gettimeofday.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-ignore-value test-ignore-value.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-intprops test-intprops.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-inttypes test-inttypes.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-isnand-nolibm test-isnand-nolibm.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-isnanf-nolibm test-isnanf-nolibm.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-isnanl-nolibm test-isnanl-nolibm.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-langinfo test-langinfo.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-link test-link.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-linkedhash_list test-linkedhash_list.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-locale test-locale.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-localeconv test-localeconv.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-localename test-localename.o libtests.a ../lib/libm4.a libtests.a    
+gcc  -g -O2   -o test-lseek test-lseek.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-lstat test-lstat.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-malloc-gnu test-malloc-gnu.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-malloca test-malloca.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-math test-math.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-mbrtowc test-mbrtowc.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-mbrtowc-w32 test-mbrtowc-w32.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-mbsinit test-mbsinit.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-memchr test-memchr.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-memchr2 test-memchr2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-nl_langinfo test-nl_langinfo.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-open test-open.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-pathmax test-pathmax.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-pipe2 test-pipe2.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-posix_spawn_file_actions_addclose test-posix_spawn_file_actions_addclose.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-posix_spawn_file_actions_adddup2 test-posix_spawn_file_actions_adddup2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-posix_spawn_file_actions_addopen test-posix_spawn_file_actions_addopen.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-posix_spawn1 test-posix_spawn1.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-posix_spawn2 test-posix_spawn2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-printf-frexp test-printf-frexp.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-printf-frexpl test-printf-frexpl.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-quotearg-simple test-quotearg-simple.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-raise test-raise.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-rawmemchr test-rawmemchr.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-readlink test-readlink.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-regex test-regex.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-rename test-rename.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-rmdir test-rmdir.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sched test-sched.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-setenv test-setenv.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-setlocale1 test-setlocale1.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-setlocale2 test-setlocale2.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sigaction test-sigaction.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-signal-h test-signal-h.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-signbit test-signbit.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sigpipe test-sigpipe.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sigprocmask test-sigprocmask.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-sleep test-sleep.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-snprintf test-snprintf.o libtests.a ../lib/libm4.a libtests.a  
+gcc  -g -O2   -o test-spawn-pipe-main test-spawn-pipe-main.o libtests.a ../lib/libm4.a libtests.a   
+gcc  -g -O2   -o test-vasprintf-posix test-vasprintf-posix.o libtests.a ../lib/libm4.a libtests.a  
+make[5]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+make[6]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+PASS: test-alloca-opt
+PASS: test-array_list
+PASS: test-array_oset
+PASS: test-binary-io.sh
+SKIP: test-btowc1.sh
+SKIP: test-btowc2.sh
+PASS: test-avltree_oset
+PASS: test-c-ctype
+PASS: test-c-stack.sh
+SKIP: test-c-stack2.sh
+PASS: test-c-strcase.sh
+PASS: test-canonicalize-lgpl
+PASS: test-chdir
+PASS: test-cloexec
+PASS: test-close
+PASS: test-dirent
+PASS: test-dirname
+PASS: test-dup
+PASS: test-dup2
+PASS: test-closein.sh
+PASS: test-environ
+PASS: test-errno
+PASS: test-fclose
+PASS: test-fcntl-h
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fflush
+PASS: test-fgetc
+PASS: test-fflush2.sh
+PASS: test-float
+PASS: test-filenamecat
+PASS: test-fopen-safer
+PASS: test-fopen
+PASS: test-fpurge
+PASS: test-fpending.sh
+PASS: test-fputc
+PASS: test-fread
+PASS: test-freadahead.sh
+PASS: test-freading
+PASS: test-frexp-nolibm
+PASS: test-frexpl-nolibm
+PASS: test-fseek.sh
+PASS: test-fseek2.sh
+PASS: test-fseeko.sh
+PASS: test-fseeko2.sh
+PASS: test-fseeko4.sh
+PASS: test-fseeko3.sh
+PASS: test-fstat
+PASS: test-ftell.sh
+PASS: test-ftell2.sh
+PASS: test-ftell3
+PASS: test-ftello.sh
+PASS: test-ftello2.sh
+PASS: test-ftello3
+PASS: test-ftello4.sh
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getdtablesize
+PASS: test-getopt
+PASS: test-ignore-value
+PASS: test-gettimeofday
+PASS: test-intprops
+PASS: test-inttypes
+PASS: test-isnand-nolibm
+PASS: test-isnanf-nolibm
+PASS: test-isnanl-nolibm
+PASS: test-langinfo
+PASS: test-link
+PASS: test-locale
+PASS: test-localeconv
+PASS: test-localename
+PASS: test-lseek.sh
+PASS: test-lstat
+PASS: test-linkedhash_list
+PASS: test-malloc-gnu
+PASS: test-math
+SKIP: test-mbrtowc1.sh
+PASS: test-malloca
+SKIP: test-mbrtowc2.sh
+SKIP: test-mbrtowc3.sh
+SKIP: test-mbrtowc4.sh
+SKIP: test-mbrtowc-w32-1.sh
+SKIP: test-mbrtowc-w32-2.sh
+SKIP: test-mbrtowc-w32-3.sh
+SKIP: test-mbrtowc-w32-5.sh
+SKIP: test-mbrtowc-w32-4.sh
+SKIP: test-mbsinit.sh
+PASS: test-memchr2
+PASS: test-nl_langinfo.sh
+PASS: test-open
+PASS: test-pathmax
+PASS: test-pipe2
+PASS: test-posix_spawn_file_actions_addclose
+PASS: test-posix_spawn_file_actions_adddup2
+PASS: test-posix_spawn_file_actions_addopen
+PASS: test-posix_spawn1
+PASS: test-posix_spawn2
+PASS: test-printf-frexp
+PASS: test-printf-frexpl
+PASS: test-quotearg-simple
+PASS: test-raise
+PASS: test-rawmemchr
+PASS: test-readlink
+PASS: test-regex
+PASS: test-rename
+PASS: test-rmdir
+PASS: test-sched
+PASS: test-setenv
+SKIP: test-setlocale1.sh
+PASS: test-setlocale2.sh
+PASS: test-sigaction
+PASS: test-signal-h
+PASS: test-signbit
+PASS: test-sigpipe.sh
+PASS: test-memchr
+PASS: test-sigprocmask
+PASS: test-snprintf
+PASS: test-sleep
+PASS: test-spawn-pipe.sh
+PASS: test-spawn
+PASS: test-stat
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-strchrnul
+PASS: test-strerror
+PASS: test-string
+PASS: test-strsignal
+PASS: test-strnlen
+PASS: test-strtod
+PASS: test-symlink
+PASS: test-strstr
+PASS: test-sys_stat
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-sys_wait
+PASS: test-time
+PASS: test-dup-safer
+PASS: test-unistd
+PASS: test-unsetenv
+PASS: test-init.sh
+PASS: test-vasnprintf
+PASS: test-vasprintf-posix
+PASS: test-vasprintf
+PASS: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-update-copyright.sh
+PASS: test-version-etc.sh
+PASS: test-wchar
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-1.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-5.sh
+PASS: test-wctype-h
+PASS: test-write
+PASS: test-xalloc-die.sh
+PASS: test-xvasprintf
+PASS: test-verify.sh
+make[7]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+make  all-recursive
+make[8]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+Making all in .
+make[9]: Entering directory '/sources/7.9/m4-1.4.17/tests'
+make[9]: Nothing to be done for 'all-am'.
+make[9]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[8]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[7]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+============================================================================
+Testsuite summary for GNU M4 1.4.17
+============================================================================
+# TOTAL: 163
+# PASS:  143
+# SKIP:  20
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[5]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[4]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[3]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[2]: Leaving directory '/sources/7.9/m4-1.4.17/tests'
+make[1]: Leaving directory '/sources/7.9/m4-1.4.17'

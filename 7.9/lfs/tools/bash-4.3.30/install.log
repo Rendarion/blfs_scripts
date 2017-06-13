@@ -1,0 +1,2255 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+
+Beginning configuration for bash-4.3-release for x86_64-unknown-linux-gnu
+
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for strerror in -lcposix... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether gcc needs -traditional... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ar... ar
+checking for ranlib... ranlib
+checking for bison... bison -y
+checking whether make sets $(MAKE)... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for preprocessor stringizing operator... yes
+checking for long double with more range or precision than double... yes
+checking for function prototypes... yes
+checking whether char is unsigned... no
+checking for working volatile... yes
+checking for C/C++ restrict keyword... __restrict
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for off_t... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/time.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unsigned long long... yes
+checking for inttypes.h... yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by GCC... /tools/bin/ld
+checking if the linker (/tools/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for feof_unlocked... yes
+checking for fgets_unlocked... yes
+checking for getc_unlocked... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for localeconv... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for __fsetlocking... yes
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for bison... bison
+checking version of bison... 3.0.4, ok
+checking whether NLS is requested... yes
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether time.h and sys/time.h may both be included... yes
+checking for inttypes.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking varargs.h usability... no
+checking varargs.h presence... no
+checking for varargs.h... no
+checking for limits.h... (cached) yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for locale.h... (cached) yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking stdbool.h usability... yes
+checking stdbool.h presence... yes
+checking for stdbool.h... yes
+checking for stddef.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking for strings.h... (cached) yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking ulimit.h usability... yes
+checking ulimit.h presence... yes
+checking for ulimit.h... yes
+checking sys/pte.h usability... no
+checking sys/pte.h presence... no
+checking for sys/pte.h... no
+checking sys/stream.h usability... no
+checking sys/stream.h presence... no
+checking for sys/stream.h... no
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking for sys/param.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking for sys/ptem.h... no
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking whether getpgrp requires zero arguments... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for working strcoll... yes
+checking return type of signal handlers... void
+checking for __setostype... no
+checking for wait3... yes
+checking for mkfifo... yes
+checking for dup2... yes
+checking for eaccess... yes
+checking for fcntl... yes
+checking for getdtablesize... yes
+checking for getgroups... yes
+checking for gethostname... yes
+checking for getpagesize... (cached) yes
+checking for getpeername... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for gettimeofday... yes
+checking for kill... yes
+checking for killpg... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for sbrk... yes
+checking for select... yes
+checking for setdtablesize... no
+checking for setitimer... yes
+checking for tcgetpgrp... yes
+checking for uname... yes
+checking for ulimit... yes
+checking for waitpid... yes
+checking for rename... yes
+checking for bcopy... yes
+checking for bzero... yes
+checking for confstr... yes
+checking for faccessat... yes
+checking for fnmatch... yes
+checking for getaddrinfo... yes
+checking for gethostbyname... yes
+checking for getservbyname... yes
+checking for getservent... yes
+checking for inet_aton... yes
+checking for imaxdiv... yes
+checking for memmove... yes
+checking for pathconf... yes
+checking for putenv... (cached) yes
+checking for raise... yes
+checking for regcomp... yes
+checking for regexec... yes
+checking for setenv... (cached) yes
+checking for setlinebuf... yes
+checking for setlocale... (cached) yes
+checking for setvbuf... yes
+checking for siginterrupt... yes
+checking for strchr... yes
+checking for sysconf... yes
+checking for syslog... yes
+checking for tcgetattr... yes
+checking for times... yes
+checking for ttyname... yes
+checking for tzset... yes
+checking for unsetenv... yes
+checking for vasprintf... yes
+checking for asprintf... yes
+checking for isascii... yes
+checking for isblank... yes
+checking for isgraph... yes
+checking for isprint... yes
+checking for isspace... yes
+checking for isxdigit... yes
+checking for getpwent... yes
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for getcwd... (cached) yes
+checking for memset... yes
+checking for strcasecmp... (cached) yes
+checking for strcasestr... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for strnlen... yes
+checking for strpbrk... yes
+checking for strstr... yes
+checking for strtod... yes
+checking for strtol... yes
+checking for strtoul... (cached) yes
+checking for strtoll... yes
+checking for strtoull... yes
+checking for strtoimax... yes
+checking for strtoumax... yes
+checking for dprintf... yes
+checking for strchrnul... yes
+checking for strdup... (cached) yes
+checking whether AUDIT_USER_TTY is declared... yes
+checking whether confstr is declared... yes
+checking whether printf is declared... yes
+checking whether sbrk is declared... yes
+checking whether setregid is declared... yes
+checking whether strcpy is declared... yes
+checking whether strsignal is declared... yes
+checking whether strtold is declared... yes
+checking for broken strtold... no
+checking for declaration of strtoimax... yes
+checking for declaration of strtol... yes
+checking for declaration of strtoll... yes
+checking for declaration of strtoul... yes
+checking for declaration of strtoull... yes
+checking for declaration of strtoumax... yes
+checking for alarm... yes
+checking for fpurge... no
+checking for __fpurge... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for working mktime... yes
+checking for argz.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for malloc.h... (cached) yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for getpagesize... (cached) yes
+checking for working mmap... (cached) yes
+checking for __argz_count... (cached) yes
+checking for __argz_next... (cached) yes
+checking for __argz_stringify... (cached) yes
+checking for dcgettext... yes
+checking for mempcpy... (cached) yes
+checking for munmap... (cached) yes
+checking for stpcpy... (cached) yes
+checking for strcspn... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for mbrlen... yes
+checking for mbscasecmp... no
+checking for mbscmp... no
+checking for mbsnrtowcs... yes
+checking for mbsrtowcs... yes
+checking for mbschr... no
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for wcsdup... yes
+checking for wcwidth... yes
+checking for wctype... yes
+checking for wcswidth... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for iswlower... yes
+checking for iswupper... yes
+checking for towlower... yes
+checking for towupper... yes
+checking for iswctype... yes
+checking for nl_langinfo and CODESET... yes
+checking for wchar_t in wchar.h... yes
+checking for wctype_t in wctype.h... yes
+checking for wint_t in wctype.h... yes
+checking for wcwidth broken with unicode combining characters... yes
+checking for locale_charset... no
+checking for dlopen in -ldl... yes
+checking for dlopen... yes
+checking for dlclose... yes
+checking for dlsym... yes
+checking whether sys_siglist is declared... yes
+checking for uid_t in sys/types.h... yes
+checking type of array argument to getgroups... gid_t
+checking for off_t... (cached) yes
+checking for mode_t... yes
+checking for uid_t in sys/types.h... (cached) yes
+checking for pid_t... yes
+checking for size_t... (cached) yes
+checking for ssize_t... yes
+checking for time_t... yes
+checking for long long... long long
+checking for unsigned long long... unsigned long long
+checking return type of signal handlers... (cached) void
+checking for sig_atomic_t in signal.h... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of char *... 8
+checking size of double... 8
+checking size of long long... 8
+checking for u_int... yes
+checking for u_long... yes
+checking for bits16_t... no
+checking for u_bits16_t... no
+checking for bits32_t... no
+checking for u_bits32_t... no
+checking for bits64_t... no
+checking for ptrdiff_t... yes
+checking whether stat file-mode macros are broken... no
+checking whether #! works in shell scripts... yes
+checking whether the ctype macros accept non-ascii characters... no
+checking if dup2 fails to clear the close-on-exec flag... no
+checking whether pgrps need synchronization... no
+checking for type of signal functions... posix
+checking for sys_errlist and sys_nerr... yes
+checking for sys_siglist in system C library... yes
+checking for _sys_siglist in signal.h or unistd.h... yes
+checking for _sys_siglist in system C library... yes
+checking whether signal handlers are of type void... yes
+checking for clock_t... yes
+checking for sigset_t... yes
+checking for sig_atomic_t... yes
+checking for quad_t... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for socklen_t... yes
+checking for size and type of struct rlimit fields... rlim_t
+checking size of intmax_t... 8
+checking for struct termios.c_line... yes
+checking for struct termio.c_line... yes
+checking for struct dirent.d_ino... yes
+checking for struct dirent.d_fileno... yes
+checking for struct dirent.d_namlen... no
+checking for struct winsize in sys/ioctl.h and termios.h... sys/ioctl.h
+checking for struct timeval in sys/time.h and time.h... yes
+checking for struct stat.st_blocks... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct timezone in sys/time.h and time.h... yes
+checking for offset of exit status in return status from wait... 8
+checking for struct timespec in <time.h>... yes
+checking for struct stat.st_atim.tv_nsec... yes
+checking whether struct stat.st_atim is of type struct timespec... yes
+checking for the existence of strsignal... yes
+checking if opendir() opens non-directories... no
+checking whether ulimit can substitute for getdtablesize... yes
+checking whether fpurge is declared... no
+checking to see if getenv can be redefined... yes
+checking if getcwd() will dynamically allocate memory with 0 size... yes
+checking for presence of POSIX-style sigsetjmp/siglongjmp... present
+checking whether or not strcoll and strcmp differ... no
+checking for standard-conformant snprintf... yes
+checking for standard-conformant vsnprintf... yes
+checking for standard-conformant putenv declaration... yes
+checking for standard-conformant unsetenv declaration... yes
+checking for printf floating point output in hex notation... yes
+checking if signal handlers must be reinstalled when invoked... no
+checking for presence of necessary job control definitions... present
+checking for presence of named pipes... present
+checking whether termios.h defines TIOCGWINSZ... no
+checking whether sys/ioctl.h defines TIOCGWINSZ... yes
+checking for TIOCSTAT in sys/ioctl.h... no
+checking for FIONREAD in sys/ioctl.h... yes
+checking whether WCONTINUED flag to waitpid is unavailable or available but broken... no
+checking for speed_t in sys/types.h... no
+checking whether getpw functions are declared in pwd.h... yes
+checking for unusable real-time signals due to large values... no
+checking for tgetent... no
+checking for tgetent in -ltermcap... no
+checking for tgetent in -ltinfo... no
+checking for tgetent in -lcurses... no
+checking for tgetent in -lncurses... no
+checking which library has the termcap functions... using gnutermcap
+checking whether /dev/fd is available... standard
+checking whether /dev/stdin stdout stderr are available... present
+checking for default mail directory... /var/mail
+checking shared object configuration for loadable builtins... supported
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating builtins/Makefile
+config.status: creating lib/readline/Makefile
+config.status: creating lib/glob/Makefile
+config.status: creating lib/intl/Makefile
+config.status: creating lib/malloc/Makefile
+config.status: creating lib/sh/Makefile
+config.status: creating lib/termcap/Makefile
+config.status: creating lib/tilde/Makefile
+config.status: creating doc/Makefile
+config.status: creating support/Makefile
+config.status: creating po/Makefile.in
+config.status: creating examples/loadables/Makefile
+config.status: creating examples/loadables/perl/Makefile
+config.status: creating config.h
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
+rm -f mksyntax
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -L./lib/termcap  -rdynamic  -g -O2 -rdynamic -g -O2  -o mksyntax ./mksyntax.c 
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f mkbuiltins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2  mkbuiltins.c
+rm -f general.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c general.c
+gcc -L./lib/termcap -rdynamic -g -O2 -rdynamic -g -O2  -o mkbuiltins mkbuiltins.o -ldl 
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+    -noproduction -D .   ./alias.def ./bind.def ./break.def ./builtin.def ./caller.def ./cd.def ./colon.def ./command.def ./declare.def ./echo.def ./enable.def ./eval.def ./getopts.def ./exec.def ./exit.def ./fc.def ./fg_bg.def ./hash.def ./help.def ./history.def ./jobs.def ./kill.def ./let.def ./read.def ./return.def ./set.def ./setattr.def ./shift.def ./source.def ./suspend.def ./test.def ./times.def ./trap.def ./type.def ./ulimit.def ./umask.def ./wait.def ./reserved.def ./pushd.def ./shopt.def ./printf.def ./complete.def ./mapfile.def
+rm -f make_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c make_cmd.c
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f dispose_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c dispose_cmd.c
+rm -f copy_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c copy_cmd.c
+rm -f error.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c error.c
+rm -f expr.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c expr.c
+expr.c:210:17: warning: conflicting types for built-in function 'exp2'
+ static intmax_t exp2 __P((void));
+                 ^
+rm -f flags.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c flags.c
+rm -f jobs.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c jobs.c
+rm -f subst.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c subst.c
+rm -f hashcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashcmd.c
+rm -f hashlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashlib.c
+rm -f mailcheck.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c mailcheck.c
+rm -f mksignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -c ./support/mksignames.c
+rm -f buildsignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -o buildsignames.o -c ./support/signames.c
+rm -f input.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c input.c
+rm -f unwind_prot.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c unwind_prot.c
+rm -f pathexp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pathexp.c
+rm -f sig.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c sig.c
+rm -f test.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c test.c
+rm -f alias.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c alias.c
+rm -f array.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c array.c
+rm -f arrayfunc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c arrayfunc.c
+rm -f assoc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c assoc.c
+rm -f braces.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c braces.c
+rm -f bracecomp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bracecomp.c
+rm -f bashhist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashhist.c
+rm -f bashline.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashline.c
+rm -f list.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c list.c
+rm -f stringlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c stringlib.c
+rm -f locale.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c locale.c
+rm -f findcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c findcmd.c
+rm -f redir.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c redir.c
+rm -f pcomplete.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplete.c
+rm -f pcomplib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplib.c
+pcomplete.c: In function 'pcomp_filename_completion_function':
+pcomplete.c:781:29: warning: passing argument 1 of 'sh_contains_quotes' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         sh_contains_quotes (text)) /* guess */
+                             ^
+In file included from shell.h:42:0,
+                 from pcomplete.c:46:
+externs.h:327:12: note: expected 'char *' but argument is of type 'const char *'
+ extern int sh_contains_quotes __P((char *));
+            ^
+rm -f xmalloc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c xmalloc.c
+rm -f syntax.c
+./mksyntax -o syntax.c
+rm -f shell.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c shell.c
+rm -f eval.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c eval.c
+rm -f y.tab.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c y.tab.c
+rm -f print_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c print_cmd.c
+rm -f execute_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c execute_cmd.c
+execute_cmd.c: In function 'coproc_pidchk':
+execute_cmd.c:2062:1: warning: type of 'status' defaults to 'int' [-Wimplicit-int]
+ coproc_pidchk (pid, status)
+ ^
+rm -f mksignames
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -L./lib/termcap  -rdynamic  -g -O2 -rdynamic -g -O2  -o mksignames mksignames.o buildsignames.o 
+rm -f syntax.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c syntax.c
+/bin/sh ./support/mkversion.sh -b -S . -s release -d 4.3 -o newversion.h \
+	&& mv newversion.h version.h
+rm -f lsignames.h
+./mksignames lsignames.h
+rm -f version.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c version.c
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f builtins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtins.c
+rm -f alias.o
+./mkbuiltins -D . alias.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 alias.c || ( rm -f alias.c ; exit 1 )
+rm -f alias.c
+rm -f bind.o
+./mkbuiltins -D . bind.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bind.c || ( rm -f bind.c ; exit 1 )
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -c -o buildversion.o ./version.c
+rm -f bind.c
+rm -f break.o
+./mkbuiltins -D . break.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 break.c || ( rm -f break.c ; exit 1 )
+rm -f variables.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c variables.c
+rm -f break.c
+rm -f builtin.o
+./mkbuiltins -D . builtin.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtin.c || ( rm -f builtin.c ; exit 1 )
+rm -f builtin.c
+rm -f caller.o
+./mkbuiltins -D . caller.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 caller.c || ( rm -f caller.c ; exit 1 )
+rm -f caller.c
+rm -f cd.o
+./mkbuiltins -D . cd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 cd.c || ( rm -f cd.c ; exit 1 )
+rm -f cd.c
+rm -f colon.o
+./mkbuiltins -D . colon.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 colon.c || ( rm -f colon.c ; exit 1 )
+rm -f colon.c
+rm -f command.o
+./mkbuiltins -D . command.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 command.c || ( rm -f command.c ; exit 1 )
+rm -f command.c
+rm -f common.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 common.c
+rm -f declare.o
+./mkbuiltins -D . declare.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 declare.c || ( rm -f declare.c ; exit 1 )
+rm -f declare.c
+rm -f echo.o
+./mkbuiltins -D . echo.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 echo.c || ( rm -f echo.c ; exit 1 )
+rm -f echo.c
+rm -f enable.o
+./mkbuiltins -D . enable.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 enable.c || ( rm -f enable.c ; exit 1 )
+if cmp -s lsignames.h signames.h ; then :; else rm -f signames.h ; cp lsignames.h signames.h ; fi
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -L./lib/termcap  -rdynamic  -g -O2 -rdynamic -g -O2  -o bashversion ./support/bashversion.c buildversion.o 
+rm -f enable.c
+rm -f eval.o
+./mkbuiltins -D . eval.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 eval.c || ( rm -f eval.c ; exit 1 )
+rm -f trap.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/tools/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c trap.c
+rm -f eval.c
+rm -f evalfile.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalfile.c
+rm -f evalstring.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalstring.c
+evalstring.c: In function 'parse_and_execute':
+evalstring.c:208:16: warning: passing argument 1 of 'sigemptyset' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigemptyset (&pe_sigmask);
+                ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:213:12: note: expected 'sigset_t * {aka struct <anonymous> *}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigemptyset (sigset_t *__set) __THROW __nonnull ((1));
+            ^
+evalstring.c:209:45: warning: passing argument 3 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigprocmask (SIG_BLOCK, (sigset_t *)NULL, &pe_sigmask);
+                                             ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:246:12: note: expected 'sigset_t * restrict {aka struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c:288:31: warning: passing argument 2 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     sigprocmask (SIG_SETMASK, &pe_sigmask, (sigset_t *)NULL);
+                               ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:246:12: note: expected 'const sigset_t * restrict {aka const struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c: In function 'parse_string':
+evalstring.c:460:16: warning: passing argument 1 of 'sigemptyset' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigemptyset (&ps_sigmask);
+                ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:213:12: note: expected 'sigset_t * {aka struct <anonymous> *}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigemptyset (sigset_t *__set) __THROW __nonnull ((1));
+            ^
+evalstring.c:461:45: warning: passing argument 3 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigprocmask (SIG_BLOCK, (sigset_t *)NULL, &ps_sigmask);
+                                             ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:246:12: note: expected 'sigset_t * restrict {aka struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c:513:34: warning: passing argument 2 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+        sigprocmask (SIG_SETMASK, &ps_sigmask, (sigset_t *)NULL);
+                                  ^
+In file included from evalstring.c:31:0:
+/tools/include/signal.h:246:12: note: expected 'const sigset_t * restrict {aka const struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+rm -f exec.o
+./mkbuiltins -D . exec.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exec.c || ( rm -f exec.c ; exit 1 )
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.30(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+making lib/glob/libglob.a in ./lib/glob
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/glob'
+rm -f glob.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 glob.c
+rm -f exec.c
+rm -f exit.o
+./mkbuiltins -D . exit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exit.c || ( rm -f exit.c ; exit 1 )
+rm -f exit.c
+rm -f fc.o
+./mkbuiltins -D . fc.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fc.c || ( rm -f fc.c ; exit 1 )
+rm -f fc.c
+rm -f fg_bg.o
+./mkbuiltins -D . fg_bg.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fg_bg.c || ( rm -f fg_bg.c ; exit 1 )
+rm -f strmatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 strmatch.c
+rm -f smatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 smatch.c
+rm -f fg_bg.c
+rm -f hash.o
+./mkbuiltins -D . hash.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 hash.c || ( rm -f hash.c ; exit 1 )
+rm -f hash.c
+rm -f help.o
+./mkbuiltins -D . help.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 help.c || ( rm -f help.c ; exit 1 )
+rm -f help.c
+rm -f history.o
+./mkbuiltins -D . history.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 history.c || ( rm -f history.c ; exit 1 )
+rm -f history.c
+rm -f jobs.o
+./mkbuiltins -D . jobs.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 jobs.c || ( rm -f jobs.c ; exit 1 )
+rm -f jobs.c
+rm -f kill.o
+./mkbuiltins -D . kill.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 kill.c || ( rm -f kill.c ; exit 1 )
+rm -f xmbsrtowcs.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 xmbsrtowcs.c
+rm -f kill.c
+rm -f let.o
+./mkbuiltins -D . let.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 let.c || ( rm -f let.c ; exit 1 )
+rm -f gmisc.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 gmisc.c
+rm -f let.c
+rm -f mapfile.o
+./mkbuiltins -D . mapfile.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 mapfile.c || ( rm -f mapfile.c ; exit 1 )
+rm -f -f libglob.a
+ar cr libglob.a glob.o strmatch.o smatch.o xmbsrtowcs.o gmisc.o
+test -n "ranlib" && ranlib libglob.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/glob'
+making lib/sh/libsh.a in ./lib/sh
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/sh'
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clktck.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clock.c
+rm -f mapfile.c
+rm -f pushd.o
+./mkbuiltins -D . pushd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 pushd.c || ( rm -f pushd.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   getenv.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   oslib.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   setlinebuf.c
+rm -f pushd.c
+rm -f read.o
+./mkbuiltins -D . read.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 read.c || ( rm -f read.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strnlen.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   itos.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zread.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zwrite.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shtty.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmatch.c
+rm -f read.c
+rm -f return.o
+./mkbuiltins -D . return.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 return.c || ( rm -f return.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   eaccess.c
+rm -f return.c
+rm -f set.o
+./mkbuiltins -D . set.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 set.c || ( rm -f set.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netconn.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netopen.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   timeval.c
+rm -f set.c
+rm -f setattr.o
+./mkbuiltins -D . setattr.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 setattr.c || ( rm -f setattr.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   makepath.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathcanon.c
+rm -f setattr.c
+rm -f shift.o
+./mkbuiltins -D . shift.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shift.c || ( rm -f shift.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathphys.c
+rm -f shift.c
+rm -f source.o
+./mkbuiltins -D . source.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 source.c || ( rm -f source.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   tmpfile.c
+rm -f source.c
+rm -f suspend.o
+./mkbuiltins -D . suspend.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 suspend.c || ( rm -f suspend.c ; exit 1 )
+rm -f suspend.c
+rm -f test.o
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringlist.c
+./mkbuiltins -D . test.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 test.c || ( rm -f test.c ; exit 1 )
+rm -f test.c
+rm -f times.o
+./mkbuiltins -D . times.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 times.c || ( rm -f times.c ; exit 1 )
+rm -f times.c
+rm -f trap.o
+./mkbuiltins -D . trap.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 trap.c || ( rm -f trap.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringvec.c
+rm -f trap.c
+rm -f type.o
+./mkbuiltins -D . type.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 type.c || ( rm -f type.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   spell.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shquote.c
+rm -f type.c
+gcc  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2  -L./lib/termcap -rdynamic -g -O2 -rdynamic -g -O2  -o psize.aux ./psize.c
+rm -f umask.o
+./mkbuiltins -D . umask.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 umask.c || ( rm -f umask.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strtrans.c
+rm -f umask.c
+rm -f wait.o
+./mkbuiltins -D . wait.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 wait.c || ( rm -f wait.c ; exit 1 )
+rm -f wait.c
+rm -f getopts.o
+./mkbuiltins -D . getopts.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopts.c || ( rm -f getopts.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   snprintf.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mailstat.c
+rm -f getopts.c
+rm -f shopt.o
+./mkbuiltins -D . shopt.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shopt.c || ( rm -f shopt.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtulong.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtullong.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtumax.c
+rm -f shopt.c
+rm -f printf.o
+./mkbuiltins -D . printf.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 printf.c || ( rm -f printf.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zcatfd.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zmapfd.c
+rm -f printf.c
+rm -f getopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopt.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   winsize.c
+rm -f bashgetopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bashgetopt.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   wcsdup.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fpurge.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zgetline.c
+rm -f complete.o
+./mkbuiltins -D . complete.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 complete.c || ( rm -f complete.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   uconvert.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   ufuncs.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   casemod.c
+rm -f complete.c
+/bin/sh ./psize.sh > pipesize.h
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   input_avail.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscasecmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fnxform.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   unicode.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmbchar.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   wcsnwidth.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbschr.c
+rm -f libsh.a
+ar cr libsh.a clktck.o clock.o getenv.o oslib.o setlinebuf.o strnlen.o itos.o zread.o zwrite.o shtty.o shmatch.o eaccess.o netconn.o netopen.o timeval.o makepath.o pathcanon.o pathphys.o tmpfile.o stringlist.o stringvec.o spell.o shquote.o strtrans.o snprintf.o mailstat.o fmtulong.o fmtullong.o fmtumax.o zcatfd.o zmapfd.o winsize.o wcsdup.o fpurge.o zgetline.o mbscmp.o uconvert.o ufuncs.o casemod.o input_avail.o mbscasecmp.o fnxform.o unicode.o shmbchar.o wcsnwidth.o mbschr.o
+test -n "ranlib" && ranlib libsh.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/sh'
+making lib/readline/libreadline.a in ./lib/readline
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/readline'
+rm -f readline.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 readline.c
+rm -f vi_mode.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 vi_mode.c
+rm -f funmap.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 funmap.c
+rm -f keymaps.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 keymaps.c
+rm -f parens.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 parens.c
+rm -f search.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 search.c
+rm -f rltty.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 rltty.c
+rm -f complete.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 complete.c
+rm -f bind.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 bind.c
+rm -f ulimit.o
+./mkbuiltins -D . ulimit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 ulimit.c || ( rm -f ulimit.c ; exit 1 )
+rm -f ulimit.c
+rm -f libbuiltins.a
+ar cr libbuiltins.a builtins.o alias.o bind.o break.o builtin.o caller.o cd.o colon.o command.o common.o declare.o echo.o enable.o eval.o evalfile.o evalstring.o exec.o exit.o fc.o fg_bg.o hash.o help.o history.o jobs.o kill.o let.o mapfile.o pushd.o read.o return.o set.o setattr.o shift.o source.o suspend.o test.o times.o trap.o type.o ulimit.o umask.o wait.o getopts.o shopt.o printf.o getopt.o bashgetopt.o complete.o
+ranlib libbuiltins.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+making lib/termcap/libtermcap.a in ./lib/termcap
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/termcap'
+gcc -c -g -O2 -DHAVE_CONFIG_H  -I. -I../.. -I../.. -I../../lib -I. termcap.c
+rm -f isearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 isearch.c
+gcc -c -g -O2 -DHAVE_CONFIG_H  -I. -I../.. -I../.. -I../../lib -I. tparam.c
+tparam.c: In function 'memory_out':
+tparam.c:67:3: warning: implicit declaration of function 'write' [-Wimplicit-function-declaration]
+   write (2, "virtual memory exhausted\n", 25);
+   ^
+rm -f -f libtermcap.a
+ar cr libtermcap.a termcap.o tparam.o
+test -n "ranlib" && ranlib libtermcap.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/termcap'
+making lib/tilde/libtilde.a in ./lib/tilde
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/tilde'
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 tilde.c
+rm -f display.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 display.c
+rm -f libtilde.a
+ar cr libtilde.a tilde.o
+test -n "ranlib" && ranlib libtilde.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/tilde'
+rm -f signals.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 signals.c
+rm -f util.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 util.c
+rm -f kill.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 kill.c
+rm -f undo.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 undo.c
+rm -f macro.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 macro.c
+rm -f input.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 input.c
+rm -f callback.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 callback.c
+rm -f terminal.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 terminal.c
+rm -f text.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 text.c
+rm -f nls.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 nls.c
+rm -f misc.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 misc.c
+rm -f history.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 history.c
+rm -f histexpand.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 histexpand.c
+rm -f histfile.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 histfile.c
+rm -f histsearch.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 histsearch.c
+rm -f shell.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 shell.c
+rm -f savestring.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 savestring.c
+rm -f mbutil.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 mbutil.c
+rm -f tilde.o
+gcc -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 -DREADLINE_LIBRARY -c ./tilde.c
+rm -f colors.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 colors.c
+rm -f parse-colors.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 parse-colors.c
+rm -f xmalloc.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 xmalloc.c
+rm -f xfree.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 xfree.c
+rm -f compat.o
+gcc -c -DHAVE_CONFIG_H -DSHELL   -I. -I/sources/7.9/bash-4.3.30 -I../.. -I../../lib  -g -O2 compat.c
+rm -f libreadline.a
+ar cr libreadline.a readline.o vi_mode.o funmap.o keymaps.o parens.o search.o rltty.o complete.o bind.o isearch.o display.o signals.o util.o kill.o undo.o macro.o input.o callback.o terminal.o text.o nls.o misc.o history.o histexpand.o histfile.o histsearch.o shell.o savestring.o mbutil.o tilde.o colors.o parse-colors.o xmalloc.o xfree.o compat.o 
+test -n "ranlib" && ranlib libreadline.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/readline'
+making lib/readline/libhistory.a in ./lib/readline
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/readline'
+rm -f libhistory.a
+ar cr libhistory.a history.o histexpand.o histfile.o histsearch.o shell.o savestring.o mbutil.o xmalloc.o xfree.o
+test -n "ranlib" && ranlib libhistory.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/readline'
+rm -f bash
+gcc -L./builtins -L./lib/readline -L./lib/readline -L./lib/glob -L./lib/tilde  -L./lib/sh -L./lib/termcap  -rdynamic  -g -O2 -o bash shell.o eval.o y.tab.o general.o make_cmd.o print_cmd.o  dispose_cmd.o execute_cmd.o variables.o copy_cmd.o error.o expr.o flags.o jobs.o subst.o hashcmd.o hashlib.o mailcheck.o trap.o input.o unwind_prot.o pathexp.o sig.o test.o version.o alias.o array.o arrayfunc.o assoc.o braces.o bracecomp.o bashhist.o bashline.o  list.o stringlib.o locale.o findcmd.o redir.o pcomplete.o pcomplib.o syntax.o xmalloc.o  -lbuiltins -lglob -lsh -lreadline -lhistory ./lib/termcap/libtermcap.a -ltilde     -ldl 
+ls -l bash
+-rwxr-xr-x 1 lfs lfs 3649328 Jun  5 15:56 bash
+size bash
+   text	   data	    bss	    dec	    hex	filename
+ 957598	  36352	  23184	1017134	  f852e	bash
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.30(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+Testing /sources/7.9/bash-4.3.30/bash
+version: 4.3.30(1)-release
+versinfo: 4 3 30 1 release x86_64-unknown-linux-gnu
+HOSTTYPE = x86_64
+OSTYPE = linux-gnu
+MACHTYPE = x86_64-unknown-linux-gnu
+Any output from any test, unless otherwise noted, indicates a possible anomaly
+run-alias
+run-appendop
+run-arith
+run-arith-for
+run-array
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+warning: the BASH_ARGC and BASH_ARGV tests will fail if debugging support
+warning: has not been compiled into the shell
+run-array2
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+run-assoc
+warning: all of these tests will fail if arrays have not
+warning: been compiled into the shell
+run-braces
+run-builtins
+warning: some of these tests may fail if process substitution has not
+warning: been compiled into the shell or if the OS does not provide
+warning: /dev/fd.
+108d107
+< ./source5.sub: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+121,122c120,122
+< ./source7.sub: line 5: /var/tmp/x28-29866: Permission denied
+< ./source7.sub: line 6: /var/tmp/x28-29866: No such file or directory
+---
+> abc
+> def
+> ghi
+124,134c124,131
+< ./source7.sub: line 13: /var/tmp/x29-29866: Permission denied
+< ./source7.sub: line 14: /var/tmp/x29-29866: Permission denied
+< chmod: cannot access '/var/tmp/x29-29866': No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 27: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+< ./source7.sub: line 28: /var/tmp/x29-29866: No such file or directory
+---
+> one.1 subshell
+> two.1 subshell
+> three.1 subshell
+> four.1 subshell
+> one.2 subshell
+> two.2 subshell
+> three.2 subshell
+> four.2 subshell
+run-case
+run-casemod
+run-comsub
+run-comsub-eof
+run-comsub-posix
+run-cond
+warning: all of these tests will fail if the conditional command has not
+warning: been compiled into the shell
+warning: some of these tests will fail if extended pattern matching has not
+warning: been compiled into the shell
+run-coproc
+warning: the process IDs printed will differ on every run
+warning: and generate diffs
+1c1
+< 30063
+---
+> 84575
+4c4
+< 30065
+---
+> 84577
+7,8c7,8
+< ./coproc.tests: line 22: 30065 Terminated              coproc REFLECT { cat -; }
+< 30067
+---
+> ./coproc.tests: line 22: 84577 Terminated              coproc REFLECT { cat -; }
+> 84579
+run-cprint
+run-dbg-support
+run-dbg-support2
+run-dirstack
+run-dollars
+run-errors
+run-execscript
+warning: the text of a system error message may vary between systems and
+warning: produce diff output.
+warning: if the text of the error messages concerning `notthere' or
+warning: `/tmp/bash-notthere' not being found or `/' being a directory
+warning: produce diff output, please do not consider this a test failure
+warning: if diff output differing only in the location of the bash
+warning: binary appears, please do not consider this a test failure
+run-exp-tests
+run-extglob
+mkdir: cannot create directory '/var/tmp/eglob-test-30508': Permission denied
+./extglob.tests: line 199: cd: /var/tmp/eglob-test-30508: No such file or directory
+./extglob.tests: cannot cd to /var/tmp/eglob-test-30508
+36a37,94
+> !([*)*
+> +(a|b[)*
+> [a*(]*)z
+> +()c
+> +()x
+> abc
+> +(*)x
+> abc
+> no-file+(a|b)stuff
+> no-file+(a*(c)|b)stuff
+> abd acd
+> acd
+> abd
+> no
+> yes
+> yes
+> 1: bcdef
+> 2: def
+> 3: abcde
+> 4: abc
+> 5: ef
+> 6: ef
+> 7: abcdef
+> ab abef
+> abcfef abef
+> abcdef
+> ab abcdef abcfef abef
+> abcdef abcfef abef
+> ok 37
+> ok 38
+> ok 39
+> ok 40
+> ok 41
+> ok 42
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a.b
+> a b a,b a-b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> a b a,b a-b a.b a:b a;b a_b
+> argv[1] = <ef>
+> a,b
+> a.c
+> a.c
+> a.c
+> a.c
+> a.c
+> a.c
+> ok 1
+> ok 2
+> ok 3
+> a ab
+> a ab
+> a ab
+> a
+run-extglob2
+run-extglob3
+run-func
+warning: if you have exported functions defined in your environment,
+warning: they may show up as diff output.
+warning: if so, please do not consider this a test failure
+run-getopts
+run-glob-test
+run-globstar
+1c1,585
+< mkdir: cannot create directory '/var/tmp/globstar-30640': Permission denied
+---
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> 
+> lib/:
+> glob
+> readline
+> sh
+> 
+> lib/glob:
+> glob.o
+> smatch.o
+> strmatch.o
+> 
+> lib/readline:
+> bind.o
+> callback.o
+> compat.o
+> complete.o
+> display.o
+> 
+> lib/sh:
+> casemod.o
+> clktck.o
+> clock.o
+> eaccess.o
+> fdprintf.o
+> fmtullong.o
+> fmtulong.o
+> fmtumax.o
+> fpurge.o
+> getenv.o
+> input_avail.o
+> itos.o
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> alias.o builtins/history.o builtins/jobs.o builtins/kill.o builtins/let.o builtins/mapfile.o lib/glob/glob.o lib/glob/smatch.o lib/glob/strmatch.o lib/readline/bind.o lib/readline/callback.o lib/readline/compat.o lib/readline/complete.o lib/readline/display.o lib/sh/casemod.o lib/sh/clktck.o lib/sh/clock.o lib/sh/eaccess.o lib/sh/fdprintf.o lib/sh/fmtullong.o lib/sh/fmtulong.o lib/sh/fmtumax.o lib/sh/fpurge.o lib/sh/getenv.o lib/sh/input_avail.o lib/sh/itos.o pcomplib.o print_cmd.o redir.o shell.o sig.o stringlib.o subst.o syntax.o test.o trap.o unwind_prot.o variables.o version.o xmalloc.o y.tab.o
+> alias.o
+> builtins/history.o
+> builtins/jobs.o
+> builtins/kill.o
+> builtins/let.o
+> builtins/mapfile.o
+> lib/glob/glob.o
+> lib/glob/smatch.o
+> lib/glob/strmatch.o
+> lib/readline/bind.o
+> lib/readline/callback.o
+> lib/readline/compat.o
+> lib/readline/complete.o
+> lib/readline/display.o
+> lib/sh/casemod.o
+> lib/sh/clktck.o
+> lib/sh/clock.o
+> lib/sh/eaccess.o
+> lib/sh/fdprintf.o
+> lib/sh/fmtullong.o
+> lib/sh/fmtulong.o
+> lib/sh/fmtumax.o
+> lib/sh/fpurge.o
+> lib/sh/getenv.o
+> lib/sh/input_avail.o
+> lib/sh/itos.o
+> pcomplib.o
+> print_cmd.o
+> redir.o
+> shell.o
+> sig.o
+> stringlib.o
+> subst.o
+> syntax.o
+> test.o
+> trap.o
+> unwind_prot.o
+> variables.o
+> version.o
+> xmalloc.o
+> y.tab.o
+> 
+> builtins:
+> history.o
+> jobs.o
+> kill.o
+> let.o
+> mapfile.o
+> 
+> lib:
+> glob
+> readline
+> sh
+> 
+> lib/glob:
+> glob.o
+> smatch.o
+> strmatch.o
+> 
+> lib/readline:
+> bind.o
+> callback.o
+> compat.o
+> complete.o
+> display.o
+> 
+> lib/sh:
+> casemod.o
+> clktck.o
+> clock.o
+> eaccess.o
+> fdprintf.o
+> fmtullong.o
+> fmtulong.o
+> fmtumax.o
+> fpurge.o
+> getenv.o
+> input_avail.o
+> itos.o
+> alias.o builtins builtins/history.o builtins/jobs.o builtins/kill.o builtins/let.o builtins/mapfile.o lib lib/glob lib/glob/glob.o lib/glob/smatch.o lib/glob/strmatch.o lib/readline lib/readline/bind.o lib/readline/callback.o lib/readline/compat.o lib/readline/complete.o lib/readline/display.o lib/sh lib/sh/casemod.o lib/sh/clktck.o lib/sh/clock.o lib/sh/eaccess.o lib/sh/fdprintf.o lib/sh/fmtullong.o lib/sh/fmtulong.o lib/sh/fmtumax.o lib/sh/fpurge.o lib/sh/getenv.o lib/sh/input_avail.o lib/sh/itos.o pcomplib.o print_cmd.o redir.o shell.o sig.o stringlib.o subst.o syntax.o test.o trap.o unwind_prot.o variables.o version.o xmalloc.o y.tab.o
+> bar/foo foo
+> bar/foo/ foo/
+> bar/foo/e bar/foo/f foo/a foo/b
+> <a>
+> <a/a>
+> <a/a/a>
+> <a>
+> <a/a>
+> <a/a/a>
+> <a>
+> <a/a>
+> <a/a/a>
+> == <**/a> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/b/a>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/b/a>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/b/a>
+> == <a/**> ==
+> <a/>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b>
+> <b/b/b/a>
+> <b/b/b/b>
+> == <**/**/a> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/b/a>
+> <b/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/b/a>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/b/a>
+> == <a/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <a/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <a/**/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/b>
+> == <**/a/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/a/**/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/a/**/**/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> == <**/**/a/**> ==
+> <a>
+> <a/a>
+> <a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/a>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/a/b>
+> <a/a/b>
+> <a/a/b>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/a>
+> <a/a/b/b>
+> <a/a/b/b>
+> <a/b>
+> <a/b/a>
+> <a/b/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/a>
+> <a/b/a/b>
+> <a/b/a/b>
+> <a/b/b>
+> <a/b/b/a>
+> <a/b/b/a>
+> <a/b/b/b>
+> <b/a>
+> <b/a/a>
+> <b/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/a>
+> <b/a/a/b>
+> <b/a/a/b>
+> <b/a/b>
+> <b/a/b/a>
+> <b/a/b/a>
+> <b/a/b/b>
+> <b/b/a>
+> <b/b/a/a>
+> <b/b/a/a>
+> <b/b/a/b>
+> <b/b/b/a>
+> /tmp/empty
+run-heredoc
+warning: UNIX versions number signals and schedule processes differently.
+warning: If output differing only in line numbers is produced, please
+warning: do not consider this a test failure.
+run-herestr
+run-histexpand
+warning: all of these tests will fail if history has not been compiled
+warning: into the shell
+run-history
+warning: all of these tests will fail if history has not been compiled
+warning: into the shell
+run-ifs
+run-ifs-posix
+run-input-test
+run-intl
+warning: some of these tests will fail if you do not have UTF-8
+warning: locales installed on your system.
+warning: please ignore any differences consisting only of white space
+./intl.tests: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8): No such file or directory
+/sources/7.9/bash-4.3.30/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+./intl1.sub: line 1: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/sources/7.9/bash-4.3.30/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+/sources/7.9/bash-4.3.30/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+2c2
+< 2
+---
+> 1
+8,15c8,14
+< a�b
+< 0000000 141 303 142
+< 0000003
+< -абвгдежзиклмноп - 31
+< -абвгдежзиклмноп- 30
+< -аб�- 5
+< 1.0000
+< 1.0000
+---
+> aéb
+> 0000000 141 303 251 142
+> 0000004
+> -абвгдежзиклмноп - 16
+> -абвгдежзиклмноп- 15
+> -абвгд- 5
+> 1,0000
+19a19
+> 1,0000
+21c21
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+23c23
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+25c25
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+27c27
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+29c29
+< 0000000 357 277 277 012
+---
+> 0000000   357 277 277 012                                                
+31c31
+< 0000000 357 277 277 012
+---
+> 0000000   357 277 277 012                                                
+33c33
+< 0000000 012
+---
+> 0000000   012                                                            
+35c35
+< 0000000 012
+---
+> 0000000   012                                                            
+37c37
+< 0000000 012
+---
+> 0000000   012                                                            
+39c39
+< 0000000 012
+---
+> 0000000   012                                                            
+41c41
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+43c43
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+45c45
+< 0000000 303 277 012
+---
+> 0000000   303 277 012                                                    
+47c47
+< 0000000 101 040 302 243 040 305 222 012
+---
+> 0000000   101 040 302 243 040 305 222 012                                
+49d48
+< /sources/7.9/bash-4.3.30/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+51c50
+< $'5\247@3\231+\306S8\237\242\352\263'
+---
+> 5�@3�+�S8���
+run-invert
+run-iquote
+run-jobs
+warning: some of these tests may fail if job control has not been compiled
+warning: into the shell
+warning: there may be a message regarding a cat process dying due to a
+warning: SIGHUP.  Please disregard.
+run-lastpipe
+run-mapfile
+run-more-exp
+run-nameref
+warning: some of these tests will fail if arrays have not
+warning: been compiled into the shell
+run-new-exp
+warning: two of these tests will fail if your OS does not support
+warning: named pipes or the /dev/fd filesystem.  If the tests of the
+warning: process substitution mechanism fail, please do not consider
+warning: this a test failure
+warning: if you have exported variables beginning with the string _Q,
+warning: diff output may be generated.  If so, please do not consider
+warning: this a test failure
+run-nquote
+run-nquote1
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+run-nquote2
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+run-nquote3
+warning: several of these tests will fail if arrays have not
+warning: been compiled into the shell.
+run-nquote4
+warning: some of these tests will fail if you do not have UTF-8
+warning: locales installed on your system
+run-nquote5
+run-posix2
+run-posixexp
+40,44d39
+< cp: cannot create regular file '/var/tmp/sh': Permission denied
+< ./posixexp1.sub: line 5: /var/tmp/sh: No such file or directory
+< sh posixexp1.sub: test 2 failed
+< ./posixexp2.sub: line 10: /var/tmp/sh: No such file or directory
+< sh posixexp2.sub: test 4 failed
+run-posixexp2
+run-posixpat
+run-posixpipe
+run-precedence
+run-printf
+253d252
+< printf2.sub: multibyte character conversion failed
+run-quote
+run-read
+warning: please do not consider output differing only in the amount of
+warning: white space to be an error.
+run-redir
+warning: the text of a system error message may vary between systems and
+warning: produce diff output.
+warning: if the text of an error message concerning `redir1.*' not being
+warning: found or messages concerning bad file descriptors produce diff
+warning: output, please do not consider it a test failure
+103,107d102
+< ./redir8.sub: line 4: u: Permission denied
+< cat: u: No such file or directory
+< ./redir8.sub: line 8: u: Permission denied
+< cat: u: No such file or directory
+< ./redir8.sub: line 12: u: Permission denied
+109,110d103
+< cat: u: No such file or directory
+< ./redir8.sub: line 18: u: Permission denied
+112,121c105,114
+< cat: u: No such file or directory
+< ./redir8.sub: line 25: infile: Permission denied
+< ./redir8.sub: line 33: infile: No such file or directory
+< ./redir8.sub: line 34: 10: Bad file descriptor
+< ./redir8.sub: line 34: 10: Bad file descriptor
+< ./redir8.sub: line 39: infile: No such file or directory
+< ./redir8.sub: line 40: 8: Bad file descriptor
+< ./redir8.sub: line 40: 8: Bad file descriptor
+< ./redir8.sub: line 46: infile: No such file or directory
+< ./redir8.sub: line 53: infile: No such file or directory
+---
+> fd 10
+> fd 8
+> 1
+> 2
+> 3
+> 4
+> 1
+> 2
+> 3
+> 4
+run-rhs-exp
+run-rsh
+run-set-e
+run-set-x
+30,32d29
+< ./set-x1.sub: line 5: /var/tmp/bash-trace-10665: Permission denied
+< ./set-x1.sub: line 6: BASH_XTRACEFD: 4: invalid value for trace file descriptor
+< + echo 1
+34d30
+< + echo 2
+36d31
+< + echo 3
+38d32
+< + echo 4
+40d33
+< + unset BASH_XTRACEFD
+58c51,55
+< cat: /var/tmp/bash-trace-10665: No such file or directory
+---
+> + echo 1
+> + echo 2
+> + echo 3
+> + echo 4
+> + unset BASH_XTRACEFD
+run-shopt
+run-strip
+run-test
+152c152
+< 1
+---
+> 0
+158c158
+< 1
+---
+> 0
+run-tilde
+run-tilde2
+run-trap
+warning: UNIX versions number signals and schedule processes differently.
+warning: If output differing only in line numbers is produced, please
+warning: do not consider this a test failure.
+72d71
+< +[8] false
+73a73
+> +[8] false
+102d101
+< trap -- '' SIGUSR2
+103a103
+> trap -- '' SIGUSR2
+run-type
+run-varenv
+run-vredir
+1,6c1,4
+< ./vredir.tests: line 6: v: Permission denied
+< 
+< ./vredir.tests: line 12: $v: ambiguous redirect
+< ./vredir.tests: line 13: $v: ambiguous redirect
+< ./vredir.tests: line 14: $v: ambiguous redirect
+< cat: /var/tmp/foo: No such file or directory
+---
+> 10
+> foo 1
+> foo 2
+> foo 3
+13,14c11,12
+< ./vredir.tests: line 20: v: ambiguous redirect
+< ./vredir.tests: line 6: v: Permission denied
+---
+> ./vredir.tests: line 6: v: readonly variable
+> ./vredir.tests: line 6: v: cannot assign fd to variable
+19d16
+< cat: /var/tmp/foo: No such file or directory
+41d37
+< ./vredir2.sub: line 4: /var/tmp/shells-10859: Permission denied
+46d41
+< ./vredir2.sub: line 32: v: No such file or directory
+48c43,48
+< ./vredir2.sub: line 35: $v: Bad file descriptor
+---
+> /bin/bash
+> /bin/csh
+> /bin/ksh
+> /bin/sh
+> /bin/tcsh
+> /bin/zsh
+59c59,64
+< ./vredir2.sub: line 48: fd: No such file or directory
+---
+> /bin/bash
+> /bin/csh
+> /bin/ksh
+> /bin/sh
+> /bin/tcsh
+> /bin/zsh
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.30(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+mkdir -p -- /tools/share/doc/bash
+( cd ./po/ ; make -j --jobserver-fds=3,4 DESTDIR= installdirs )
+	  ***********************************************************
+
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/po'
+/bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /tools/share
+mkdir -p -- /tools/share/locale/en@quot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/en@boldquot/LC_MESSAGES
+mkdir -p -- /tools/share/locale/af/LC_MESSAGES
+mkdir -p -- /tools/share/locale/et/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ga/LC_MESSAGES
+mkdir -p -- /tools/share/locale/ro/LC_MESSAGES
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /tools/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+/usr/bin/install -c -m 0755 bash /tools/bin/bash
+/usr/bin/install -c -m 0555 bashbug /tools/bin/bashbug
+/usr/bin/install -c -m 644 ./CHANGES ./COMPAT ./NEWS ./POSIX ./RBASH ./README /tools/share/doc/bash
+( cd ./doc ; make -j --jobserver-fds=3,4 \
+	man1dir=/tools/share/man/man1 man1ext=.1 \
+	man3dir=/tools/share/man/man3 man3ext=.3 \
+	infodir=/tools/share/info htmldir=/tools/share/doc/bash DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/doc'
+/bin/sh ../support/mkinstalldirs /tools/share/man/man1
+/bin/sh ./infopost.sh < ./bashref.info > bash.info ; \
+
+/bin/sh ../support/mkinstalldirs /tools/share/info
+/bin/sh ../support/mkinstalldirs /tools/share/doc/bash
+if test -n "/tools/share/doc/bash" ; then \
+	/bin/sh ../support/mkinstalldirs /tools/share/doc/bash ; \
+fi
+/usr/bin/install -c -m 644 ./bash.1 /tools/share/man/man1/bash.1
+/usr/bin/install -c -m 644 ./bashbug.1 /tools/share/man/man1/bashbug.1
+/usr/bin/install -c -m 644 ./FAQ ./INTRO /tools/share/doc/bash
+if test -f bash.info; then d=.; else d=.; fi; \
+  /usr/bin/install -c -m 644 $d/bash.info /tools/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/tools/share/info/dir /tools/share/info/bash.info; \
+else true; fi
+if test -n "/tools/share/doc/bash" ; then \
+	/usr/bin/install -c -m 644 ./bash.html /tools/share/doc/bash ; \
+	/usr/bin/install -c -m 644 ./bashref.html /tools/share/doc/bash ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/doc'
+( cd ./builtins ; make -j --jobserver-fds=3,4 DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+( cd ./po/ ; make -j --jobserver-fds=3,4 DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/po'
+test -z "en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo" || make en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo
+make[2]: Entering directory '/sources/7.9/bash-4.3.30/po'
+make[2]: 'en@quot.gmo' is up to date.
+make[2]: 'en@boldquot.gmo' is up to date.
+make[2]: 'af.gmo' is up to date.
+make[2]: 'bg.gmo' is up to date.
+make[2]: 'ca.gmo' is up to date.
+make[2]: 'cs.gmo' is up to date.
+make[2]: 'da.gmo' is up to date.
+make[2]: 'de.gmo' is up to date.
+make[2]: 'el.gmo' is up to date.
+make[2]: 'eo.gmo' is up to date.
+make[2]: 'es.gmo' is up to date.
+make[2]: 'et.gmo' is up to date.
+make[2]: 'fi.gmo' is up to date.
+make[2]: 'fr.gmo' is up to date.
+make[2]: 'ga.gmo' is up to date.
+make[2]: 'gl.gmo' is up to date.
+make[2]: 'hr.gmo' is up to date.
+make[2]: 'hu.gmo' is up to date.
+make[2]: 'id.gmo' is up to date.
+make[2]: 'it.gmo' is up to date.
+make[2]: 'ja.gmo' is up to date.
+make[2]: 'lt.gmo' is up to date.
+make[2]: 'nl.gmo' is up to date.
+make[2]: 'pl.gmo' is up to date.
+make[2]: 'pt_BR.gmo' is up to date.
+make[2]: 'ro.gmo' is up to date.
+make[2]: 'ru.gmo' is up to date.
+make[2]: 'sk.gmo' is up to date.
+make[2]: 'sl.gmo' is up to date.
+make[2]: 'sr.gmo' is up to date.
+make[2]: 'sv.gmo' is up to date.
+make[2]: 'tr.gmo' is up to date.
+make[2]: 'uk.gmo' is up to date.
+make[2]: 'vi.gmo' is up to date.
+make[2]: 'zh_CN.gmo' is up to date.
+make[2]: 'zh_TW.gmo' is up to date.
+make[2]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+touch stamp-po
+/bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /tools/share
+installing en@quot.gmo as /tools/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /tools/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /tools/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /tools/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /tools/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/bash.mo
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/bash.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/bash.mo
+installing el.gmo as /tools/share/locale/el/LC_MESSAGES/bash.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /tools/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /tools/share/locale/ga/LC_MESSAGES/bash.mo
+installing gl.gmo as /tools/share/locale/gl/LC_MESSAGES/bash.mo
+installing hr.gmo as /tools/share/locale/hr/LC_MESSAGES/bash.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/bash.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/bash.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/bash.mo
+installing lt.gmo as /tools/share/locale/lt/LC_MESSAGES/bash.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /tools/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /tools/share/locale/sk/LC_MESSAGES/bash.mo
+installing sl.gmo as /tools/share/locale/sl/LC_MESSAGES/bash.mo
+installing sr.gmo as /tools/share/locale/sr/LC_MESSAGES/bash.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+'/tools/bin/sh' -> 'bash'

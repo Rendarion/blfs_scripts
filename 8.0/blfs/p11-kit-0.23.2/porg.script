@@ -1,0 +1,5 @@
+make install
+
+readlink /usr/lib/libnssckbi.so || \
+mv -v /usr/lib/libnssckbi.so /usr/lib/libnssckbi.so.orig &&
+ln -sfv libp11-kit.so /usr/lib/libnssckbi.so

@@ -1,0 +1,5 @@
+sed -i 's:/\\\${:/\\\$\\{:' bin/automake.in
+
+./configure --prefix=/usr --docdir=/usr/share/doc/"$PKG"
+
+make

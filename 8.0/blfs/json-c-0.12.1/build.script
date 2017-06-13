@@ -1,0 +1,3 @@
+sed -i s/-Werror// Makefile.in tests/Makefile.in &&
+./configure --prefix=/usr --disable-static       &&
+make -j1

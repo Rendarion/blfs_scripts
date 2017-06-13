@@ -1,0 +1,426 @@
+Making check in build
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/build'
+Making check in autotools
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/build/autotools'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/build/autotools'
+Making check in mingw
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/build/mingw'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/build/mingw'
+Making check in win32
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/build/win32'
+Making check in vs9
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/build/win32/vs10'
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/build/win32'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/build/win32'
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/build'
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/build'
+Making check in clutter
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/clutter'
+make  check-am
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/clutter'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/clutter'
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/clutter'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/tests'
+Making check in accessibility
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests/accessibility'
+  GEN      .gitignore
+make  cally-atkcomponent-example cally-atkeditabletext-example cally-atkevents-example cally-atktext-example cally-clone-example
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/tests/accessibility'
+  CC       cally-examples-util.o
+  CC       cally-atkcomponent-example.o
+  CCLD     cally-atkcomponent-example
+  CC       cally-atkeditabletext-example.o
+  CCLD     cally-atkeditabletext-example
+  CC       cally-atkevents-example.o
+  CCLD     cally-atkevents-example
+  CC       cally-atktext-example.o
+  CCLD     cally-atktext-example
+  CC       cally-clone-example.o
+  CCLD     cally-clone-example
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/accessibility'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/accessibility'
+Making check in conform
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make  check-am
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make     actor-anchors actor-destroy actor-graph actor-invariants actor-iter actor-layout actor-meta actor-offscreen-limit-max-size actor-offscreen-redirect actor-paint-opacity actor-pick actor-shader-effect actor-size  binding-pool color events-touch interval model script-parser units  text  animator behaviours group rectangle texture  \
+                 scripts/test-animator-1.json scripts/test-animator-2.json scripts/test-animator-3.json scripts/test-script-animation.json scripts/test-script-child.json scripts/test-script-implicit-alpha.json scripts/test-script-interval.json scripts/test-script-layout-property.json scripts/test-script-margin.json scripts/test-script-model.json scripts/test-script-named-object.json scripts/test-script-object-property.json scripts/test-script-single.json scripts/test-script-timeline-markers.json scripts/test-state-1.json  
+make[4]: Entering directory '/sources/7.9/clutter-1.24.2/tests/conform'
+  CC       actor-anchors.o
+  CCLD     actor-anchors
+  CC       actor-destroy.o
+  CCLD     actor-destroy
+  CC       actor-graph.o
+  CCLD     actor-graph
+  CC       actor-invariants.o
+  CCLD     actor-invariants
+  CC       actor-iter.o
+  CCLD     actor-iter
+  CC       actor-layout.o
+  CCLD     actor-layout
+  CC       actor-meta.o
+  CCLD     actor-meta
+  CC       actor-offscreen-limit-max-size.o
+  CCLD     actor-offscreen-limit-max-size
+  CC       actor-offscreen-redirect.o
+  CCLD     actor-offscreen-redirect
+  CC       actor-paint-opacity.o
+  CCLD     actor-paint-opacity
+  CC       actor-pick.o
+  CCLD     actor-pick
+  CC       actor-shader-effect.o
+  CCLD     actor-shader-effect
+  CC       actor-size.o
+  CCLD     actor-size
+  CC       binding-pool.o
+  CCLD     binding-pool
+  CC       color.o
+  CCLD     color
+  CC       events-touch.o
+  CCLD     events-touch
+  CC       interval.o
+  CCLD     interval
+  CC       model.o
+  CCLD     model
+  CC       script-parser.o
+  CCLD     script-parser
+  CC       units.o
+  CCLD     units
+  CC       text.o
+  CCLD     text
+  CC       animator.o
+  CCLD     animator
+  CC       behaviours.o
+  CCLD     behaviours
+  CC       group.o
+  CCLD     group
+  CC       rectangle.o
+  CCLD     rectangle
+  CC       texture.o
+  CCLD     texture
+make[4]: Nothing to be done for 'scripts/test-animator-1.json'.
+make[4]: Nothing to be done for 'scripts/test-animator-2.json'.
+make[4]: Nothing to be done for 'scripts/test-animator-3.json'.
+make[4]: Nothing to be done for 'scripts/test-script-animation.json'.
+make[4]: Nothing to be done for 'scripts/test-script-child.json'.
+make[4]: Nothing to be done for 'scripts/test-script-implicit-alpha.json'.
+make[4]: Nothing to be done for 'scripts/test-script-interval.json'.
+make[4]: Nothing to be done for 'scripts/test-script-layout-property.json'.
+make[4]: Nothing to be done for 'scripts/test-script-margin.json'.
+make[4]: Nothing to be done for 'scripts/test-script-model.json'.
+make[4]: Nothing to be done for 'scripts/test-script-named-object.json'.
+make[4]: Nothing to be done for 'scripts/test-script-object-property.json'.
+make[4]: Nothing to be done for 'scripts/test-script-single.json'.
+make[4]: Nothing to be done for 'scripts/test-script-timeline-markers.json'.
+make[4]: Nothing to be done for 'scripts/test-state-1.json'.
+make[4]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make[5]: Entering directory '/sources/7.9/clutter-1.24.2/tests/conform'
+PASS: actor-anchors 1 /actor/transforms/anchor-point
+PASS: actor-anchors 2 /actor/transforms/pivot-point
+PASS: actor-destroy 1 /actor/destruction
+PASS: actor-graph 1 /actor/graph/add-child
+PASS: actor-graph 2 /actor/graph/insert-child
+PASS: actor-graph 3 /actor/graph/remove-child
+PASS: actor-graph 4 /actor/graph/raise-child
+PASS: actor-graph 5 /actor/graph/lower-child
+PASS: actor-graph 6 /actor/graph/replace-child
+PASS: actor-graph 7 /actor/graph/remove-all
+PASS: actor-graph 8 /actor/graph/container-signals
+PASS: actor-graph 9 /actor/graph/contains
+PASS: actor-invariants 1 /actor/invariants/initial-state
+PASS: actor-invariants 2 /actor/invariants/show-not-parented
+PASS: actor-invariants 3 /actor/invariants/realized
+PASS: actor-invariants 4 /actor/invariants/mapped
+PASS: actor-invariants 5 /actor/invariants/visibility-not-recursive
+PASS: actor-invariants 6 /actor/invariants/realize-not-recursive
+PASS: actor-invariants 7 /actor/invariants/map-recursive
+PASS: actor-invariants 8 /actor/invariants/show-on-set-parent
+PASS: actor-invariants 9 /actor/invariants/clone-no-map
+PASS: actor-invariants 10 /actor/invariants/default-stage
+PASS: actor-iter 1 /actor/iter/traverse-children
+PASS: actor-iter 2 /actor/iter/traverse-remove
+PASS: actor-iter 3 /actor/iter/assignment
+PASS: actor-layout 1 /actor/layout/basic
+PASS: actor-layout 2 /actor/layout/margin
+PASS: actor-meta 1 /actor/meta/clear
+PASS: actor-offscreen-limit-max-size 1 /actor/offscreen/limit-max-size
+PASS: actor-offscreen-redirect 1 /actor/offscreen/redirect
+PASS: actor-paint-opacity 1 /actor/opacity/text
+PASS: actor-paint-opacity 2 /actor/opacity/rectangle
+PASS: actor-paint-opacity 3 /actor/opacity/paint
+PASS: actor-pick 1 /actor/pick
+PASS: actor-shader-effect 1 /actor/shader-effect
+PASS: actor-size 1 /actor/size/preferred
+PASS: actor-size 2 /actor/size/fixed
+PASS: binding-pool 1 /binding-pool
+PASS: color 1 /color/hls-roundtrip
+PASS: color 2 /color/to-string
+PASS: color 3 /color/operators
+PASS: color 4 /color/from-string/invalid
+PASS: color 5 /color/from-string/valid
+PASS: events-touch 1 /events/touch
+PASS: interval 1 /interval/initial-state
+PASS: interval 2 /interval/transform
+PASS: interval 3 /interval/from-script
+PASS: model 1 /list-model/populate
+PASS: model 2 /list-model/iterate
+PASS: model 3 /list-model/filter
+PASS: model 4 /list-model/row-changed
+PASS: model 5 /list-model/from-script
+PASS: script-parser 1 /script/single-object
+PASS: script-parser 2 /script/container-child
+PASS: script-parser 3 /script/named-object
+PASS: script-parser 4 /script/animation
+PASS: script-parser 5 /script/implicit-alpha
+PASS: script-parser 6 /script/object-property
+PASS: script-parser 7 /script/layout-property
+PASS: script-parser 8 /script/actor-margin
+PASS: units 1 /units/string
+PASS: units 2 /units/cache
+PASS: units 3 /units/constructors
+PASS: text 1 /text/utf8-validation
+PASS: text 2 /text/set-empty
+PASS: text 3 /text/set-text
+PASS: text 4 /text/append-some
+PASS: text 5 /text/prepend-some
+PASS: text 6 /text/insert
+PASS: text 7 /text/delete-chars
+PASS: text 8 /text/get-chars
+PASS: text 9 /text/delete-text
+PASS: text 10 /text/password-char
+PASS: text 11 /text/cursor
+PASS: text 12 /text/event
+PASS: text 13 /text/idempotent-use-markup
+PASS: animator 1 /script/animator/base
+PASS: animator 2 /script/animator/properties
+PASS: animator 3 /script/animator/multi-properties
+PASS: behaviours 1 /behaviours/opacity
+PASS: group 1 /group/depth-sorting
+PASS: rectangle 1 /rectangle/set-size
+PASS: rectangle 2 /rectangle/set-color
+PASS: texture 1 /texture/pick-with-alpha
+============================================================================
+Testsuite summary for clutter 1.24.2
+============================================================================
+# TOTAL: 84
+# PASS:  84
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make[4]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/conform'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/conform'
+Making check in interactive
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+make  check-am
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+  GEN      .gitignore
+make  test-interactive wrappers ../../build/win32/test-interactive-clutter.bat
+make[4]: Entering directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+  CC       test_interactive-test-main.o
+  CC       test_interactive-test-texture-slicing.o
+  CC       test_interactive-test-texture-async.o
+  CC       test_interactive-test-texture-material.o
+  CC       test_interactive-test-events.o
+  CC       test_interactive-test-scale.o
+  CC       test_interactive-test-actors.o
+  CC       test_interactive-test-shader-effects.o
+  CC       test_interactive-test-script.o
+  CC       test_interactive-test-grab.o
+  CC       test_interactive-test-cogl-shader-arbfp.o
+  CC       test_interactive-test-cogl-shader-glsl.o
+  CC       test_interactive-test-animator.o
+  CC       test_interactive-test-state.o
+  CC       test_interactive-test-state-animator.o
+  CC       test_interactive-test-fbo.o
+  CC       test_interactive-test-multistage.o
+  CC       test_interactive-test-cogl-primitives.o
+  CC       test_interactive-test-cogl-tex-tile.o
+  CC       test_interactive-test-cogl-tex-convert.o
+  CC       test_interactive-test-cogl-tex-foreign.o
+  CC       test_interactive-test-cogl-tex-getset.o
+  CC       test_interactive-test-cogl-offscreen.o
+  CC       test_interactive-test-cogl-tex-polygon.o
+  CC       test_interactive-test-cogl-multitexture.o
+  CC       test_interactive-test-stage-read-pixels.o
+  CC       test_interactive-test-clip.o
+  CC       test_interactive-test-paint-wrapper.o
+  CC       test_interactive-test-texture-quality.o
+  CC       test_interactive-test-layout.o
+  CC       test_interactive-test-animation.o
+  CC       test_interactive-test-easing.o
+  CC       test_interactive-test-binding-pool.o
+  CC       test_interactive-test-text.o
+  CC       test_interactive-test-text-field.o
+  CC       test_interactive-test-cairo-clock.o
+  CC       test_interactive-test-cairo-flowers.o
+  CC       test_interactive-test-cogl-vertex-buffer.o
+  CC       test_interactive-test-stage-sizing.o
+  CC       test_interactive-test-scrolling.o
+  CC       test_interactive-test-swipe-action.o
+  CC       test_interactive-test-cogl-point-sprites.o
+  CC       test_interactive-test-table-layout.o
+  CC       test_interactive-test-path-constraint.o
+  CC       test_interactive-test-state-script.o
+  CC       test_interactive-test-devices.o
+  CC       test_interactive-test-content.o
+  CC       test_interactive-test-keyframe-transition.o
+  CC       test_interactive-test-bind-constraint.o
+  CC       test_interactive-test-touch-events.o
+  CC       test_interactive-test-rotate-zoom.o
+  CC       test_interactive-test-pixmap.o
+  CC       test_interactive-test-image.o
+  CCLD     test-interactive
+  GEN      test-texture-slicing
+  GEN      test-texture-async
+  GEN      test-texture-material
+  GEN      test-events
+  GEN      test-scale
+  GEN      test-actors
+  GEN      test-shader-effects
+  GEN      test-script
+  GEN      test-grab
+  GEN      test-cogl-shader-arbfp
+  GEN      test-cogl-shader-glsl
+  GEN      test-animator
+  GEN      test-state
+  GEN      test-state-animator
+  GEN      test-fbo
+  GEN      test-multistage
+  GEN      test-cogl-primitives
+  GEN      test-cogl-tex-tile
+  GEN      test-cogl-tex-convert
+  GEN      test-cogl-tex-foreign
+  GEN      test-cogl-tex-getset
+  GEN      test-cogl-offscreen
+  GEN      test-cogl-tex-polygon
+  GEN      test-cogl-multitexture
+  GEN      test-stage-read-pixels
+  GEN      test-clip
+  GEN      test-paint-wrapper
+  GEN      test-texture-quality
+  GEN      test-layout
+  GEN      test-animation
+  GEN      test-easing
+  GEN      test-binding-pool
+  GEN      test-text
+  GEN      test-text-field
+  GEN      test-cairo-clock
+  GEN      test-cairo-flowers
+  GEN      test-cogl-vertex-buffer
+  GEN      test-stage-sizing
+  GEN      test-scrolling
+  GEN      test-swipe-action
+  GEN      test-cogl-point-sprites
+  GEN      test-table-layout
+  GEN      test-path-constraint
+  GEN      test-state-script
+  GEN      test-devices
+  GEN      test-content
+  GEN      test-keyframe-transition
+  GEN      test-bind-constraint
+  GEN      test-touch-events
+  GEN      test-rotate-zoom
+  GEN      test-pixmap
+  GEN      test-image
+  GEN      test-interactive-clutter.bat
+make[4]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/interactive'
+Making check in micro-bench
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests/micro-bench'
+  GEN      .gitignore
+make  test-text test-picking test-text-perf test-random-text test-cogl-perf
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/tests/micro-bench'
+  CC       test-text.o
+  CCLD     test-text
+  CC       test-picking.o
+  CCLD     test-picking
+  CC       test-text-perf.o
+  CCLD     test-text-perf
+  CC       test-random-text.o
+  CCLD     test-random-text
+  CC       test-cogl-perf.o
+  CCLD     test-cogl-perf
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/micro-bench'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/micro-bench'
+Making check in performance
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests/performance'
+  GEN      .gitignore
+make  test-picking test-text-perf test-state test-state-interactive test-state-hidden test-state-mini test-state-pick
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/tests/performance'
+  CC       test-picking.o
+  CCLD     test-picking
+  CC       test-text-perf.o
+  CCLD     test-text-perf
+  CC       test-state.o
+  CCLD     test-state
+  CC       test-state-interactive.o
+  CCLD     test-state-interactive
+  CC       test-state-hidden.o
+  CCLD     test-state-hidden
+  CC       test-state-mini.o
+  CCLD     test-state-mini
+  CC       test-state-pick.o
+  CCLD     test-state-pick
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/performance'
+for a in ;do ./$a;done;true
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests/performance'
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/tests'
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/doc'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/doc/reference'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/clutter-1.24.2/doc/reference'
+make[4]: Entering directory '/sources/7.9/clutter-1.24.2/doc/reference'
+============================================================================
+Testsuite summary for clutter 1.24.2
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/clutter-1.24.2/doc/reference'
+make[3]: Leaving directory '/sources/7.9/clutter-1.24.2/doc/reference'
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/doc/reference'
+make[2]: Entering directory '/sources/7.9/clutter-1.24.2/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/clutter-1.24.2/doc'
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/doc'
+Making check in po
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/po'
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/po'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2/examples'
+  GEN      .gitignore
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2/examples'
+make[1]: Entering directory '/sources/7.9/clutter-1.24.2'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/clutter-1.24.2'

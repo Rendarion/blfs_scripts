@@ -1,0 +1,12 @@
+rm -rf thirdparty/curl     &&
+rm -rf thirdparty/freetype &&
+rm -rf thirdparty/harfbuzz &&
+rm -rf thirdparty/jpeg     &&
+rm -rf thirdparty/openjpeg &&
+rm -rf thirdparty/zlib     &&
+
+sed '/OPJ_STATIC$/d' -i source/fitz/load-jpx.c &&
+
+patch -Np1 -i ../mupdf-1.10a-shared_libs-1.patch &&
+
+make build=release

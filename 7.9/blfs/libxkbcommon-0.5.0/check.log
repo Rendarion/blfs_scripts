@@ -1,0 +1,98 @@
+make  check-am
+make[1]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+make  libtest.la test/rmlvo-to-kccgst test/print-compiled-keymap test/interactive-evdev test/interactive-x11 test/keysym test/filecomp test/context test/rules-file test/stringcomp test/buffercomp test/log test/atom test/utf8 test/state test/keyseq test/rulescomp test/compose test/x11 test/x11comp bench/key-proc bench/rules bench/rulescomp bench/compose
+make[2]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+  CC       test/common.lo
+  CCLD     libtest.la
+copying selected object files to avoid basename conflicts...
+  CC       test/rmlvo-to-kccgst.o
+  CCLD     test/rmlvo-to-kccgst
+  CC       test/print-compiled-keymap.o
+  CCLD     test/print-compiled-keymap
+  CC       test/interactive-evdev.o
+  CCLD     test/interactive-evdev
+  CC       test/test_interactive_x11-interactive-x11.o
+  CCLD     test/interactive-x11
+  CC       test/keysym.o
+  CCLD     test/keysym
+  CC       test/filecomp.o
+  CCLD     test/filecomp
+  CC       test/context.o
+  CCLD     test/context
+  CC       test/test_rules_file-rules-file.o
+  CCLD     test/rules-file
+  CC       test/stringcomp.o
+  CCLD     test/stringcomp
+  CC       test/buffercomp.o
+  CCLD     test/buffercomp
+  CC       test/log.o
+  CCLD     test/log
+  CC       test/atom.o
+  CCLD     test/atom
+  CC       test/utf8.o
+  CCLD     test/utf8
+  CC       test/state.o
+  CCLD     test/state
+  CC       test/keyseq.o
+  CCLD     test/keyseq
+  CC       test/rulescomp.o
+  CCLD     test/rulescomp
+  CC       test/compose.o
+  CCLD     test/compose
+  CC       test/test_x11-x11.o
+  CCLD     test/x11
+  CC       test/test_x11comp-x11comp.o
+  CCLD     test/x11comp
+  CC       bench/key-proc.o
+  CCLD     bench/key-proc
+  CC       bench/rules.o
+  CCLD     bench/rules
+  CC       bench/rulescomp.o
+  CCLD     bench/rulescomp
+  CC       bench/compose.o
+  CCLD     bench/compose
+make[2]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+make[3]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+PASS: test/keysym
+PASS: test/filecomp
+PASS: test/context
+PASS: test/rules-file
+PASS: test/stringcomp
+PASS: test/buffercomp
+PASS: test/log
+PASS: test/atom
+PASS: test/utf8
+PASS: test/state
+PASS: test/keyseq
+PASS: test/rulescomp
+PASS: test/compose
+PASS: test/x11
+FAIL: test/x11comp
+make[4]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+make  all-am
+make[5]: Entering directory '/sources/7.9/libxkbcommon-0.5.0'
+make[5]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+make[4]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+============================================================================
+Testsuite summary for libxkbcommon 0.5.0
+============================================================================
+# TOTAL: 15
+# PASS:  14
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See ./test-suite.log
+Please report to https://bugs.freedesktop.org/enter_bug.cgi?product=libxkbcommon
+============================================================================
+Makefile:1676: recipe for target 'test-suite.log' failed
+make[3]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+Makefile:1782: recipe for target 'check-TESTS' failed
+make[2]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+Makefile:2091: recipe for target 'check-am' failed
+make[1]: Leaving directory '/sources/7.9/libxkbcommon-0.5.0'
+Makefile:2094: recipe for target 'check' failed

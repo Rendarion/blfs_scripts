@@ -1,0 +1,11 @@
+URL=(
+"http://roy.marples.name/downloads/dhcpcd/dhcpcd-6.11.5.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

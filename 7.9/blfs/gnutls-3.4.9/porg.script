@@ -1,0 +1,3 @@
+make install
+
+make -C doc/reference install-data-local

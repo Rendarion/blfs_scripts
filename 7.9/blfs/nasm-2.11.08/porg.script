@@ -1,0 +1,7 @@
+make install
+
+install -m755 -d         /usr/share/doc/nasm-2.11.08/html  &&
+cp -v doc/html/*.html    /usr/share/doc/nasm-2.11.08/html  &&
+cp -v doc/*.{txt,ps,pdf} /usr/share/doc/nasm-2.11.08       &&
+cp -v doc/info/*         /usr/share/info                   &&
+install-info /usr/share/info/nasm.info /usr/share/info/dir

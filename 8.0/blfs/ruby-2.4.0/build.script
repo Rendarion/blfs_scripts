@@ -1,0 +1,6 @@
+./configure --prefix=/usr   \
+            --enable-shared \
+            --docdir=/usr/share/doc/ruby-2.4.0 &&
+make
+
+make capi

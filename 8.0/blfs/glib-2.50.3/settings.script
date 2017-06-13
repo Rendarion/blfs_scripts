@@ -1,0 +1,14 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/glib/2.50/glib-2.50.3.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libffi-3.2.1"
+"python-3.6.0"
+"pcre-8.40"
+)

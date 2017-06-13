@@ -1,0 +1,12 @@
+URL=(
+"http://downloads.sourceforge.net/mad/libmad-0.15.1b.tar.gz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/libmad-0.15.1b-fixes-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

@@ -1,0 +1,84 @@
+# set up variables from settings.script
+
+source settings.script
+
+# check dependencies
+
+if [ "$1" == "--dep-check" ]
+  then
+    for i in "${DEP[@]}"
+      do :
+        if [ ! -e "/var/log/porg/$i" ]
+          then
+            if [ -e "$PTH/$i" ]
+              then
+                printf "%s" "installing missing dependency: $i"
+                cd "$PTH/$i"
+                touch build.log
+                ./install.script --dep-check > build.log 2>&1
+                echo " ... done!"
+              else
+                printf "%s\n" "unresolvable dependency: $i"
+              fi
+          fi
+      done
+  fi
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# download source
+
+#k=0
+
+#for j in ${ARC[@]}
+#  do :
+#    if [ ! -f "/sources/$LFSVS/$j" ]
+#      then
+#        wget "${URL[$k]}"
+#        k=$(($k+1))
+#      fi
+#  done
+
+# clean up leftover build-folders
+
+#if [ -a "/sources/$LFSVS/$PKG" ]
+#  then
+#    rm -rf "$PKG"
+#  fi
+
+# check if blfs-bootscripts are available
+
+#if [ ! -e "/sources/$LFSVS/blfs-bootscripts-20150924" ]
+#  then
+#    wget "http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/blfs-bootscripts-20150924.tar.bz2"
+#    tar -xf /sources/$LFSVS/blfs-bootscripts-20150924.tar.bz2
+#  fi
+
+# unpack package
+
+#mkdir "$PKG"
+#tar -xf "$ARC" --directory "$PKG" --strip-components=1
+#cd "$PKG"
+
+# configure and build
+
+source $PTH/$PKG/build.script
+
+# run test suite
+if [ -a "$PTH/$PKG/check.script" ]
+  then
+    $PTH/$PKG/check.script | tee "$PTH/$PKG/check.log"
+  fi
+
+# install
+
+as_root porg -lp "$PKG" "source $PTH/$PKG/porg.script"
+
+# clean up
+
+#if [ $PKG != "" ]
+#  then
+#    rm -rf "/sources/$LFSVS/$PKG"
+#  fi

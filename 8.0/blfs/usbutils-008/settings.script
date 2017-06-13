@@ -1,0 +1,14 @@
+URL=(
+"https://www.kernel.org/pub/linux/utils/usb/usbutils/usbutils-008.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libusb-1.0.21"
+"python-2.7.13"
+"wget-1.19.1"
+)

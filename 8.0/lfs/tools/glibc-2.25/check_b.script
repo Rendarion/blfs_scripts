@@ -1,0 +1,11 @@
+cd build
+
+# perform sanity check
+
+echo 'int main(){}' > dummy.c
+$LFS_TGT-gcc dummy.c
+readelf -l a.out | grep ': /tools'
+
+# clean up test file
+
+rm -v dummy.c a.out

@@ -1,0 +1,15 @@
+URL=(
+"http://xcb.freedesktop.org/dist/xcb-proto-1.12.tar.bz2"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/xcb-proto-1.12-python3-1.patch"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/xcb-proto-1.12-schema-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"python-3.6.0"
+"xorg_build_environment"
+)

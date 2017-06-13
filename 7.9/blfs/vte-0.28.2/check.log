@@ -1,0 +1,172 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/vte-0.28.2/src'
+make  dumpkeys iso2022 reaper reflect-text-view reflect-vte mev ssfe table trie xticker vteconv vtetc
+make[3]: Entering directory '/sources/7.9/vte-0.28.2/src'
+  CC     dumpkeys.o
+  CCLD   dumpkeys
+  CC     iso2022-caps.o
+  CC     iso2022-debug.o
+  CC     iso2022-iso2022.o
+  CC     iso2022-matcher.o
+  CC     iso2022-table.o
+  CC     iso2022-trie.o
+  CC     iso2022-vteconv.o
+  CC     iso2022-vtetc.o
+  CC     iso2022-vtetree.o
+  CCLD   iso2022
+  CC     reaper-reaper.o
+  CC     reaper-debug.o
+  CC     reaper-marshal.o
+  CCLD   reaper
+  CC     reflect_text_view-reflect.o
+  CCLD   reflect-text-view
+  CC     reflect_vte-reflect.o
+  CCLD   reflect-vte
+  CC     mev.o
+  CCLD   mev
+  CC     ssfe.o
+  CCLD   ssfe
+  CC     table-caps.o
+  CC     table-debug.o
+  CC     table-matcher.o
+  CC     table-table.o
+  CC     table-trie.o
+  CC     table-vteconv.o
+  CC     table-vtetc.o
+  CCLD   table
+  CC     trie-trie.o
+  CC     trie-caps.o
+  CC     trie-debug.o
+  CC     trie-matcher.o
+  CC     trie-table.o
+  CC     trie-vteconv.o
+  CC     trie-vtetc.o
+  CCLD   trie
+  CC     xticker.o
+  CCLD   xticker
+  CC     vteconv-debug.o
+  CC     vteconv-vteconv.o
+  CCLD   vteconv
+  CC     vtetc-vtetc.o
+  CC     vtetc-debug.o
+  CCLD   vtetc
+make[3]: Leaving directory '/sources/7.9/vte-0.28.2/src'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/vte-0.28.2/src'
+Table contents:
+
+Table matches:
+`ABCD' => `ABCD' (4 chars)
+`ABCDEF' => `ABCD' (4 chars)
+`^[]2;foo^G' => `(NULL)' (2 chars)
+`^[]3;foo^G' => `set-icon-title' ("foo") (8 chars)
+`^[]3;foo^Gk' => `set-icon-title' ("foo") (8 chars)
+`^[[3;foo^G' => `(NULL)' (4 chars)
+`^[[3;3m' => `(NULL)' (5 chars)
+`^[[3;3mk' => `(NULL)' (5 chars)
+`^[[3;3hk' => `move-cursor' (3, 3) (6 chars)
+`^[[3;3h' => `move-cursor' (3, 3) (6 chars)
+`^[]3;3h' => `' (6 chars)
+`^[[3;3k' => `(NULL)' (5 chars)
+`^[[3;3kj' => `(NULL)' (5 chars)
+`s' => `(NULL)' (0 chars)
+PASS: table
+Wide encoding is `X-VTE-GUNICHAR'.
+abcde = `abcde'
+abcdef = `abcdef'
+abcdeg = `abcdeg'
+abc{char+`A'}eg = `abc%+Aeg'
+abc{num+0}eg = `abc%deg'
+abc%eg = `abc%%eg'
+abc%{num+1}eg = `abc%%%i%deg'
+<esc>[{num+1};{num+1}H = `vtmatch'
+<esc>[{multinum+1}L = `multimatch'
+<esc>[{multinum+0}L<esc>[{multinum+0}L = `greedy'
+<esc>]2;{string}h = `decset-title'
+Trie has 37 nodes.
+
+`abc' = `'
+=> `' (3)
+`abcdef' = `abcde'
+=> `abcde' (5)
+`abcde' = `abcde'
+=> `abcde' (5)
+`abcdeg' = `abcde'
+=> `abcde' (5)
+`abc%deg' = `(null)'
+=> `(null)' (4)
+`abc10eg' = `abc%deg'
+=> `abc%deg' (7)
+`abc%eg' = `abc%%eg'
+=> `abc%%eg' (6)
+`abc%10eg' = `abc%%%i%deg'
+=> `abc%%%i%deg' (8)
+`abcBeg' = `abc%+Aeg'
+=> `abc%+Aeg' (6)
+`<esc>[25;26H' = `vtmatch'
+=> `vtmatch' (12)
+`<esc>[25;2' = `'
+=> `' (10)
+`<esc>[25L' = `multimatch'
+=> `multimatch' (9)
+`<esc>[25L<esc>[24L' = `multimatch'
+=> `multimatch' (9)
+`<esc>[25;26L' = `multimatch'
+=> `multimatch' (12)
+`<esc>]2;WoofWoofh' = `decset-title'
+=> `decset-title' (17)
+`<esc>]2;WoofWoofh<esc>]2;WoofWoofh' = `decset-title'
+=> `decset-title' (17)
+`<esc>]2;WoofWoofhfoo' = `decset-title'
+=> `decset-title' (17)
+PASS: trie
+Checking documentation for incorrect syntax
+PASS: check-doc-syntax.sh
+==================
+All 3 tests passed
+==================
+make[3]: Leaving directory '/sources/7.9/vte-0.28.2/src'
+make[2]: Leaving directory '/sources/7.9/vte-0.28.2/src'
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/src'
+Making check in termcaps
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/termcaps'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/termcaps'
+Making check in po
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/po'
+INTLTOOL_EXTRACT=/usr/bin/intltool-extract srcdir=. /usr/bin/intltool-update --gettext-package vte-0.0 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/po'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/doc'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/vte-0.28.2/doc/reference'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/vte-0.28.2/doc/reference'
+Making check in openi18n
+make[2]: Entering directory '/sources/7.9/vte-0.28.2/doc/openi18n'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/vte-0.28.2/doc/openi18n'
+make[2]: Entering directory '/sources/7.9/vte-0.28.2/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/vte-0.28.2/doc'
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/doc'
+Making check in perf
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/perf'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/perf'
+Making check in python
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/python'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/python'
+Making check in gnome-pty-helper
+make[1]: Entering directory '/sources/7.9/vte-0.28.2/gnome-pty-helper'
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2/gnome-pty-helper'
+make[1]: Entering directory '/sources/7.9/vte-0.28.2'
+make[1]: Leaving directory '/sources/7.9/vte-0.28.2'

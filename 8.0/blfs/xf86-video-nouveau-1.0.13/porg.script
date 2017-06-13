@@ -1,0 +1,9 @@
+make install
+
+cat >> /etc/X11/xorg.conf.d/nvidia.conf << "EOF"
+Section "Device"
+        Identifier "nvidia"
+        Driver "nouveau"
+        Option "AccelMethod" "glamor"
+EndSection
+EOF

@@ -1,0 +1,13 @@
+URL=(
+"http://downloads.xiph.org/releases/theora/libtheora-1.1.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libogg-1.3.2"
+"libvorbis-1.3.5"
+)

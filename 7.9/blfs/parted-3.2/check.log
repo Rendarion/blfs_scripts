@@ -1,0 +1,767 @@
+make ss-1024
+make[1]: Entering directory '/sources/7.9/parted-3.2'
+PARTED_SECTOR_SIZE=1024 make check-recursive
+make[2]: Entering directory '/sources/7.9/parted-3.2'
+Making check in po
+make[3]: Entering directory '/sources/7.9/parted-3.2/po'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/po'
+Making check in lib
+make[3]: Entering directory '/sources/7.9/parted-3.2/lib'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/lib'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/lib'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/lib'
+Making check in include
+make[3]: Entering directory '/sources/7.9/parted-3.2/include'
+Making check in parted
+make[4]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Entering directory '/sources/7.9/parted-3.2/include'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/include'
+Making check in libparted
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted'
+Making check in labels
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+Making check in fs
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/fs'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/fs'
+Making check in .
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+Making check in parted
+make[3]: Entering directory '/sources/7.9/parted-3.2/parted'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/parted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/parted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/parted'
+Making check in partprobe
+make[3]: Entering directory '/sources/7.9/parted-3.2/partprobe'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/partprobe'
+Making check in doc
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc'
+Making check in C
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/C'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/C'
+Making check in pt_BR
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/pt_BR'
+  GEN      all-local
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/pt_BR'
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc'
+Making check in debug
+make[3]: Entering directory '/sources/7.9/parted-3.2/debug'
+Making check in test
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/debug'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/parted-3.2/tests'
+make  print-align print-max dup-clobber duplicate fs-resize
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+  CC       print-align.o
+  CCLD     print-align
+  CC       print-max.o
+  CCLD     print-max
+  CC       dup-clobber.o
+  CCLD     dup-clobber
+  CC       duplicate.o
+  CCLD     duplicate
+  CC       fs-resize.o
+  CCLD     fs-resize
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[5]: Entering directory '/sources/7.9/parted-3.2/tests'
+PASS: help-version.sh
+PASS: t0000-basic.sh
+PASS: t0001-tiny.sh
+PASS: t0010-script-no-ctrl-chars.sh
+PASS: t0100-print.sh
+PASS: t0101-print-empty.sh
+PASS: t0200-gpt.sh
+PASS: t0201-gpt.sh
+PASS: t0202-gpt-pmbr.sh
+PASS: t0203-gpt-tiny-device-abort.sh
+PASS: t0203-gpt-shortened-device-primary-valid.sh
+SKIP: t0203-gpt-create-on-min-sized-device.sh
+PASS: t0205-gpt-list-clobbers-pmbr.sh
+PASS: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh
+PASS: t0207-IEC-binary-notation.sh
+SKIP: t0208-mkpart-end-in-IEC.sh
+PASS: t0209-gpt-pmbr_boot.sh
+SKIP: t0210-gpt-resized-partition-entry-array.sh
+SKIP: t0211-gpt-rewrite-header.sh
+PASS: t0212-gpt-many-partitions.sh
+PASS: t0220-gpt-msftres.sh
+PASS: t0250-gpt.sh
+PASS: t0280-gpt-corrupt.sh
+SKIP: t0281-gpt-grow.sh
+SKIP: t0282-gpt-move-backup.sh
+SKIP: t0283-overlap-partitions.sh
+PASS: t0300-dos-on-gpt.sh
+PASS: t0301-overwrite-gpt-pmbr.sh
+SKIP: t0350-mac-PT-increases-sector-size.sh
+PASS: t0400-loop-clobber-infloop.sh
+PASS: t0500-dup-clobber.sh
+PASS: t0501-duplicate.sh
+SKIP: t1100-busy-label.sh
+SKIP: t1101-busy-partition.sh
+SKIP: t1102-loop-label.sh
+SKIP: t1104-remove-and-add-partition.sh
+SKIP: t1700-probe-fs.sh
+PASS: t2200-dos-label-recog.sh
+SKIP: t2201-pc98-label-recog.sh
+SKIP: t2300-dos-label-extended-bootcode.sh
+SKIP: t2310-dos-extended-2-sector-min-offset.sh
+PASS: t2400-dos-hfs-partition-type.sh
+PASS: t2500-probe-corrupt-hfs.sh
+SKIP: t3000-resize-fs.sh
+SKIP: t3200-resize-partition.sh
+SKIP: t3200-type-change.sh
+PASS: t3300-palo-prep.sh
+PASS: t3310-flags.sh
+SKIP: t3400-whole-disk-FAT-partition.sh
+PASS: t4000-sun-raid-type.sh
+PASS: t4001-sun-vtoc.sh
+SKIP: t4100-msdos-partition-limits.sh
+SKIP: t4100-dvh-partition-limits.sh
+PASS: t4100-msdos-starting-sector.sh
+SKIP: t4200-partprobe.sh
+PASS: t4300-nilfs2-tiny.sh
+PASS: t5000-tags.sh
+SKIP: t6000-dm.sh
+SKIP: t6001-psep.sh
+SKIP: t6002-dm-busy.sh
+SKIP: t6003-dm-hide.sh
+SKIP: t6004-dm-many-partitions.sh
+SKIP: t6005-dm-uuid.sh
+SKIP: t6100-mdraid-partitions.sh
+PASS: t7000-scripting.sh
+SKIP: t8000-loop.sh
+SKIP: t8001-loop-blkpg.sh
+SKIP: t9010-big-sector.sh
+SKIP: t9020-alignment.sh
+PASS: t9021-maxima.sh
+PASS: t9022-one-unit-snap.sh
+PASS: t9023-value-lt-one.sh
+SKIP: t9030-align-check.sh
+SKIP: t9040-many-partitions.sh
+SKIP: t9041-undetected-in-use-16th-partition.sh
+SKIP: t9042-dos-partition-limit.sh
+PASS: t9050-partition-table-types.sh
+make[6]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/parted-3.2/tests'
+============================================================================
+Testsuite summary for GNU parted 3.2
+============================================================================
+# TOTAL: 77
+# PASS:  39
+# SKIP:  38
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Entering directory '/sources/7.9/parted-3.2'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2'
+make[2]: Leaving directory '/sources/7.9/parted-3.2'
+make[1]: Leaving directory '/sources/7.9/parted-3.2'
+make ss-2048
+make[1]: Entering directory '/sources/7.9/parted-3.2'
+PARTED_SECTOR_SIZE=2048 make check-recursive
+make[2]: Entering directory '/sources/7.9/parted-3.2'
+Making check in po
+make[3]: Entering directory '/sources/7.9/parted-3.2/po'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/po'
+Making check in lib
+make[3]: Entering directory '/sources/7.9/parted-3.2/lib'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/lib'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/lib'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/lib'
+Making check in include
+make[3]: Entering directory '/sources/7.9/parted-3.2/include'
+Making check in parted
+make[4]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Entering directory '/sources/7.9/parted-3.2/include'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/include'
+Making check in libparted
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted'
+Making check in labels
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+Making check in fs
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/fs'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/fs'
+Making check in .
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+Making check in parted
+make[3]: Entering directory '/sources/7.9/parted-3.2/parted'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/parted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/parted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/parted'
+Making check in partprobe
+make[3]: Entering directory '/sources/7.9/parted-3.2/partprobe'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/partprobe'
+Making check in doc
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc'
+Making check in C
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/C'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/C'
+Making check in pt_BR
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/pt_BR'
+  GEN      all-local
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/pt_BR'
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc'
+Making check in debug
+make[3]: Entering directory '/sources/7.9/parted-3.2/debug'
+Making check in test
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/debug'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/parted-3.2/tests'
+make  print-align print-max dup-clobber duplicate fs-resize
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[4]: 'print-align' is up to date.
+make[4]: 'print-max' is up to date.
+make[4]: 'dup-clobber' is up to date.
+make[4]: 'duplicate' is up to date.
+make[4]: 'fs-resize' is up to date.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[5]: Entering directory '/sources/7.9/parted-3.2/tests'
+PASS: help-version.sh
+PASS: t0000-basic.sh
+PASS: t0001-tiny.sh
+PASS: t0010-script-no-ctrl-chars.sh
+PASS: t0100-print.sh
+PASS: t0101-print-empty.sh
+PASS: t0200-gpt.sh
+PASS: t0201-gpt.sh
+PASS: t0202-gpt-pmbr.sh
+PASS: t0203-gpt-tiny-device-abort.sh
+PASS: t0203-gpt-shortened-device-primary-valid.sh
+SKIP: t0203-gpt-create-on-min-sized-device.sh
+PASS: t0205-gpt-list-clobbers-pmbr.sh
+PASS: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh
+PASS: t0207-IEC-binary-notation.sh
+SKIP: t0208-mkpart-end-in-IEC.sh
+PASS: t0209-gpt-pmbr_boot.sh
+SKIP: t0210-gpt-resized-partition-entry-array.sh
+SKIP: t0211-gpt-rewrite-header.sh
+PASS: t0212-gpt-many-partitions.sh
+PASS: t0220-gpt-msftres.sh
+PASS: t0250-gpt.sh
+PASS: t0280-gpt-corrupt.sh
+SKIP: t0281-gpt-grow.sh
+SKIP: t0282-gpt-move-backup.sh
+SKIP: t0283-overlap-partitions.sh
+PASS: t0300-dos-on-gpt.sh
+PASS: t0301-overwrite-gpt-pmbr.sh
+SKIP: t0350-mac-PT-increases-sector-size.sh
+PASS: t0400-loop-clobber-infloop.sh
+PASS: t0500-dup-clobber.sh
+PASS: t0501-duplicate.sh
+SKIP: t1100-busy-label.sh
+SKIP: t1101-busy-partition.sh
+SKIP: t1102-loop-label.sh
+SKIP: t1104-remove-and-add-partition.sh
+SKIP: t1700-probe-fs.sh
+PASS: t2200-dos-label-recog.sh
+SKIP: t2201-pc98-label-recog.sh
+SKIP: t2300-dos-label-extended-bootcode.sh
+SKIP: t2310-dos-extended-2-sector-min-offset.sh
+PASS: t2400-dos-hfs-partition-type.sh
+PASS: t2500-probe-corrupt-hfs.sh
+SKIP: t3000-resize-fs.sh
+SKIP: t3200-resize-partition.sh
+SKIP: t3200-type-change.sh
+PASS: t3300-palo-prep.sh
+PASS: t3310-flags.sh
+SKIP: t3400-whole-disk-FAT-partition.sh
+PASS: t4000-sun-raid-type.sh
+PASS: t4001-sun-vtoc.sh
+SKIP: t4100-msdos-partition-limits.sh
+SKIP: t4100-dvh-partition-limits.sh
+PASS: t4100-msdos-starting-sector.sh
+SKIP: t4200-partprobe.sh
+PASS: t4300-nilfs2-tiny.sh
+PASS: t5000-tags.sh
+SKIP: t6000-dm.sh
+SKIP: t6001-psep.sh
+SKIP: t6002-dm-busy.sh
+SKIP: t6003-dm-hide.sh
+SKIP: t6004-dm-many-partitions.sh
+SKIP: t6005-dm-uuid.sh
+SKIP: t6100-mdraid-partitions.sh
+PASS: t7000-scripting.sh
+SKIP: t8000-loop.sh
+SKIP: t8001-loop-blkpg.sh
+SKIP: t9010-big-sector.sh
+SKIP: t9020-alignment.sh
+PASS: t9021-maxima.sh
+PASS: t9022-one-unit-snap.sh
+PASS: t9023-value-lt-one.sh
+SKIP: t9030-align-check.sh
+SKIP: t9040-many-partitions.sh
+SKIP: t9041-undetected-in-use-16th-partition.sh
+SKIP: t9042-dos-partition-limit.sh
+PASS: t9050-partition-table-types.sh
+make[6]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/parted-3.2/tests'
+============================================================================
+Testsuite summary for GNU parted 3.2
+============================================================================
+# TOTAL: 77
+# PASS:  39
+# SKIP:  38
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Entering directory '/sources/7.9/parted-3.2'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2'
+make[2]: Leaving directory '/sources/7.9/parted-3.2'
+make[1]: Leaving directory '/sources/7.9/parted-3.2'
+make ss-4096
+make[1]: Entering directory '/sources/7.9/parted-3.2'
+PARTED_SECTOR_SIZE=4096 make check-recursive
+make[2]: Entering directory '/sources/7.9/parted-3.2'
+Making check in po
+make[3]: Entering directory '/sources/7.9/parted-3.2/po'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/po'
+Making check in lib
+make[3]: Entering directory '/sources/7.9/parted-3.2/lib'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/lib'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/lib'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/lib'
+Making check in include
+make[3]: Entering directory '/sources/7.9/parted-3.2/include'
+Making check in parted
+make[4]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Entering directory '/sources/7.9/parted-3.2/include'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/include'
+Making check in libparted
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted'
+Making check in labels
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make  check-am
+make[5]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+Making check in fs
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/fs'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/fs'
+Making check in .
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+Making check in parted
+make[3]: Entering directory '/sources/7.9/parted-3.2/parted'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/parted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/parted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/parted'
+Making check in partprobe
+make[3]: Entering directory '/sources/7.9/parted-3.2/partprobe'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/partprobe'
+Making check in doc
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc'
+Making check in C
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/C'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/C'
+Making check in pt_BR
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc/pt_BR'
+  GEN      all-local
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc/pt_BR'
+make[4]: Entering directory '/sources/7.9/parted-3.2/doc'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/doc'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc'
+Making check in debug
+make[3]: Entering directory '/sources/7.9/parted-3.2/debug'
+Making check in test
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug/test'
+make[4]: Entering directory '/sources/7.9/parted-3.2/debug'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/debug'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/debug'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/parted-3.2/tests'
+make  print-align print-max dup-clobber duplicate fs-resize
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[4]: 'print-align' is up to date.
+make[4]: 'print-max' is up to date.
+make[4]: 'dup-clobber' is up to date.
+make[4]: 'duplicate' is up to date.
+make[4]: 'fs-resize' is up to date.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[5]: Entering directory '/sources/7.9/parted-3.2/tests'
+PASS: help-version.sh
+PASS: t0000-basic.sh
+PASS: t0001-tiny.sh
+PASS: t0010-script-no-ctrl-chars.sh
+PASS: t0100-print.sh
+PASS: t0101-print-empty.sh
+PASS: t0200-gpt.sh
+PASS: t0201-gpt.sh
+PASS: t0202-gpt-pmbr.sh
+PASS: t0203-gpt-tiny-device-abort.sh
+PASS: t0203-gpt-shortened-device-primary-valid.sh
+SKIP: t0203-gpt-create-on-min-sized-device.sh
+PASS: t0205-gpt-list-clobbers-pmbr.sh
+PASS: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh
+PASS: t0207-IEC-binary-notation.sh
+SKIP: t0208-mkpart-end-in-IEC.sh
+PASS: t0209-gpt-pmbr_boot.sh
+SKIP: t0210-gpt-resized-partition-entry-array.sh
+SKIP: t0211-gpt-rewrite-header.sh
+PASS: t0212-gpt-many-partitions.sh
+PASS: t0220-gpt-msftres.sh
+PASS: t0250-gpt.sh
+PASS: t0280-gpt-corrupt.sh
+SKIP: t0281-gpt-grow.sh
+SKIP: t0282-gpt-move-backup.sh
+SKIP: t0283-overlap-partitions.sh
+PASS: t0300-dos-on-gpt.sh
+PASS: t0301-overwrite-gpt-pmbr.sh
+SKIP: t0350-mac-PT-increases-sector-size.sh
+PASS: t0400-loop-clobber-infloop.sh
+PASS: t0500-dup-clobber.sh
+PASS: t0501-duplicate.sh
+SKIP: t1100-busy-label.sh
+SKIP: t1101-busy-partition.sh
+SKIP: t1102-loop-label.sh
+SKIP: t1104-remove-and-add-partition.sh
+SKIP: t1700-probe-fs.sh
+PASS: t2200-dos-label-recog.sh
+SKIP: t2201-pc98-label-recog.sh
+SKIP: t2300-dos-label-extended-bootcode.sh
+SKIP: t2310-dos-extended-2-sector-min-offset.sh
+PASS: t2400-dos-hfs-partition-type.sh
+PASS: t2500-probe-corrupt-hfs.sh
+SKIP: t3000-resize-fs.sh
+SKIP: t3200-resize-partition.sh
+SKIP: t3200-type-change.sh
+PASS: t3300-palo-prep.sh
+PASS: t3310-flags.sh
+SKIP: t3400-whole-disk-FAT-partition.sh
+PASS: t4000-sun-raid-type.sh
+PASS: t4001-sun-vtoc.sh
+SKIP: t4100-msdos-partition-limits.sh
+SKIP: t4100-dvh-partition-limits.sh
+PASS: t4100-msdos-starting-sector.sh
+SKIP: t4200-partprobe.sh
+PASS: t4300-nilfs2-tiny.sh
+PASS: t5000-tags.sh
+SKIP: t6000-dm.sh
+SKIP: t6001-psep.sh
+SKIP: t6002-dm-busy.sh
+SKIP: t6003-dm-hide.sh
+SKIP: t6004-dm-many-partitions.sh
+SKIP: t6005-dm-uuid.sh
+SKIP: t6100-mdraid-partitions.sh
+PASS: t7000-scripting.sh
+SKIP: t8000-loop.sh
+SKIP: t8001-loop-blkpg.sh
+SKIP: t9010-big-sector.sh
+SKIP: t9020-alignment.sh
+PASS: t9021-maxima.sh
+PASS: t9022-one-unit-snap.sh
+PASS: t9023-value-lt-one.sh
+SKIP: t9030-align-check.sh
+SKIP: t9040-many-partitions.sh
+SKIP: t9041-undetected-in-use-16th-partition.sh
+SKIP: t9042-dos-partition-limit.sh
+PASS: t9050-partition-table-types.sh
+make[6]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/parted-3.2/tests'
+============================================================================
+Testsuite summary for GNU parted 3.2
+============================================================================
+# TOTAL: 77
+# PASS:  39
+# SKIP:  38
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Entering directory '/sources/7.9/parted-3.2'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2'
+make[2]: Leaving directory '/sources/7.9/parted-3.2'
+make[1]: Leaving directory '/sources/7.9/parted-3.2'
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/parted-3.2'
+Making check in po
+make[2]: Entering directory '/sources/7.9/parted-3.2/po'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/po'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/parted-3.2/lib'
+make  check-am
+make[3]: Entering directory '/sources/7.9/parted-3.2/lib'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/lib'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/lib'
+Making check in include
+make[2]: Entering directory '/sources/7.9/parted-3.2/include'
+Making check in parted
+make[3]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/include/parted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/include/parted'
+make[3]: Entering directory '/sources/7.9/parted-3.2/include'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/include'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/include'
+Making check in libparted
+make[2]: Entering directory '/sources/7.9/parted-3.2/libparted'
+Making check in labels
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make  check-am
+make[4]: Entering directory '/sources/7.9/parted-3.2/libparted/labels'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted/labels'
+Making check in fs
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted/fs'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted/fs'
+Making check in .
+make[3]: Entering directory '/sources/7.9/parted-3.2/libparted'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/libparted'
+Making check in parted
+make[2]: Entering directory '/sources/7.9/parted-3.2/parted'
+make  check-am
+make[3]: Entering directory '/sources/7.9/parted-3.2/parted'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/parted'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/parted'
+Making check in partprobe
+make[2]: Entering directory '/sources/7.9/parted-3.2/partprobe'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/parted-3.2/partprobe'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/parted-3.2/doc'
+Making check in C
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc/C'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc/C'
+Making check in pt_BR
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc/pt_BR'
+  GEN      all-local
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc/pt_BR'
+make[3]: Entering directory '/sources/7.9/parted-3.2/doc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/doc'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/doc'
+Making check in debug
+make[2]: Entering directory '/sources/7.9/parted-3.2/debug'
+Making check in test
+make[3]: Entering directory '/sources/7.9/parted-3.2/debug/test'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/debug/test'
+make[3]: Entering directory '/sources/7.9/parted-3.2/debug'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/debug'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/debug'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/parted-3.2/tests'
+make  print-align print-max dup-clobber duplicate fs-resize
+make[3]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[3]: 'print-align' is up to date.
+make[3]: 'print-max' is up to date.
+make[3]: 'dup-clobber' is up to date.
+make[3]: 'duplicate' is up to date.
+make[3]: 'fs-resize' is up to date.
+make[3]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[4]: Entering directory '/sources/7.9/parted-3.2/tests'
+PASS: help-version.sh
+PASS: t0000-basic.sh
+PASS: t0001-tiny.sh
+PASS: t0010-script-no-ctrl-chars.sh
+PASS: t0100-print.sh
+PASS: t0101-print-empty.sh
+PASS: t0200-gpt.sh
+PASS: t0201-gpt.sh
+PASS: t0202-gpt-pmbr.sh
+PASS: t0203-gpt-tiny-device-abort.sh
+PASS: t0203-gpt-shortened-device-primary-valid.sh
+PASS: t0203-gpt-create-on-min-sized-device.sh
+PASS: t0205-gpt-list-clobbers-pmbr.sh
+PASS: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh
+PASS: t0207-IEC-binary-notation.sh
+PASS: t0208-mkpart-end-in-IEC.sh
+PASS: t0209-gpt-pmbr_boot.sh
+SKIP: t0210-gpt-resized-partition-entry-array.sh
+SKIP: t0211-gpt-rewrite-header.sh
+PASS: t0212-gpt-many-partitions.sh
+PASS: t0220-gpt-msftres.sh
+PASS: t0250-gpt.sh
+PASS: t0280-gpt-corrupt.sh
+PASS: t0281-gpt-grow.sh
+PASS: t0282-gpt-move-backup.sh
+PASS: t0283-overlap-partitions.sh
+PASS: t0300-dos-on-gpt.sh
+PASS: t0301-overwrite-gpt-pmbr.sh
+PASS: t0350-mac-PT-increases-sector-size.sh
+PASS: t0400-loop-clobber-infloop.sh
+PASS: t0500-dup-clobber.sh
+PASS: t0501-duplicate.sh
+SKIP: t1100-busy-label.sh
+SKIP: t1101-busy-partition.sh
+SKIP: t1102-loop-label.sh
+SKIP: t1104-remove-and-add-partition.sh
+PASS: t1700-probe-fs.sh
+PASS: t2200-dos-label-recog.sh
+PASS: t2201-pc98-label-recog.sh
+PASS: t2300-dos-label-extended-bootcode.sh
+SKIP: t2310-dos-extended-2-sector-min-offset.sh
+PASS: t2400-dos-hfs-partition-type.sh
+PASS: t2500-probe-corrupt-hfs.sh
+SKIP: t3000-resize-fs.sh
+SKIP: t3200-resize-partition.sh
+SKIP: t3200-type-change.sh
+PASS: t3300-palo-prep.sh
+PASS: t3310-flags.sh
+SKIP: t3400-whole-disk-FAT-partition.sh
+PASS: t4000-sun-raid-type.sh
+PASS: t4001-sun-vtoc.sh
+SKIP: t4100-msdos-partition-limits.sh
+SKIP: t4100-dvh-partition-limits.sh
+PASS: t4100-msdos-starting-sector.sh
+SKIP: t4200-partprobe.sh
+PASS: t4300-nilfs2-tiny.sh
+PASS: t5000-tags.sh
+SKIP: t6000-dm.sh
+SKIP: t6001-psep.sh
+SKIP: t6002-dm-busy.sh
+SKIP: t6003-dm-hide.sh
+SKIP: t6004-dm-many-partitions.sh
+SKIP: t6005-dm-uuid.sh
+SKIP: t6100-mdraid-partitions.sh
+PASS: t7000-scripting.sh
+SKIP: t8000-loop.sh
+SKIP: t8001-loop-blkpg.sh
+SKIP: t9010-big-sector.sh
+SKIP: t9020-alignment.sh
+PASS: t9021-maxima.sh
+PASS: t9022-one-unit-snap.sh
+PASS: t9023-value-lt-one.sh
+SKIP: t9030-align-check.sh
+SKIP: t9040-many-partitions.sh
+SKIP: t9041-undetected-in-use-16th-partition.sh
+SKIP: t9042-dos-partition-limit.sh
+PASS: t9050-partition-table-types.sh
+make[5]: Entering directory '/sources/7.9/parted-3.2/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/parted-3.2/tests'
+============================================================================
+Testsuite summary for GNU parted 3.2
+============================================================================
+# TOTAL: 77
+# PASS:  48
+# SKIP:  29
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[3]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[2]: Leaving directory '/sources/7.9/parted-3.2/tests'
+make[2]: Entering directory '/sources/7.9/parted-3.2'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/parted-3.2'
+make[1]: Leaving directory '/sources/7.9/parted-3.2'

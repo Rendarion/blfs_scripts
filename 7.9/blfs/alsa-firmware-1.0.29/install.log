@@ -1,0 +1,334 @@
+unresolvable dependency: alsa-tools-1.1.0
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for as31... no
+checking firmware installation directory... /lib/firmware
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating hdsploader/Makefile
+config.status: creating mixartloader/Makefile
+config.status: creating usx2yloader/Makefile
+config.status: creating vxloader/Makefile
+config.status: creating pcxhrloader/Makefile
+config.status: creating echoaudio/Makefile
+config.status: creating emu/Makefile
+config.status: creating asihpi/Makefile
+config.status: creating korg1212/Makefile
+config.status: creating maestro3/Makefile
+config.status: creating multisound/Makefile
+config.status: creating sb16/Makefile
+config.status: creating wavefront/Makefile
+config.status: creating ymfpci/Makefile
+config.status: creating aica/Makefile
+config.status: creating ca0132/Makefile
+config.status: creating cs46xx/Makefile
+config.status: executing depfiles commands
+Making all in hdsploader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT tobin.o -MD -MP -MF .deps/tobin.Tpo -c -o tobin.o tobin.c
+mv -f .deps/tobin.Tpo .deps/tobin.Po
+gcc  -g -O2   -o tobin tobin.o  
+./tobin
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+Making all in mixartloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+Making all in pcxhrloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+Making all in usx2yloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+Making all in vxloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT toxlx.o -MD -MP -MF .deps/toxlx.Tpo -c -o toxlx.o toxlx.c
+mv -f .deps/toxlx.Tpo .deps/toxlx.Po
+gcc  -g -O2   -o toxlx toxlx.o  
+./toxlx < x1_2_v22.rbt > x1_2_v22.xlx
+./toxlx < x1_1_vx2.rbt > x1_1_vx2.xlx
+./toxlx < x1_1_vxp.rbt > x1_1_vxp.xlx
+./toxlx < x1_1_vp4.rbt > x1_1_vp4.xlx
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+Making all in echoaudio
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer DSP/LoaderDSP.c loader_dsp.fw
+./fw_writer DSP/Darla20DSP.c darla20_dsp.fw
+./fw_writer DSP/Gina20DSP.c gina20_dsp.fw
+./fw_writer DSP/Layla20DSP.c layla20_dsp.fw
+./fw_writer ASIC/LaylaASIC.c layla20_asic.fw
+./fw_writer DSP/Darla24DSP.c darla24_dsp.fw
+./fw_writer DSP/Gina24DSP.c gina24_301_dsp.fw
+./fw_writer ASIC/Gina24ASIC.c gina24_301_asic.fw
+./fw_writer DSP/Gina24_361DSP.c gina24_361_dsp.fw
+./fw_writer ASIC/Gina24ASIC_361.c gina24_361_asic.fw
+./fw_writer DSP/Layla24DSP.c layla24_dsp.fw
+./fw_writer ASIC/Layla24_1ASIC.c layla24_1_asic.fw
+./fw_writer ASIC/Layla24_2A_ASIC.c layla24_2A_asic.fw
+./fw_writer ASIC/Layla24_2S_ASIC.c layla24_2S_asic.fw
+./fw_writer DSP/MonaDSP.c mona_301_dsp.fw
+./fw_writer ASIC/Mona1ASIC48.c mona_301_1_asic_48.fw
+./fw_writer ASIC/Mona1ASIC96.c mona_301_1_asic_96.fw
+./fw_writer DSP/Mona361DSP.c mona_361_dsp.fw
+./fw_writer ASIC/Mona1ASIC48_361.c mona_361_1_asic_48.fw
+./fw_writer ASIC/Mona1ASIC96_361.c mona_361_1_asic_96.fw
+./fw_writer ASIC/Mona2ASIC.c mona_2_asic.fw
+./fw_writer DSP/MiaDSP.c mia_dsp.fw
+./fw_writer DSP/Echo3gDSP.c echo3g_dsp.fw
+./fw_writer ASIC/3G_ASIC.c 3g_asic.fw
+./fw_writer DSP/IndigoDSP.c indigo_dsp.fw
+./fw_writer DSP/IndigoIODSP.c indigo_io_dsp.fw
+./fw_writer DSP/IndigoIOxDSP.c indigo_iox_dsp.fw
+./fw_writer DSP/IndigoDJDSP.c indigo_dj_dsp.fw
+./fw_writer DSP/IndigoDJxDSP.c indigo_djx_dsp.fw
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+Making all in asihpi
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+Making all in emu
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+Making all in korg1212
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+Making all in maestro3
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+Making all in multisound
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+Making all in sb16
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+Making all in wavefront
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+Making all in ymfpci
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+gcc -DPACKAGE_NAME=\"alsa-firmware\" -DPACKAGE_TARNAME=\"alsa-firmware\" -DPACKAGE_VERSION=\"1.0.29\" -DPACKAGE_STRING=\"alsa-firmware\ 1.0.29\" -DPACKAGE_BUGREPORT=\"\" -DPACKAGE_URL=\"\" -DSTDC_HEADERS=1 -DPACKAGE=\"alsa-firmware\" -DVERSION=\"1.0.29\" -I.     -g -O2 -MT fw_writer.o -MD -MP -MF .deps/fw_writer.Tpo -c -o fw_writer.o fw_writer.c
+mv -f .deps/fw_writer.Tpo .deps/fw_writer.Po
+gcc  -g -O2   -o fw_writer fw_writer.o  
+./fw_writer
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+Making all in aica
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+Making all in ca0132
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+Making all in cs46xx
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29'
+Making install in hdsploader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/firmware/hdsploader'
+ /usr/bin/install -c -m 644 digiface_firmware.bin digiface_firmware_rev11.bin multiface_firmware.bin multiface_firmware_rev11.bin rpm_firmware.bin '/usr/share/alsa/firmware/hdsploader'
+ /bin/mkdir -p '/lib/firmware'
+ /usr/bin/install -c -m 644 digiface_firmware.bin digiface_firmware_rev11.bin multiface_firmware.bin multiface_firmware_rev11.bin rpm_firmware.bin '/lib/firmware'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/hdsploader'
+Making install in mixartloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/firmware/mixartloader'
+ /usr/bin/install -c -m 644 miXart.conf miXart8AES.xlx miXart8.elf miXart8.xlx '/usr/share/alsa/firmware/mixartloader'
+ /bin/mkdir -p '/lib/firmware/mixart'
+ /usr/bin/install -c -m 644 miXart8AES.xlx miXart8.elf miXart8.xlx '/lib/firmware/mixart'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/mixartloader'
+Making install in pcxhrloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/firmware/pcxhrloader'
+ /usr/bin/install -c -m 644 pcxhr.conf pcxhr0.conf pcxhr1.conf pcxhr2.conf pcxhr3.conf pcxhr4.conf pcxhr5.conf xi_1_882.dat xc_1_882.dat e321_512.e56 b321_512.b56 d321_512.d56 xlxint.dat xlxc882hr.dat xlxc882e.dat dspe882.e56 dspb882hr.b56 dspb882e.b56 dspd882.d56 xlxc1222hr.dat xlxc1222e.dat dspb1222hr.b56 dspb1222e.b56 dspd1222.d56 xlxc222.dat xlxc924.dat dspe924.e56 dspb924.b56 dspd222.d56 '/usr/share/alsa/firmware/pcxhrloader'
+ /bin/mkdir -p '/lib/firmware/pcxhr'
+ /usr/bin/install -c -m 644 xi_1_882.dat xc_1_882.dat e321_512.e56 b321_512.b56 d321_512.d56 xlxint.dat xlxc882hr.dat xlxc882e.dat dspe882.e56 dspb882hr.b56 dspb882e.b56 dspd882.d56 xlxc1222hr.dat xlxc1222e.dat dspb1222hr.b56 dspb1222e.b56 dspd1222.d56 xlxc222.dat xlxc924.dat dspe924.e56 dspb924.b56 dspd222.d56 '/lib/firmware/pcxhr'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/pcxhrloader'
+Making install in usx2yloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+ /bin/mkdir -p '/usr/share/alsa/firmware/usx2yloader'
+ /usr/bin/install -c -m 644 us122.conf us224.conf us428.conf us122.prepad us224.prepad us428.prepad us122.rbt us224.rbt us428.rbt tascam_loader.ihx us122fw.ihx us224fw.ihx us428fw.ihx '/usr/share/alsa/firmware/usx2yloader'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/usx2yloader'
+Making install in vxloader
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/firmware/vxloader'
+ /usr/bin/install -c -m 644 vx222.conf vxboard.conf vxpocket.conf vxp440.conf bd56002.boot bd563s3.boot bd563v2.boot bx_1_vxp.b56 bx_1_vp4.b56 l_1_v22.d56 l_1_vx2.d56 l_1_vxp.d56 l_1_vp4.d56 x1_2_v22.rbt x1_1_vx2.rbt x1_1_vxp.rbt x1_1_vp4.rbt '/usr/share/alsa/firmware/vxloader'
+ /bin/mkdir -p '/lib/firmware/vx'
+ /usr/bin/install -c -m 644 bd56002.boot bd563s3.boot bd563v2.boot bx_1_vxp.b56 bx_1_vp4.b56 l_1_v22.d56 l_1_vx2.d56 l_1_vxp.d56 l_1_vp4.d56 x1_2_v22.xlx x1_1_vx2.xlx x1_1_vxp.xlx x1_1_vp4.xlx '/lib/firmware/vx'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/vxloader'
+Making install in echoaudio
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/ea'
+ /usr/bin/install -c -m 644 loader_dsp.fw darla20_dsp.fw gina20_dsp.fw layla20_dsp.fw layla20_asic.fw darla24_dsp.fw gina24_301_dsp.fw gina24_301_asic.fw gina24_361_dsp.fw gina24_361_asic.fw layla24_dsp.fw layla24_1_asic.fw layla24_2A_asic.fw layla24_2S_asic.fw mona_301_dsp.fw mona_301_1_asic_48.fw mona_301_1_asic_96.fw mona_361_dsp.fw mona_361_1_asic_48.fw mona_361_1_asic_96.fw mona_2_asic.fw mia_dsp.fw echo3g_dsp.fw 3g_asic.fw indigo_dsp.fw indigo_io_dsp.fw indigo_iox_dsp.fw indigo_dj_dsp.fw indigo_djx_dsp.fw '/lib/firmware/ea'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/echoaudio'
+Making install in asihpi
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/asihpi'
+ /usr/bin/install -c -m 644 dsp5000.bin dsp6200.bin dsp6205.bin dsp6400.bin dsp6600.bin dsp8700.bin dsp8900.bin '/lib/firmware/asihpi'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/asihpi'
+Making install in emu
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/emu'
+ /usr/bin/install -c -m 644 hana.fw audio_dock.fw emu0404.fw micro_dock.fw emu1010_notebook.fw emu1010b.fw '/lib/firmware/emu'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/emu'
+Making install in korg1212
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/korg'
+ /usr/bin/install -c -m 644 k1212.dsp '/lib/firmware/korg'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/korg1212'
+Making install in maestro3
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/ess'
+ /usr/bin/install -c -m 644 maestro3_assp_kernel.fw maestro3_assp_minisrc.fw '/lib/firmware/ess'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/maestro3'
+Making install in multisound
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+/usr/bin/install -c -d /lib/firmware/turtlebeach
+cd /lib/firmware/turtlebeach && \
+  rm -f msndinit.bin && \
+  ln -s /etc/sound/msndinit.bin msndinit.bin
+cd /lib/firmware/turtlebeach && \
+  rm -f msndperm.bin && \
+  ln -s /etc/sound/msndperm.bin msndperm.bin
+cd /lib/firmware/turtlebeach && \
+  rm -f pndspini.bin && \
+  ln -s /etc/sound/pndspini.bin pndspini.bin
+cd /lib/firmware/turtlebeach && \
+  rm -f pndsperm.bin && \
+  ln -s /etc/sound/pndsperm.bin pndsperm.bin
+make[3]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/multisound'
+Making install in sb16
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/sb16'
+ /usr/bin/install -c -m 644 mulaw_main.csp alaw_main.csp ima_adpcm_init.csp ima_adpcm_playback.csp ima_adpcm_capture.csp '/lib/firmware/sb16'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/sb16'
+Making install in wavefront
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/yamaha'
+ /usr/bin/install -c -m 644 yss225_registers.bin '/lib/firmware/yamaha'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/wavefront'
+Making install in ymfpci
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/yamaha'
+ /usr/bin/install -c -m 644 ds1_dsp.fw ds1_ctrl.fw ds1e_ctrl.fw '/lib/firmware/yamaha'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ymfpci'
+Making install in aica
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware'
+ /usr/bin/install -c -m 644 aica_firmware.bin '/lib/firmware'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/aica'
+Making install in ca0132
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware'
+ /usr/bin/install -c -m 644 ctefx.bin ctspeq.bin '/lib/firmware'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/ca0132'
+Making install in cs46xx
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/lib/firmware/cs46xx'
+ /usr/bin/install -c -m 644 ba1 cwc4630 cwcasync cwcbinhack cwcdma cwcsnoop '/lib/firmware/cs46xx'
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29/cs46xx'
+make[1]: Entering directory '/sources/7.9/alsa-firmware-1.0.29'
+make[2]: Entering directory '/sources/7.9/alsa-firmware-1.0.29'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29'
+make[1]: Leaving directory '/sources/7.9/alsa-firmware-1.0.29'

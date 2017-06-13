@@ -1,0 +1,3 @@
+PKG=$(basename $PWD)
+
+make DOCDIR=/usr/share/doc/$PKG install

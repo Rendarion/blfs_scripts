@@ -1,0 +1,302 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/libtool-2.4.6'
+Making check in .
+make[2]: Entering directory '/sources/7.9/libtool-2.4.6'
+make  check-local
+make[3]: Entering directory '/sources/7.9/libtool-2.4.6'
+  CC       libltdl/loaders/libltdl_libltdlc_la-preopen.lo
+  CC       libltdl/libltdl_libltdlc_la-lt__alloc.lo
+  CC       libltdl/libltdl_libltdlc_la-lt_dlloader.lo
+  CC       libltdl/libltdl_libltdlc_la-lt_error.lo
+  CC       libltdl/libltdl_libltdlc_la-ltdl.lo
+  CC       libltdl/libltdl_libltdlc_la-slist.lo
+  CCLD     libltdl/libltdlc.la
+## ----------------------------- ##
+## GNU Libtool 2.4.6 test suite. ##
+## ----------------------------- ##
+
+Functions shared with configure and libtool.
+
+  1: func_munge_path_list works                      ok
+
+Libtoolize operation.
+
+  2: libtoolize macro installation                   ok
+  3: libtoolize macro directory mismatch error       ok
+  4: multiple AC_CONFIG_MACRO_DIRS invocation        ok
+  5: multiple AC_CONFIG_MACRO_DIRS directories       ok
+  6: libtoolize ACLOCAL_AMFLAGS extraction           ok
+  7: libtoolize macro serial update                  ok
+  8: libtoolize config files serial update           ok
+  9: diagnose missing LT_CONFIG_LTDL_DIR             ok
+ 10: copy ltdl.m4 with shared macro directory        ok
+ 11: correctly parse LTDL_INIT from configure.ac     ok
+ 12: diagnose missing LTDL_INIT invocation           ok
+ 13: upgrading verbatim style aclocal.m4             expected failure (libtoolize.at:698)
+ 14: verbatim aclocal.m4 w/o AC_CONFIG_MACRO_DIRS    expected failure (libtoolize.at:789)
+ 15: nonrecursive ltdl with AC_CONFIG_MACRO_DIRS     ok
+ 16: subproject ltdl with unconventional layout      ok
+ 17: Subproject ltdl without GNU M4                  ok
+ 18: LIBTOOLIZE_OPTIONS                              ok
+ 19: cleanup old installation                        ok
+
+Basic libtool operation.
+
+ 20: check help output                               ok
+ 21: diagnose no mode specified                      ok
+ 22: quote shell meta-characters in filenames        ok
+ 23: transform source suffices                       ok
+ 24: check link mode operation                       ok
+ 25: check objectlist file operation                 ok
+ 26: test LT_SUPPORTED_TAG interface                 skipped (libtool.at:219)
+
+Linking and loading.
+
+ 27: link against a preloaded static library         expected failure (demo.at:388)
+ 28: build and dynamically load a module             expected failure (demo.at:405)
+ 29: preload static and dynamic module               expected failure (demo.at:422)
+ 30: deplibs_check_method                            expected failure (demo.at:467)
+ 31: disable fast install                            expected failure (demo.at:482)
+ 32: force PIC objects                               expected failure (demo.at:500)
+ 33: force non-PIC objects                           skipped (demo.at:535)
+ 34: hardcoding library path                         expected failure (demo.at:611)
+ 35: binary relinking at install time                expected failure (demo.at:719)
+ 36: uninstalled libraries have priority             expected failure (demo.at:790)
+ 37: linking with long file names                    expected failure (demo.at:977)
+ 38: override pic_flag at configure time             expected failure (pic_flag.at:53)
+ 39: test --with-pic                                 expected failure (with-pic.at:32)
+
+Convenience libraries.
+
+ 40: build and link against a static library         expected failure (cdemo.at:140)
+ 41: build and link against a dynamic library        expected failure (cdemo.at:155)
+ 42: build both static and dynamic                   expected failure (cdemo.at:170)
+ 43: allow_undefined_flag                            expected failure (cdemo.at:184)
+ 44: C convenience archives                          ok
+ 45: C++ convenience archives                        ok
+ 46: F77 convenience archives                        skipped (convenience.at:110)
+ 47: FC convenience archives                         skipped (convenience.at:170)
+ 48: Java convenience archives                       skipped (convenience.at:230)
+
+Library interdependencies.
+
+ 49: static library interdependencies                expected failure (depdemo.at:290)
+ 50: shared library interdependencies                expected failure (depdemo.at:307)
+ 51: shared and static interdependencies             expected failure (depdemo.at:324)
+ 52: disable fast install                            expected failure (depdemo.at:340)
+ 53: binary relinking at install time                expected failure (depdemo.at:359)
+
+Testing libtool functions.
+
+ 54: standard command line options                   ok
+ 55: mode short-hands                                ok
+ 56: debug tracing                                   ok
+ 57: duplicate members in archive tests              ok
+ 58: duplicate convenience archive names             ok
+ 59: preserve duplicate convenience deps             expected failure (duplicate_deps.at:74)
+ 60: passing CC flags through libtool                ok
+ 61: passing CXX flags through libtool               ok
+ 62: passing F77 flags through libtool               skipped (flags.at:116)
+ 63: passing FC flags through libtool                skipped (flags.at:116)
+ 64: passing GCJ flags through libtool               skipped (flags.at:116)
+ 65: inherited_linker_flags                          ok
+ 66: Link order test                                 ok
+ 67: Link order of deplibs                           ok
+ 68: Failure tests                                   ok
+ 69: shlibpath_overrides_runpath                     ok
+ 70: Runpath in libtool library files                ok
+ 71: static linking flags for programs               ok
+ 72: ccache -all-static                              ok
+ 73: Export test                                     ok
+ 74: export from a DLL with a .def file              skipped (export-def.at:35)
+ 75: sys_lib_search_path                             ok
+ 76: sys_lib_search_path on w32                      skipped (search-path.at:85)
+ 77: indirect convenience                            ok
+ 78: indirect uninstalled                            ok
+ 79: static library contains static library          expected failure (archive-in-archive.at:56)
+ 80: both of -o prog and -o prog$EXEEXT work         skipped (exeext.at:29)
+ 81: execute mode                                    ok
+ 82: bindir basic lib test                           ok
+ 83: bindir install tests                            ok
+ 84: cwrapper for uninstalled executables            ok
+ 85: cwrapper string length                          skipped (cwrapper.at:190)
+ 86: cwrapper and installed shared libraries         ok
+ 87: deplib in subdir                                ok
+ 88: inferred tag                                    ok
+ 89: CXX inferred tag                                ok
+ 90: F77 inferred tag                                skipped (infer-tag.at:56)
+ 91: FC inferred tag                                 skipped (infer-tag.at:70)
+ 92: GCJ inferred tag                                skipped (infer-tag.at:84)
+ 93: localized compiler messages                     ok
+ 94: nocase library search                           skipped (nocase.at:33)
+ 95: Install tests                                   ok
+ 96: versioning                                      ok
+
+DESTDIR tests
+
+ 97: Simple DESTDIR install                          ok
+ 98: DESTDIR with in-package deplibs                 ok
+
+Support for older m4 interface.
+
+ 99: AM_PROG_LIBTOOL                                 expected failure (old-m4-iface.at:91)
+100: AC_WITH_LTDL                                    expected failure (old-m4-iface.at:162)
+101: AC_CONFIG_MACRO_DIR                             ok
+
+Support for older libltdl interfaces.
+
+102: Makefile.inc                                    expected failure (old-ltdl-iface.at:134)
+
+Libtool subdir-objects support.
+
+103: C subdir-objects                                expected failure (am-subdir.at:78)
+104: C++ subdir-objects                              expected failure (am-subdir.at:146)
+
+Libltdl functionality.
+
+105: lt_dlexit unloading libs                        ok
+106: lt_dlopenadvise library loading                 ok
+107: lt_dlopen error messages                        expected failure (lt_dlopen.at:101)
+108: lt_dlopen archive                               ok
+109: lt_dlopenext error messages                     ok
+110: libdir of installed modules                     ok
+111: ltdl API                                        skipped (ltdl-api.at:31)
+112: dlloader API                                    ok
+113: loadlibrary error messages                      skipped (loadlibrary.at:250)
+114: syntax of .la files                             expected failure (lalib-syntax.at:133)
+115: resident modules                                ok
+116: SList functionality                             ok
+117: enforced lib prefix                             ok
+
+Dynamic ltdl runtime loading.
+
+118: dynamically ltdl preload static modules         expected failure (mdemo.at:630)
+119: dynamically ltdl load a shared module           expected failure (mdemo.at:647)
+120: ltdl load shared and static modules             expected failure (mdemo.at:664)
+121: ltdl dryrun                                     expected failure (mdemo.at:680)
+122: link with library that loads ltdl modules       expected failure (mdemo.at:841)
+
+Standalone Libltdl.
+
+123: compiling softlinked libltdl                    FAILED (standalone.at:35)
+124: compiling copied libltdl                        FAILED (standalone.at:50)
+125: installable libltdl                             FAILED (standalone.at:67)
+126: linking libltdl without autotools               FAILED (standalone.at:85)
+
+Subproject Libltdl.
+
+127: compiling softlinked libltdl                    expected failure (subproject.at:62)
+128: compiling copied libltdl                        expected failure (subproject.at:78)
+129: installable libltdl                             expected failure (subproject.at:97)
+130: linking libltdl without autotools               FAILED (subproject.at:115)
+
+Nonrecursive Automake Libltdl.
+
+131: compiling softlinked libltdl                    expected failure (nonrecursive.at:92)
+132: compiling copied libltdl                        expected failure (nonrecursive.at:116)
+133: installable libltdl                             expected failure (nonrecursive.at:142)
+
+Recursive Automake Libltdl.
+
+134: compiling softlinked libltdl                    expected failure (recursive.at:68)
+135: compiling copied libltdl                        expected failure (recursive.at:88)
+136: installable libltdl                             expected failure (recursive.at:110)
+
+C++ language support.
+
+137: static library                                  expected failure (tagdemo.at:343)
+138: shared library                                  expected failure (tagdemo.at:358)
+139: shared and static together                      expected failure (tagdemo.at:373)
+140: allow_undefined_flag                            expected failure (tagdemo.at:388)
+
+C++ template tests.
+
+141: simple template test                            ok
+142: template test with subdirs                      ok
+
+Constructors.
+
+143: C++ static constructors                         ok
+144: C++ exception handling                          ok
+
+libtool script generation.
+
+145: config.status                                   expected failure (early-libtool.at:109)
+146: config.lt                                       expected failure (early-libtool.at:216)
+
+Libtool usage in GCC
+
+147: AC_NO_EXECUTABLES                               expected failure (no-executables.at:75)
+
+Detecting identical deplibs.
+
+148: build tree relpaths                             expected failure (deplibs-ident.at:69)
+
+configure interface to libltdl.
+
+149: installable libltdl                             expected failure (configure-iface.at:145)
+150: --with-ltdl-include/lib                         expected failure (configure-iface.at:178)
+151: --with-included-ltdl                            expected failure (configure-iface.at:283)
+152: convenience libltdl                             expected failure (configure-iface.at:321)
+
+F77 language support.
+
+153: static library                                  skipped (f77demo.at:301)
+154: shared library                                  skipped (f77demo.at:316)
+155: shared and static together                      skipped (f77demo.at:331)
+
+Fortran language support.
+
+156: static library                                  skipped (fcdemo.at:315)
+157: shared library                                  skipped (fcdemo.at:330)
+158: shared and static together                      skipped (fcdemo.at:345)
+
+Mac OS X tests
+
+159: darwin fat compile                              skipped (darwin.at:42)
+160: darwin concurrent library extraction            ok
+161: darwin gdb debug information                    skipped (darwin.at:154)
+162: darwin ld warnings changing configure results   expected failure (darwin.at:225)
+163: darwin can lt_dlopen .dylib and .so files       skipped (darwin.at:249)
+
+Windows tests.
+
+164: dumpbin -symbols section hiding                 skipped (dumpbin-symbols.at:42)
+165: deplibs without file command                    ok
+
+sysroot tests
+
+166: -L=.../lib -l                                   skipped (sysroot.at:203)
+167: -L SYSROOT/.../lib -l                           skipped (sysroot.at:204)
+168: SYSROOT/.../*.la                                skipped (sysroot.at:205)
+
+Libtool stress test.
+
+169: Link option thorough search test                ok
+170: Run tests with low max_cmd_len                  ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+## -------------------------- ##
+## testsuite.log was created. ##
+## -------------------------- ##
+
+Please send `tests/testsuite.log' and all information you think might help:
+
+   To: <bug-libtool@gnu.org>
+   Subject: [GNU Libtool 2.4.6] testsuite: 123 124 125 126 130 failed
+
+You may investigate any problem if you feel able to do so, in which
+case the test suite provides a good starting point.  Its output may
+be found below `tests/testsuite.dir'.
+
+Makefile:2459: recipe for target 'check-local' failed
+make[3]: Leaving directory '/sources/7.9/libtool-2.4.6'
+Makefile:1897: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/libtool-2.4.6'
+Makefile:1606: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/libtool-2.4.6'
+Makefile:1899: recipe for target 'check' failed

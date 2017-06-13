@@ -1,0 +1,12 @@
+OLDKERNELVS="4.4.2"
+
+make mrproper
+
+cp -vT $(ls -tr /boot/config* | tail -n 1) .config
+
+make olddefconfig
+
+make
+
+cp -r $PWD /sources/$LFSVS/$PKG-backup
+chown -R 0:0 /sources/$LFSVS/$PKG-backup

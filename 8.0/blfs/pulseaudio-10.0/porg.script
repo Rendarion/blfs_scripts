@@ -1,0 +1,3 @@
+make install
+
+rm /etc/dbus-1/system.d/pulseaudio-system.conf

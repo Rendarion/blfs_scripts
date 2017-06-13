@@ -1,0 +1,368 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/mpc-1.0.3/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/mpc-1.0.3/src'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/mpc-1.0.3/tests'
+make  libmpc-tests.la tabs tacos tacosh tadd tadd_fr tadd_si tadd_ui targ tasin tasinh tatan tatanh tconj tcos tcosh tdiv tdiv_2si tdiv_2ui tdiv_fr tdiv_ui texp tfma tfr_div tfr_sub timag tio_str tlog tlog10 tmul tmul_2si tmul_2ui tmul_fr tmul_i tmul_si tmul_ui tneg tnorm tpow tpow_ld tpow_d tpow_fr tpow_si tpow_ui tpow_z tprec tproj treal treimref tset tsin tsin_cos tsinh tsqr tsqrt tstrtoc tsub tsub_fr tsub_ui tswap ttan ttanh tui_div tui_ui_sub tget_version
+make[2]: Entering directory '/sources/7.9/mpc-1.0.3/tests'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT random.lo -MD -MP -MF .deps/random.Tpo -c -o random.lo random.c
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tgeneric.lo -MD -MP -MF .deps/tgeneric.Tpo -c -o tgeneric.lo tgeneric.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -g -O2 -MT random.lo -MD -MP -MF .deps/random.Tpo -c random.c  -fPIC -DPIC -o .libs/random.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -g -O2 -MT tgeneric.lo -MD -MP -MF .deps/tgeneric.Tpo -c tgeneric.c  -fPIC -DPIC -o .libs/tgeneric.o
+mv -f .deps/random.Tpo .deps/random.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT read_data.lo -MD -MP -MF .deps/read_data.Tpo -c -o read_data.lo read_data.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -g -O2 -MT read_data.lo -MD -MP -MF .deps/read_data.Tpo -c read_data.c  -fPIC -DPIC -o .libs/read_data.o
+mv -f .deps/read_data.Tpo .deps/read_data.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT comparisons.lo -MD -MP -MF .deps/comparisons.Tpo -c -o comparisons.lo comparisons.c
+mv -f .deps/tgeneric.Tpo .deps/tgeneric.Plo
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tabs.o -MD -MP -MF .deps/tabs.Tpo -c -o tabs.o tabs.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../src -g -O2 -MT comparisons.lo -MD -MP -MF .deps/comparisons.Tpo -c comparisons.c  -fPIC -DPIC -o .libs/comparisons.o
+mv -f .deps/tabs.Tpo .deps/tabs.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tacos.o -MD -MP -MF .deps/tacos.Tpo -c -o tacos.o tacos.c
+mv -f .deps/comparisons.Tpo .deps/comparisons.Plo
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tacosh.o -MD -MP -MF .deps/tacosh.Tpo -c -o tacosh.o tacosh.c
+mv -f .deps/tacos.Tpo .deps/tacos.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tadd.o -MD -MP -MF .deps/tadd.Tpo -c -o tadd.o tadd.c
+mv -f .deps/tacosh.Tpo .deps/tacosh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tadd_fr.o -MD -MP -MF .deps/tadd_fr.Tpo -c -o tadd_fr.o tadd_fr.c
+mv -f .deps/tadd.Tpo .deps/tadd.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tadd_si.o -MD -MP -MF .deps/tadd_si.Tpo -c -o tadd_si.o tadd_si.c
+mv -f .deps/tadd_fr.Tpo .deps/tadd_fr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tadd_ui.o -MD -MP -MF .deps/tadd_ui.Tpo -c -o tadd_ui.o tadd_ui.c
+mv -f .deps/tadd_si.Tpo .deps/tadd_si.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT targ.o -MD -MP -MF .deps/targ.Tpo -c -o targ.o targ.c
+mv -f .deps/tadd_ui.Tpo .deps/tadd_ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tasin.o -MD -MP -MF .deps/tasin.Tpo -c -o tasin.o tasin.c
+mv -f .deps/targ.Tpo .deps/targ.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tasinh.o -MD -MP -MF .deps/tasinh.Tpo -c -o tasinh.o tasinh.c
+mv -f .deps/tasin.Tpo .deps/tasin.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tatan.o -MD -MP -MF .deps/tatan.Tpo -c -o tatan.o tatan.c
+mv -f .deps/tasinh.Tpo .deps/tasinh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tatanh.o -MD -MP -MF .deps/tatanh.Tpo -c -o tatanh.o tatanh.c
+mv -f .deps/tatan.Tpo .deps/tatan.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tconj.o -MD -MP -MF .deps/tconj.Tpo -c -o tconj.o tconj.c
+mv -f .deps/tatanh.Tpo .deps/tatanh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tcos.o -MD -MP -MF .deps/tcos.Tpo -c -o tcos.o tcos.c
+mv -f .deps/tconj.Tpo .deps/tconj.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tcosh.o -MD -MP -MF .deps/tcosh.Tpo -c -o tcosh.o tcosh.c
+mv -f .deps/tcos.Tpo .deps/tcos.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tdiv.o -MD -MP -MF .deps/tdiv.Tpo -c -o tdiv.o tdiv.c
+mv -f .deps/tdiv.Tpo .deps/tdiv.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tdiv_2si.o -MD -MP -MF .deps/tdiv_2si.Tpo -c -o tdiv_2si.o tdiv_2si.c
+mv -f .deps/tcosh.Tpo .deps/tcosh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tdiv_2ui.o -MD -MP -MF .deps/tdiv_2ui.Tpo -c -o tdiv_2ui.o tdiv_2ui.c
+mv -f .deps/tdiv_2si.Tpo .deps/tdiv_2si.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tdiv_fr.o -MD -MP -MF .deps/tdiv_fr.Tpo -c -o tdiv_fr.o tdiv_fr.c
+mv -f .deps/tdiv_2ui.Tpo .deps/tdiv_2ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tdiv_ui.o -MD -MP -MF .deps/tdiv_ui.Tpo -c -o tdiv_ui.o tdiv_ui.c
+mv -f .deps/tdiv_fr.Tpo .deps/tdiv_fr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT texp.o -MD -MP -MF .deps/texp.Tpo -c -o texp.o texp.c
+mv -f .deps/tdiv_ui.Tpo .deps/tdiv_ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tfma.o -MD -MP -MF .deps/tfma.Tpo -c -o tfma.o tfma.c
+mv -f .deps/texp.Tpo .deps/texp.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tfr_div.o -MD -MP -MF .deps/tfr_div.Tpo -c -o tfr_div.o tfr_div.c
+mv -f .deps/tfr_div.Tpo .deps/tfr_div.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tfr_sub.o -MD -MP -MF .deps/tfr_sub.Tpo -c -o tfr_sub.o tfr_sub.c
+mv -f .deps/tfma.Tpo .deps/tfma.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT timag.o -MD -MP -MF .deps/timag.Tpo -c -o timag.o timag.c
+mv -f .deps/tfr_sub.Tpo .deps/tfr_sub.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tio_str.o -MD -MP -MF .deps/tio_str.Tpo -c -o tio_str.o tio_str.c
+mv -f .deps/timag.Tpo .deps/timag.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tlog.o -MD -MP -MF .deps/tlog.Tpo -c -o tlog.o tlog.c
+mv -f .deps/tlog.Tpo .deps/tlog.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tlog10.o -MD -MP -MF .deps/tlog10.Tpo -c -o tlog10.o tlog10.c
+mv -f .deps/tio_str.Tpo .deps/tio_str.Po
+mv -f .deps/tlog10.Tpo .deps/tlog10.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul.o -MD -MP -MF .deps/tmul.Tpo -c -o tmul.o tmul.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_2si.o -MD -MP -MF .deps/tmul_2si.Tpo -c -o tmul_2si.o tmul_2si.c
+mv -f .deps/tmul_2si.Tpo .deps/tmul_2si.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_2ui.o -MD -MP -MF .deps/tmul_2ui.Tpo -c -o tmul_2ui.o tmul_2ui.c
+mv -f .deps/tmul.Tpo .deps/tmul.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_fr.o -MD -MP -MF .deps/tmul_fr.Tpo -c -o tmul_fr.o tmul_fr.c
+mv -f .deps/tmul_2ui.Tpo .deps/tmul_2ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_i.o -MD -MP -MF .deps/tmul_i.Tpo -c -o tmul_i.o tmul_i.c
+mv -f .deps/tmul_fr.Tpo .deps/tmul_fr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_si.o -MD -MP -MF .deps/tmul_si.Tpo -c -o tmul_si.o tmul_si.c
+mv -f .deps/tmul_si.Tpo .deps/tmul_si.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tmul_ui.o -MD -MP -MF .deps/tmul_ui.Tpo -c -o tmul_ui.o tmul_ui.c
+mv -f .deps/tmul_i.Tpo .deps/tmul_i.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tneg.o -MD -MP -MF .deps/tneg.Tpo -c -o tneg.o tneg.c
+mv -f .deps/tmul_ui.Tpo .deps/tmul_ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tnorm.o -MD -MP -MF .deps/tnorm.Tpo -c -o tnorm.o tnorm.c
+mv -f .deps/tneg.Tpo .deps/tneg.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow.o -MD -MP -MF .deps/tpow.Tpo -c -o tpow.o tpow.c
+mv -f .deps/tnorm.Tpo .deps/tnorm.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_ld.o -MD -MP -MF .deps/tpow_ld.Tpo -c -o tpow_ld.o tpow_ld.c
+mv -f .deps/tpow.Tpo .deps/tpow.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_d.o -MD -MP -MF .deps/tpow_d.Tpo -c -o tpow_d.o tpow_d.c
+mv -f .deps/tpow_ld.Tpo .deps/tpow_ld.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_fr.o -MD -MP -MF .deps/tpow_fr.Tpo -c -o tpow_fr.o tpow_fr.c
+mv -f .deps/tpow_d.Tpo .deps/tpow_d.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_si.o -MD -MP -MF .deps/tpow_si.Tpo -c -o tpow_si.o tpow_si.c
+mv -f .deps/tpow_fr.Tpo .deps/tpow_fr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_ui.o -MD -MP -MF .deps/tpow_ui.Tpo -c -o tpow_ui.o tpow_ui.c
+mv -f .deps/tpow_si.Tpo .deps/tpow_si.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tpow_z.o -MD -MP -MF .deps/tpow_z.Tpo -c -o tpow_z.o tpow_z.c
+mv -f .deps/tpow_z.Tpo .deps/tpow_z.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tprec.o -MD -MP -MF .deps/tprec.Tpo -c -o tprec.o tprec.c
+mv -f .deps/tpow_ui.Tpo .deps/tpow_ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tproj.o -MD -MP -MF .deps/tproj.Tpo -c -o tproj.o tproj.c
+mv -f .deps/tprec.Tpo .deps/tprec.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT treal.o -MD -MP -MF .deps/treal.Tpo -c -o treal.o treal.c
+mv -f .deps/tproj.Tpo .deps/tproj.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT treimref.o -MD -MP -MF .deps/treimref.Tpo -c -o treimref.o treimref.c
+mv -f .deps/treal.Tpo .deps/treal.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tset.o -MD -MP -MF .deps/tset.Tpo -c -o tset.o tset.c
+mv -f .deps/treimref.Tpo .deps/treimref.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsin.o -MD -MP -MF .deps/tsin.Tpo -c -o tsin.o tsin.c
+mv -f .deps/tsin.Tpo .deps/tsin.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsin_cos.o -MD -MP -MF .deps/tsin_cos.Tpo -c -o tsin_cos.o tsin_cos.c
+mv -f .deps/tsin_cos.Tpo .deps/tsin_cos.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsinh.o -MD -MP -MF .deps/tsinh.Tpo -c -o tsinh.o tsinh.c
+mv -f .deps/tsinh.Tpo .deps/tsinh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsqr.o -MD -MP -MF .deps/tsqr.Tpo -c -o tsqr.o tsqr.c
+mv -f .deps/tset.Tpo .deps/tset.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsqrt.o -MD -MP -MF .deps/tsqrt.Tpo -c -o tsqrt.o tsqrt.c
+mv -f .deps/tsqr.Tpo .deps/tsqr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tstrtoc.o -MD -MP -MF .deps/tstrtoc.Tpo -c -o tstrtoc.o tstrtoc.c
+mv -f .deps/tsqrt.Tpo .deps/tsqrt.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsub.o -MD -MP -MF .deps/tsub.Tpo -c -o tsub.o tsub.c
+mv -f .deps/tsub.Tpo .deps/tsub.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsub_fr.o -MD -MP -MF .deps/tsub_fr.Tpo -c -o tsub_fr.o tsub_fr.c
+mv -f .deps/tstrtoc.Tpo .deps/tstrtoc.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tsub_ui.o -MD -MP -MF .deps/tsub_ui.Tpo -c -o tsub_ui.o tsub_ui.c
+mv -f .deps/tsub_fr.Tpo .deps/tsub_fr.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tswap.o -MD -MP -MF .deps/tswap.Tpo -c -o tswap.o tswap.c
+mv -f .deps/tsub_ui.Tpo .deps/tsub_ui.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT ttan.o -MD -MP -MF .deps/ttan.Tpo -c -o ttan.o ttan.c
+mv -f .deps/tswap.Tpo .deps/tswap.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT ttanh.o -MD -MP -MF .deps/ttanh.Tpo -c -o ttanh.o ttanh.c
+mv -f .deps/ttanh.Tpo .deps/ttanh.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tui_div.o -MD -MP -MF .deps/tui_div.Tpo -c -o tui_div.o tui_div.c
+mv -f .deps/ttan.Tpo .deps/ttan.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tui_ui_sub.o -MD -MP -MF .deps/tui_ui_sub.Tpo -c -o tui_ui_sub.o tui_ui_sub.c
+mv -f .deps/tui_ui_sub.Tpo .deps/tui_ui_sub.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../src   -g -O2 -MT tget_version.o -MD -MP -MF .deps/tget_version.Tpo -c -o tget_version.o tget_version.c
+mv -f .deps/tui_div.Tpo .deps/tui_div.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o libmpc-tests.la  random.lo tgeneric.lo read_data.lo comparisons.lo  -lmpfr -lgmp -lm 
+mv -f .deps/tget_version.Tpo .deps/tget_version.Po
+libtool: link: ar cru .libs/libmpc-tests.a .libs/random.o .libs/tgeneric.o .libs/read_data.o .libs/comparisons.o 
+libtool: link: ranlib .libs/libmpc-tests.a
+libtool: link: ( cd ".libs" && rm -f "libmpc-tests.la" && ln -s "../libmpc-tests.la" "libmpc-tests.la" )
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tacos tacos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tabs tabs.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tacos tacos.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tabs tabs.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tadd tadd.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tacosh tacosh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tadd tadd.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tacosh tacosh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tadd_fr tadd_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tadd_si tadd_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tadd_fr tadd_fr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tadd_si tadd_si.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tadd_ui tadd_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o targ targ.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tadd_ui tadd_ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o targ targ.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tasin tasin.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tasinh tasinh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tasin tasin.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tasinh tasinh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tatan tatan.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tatanh tatanh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tatan tatan.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tatanh tatanh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tconj tconj.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tcos tcos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tconj tconj.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tcos tcos.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tcosh tcosh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tdiv tdiv.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tcosh tcosh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tdiv tdiv.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tdiv_2si tdiv_2si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tdiv_2ui tdiv_2ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tdiv_2si tdiv_2si.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tdiv_2ui tdiv_2ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tdiv_fr tdiv_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tdiv_ui tdiv_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tdiv_fr tdiv_fr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tdiv_ui tdiv_ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o texp texp.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tfma tfma.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o texp texp.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tfma tfma.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tfr_div tfr_div.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tfr_sub tfr_sub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tfr_div tfr_div.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tfr_sub tfr_sub.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o timag timag.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tio_str tio_str.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o timag timag.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tio_str tio_str.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tlog tlog.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tlog10 tlog10.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tlog tlog.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tlog10 tlog10.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul tmul.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_2si tmul_2si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tmul tmul.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tmul_2si tmul_2si.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_2ui tmul_2ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_fr tmul_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tmul_2ui tmul_2ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tmul_fr tmul_fr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_i tmul_i.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_si tmul_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tmul_i tmul_i.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tmul_si tmul_si.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tmul_ui tmul_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tneg tneg.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tmul_ui tmul_ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tneg tneg.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tnorm tnorm.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow tpow.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tnorm tnorm.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tpow tpow.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_ld tpow_ld.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_d tpow_d.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tpow_ld tpow_ld.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tpow_d tpow_d.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_fr tpow_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_si tpow_si.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tpow_fr tpow_fr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tpow_si tpow_si.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_ui tpow_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tpow_z tpow_z.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tpow_ui tpow_ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tpow_z tpow_z.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tprec tprec.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tproj tproj.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tprec tprec.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tproj tproj.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o treal treal.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o treimref treimref.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o treal treal.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o treimref treimref.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tset tset.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsin tsin.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tset tset.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tsin tsin.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsin_cos tsin_cos.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsinh tsinh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tsin_cos tsin_cos.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tsinh tsinh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsqr tsqr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsqrt tsqrt.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tsqr tsqr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tsqrt tsqrt.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tstrtoc tstrtoc.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsub tsub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tstrtoc tstrtoc.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tsub tsub.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsub_fr tsub_fr.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tsub_ui tsub_ui.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tsub_fr tsub_fr.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tsub_ui tsub_ui.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tswap tswap.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o ttan ttan.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tswap tswap.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o ttan ttan.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o ttanh ttanh.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tui_div tui_div.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o ttanh ttanh.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tui_div tui_div.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tui_ui_sub tui_ui_sub.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -g -O2 -no-install  -o tget_version tget_version.o libmpc-tests.la ../src/libmpc.la -lmpfr -lgmp -lm 
+libtool: link: gcc -g -O2 -o tui_ui_sub tui_ui_sub.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+libtool: link: gcc -g -O2 -o tget_version tget_version.o  ./.libs/libmpc-tests.a ../src/.libs/libmpc.so /usr/lib/libmpfr.so /usr/lib/libgmp.so -lm -Wl,-rpath -Wl,/sources/7.9/mpc-1.0.3/src/.libs
+make[2]: Leaving directory '/sources/7.9/mpc-1.0.3/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/mpc-1.0.3/tests'
+make[3]: Entering directory '/sources/7.9/mpc-1.0.3/tests'
+PASS: tabs
+PASS: tacos
+PASS: tadd
+PASS: tacosh
+PASS: tadd_fr
+PASS: tadd_si
+PASS: tadd_ui
+PASS: targ
+PASS: tasin
+PASS: tasinh
+PASS: tatanh
+PASS: tconj
+PASS: tatan
+PASS: tcos
+PASS: tcosh
+PASS: tdiv_2si
+PASS: tdiv_2ui
+PASS: tdiv_fr
+PASS: tdiv_ui
+PASS: tdiv
+PASS: tfma
+PASS: tfr_div
+PASS: tfr_sub
+PASS: timag
+PASS: tio_str
+PASS: tlog
+PASS: tlog10
+PASS: tmul
+PASS: tmul_2si
+PASS: tmul_2ui
+PASS: tmul_fr
+PASS: tmul_i
+PASS: tmul_si
+PASS: tmul_ui
+PASS: tneg
+PASS: tnorm
+PASS: tpow
+PASS: tpow_ld
+PASS: tpow_d
+PASS: tpow_fr
+PASS: tpow_si
+PASS: tpow_ui
+PASS: tpow_z
+PASS: tprec
+PASS: tproj
+PASS: treal
+PASS: treimref
+PASS: tset
+PASS: tsin
+PASS: tsin_cos
+PASS: tsinh
+PASS: tsqr
+PASS: tsqrt
+PASS: tstrtoc
+PASS: tsub
+PASS: tsub_fr
+PASS: tsub_ui
+PASS: tswap
+PASS: texp
+PASS: ttanh
+PASS: tui_div
+PASS: tui_ui_sub
+PASS: tget_version
+PASS: ttan
+============================================================================
+Testsuite summary for mpc 1.0.3
+============================================================================
+# TOTAL: 64
+# PASS:  64
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/mpc-1.0.3/tests'
+make[2]: Leaving directory '/sources/7.9/mpc-1.0.3/tests'
+make[1]: Leaving directory '/sources/7.9/mpc-1.0.3/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/mpc-1.0.3/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/mpc-1.0.3/doc'
+make[1]: Entering directory '/sources/7.9/mpc-1.0.3'
+make[1]: Leaving directory '/sources/7.9/mpc-1.0.3'

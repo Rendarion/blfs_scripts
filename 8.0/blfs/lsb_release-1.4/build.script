@@ -1,0 +1,4 @@
+sed -i "s|n/a|unavailable|" lsb_release
+
+./help2man -N --include ./lsb_release.examples \
+              --alt_version_key=program_version ./lsb_release > lsb_release.1

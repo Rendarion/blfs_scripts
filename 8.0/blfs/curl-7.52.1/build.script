@@ -1,0 +1,6 @@
+patch -Np1 -i ../curl-7.52.1-valgrind_filter-1.patch &&
+./configure --prefix=/usr                           \
+            --disable-static                        \
+            --enable-threaded-resolver              \
+            --with-ca-path=/etc/ssl/certs &&
+make

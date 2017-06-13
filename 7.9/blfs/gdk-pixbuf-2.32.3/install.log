@@ -1,0 +1,1065 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether gcc and cc understand -c and -o together... yes
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking whether make sets $(MAKE)... (cached) yes
+checking for gawk... (cached) gawk
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for native Win32... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating ./config.lt
+config.lt: creating libtool
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking dependency style of gcc... gcc3
+checking for some Win32 platform... no
+checking whether build environment is sane... yes
+checking for BASE_DEPENDENCIES... yes
+checking Whether to write dependencies into .pc files... no
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking for sigsetjmp... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by gcc... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for extra flags to get ANSI library prototypes... none needed
+checking for the BeOS... no
+checking for HP-UX... no
+checking for extra flags for POSIX compliance... none needed
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.37.6... yes (version 2.46.2)
+checking for bind_textdomain_codeset... yes
+checking for unistd.h... (cached) yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking for setrlimit... yes
+checking for ANSI C header files... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking whether to build gmodulized gdk-pixbuf... yes
+checking whether dynamic modules work... yes
+checking for TIFFReadRGBAImageOriented in -ltiff... yes
+checking tiffio.h usability... yes
+checking tiffio.h presence... yes
+checking for tiffio.h... yes
+checking for jpeg_destroy_decompress in -ljpeg... yes
+checking for jpeglib.h... yes
+checking for jpeg_simple_progression in -ljpeg... yes
+checking for libpng16... yes
+checking pixbuf loaders to build... 
+checking if gio can sniff png... no
+checking sys/systeminfo.h usability... no
+checking sys/systeminfo.h presence... no
+checking for sys/systeminfo.h... no
+checking sys/sysinfo.h usability... yes
+checking sys/sysinfo.h presence... yes
+checking for sys/sysinfo.h... yes
+checking for mediaLib 2.3... checking for mlib_ImageSetStruct in -lmlib... no
+checking for x86 platform... no
+checking for GDK_PIXBUF_XLIB_DEP... yes
+checking for gobject-introspection... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for db2html... false
+checking for -Bsymbolic-functions linker flag... yes
+checking whether to build with gcov testing... no
+checking whether to build with application bundle relocation support... no
+checking that generated files are newer than configure... done
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating gdk-pixbuf-2.0.pc
+config.status: creating gdk-pixbuf-2.0-uninstalled.pc
+config.status: creating gdk-pixbuf/Makefile
+config.status: creating gdk-pixbuf/gdk_pixbuf.rc
+config.status: creating gdk-pixbuf/gdk-pixbuf-features.h
+config.status: creating gdk-pixbuf/pixops/Makefile
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating build/win32/vs14/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/gdk-pixbuf/Makefile
+config.status: creating docs/reference/gdk-pixbuf/version.xml
+config.status: creating po/Makefile.in
+config.status: creating tests/Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/gdk-pixbuf-xlib/Makefile
+config.status: creating contrib/gdk-pixbuf-xlib/gdk-pixbuf-xlib-2.0.pc
+config.status: creating config.h.win32
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+Making all in gdk-pixbuf
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+  GEN      s-enum-types-h
+  GEN      stamp-gdk-pixbuf-marshal.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making all in pixops
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+  CC       pixops.lo
+  CCLD     libpixops.la
+  CC       timescale.o
+  CCLD     timescale
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+  CC       gdk-pixbuf.lo
+  CC       gdk-pixbuf-animation.lo
+  CC       gdk-pixbuf-data.lo
+  CC       gdk-pixbuf-io.lo
+  CC       gdk-pixbuf-loader.lo
+  CC       gdk-pixbuf-scale.lo
+  CC       gdk-pixbuf-simple-anim.lo
+  CC       gdk-pixbuf-scaled-anim.lo
+  CC       gdk-pixbuf-util.lo
+  CC       gdk-pixdata.lo
+  CC       gdk-pixbuf-enum-types.lo
+  CC       io-pixdata.lo
+  CCLD     libstatic-pixbufloader-pixdata.la
+  CCLD     libgdk_pixbuf-2.0.la
+  CC       io-png.lo
+  CCLD     libpixbufloader-png.la
+  CC       io-bmp.lo
+  CCLD     libpixbufloader-bmp.la
+  CC       io-gif.lo
+  CC       io-gif-animation.lo
+  CCLD     libpixbufloader-gif.la
+  CC       io-ico.lo
+  CCLD     libpixbufloader-ico.la
+  CC       io-ani.lo
+  CC       io-ani-animation.lo
+  CCLD     libpixbufloader-ani.la
+  CC       io-jpeg.lo
+  CCLD     libpixbufloader-jpeg.la
+  CC       io-pnm.lo
+  CCLD     libpixbufloader-pnm.la
+  CC       io-tiff.lo
+  CCLD     libpixbufloader-tiff.la
+  CC       io-xpm.lo
+  CCLD     libpixbufloader-xpm.la
+  CC       io-xbm.lo
+  CCLD     libpixbufloader-xbm.la
+  CC       io-tga.lo
+  CCLD     libpixbufloader-tga.la
+  CC       io-icns.lo
+  CCLD     libpixbufloader-icns.la
+  CC       io-qtif.lo
+  CCLD     libpixbufloader-qtif.la
+  CC       gdk-pixbuf-csource.o
+  CCLD     gdk-pixbuf-csource
+  CC       gdk-pixbuf-pixdata.o
+  CCLD     gdk-pixbuf-pixdata
+  CC       queryloaders.o
+  CCLD     gdk-pixbuf-query-loaders
+  CC       test-gdk-pixbuf.o
+  CCLD     test-gdk-pixbuf
+  GISCAN   GdkPixbuf-2.0.gir
+  GICOMP   GdkPixbuf-2.0.gir
+LOADERS=`echo libpixbufloader-*.la` ; \
+if test "x$LOADERS" != 'xlibpixbufloader-*.la' ; then \
+          echo "Writing a loaders.cache file to use when running examples before installing gdk-pixbuf."; \
+  ../gdk-pixbuf/gdk-pixbuf-query-loaders $LOADERS > ./loaders.cache ;\
+else \
+          echo "No dynamic modules found; will use only static modules for uninstalled example programs."; \
+  touch loaders.cache; \
+fi
+Writing a loaders.cache file to use when running examples before installing gdk-pixbuf.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making all in po
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+Making all in gdk-pixbuf
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  all-am
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+  CC       pixbuf-read.o
+  CCLD     pixbuf-read
+  CC       pixbuf-random.o
+  CCLD     pixbuf-random
+  CC       pixbuf-lowmem.o
+  CCLD     pixbuf-lowmem
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+Making all in contrib
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making all in gdk-pixbuf-xlib
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+  CC       gdk-pixbuf-xlib.lo
+  CC       gdk-pixbuf-xlib-render.lo
+  CC       gdk-pixbuf-xlib-drawable.lo
+  CC       gdk-pixbuf-xlibrgb.lo
+  CCLD     libgdk_pixbuf_xlib-2.0.la
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making all in build
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'
+Making check in gdk-pixbuf
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making check in pixops
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[5]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+PASS: abicheck.sh
+============================================================================
+Testsuite summary for gdk-pixbuf 2.32.3
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making check in reference
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+Making check in gdk-pixbuf
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make     animation cve-2015-4491 pixbuf-icon-serialize pixbuf-randomly-modified pixbuf-threads pixbuf-icc pixbuf-jpeg pixbuf-dpi pixbuf-stream pixbuf-resource pixbuf-scale pixbuf-short-gif-write pixbuf-save pixbuf-readonly-to-mutable pixbuf-composite  \
+                   test-image.png test-animation.gif test-animation.ani icc-profile.jpeg icc-profile.png dpi.jpeg dpi.png dpi.tiff premature-end.png premature-end.jpg bug725582-testrotate.jpg bug725582-testrotate.png cve-2015-4491.bmp large.png large.jpg ./test-images/invalid_wbmp_test_1 ./test-images/invalid_ico_test_1 ./test-images/valid_ppm_2 ./test-images/valid_gif_test ./test-images/valid_tga_test ./test-images/invalid_gif_test_1 ./test-images/invalid_tga_test_1 ./test-images/invalid_ppm_4 ./test-images/invalid_ppm_5 ./test-images/valid_ppm_1 ./test-images/invalid_ico_test_2 ./test-images/valid_ppm_3 ./test-images/invalid_bmp_1 ./test-images/invalid_png_test_2 ./test-images/invalid_png_test_3 ./test-images/valid.xbm ./test-images/invalid_png_test_4 ./test-images/valid_ppm_4 ./test-images/invalid_ppm_6 ./test-images/invalid_wbmp_test_2 ./test-images/invalid_ppm_1 ./test-images/invalid_ico_test_3 ./test-images/valid_tiff1_test ./test-images/invalid_gif_test_2 ./test-images/valid_xpm_test ./test-images/invalid_gif_test_3 ./test-images/invalid_xpm_test_1 ./test-images/invalid_gif_test_4 ./test-images/valid_jpeg_test ./test-images/valid_bmp_test ./test-images/valid_ras_test ./test-images/invalid_ppm_2 ./test-images/valid_png_test ./test-images/invalid_ppm_3 ./test-images/invalid_png_test_1 ./test-images/valid_jpeg_progressive_test ./test-images/invalid_ppm_8 ./test-images/invalid_ppm_7
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+  CC       animation.o
+  CCLD     animation
+  CC       cve-2015-4491.o
+  CC       test-common.o
+  CC       resources.o
+  CCLD     cve-2015-4491
+  CC       pixbuf-icon-serialize.o
+  CCLD     pixbuf-icon-serialize
+  CC       pixbuf-randomly-modified.o
+  CCLD     pixbuf-randomly-modified
+  CC       pixbuf-threads.o
+  CCLD     pixbuf-threads
+  CC       pixbuf-icc.o
+  CCLD     pixbuf-icc
+  CC       pixbuf-jpeg.o
+  CCLD     pixbuf-jpeg
+  CC       pixbuf-dpi.o
+  CCLD     pixbuf-dpi
+  CC       pixbuf-stream.o
+  CCLD     pixbuf-stream
+  CC       pixbuf-resource.o
+  CCLD     pixbuf-resource
+  CC       pixbuf-scale.o
+  CCLD     pixbuf-scale
+  CC       pixbuf-short-gif-write.o
+  CCLD     pixbuf-short-gif-write
+  CC       pixbuf-save.o
+  CCLD     pixbuf-save
+  CC       pixbuf-readonly-to-mutable.o
+  CCLD     pixbuf-readonly-to-mutable
+  CC       pixbuf-composite.o
+  CCLD     pixbuf-composite
+make[3]: Nothing to be done for 'test-image.png'.
+make[3]: Nothing to be done for 'test-animation.gif'.
+make[3]: Nothing to be done for 'test-animation.ani'.
+make[3]: Nothing to be done for 'icc-profile.jpeg'.
+make[3]: Nothing to be done for 'icc-profile.png'.
+make[3]: Nothing to be done for 'dpi.jpeg'.
+make[3]: Nothing to be done for 'dpi.png'.
+make[3]: Nothing to be done for 'dpi.tiff'.
+make[3]: Nothing to be done for 'premature-end.png'.
+make[3]: Nothing to be done for 'premature-end.jpg'.
+make[3]: Nothing to be done for 'bug725582-testrotate.jpg'.
+make[3]: Nothing to be done for 'bug725582-testrotate.png'.
+make[3]: Nothing to be done for 'cve-2015-4491.bmp'.
+make[3]: Nothing to be done for 'large.png'.
+make[3]: Nothing to be done for 'large.jpg'.
+make[3]: Nothing to be done for 'test-images/invalid_wbmp_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_1'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_2'.
+make[3]: Nothing to be done for 'test-images/valid_gif_test'.
+make[3]: Nothing to be done for 'test-images/valid_tga_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_tga_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_4'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_5'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_2'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_3'.
+make[3]: Nothing to be done for 'test-images/invalid_bmp_1'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_2'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_3'.
+make[3]: Nothing to be done for 'test-images/valid.xbm'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_4'.
+make[3]: Nothing to be done for 'test-images/valid_ppm_4'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_6'.
+make[3]: Nothing to be done for 'test-images/invalid_wbmp_test_2'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_1'.
+make[3]: Nothing to be done for 'test-images/invalid_ico_test_3'.
+make[3]: Nothing to be done for 'test-images/valid_tiff1_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_2'.
+make[3]: Nothing to be done for 'test-images/valid_xpm_test'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_3'.
+make[3]: Nothing to be done for 'test-images/invalid_xpm_test_1'.
+make[3]: Nothing to be done for 'test-images/invalid_gif_test_4'.
+make[3]: Nothing to be done for 'test-images/valid_jpeg_test'.
+make[3]: Nothing to be done for 'test-images/valid_bmp_test'.
+make[3]: Nothing to be done for 'test-images/valid_ras_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_2'.
+make[3]: Nothing to be done for 'test-images/valid_png_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_3'.
+make[3]: Nothing to be done for 'test-images/invalid_png_test_1'.
+make[3]: Nothing to be done for 'test-images/valid_jpeg_progressive_test'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_8'.
+make[3]: Nothing to be done for 'test-images/invalid_ppm_7'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+PASS: animation 1 /animation/gif
+PASS: animation 2 /animation/ani
+PASS: cve-2015-4491 1 /pixbuf/cve-2015-4491/original
+PASS: cve-2015-4491 2 /pixbuf/cve-2015-4491/scale-overflow
+PASS: cve-2015-4491 3 /pixbuf/cve-2015-4491/scale-x-overflow
+PASS: cve-2015-4491 4 /pixbuf/cve-2015-4491/scale-y-overflow
+PASS: pixbuf-icon-serialize 1 /pixbuf/icon/serialize
+PASS: pixbuf-randomly-modified 1 /pixbuf/randomly-modified/valid_png_test
+PASS: pixbuf-randomly-modified 2 /pixbuf/randomly-modified/invalid_png_test_2
+PASS: pixbuf-randomly-modified 3 /pixbuf/randomly-modified/valid_tga_test
+PASS: pixbuf-randomly-modified 4 /pixbuf/randomly-modified/invalid_png_test_1
+PASS: pixbuf-randomly-modified 5 /pixbuf/randomly-modified/invalid_ppm_4
+PASS: pixbuf-randomly-modified 6 /pixbuf/randomly-modified/invalid_wbmp_test_2
+PASS: pixbuf-randomly-modified 7 /pixbuf/randomly-modified/invalid_xpm_test_1
+PASS: pixbuf-randomly-modified 8 /pixbuf/randomly-modified/invalid_ppm_1
+PASS: pixbuf-randomly-modified 9 /pixbuf/randomly-modified/valid.xbm
+PASS: pixbuf-randomly-modified 10 /pixbuf/randomly-modified/valid_ppm_1
+PASS: pixbuf-randomly-modified 11 /pixbuf/randomly-modified/invalid_wbmp_test_1
+PASS: pixbuf-randomly-modified 12 /pixbuf/randomly-modified/invalid_ico_test_3
+PASS: pixbuf-randomly-modified 13 /pixbuf/randomly-modified/valid_gif_test
+PASS: pixbuf-randomly-modified 14 /pixbuf/randomly-modified/valid_xpm_test
+PASS: pixbuf-randomly-modified 15 /pixbuf/randomly-modified/invalid_bmp_1
+PASS: pixbuf-randomly-modified 16 /pixbuf/randomly-modified/invalid_png_test_4
+PASS: pixbuf-randomly-modified 17 /pixbuf/randomly-modified/valid_bmp_test
+PASS: pixbuf-randomly-modified 18 /pixbuf/randomly-modified/invalid_ppm_7
+PASS: pixbuf-randomly-modified 19 /pixbuf/randomly-modified/valid_ppm_2
+PASS: pixbuf-randomly-modified 20 /pixbuf/randomly-modified/invalid_png_test_3
+PASS: pixbuf-randomly-modified 21 /pixbuf/randomly-modified/valid_ppm_3
+PASS: pixbuf-randomly-modified 22 /pixbuf/randomly-modified/invalid_ppm_5
+PASS: pixbuf-randomly-modified 23 /pixbuf/randomly-modified/invalid_ppm_6
+PASS: pixbuf-randomly-modified 24 /pixbuf/randomly-modified/invalid_ico_test_1
+PASS: pixbuf-randomly-modified 25 /pixbuf/randomly-modified/invalid_gif_test_1
+PASS: pixbuf-randomly-modified 26 /pixbuf/randomly-modified/invalid_ico_test_2
+PASS: pixbuf-randomly-modified 27 /pixbuf/randomly-modified/valid_ras_test
+PASS: pixbuf-randomly-modified 28 /pixbuf/randomly-modified/invalid_ppm_8
+PASS: pixbuf-randomly-modified 29 /pixbuf/randomly-modified/valid_tiff1_test
+PASS: pixbuf-randomly-modified 30 /pixbuf/randomly-modified/invalid_tga_test_1
+PASS: pixbuf-randomly-modified 31 /pixbuf/randomly-modified/invalid_gif_test_2
+PASS: pixbuf-randomly-modified 32 /pixbuf/randomly-modified/valid_jpeg_progressive_test
+PASS: pixbuf-randomly-modified 33 /pixbuf/randomly-modified/valid_jpeg_test
+PASS: pixbuf-randomly-modified 34 /pixbuf/randomly-modified/invalid_ppm_3
+PASS: pixbuf-randomly-modified 35 /pixbuf/randomly-modified/invalid_ppm_2
+PASS: pixbuf-randomly-modified 36 /pixbuf/randomly-modified/invalid_gif_test_4
+PASS: pixbuf-randomly-modified 37 /pixbuf/randomly-modified/valid_ppm_4
+PASS: pixbuf-randomly-modified 38 /pixbuf/randomly-modified/invalid_gif_test_3
+PASS: pixbuf-threads 1 /pixbuf/threads
+PASS: pixbuf-icc 1 /pixbuf/icc/png
+PASS: pixbuf-icc 2 /pixbuf/icc/jpeg
+PASS: pixbuf-icc 3 /pixbuf/icc/png/incremental
+PASS: pixbuf-icc 4 /pixbuf/icc/jpeg/incremental
+PASS: pixbuf-jpeg 1 /pixbuf/jpeg/inverted_cmyk_jpeg
+PASS: pixbuf-jpeg 2 /pixbuf/jpeg/type9_rotation_exif_tag
+PASS: pixbuf-dpi 1 /pixbuf/dpi/png
+PASS: pixbuf-dpi 2 /pixbuf/dpi/png-incremental
+PASS: pixbuf-dpi 3 /pixbuf/dpi/jpeg
+PASS: pixbuf-dpi 4 /pixbuf/dpi/jpeg-incremental
+PASS: pixbuf-dpi 5 /pixbuf/dpi/tiff
+PASS: pixbuf-dpi 6 /pixbuf/dpi/tiff-incremental
+PASS: pixbuf-stream 1 /pixbuf/stream
+PASS: pixbuf-stream 2 /pixbuf/stream/async
+PASS: pixbuf-stream 3 /pixbuf/stream/scale
+PASS: pixbuf-stream 4 /pixbuf/stream/scale/async
+PASS: pixbuf-resource 1 /pixbuf/resource
+PASS: pixbuf-resource 2 /pixbuf/resource/at-scale
+PASS: pixbuf-scale 1 /pixbuf/scale/png
+PASS: pixbuf-scale 2 /pixbuf/scale/bmp
+PASS: pixbuf-scale 3 /pixbuf/scale/gif
+PASS: pixbuf-scale 4 /pixbuf/scale/jpeg
+SKIP: pixbuf-scale 5 /pixbuf/scale/ras # SKIP format not supported
+PASS: pixbuf-scale 6 /pixbuf/scale/tga
+PASS: pixbuf-scale 7 /pixbuf/scale/xpm
+PASS: pixbuf-scale 8 /pixbuf/scale/xbm
+PASS: pixbuf-scale 9 /pixbuf/scale/png/large
+SKIP: pixbuf-scale 10 /pixbuf/scale/jpeg/large # SKIP format not supported
+PASS: pixbuf-scale 11 /pixbuf/add-alpha/large
+PASS: pixbuf-scale 12 /pixbuf/rotate/large
+PASS: pixbuf-short-gif-write 1 /animation/short_gif_write
+PASS: pixbuf-save 1 /pixbuf/save/roundtrip
+PASS: pixbuf-save 2 /pixbuf/save/options
+PASS: pixbuf-save 3 /pixbuf/save/ico
+PASS: pixbuf-readonly-to-mutable 1 /pixbuf/readonly/mutate
+PASS: pixbuf-readonly-to-mutable 2 /pixbuf/readonly/readpixelbytes
+PASS: pixbuf-composite 1 /pixbuf/composite
+============================================================================
+Testsuite summary for gdk-pixbuf 2.32.3
+============================================================================
+# TOTAL: 83
+# PASS:  81
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+Making check in contrib
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making check in gdk-pixbuf-xlib
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making check in build
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+Making check in win32
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+Making check in vs9
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+Making check in vs11
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+Making check in vs12
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+Making check in vs14
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'
+Making install in gdk-pixbuf
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making install in pixops
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf/pixops'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdk_pixbuf-2.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf-2.0.so.0.3200.3 /usr/lib/libgdk_pixbuf-2.0.so.0.3200.3
+libtool: install: (cd /usr/lib && { ln -s -f libgdk_pixbuf-2.0.so.0.3200.3 libgdk_pixbuf-2.0.so.0 || { rm -f libgdk_pixbuf-2.0.so.0 && ln -s libgdk_pixbuf-2.0.so.0.3200.3 libgdk_pixbuf-2.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgdk_pixbuf-2.0.so.0.3200.3 libgdk_pixbuf-2.0.so || { rm -f libgdk_pixbuf-2.0.so && ln -s libgdk_pixbuf-2.0.so.0.3200.3 libgdk_pixbuf-2.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf-2.0.lai /usr/lib/libgdk_pixbuf-2.0.la
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gdk-pixbuf-csource gdk-pixbuf-pixdata gdk-pixbuf-query-loaders '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-csource /usr/bin/gdk-pixbuf-csource
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-pixdata /usr/bin/gdk-pixbuf-pixdata
+libtool: install: /usr/bin/install -c .libs/gdk-pixbuf-query-loaders /usr/bin/gdk-pixbuf-query-loaders
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GdkPixbuf-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gdk-pixbuf-2.0/gdk-pixbuf'
+ /usr/bin/install -c -m 644 gdk-pixbuf.h gdk-pixbuf-autocleanups.h gdk-pixbuf-core.h gdk-pixbuf-transform.h gdk-pixbuf-io.h gdk-pixbuf-animation.h gdk-pixbuf-simple-anim.h gdk-pixbuf-loader.h gdk-pixbuf-enum-types.h gdk-pixbuf-marshal.h gdk-pixbuf-features.h gdk-pixdata.h '/usr/include/gdk-pixbuf-2.0/gdk-pixbuf'
+ /bin/mkdir -p '/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpixbufloader-png.la libpixbufloader-bmp.la libpixbufloader-gif.la libpixbufloader-ico.la libpixbufloader-ani.la libpixbufloader-jpeg.la libpixbufloader-pnm.la libpixbufloader-tiff.la libpixbufloader-xpm.la libpixbufloader-xbm.la libpixbufloader-tga.la libpixbufloader-icns.la libpixbufloader-qtif.la '/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-png.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-png.lo -lpng16 libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-png.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-png.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-png.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-bmp.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-bmp.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-bmp.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-bmp.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-gif.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-gif.lo io-gif-animation.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-gif.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-gif.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-ico.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-ico.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-ico.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ico.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-ico.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ico.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-ani.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-ani.lo io-ani-animation.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-ani.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-ani.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-jpeg.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-jpeg.lo -ljpeg libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-jpeg.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-jpeg.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-jpeg.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-pnm.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-pnm.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-pnm.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pnm.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-pnm.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pnm.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-tiff.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-tiff.lo -ltiff libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-tiff.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-tiff.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-xpm.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-xpm.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-xpm.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-xpm.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-xbm.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-xbm.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-xbm.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-xbm.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-tga.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-tga.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-tga.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tga.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-tga.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tga.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-icns.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-icns.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-icns.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-icns.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.la
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -avoid-version -module -o libpixbufloader-qtif.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders io-qtif.lo libgdk_pixbuf-2.0.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lpng16 -lm )
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-qtif.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-qtif.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-qtif.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-qtif.la
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 GdkPixbuf-2.0.typelib '/usr/lib/girepository-1.0'
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[5]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/gdk-pixbuf'
+Making install in po
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/gdk-pixbuf.mo
+installing ang.gmo as /usr/share/locale/ang/LC_MESSAGES/gdk-pixbuf.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/gdk-pixbuf.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/gdk-pixbuf.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/gdk-pixbuf.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/gdk-pixbuf.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/gdk-pixbuf.mo
+installing be@latin.gmo as /usr/share/locale/be@latin/LC_MESSAGES/gdk-pixbuf.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gdk-pixbuf.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/gdk-pixbuf.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/gdk-pixbuf.mo
+installing br.gmo as /usr/share/locale/br/LC_MESSAGES/gdk-pixbuf.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/gdk-pixbuf.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/gdk-pixbuf.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/gdk-pixbuf.mo
+installing crh.gmo as /usr/share/locale/crh/LC_MESSAGES/gdk-pixbuf.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gdk-pixbuf.mo
+installing csb.gmo as /usr/share/locale/csb/LC_MESSAGES/gdk-pixbuf.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/gdk-pixbuf.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gdk-pixbuf.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gdk-pixbuf.mo
+installing dz.gmo as /usr/share/locale/dz/LC_MESSAGES/gdk-pixbuf.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/gdk-pixbuf.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/gdk-pixbuf.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/gdk-pixbuf.mo
+installing en@shaw.gmo as /usr/share/locale/en@shaw/LC_MESSAGES/gdk-pixbuf.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gdk-pixbuf.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gdk-pixbuf.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/gdk-pixbuf.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/gdk-pixbuf.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/gdk-pixbuf.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gdk-pixbuf.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gdk-pixbuf.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/gdk-pixbuf.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/gdk-pixbuf.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/gdk-pixbuf.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/gdk-pixbuf.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/gdk-pixbuf.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/gdk-pixbuf.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gdk-pixbuf.mo
+installing hy.gmo as /usr/share/locale/hy/LC_MESSAGES/gdk-pixbuf.mo
+installing ia.gmo as /usr/share/locale/ia/LC_MESSAGES/gdk-pixbuf.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/gdk-pixbuf.mo
+installing io.gmo as /usr/share/locale/io/LC_MESSAGES/gdk-pixbuf.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/gdk-pixbuf.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gdk-pixbuf.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gdk-pixbuf.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/gdk-pixbuf.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/gdk-pixbuf.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/gdk-pixbuf.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/gdk-pixbuf.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/gdk-pixbuf.mo
+installing ku.gmo as /usr/share/locale/ku/LC_MESSAGES/gdk-pixbuf.mo
+installing li.gmo as /usr/share/locale/li/LC_MESSAGES/gdk-pixbuf.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/gdk-pixbuf.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/gdk-pixbuf.mo
+installing mai.gmo as /usr/share/locale/mai/LC_MESSAGES/gdk-pixbuf.mo
+installing mi.gmo as /usr/share/locale/mi/LC_MESSAGES/gdk-pixbuf.mo
+installing mk.gmo as /usr/share/locale/mk/LC_MESSAGES/gdk-pixbuf.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/gdk-pixbuf.mo
+installing mn.gmo as /usr/share/locale/mn/LC_MESSAGES/gdk-pixbuf.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/gdk-pixbuf.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/gdk-pixbuf.mo
+installing my.gmo as /usr/share/locale/my/LC_MESSAGES/gdk-pixbuf.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/gdk-pixbuf.mo
+installing nds.gmo as /usr/share/locale/nds/LC_MESSAGES/gdk-pixbuf.mo
+installing ne.gmo as /usr/share/locale/ne/LC_MESSAGES/gdk-pixbuf.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gdk-pixbuf.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/gdk-pixbuf.mo
+installing nso.gmo as /usr/share/locale/nso/LC_MESSAGES/gdk-pixbuf.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/gdk-pixbuf.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/gdk-pixbuf.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/gdk-pixbuf.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gdk-pixbuf.mo
+installing ps.gmo as /usr/share/locale/ps/LC_MESSAGES/gdk-pixbuf.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/gdk-pixbuf.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gdk-pixbuf.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gdk-pixbuf.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gdk-pixbuf.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/gdk-pixbuf.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/gdk-pixbuf.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/gdk-pixbuf.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/gdk-pixbuf.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gdk-pixbuf.mo
+installing sr@ije.gmo as /usr/share/locale/sr@ije/LC_MESSAGES/gdk-pixbuf.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/gdk-pixbuf.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gdk-pixbuf.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/gdk-pixbuf.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/gdk-pixbuf.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/gdk-pixbuf.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/gdk-pixbuf.mo
+installing tk.gmo as /usr/share/locale/tk/LC_MESSAGES/gdk-pixbuf.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gdk-pixbuf.mo
+installing tt.gmo as /usr/share/locale/tt/LC_MESSAGES/gdk-pixbuf.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/gdk-pixbuf.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gdk-pixbuf.mo
+installing uz.gmo as /usr/share/locale/uz/LC_MESSAGES/gdk-pixbuf.mo
+installing uz@cyrillic.gmo as /usr/share/locale/uz@cyrillic/LC_MESSAGES/gdk-pixbuf.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gdk-pixbuf.mo
+installing wa.gmo as /usr/share/locale/wa/LC_MESSAGES/gdk-pixbuf.mo
+installing xh.gmo as /usr/share/locale/xh/LC_MESSAGES/gdk-pixbuf.mo
+installing yi.gmo as /usr/share/locale/yi/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/gdk-pixbuf.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/gdk-pixbuf.mo
+if test "gdk-pixbuf" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/po'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+Making install in gdk-pixbuf
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/composite.png
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Animations.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-csource.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf.devhelp2
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-File-Loading.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-File-saving.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-from-drawables.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-rendering.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-gdk-pixbuf-Xlib-initialization.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Image-Data-in-Memory.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Inline-data.html
+ /usr/bin/install -c -m 644 ./html/GdkPixbufLoader.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Module-Interface.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-query-loaders.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Reference-Counting-and-Memory-Mangement.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Scaling.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-The-GdkPixbuf-Structure.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Utilities.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Versioning.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-X-Drawables-to-Pixbufs.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-Xlib-Rendering.html
+ /usr/bin/install -c -m 644 ./html/gdk-pixbuf-XlibRGB.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/license.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rn01.html
+ /usr/bin/install -c -m 644 ./html/rn02.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gdk-pixbuf-csource.1 gdk-pixbuf-query-loaders.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference/gdk-pixbuf'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs/reference'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/docs'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make  install-am
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/tests'
+Making install in contrib
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making install in gdk-pixbuf-xlib
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgdk_pixbuf_xlib-2.0.la '/usr/lib'
+libtool: install: (cd /sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib; /bin/sh "/sources/7.9/gdk-pixbuf-2.32.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -export-dynamic -version-info 3200:3:3200 -o libgdk_pixbuf_xlib-2.0.la -rpath /usr/lib gdk-pixbuf-xlib.lo gdk-pixbuf-xlib-render.lo gdk-pixbuf-xlib-drawable.lo gdk-pixbuf-xlibrgb.lo ../../gdk-pixbuf/libgdk_pixbuf-2.0.la -lX11 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf_xlib-2.0.so.0.3200.3T /usr/lib/libgdk_pixbuf_xlib-2.0.so.0.3200.3
+libtool: install: (cd /usr/lib && { ln -s -f libgdk_pixbuf_xlib-2.0.so.0.3200.3 libgdk_pixbuf_xlib-2.0.so.0 || { rm -f libgdk_pixbuf_xlib-2.0.so.0 && ln -s libgdk_pixbuf_xlib-2.0.so.0.3200.3 libgdk_pixbuf_xlib-2.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgdk_pixbuf_xlib-2.0.so.0.3200.3 libgdk_pixbuf_xlib-2.0.so || { rm -f libgdk_pixbuf_xlib-2.0.so && ln -s libgdk_pixbuf_xlib-2.0.so.0.3200.3 libgdk_pixbuf_xlib-2.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdk_pixbuf_xlib-2.0.lai /usr/lib/libgdk_pixbuf_xlib-2.0.la
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib'
+ /usr/bin/install -c -m 644 gdk-pixbuf-xlib.h gdk-pixbuf-xlibrgb.h '/usr/include/gdk-pixbuf-2.0/gdk-pixbuf-xlib'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gdk-pixbuf-xlib-2.0.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib/gdk-pixbuf-xlib'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/contrib'
+Making install in build
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs10'
+Making install in vs11
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs11'
+Making install in vs12
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs12'
+Making install in vs14
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[4]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build/win32'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[3]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3/build'
+make[1]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[2]: Entering directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gdk-pixbuf-2.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'
+make[1]: Leaving directory '/sources/7.9/gdk-pixbuf-2.32.3'

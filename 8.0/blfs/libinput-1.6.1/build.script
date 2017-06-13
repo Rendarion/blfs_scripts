@@ -1,0 +1,4 @@
+./configure $XORG_CONFIG       \
+            --disable-libwacom \
+            --with-udev-dir=/lib/udev &&
+make

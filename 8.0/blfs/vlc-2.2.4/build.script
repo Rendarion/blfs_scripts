@@ -1,0 +1,7 @@
+patch -Np1 -i ../vlc-2.2.4-ffmpeg3-1.patch    &&
+patch -Np1 -i ../vlc-2.2.4-gcc6_fixes-1.patch &&
+
+CFLAGS="-DLUA_COMPAT_5_1" \
+./configure --prefix=/usr --disable-atmo &&
+
+make

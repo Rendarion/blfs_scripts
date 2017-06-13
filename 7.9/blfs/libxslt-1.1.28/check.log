@@ -1,0 +1,370 @@
+Making check in libxslt
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/libxslt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/libxslt'
+Making check in libexslt
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/libexslt'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/libexslt'
+Making check in xsltproc
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/xsltproc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/xsltproc'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/doc'
+Makefile:790: recipe for target 'xsltproc.1' failed
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/doc'
+Making check in python
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/python'
+Making check in .
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/python'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/python'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/python/tests'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/python/tests'
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/python'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28/tests'
+Making check in docs
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docs'
+Making check in REC1
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC1'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC1'
+Making check in REC2
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC2'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC2'
+Making check in REC
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC'
+Making check in general
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/general'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/general'
+Making check in namespaces
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/namespaces'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/namespaces'
+Making check in keys
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/keys'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/keys'
+Making check in numbers
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/numbers'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/numbers'
+Making check in documents
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/documents'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/documents'
+Making check in extensions
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/extensions'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/extensions'
+Making check in reports
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/reports'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/reports'
+Making check in xmlspec
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/xmlspec'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/xmlspec'
+Making check in multiple
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/multiple'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/multiple'
+Making check in xinclude
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/xinclude'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/xinclude'
+Making check in XSLTMark
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+Making check in docbook
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+Making check in exslt
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+Making check in common
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/common'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/common'
+Making check in functions
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/functions'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/functions'
+Making check in math
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/math'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/math'
+Making check in sets
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/sets'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/sets'
+Making check in strings
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/strings'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/strings'
+Making check in dynamic
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/dynamic'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/dynamic'
+Making check in date
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/date'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/date'
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+Making check in plugins
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/plugins'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/plugins'
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests'
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests'
+make[1]: Entering directory '/sources/7.9/libxslt-1.1.28'
+make  check-local
+make[2]: Entering directory '/sources/7.9/libxslt-1.1.28'
+## Running the regression test suite
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/tests'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docs'
+make[4]: Nothing to be done for 'tests'.
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docs'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC1'
+## Running REC1 tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC1'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC2'
+## Running REC2 tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC2'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/REC'
+## Running REC tests
+## Running REC tests without dictionaries
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/REC'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/general'
+## Running general tests
+bug-180 result
+3,4d2
+< XPath error : Stack usage errror
+< xmlXPathCompiledEval: 1 objects left on the stack.
+## Running general tests without dictionaries
+bug-180 result
+3,4d2
+< XPath error : Stack usage errror
+< xmlXPathCompiledEval: 1 objects left on the stack.
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/general'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/namespaces'
+## Running namespaces tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/namespaces'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/keys'
+## Running keys tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/keys'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/numbers'
+## Running numbers tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/numbers'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/documents'
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/documents'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/extensions'
+## Running extensions tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/extensions'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/reports'
+## Running reports tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/reports'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/xmlspec'
+## Running xmlspec tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/xmlspec'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/multiple'
+## Running multiple tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/multiple'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/xinclude'
+## Running XInclude test
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/xinclude'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+## Running XSLTMark tests
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+perl ./dbgen.pl 100 > db100.xml
+perl ./dbgen.pl 10000 > db10000.xml
+perl ./dbgen.pl 1000 > db1000.xml
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/XSLTMark'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+## Running docbook tests
+make single
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+gdp-handbook.xml : html fo xhtml 
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+make xtchunk
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+html-chunking
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/docbook'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/common'
+## Running exslt common tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/common'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/functions'
+## Running exslt function tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/functions'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/math'
+## Running exslt math tests
+power.1 result
+5c5
+<    <result> 2.85311670611e+11</result>
+---
+>    <result>2.85311670611e+11</result>
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/math'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/sets'
+## Running exslt sets tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/sets'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/strings'
+## Running exslt string tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/strings'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/dynamic'
+## Running exslt sets tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/dynamic'
+make[5]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/exslt/date'
+## Running exslt date tests
+#
+# Inspect the following for correctness
+#
+## Running exslt common tests
+make[5]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt/date'
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/exslt'
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/tests/plugins'
+## Running plugin tests
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests/plugins'
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/tests'
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/xsltproc'
+## Running testThreads
+Pass 1
+Pass 2
+Ok
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/xsltproc'
+make[3]: Entering directory '/sources/7.9/libxslt-1.1.28/python'
+Making all in .
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/python'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/python'
+Making all in tests
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/python/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/python/tests'
+cd tests && make tests
+make[4]: Entering directory '/sources/7.9/libxslt-1.1.28/python/tests'
+-- basic.py
+OK
+-- exslt.py
+OK
+-- extelem.py
+Registered XSLT Extensions
+--------------------------
+Registered Extension Functions:
+{http://exslt.org/math}abs
+{http://exslt.org/math}power
+{http://exslt.org/dates-and-times}day-name
+{http://exslt.org/dates-and-times}week-in-month
+{http://exslt.org/math}sqrt
+{http://exslt.org/math}cos
+{http://exslt.org/math}asin
+{http://exslt.org/sets}trailing
+{http://exslt.org/strings}align
+{http://exslt.org/dates-and-times}day-in-month
+{http://exslt.org/dates-and-times}day-in-year
+{http://exslt.org/dates-and-times}day-of-week-in-month
+{http://exslt.org/dates-and-times}difference
+{http://exslt.org/dates-and-times}leap-year
+{http://exslt.org/dates-and-times}second-in-minute
+{http://icl.com/saxon}eval
+{http://icl.com/saxon}line-number
+{http://exslt.org/dynamic}evaluate
+{http://exslt.org/crypto}sha1
+{http://exslt.org/math}log
+{http://exslt.org/sets}difference
+{http://exslt.org/strings}decode-uri
+{http://exslt.org/dates-and-times}day-abbreviation
+{http://exslt.org/dates-and-times}sum
+{http://exslt.org/dates-and-times}week-in-year
+{http://www.jclark.com/xt}node-set
+{http://exslt.org/sets}has-same-node
+{http://exslt.org/sets}leading
+{http://exslt.org/dates-and-times}time
+{http://icl.com/saxon}evaluate
+{http://exslt.org/common}node-set
+{http://exslt.org/math}highest
+{http://exslt.org/math}random
+{http://exslt.org/math}atan2
+{http://exslt.org/sets}distinct
+{http://exslt.org/strings}encode-uri
+{http://exslt.org/dates-and-times}add-duration
+{http://exslt.org/dates-and-times}month-abbreviation
+{http://exslt.org/dates-and-times}year
+{http://exslt.org/common}object-type
+{http://exslt.org/crypto}md4
+{http://exslt.org/dates-and-times}duration
+{http://exslt.org/dates-and-times}month-in-year
+{http://xmlsoft.org/XSLT/namespace}node-set
+{http://exslt.org/crypto}rc4_encrypt
+{http://exslt.org/crypto}rc4_decrypt
+{http://exslt.org/strings}split
+{http://exslt.org/strings}concat
+{http://exslt.org/dates-and-times}date
+{http://exslt.org/dynamic}map
+{http://icl.com/saxon}node-set
+{http://nwalsh.com/xslt/ext/com.nwalsh.saxon.CVS}localTime
+{http://exslt.org/crypto}md5
+{http://exslt.org/math}max
+{http://exslt.org/math}lowest
+{http://exslt.org/math}sin
+{http://exslt.org/math}tan
+{http://exslt.org/math}exp
+{http://exslt.org/sets}intersection
+{http://exslt.org/strings}tokenize
+{http://exslt.org/dates-and-times}add
+{http://exslt.org/dates-and-times}date-time
+{http://exslt.org/dates-and-times}seconds
+{http://icl.com/saxon}expression
+{http://exslt.org/math}constant
+{http://exslt.org/math}acos
+{http://exslt.org/strings}padding
+{http://exslt.org/dates-and-times}day-in-week
+{http://exslt.org/dates-and-times}minute-in-hour
+{http://exslt.org/math}min
+{http://exslt.org/math}atan
+{http://exslt.org/strings}replace
+{http://exslt.org/dates-and-times}hour-in-day
+{http://exslt.org/dates-and-times}month-name
+{http://icl.com/saxon}systemId
+
+Registered Extension Elements:
+{http://xmlsoft.org/XSLT/namespace}debug
+{http://icl.com/saxon}output
+{org.apache.xalan.xslt.extensions.Redirect}write
+{http://www.w3.org/1999/XSL/Transform}document
+{http://exslt.org/common}document
+{http://exslt.org/functions}result
+{http://www.jclark.com/xt}document
+{http://example.com/foo}test
+
+Registered Extension Modules:
+http://icl.com/saxon
+http://exslt.org/functions
+<?xml version="1.0"?>
+<article>SUCCESS</article>
+<deeper><article>SUCCESS</article></deeper>
+OK
+-- extfunc.py
+OK
+make[4]: Leaving directory '/sources/7.9/libxslt-1.1.28/python/tests'
+make[3]: Leaving directory '/sources/7.9/libxslt-1.1.28/python'
+make[2]: Leaving directory '/sources/7.9/libxslt-1.1.28'
+make[1]: Leaving directory '/sources/7.9/libxslt-1.1.28'

@@ -1,0 +1,11 @@
+URL=(
+"http://mirror.karneval.cz/pub/kde/stable/plasma/5.4.3/oxygen-fonts-5.4.3.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

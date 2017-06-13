@@ -1,0 +1,33 @@
+Making check in m4
+make[1]: Entering directory '/sources/7.9/libassuan-2.4.2/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libassuan-2.4.2/m4'
+Making check in src
+make[1]: Entering directory '/sources/7.9/libassuan-2.4.2/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libassuan-2.4.2/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libassuan-2.4.2/src'
+make[1]: Leaving directory '/sources/7.9/libassuan-2.4.2/src'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libassuan-2.4.2/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libassuan-2.4.2/doc'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libassuan-2.4.2/tests'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libassuan-2.4.2/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/libassuan-2.4.2/tests'
+PASS: version
+Received data `Your lucky number is 3552664958674928.  Watch for it everywhere.'
+PASS: pipeconnect
+PASS: fdpassing
+==================
+All 3 tests passed
+==================
+make[3]: Leaving directory '/sources/7.9/libassuan-2.4.2/tests'
+make[2]: Leaving directory '/sources/7.9/libassuan-2.4.2/tests'
+make[1]: Leaving directory '/sources/7.9/libassuan-2.4.2/tests'
+make[1]: Entering directory '/sources/7.9/libassuan-2.4.2'
+make[1]: Leaving directory '/sources/7.9/libassuan-2.4.2'

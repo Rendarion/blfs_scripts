@@ -1,0 +1,12 @@
+URL=(
+"http://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+)

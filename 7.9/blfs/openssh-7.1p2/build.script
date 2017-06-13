@@ -1,0 +1,15 @@
+as_root install  -v -m700 -d /var/lib/sshd &&
+as_root chown    -v root:sys /var/lib/sshd &&
+
+as_root groupadd -g 50 sshd       
+as_root useradd  -c 'sshd PrivSep' \
+         -d /var/lib/sshd  \
+         -g sshd           \
+         -s /bin/false     \
+         -u 50 sshd
+
+./configure --prefix=/usr                     \
+            --sysconfdir=/etc/ssh             \
+            --with-md5-passwords              \
+            --with-privsep-path=/var/lib/sshd &&
+make

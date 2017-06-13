@@ -1,0 +1,131 @@
+Making check in deps
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+Making check in test-fixtures
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+Making check in cogl
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+Making check in cogl-path
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make  check-am
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+Making check in cogl-pango
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+Making check in cogl-gles2
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+Making check in conform
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make  check-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Making check in unit
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make  check-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+Making check in micro-perf
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+Making check in data
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+make  check-local
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+( cd ./conform && make  test ) || exit $?
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Key:
+ok = Test passed
+n/a = Driver is missing a feature required for the test
+FAIL = Unexpected failure
+FIXME = Test failed, but it was an expected failure
+PASS! = Unexpected pass
+
+                               Test  GL+FF GL+ARBFP GL+GLSL GL-NPT    GL3    ES2 ES2-NPT
+
+         test_pipeline_user_matrix:     ok       ok      ok     ok     ok     ok      ok
+                test_blend_strings:     ok       ok      ok     ok     ok     ok      ok
+                        test_blend:     ok       ok      ok     ok     ok     ok      ok
+                      test_premult:  PASS!    PASS!   PASS!  FIXME  PASS!  PASS!   PASS!
+                         test_path:     ok       ok      ok     ok     ok     ok      ok
+                    test_path_clip:     ok       ok      ok     ok     ok     ok      ok
+                   test_depth_test:     ok       ok      ok     ok     ok     ok      ok
+                   test_color_mask:     ok       ok      ok     ok     ok     ok      ok
+             test_backface_culling:     ok       ok      ok  FIXME     ok     ok   FIXME
+                 test_layer_remove:     ok       ok      ok     ok     ok     ok      ok
+              test_sparse_pipeline:     ok       ok      ok     ok     ok     ok      ok
+                 test_npot_texture:     ok       ok      ok     ok     ok     ok      ok
+                  test_sub_texture:     ok       ok      ok     ok     ok     ok      ok
+             test_pixel_buffer_map:     ok       ok      ok     ok     ok     ok      ok
+        test_pixel_buffer_set_data:     ok       ok      ok     ok     ok     ok      ok
+      test_pixel_buffer_sub_region:     ok       ok      ok     ok     ok     ok      ok
+                   test_texture_3d:     ok       ok      ok     ok     ok   FAIL    FAIL
+                   test_wrap_modes:     ok       ok      ok     ok     ok     ok      ok
+         test_texture_get_set_data:     ok       ok      ok     ok     ok     ok      ok
+              test_atlas_migration:     ok       ok      ok     ok     ok     ok      ok
+         test_read_texture_formats:  FIXME    FIXME   FIXME  FIXME  FIXME  PASS!   PASS!
+        test_write_texture_formats:     ok       ok      ok     ok     ok     ok      ok
+               test_alpha_textures:     ok       ok      ok     ok     ok     ok      ok
+      test_wrap_rectangle_textures:  FIXME    FIXME   FIXME  FIXME  FIXME    n/a     n/a
+                    test_primitive:     ok       ok      ok     ok     ok     ok      ok
+           test_just_vertex_shader:    n/a       ok      ok     ok     ok     ok      ok
+            test_pipeline_uniforms:    n/a       ok      ok     ok     ok     ok      ok
+                     test_snippets:    n/a       ok      ok     ok     ok     ok      ok
+            test_custom_attributes:    n/a       ok      ok     ok     ok     ok      ok
+                    test_offscreen:     ok       ok      ok     ok     ok     ok      ok
+         test_framebuffer_get_bits:     ok       ok      ok     ok     ok    n/a     n/a
+                   test_point_size:     ok       ok      ok     ok     ok     ok      ok
+         test_point_size_attribute:    n/a       ok      ok     ok     ok     ok      ok
+ test_point_size_attribute_snippet:    n/a       ok      ok     ok     ok     ok      ok
+                 test_point_sprite:     ok       ok      ok     ok     ok     ok      ok
+     test_point_sprite_orientation:  FIXME    FIXME   FIXME  FIXME  FIXME  FIXME   FIXME
+            test_point_sprite_glsl:    n/a       ok      ok     ok     ok     ok      ok
+                      test_version:     ok       ok      ok     ok     ok     ok      ok
+                   test_alpha_test:     ok       ok      ok     ok     ok     ok      ok
+             test_map_buffer_range:     ok       ok      ok     ok     ok     ok      ok
+        test_primitive_and_journal:     ok       ok      ok     ok     ok     ok      ok
+         test_copy_replace_texture:     ok       ok      ok     ok     ok     ok      ok
+test_pipeline_cache_unrefs_texture:     ok       ok      ok     ok     ok     ok      ok
+        test_pipeline_shader_state:    n/a       ok      ok     ok     ok     ok      ok
+                test_gles2_context:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+            test_gles2_context_fbo:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+ test_gles2_context_copy_tex_image:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+             test_euler_quaternion:     ok       ok      ok     ok     ok     ok      ok
+                    test_color_hsl:     ok       ok      ok     ok     ok     ok      ok
+                        test_fence:     ok       ok      ok     ok     ok     ok      ok
+          test_texture_no_allocate:     ok       ok      ok     ok     ok     ok      ok
+                   test_texture_rg:     ok       ok      ok     ok     ok     ok      ok
+Makefile:1793: recipe for target 'test' failed
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Makefile:870: recipe for target 'test' failed
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:745: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:597: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:597: recipe for target 'check-recursive' failed

@@ -1,0 +1,47 @@
+# set up variables from settings.script
+
+source settings.script
+
+# check dependencies
+
+if [ "$1" == "--dep-check" ]
+  then
+    for i in "${DEP[@]}"
+      do :
+        if [ ! -e "/var/log/porg/$i" ]
+          then
+            if [ -e "$PTH/$i" ]
+              then
+                printf "%s" "installing missing dependency: $i"
+                cd "$PTH/$i"
+                touch build.log
+                ./install.script --dep-check > build.log 2>&1
+                echo " ... done!"
+              else
+                printf "%s\n" "unresolvable dependency: $i"
+              fi
+          fi
+      done
+  fi
+
+# move to source folder
+
+cd "/sources/$LFSVS/xc/"
+
+# download tarballs
+
+$PTH/$PKG/download.script
+
+cd "/sources/$LFSVS/xc/proto"
+
+for package in $(grep -v '^#' ../proto-7.7.md5 | awk '{print $2}')
+do
+  packagedir=${package%.tar.bz2}
+  tar -xf $package
+  pushd $packagedir
+  ./configure $XORG_CONFIG
+  as_root porg -lp+ "$PKG" "$PTH/$PKG/porg.script"
+  popd
+  rm -rf $packagedir
+done
+

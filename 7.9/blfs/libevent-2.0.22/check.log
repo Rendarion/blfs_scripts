@@ -1,0 +1,61 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/libevent-2.0.22'
+Making check in .
+make[2]: Entering directory '/sources/7.9/libevent-2.0.22'
+make[2]: Leaving directory '/sources/7.9/libevent-2.0.22'
+Making check in include
+make[2]: Entering directory '/sources/7.9/libevent-2.0.22/include'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libevent-2.0.22/include'
+Making check in sample
+make[2]: Entering directory '/sources/7.9/libevent-2.0.22/sample'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libevent-2.0.22/sample'
+Making check in test
+make[2]: Entering directory '/sources/7.9/libevent-2.0.22/test'
+make  check-am
+make[3]: Entering directory '/sources/7.9/libevent-2.0.22/test'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/libevent-2.0.22/test'
+cp test.sh test-script.sh
+Running tests:
+EVPORT
+Skipping test
+KQUEUE
+Skipping test
+EPOLL
+ test-eof: OKAY
+ test-weof: OKAY
+ test-time: OKAY
+ test-changelist: OKAY
+ regress: OKAY
+EPOLL (changelist)
+ test-eof: OKAY
+ test-weof: OKAY
+ test-time: OKAY
+ test-changelist: OKAY
+ regress: OKAY
+DEVPOLL
+Skipping test
+POLL
+ test-eof: OKAY
+ test-weof: OKAY
+ test-time: OKAY
+ test-changelist: OKAY
+ regress: OKAY
+SELECT
+ test-eof: OKAY
+ test-weof: OKAY
+ test-time: OKAY
+ test-changelist: OKAY
+ regress: OKAY
+WIN32
+Skipping test
+PASS: test-script.sh
+=============
+1 test passed
+=============
+make[4]: Leaving directory '/sources/7.9/libevent-2.0.22/test'
+make[3]: Leaving directory '/sources/7.9/libevent-2.0.22/test'
+make[2]: Leaving directory '/sources/7.9/libevent-2.0.22/test'
+make[1]: Leaving directory '/sources/7.9/libevent-2.0.22'

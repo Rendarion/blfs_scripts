@@ -1,0 +1,9 @@
+./configure --prefix=/usr           \
+            --sysconfdir=/etc/lynx  \
+            --datadir=/usr/share/doc/lynx-2.8.8rel.2 \
+            --with-zlib             \
+            --with-bzlib            \
+            --with-screen=ncursesw  \
+            --enable-locale-charset \
+            --with-ssl &&
+make

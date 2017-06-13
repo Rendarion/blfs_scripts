@@ -1,0 +1,27 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/libogg-1.3.2/src'
+./test_bitwise
+./test_framing
+make[1]: Leaving directory '/sources/7.9/libogg-1.3.2/src'
+Making check in include
+make[1]: Entering directory '/sources/7.9/libogg-1.3.2/include'
+Making check in ogg
+make[2]: Entering directory '/sources/7.9/libogg-1.3.2/include/ogg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libogg-1.3.2/include/ogg'
+make[2]: Entering directory '/sources/7.9/libogg-1.3.2/include'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libogg-1.3.2/include'
+make[1]: Leaving directory '/sources/7.9/libogg-1.3.2/include'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/libogg-1.3.2/doc'
+Making check in libogg
+make[2]: Entering directory '/sources/7.9/libogg-1.3.2/doc/libogg'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libogg-1.3.2/doc/libogg'
+make[2]: Entering directory '/sources/7.9/libogg-1.3.2/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libogg-1.3.2/doc'
+make[1]: Leaving directory '/sources/7.9/libogg-1.3.2/doc'
+make[1]: Entering directory '/sources/7.9/libogg-1.3.2'
+make[1]: Leaving directory '/sources/7.9/libogg-1.3.2'

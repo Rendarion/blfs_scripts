@@ -1,0 +1,196 @@
+Making check in sigc++
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make  check-am
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/sigc++'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make  test_accum_iter test_accumulated test_bind test_bind_ref test_bind_refptr test_bind_return test_compose test_copy_invalid_slot test_cpp11_lambda test_custom test_deduce_result_type test_disconnect test_disconnect_during_emit test_exception_catch test_functor_trait test_hide test_limit_reference test_mem_fun test_ptr_fun test_retype test_retype_return test_signal test_signal_move test_size test_slot test_slot_disconnect test_slot_move test_trackable test_trackable_move test_track_obj test_visit_each
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_accum_iter.o -MD -MP -MF .deps/test_accum_iter.Tpo -c -o test_accum_iter.o test_accum_iter.cc
+mv -f .deps/test_accum_iter.Tpo .deps/test_accum_iter.Po
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT testutilities.o -MD -MP -MF .deps/testutilities.Tpo -c -o testutilities.o testutilities.cc
+mv -f .deps/testutilities.Tpo .deps/testutilities.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_accum_iter test_accum_iter.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_accum_iter test_accum_iter.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_accumulated.o -MD -MP -MF .deps/test_accumulated.Tpo -c -o test_accumulated.o test_accumulated.cc
+mv -f .deps/test_accumulated.Tpo .deps/test_accumulated.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_accumulated test_accumulated.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_accumulated test_accumulated.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind.o -MD -MP -MF .deps/test_bind.Tpo -c -o test_bind.o test_bind.cc
+mv -f .deps/test_bind.Tpo .deps/test_bind.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind test_bind.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind test_bind.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_ref.o -MD -MP -MF .deps/test_bind_ref.Tpo -c -o test_bind_ref.o test_bind_ref.cc
+mv -f .deps/test_bind_ref.Tpo .deps/test_bind_ref.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_ref test_bind_ref.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_ref test_bind_ref.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_refptr.o -MD -MP -MF .deps/test_bind_refptr.Tpo -c -o test_bind_refptr.o test_bind_refptr.cc
+mv -f .deps/test_bind_refptr.Tpo .deps/test_bind_refptr.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_refptr test_bind_refptr.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_refptr test_bind_refptr.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_bind_return.o -MD -MP -MF .deps/test_bind_return.Tpo -c -o test_bind_return.o test_bind_return.cc
+mv -f .deps/test_bind_return.Tpo .deps/test_bind_return.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_bind_return test_bind_return.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_bind_return test_bind_return.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_compose.o -MD -MP -MF .deps/test_compose.Tpo -c -o test_compose.o test_compose.cc
+mv -f .deps/test_compose.Tpo .deps/test_compose.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_compose test_compose.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_compose test_compose.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_copy_invalid_slot.o -MD -MP -MF .deps/test_copy_invalid_slot.Tpo -c -o test_copy_invalid_slot.o test_copy_invalid_slot.cc
+mv -f .deps/test_copy_invalid_slot.Tpo .deps/test_copy_invalid_slot.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_copy_invalid_slot test_copy_invalid_slot.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_copy_invalid_slot test_copy_invalid_slot.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_cpp11_lambda.o -MD -MP -MF .deps/test_cpp11_lambda.Tpo -c -o test_cpp11_lambda.o test_cpp11_lambda.cc
+mv -f .deps/test_cpp11_lambda.Tpo .deps/test_cpp11_lambda.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_cpp11_lambda test_cpp11_lambda.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_cpp11_lambda test_cpp11_lambda.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_custom.o -MD -MP -MF .deps/test_custom.Tpo -c -o test_custom.o test_custom.cc
+mv -f .deps/test_custom.Tpo .deps/test_custom.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_custom test_custom.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_custom test_custom.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_deduce_result_type.o -MD -MP -MF .deps/test_deduce_result_type.Tpo -c -o test_deduce_result_type.o test_deduce_result_type.cc
+mv -f .deps/test_deduce_result_type.Tpo .deps/test_deduce_result_type.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_deduce_result_type test_deduce_result_type.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_deduce_result_type test_deduce_result_type.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_disconnect.o -MD -MP -MF .deps/test_disconnect.Tpo -c -o test_disconnect.o test_disconnect.cc
+mv -f .deps/test_disconnect.Tpo .deps/test_disconnect.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_disconnect test_disconnect.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_disconnect test_disconnect.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_disconnect_during_emit.o -MD -MP -MF .deps/test_disconnect_during_emit.Tpo -c -o test_disconnect_during_emit.o test_disconnect_during_emit.cc
+mv -f .deps/test_disconnect_during_emit.Tpo .deps/test_disconnect_during_emit.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_disconnect_during_emit test_disconnect_during_emit.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_disconnect_during_emit test_disconnect_during_emit.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_exception_catch.o -MD -MP -MF .deps/test_exception_catch.Tpo -c -o test_exception_catch.o test_exception_catch.cc
+mv -f .deps/test_exception_catch.Tpo .deps/test_exception_catch.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_exception_catch test_exception_catch.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_exception_catch test_exception_catch.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_functor_trait.o -MD -MP -MF .deps/test_functor_trait.Tpo -c -o test_functor_trait.o test_functor_trait.cc
+mv -f .deps/test_functor_trait.Tpo .deps/test_functor_trait.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_functor_trait test_functor_trait.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_functor_trait test_functor_trait.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_hide.o -MD -MP -MF .deps/test_hide.Tpo -c -o test_hide.o test_hide.cc
+mv -f .deps/test_hide.Tpo .deps/test_hide.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_hide test_hide.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_hide test_hide.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_limit_reference.o -MD -MP -MF .deps/test_limit_reference.Tpo -c -o test_limit_reference.o test_limit_reference.cc
+mv -f .deps/test_limit_reference.Tpo .deps/test_limit_reference.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_limit_reference test_limit_reference.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_limit_reference test_limit_reference.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_mem_fun.o -MD -MP -MF .deps/test_mem_fun.Tpo -c -o test_mem_fun.o test_mem_fun.cc
+mv -f .deps/test_mem_fun.Tpo .deps/test_mem_fun.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_mem_fun test_mem_fun.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_mem_fun test_mem_fun.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_ptr_fun.o -MD -MP -MF .deps/test_ptr_fun.Tpo -c -o test_ptr_fun.o test_ptr_fun.cc
+mv -f .deps/test_ptr_fun.Tpo .deps/test_ptr_fun.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_ptr_fun test_ptr_fun.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_ptr_fun test_ptr_fun.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_retype.o -MD -MP -MF .deps/test_retype.Tpo -c -o test_retype.o test_retype.cc
+mv -f .deps/test_retype.Tpo .deps/test_retype.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_retype test_retype.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_retype test_retype.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_retype_return.o -MD -MP -MF .deps/test_retype_return.Tpo -c -o test_retype_return.o test_retype_return.cc
+mv -f .deps/test_retype_return.Tpo .deps/test_retype_return.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_retype_return test_retype_return.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_retype_return test_retype_return.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_signal.o -MD -MP -MF .deps/test_signal.Tpo -c -o test_signal.o test_signal.cc
+mv -f .deps/test_signal.Tpo .deps/test_signal.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_signal test_signal.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_signal test_signal.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_signal_move.o -MD -MP -MF .deps/test_signal_move.Tpo -c -o test_signal_move.o test_signal_move.cc
+mv -f .deps/test_signal_move.Tpo .deps/test_signal_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_signal_move test_signal_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_signal_move test_signal_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_size.o -MD -MP -MF .deps/test_size.Tpo -c -o test_size.o test_size.cc
+mv -f .deps/test_size.Tpo .deps/test_size.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_size test_size.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_size test_size.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot.o -MD -MP -MF .deps/test_slot.Tpo -c -o test_slot.o test_slot.cc
+mv -f .deps/test_slot.Tpo .deps/test_slot.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot test_slot.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot test_slot.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot_disconnect.o -MD -MP -MF .deps/test_slot_disconnect.Tpo -c -o test_slot_disconnect.o test_slot_disconnect.cc
+mv -f .deps/test_slot_disconnect.Tpo .deps/test_slot_disconnect.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot_disconnect test_slot_disconnect.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot_disconnect test_slot_disconnect.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_slot_move.o -MD -MP -MF .deps/test_slot_move.Tpo -c -o test_slot_move.o test_slot_move.cc
+mv -f .deps/test_slot_move.Tpo .deps/test_slot_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_slot_move test_slot_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_slot_move test_slot_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_trackable.o -MD -MP -MF .deps/test_trackable.Tpo -c -o test_trackable.o test_trackable.cc
+mv -f .deps/test_trackable.Tpo .deps/test_trackable.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_trackable test_trackable.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_trackable test_trackable.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_trackable_move.o -MD -MP -MF .deps/test_trackable_move.Tpo -c -o test_trackable_move.o test_trackable_move.cc
+mv -f .deps/test_trackable_move.Tpo .deps/test_trackable_move.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_trackable_move test_trackable_move.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_trackable_move test_trackable_move.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_track_obj.o -MD -MP -MF .deps/test_track_obj.Tpo -c -o test_track_obj.o test_track_obj.cc
+mv -f .deps/test_track_obj.Tpo .deps/test_track_obj.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_track_obj test_track_obj.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_track_obj test_track_obj.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+g++ -DHAVE_CONFIG_H   -I.. -I..  -Wall -g -O2 -std=c++11 -MT test_visit_each.o -MD -MP -MF .deps/test_visit_each.Tpo -c -o test_visit_each.o test_visit_each.cc
+mv -f .deps/test_visit_each.Tpo .deps/test_visit_each.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11   -o test_visit_each test_visit_each.o testutilities.o ../sigc++/libsigc-2.0.la 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o .libs/test_visit_each test_visit_each.o testutilities.o  ../sigc++/.libs/libsigc-2.0.so
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[3]: Entering directory '/sources/7.9/libsigc++-2.6.2/tests'
+PASS: test_accum_iter
+PASS: test_accumulated
+PASS: test_bind
+PASS: test_bind_ref
+PASS: test_bind_refptr
+PASS: test_bind_return
+PASS: test_compose
+PASS: test_copy_invalid_slot
+PASS: test_cpp11_lambda
+PASS: test_custom
+PASS: test_deduce_result_type
+PASS: test_disconnect
+PASS: test_disconnect_during_emit
+PASS: test_exception_catch
+PASS: test_functor_trait
+PASS: test_hide
+PASS: test_limit_reference
+PASS: test_mem_fun
+PASS: test_ptr_fun
+PASS: test_retype
+PASS: test_retype_return
+PASS: test_signal
+PASS: test_signal_move
+PASS: test_size
+PASS: test_slot
+PASS: test_slot_disconnect
+PASS: test_slot_move
+PASS: test_trackable
+PASS: test_trackable_move
+PASS: test_track_obj
+PASS: test_visit_each
+============================================================================
+Testsuite summary for libsigc++ 2.6.2
+============================================================================
+# TOTAL: 31
+# PASS:  31
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[2]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/tests'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/examples'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2/docs'
+make[1]: Entering directory '/sources/7.9/libsigc++-2.6.2'
+make[1]: Leaving directory '/sources/7.9/libsigc++-2.6.2'

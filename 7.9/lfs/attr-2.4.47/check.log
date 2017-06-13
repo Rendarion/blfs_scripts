@@ -1,0 +1,219 @@
+/tools/bin/make include libmisc libattr attr getfattr setfattr examples test m4 man doc po debian package
+make[1]: Entering directory '/sources/7.9/attr-2.4.47'
+/tools/bin/make -C include
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/include'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/include'
+/tools/bin/make -C libmisc
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/libmisc'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/libmisc'
+/tools/bin/make -C libattr
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/libattr'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/libattr'
+/tools/bin/make -C attr
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/attr'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/attr'
+/tools/bin/make -C getfattr
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/getfattr'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/getfattr'
+/tools/bin/make -C setfattr
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/setfattr'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/setfattr'
+/tools/bin/make -C examples
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/examples'
+rm -f copyattr dep dep.bak *.[1-9].gz *.tmpo *.mo       
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/examples'
+/tools/bin/make -C test
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/test'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/test'
+/tools/bin/make -C m4
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/m4'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/m4'
+/tools/bin/make -C man
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/man'
+/tools/bin/make -C man1
+make[3]: Entering directory '/sources/7.9/attr-2.4.47/man/man1'
+make[3]: Nothing to be done for 'default'.
+make[3]: Leaving directory '/sources/7.9/attr-2.4.47/man/man1'
+/tools/bin/make -C man3
+make[3]: Entering directory '/sources/7.9/attr-2.4.47/man/man3'
+make[3]: Nothing to be done for 'default'.
+make[3]: Leaving directory '/sources/7.9/attr-2.4.47/man/man3'
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/man'
+/tools/bin/make -C doc
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/doc'
+make[2]: 'default' is up to date.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/doc'
+/tools/bin/make -C po
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/po'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/po'
+/tools/bin/make -C debian
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/debian'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/debian'
+/tools/bin/make -C package
+make[2]: Entering directory '/sources/7.9/attr-2.4.47/package'
+make[2]: Nothing to be done for 'default'.
+make[2]: Leaving directory '/sources/7.9/attr-2.4.47/package'
+make[1]: Leaving directory '/sources/7.9/attr-2.4.47'
+/tools/bin/make -C test/ tests
+make[1]: Entering directory '/sources/7.9/attr-2.4.47/test'
+*** attr.test ***
+[9] $ mkdir d -- ok
+[10] $ cd d -- ok
+[12] $ touch f -- ok
+[13] $ setfattr -n user -v value f -- ok
+[16] $ setfattr -n user. -v value f -- ok
+[19] $ setfattr -n user.name f -- ok
+[20] $ getfattr -d f -- ok
+[25] $ setfattr -x user.name f -- ok
+[26] $ sh -c 'getfattr -n user.name f && echo zero exit code' -- ok
+[29] $ setfattr -n user.n -v value f -- ok
+[30] $ rm f -- ok
+[35] $ touch f -- ok
+[36] $ setfattr -n user.vvvvvvvvvvvv -v vvvvvvvvvvvv f -- ok
+[37] $ setfattr -n user.wwwwwwww -v wwwwwwww f -- ok
+[38] $ setfattr -n user.xxxx -v xxxx f -- ok
+[39] $ getfattr -d f -- ok
+[46] $ setfattr -n user.wwwwwwww -v wwww f -- ok
+[47] $ getfattr -d f -- ok
+[54] $ setfattr -n user.xxxx -v xxxxxxxx f -- ok
+[55] $ getfattr -d f -- ok
+[62] $ rm f -- ok
+[66] $ touch f -- ok
+[67] $ setfattr -n user.name -v 0xbabe f -- ok
+[68] $ setfattr -n user.name2 -v 0s3q2+7w== f -- ok
+[69] $ setfattr -n user.name3 -v 0xdeface f -- ok
+[70] $ getfattr -d -e hex f -- ok
+[77] $ getfattr -d -e base64 f -- ok
+[84] $ rm f -- ok
+[88] $ touch f -- ok
+[89] $ setfattr -n user.novalue f -- ok
+[90] $ setfattr -n user.somename -v somevalue f -- ok
+[91] $ setfattr -n user.somename -v somevalue f -- ok
+[92] $ setfattr -n user.longername -v longervalue f -- ok
+[93] $ setfattr -n user.short -v value f -- ok
+[94] $ setfattr -n user.novalue-yet f -- ok
+[95] $ ls -s f -- ok
+[98] $ getfattr -d f -- ok
+[107] $ setfattr -n user.novalue-yet -v avalue-now f -- ok
+[108] $ getfattr -d f -- ok
+[117] $ setfattr -x user.noname f -- ok
+[120] $ setfattr -x user.somename f -- ok
+[121] $ setfattr -x user.short f -- ok
+[122] $ getfattr -d f -- ok
+[129] $ setfattr -x user.longername f -- ok
+[130] $ setfattr -x user.novalue f -- ok
+[131] $ setfattr -x user.novalue-yet f -- ok
+[132] $ getfattr -d f -- ok
+[133] $ ls -s f -- ok
+[136] $ rm f -- ok
+[140] $ touch f g h -- ok
+[141] $ setfattr -n user.novalue f g h -- ok
+[142] $ getfattr f g h | ../sort-getfattr-output -- ok
+[153] $ setfattr -n user.name -v value f -- ok
+[154] $ getfattr f g h | ../sort-getfattr-output -- ok
+[166] $ getfattr -d f g h | ../sort-getfattr-output -- ok
+[178] $ setfattr -n user.name -v value g -- ok
+[179] $ getfattr f g h | ../sort-getfattr-output -- ok
+[192] $ setfattr -x user.novalue h -- ok
+[193] $ getfattr f g h | ../sort-getfattr-output -- ok
+[203] $ rm f g h -- ok
+[207] $ touch f -- ok
+[208] $ ln -s f l -- ok
+[209] $ setfattr -n user.filename -v f l -- ok
+[210] $ setfattr -n user.filename -v l l -- ok
+[211] $ setfattr -h -n user.filename -v l l -- ok
+[214] $ getfattr -d f l | ../sort-getfattr-output -- ok
+[222] $ rm f -- ok
+[226] $ mkdir src -- ok
+[227] $ touch src/target -- ok
+[228] $ setfattr -n user.color -v blue src/target -- ok
+[229] $ ln -s src symlink -- ok
+[230] $ getfattr -n user.color -h symlink 2>/dev/null -- ok
+[234] $ touch "f " -- ok
+[235] $ setfattr -n user.name -v value "f " -- ok
+[236] $ getfattr -d "f " -- ok
+[241] $ rm "f " -- ok
+[245] $ touch f -- ok
+[246] $ setfattr -n "user.sp ace" -v value f -- ok
+[247] $ setfattr -n "user.special " -v value f -- ok
+[248] $ getfattr f -- ok
+[254] $ getfattr -d f -- ok
+[260] $ setfattr -x "user.sp ace" f -- ok
+[261] $ setfattr -n "user.sp ace" -v value f -- ok
+[262] $ setfattr -x "user.sp ace" f -- ok
+[263] $ setfattr -x "user.special " f -- ok
+[264] $ rm f -- ok
+[266] $ cd .. -- ok
+[267] $ rm -rf d -- ok
+[271] $ mkdir -p 1/2/3 -- ok
+[272] $ setfattr -n "user.9" 1 -- ok
+[273] $ setfattr -n "user.a" 1 -- ok
+[274] $ setfattr -n "user.9" 1/2 -- ok
+[275] $ setfattr -n "user.a" 1/2 -- ok
+[276] $ setfattr -n "user.9" 1/2/3 -- ok
+[277] $ setfattr -n "user.a" 1/2/3 -- ok
+[279] $ getfattr -h -L -R -m '.' -e hex 1 | grep -v selinux | ./sort-getfattr-output -- ok
+[293] $ getfattr -h -P -R -m '.' -e hex 1/2 | grep -v selinux | ./sort-getfattr-output -- ok
+[303] $ rm -R 1 -- ok
+[307] $ mkdir -p 1/sub -- ok
+[308] $ mkdir 1/link -- ok
+[309] $ touch 1/link/link-file -- ok
+[310] $ touch 1/sub/sub-file -- ok
+[311] $ ln -s `pwd`/1/link 1/sub/link -- ok
+[312] $ setfattr -n "user.a" 1 -- ok
+[313] $ setfattr -n "user.a" 1/link/link-file -- ok
+[314] $ setfattr -n "user.a" 1/link -- ok
+[315] $ setfattr -n "user.a" 1/sub/sub-file -- ok
+[316] $ setfattr -n "user.a" 1/sub -- ok
+[317] $ getfattr -P -R 1 | ./sort-getfattr-output -- ok
+[337] $ getfattr -R -P 1/sub | ./sort-getfattr-output -- ok
+[348] $ getfattr -L -R 1 | ./sort-getfattr-output -- ok
+[371] $ getfattr -R 1/sub/link | ./sort-getfattr-output -- ok
+[379] $ getfattr -L -R 1/sub/link | ./sort-getfattr-output -- ok
+[387] $ rm -R 1 -- ok
+114 commands (114 passed, 0 failed)
+make[1]: Leaving directory '/sources/7.9/attr-2.4.47/test'
+/tools/bin/make -C test/ root-tests
+make[1]: Entering directory '/sources/7.9/attr-2.4.47/test'
+Note: Tests must run as root
+[1] $ mkdir d -- ok
+[2] $ cd d -- ok
+[4] $ touch f -- ok
+[5] $ setfattr -n user.test -v test f -- ok
+[6] $ ln -s f l -- ok
+[7] $ setfattr -h -n trusted.test -v test l -- ok
+[10] $ getfattr -m- -d f -- ok
+[16] $ getfattr -m- -d l -- ok
+[22] $ getfattr -m- -hd l -- ok
+[28] $ getfattr -m- -Rd . | ../sort-getfattr-output -- ok
+[36] $ getfattr -m- -Rhd . | ../sort-getfattr-output -- ok
+[45] $ ln -s . here -- ok
+[46] $ getfattr -m- -Rd here | ../sort-getfattr-output -- ok
+[54] $ getfattr -m- -Rhd here -- ok
+[56] $ getfattr -m- -RLhd here | ../sort-getfattr-output -- ok
+[64] $ getfattr -m- -RPhd here -- ok
+[67] $ mkdir sub -- ok
+[68] $ mv f l sub -- ok
+[69] $ getfattr -m- -Rd . | ../sort-getfattr-output -- ok
+[77] $ getfattr -m- -Rhd . | ../sort-getfattr-output -- ok
+[86] $ mkdir sub2 -- ok
+[87] $ ln -s ../sub sub2/to-sub -- ok
+[88] $ getfattr -m- -Rhd sub2 -- ok
+[90] $ getfattr -m- -RLhd sub2 | ../sort-getfattr-output -- ok
+[98] $ getfattr -m- -RPhd sub2 -- ok
+[101] $ ln -s .. sub/up -- ok
+[102] $ getfattr -m- -RLhd . | ../sort-getfattr-output -- ok
+[115] $ cd .. -- ok
+[116] $ rm -rf d -- ok
+29 commands (29 passed, 0 failed)
+make[1]: Leaving directory '/sources/7.9/attr-2.4.47/test'

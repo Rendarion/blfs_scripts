@@ -1,0 +1,13 @@
+URL=(
+"https://www.python.org/ftp/python/3.6.0/Python-3.6.0.tar.xz"
+"https://docs.python.org/3.6/archives/python-3.6.0-docs-html.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libffi-3.2.1"
+)

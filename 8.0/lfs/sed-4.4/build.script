@@ -1,0 +1,7 @@
+sed -i 's/usr/tools/'       build-aux/help2man
+sed -i 's/panic-tests.sh//' Makefile.in
+
+./configure --prefix=/usr --bindir=/bin
+
+make
+make html

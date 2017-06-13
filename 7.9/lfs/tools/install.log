@@ -1,0 +1,138 @@
+mkdir: created directory '/mnt/lfs/tools'
+'/tools' -> '/mnt/lfs/tools'
+/home/lfs
+
+Installing 7.9 tools!
+(check build.log in package-folders for results.)
+
+Installing binutils-2.26-p1 ... done!
+Installing gcc-5.3.0-p1 ... done!
+Installing linux-api-headers-4.4.2 ... done!
+Installing glibc-2.23 ... done!
+Installing libstdc++-5.3.0 ... done!
+Installing binutils-2.26-p2 ... done!
+Installing gcc-5.3.0-p2 ... done!
+Installing tcl-core-8.6.4 ... done!
+Installing expect5.45 ... done!
+Installing dejagnu-1.5.3 ... done!
+Installing check-0.10.0 ... done!
+Installing ncurses-6.0 ... done!
+Installing bash-4.3.30 ... done!
+Installing bzip2-1.0.6 ... done!
+Installing coreutils-8.25 ... done!
+Installing diffutils-3.3 ... done!
+Installing file-5.25 ... done!
+Installing findutils-4.6.0 ... done!
+Installing gawk-4.1.3 ... done!
+Installing gettext-0.19.7 ... done!
+Installing grep-2.23 ... done!
+Installing gzip-1.6 ... done!
+Installing m4-1.4.17 ... done!
+Installing make-4.1 ... done!
+Installing patch-2.7.5 ... done!
+Installing perl-5.22.1 ... done!
+Installing sed-4.2.2 ... done!
+Installing tar-1.28 ... done!
+Installing texinfo-6.1 ... done!
+Installing util-linux-2.27.1 ... done!
+Installing xz-5.2.2 ... done!
+strip: Warning: '/tools/lib/audit' is not an ordinary file
+strip: Warning: '/tools/lib/expect5.45' is not an ordinary file
+strip: Warning: '/tools/lib/gawk' is not an ordinary file
+strip: Warning: '/tools/lib/gcc' is not an ordinary file
+strip: Warning: '/tools/lib/gconv' is not an ordinary file
+strip:/tools/lib/libasan.la: File format not recognized
+strip:/tools/lib/libatomic.la: File format not recognized
+strip:/tools/lib/libbfd.la: File format not recognized
+strip:/tools/lib/libblkid.la: File format not recognized
+strip:/tools/lib/libc.so: File format not recognized
+strip:/tools/lib/libcc1.la: File format not recognized
+strip:/tools/lib/libcheck.la: File format not recognized
+strip:/tools/lib/libcilkrts.la: File format not recognized
+strip:/tools/lib/libcilkrts.spec: File format not recognized
+strip:/tools/lib/libfdisk.la: File format not recognized
+strip:/tools/lib/libitm.la: File format not recognized
+strip:/tools/lib/libitm.spec: File format not recognized
+strip:/tools/lib/liblsan.la: File format not recognized
+strip:/tools/lib/liblzma.la: File format not recognized
+strip:/tools/lib/libm.so: File format not recognized
+strip:/tools/lib/libmagic.la: File format not recognized
+strip:/tools/lib/libmount.la: File format not recognized
+strip:/tools/lib/libopcodes.la: File format not recognized
+strip:/tools/lib/libpthread.so: File format not recognized
+strip:/tools/lib/libquadmath.la: File format not recognized
+strip:/tools/lib/libsanitizer.spec: File format not recognized
+strip:/tools/lib/libsmartcols.la: File format not recognized
+strip:/tools/lib/libssp.la: File format not recognized
+strip:/tools/lib/libssp_nonshared.la: File format not recognized
+strip:/tools/lib/libstdc++.la: File format not recognized
+strip:/tools/lib/libstdc++.so.6.0.21-gdb.py: File format not recognized
+strip:/tools/lib/libstdc++fs.la: File format not recognized
+strip:/tools/lib/libsupc++.la: File format not recognized
+strip:/tools/lib/libtsan.la: File format not recognized
+strip:/tools/lib/libubsan.la: File format not recognized
+strip:/tools/lib/libuuid.la: File format not recognized
+strip:/tools/lib/libvtv.la: File format not recognized
+strip: Warning: '/tools/lib/perl5' is not an ordinary file
+strip: Warning: '/tools/lib/pkgconfig' is not an ordinary file
+strip: Warning: '/tools/lib/tcl8' is not an ordinary file
+strip: Warning: '/tools/lib/tcl8.6' is not an ordinary file
+strip:/tools/lib/tclConfig.sh: File format not recognized
+strip:/tools/lib/tclooConfig.sh: File format not recognized
+strip: Warning: '/tools/lib/terminfo' is not an ordinary file
+/usr/bin/strip:/tools/bin/bashbug: File format not recognized
+/usr/bin/strip:/tools/bin/bzcmp: File format not recognized
+/usr/bin/strip:/tools/bin/bzdiff: File format not recognized
+/usr/bin/strip:/tools/bin/bzegrep: File format not recognized
+/usr/bin/strip:/tools/bin/bzfgrep: File format not recognized
+/usr/bin/strip:/tools/bin/bzgrep: File format not recognized
+/usr/bin/strip:/tools/bin/bzless: File format not recognized
+/usr/bin/strip:/tools/bin/bzmore: File format not recognized
+/usr/bin/strip:/tools/bin/catchsegv: File format not recognized
+/usr/bin/strip:/tools/bin/checkmk: File format not recognized
+/usr/bin/strip:/tools/bin/egrep: File format not recognized
+/usr/bin/strip:/tools/bin/fgrep: File format not recognized
+/usr/bin/strip:/tools/bin/gunzip: File format not recognized
+/usr/bin/strip:/tools/bin/gzexe: File format not recognized
+/usr/bin/strip:/tools/bin/igawk: File format not recognized
+/usr/bin/strip:/tools/bin/ldd: File format not recognized
+/usr/bin/strip:/tools/bin/lzcmp: File format not recognized
+/usr/bin/strip:/tools/bin/lzdiff: File format not recognized
+/usr/bin/strip:/tools/bin/lzegrep: File format not recognized
+/usr/bin/strip:/tools/bin/lzfgrep: File format not recognized
+/usr/bin/strip:/tools/bin/lzgrep: File format not recognized
+/usr/bin/strip:/tools/bin/lzless: File format not recognized
+/usr/bin/strip:/tools/bin/lzmore: File format not recognized
+/usr/bin/strip:/tools/bin/makeinfo: File format not recognized
+/usr/bin/strip:/tools/bin/mtrace: File format not recognized
+/usr/bin/strip:/tools/bin/ncursesw6-config: File format not recognized
+/usr/bin/strip:/tools/bin/pdftexi2dvi: File format not recognized
+/usr/bin/strip:/tools/bin/pod2man: File format not recognized
+/usr/bin/strip:/tools/bin/pod2texi: File format not recognized
+/usr/bin/strip:/tools/bin/runtest: File format not recognized
+/usr/bin/strip:/tools/bin/sotruss: File format not recognized
+/usr/bin/strip:/tools/bin/texi2any: File format not recognized
+/usr/bin/strip:/tools/bin/texi2dvi: File format not recognized
+/usr/bin/strip:/tools/bin/texi2pdf: File format not recognized
+/usr/bin/strip:/tools/bin/texindex: File format not recognized
+/usr/bin/strip:/tools/bin/tzselect: File format not recognized
+/usr/bin/strip:/tools/bin/uncompress: File format not recognized
+/usr/bin/strip:/tools/bin/updatedb: File format not recognized
+/usr/bin/strip:/tools/bin/xtrace: File format not recognized
+/usr/bin/strip:/tools/bin/xzcmp: File format not recognized
+/usr/bin/strip:/tools/bin/xzdiff: File format not recognized
+/usr/bin/strip:/tools/bin/xzegrep: File format not recognized
+/usr/bin/strip:/tools/bin/xzfgrep: File format not recognized
+/usr/bin/strip:/tools/bin/xzgrep: File format not recognized
+/usr/bin/strip:/tools/bin/xzless: File format not recognized
+/usr/bin/strip:/tools/bin/xzmore: File format not recognized
+/usr/bin/strip:/tools/bin/zcat: File format not recognized
+/usr/bin/strip:/tools/bin/zcmp: File format not recognized
+/usr/bin/strip:/tools/bin/zdiff: File format not recognized
+/usr/bin/strip:/tools/bin/zegrep: File format not recognized
+/usr/bin/strip:/tools/bin/zfgrep: File format not recognized
+/usr/bin/strip:/tools/bin/zforce: File format not recognized
+/usr/bin/strip:/tools/bin/zgrep: File format not recognized
+/usr/bin/strip:/tools/bin/zless: File format not recognized
+/usr/bin/strip:/tools/bin/zmore: File format not recognized
+/usr/bin/strip:/tools/bin/znew: File format not recognized

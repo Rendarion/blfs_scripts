@@ -1,0 +1,7 @@
+make distclean                     &&
+./configure --enable-embedded-tests         \
+            --enable-asserts       \
+            --disable-doxygen-docs \
+            --disable-xml-docs     &&
+make                               &&
+make check

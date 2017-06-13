@@ -1,0 +1,15 @@
+URL=(
+"http://ftp.mozilla.org/pub/mozilla.org/js/mozjs17.0.0.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libffi-3.2.1"
+"nspr-4.13.1"
+"python-2.7.13"
+"zip-3.0"
+)

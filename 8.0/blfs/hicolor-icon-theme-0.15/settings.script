@@ -1,0 +1,11 @@
+URL=(
+"http://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.15.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

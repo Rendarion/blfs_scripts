@@ -1,0 +1,39 @@
+Making check in man
+make[1]: Entering directory '/sources/7.9/libxau-1.0.8/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libxau-1.0.8/man'
+make[1]: Entering directory '/sources/7.9/libxau-1.0.8'
+make  Autest
+make[2]: Entering directory '/sources/7.9/libxau-1.0.8'
+  CC       Autest.o
+  CCLD     Autest
+make[2]: Leaving directory '/sources/7.9/libxau-1.0.8'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libxau-1.0.8'
+make[3]: Entering directory '/sources/7.9/libxau-1.0.8'
+PASS: Autest
+make[4]: Entering directory '/sources/7.9/libxau-1.0.8'
+make  all-recursive
+make[5]: Entering directory '/sources/7.9/libxau-1.0.8'
+Making all in man
+make[6]: Entering directory '/sources/7.9/libxau-1.0.8/man'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/libxau-1.0.8/man'
+make[6]: Entering directory '/sources/7.9/libxau-1.0.8'
+make[6]: Leaving directory '/sources/7.9/libxau-1.0.8'
+make[5]: Leaving directory '/sources/7.9/libxau-1.0.8'
+make[4]: Leaving directory '/sources/7.9/libxau-1.0.8'
+============================================================================
+Testsuite summary for libXau 1.0.8
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libxau-1.0.8'
+make[2]: Leaving directory '/sources/7.9/libxau-1.0.8'
+make[1]: Leaving directory '/sources/7.9/libxau-1.0.8'

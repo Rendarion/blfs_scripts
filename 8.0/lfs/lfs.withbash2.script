@@ -1,0 +1,59 @@
+# set up variables from settings.script
+
+source /sources/scripts/$LFSVS/lfs/settings.script
+
+set +h
+
+LFSPATH="/sources/scripts/"$LFSVS"/lfs/"
+
+PKGDIR3=(
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "bc*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "libtool*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "gdbm*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "gperf*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "expat*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "inetutils*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "perl*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "XML-Parser*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "intltool*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "autoconf*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "automake*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "xz*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "kmod*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "gettext*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "procps-ng*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "e2fsprogs*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "coreutils*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "diffutils*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "gawk*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "findutils*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "groff*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "grub*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "less*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "gzip*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "iproute2*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "kbd*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "libpipeline*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "make*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "patch*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "sysklogd*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "sysvinit*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "eudev*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "util-linux*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "man-db*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "tar*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "texinfo*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "vim*"))"
+"$(basename $(find "$LFSPATH" -maxdepth 1 -type d -name "iwlwifi*"))"
+)
+
+unset LFSPATH
+
+for i in "${PKGDIR3[@]}"
+  do :
+    printf "%s" "Installing $i"
+    cd "/sources/scripts/$LFSVS/lfs/$i"
+    touch install.log
+    ../install.script > install.log 2>&1
+    echo " ... done!"
+  done

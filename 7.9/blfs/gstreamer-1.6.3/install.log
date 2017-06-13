@@ -1,0 +1,2285 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking nano version... 0 (release)
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+DOMAIN = gstreamer-1.0
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for VALGRIND... yes
+configure: Using extra code paths for valgrind
+configure: Using GStreamer 1.6.3 BLFS as package name
+configure: Using http://www.linuxfromscratch.org/blfs/view/svn/ as package origin
+configure: Using GST_PKG_CONFIG_PATH = $(top_builddir)/pkgconfig
+configure: Setting GST_PACKAGE_RELEASE_DATETIME to 2016-01-20
+checking for BASH_COMPLETION... no
+checking for BASH_COMPLETION... no
+checking whether to build static plugins or not... no
+checking whether PTP support can be enabled... yes
+checking for cap_init in -lcap... yes
+checking sys/capability.h usability... yes
+checking sys/capability.h presence... yes
+checking for sys/capability.h... yes
+checking for setcap... /usr/sbin/setcap
+checking for SIOCGIFCONF, SIOCGIFFLAGS and SIOCGIFHWADDR... yes
+checking for getifaddrs() and AF_LINK... no
+checking how to install gst-ptp-helper... capabilities
+checking whether byte ordering is bigendian... no
+checking if unaligned memory access works correctly... (whitelisted) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: working c++ compiler found: yes
+checking for perl... /usr/bin/perl
+checking for bison... /usr/bin/bison
+checking bison version 3.0.4 >= 2.4... yes
+checking for flex... /usr/bin/flex
+checking flex version flex 2.6.0 >= 2.5.31... yes
+checking for valgrind... /usr/bin/valgrind
+checking for gobject-introspection... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking whether to build plugin documentation... no (gtk-doc disabled or not available)
+checking for cos in -lm... yes
+checking for ANSI C header files... (cached) yes
+checking for ucontext.h... yes
+checking for sys/socket.h... yes
+checking for sys/times.h... yes
+checking for unistd.h... (cached) yes
+checking for process.h... no
+checking for sys/utsname.h... yes
+checking for stdio_ext.h... yes
+checking if compiler needs -Werror to reject unknown flags... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for sys/prctl.h... yes
+checking for pthread_setname_np(const char*)... no
+checking for sys/uio.h... yes
+checking for valgrind/valgrind.h... yes
+checking for winsock2.h... no
+checking for __gmpz_init_set_d in -lgmp... yes
+checking gmp.h usability... yes
+checking gmp.h presence... yes
+checking for gmp.h... yes
+checking for gsl_rng_uniform_int in -lgsl... no
+checking for __uint128_t... yes
+checking for tm_gmtoff... yes
+checking for strcasestr... yes
+checking for gmtime_r... yes
+checking for localtime_r... yes
+checking for sigaction... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for ftello... yes
+checking for fgetpos... yes
+checking for fsetpos... yes
+checking for sys/poll.h... yes
+checking for poll.h... yes
+checking for poll... yes
+checking for ppoll... yes
+checking for pselect... yes
+checking for socketpair... yes
+checking for broken poll... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for posix_memalign... yes
+checking for getpagesize... (cached) yes
+checking for clock_gettime... yes
+checking for posix timers... yes
+checking for monotonic clock... yes
+checking whether gcc implements __PRETTY_FUNCTION__... yes
+checking whether gcc implements __FUNCTION__... yes
+checking whether gcc implements __func__... yes
+checking for dladdr in -ldl... yes
+checking for long long int... yes
+checking for unsigned long long int... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for ptrdiff_t... yes
+checking for intmax_t... yes
+checking for size_t... yes
+checking for GLIB... yes
+checking for glib-genmarshal... glib-genmarshal (from pkg-config path)
+checking for glib-mkenums... glib-mkenums
+checking for GIO... yes
+checking for -Bsymbolic-functions linker flag... yes
+configure: Using /usr/lib/gstreamer-1.0 as the plugin install location
+checking to see if compiler understands -Wall... yes
+checking to see if compiler understands -Wdeclaration-after-statement... yes
+checking to see if compiler understands -Wvla... yes
+checking to see if compiler understands -Wpointer-arith... yes
+checking to see if compiler understands -Wmissing-declarations... yes
+checking to see if compiler understands -Wmissing-prototypes... yes
+checking to see if compiler understands -Wredundant-decls... yes
+checking to see if compiler understands -Wundef... yes
+checking to see if compiler understands -Wwrite-strings... yes
+checking to see if compiler understands -Wformat-nonliteral... yes
+checking to see if compiler understands -Wformat-security... yes
+checking to see if compiler understands -Wold-style-definition... yes
+checking to see if compiler understands -Winit-self... yes
+checking to see if compiler understands -Wmissing-include-dirs... yes
+checking to see if compiler understands -Waddress... yes
+checking to see if compiler understands -Waggregate-return... yes
+checking to see if compiler understands -Wno-multichar... yes
+checking to see if compiler understands -Wnested-externs... yes
+configure: set WARNING_CFLAGS to  -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs
+configure: set ERROR_CFLAGS to 
+checking to see if compiler understands -Wno-format-nonliteral... yes
+configure: Running check unit test framework checks now...
+checking for unistd.h... (cached) yes
+checking for sys/wait.h... yes
+checking for sys/time.h... yes
+checking for localtime_r... (cached) yes
+checking for getpid... yes
+checking for _getpid... no
+checking whether strdup is declared... yes
+checking for _strdup... no
+checking for mkstemp... yes
+checking for fork... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking whether alarm is declared... yes
+checking whether localtime_r is declared... yes
+checking whether strsignal is declared... yes
+checking for alarm... yes
+checking for setitimer... yes
+checking for strsignal... yes
+checking for struct timespec.tv_sec... yes
+checking for struct timespec.tv_nsec... yes
+checking for struct itimerspec.it_interval... yes
+checking for struct itimerspec.it_value... yes
+checking for timer_t... yes
+checking for clockid_t... yes
+checking for timer_create, timer_settime, timer_delete in -lrt... yes
+checking for stdint types... stdint.h (shortcircuit)
+make use of stdint.h in _stdint.h (assuming C99 compatible system)
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating data/Makefile
+config.status: creating gst/Makefile
+config.status: creating gst/gstconfig.h
+config.status: creating gst/gstversion.h
+config.status: creating gst/parse/Makefile
+config.status: creating gst/printf/Makefile
+config.status: creating libs/Makefile
+config.status: creating libs/gst/Makefile
+config.status: creating libs/gst/base/Makefile
+config.status: creating libs/gst/check/Makefile
+config.status: creating libs/gst/check/libcheck/Makefile
+config.status: creating libs/gst/check/internal-check.h
+config.status: creating libs/gst/controller/Makefile
+config.status: creating libs/gst/helpers/Makefile
+config.status: creating libs/gst/net/Makefile
+config.status: creating plugins/Makefile
+config.status: creating plugins/elements/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tests/Makefile
+config.status: creating tests/benchmarks/Makefile
+config.status: creating tests/check/Makefile
+config.status: creating tests/misc/Makefile
+config.status: creating tests/examples/Makefile
+config.status: creating tests/examples/adapter/Makefile
+config.status: creating tests/examples/controller/Makefile
+config.status: creating tests/examples/stepping/Makefile
+config.status: creating tests/examples/helloworld/Makefile
+config.status: creating tests/examples/manual/Makefile
+config.status: creating tests/examples/memory/Makefile
+config.status: creating tests/examples/netclock/Makefile
+config.status: creating tests/examples/ptp/Makefile
+config.status: creating tests/examples/streamiddemux/Makefile
+config.status: creating tests/examples/streams/Makefile
+config.status: creating tools/Makefile
+config.status: creating common/Makefile
+config.status: creating common/m4/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/design/Makefile
+config.status: creating docs/faq/Makefile
+config.status: creating docs/gst/Makefile
+config.status: creating docs/gst/gstreamer.types
+config.status: creating docs/libs/Makefile
+config.status: creating docs/plugins/Makefile
+config.status: creating docs/manual/Makefile
+config.status: creating docs/pwg/Makefile
+config.status: creating docs/slides/Makefile
+config.status: creating docs/xsl/Makefile
+config.status: creating docs/version.entities
+config.status: creating m4/Makefile
+config.status: creating pkgconfig/Makefile
+config.status: creating stamp.h
+config.status: creating pkgconfig/gstreamer.pc
+config.status: creating pkgconfig/gstreamer-uninstalled.pc
+config.status: creating pkgconfig/gstreamer-base.pc
+config.status: creating pkgconfig/gstreamer-base-uninstalled.pc
+config.status: creating pkgconfig/gstreamer-check.pc
+config.status: creating pkgconfig/gstreamer-check-uninstalled.pc
+config.status: creating pkgconfig/gstreamer-controller.pc
+config.status: creating pkgconfig/gstreamer-controller-uninstalled.pc
+config.status: creating pkgconfig/gstreamer-net.pc
+config.status: creating pkgconfig/gstreamer-net-uninstalled.pc
+config.status: creating gstreamer.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing _stdint.h commands
+config.status: creating _stdint.h : _GSTREAMER__STDINT_H
+
+
+Configuration
+	Version                    : 1.6.3
+	Source code location       : .
+	Prefix                     : /usr
+	Compiler                   : gcc
+	Package name               : GStreamer 1.6.3 BLFS
+	Package origin             : http://www.linuxfromscratch.org/blfs/view/svn/
+
+	Documentation (manuals)    : no
+	Documentation (API)        : no
+
+	Debug Logging              : yes
+	Command-line parser        : yes
+	Option parsing in gst_init : yes
+	Tracing subsystem          : yes
+	Allocation tracing         : yes
+	Plugin registry            : yes
+	Plugin support	           : yes
+	Static plugins             : no
+	Unit testing support       : yes
+	PTP clock support          : yes
+
+	Debug                      : yes
+	Profiling                  : no
+
+	Building benchmarks        : yes
+	Building examples          : yes
+	Building test apps         : yes
+	Building tests that fail   : no
+	Building tools             : yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+Making all in pkgconfig
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+  CP     gstreamer-1.0.pc
+  CP     gstreamer-base-1.0.pc
+  CP     gstreamer-check-1.0.pc
+  CP     gstreamer-controller-1.0.pc
+  CP     gstreamer-net-1.0.pc
+  CP     gstreamer-1.0-uninstalled.pc
+  CP     gstreamer-base-1.0-uninstalled.pc
+  CP     gstreamer-check-1.0-uninstalled.pc
+  CP     gstreamer-controller-1.0-uninstalled.pc
+  CP     gstreamer-net-1.0-uninstalled.pc
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+Making all in gst
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+  GEN      gstenumtypes.h
+  GEN      gstenumtypes.c
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making all in parse
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+  GEN      grammar.tab.h
+  GEN      lex.priv_gst_parse_yy.c
+  CC       libgstparse_la-lex.priv_gst_parse_yy.lo
+  CC       libgstparse_la-grammar.tab.lo
+  CCLD     libgstparse.la
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+Making all in printf
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+  CC       libgstprintf_la-asnprintf.lo
+  CC       libgstprintf_la-printf-args.lo
+  CC       libgstprintf_la-printf-parse.lo
+  CC       libgstprintf_la-vasnprintf.lo
+  CC       libgstprintf_la-printf.lo
+  CC       libgstprintf_la-printf-extension.lo
+  CCLD     libgstprintf.la
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+  CC       libgstreamer_1.0_la-gst.lo
+  CC       libgstreamer_1.0_la-gstobject.lo
+  CC       libgstreamer_1.0_la-gstallocator.lo
+  CC       libgstreamer_1.0_la-gstbin.lo
+  CC       libgstreamer_1.0_la-gstbuffer.lo
+  CC       libgstreamer_1.0_la-gstbufferlist.lo
+  CC       libgstreamer_1.0_la-gstbufferpool.lo
+  CC       libgstreamer_1.0_la-gstbus.lo
+  CC       libgstreamer_1.0_la-gstcaps.lo
+  CC       libgstreamer_1.0_la-gstcapsfeatures.lo
+  CC       libgstreamer_1.0_la-gstchildproxy.lo
+  CC       libgstreamer_1.0_la-gstclock.lo
+  CC       libgstreamer_1.0_la-gstclock-linreg.lo
+  CC       libgstreamer_1.0_la-gstcontext.lo
+  CC       libgstreamer_1.0_la-gstcontrolbinding.lo
+  CC       libgstreamer_1.0_la-gstcontrolsource.lo
+  CC       libgstreamer_1.0_la-gstdatetime.lo
+  CC       libgstreamer_1.0_la-gstdebugutils.lo
+  CC       libgstreamer_1.0_la-gstdevice.lo
+  CC       libgstreamer_1.0_la-gstdevicemonitor.lo
+  CC       libgstreamer_1.0_la-gstdeviceprovider.lo
+  CC       libgstreamer_1.0_la-gstdeviceproviderfactory.lo
+  CC       libgstreamer_1.0_la-gstelement.lo
+  CC       libgstreamer_1.0_la-gstelementfactory.lo
+  CC       libgstreamer_1.0_la-gsterror.lo
+  CC       libgstreamer_1.0_la-gstevent.lo
+  CC       libgstreamer_1.0_la-gstformat.lo
+  CC       libgstreamer_1.0_la-gstghostpad.lo
+  CC       libgstreamer_1.0_la-gstinfo.lo
+  CC       libgstreamer_1.0_la-gstiterator.lo
+  CC       libgstreamer_1.0_la-gstatomicqueue.lo
+  CC       libgstreamer_1.0_la-gstmessage.lo
+  CC       libgstreamer_1.0_la-gstmeta.lo
+  CC       libgstreamer_1.0_la-gstmemory.lo
+  CC       libgstreamer_1.0_la-gstminiobject.lo
+  CC       libgstreamer_1.0_la-gstpad.lo
+  CC       libgstreamer_1.0_la-gstpadtemplate.lo
+  CC       libgstreamer_1.0_la-gstparamspecs.lo
+  CC       libgstreamer_1.0_la-gstpipeline.lo
+  CC       libgstreamer_1.0_la-gstplugin.lo
+  CC       libgstreamer_1.0_la-gstpluginfeature.lo
+  CC       libgstreamer_1.0_la-gstpluginloader.lo
+  CC       libgstreamer_1.0_la-gstpoll.lo
+  CC       libgstreamer_1.0_la-gstpreset.lo
+  CC       libgstreamer_1.0_la-gstprotection.lo
+  CC       libgstreamer_1.0_la-gstquark.lo
+  CC       libgstreamer_1.0_la-gstquery.lo
+  CC       libgstreamer_1.0_la-gstregistry.lo
+  CC       libgstreamer_1.0_la-gstregistrychunks.lo
+  CC       libgstreamer_1.0_la-gstsample.lo
+  CC       libgstreamer_1.0_la-gstsegment.lo
+  CC       libgstreamer_1.0_la-gststructure.lo
+  CC       libgstreamer_1.0_la-gstsystemclock.lo
+  CC       libgstreamer_1.0_la-gsttaglist.lo
+  CC       libgstreamer_1.0_la-gsttagsetter.lo
+  CC       libgstreamer_1.0_la-gsttask.lo
+  CC       libgstreamer_1.0_la-gsttaskpool.lo
+  CC       libgstreamer_1.0_la-gsttoc.lo
+  CC       libgstreamer_1.0_la-gsttocsetter.lo
+  CC       libgstreamer_1.0_la-gsttrace.lo
+  CC       libgstreamer_1.0_la-gsttypefind.lo
+  CC       libgstreamer_1.0_la-gsttypefindfactory.lo
+  CC       libgstreamer_1.0_la-gsturi.lo
+  CC       libgstreamer_1.0_la-gstutils.lo
+  CC       libgstreamer_1.0_la-gstvalue.lo
+  CC       libgstreamer_1.0_la-gstparse.lo
+  CC       libgstreamer_1.0_la-gstregistrybinary.lo
+  CC       libgstreamer_1.0_la-gstenumtypes.lo
+  CCLD     libgstreamer-1.0.la
+  GEN      Gst-1.0.gir
+g-ir-scanner: link: /bin/sh ../libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/gstreamer-1.6.3/gst/tmp-introspectMjP7rt/Gst-1.0 -export-dynamic tmp-introspectMjP7rt/sources/7.9/gstreamer-1.6.3/gst/tmp-introspectMjP7rt/Gst-1.0.o -L. libgstreamer-1.0.la -lgio-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/gstreamer-1.6.3/gst/tmp-introspectMjP7rt/.libs/Gst-1.0 tmp-introspectMjP7rt/sources/7.9/gstreamer-1.6.3/gst/tmp-introspectMjP7rt/Gst-1.0.o -Wl,--export-dynamic -pthread -pthread -Wl,--export-dynamic  -L. ./.libs/libgstreamer-1.0.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libgmodule-2.0.so /usr/lib/libglib-2.0.so -pthread
+  GEN      Gst-1.0.typelib
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making all in libs
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making all in gst
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+Making all in base
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+  CC       libgstbase_1.0_la-gstadapter.lo
+  CC       libgstbase_1.0_la-gstbaseparse.lo
+  CC       libgstbase_1.0_la-gstbasesink.lo
+  CC       libgstbase_1.0_la-gstbasesrc.lo
+  CC       libgstbase_1.0_la-gstbasetransform.lo
+  CC       libgstbase_1.0_la-gstbitreader.lo
+  CC       libgstbase_1.0_la-gstbytereader.lo
+  CC       libgstbase_1.0_la-gstbytewriter.lo
+  CC       libgstbase_1.0_la-gstcollectpads.lo
+  CC       libgstbase_1.0_la-gstdataqueue.lo
+  CC       libgstbase_1.0_la-gstflowcombiner.lo
+  CC       libgstbase_1.0_la-gstpushsrc.lo
+  CC       libgstbase_1.0_la-gstqueuearray.lo
+  CC       libgstbase_1.0_la-gsttypefindhelper.lo
+  CCLD     libgstbase-1.0.la
+  GEN      GstBase-1.0.gir
+g-ir-scanner: warning: Option --strip-prefix has been deprecated;
+see --identifier-prefix and --symbol-prefix.
+g-ir-scanner: link: /bin/sh ../../../libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/base/tmp-introspect0Y7iPt/GstBase-1.0 -export-dynamic tmp-introspect0Y7iPt/sources/7.9/gstreamer-1.6.3/libs/gst/base/tmp-introspect0Y7iPt/GstBase-1.0.o -L. libgstbase-1.0.la -L../../../gst -lgio-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread /sources/7.9/gstreamer-1.6.3/gst/libgstreamer-1.0.la -lgobject-2.0 -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/base/tmp-introspect0Y7iPt/.libs/GstBase-1.0 tmp-introspect0Y7iPt/sources/7.9/gstreamer-1.6.3/libs/gst/base/tmp-introspect0Y7iPt/GstBase-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgstbase-1.0.so -L../../../gst /usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so /sources/7.9/gstreamer-1.6.3/gst/.libs/libgstreamer-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so -pthread
+  GEN      GstBase-1.0.typelib
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+Making all in controller
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+  CC       libgstcontroller_1.0_la-gstargbcontrolbinding.lo
+  CC       libgstcontroller_1.0_la-gstdirectcontrolbinding.lo
+  CC       libgstcontroller_1.0_la-gsttimedvaluecontrolsource.lo
+  CC       libgstcontroller_1.0_la-gstinterpolationcontrolsource.lo
+  CC       libgstcontroller_1.0_la-gsttriggercontrolsource.lo
+  CC       libgstcontroller_1.0_la-gstlfocontrolsource.lo
+  CCLD     libgstcontroller-1.0.la
+  GEN      GstController-1.0.gir
+g-ir-scanner: warning: Option --strip-prefix has been deprecated;
+see --identifier-prefix and --symbol-prefix.
+g-ir-scanner: link: /bin/sh ../../../libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/controller/tmp-introspectwILX0i/GstController-1.0 -export-dynamic tmp-introspectwILX0i/sources/7.9/gstreamer-1.6.3/libs/gst/controller/tmp-introspectwILX0i/GstController-1.0.o -L. libgstcontroller-1.0.la -L../../../gst -lgio-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread /sources/7.9/gstreamer-1.6.3/gst/libgstreamer-1.0.la -lgobject-2.0 -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/controller/tmp-introspectwILX0i/.libs/GstController-1.0 tmp-introspectwILX0i/sources/7.9/gstreamer-1.6.3/libs/gst/controller/tmp-introspectwILX0i/GstController-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgstcontroller-1.0.so -L../../../gst /usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so /sources/7.9/gstreamer-1.6.3/gst/.libs/libgstreamer-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so -pthread
+  GEN      GstController-1.0.typelib
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+Making all in net
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+  CC       libgstnet_1.0_la-gstnetaddressmeta.lo
+  CC       libgstnet_1.0_la-gstnetclientclock.lo
+  CC       libgstnet_1.0_la-gstnetcontrolmessagemeta.lo
+  CC       libgstnet_1.0_la-gstnettimepacket.lo
+  CC       libgstnet_1.0_la-gstnettimeprovider.lo
+  CC       libgstnet_1.0_la-gstptpclock.lo
+  CC       libgstnet_1.0_la-gstntppacket.lo
+  CCLD     libgstnet-1.0.la
+  GEN      GstNet-1.0.gir
+g-ir-scanner: warning: Option --strip-prefix has been deprecated;
+see --identifier-prefix and --symbol-prefix.
+g-ir-scanner: link: /bin/sh ../../../libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/net/tmp-introspectSlpq3N/GstNet-1.0 -export-dynamic tmp-introspectSlpq3N/sources/7.9/gstreamer-1.6.3/libs/gst/net/tmp-introspectSlpq3N/GstNet-1.0.o -L. libgstnet-1.0.la -L../../../gst -Wl,--export-dynamic -lgmodule-2.0 -pthread /sources/7.9/gstreamer-1.6.3/gst/libgstreamer-1.0.la -lgio-2.0 -lgobject-2.0 -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/net/tmp-introspectSlpq3N/.libs/GstNet-1.0 tmp-introspectSlpq3N/sources/7.9/gstreamer-1.6.3/libs/gst/net/tmp-introspectSlpq3N/GstNet-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgstnet-1.0.so -L../../../gst /usr/lib/libgmodule-2.0.so /sources/7.9/gstreamer-1.6.3/gst/.libs/libgstreamer-1.0.so /usr/lib/libgio-2.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so -pthread
+  GEN      GstNet-1.0.typelib
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+Making all in check
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making all in libcheck
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+  CC       libcheckinternal_la-check.lo
+  CC       libcheckinternal_la-check_error.lo
+  CC       libcheckinternal_la-check_list.lo
+  CC       libcheckinternal_la-check_log.lo
+  CC       libcheckinternal_la-check_msg.lo
+  CC       libcheckinternal_la-check_pack.lo
+  CC       libcheckinternal_la-check_print.lo
+  CC       libcheckinternal_la-check_run.lo
+  CC       libcheckinternal_la-check_str.lo
+  CC       libcheckinternal_la-libcompat.lo
+  CCLD     libcheckinternal.la
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+  CC       libgstcheck_1.0_la-gstbufferstraw.lo
+  CC       libgstcheck_1.0_la-gstcheck.lo
+  CC       libgstcheck_1.0_la-gstconsistencychecker.lo
+  CC       libgstcheck_1.0_la-gstharness.lo
+  CC       libgstcheck_1.0_la-gsttestclock.lo
+  GEN      exports.sym
+  CCLD     libgstcheck-1.0.la
+  GEN      GstCheck-1.0.gir
+g-ir-scanner: warning: Option --strip-prefix has been deprecated;
+see --identifier-prefix and --symbol-prefix.
+g-ir-scanner: link: /bin/sh ../../../libtool --mode=link --tag=CC gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/check/tmp-introspectfN5MGR/GstCheck-1.0 -export-dynamic tmp-introspectfN5MGR/sources/7.9/gstreamer-1.6.3/libs/gst/check/tmp-introspectfN5MGR/GstCheck-1.0.o -L. libgstcheck-1.0.la -L../../../gst -lgio-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread /sources/7.9/gstreamer-1.6.3/gst/libgstreamer-1.0.la -lgobject-2.0 -lglib-2.0
+libtool: link: gcc -pthread -o /sources/7.9/gstreamer-1.6.3/libs/gst/check/tmp-introspectfN5MGR/.libs/GstCheck-1.0 tmp-introspectfN5MGR/sources/7.9/gstreamer-1.6.3/libs/gst/check/tmp-introspectfN5MGR/GstCheck-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgstcheck-1.0.so -L../../../gst /usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so /sources/7.9/gstreamer-1.6.3/gst/.libs/libgstreamer-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so -pthread
+  GEN      GstCheck-1.0.typelib
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making all in helpers
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+  CC       gst_completion_helper_1.0-gst-completion-helper.o
+  CCLD     gst-completion-helper-1.0
+  CC       gst_plugin_scanner-gst-plugin-scanner.o
+  CCLD     gst-plugin-scanner
+  CC       gst_ptp_helper-gst-ptp-helper.o
+  CCLD     gst-ptp-helper
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making all in plugins
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making all in elements
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+  CC       libgstcoreelements_la-gstcapsfilter.lo
+  CC       libgstcoreelements_la-gstconcat.lo
+  CC       libgstcoreelements_la-gstdownloadbuffer.lo
+  CC       libgstcoreelements_la-gstelements.lo
+  CC       libgstcoreelements_la-gstelements_private.lo
+  CC       libgstcoreelements_la-gstfakesrc.lo
+  CC       libgstcoreelements_la-gstfakesink.lo
+  CC       libgstcoreelements_la-gstfdsrc.lo
+  CC       libgstcoreelements_la-gstfdsink.lo
+  CC       libgstcoreelements_la-gstfilesink.lo
+  CC       libgstcoreelements_la-gstfilesrc.lo
+  CC       libgstcoreelements_la-gstfunnel.lo
+  CC       libgstcoreelements_la-gstidentity.lo
+  CC       libgstcoreelements_la-gstinputselector.lo
+  CC       libgstcoreelements_la-gstoutputselector.lo
+  CC       libgstcoreelements_la-gstmultiqueue.lo
+  CC       libgstcoreelements_la-gstqueue.lo
+  CC       libgstcoreelements_la-gstqueue2.lo
+  CC       libgstcoreelements_la-gstsparsefile.lo
+  CC       libgstcoreelements_la-gsttee.lo
+  CC       libgstcoreelements_la-gsttypefindelement.lo
+  CC       libgstcoreelements_la-gststreamiddemux.lo
+  CC       libgstcoreelements_la-gstvalve.lo
+  CCLD     libgstcoreelements.la
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making all in benchmarks
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+  CC       caps.o
+  CCLD     caps
+  CC       capsnego.o
+  CCLD     capsnego
+  CC       complexity.o
+  CCLD     complexity
+  CC       controller-controller.o
+  CCLD     controller
+  CC       init.o
+  CCLD     init
+  CC       mass-elements.o
+  CCLD     mass-elements
+  CC       gstpollstress.o
+  CCLD     gstpollstress
+  CC       gstpoolstress.o
+  CCLD     gstpoolstress
+  CC       gstclockstress.o
+  CCLD     gstclockstress
+  CC       gstbufferstress.o
+  CCLD     gstbufferstress
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+Making all in check
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+Making all in misc
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make -C controller
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+  CC       audio-example.o
+  CCLD     audio-example
+  CC       control-sources.o
+  CCLD     control-sources
+  CC       text-color-example.o
+  CCLD     text-color-example
+  CC       absolute-example.o
+  CCLD     absolute-example
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make -C helloworld
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+  CC       helloworld-helloworld.o
+  CCLD     helloworld
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make -C manual
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+/usr/bin/perl ./extract.pl gnome.c ../../../docs/manual/appendix-integration.xml
+Extracting gnome.c block a  from ../../../docs/manual/appendix-integration.xml
+Extracting gnome.c block b  from ../../../docs/manual/appendix-integration.xml
+Extracting gnome.c block c  from ../../../docs/manual/appendix-integration.xml
+Writing gnome.c block a 
+Writing gnome.c block b 
+Writing gnome.c block c 
+make  all-am
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+  CC       elementcreate.o
+  CCLD     elementcreate
+  CC       elementmake.o
+  CCLD     elementmake
+  CC       elementfactory.o
+  CCLD     elementfactory
+  CC       elementget.o
+  CCLD     elementget
+  CC       elementlink.o
+  CCLD     elementlink
+  CC       bin.o
+  CCLD     bin
+  CC       pad.o
+  CCLD     pad
+  CC       ghostpad.o
+  CCLD     ghostpad
+  CC       helloworld.o
+  CCLD     helloworld
+  CC       init.o
+  CCLD     init
+  CC       query.o
+  CCLD     query
+  CC       typefind.o
+  CCLD     typefind
+  CC       blockprobe.o
+  CCLD     blockprobe
+  CC       probe.o
+  CCLD     probe
+  CC       appsrc.o
+  CCLD     appsrc
+  CC       appsink.o
+  CCLD     appsink
+  CC       dynformat.o
+  CCLD     dynformat
+  CC       effectswitch.o
+  CCLD     effectswitch
+  CC       norebuffer.o
+  CCLD     norebuffer
+  CC       playbin.o
+  CCLD     playbin
+  CC       decodebin.o
+  CCLD     decodebin
+  CC       playsink.o
+  CCLD     playsink
+  CC       testrtpool-testrtpool.o
+  CCLD     testrtpool
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make -C memory
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+  CC       memory_test-memory_test.o
+  CC       memory_test-my-memory.o
+  CC       memory_test-my-vidmem.o
+  CCLD     memory_test
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make -C netclock
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+  CC       netclock_server-netclock-server.o
+  CCLD     netclock-server
+  CC       netclock_client-netclock-client.o
+  CCLD     netclock-client
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make -C ptp
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+  CC       ptp_print_times-ptp-print-times.o
+  CCLD     ptp-print-times
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make -C stepping
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+  CC       framestep1-framestep1.o
+  CCLD     framestep1
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make -C streamiddemux
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+  CC       streamiddemux_stream-streamiddemux-stream.o
+  CCLD     streamiddemux-stream
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make -C streams
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+  CC       stream_status-stream-status.o
+  CCLD     stream-status
+  CC       rtpool_test-rtpool-test.o
+  CC       rtpool_test-testrtpool.o
+  CCLD     rtpool-test
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make -C adapter
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+  CC       adapter_test-adapter_test.o
+  CCLD     adapter_test
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+Making all in controller
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+Making all in helloworld
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+Making all in manual
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  all-am
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+Making all in memory
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+Making all in netclock
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+Making all in ptp
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+Making all in stepping
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+Making all in streamiddemux
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+Making all in streams
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+Making all in adapter
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make -C design
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make -C gst
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make  all-am
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make -C libs
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make -C plugins
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+Making all in design
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+Making all in gst
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make  all-am
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+Making all in libs
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+Making all in plugins
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making all in po
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/po'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/po'
+Making all in m4
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/m4'
+Making all in common
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+Making all in m4
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+Making all in data
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/data'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/data'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tools'
+  CC       gst_inspect_1.0-gst-inspect.o
+  CCLD     gst-inspect-1.0
+  CC       gst_typefind_1.0-gst-typefind.o
+  CCLD     gst-typefind-1.0
+  CC       gst_launch_1.0-gst-launch.o
+  CCLD     gst-launch-1.0
+  GEN      gst-inspect-1.0.1
+  GEN      gst-typefind-1.0.1
+  GEN      gst-launch-1.0.1
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+  GEN      gst-element-check-1.0.m4
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3'
+Making check in pkgconfig
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+Making check in gst
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making check in parse
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+Making check in printf
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making check in libs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making check in gst
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+Making check in base
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+Making check in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+Making check in net
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+Making check in check
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making check in libcheck
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making check in helpers
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making check in plugins
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making check in elements
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making check in benchmarks
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make  gst/gstabi gst/gstatomicqueue gst/gstbuffer gst/gstbufferlist gst/gstbufferpool gst/gstmeta gst/gstmemory gst/gstbus gst/gstcaps gst/gstcapsfeatures gst/gstcpp libs/gstlibscpp gst/gstdatetime gst/gstdevice gst/gstinfo gst/gstiterator gst/gstmessage gst/gstminiobject gst/gstobject gst/gstpad gst/gstparamspecs gst/gstpipeline gst/gstpoll gst/gstprotection gst/gstprintf gst/gstsegment gst/gstsystemclock gst/gstclock gst/gststructure gst/gsttag gst/gsttagsetter gst/gsttask gst/gsttoc gst/gsttocsetter gst/gstvalue generic/states pipelines/simple-launch-lines pipelines/cleanup pipelines/parse-launch gst/gst gst/gstbin gst/gstchildproxy gst/gstcontext gst/gstcontroller gst/gstelement gst/gstelementfactory gst/gstevent gst/gstghostpad gst/gstplugin gst/gstpreset gst/gstprotection gst/gstquery gst/gstregistry gst/gsturi gst/gstutils generic/sinks elements/capsfilter elements/concat elements/fakesink elements/fakesrc elements/fdsrc elements/filesink elements/filesrc elements/funnel elements/identity elements/multiqueue elements/selector elements/tee elements/queue elements/queue2 elements/valve elements/streamiddemux libs/baseparse libs/basesrc libs/basesink libs/sparsefile libs/controller libs/queuearray libs/typefindhelper pipelines/seek pipelines/stress pipelines/queue-error libs/libsabi libs/adapter libs/bitreader libs/bytereader libs/bytewriter libs/bitreader-noinline libs/bytereader-noinline libs/bytewriter-noinline libs/flowcombiner libs/sparsefile libs/collectpads libs/gstharness libs/gstnetclientclock libs/gstnettimeprovider libs/gsttestclock libs/transform1 libs/transform2 tools/gstinspect
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+  CC       gst/gstabi.o
+  CCLD     gst/gstabi
+  CC       gst/gstatomicqueue.o
+  CCLD     gst/gstatomicqueue
+  CC       gst/gstbuffer.o
+  CCLD     gst/gstbuffer
+  CC       gst/gstbufferlist.o
+  CCLD     gst/gstbufferlist
+  CC       gst/gstbufferpool.o
+  CCLD     gst/gstbufferpool
+  CC       gst/gstmeta.o
+  CCLD     gst/gstmeta
+  CC       gst/gstmemory.o
+  CCLD     gst/gstmemory
+  CC       gst/gstbus.o
+  CCLD     gst/gstbus
+  CC       gst/gstcaps.o
+  CCLD     gst/gstcaps
+  CC       gst/gstcapsfeatures.o
+  CCLD     gst/gstcapsfeatures
+  CXX      gst/gstcpp.o
+  CXXLD    gst/gstcpp
+  CXX      libs/gstlibscpp.o
+  CXXLD    libs/gstlibscpp
+  CC       gst/gstdatetime.o
+  CCLD     gst/gstdatetime
+  CC       gst/gstdevice.o
+  CCLD     gst/gstdevice
+  CC       gst/gstinfo.o
+  CCLD     gst/gstinfo
+  CC       gst/gstiterator.o
+  CCLD     gst/gstiterator
+  CC       gst/gstmessage.o
+  CCLD     gst/gstmessage
+  CC       gst/gstminiobject.o
+  CCLD     gst/gstminiobject
+  CC       gst/gstobject.o
+  CCLD     gst/gstobject
+  CC       gst/gstpad.o
+  CCLD     gst/gstpad
+  CC       gst/gstparamspecs.o
+  CCLD     gst/gstparamspecs
+  CC       gst/gstpipeline.o
+  CCLD     gst/gstpipeline
+  CC       gst/gstpoll.o
+  CCLD     gst/gstpoll
+  CC       gst/gstprotection.o
+  CCLD     gst/gstprotection
+  CC       gst/gstprintf.o
+  CCLD     gst/gstprintf
+  CC       gst/gstsegment.o
+  CCLD     gst/gstsegment
+  CC       gst/gstsystemclock.o
+  CCLD     gst/gstsystemclock
+  CC       gst/gstclock.o
+  CCLD     gst/gstclock
+  CC       gst/gststructure.o
+  CCLD     gst/gststructure
+  CC       gst/gsttag.o
+  CCLD     gst/gsttag
+  CC       gst/gsttagsetter.o
+  CCLD     gst/gsttagsetter
+  CC       gst/gsttask.o
+  CCLD     gst/gsttask
+  CC       gst/gsttoc.o
+  CCLD     gst/gsttoc
+  CC       gst/gsttocsetter.o
+  CCLD     gst/gsttocsetter
+  CC       gst/gstvalue.o
+  CCLD     gst/gstvalue
+  CC       generic/states.o
+  CCLD     generic/states
+  CC       pipelines/simple-launch-lines.o
+  CCLD     pipelines/simple-launch-lines
+  CC       pipelines/cleanup.o
+  CCLD     pipelines/cleanup
+  CC       pipelines/parse-launch.o
+  CCLD     pipelines/parse-launch
+  CC       gst/gst.o
+  CCLD     gst/gst
+  CC       gst/gstbin.o
+  CCLD     gst/gstbin
+  CC       gst/gstchildproxy.o
+  CCLD     gst/gstchildproxy
+  CC       gst/gstcontext.o
+  CCLD     gst/gstcontext
+  CC       gst/gstcontroller.o
+  CCLD     gst/gstcontroller
+  CC       gst/gstelement.o
+  CCLD     gst/gstelement
+  CC       gst/gstelementfactory.o
+  CCLD     gst/gstelementfactory
+  CC       gst/gstevent.o
+  CCLD     gst/gstevent
+  CC       gst/gstghostpad.o
+  CCLD     gst/gstghostpad
+  CC       gst/gstplugin.o
+  CCLD     gst/gstplugin
+  CC       gst/gstpreset.o
+  CCLD     gst/gstpreset
+make[3]: 'gst/gstprotection' is up to date.
+  CC       gst/gstquery.o
+  CCLD     gst/gstquery
+  CC       gst/gstregistry.o
+  CCLD     gst/gstregistry
+  CC       gst/gsturi.o
+  CCLD     gst/gsturi
+  CC       gst/gstutils.o
+  CCLD     gst/gstutils
+  CC       generic/sinks.o
+  CCLD     generic/sinks
+  CC       elements/capsfilter.o
+  CCLD     elements/capsfilter
+  CC       elements/concat.o
+  CCLD     elements/concat
+  CC       elements/fakesink.o
+  CCLD     elements/fakesink
+  CC       elements/fakesrc.o
+  CCLD     elements/fakesrc
+  CC       elements/elements_fdsrc-fdsrc.o
+  CCLD     elements/fdsrc
+  CC       elements/filesink.o
+  CCLD     elements/filesink
+  CC       elements/elements_filesrc-filesrc.o
+  CCLD     elements/filesrc
+  CC       elements/funnel.o
+  CCLD     elements/funnel
+  CC       elements/identity.o
+  CCLD     elements/identity
+  CC       elements/multiqueue.o
+  CCLD     elements/multiqueue
+  CC       elements/selector.o
+  CCLD     elements/selector
+  CC       elements/tee.o
+  CCLD     elements/tee
+  CC       elements/queue.o
+  CCLD     elements/queue
+  CC       elements/queue2.o
+  CCLD     elements/queue2
+  CC       elements/valve.o
+  CCLD     elements/valve
+  CC       elements/streamiddemux.o
+  CCLD     elements/streamiddemux
+  CC       libs/baseparse.o
+  CCLD     libs/baseparse
+  CC       libs/basesrc.o
+  CCLD     libs/basesrc
+  CC       libs/basesink.o
+  CCLD     libs/basesink
+  CC       libs/sparsefile.o
+  CCLD     libs/sparsefile
+  CC       libs/controller.o
+  CCLD     libs/controller
+  CC       libs/queuearray.o
+  CCLD     libs/queuearray
+  CC       libs/typefindhelper.o
+  CCLD     libs/typefindhelper
+  CC       pipelines/seek.o
+  CCLD     pipelines/seek
+  CC       pipelines/stress.o
+  CCLD     pipelines/stress
+  CC       pipelines/queue-error.o
+  CCLD     pipelines/queue-error
+  CC       libs/libsabi.o
+  CCLD     libs/libsabi
+  CC       libs/adapter.o
+  CCLD     libs/adapter
+  CC       libs/bitreader.o
+  CCLD     libs/bitreader
+  CC       libs/bytereader.o
+  CCLD     libs/bytereader
+  CC       libs/bytewriter.o
+  CCLD     libs/bytewriter
+  CC       libs/bitreader-noinline.o
+  CCLD     libs/bitreader-noinline
+  CC       libs/bytereader-noinline.o
+  CCLD     libs/bytereader-noinline
+  CC       libs/bytewriter-noinline.o
+  CCLD     libs/bytewriter-noinline
+  CC       libs/flowcombiner.o
+  CCLD     libs/flowcombiner
+make[3]: 'libs/sparsefile' is up to date.
+  CC       libs/collectpads.o
+  CCLD     libs/collectpads
+  CC       libs/gstharness.o
+  CCLD     libs/gstharness
+  CC       libs/gstnetclientclock.o
+  CCLD     libs/gstnetclientclock
+  CC       libs/gstnettimeprovider.o
+  CCLD     libs/gstnettimeprovider
+  CC       libs/gsttestclock.o
+  CCLD     libs/gsttestclock
+  CC       libs/transform1.o
+  CCLD     libs/transform1
+  CC       libs/transform2.o
+  CCLD     libs/transform2
+  CC       tools/gstinspect.o
+  CCLD     tools/gstinspect
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+PASS: gst/gstabi
+PASS: gst/gstatomicqueue
+PASS: gst/gstbuffer
+PASS: gst/gstbufferlist
+PASS: gst/gstbufferpool
+PASS: gst/gstmeta
+PASS: gst/gstmemory
+PASS: gst/gstbus
+PASS: gst/gstcaps
+PASS: gst/gstcapsfeatures
+PASS: gst/gstcpp
+PASS: libs/gstlibscpp
+PASS: gst/gstdatetime
+PASS: gst/gstdevice
+PASS: gst/gstinfo
+PASS: gst/gstiterator
+PASS: gst/gstmessage
+PASS: gst/gstminiobject
+PASS: gst/gstobject
+PASS: gst/gstpad
+PASS: gst/gstparamspecs
+PASS: gst/gstpipeline
+PASS: gst/gstpoll
+PASS: gst/gstprotection
+PASS: gst/gstprintf
+PASS: gst/gstsegment
+PASS: gst/gstsystemclock
+PASS: gst/gstclock
+PASS: gst/gststructure
+PASS: gst/gsttag
+PASS: gst/gsttagsetter
+PASS: gst/gsttask
+PASS: gst/gsttoc
+PASS: gst/gsttocsetter
+PASS: gst/gstvalue
+PASS: generic/states
+PASS: pipelines/simple-launch-lines
+PASS: pipelines/cleanup
+PASS: pipelines/parse-launch
+PASS: gst/gst
+PASS: gst/gstbin
+PASS: gst/gstchildproxy
+PASS: gst/gstcontext
+PASS: gst/gstcontroller
+PASS: gst/gstelement
+PASS: gst/gstelementfactory
+PASS: gst/gstevent
+PASS: gst/gstghostpad
+PASS: gst/gstplugin
+PASS: gst/gstpreset
+PASS: gst/gstquery
+PASS: gst/gstregistry
+PASS: gst/gsturi
+PASS: gst/gstutils
+PASS: generic/sinks
+PASS: elements/capsfilter
+PASS: elements/concat
+PASS: elements/fakesink
+PASS: elements/fakesrc
+PASS: elements/fdsrc
+PASS: elements/filesink
+PASS: elements/filesrc
+PASS: elements/funnel
+PASS: elements/identity
+PASS: elements/multiqueue
+PASS: elements/selector
+PASS: elements/tee
+PASS: elements/queue
+PASS: elements/queue2
+PASS: elements/valve
+PASS: elements/streamiddemux
+PASS: libs/baseparse
+PASS: libs/basesrc
+PASS: libs/basesink
+PASS: libs/sparsefile
+PASS: libs/controller
+PASS: libs/queuearray
+PASS: libs/typefindhelper
+PASS: pipelines/seek
+PASS: pipelines/stress
+PASS: pipelines/queue-error
+PASS: libs/libsabi
+PASS: libs/adapter
+PASS: libs/bitreader
+PASS: libs/bytereader
+PASS: libs/bytewriter
+PASS: libs/bitreader-noinline
+PASS: libs/bytereader-noinline
+PASS: libs/bytewriter-noinline
+PASS: libs/flowcombiner
+PASS: libs/collectpads
+PASS: libs/gstharness
+PASS: libs/gstnetclientclock
+PASS: libs/gstnettimeprovider
+PASS: libs/gsttestclock
+PASS: libs/transform1
+PASS: libs/transform2
+PASS: tools/gstinspect
+============================================================================
+Testsuite summary for GStreamer 1.6.3
+============================================================================
+# TOTAL: 100
+# PASS:  100
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+Making check in misc
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+Making check in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+Making check in helloworld
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+Making check in manual
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[6]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+PASS: bin
+PASS: elementcreate
+PASS: elementfactory
+PASS: elementget
+PASS: elementlink
+PASS: elementmake
+PASS: ghostpad
+PASS: init
+============================================================================
+Testsuite summary for GStreamer 1.6.3
+============================================================================
+# TOTAL: 8
+# PASS:  8
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+Making check in memory
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+Making check in netclock
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+Making check in ptp
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+Making check in stepping
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+Making check in streamiddemux
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+Making check in streams
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+Making check in adapter
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making check in design
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+Making check in gst
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make  check-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+Making check in libs
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+Making check in plugins
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/po'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/po'
+Making check in m4
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/m4'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+Making check in m4
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+Making check in data
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/data'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3'
+Checking symbols in ./libs/gst/controller/.libs/libgstcontroller-1.0.so
+Checking symbols in ./libs/gst/base/.libs/libgstbase-1.0.so
+Checking symbols in ./gst/.libs/libgstreamer-1.0.so
+Checking symbols in ./libs/gst/net/.libs/libgstnet-1.0.so
+Checking if all enum and flag _get_type() funcs are inited in gst_init()
+Checking if all enum and flag _get_type() funcs are deinited in gst_deinit()
+Making install in pkgconfig
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gstreamer-1.0.pc gstreamer-base-1.0.pc gstreamer-check-1.0.pc gstreamer-controller-1.0.pc gstreamer-net-1.0.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/pkgconfig'
+Making install in gst
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making install in parse
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/parse'
+Making install in printf
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst/printf'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/gst'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgstreamer-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgstreamer-1.0.so.0.603.0 /usr/lib/libgstreamer-1.0.so.0.603.0
+libtool: install: (cd /usr/lib && { ln -s -f libgstreamer-1.0.so.0.603.0 libgstreamer-1.0.so.0 || { rm -f libgstreamer-1.0.so.0 && ln -s libgstreamer-1.0.so.0.603.0 libgstreamer-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgstreamer-1.0.so.0.603.0 libgstreamer-1.0.so || { rm -f libgstreamer-1.0.so && ln -s libgstreamer-1.0.so.0.603.0 libgstreamer-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgstreamer-1.0.lai /usr/lib/libgstreamer-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/gstreamer-1.0/include/gst'
+ /usr/bin/install -c -m 644 gstconfig.h '/usr/lib/gstreamer-1.0/include/gst'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Gst-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst'
+ /usr/bin/install -c -m 644 gst.h glib-compat.h gstobject.h gstallocator.h gstbin.h gstbuffer.h gstbufferlist.h gstbufferpool.h gstbus.h gstcaps.h gstcapsfeatures.h gstchildproxy.h gstclock.h gstcompat.h gstcontext.h gstcontrolbinding.h gstcontrolsource.h gstdatetime.h gstdebugutils.h gstelement.h gstelementmetadata.h gstdevice.h gstdeviceprovider.h gstdeviceproviderfactory.h gstelementfactory.h gsterror.h gstevent.h gstformat.h gstghostpad.h gstdevicemonitor.h gstinfo.h gstiterator.h gstatomicqueue.h gstmacros.h gstmessage.h gstmeta.h gstmemory.h gstminiobject.h gstpad.h gstpadtemplate.h '/usr/include/gstreamer-1.0/gst'
+ /usr/bin/install -c -m 644 gstparamspecs.h gstpipeline.h gstplugin.h gstpluginfeature.h gstpoll.h gstpreset.h gstprotection.h gstquery.h gstsample.h gstsegment.h gststructure.h gstsystemclock.h gsttaglist.h gsttagsetter.h gsttask.h gsttaskpool.h gsttoc.h gsttocsetter.h gsttypefind.h gsttypefindfactory.h gsturi.h gstutils.h gstvalue.h gstregistry.h gstparse.h math-compat.h '/usr/include/gstreamer-1.0/gst'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst'
+ /usr/bin/install -c -m 644 gstversion.h gstenumtypes.h '/usr/include/gstreamer-1.0/gst'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 Gst-1.0.typelib '/usr/lib/girepository-1.0/'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/gst'
+Making install in libs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making install in gst
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+Making install in base
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libgstbase-1.0.la '/usr/lib'
+libtool: install: (cd /sources/7.9/gstreamer-1.6.3/libs/gst/base; /bin/sh /sources/7.9/gstreamer-1.6.3/libtool  --silent --tag CC --mode=relink gcc -I../../../libs -I../../.. -I../../../libs -I../../.. -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_THREADS_MANDATORY -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs -g -g -O2 -export-symbols-regex "^_?(gst_|Gst|GST_).*" -no-undefined -Wl,-Bsymbolic-functions -version-info 603:0:603 -o libgstbase-1.0.la -rpath /usr/lib libgstbase_1.0_la-gstadapter.lo libgstbase_1.0_la-gstbaseparse.lo libgstbase_1.0_la-gstbasesink.lo libgstbase_1.0_la-gstbasesrc.lo libgstbase_1.0_la-gstbasetransform.lo libgstbase_1.0_la-gstbitreader.lo libgstbase_1.0_la-gstbytereader.lo libgstbase_1.0_la-gstbytewriter.lo libgstbase_1.0_la-gstcollectpads.lo libgstbase_1.0_la-gstdataqueue.lo libgstbase_1.0_la-gstflowcombiner.lo libgstbase_1.0_la-gstpushsrc.lo libgstbase_1.0_la-gstqueuearray.lo libgstbase_1.0_la-gsttypefindhelper.lo ../../../gst/libgstreamer-1.0.la -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0 -lrt -ldl )
+libtool: install: /usr/bin/install -c .libs/libgstbase-1.0.so.0.603.0T /usr/lib/libgstbase-1.0.so.0.603.0
+libtool: install: (cd /usr/lib && { ln -s -f libgstbase-1.0.so.0.603.0 libgstbase-1.0.so.0 || { rm -f libgstbase-1.0.so.0 && ln -s libgstbase-1.0.so.0.603.0 libgstbase-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgstbase-1.0.so.0.603.0 libgstbase-1.0.so || { rm -f libgstbase-1.0.so && ln -s libgstbase-1.0.so.0.603.0 libgstbase-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgstbase-1.0.lai /usr/lib/libgstbase-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GstBase-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst/base'
+ /usr/bin/install -c -m 644 base.h gstadapter.h gstbaseparse.h gstbasesink.h gstbasesrc.h gstbasetransform.h gstbitreader.h gstbytereader.h gstbytewriter.h gstcollectpads.h gstdataqueue.h gstflowcombiner.h gstpushsrc.h gstqueuearray.h gsttypefindhelper.h '/usr/include/gstreamer-1.0/gst/base'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 GstBase-1.0.typelib '/usr/lib/girepository-1.0/'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/base'
+Making install in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libgstcontroller-1.0.la '/usr/lib'
+libtool: install: (cd /sources/7.9/gstreamer-1.6.3/libs/gst/controller; /bin/sh /sources/7.9/gstreamer-1.6.3/libtool  --silent --tag CC --mode=relink gcc -I../../../libs -I../../.. -I../../../libs -I../../.. -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_THREADS_MANDATORY -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs -g -g -O2 -export-symbols-regex "^_?(gst_|Gst|GST_).*" -no-undefined -Wl,-Bsymbolic-functions -version-info 603:0:603 -o libgstcontroller-1.0.la -rpath /usr/lib libgstcontroller_1.0_la-gstargbcontrolbinding.lo libgstcontroller_1.0_la-gstdirectcontrolbinding.lo libgstcontroller_1.0_la-gsttimedvaluecontrolsource.lo libgstcontroller_1.0_la-gstinterpolationcontrolsource.lo libgstcontroller_1.0_la-gsttriggercontrolsource.lo libgstcontroller_1.0_la-gstlfocontrolsource.lo ../../../gst/libgstreamer-1.0.la -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0 -lm -lrt -ldl )
+libtool: install: /usr/bin/install -c .libs/libgstcontroller-1.0.so.0.603.0T /usr/lib/libgstcontroller-1.0.so.0.603.0
+libtool: install: (cd /usr/lib && { ln -s -f libgstcontroller-1.0.so.0.603.0 libgstcontroller-1.0.so.0 || { rm -f libgstcontroller-1.0.so.0 && ln -s libgstcontroller-1.0.so.0.603.0 libgstcontroller-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgstcontroller-1.0.so.0.603.0 libgstcontroller-1.0.so || { rm -f libgstcontroller-1.0.so && ln -s libgstcontroller-1.0.so.0.603.0 libgstcontroller-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgstcontroller-1.0.lai /usr/lib/libgstcontroller-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GstController-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst/controller'
+ /usr/bin/install -c -m 644 controller.h gstargbcontrolbinding.h gstdirectcontrolbinding.h gsttimedvaluecontrolsource.h gstinterpolationcontrolsource.h gsttriggercontrolsource.h gstlfocontrolsource.h '/usr/include/gstreamer-1.0/gst/controller'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 GstController-1.0.typelib '/usr/lib/girepository-1.0/'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/controller'
+Making install in net
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libgstnet-1.0.la '/usr/lib'
+libtool: install: (cd /sources/7.9/gstreamer-1.6.3/libs/gst/net; /bin/sh /sources/7.9/gstreamer-1.6.3/libtool  --silent --tag CC --mode=relink gcc -I../../../libs -I../../.. -I../../../libs -I../../.. -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_THREADS_MANDATORY -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs -g -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -export-symbols-regex "^_?(gst_|Gst|GST_).*" -no-undefined -Wl,-Bsymbolic-functions -version-info 603:0:603 -o libgstnet-1.0.la -rpath /usr/lib libgstnet_1.0_la-gstnetaddressmeta.lo libgstnet_1.0_la-gstnetclientclock.lo libgstnet_1.0_la-gstnetcontrolmessagemeta.lo libgstnet_1.0_la-gstnettimepacket.lo libgstnet_1.0_la-gstnettimeprovider.lo libgstnet_1.0_la-gstptpclock.lo libgstnet_1.0_la-gstntppacket.lo ../../../gst/libgstreamer-1.0.la -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 ../../../libs/gst/base/libgstbase-1.0.la -lrt -ldl )
+libtool: install: /usr/bin/install -c .libs/libgstnet-1.0.so.0.603.0T /usr/lib/libgstnet-1.0.so.0.603.0
+libtool: install: (cd /usr/lib && { ln -s -f libgstnet-1.0.so.0.603.0 libgstnet-1.0.so.0 || { rm -f libgstnet-1.0.so.0 && ln -s libgstnet-1.0.so.0.603.0 libgstnet-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgstnet-1.0.so.0.603.0 libgstnet-1.0.so || { rm -f libgstnet-1.0.so && ln -s libgstnet-1.0.so.0.603.0 libgstnet-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgstnet-1.0.lai /usr/lib/libgstnet-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GstNet-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst/net'
+ /usr/bin/install -c -m 644 net.h gstnet.h gstnetaddressmeta.h gstnetclientclock.h gstnetcontrolmessagemeta.h gstnettimepacket.h gstnettimeprovider.h gstptpclock.h '/usr/include/gstreamer-1.0/gst/net'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 GstNet-1.0.typelib '/usr/lib/girepository-1.0/'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/net'
+Making install in check
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making install in libcheck
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check/libcheck'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   libgstcheck-1.0.la '/usr/lib'
+libtool: install: (cd /sources/7.9/gstreamer-1.6.3/libs/gst/check; /bin/sh /sources/7.9/gstreamer-1.6.3/libtool  --silent --tag CC --mode=relink gcc -I../../../libs -I../../.. -I../../../libs -I../../.. -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_THREADS_MANDATORY -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs -g -UG_DISABLE_ASSERT -I../../../libs -I../../../libs/gst/check -I../../../libs/gst/check/libcheck -g -O2 -export-symbols exports.sym -no-undefined -Wl,-Bsymbolic-functions -version-info 603:0:603 -o libgstcheck-1.0.la -rpath /usr/lib libgstcheck_1.0_la-gstbufferstraw.lo libgstcheck_1.0_la-gstcheck.lo libgstcheck_1.0_la-gstconsistencychecker.lo libgstcheck_1.0_la-gstharness.lo libgstcheck_1.0_la-gsttestclock.lo ../../../gst/libgstreamer-1.0.la -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0 ../../../libs/gst/check/libcheck/libcheckinternal.la -lm -lrt -ldl )
+libtool: install: /usr/bin/install -c .libs/libgstcheck-1.0.so.0.603.0T /usr/lib/libgstcheck-1.0.so.0.603.0
+libtool: install: (cd /usr/lib && { ln -s -f libgstcheck-1.0.so.0.603.0 libgstcheck-1.0.so.0 || { rm -f libgstcheck-1.0.so.0 && ln -s libgstcheck-1.0.so.0.603.0 libgstcheck-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgstcheck-1.0.so.0.603.0 libgstcheck-1.0.so || { rm -f libgstcheck-1.0.so && ln -s libgstcheck-1.0.so.0.603.0 libgstcheck-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgstcheck-1.0.lai /usr/lib/libgstcheck-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 GstCheck-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst/check'
+ /usr/bin/install -c -m 644 check.h gstbufferstraw.h gstcheck.h gstconsistencychecker.h gstharness.h gsttestclock.h '/usr/include/gstreamer-1.0/gst/check'
+ /bin/mkdir -p '/usr/include/gstreamer-1.0/gst/check'
+ /usr/bin/install -c -m 644 internal-check.h '/usr/include/gstreamer-1.0/gst/check'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 GstCheck-1.0.typelib '/usr/lib/girepository-1.0/'
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/check'
+Making install in helpers
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../../../libtool   --mode=install /usr/bin/install -c gst-completion-helper-1.0 '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gst-completion-helper-1.0 /usr/bin/gst-completion-helper-1.0
+make  install-exec-hook
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+/bin/mkdir -p /usr/share/bash-completion/helpers && \
+cd /usr/bin && \
+/usr/bin/install -c `echo "gst-completion-helper-" | sed 's,x,x,'`1.0 \
+        /usr/share/bash-completion/helpers/gst-completion-helper-1.0 && \
+rm `echo "gst-completion-helper-" | sed 's,x,x,'`1.0
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+ /bin/mkdir -p '/usr/share/bash-completion/helpers'
+ /usr/bin/install -c -m 644 gst '/usr/share/bash-completion/helpers'
+ /bin/mkdir -p '/usr/libexec/gstreamer-1.0'
+  /bin/sh ../../../libtool   --mode=install /usr/bin/install -c gst-plugin-scanner gst-ptp-helper '/usr/libexec/gstreamer-1.0'
+libtool: install: /usr/bin/install -c .libs/gst-plugin-scanner /usr/libexec/gstreamer-1.0/gst-plugin-scanner
+libtool: install: /usr/bin/install -c .libs/gst-ptp-helper /usr/libexec/gstreamer-1.0/gst-ptp-helper
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+/usr/sbin/setcap cap_net_bind_service,cap_net_admin+ep /usr/libexec/gstreamer-1.0/gst-ptp-helper
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst/helpers'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs/gst'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/libs'
+Making install in plugins
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making install in elements
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/gstreamer-1.0'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgstcoreelements.la '/usr/lib/gstreamer-1.0'
+libtool: install: (cd /sources/7.9/gstreamer-1.6.3/plugins/elements; /bin/sh /sources/7.9/gstreamer-1.6.3/libtool  --silent --tag CC --tag disable-static --mode=relink gcc -I../../libs -I../.. -I../../libs -I../.. -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DG_THREADS_MANDATORY -DG_DISABLE_CAST_CHECKS -DG_DISABLE_ASSERT -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs -g -g -O2 -module -avoid-version -export-symbols-regex "^_*gst_plugin_.*" -no-undefined -Wl,-Bsymbolic-functions -o libgstcoreelements.la -rpath /usr/lib/gstreamer-1.0 libgstcoreelements_la-gstcapsfilter.lo libgstcoreelements_la-gstconcat.lo libgstcoreelements_la-gstdownloadbuffer.lo libgstcoreelements_la-gstelements.lo libgstcoreelements_la-gstelements_private.lo libgstcoreelements_la-gstfakesrc.lo libgstcoreelements_la-gstfakesink.lo libgstcoreelements_la-gstfdsrc.lo libgstcoreelements_la-gstfdsink.lo libgstcoreelements_la-gstfilesink.lo libgstcoreelements_la-gstfilesrc.lo libgstcoreelements_la-gstfunnel.lo libgstcoreelements_la-gstidentity.lo libgstcoreelements_la-gstinputselector.lo libgstcoreelements_la-gstoutputselector.lo libgstcoreelements_la-gstmultiqueue.lo libgstcoreelements_la-gstqueue.lo libgstcoreelements_la-gstqueue2.lo libgstcoreelements_la-gstsparsefile.lo libgstcoreelements_la-gsttee.lo libgstcoreelements_la-gsttypefindelement.lo libgstcoreelements_la-gststreamiddemux.lo libgstcoreelements_la-gstvalve.lo ../../libs/gst/base/libgstbase-1.0.la ../../gst/libgstreamer-1.0.la -lgobject-2.0 -lgmodule-2.0 -pthread -lglib-2.0 -lrt -ldl )
+libtool: install: /usr/bin/install -c .libs/libgstcoreelements.soT /usr/lib/gstreamer-1.0/libgstcoreelements.so
+libtool: install: /usr/bin/install -c .libs/libgstcoreelements.lai /usr/lib/gstreamer-1.0/libgstcoreelements.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gstreamer-1.0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gstreamer-1.0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins/elements'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/plugins'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making install in benchmarks
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/benchmarks'
+Making install in check
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/check'
+Making install in misc
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/misc'
+Making install in examples
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+Making install in controller
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/controller'
+Making install in helloworld
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/helloworld'
+Making install in manual
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make  install-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/manual'
+Making install in memory
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/memory'
+Making install in netclock
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/netclock'
+Making install in ptp
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/ptp'
+Making install in stepping
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/stepping'
+Making install in streamiddemux
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streamiddemux'
+Making install in streams
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/streams'
+Making install in adapter
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples/adapter'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests/examples'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tests'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making install in design
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/design'
+Making install in gst
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make  install-am
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[5]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[5]: Nothing to be done for 'install-exec-am'.
+(installfiles=`echo ./html/*.sgml ./html/*.html ./html/*.png ./html/*.css`; \
+if test "$installfiles" = './html/*.sgml ./html/*.html ./html/*.png ./html/*.css'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /sources/7.9/gstreamer-1.6.3/install-sh -d /usr/share/gtk-doc/html/gstreamer-1.0; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gstreamer-1.0; \
+  done; \
+  echo '-- Installing ./html/gstreamer-1.0.devhelp2' ; \
+  if test -e ./html/gstreamer-1.0.devhelp2; then \
+            /usr/bin/install -c -m 644 ./html/gstreamer-1.0.devhelp2 \
+            /usr/share/gtk-doc/html/gstreamer-1.0/gstreamer-1.0.devhelp2; \
+  fi; \
+  true --relative --dest-dir= --html-dir=/usr/share/gtk-doc/html/gstreamer-1.0 || true ; \
+fi)
+-- Installing ./html/index.sgml
+-- Installing ./html/annotation-glossary.html
+-- Installing ./html/GstAllocator.html
+-- Installing ./html/GstBin.html
+-- Installing ./html/GstBuffer.html
+-- Installing ./html/GstBufferList.html
+-- Installing ./html/GstBufferPool.html
+-- Installing ./html/gst-building.html
+-- Installing ./html/GstBus.html
+-- Installing ./html/GstCapsFeatures.html
+-- Installing ./html/GstCaps.html
+-- Installing ./html/GstChildProxy.html
+-- Installing ./html/GstClock.html
+-- Installing ./html/GstContext.html
+-- Installing ./html/GstControlBinding.html
+-- Installing ./html/GstControlSource.html
+-- Installing ./html/GstDateTime.html
+-- Installing ./html/GstDeviceProviderFactory.html
+-- Installing ./html/GstElementFactory.html
+-- Installing ./html/GstElement.html
+-- Installing ./html/GstEvent.html
+-- Installing ./html/GstGhostPad.html
+-- Installing ./html/GstMemory.html
+-- Installing ./html/GstMessage.html
+-- Installing ./html/GstObject.html
+-- Installing ./html/GstPad.html
+-- Installing ./html/GstPadTemplate.html
+-- Installing ./html/GstPipeline.html
+-- Installing ./html/GstPluginFeature.html
+-- Installing ./html/GstPlugin.html
+-- Installing ./html/GstPreset.html
+-- Installing ./html/GstQuery.html
+-- Installing ./html/gstreamer-device-probing.html
+-- Installing ./html/gstreamer-GstAtomicQueue.html
+-- Installing ./html/gstreamer-GstConfig.html
+-- Installing ./html/gstreamer-GstDevice.html
+-- Installing ./html/gstreamer-GstDeviceMonitor.html
+-- Installing ./html/gstreamer-GstDeviceProvider.html
+-- Installing ./html/gstreamer-GstFormat.html
+-- Installing ./html/gstreamer-GstGError.html
+-- Installing ./html/gstreamer-Gst.html
+-- Installing ./html/gstreamer-GstInfo.html
+-- Installing ./html/gstreamer-GstIterator.html
+-- Installing ./html/gstreamer-GstMeta.html
+-- Installing ./html/gstreamer-GstMiniObject.html
+-- Installing ./html/gstreamer-GstParamSpec.html
+-- Installing ./html/gstreamer-GstParse.html
+-- Installing ./html/gstreamer-GstPoll.html
+-- Installing ./html/gstreamer-GstProtectionMeta.html
+-- Installing ./html/gstreamer-GstTocSetter.html
+-- Installing ./html/gstreamer-GstTypeFind.html
+-- Installing ./html/gstreamer-GstUriHandler.html
+-- Installing ./html/gstreamer-GstUri.html
+-- Installing ./html/gstreamer-GstUtils.html
+-- Installing ./html/gstreamer-GstValue.html
+-- Installing ./html/gstreamer-GstVersion.html
+-- Installing ./html/gstreamer-hierarchy.html
+-- Installing ./html/gstreamer.html
+-- Installing ./html/gstreamer-support.html
+-- Installing ./html/GstRegistry.html
+-- Installing ./html/gst-running.html
+-- Installing ./html/GstSample.html
+-- Installing ./html/GstSegment.html
+-- Installing ./html/GstStructure.html
+-- Installing ./html/GstSystemClock.html
+-- Installing ./html/GstTagList.html
+-- Installing ./html/GstTagSetter.html
+-- Installing ./html/GstTask.html
+-- Installing ./html/GstTaskPool.html
+-- Installing ./html/GstToc.html
+-- Installing ./html/GstTypeFindFactory.html
+-- Installing ./html/index.html
+-- Installing ./html/ix01.html
+-- Installing ./html/ix02.html
+-- Installing ./html/ix03.html
+-- Installing ./html/ix04.html
+-- Installing ./html/ix05.html
+-- Installing ./html/ix06.html
+-- Installing ./html/ix07.html
+-- Installing ./html/ix08.html
+-- Installing ./html/libgstreamer.html
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/style.css
+-- Installing ./html/gstreamer-1.0.devhelp2
+make[5]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/gst'
+Making install in libs
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[4]: Nothing to be done for 'install-exec-am'.
+(installfiles=`echo ./html/*.sgml ./html/*.html ./html/*.png ./html/*.css`; \
+if test "$installfiles" = './html/*.sgml ./html/*.html ./html/*.png ./html/*.css'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /sources/7.9/gstreamer-1.6.3/install-sh -d /usr/share/gtk-doc/html/gstreamer-libs-1.0; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gstreamer-libs-1.0; \
+  done; \
+  echo '-- Installing ./html/gstreamer-libs-1.0.devhelp2' ; \
+  if test -e ./html/gstreamer-libs-1.0.devhelp2; then \
+            /usr/bin/install -c -m 644 ./html/gstreamer-libs-1.0.devhelp2 \
+            /usr/share/gtk-doc/html/gstreamer-libs-1.0/gstreamer-libs-1.0.devhelp2; \
+  fi; \
+  true --relative --dest-dir= --html-dir=/usr/share/gtk-doc/html/gstreamer-libs-1.0 || true ; \
+fi)
+-- Installing ./html/index.sgml
+-- Installing ./html/annotation-glossary.html
+-- Installing ./html/GstAdapter.html
+-- Installing ./html/GstARGBControlBinding.html
+-- Installing ./html/GstBaseParse.html
+-- Installing ./html/GstBaseSink.html
+-- Installing ./html/GstBaseSrc.html
+-- Installing ./html/GstBaseTransform.html
+-- Installing ./html/GstCollectPads.html
+-- Installing ./html/GstDirectControlBinding.html
+-- Installing ./html/GstInterpolationControlSource.html
+-- Installing ./html/GstLFOControlSource.html
+-- Installing ./html/GstNetClientClock.html
+-- Installing ./html/GstNetTimeProvider.html
+-- Installing ./html/GstPushSrc.html
+-- Installing ./html/gstreamer-base.html
+-- Installing ./html/gstreamer-check.html
+-- Installing ./html/gstreamer-control.html
+-- Installing ./html/gstreamer-hierarchy.html
+-- Installing ./html/gstreamer-libs-GstBitReader.html
+-- Installing ./html/gstreamer-libs-GstBufferStraw.html
+-- Installing ./html/gstreamer-libs-GstByteReader.html
+-- Installing ./html/gstreamer-libs-GstByteWriter.html
+-- Installing ./html/gstreamer-libs-GstCheck.html
+-- Installing ./html/gstreamer-libs-GstDataQueue.html
+-- Installing ./html/gstreamer-libs-GstFlowCombiner.html
+-- Installing ./html/gstreamer-libs-GstHarness.html
+-- Installing ./html/gstreamer-libs-GstNetAddressMeta.html
+-- Installing ./html/gstreamer-libs-GstNetControlMessageMeta.html
+-- Installing ./html/gstreamer-libs-GstNetTimePacket.html
+-- Installing ./html/gstreamer-libs-GstPtpClock.html
+-- Installing ./html/gstreamer-libs-GstQueueArray.html
+-- Installing ./html/gstreamer-libs-GstStreamConsistency.html
+-- Installing ./html/gstreamer-libs-GstTypeFindHelper.html
+-- Installing ./html/gstreamer-libs.html
+-- Installing ./html/gstreamer-net.html
+-- Installing ./html/GstTestClock.html
+-- Installing ./html/GstTimedValueControlSource.html
+-- Installing ./html/GstTriggerControlSource.html
+-- Installing ./html/index.html
+-- Installing ./html/ix01.html
+-- Installing ./html/ix02.html
+-- Installing ./html/ix03.html
+-- Installing ./html/ix04.html
+-- Installing ./html/ix05.html
+-- Installing ./html/ix06.html
+-- Installing ./html/gdp-header.png
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/style.css
+-- Installing ./html/gstreamer-libs-1.0.devhelp2
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/libs'
+Making install in plugins
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[4]: Nothing to be done for 'install-exec-am'.
+(installfiles=`echo ./html/*.sgml ./html/*.html ./html/*.png ./html/*.css`; \
+if test "$installfiles" = './html/*.sgml ./html/*.html ./html/*.png ./html/*.css'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /sources/7.9/gstreamer-1.6.3/install-sh -d /usr/share/gtk-doc/html/gstreamer-plugins-1.0; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gstreamer-plugins-1.0; \
+  done; \
+  pngfiles=`echo ./html/*.png`; \
+  if test "$pngfiles" != './html/*.png'; then \
+    for i in $pngfiles; do \
+      echo '-- Installing '$i ; \
+      /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gstreamer-plugins-1.0; \
+    done; \
+  fi; \
+  echo '-- Installing ./html/gstreamer-plugins-1.0.devhelp2' ; \
+  if test -e ./html/gstreamer-plugins-1.0.devhelp2; then \
+            /usr/bin/install -c -m 644 ./html/gstreamer-plugins-1.0.devhelp2 \
+            /usr/share/gtk-doc/html/gstreamer-plugins-1.0/gstreamer-plugins-1.0.devhelp2; \
+  fi; \
+  true --relative --dest-dir= --html-dir=/usr/share/gtk-doc/html/gstreamer-plugins-1.0 || true ; \
+fi)
+-- Installing ./html/index.sgml
+-- Installing ./html/ch01.html
+-- Installing ./html/ch02.html
+-- Installing ./html/gstreamer-plugins-capsfilter.html
+-- Installing ./html/gstreamer-plugins-concat.html
+-- Installing ./html/gstreamer-plugins-downloadbuffer.html
+-- Installing ./html/gstreamer-plugins-fakesink.html
+-- Installing ./html/gstreamer-plugins-fakesrc.html
+-- Installing ./html/gstreamer-plugins-fdsink.html
+-- Installing ./html/gstreamer-plugins-fdsrc.html
+-- Installing ./html/gstreamer-plugins-filesink.html
+-- Installing ./html/gstreamer-plugins-filesrc.html
+-- Installing ./html/gstreamer-plugins-funnel.html
+-- Installing ./html/gstreamer-plugins-identity.html
+-- Installing ./html/gstreamer-plugins-input-selector.html
+-- Installing ./html/gstreamer-plugins-multiqueue.html
+-- Installing ./html/gstreamer-plugins-output-selector.html
+-- Installing ./html/gstreamer-plugins-plugin-coreelements.html
+-- Installing ./html/gstreamer-plugins-queue2.html
+-- Installing ./html/gstreamer-plugins-queue.html
+-- Installing ./html/gstreamer-plugins-streamiddemux.html
+-- Installing ./html/gstreamer-plugins-tee.html
+-- Installing ./html/gstreamer-plugins-typefind.html
+-- Installing ./html/gstreamer-plugins-valve.html
+-- Installing ./html/index.html
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/style.css
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/gstreamer-plugins-1.0.devhelp2
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs/plugins'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[4]: Entering directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/docs'
+Making install in po
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/po'
+/bin/mkdir -p /usr/share
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/gstreamer-1.0.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/gstreamer-1.0.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/gstreamer-1.0.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gstreamer-1.0.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/gstreamer-1.0.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gstreamer-1.0.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gstreamer-1.0.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gstreamer-1.0.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/gstreamer-1.0.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gstreamer-1.0.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gstreamer-1.0.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/gstreamer-1.0.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/gstreamer-1.0.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gstreamer-1.0.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gstreamer-1.0.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/gstreamer-1.0.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/gstreamer-1.0.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gstreamer-1.0.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/gstreamer-1.0.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gstreamer-1.0.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gstreamer-1.0.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/gstreamer-1.0.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/gstreamer-1.0.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gstreamer-1.0.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gstreamer-1.0.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gstreamer-1.0.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gstreamer-1.0.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gstreamer-1.0.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gstreamer-1.0.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/gstreamer-1.0.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/gstreamer-1.0.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/gstreamer-1.0.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gstreamer-1.0.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gstreamer-1.0.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gstreamer-1.0.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gstreamer-1.0.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gstreamer-1.0.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gstreamer-1.0.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/gstreamer-1.0.mo
+if test "gstreamer" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/po'
+Making install in m4
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/m4'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/m4'
+Making install in common
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+Making install in m4
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+make[3]: Entering directory '/sources/7.9/gstreamer-1.6.3/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/common'
+Making install in data
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/data'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 completions/gst-inspect-1.0 completions/gst-launch-1.0 '/usr/share/bash-completion/completions'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/data'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/data'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3/tools'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gst-inspect-1.0 gst-typefind-1.0 gst-launch-1.0 '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/gst-inspect-1.0 /usr/bin/gst-inspect-1.0
+libtool: install: /usr/bin/install -c .libs/gst-typefind-1.0 /usr/bin/gst-typefind-1.0
+libtool: install: /usr/bin/install -c .libs/gst-launch-1.0 /usr/bin/gst-launch-1.0
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gst-inspect-1.0.1 gst-typefind-1.0.1 gst-launch-1.0.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3/tools'
+make[1]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+make[2]: Entering directory '/sources/7.9/gstreamer-1.6.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 gst-element-check-1.0.m4 '/usr/share/aclocal'
+make[2]: Leaving directory '/sources/7.9/gstreamer-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gstreamer-1.6.3'

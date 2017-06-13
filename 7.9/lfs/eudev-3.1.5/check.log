@@ -1,0 +1,87 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5/src'
+Making check in shared
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/shared'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/shared'
+Making check in libudev
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/libudev'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/libudev'
+Making check in udev
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/udev'
+make  check-am
+make[3]: Entering directory '/sources/7.9/eudev-3.1.5/src/udev'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/eudev-3.1.5/src/udev'
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/udev'
+Making check in ata_id
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/ata_id'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/ata_id'
+Making check in cdrom_id
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/cdrom_id'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/cdrom_id'
+Making check in collect
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/collect'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/collect'
+Making check in mtd_probe
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/mtd_probe'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/mtd_probe'
+Making check in scsi_id
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/scsi_id'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/scsi_id'
+Making check in v4l_id
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src/v4l_id'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src/v4l_id'
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/src'
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5/src'
+Making check in rules
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5/rules'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5/rules'
+Making check in test
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5/test'
+make  test/sys
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/test'
+  GEN      test/sys
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/eudev-3.1.5/test'
+make[3]: Entering directory '/sources/7.9/eudev-3.1.5/test'
+PASS: rules-test.sh
+PASS: udev-test.pl
+make[4]: Entering directory '/sources/7.9/eudev-3.1.5/test'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/eudev-3.1.5/test'
+============================================================================
+Testsuite summary for eudev 3.1.5
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/eudev-3.1.5/test'
+make[2]: Leaving directory '/sources/7.9/eudev-3.1.5/test'
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5/test'
+Making check in man
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5/man'
+Making check in hwdb
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5/hwdb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5/hwdb'
+make[1]: Entering directory '/sources/7.9/eudev-3.1.5'
+make[1]: Leaving directory '/sources/7.9/eudev-3.1.5'

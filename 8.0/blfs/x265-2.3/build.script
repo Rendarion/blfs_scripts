@@ -1,0 +1,10 @@
+patch -Np1 -i ../x265_2.3-enable_static-1.patch &&
+
+mkdir bld &&
+cd    bld &&
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr \
+      -DENABLE_STATIC=OFF         \
+      ../source                   &&
+
+make

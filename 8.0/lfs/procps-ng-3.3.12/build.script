@@ -1,0 +1,8 @@
+./configure --prefix=/usr                            \
+            --exec-prefix=                           \
+            --libdir=/usr/lib                        \
+            --docdir=/usr/share/doc/"$PKG"           \
+            --disable-static                         \
+            --disable-kill
+
+make

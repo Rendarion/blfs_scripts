@@ -1,0 +1,4 @@
+./configure --prefix=/usr \
+            --sysconfdir=/etc \
+            --disable-gphoto2 &&
+make

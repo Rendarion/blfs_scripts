@@ -1,0 +1,11 @@
+URL=(
+"http://sourceforge.net/projects/lsb/files/lsb_release/1.4/lsb-release-1.4.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

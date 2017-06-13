@@ -1,0 +1,49 @@
+# set up variables from settings.script
+
+source ../../settings.script
+
+# set up package variables
+
+SCRIPTDIR="$PWD"
+PKG=gcc-5.3.0
+ARC="$PKG.tar.bz2"
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# clean up left over build-folders
+
+if [ -a "/sources/$LFSVS/$PKG" ]
+  then
+    rm -rf "$PKG"
+  fi
+
+# unpack package
+
+tar -xf "$ARC"
+cd "$PKG"
+
+# create build directory
+
+mkdir -v build
+cd build
+
+# configure, make and install
+
+../libstdc++-v3/configure           \
+    --host=$LFS_TGT                 \
+    --prefix=/tools                 \
+    --disable-multilib              \
+    --disable-nls                   \
+    --disable-libstdcxx-threads     \
+    --disable-libstdcxx-pch         \
+    --with-gxx-include-dir=/tools/$LFS_TGT/include/c++/5.3.0
+
+make
+
+make install
+
+# clean up
+
+rm -rf "/sources/$LFSVS/$PKG"

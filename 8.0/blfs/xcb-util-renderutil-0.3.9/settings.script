@@ -1,0 +1,12 @@
+URL=(
+"http://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.9.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxcb-1.12"
+)

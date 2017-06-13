@@ -1,0 +1,172 @@
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for URI
+Writing MYMETA.yml and MYMETA.json
+cp lib/URI/_foreign.pm blib/lib/URI/_foreign.pm
+cp lib/URI/file/Base.pm blib/lib/URI/file/Base.pm
+cp lib/URI/_punycode.pm blib/lib/URI/_punycode.pm
+cp lib/URI/urn.pm blib/lib/URI/urn.pm
+cp lib/URI/telnet.pm blib/lib/URI/telnet.pm
+cp lib/URI/file/Unix.pm blib/lib/URI/file/Unix.pm
+cp lib/URI/_generic.pm blib/lib/URI/_generic.pm
+cp lib/URI/_idna.pm blib/lib/URI/_idna.pm
+cp lib/URI/pop.pm blib/lib/URI/pop.pm
+cp lib/URI/snews.pm blib/lib/URI/snews.pm
+cp lib/URI/Split.pm blib/lib/URI/Split.pm
+cp lib/URI/tn3270.pm blib/lib/URI/tn3270.pm
+cp lib/URI/file/QNX.pm blib/lib/URI/file/QNX.pm
+cp lib/URI/URL.pm blib/lib/URI/URL.pm
+cp lib/URI/data.pm blib/lib/URI/data.pm
+cp lib/URI/IRI.pm blib/lib/URI/IRI.pm
+cp lib/URI/_query.pm blib/lib/URI/_query.pm
+cp lib/URI/nntp.pm blib/lib/URI/nntp.pm
+cp lib/URI/file/Mac.pm blib/lib/URI/file/Mac.pm
+cp lib/URI/sips.pm blib/lib/URI/sips.pm
+cp lib/URI/http.pm blib/lib/URI/http.pm
+cp lib/URI/urn/isbn.pm blib/lib/URI/urn/isbn.pm
+cp lib/URI/file/Win32.pm blib/lib/URI/file/Win32.pm
+cp lib/URI/urn/oid.pm blib/lib/URI/urn/oid.pm
+cp lib/URI/_ldap.pm blib/lib/URI/_ldap.pm
+cp lib/URI/ldap.pm blib/lib/URI/ldap.pm
+cp lib/URI/WithBase.pm blib/lib/URI/WithBase.pm
+cp lib/URI/mms.pm blib/lib/URI/mms.pm
+cp lib/URI/_login.pm blib/lib/URI/_login.pm
+cp lib/URI/rtsp.pm blib/lib/URI/rtsp.pm
+cp lib/URI/rlogin.pm blib/lib/URI/rlogin.pm
+cp lib/URI/ldaps.pm blib/lib/URI/ldaps.pm
+cp lib/URI/sftp.pm blib/lib/URI/sftp.pm
+cp lib/URI/_server.pm blib/lib/URI/_server.pm
+cp lib/URI.pm blib/lib/URI.pm
+cp lib/URI/file/FAT.pm blib/lib/URI/file/FAT.pm
+cp lib/URI/file/OS2.pm blib/lib/URI/file/OS2.pm
+cp lib/URI/rtspu.pm blib/lib/URI/rtspu.pm
+cp lib/URI/ldapi.pm blib/lib/URI/ldapi.pm
+cp lib/URI/Heuristic.pm blib/lib/URI/Heuristic.pm
+cp lib/URI/rsync.pm blib/lib/URI/rsync.pm
+cp lib/URI/ssh.pm blib/lib/URI/ssh.pm
+cp lib/URI/https.pm blib/lib/URI/https.pm
+cp lib/URI/ftp.pm blib/lib/URI/ftp.pm
+cp lib/URI/QueryParam.pm blib/lib/URI/QueryParam.pm
+cp lib/URI/Escape.pm blib/lib/URI/Escape.pm
+cp lib/URI/news.pm blib/lib/URI/news.pm
+cp lib/URI/_segment.pm blib/lib/URI/_segment.pm
+cp lib/URI/mailto.pm blib/lib/URI/mailto.pm
+cp lib/URI/file.pm blib/lib/URI/file.pm
+cp lib/URI/_userpass.pm blib/lib/URI/_userpass.pm
+cp lib/URI/sip.pm blib/lib/URI/sip.pm
+cp lib/URI/gopher.pm blib/lib/URI/gopher.pm
+Manifying 11 pod documents
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/abs.t ................... ok
+t/clone.t ................. ok
+t/cwd.t ................... ok
+t/data.t .................. ok
+t/distmanifest.t .......... skipped: these tests are for authors only!
+t/escape-char.t ........... ok
+t/escape.t ................ ok
+t/file.t .................. ok
+t/ftp.t ................... ok
+t/generic.t ............... ok
+t/gopher.t ................ ok
+t/heuristic.t ............. ok
+t/http.t .................. ok
+t/idna.t .................. ok
+t/iri.t ................... ok
+t/ldap.t .................. ok
+t/mailto.t ................ ok
+t/mix.t ................... ok
+t/mms.t ................... ok
+t/news.t .................. ok
+t/num_eq.t ................ ok
+t/old-absconf.t ........... ok
+t/old-base.t .............. ok
+t/old-file.t .............. ok
+t/old-relbase.t ........... ok
+t/path-segments.t ......... ok
+t/pop.t ................... ok
+t/punycode.t .............. ok
+t/query-param.t ........... ok
+t/query.t ................. ok
+t/rel.t ................... ok
+t/rfc2732.t ............... ok
+t/roy-test.t .............. ok
+t/rsync.t ................. ok
+t/rtsp.t .................. ok
+t/scheme-exceptions.t ..... ok
+t/sip.t ................... ok
+t/sort-hash-query-form.t .. ok
+t/split.t ................. ok
+t/storable.t .............. ok
+t/urn-isbn.t .............. skipped: Needs the Business::ISBN module installed
+t/urn-oid.t ............... ok
+t/utf8.t .................. ok
+All tests successful.
+Files=43, Tests=624,  3 wallclock secs ( 0.24 usr  0.08 sys +  2.18 cusr  0.21 csys =  2.71 CPU)
+Result: PASS
+Manifying 11 pod documents
+Installing /usr/lib/perl5/site_perl/5.22.1/URI.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/WithBase.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/telnet.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/ldapi.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_punycode.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/ldaps.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/snews.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/pop.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/nntp.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_generic.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/rtsp.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_idna.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/data.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/https.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/mailto.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/rsync.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_foreign.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/URL.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/Split.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/IRI.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/ftp.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/http.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/rtspu.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_ldap.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/sips.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/news.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_query.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/sftp.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_userpass.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_server.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_login.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/ldap.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/sip.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/Heuristic.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/urn.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/Escape.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/QueryParam.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/ssh.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/_segment.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/rlogin.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/tn3270.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/mms.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/gopher.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/urn/isbn.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/urn/oid.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/Win32.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/FAT.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/Mac.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/Unix.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/OS2.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/QNX.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/URI/file/Base.pm
+Installing /usr/share/man/man3/URI::data.3
+Installing /usr/share/man/man3/URI::WithBase.3
+Installing /usr/share/man/man3/URI::Escape.3
+Installing /usr/share/man/man3/URI::QueryParam.3
+Installing /usr/share/man/man3/URI::ldap.3
+Installing /usr/share/man/man3/URI::Split.3
+Installing /usr/share/man/man3/URI::file.3
+Installing /usr/share/man/man3/URI::Heuristic.3
+Installing /usr/share/man/man3/URI.3
+Installing /usr/share/man/man3/URI::URL.3
+Installing /usr/share/man/man3/URI::_punycode.3
+Appending installation info to /usr/lib/perl5/5.22.1/x86_64-linux/perllocal.pod

@@ -1,0 +1,26 @@
+'DejaVuSans-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-BoldOblique.ttf'
+'DejaVuSans-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-Bold.ttf'
+'DejaVuSansCondensed-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-BoldOblique.ttf'
+'DejaVuSansCondensed-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-Bold.ttf'
+'DejaVuSansCondensed-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed-Oblique.ttf'
+'DejaVuSansCondensed.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf'
+'DejaVuSans-ExtraLight.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-ExtraLight.ttf'
+'DejaVuSansMono-BoldOblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-BoldOblique.ttf'
+'DejaVuSansMono-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-Bold.ttf'
+'DejaVuSansMono-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono-Oblique.ttf'
+'DejaVuSansMono.ttf' -> '/usr/share/fonts/dejavu/DejaVuSansMono.ttf'
+'DejaVuSans-Oblique.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans-Oblique.ttf'
+'DejaVuSans.ttf' -> '/usr/share/fonts/dejavu/DejaVuSans.ttf'
+'DejaVuSerif-BoldItalic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-BoldItalic.ttf'
+'DejaVuSerif-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-Bold.ttf'
+'DejaVuSerifCondensed-BoldItalic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-BoldItalic.ttf'
+'DejaVuSerifCondensed-Bold.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-Bold.ttf'
+'DejaVuSerifCondensed-Italic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed-Italic.ttf'
+'DejaVuSerifCondensed.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerifCondensed.ttf'
+'DejaVuSerif-Italic.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif-Italic.ttf'
+'DejaVuSerif.ttf' -> '/usr/share/fonts/dejavu/DejaVuSerif.ttf'
+/usr/share/fonts/dejavu: skipping, existing cache is valid: 21 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded

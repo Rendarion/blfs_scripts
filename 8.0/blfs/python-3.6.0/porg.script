@@ -1,0 +1,14 @@
+make install &&
+chmod -v 755 /usr/lib/libpython3.6m.so &&
+chmod -v 755 /usr/lib/libpython3.so
+
+install -v -dm755 /usr/share/doc/$PKG/html &&
+tar --strip-components=1 \
+    --no-same-owner \
+    --no-same-permissions \
+    -C /usr/share/doc/$PKG/html \
+    -xvf ../python-3.6.0-docs-html.tar.bz2
+
+ln -svfn $PKG /usr/share/doc/python-3
+
+export PYTHONDOCS=/usr/share/doc/python-3/html

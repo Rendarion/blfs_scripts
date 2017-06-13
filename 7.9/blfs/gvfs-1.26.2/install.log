@@ -1,0 +1,1085 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether build environment is sane... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for an ANSI C-conforming const... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for gio-querymodules... /usr/bin/gio-querymodules
+checking for a sed that does not truncate output... /bin/sed
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for xsltproc... /usr/bin/xsltproc
+checking whether make supports nested variables... (cached) yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking pkg-config is at least version 0.16... yes
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_mtim.tv_nsec... yes
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_atim.tv_nsec... yes
+checking for struct stat.st_ctimensec... no
+checking for struct stat.st_ctim.tv_nsec... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for GLIB... yes
+checking for DBUS... yes
+checking for GCR... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for ssh... ssh
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking util.h usability... no
+checking util.h presence... no
+checking for util.h... no
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for getpt... yes
+checking for posix_openpt... yes
+checking for grantpt... yes
+checking for unlockpt... yes
+checking for ptsname... yes
+checking for ptsname_r... yes
+checking for socketpair... yes
+checking for openpty... no
+checking for openpty in -lutil... yes
+checking for library containing login_tty... none required
+checking for HTTP... yes
+checking for AVAHI... no
+checking for LIBXML... yes
+checking for UDEV... yes
+checking for UDISKS2... yes
+checking for GUDEV... yes
+checking for KEYRING... yes
+checking for SMBCLIENT... no
+checking libsmbclient.h usability... no
+checking libsmbclient.h presence... no
+checking for libsmbclient.h... no
+checking for Samba libraries... no
+checking for GTK... yes
+checking archive.h usability... no
+checking archive.h presence... no
+checking for archive.h... no
+checking for Archive 3.libraries... no
+checking for libgcrypt-config... /usr/bin/libgcrypt-config
+checking for LIBGCRYPT - version >= 1.2.2... yes (1.6.5)
+checking LIBGCRYPT API version... okay
+checking whether _NL_ADDRESS_LANG_TERM is declared... yes
+checking whether _NL_ADDRESS_COUNTRY_AB3 is declared... yes
+checking for glib-genmarshal... /usr/bin/glib-genmarshal
+checking sys/statfs.h usability... yes
+checking sys/statfs.h presence... yes
+checking for sys/statfs.h... yes
+checking sys/statvfs.h usability... yes
+checking sys/statvfs.h presence... yes
+checking for sys/statvfs.h... yes
+checking sys/vfs.h usability... yes
+checking sys/vfs.h presence... yes
+checking for sys/vfs.h... yes
+checking sys/mount.h usability... yes
+checking sys/mount.h presence... yes
+checking for sys/mount.h... yes
+checking for sys/param.h... (cached) yes
+checking for statvfs... yes
+checking for statfs... yes
+checking for struct statfs.f_fstypename... no
+checking for struct statfs.f_bavail... yes
+checking for struct statvfs.f_basetype... no
+checking number of arguments to statfs()... 2
+checking for more warnings... no
+checking that generated files are newer than configure... done
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating common/Makefile
+config.status: creating client/Makefile
+config.status: creating metadata/Makefile
+config.status: creating daemon/trashlib/Makefile
+config.status: creating daemon/Makefile
+config.status: creating monitor/Makefile
+config.status: creating monitor/proxy/Makefile
+config.status: creating monitor/hal/Makefile
+config.status: creating monitor/gdu/Makefile
+config.status: creating monitor/udisks2/Makefile
+config.status: creating monitor/gphoto2/Makefile
+config.status: creating monitor/afc/Makefile
+config.status: creating monitor/mtp/Makefile
+config.status: creating monitor/goa/Makefile
+config.status: creating programs/Makefile
+config.status: creating programs/completion/Makefile
+config.status: creating man/Makefile
+config.status: creating test/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+gvfs configuration summary:
+
+        gio module directory : ${exec_prefix}/lib/gio/modules
+
+        hotplug backend:              gudev
+
+	Blu-ray metadata support:     no
+	Google support:               no
+        HTTP/WebDAV support:          yes
+	Samba support:	              no
+	FUSE support:                 no
+        CDDA support:                 no
+        Gphoto2 support:              no
+        MTP support:                  no
+	archive support:              no
+	AFC support:                  no
+        AFP support:                  yes
+        NFS support:                  no
+        DNS-SD support:               no
+	Build HAL volume monitor:     no (with fast init path: no)
+	Build GDU volume monitor:     no
+	Build udisks2 volume monitor: yes
+	Build GOA volume monitor:     no
+        Use libsystemd-login:         no
+        Use GCR:                      yes
+	GNOME Keyring support:        yes
+	GTK+ support:                 yes
+	Bash-completion support:      yes
+	Installed tests:              no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2'
+Making all in common
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/common'
+make  all-am
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/common'
+  CC       libgvfscommon_monitor_la-gvfsmountinfo.lo
+  CC       libgvfscommon_la-gmountspec.lo
+  CC       libgvfscommon_la-gmountoperationdbus.lo
+  CC       libgvfscommon_la-gmountsource.lo
+  CC       libgvfscommon_la-gvfsmonitorimpl.lo
+  CC       libgvfscommon_la-gmounttracker.lo
+  CC       libgvfscommon_la-gvfsdaemonprotocol.lo
+  CC       libgvfscommon_la-gvfsicon.lo
+  CC       libgvfscommon_la-gvfsfileinfo.lo
+  CC       libgvfscommon_la-gvfsutils.lo
+  CC       libgvfscommon_la-gvfsdbus.lo
+  CCLD     libgvfscommon.la
+  CCLD     libgvfscommon-monitor.la
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/common'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/common'
+Making all in metadata
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/metadata'
+make  all-am
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/metadata'
+  CC       metatree.lo
+  CC       metabuilder.lo
+  CC       crc32.lo
+  CC       metadata-dbus.lo
+  CCLD     libmetadata.la
+  CC       meta-daemon.o
+  CCLD     gvfsd-metadata
+  CC       meta-ls.o
+  CCLD     meta-ls
+  CC       meta-get.o
+  CCLD     meta-get
+  CC       meta-set.o
+  CCLD     meta-set
+  CC       meta-get-tree.o
+  CCLD     meta-get-tree
+  CC       metadata-nautilus.o
+  CCLD     convert-nautilus-metadata
+  GEN      org.gtk.vfs.Metadata.service
+  GEN      gvfs-metadata.service
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/metadata'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/metadata'
+Making all in client
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/client'
+  CC       gdaemonvfs.lo
+  CC       gdaemonmount.lo
+  CC       gdaemonvolumemonitor.lo
+  CC       gdaemonfile.lo
+  CC       gdaemonfileinputstream.lo
+  CC       gdaemonfileoutputstream.lo
+  CC       gdaemonfileenumerator.lo
+  CC       gdaemonfilemonitor.lo
+  CC       gvfsdaemondbus.lo
+  CC       gvfsiconloadable.lo
+  CC       gvfsuriutils.lo
+  CC       gvfsurimapper.lo
+  CC       smburi.lo
+  CC       httpuri.lo
+  CC       afpuri.lo
+  CCLD     libgvfsdbus.la
+  CC       test_uri_utils-test-uri-utils.o
+  CC       test_uri_utils-gvfsuriutils.o
+  CCLD     test-uri-utils
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/client'
+Making all in daemon
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon'
+Making all in trashlib
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+  CC       libtrash_a-dirwatch.o
+  CC       libtrash_a-trashdir.o
+  CC       libtrash_a-trashitem.o
+  CC       libtrash_a-trashwatcher.o
+  CC       libtrash_a-trashexpunge.o
+  AR       libtrash.a
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon'
+  CC       gvfsdaemon.lo
+  CC       gvfsbackend.lo
+  CC       gvfschannel.lo
+  CC       gvfsreadchannel.lo
+  CC       gvfswritechannel.lo
+  CC       gvfsmonitor.lo
+  CC       gvfsdaemonutils.lo
+  CC       gvfsjob.lo
+  CC       gvfsjobsource.lo
+  CC       gvfsjobdbus.lo
+  CC       gvfsjobprogress.lo
+  CC       gvfsjobmount.lo
+  CC       gvfsjobunmount.lo
+  CC       gvfsjobmountmountable.lo
+  CC       gvfsjobunmountmountable.lo
+  CC       gvfsjobstartmountable.lo
+  CC       gvfsjobstopmountable.lo
+  CC       gvfsjobpollmountable.lo
+  CC       gvfsjobopenforread.lo
+  CC       gvfsjobopeniconforread.lo
+  CC       gvfsjoberror.lo
+  CC       gvfsjobread.lo
+  CC       gvfsjobseekread.lo
+  CC       gvfsjobcloseread.lo
+  CC       gvfsjobopenforwrite.lo
+  CC       gvfsjobwrite.lo
+  CC       gvfsjobseekwrite.lo
+  CC       gvfsjobtruncate.lo
+  CC       gvfsjobclosewrite.lo
+  CC       gvfsjobqueryinfo.lo
+  CC       gvfsjobqueryinforead.lo
+  CC       gvfsjobqueryinfowrite.lo
+  CC       gvfsjobqueryfsinfo.lo
+  CC       gvfsjobenumerate.lo
+  CC       gvfsjobsetdisplayname.lo
+  CC       gvfsjobtrash.lo
+  CC       gvfsjobdelete.lo
+  CC       gvfsjobcopy.lo
+  CC       gvfsjobmove.lo
+  CC       gvfsjobpush.lo
+  CC       gvfsjobpull.lo
+  CC       gvfsjobmakedirectory.lo
+  CC       gvfsjobmakesymlink.lo
+  CC       gvfsjobsetattribute.lo
+  CC       gvfsjobqueryattributes.lo
+  CC       gvfsjobcreatemonitor.lo
+  CC       gvfskeyring.lo
+  CCLD     libgvfsdaemon.la
+  CC       mount.o
+  CC       main.o
+  CCLD     gvfsd
+  CC       gvfsd_sftp-gvfsbackendsftp.o
+  CC       gvfsd_sftp-pty_open.o
+  CC       gvfsd_sftp-daemon-main.o
+  CC       gvfsd_sftp-daemon-main-generic.o
+  CCLD     gvfsd-sftp
+  CC       gvfsd_trash-gvfsbackendtrash.o
+  CC       gvfsd_trash-daemon-main.o
+  CC       gvfsd_trash-daemon-main-generic.o
+  CCLD     gvfsd-trash
+  CC       gvfsd_computer-gvfsbackendcomputer.o
+  CC       gvfsd_computer-daemon-main.o
+  CC       gvfsd_computer-daemon-main-generic.o
+  CCLD     gvfsd-computer
+  CC       gvfsd_burn-gvfsbackendburn.o
+  CC       gvfsd_burn-daemon-main.o
+  CC       gvfsd_burn-daemon-main-generic.o
+  CCLD     gvfsd-burn
+  CC       gvfsd_localtest-gvfsbackendlocaltest.o
+  CC       gvfsd_localtest-daemon-main.o
+  CC       gvfsd_localtest-daemon-main-generic.o
+  CCLD     gvfsd-localtest
+  CC       gvfsd_ftp-gvfsftpconnection.o
+  CC       gvfsd_ftp-gvfsftpdircache.o
+  CC       gvfsd_ftp-gvfsftpfile.o
+  CC       gvfsd_ftp-gvfsftptask.o
+  CC       gvfsd_ftp-gvfsbackendftp.o
+  CC       gvfsd_ftp-ParseFTPList.o
+  CC       gvfsd_ftp-daemon-main.o
+  CC       gvfsd_ftp-daemon-main-generic.o
+  CCLD     gvfsd-ftp
+  CC       gvfsd_network-gvfsbackendnetwork.o
+  CC       gvfsd_network-daemon-main.o
+  CC       gvfsd_network-daemon-main-generic.o
+  CCLD     gvfsd-network
+  CC       gvfsd_recent-gvfsbackendrecent.o
+  CC       gvfsd_recent-daemon-main.o
+  CC       gvfsd_recent-daemon-main-generic.o
+  CCLD     gvfsd-recent
+  CC       gvfsd_http-gvfshttpinputstream.o
+  CC       gvfsd_http-gvfsbackendhttp.o
+  CC       gvfsd_http-daemon-main.o
+  CC       gvfsd_http-daemon-main-generic.o
+  CCLD     gvfsd-http
+  CC       gvfsd_dav-gvfshttpinputstream.o
+  CC       gvfsd_dav-gvfsbackendhttp.o
+  CC       gvfsd_dav-gvfsbackenddav.o
+  CC       gvfsd_dav-daemon-main.o
+  CC       gvfsd_dav-daemon-main-generic.o
+  CCLD     gvfsd-dav
+  CC       gvfsd_afp_browse-gvfsbackendafpbrowse.o
+  CC       gvfsd_afp_browse-daemon-main.o
+  CC       gvfsd_afp_browse-daemon-main-generic.o
+  CC       gvfsd_afp_browse-gvfsafputils.o
+  CC       gvfsd_afp_browse-gvfsafpconnection.o
+  CC       gvfsd_afp_browse-gvfsafpserver.o
+  CC       gvfsd_afp_browse-gvfsafpvolume.o
+  CCLD     gvfsd-afp-browse
+  CC       gvfsd_afp-gvfsbackendafp.o
+  CC       gvfsd_afp-daemon-main.o
+  CC       gvfsd_afp-daemon-main-generic.o
+  CC       gvfsd_afp-gvfsafputils.o
+  CC       gvfsd_afp-gvfsafpconnection.o
+  CC       gvfsd_afp-gvfsafpserver.o
+  CC       gvfsd_afp-gvfsafpvolume.o
+  CCLD     gvfsd-afp
+  CC       gvfsd_test-gvfsbackendtest.o
+  CC       gvfsd_test-daemon-main.o
+  CC       gvfsd_test-daemon-main-generic.o
+  CCLD     gvfsd-test
+  GEN      sftp.mount
+  GEN      ftp.mount
+  GEN      ftps.mount
+  GEN      trash.mount
+  GEN      computer.mount
+  GEN      burn.mount
+  GEN      localtest.mount
+  GEN      network.mount
+  GEN      recent.mount
+  GEN      http.mount
+  GEN      dav.mount
+  GEN      afp-browse.mount
+  GEN      afp.mount
+  GEN      sftp.localmount
+  GEN      ftp.localmount
+  GEN      ftps.localmount
+  GEN      trash.localmount
+  GEN      computer.localmount
+  GEN      burn.localmount
+  GEN      localtest.localmount
+  GEN      network.localmount
+  GEN      recent.localmount
+  GEN      http.localmount
+  GEN      dav.localmount
+  GEN      afp-browse.localmount
+  GEN      afp.localmount
+  GEN      org.gtk.vfs.Daemon.service
+  GEN      gvfs-daemon.service
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon'
+Making all in monitor
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor'
+Making all in proxy
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make  all-am
+make[4]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+  CC       libgioremote_volume_monitor_la-remote-volume-monitor-module.lo
+  CC       libgioremote_volume_monitor_la-gproxydrive.lo
+  CC       libgioremote_volume_monitor_la-gproxyvolume.lo
+  CC       libgioremote_volume_monitor_la-gproxymount.lo
+  CC       libgioremote_volume_monitor_la-gproxyshadowmount.lo
+  CC       libgioremote_volume_monitor_la-gproxyvolumemonitor.lo
+  CC       libgioremote_volume_monitor_la-gproxymountoperation.lo
+  CC       libgioremote_volume_monitor_la-gvfsvolumemonitordbus.lo
+  CCLD     libgioremote-volume-monitor.la
+  CC       libgvfsproxyvolumemonitordaemon_noin_la-gvfsproxyvolumemonitordaemon.lo
+  CC       libgvfsproxyvolumemonitordaemon_noin_la-gvfsvolumemonitordbus.lo
+  CCLD     libgvfsproxyvolumemonitordaemon-noin.la
+make[4]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+Making all in udisks2
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+  CC       gvfs_udisks2_volume_monitor-udisks2volumemonitordaemon.o
+  CC       gvfs_udisks2_volume_monitor-gvfsudisks2volumemonitor.o
+  CC       gvfs_udisks2_volume_monitor-gvfsudisks2drive.o
+  CC       gvfs_udisks2_volume_monitor-gvfsudisks2volume.o
+  CC       gvfs_udisks2_volume_monitor-gvfsudisks2mount.o
+  CC       gvfs_udisks2_volume_monitor-gvfsudisks2utils.o
+  CCLD     gvfs-udisks2-volume-monitor
+  GEN      org.gtk.vfs.UDisks2VolumeMonitor.service
+  GEN      gvfs-udisks2-volume-monitor.service
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor'
+Making all in po
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/po'
+  MSGFMT af.gmo
+  MSGFMT ar.gmo
+  MSGFMT as.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT be@latin.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT bn_IN.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT en@shaw.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT et.gmo
+  MSGFMT fa.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT ga.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hu.gmo
+  MSGFMT hi.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT kn.gmo
+  MSGFMT ko.gmo
+  MSGFMT ku.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT mai.gmo
+  MSGFMT mk.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT nb.gmo
+  MSGFMT nds.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta.gmo
+  MSGFMT te.gmo
+  MSGFMT tg.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/po'
+Making all in programs
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/programs'
+Making all in completion
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/programs'
+  CC       gvfs-mount.o
+  CCLD     gvfs-mount
+  CC       gvfs-cat.o
+  CCLD     gvfs-cat
+  CC       gvfs-open.o
+  CCLD     gvfs-open
+  CC       gvfs-save.o
+  CCLD     gvfs-save
+  CC       gvfs-ls.o
+  CCLD     gvfs-ls
+  CC       gvfs-tree.o
+  CCLD     gvfs-tree
+  CC       gvfs-info.o
+  CCLD     gvfs-info
+  CC       gvfs-set-attribute.o
+  CCLD     gvfs-set-attribute
+  CC       gvfs-trash.o
+  CCLD     gvfs-trash
+  CC       gvfs-rename.o
+  CCLD     gvfs-rename
+  CC       gvfs-rm.o
+  CCLD     gvfs-rm
+  CC       gvfs-copy.o
+  CCLD     gvfs-copy
+  CC       gvfs-move.o
+  CCLD     gvfs-move
+  CC       gvfs-monitor-file.o
+  CCLD     gvfs-monitor-file
+  CC       gvfs-monitor-dir.o
+  CCLD     gvfs-monitor-dir
+  CC       gvfs-mkdir.o
+  CCLD     gvfs-mkdir
+  CC       gvfs-mime.o
+  CCLD     gvfs-mime
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs'
+Making all in test
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/test'
+make  all-am
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/test'
+  CC       test-query-info-stream.o
+  CCLD     test-query-info-stream
+  CC       benchmark-gvfs-small-files.o
+  CCLD     benchmark-gvfs-small-files
+  CC       benchmark-gvfs-big-files.o
+  CCLD     benchmark-gvfs-big-files
+  CC       benchmark-posix-small-files.o
+  CCLD     benchmark-posix-small-files
+  CC       benchmark-posix-big-files.o
+  CCLD     benchmark-posix-big-files
+  GEN      session.conf
+  GEN      org.gtk.vfs.Daemon.service
+  GEN      org.gtk.vfs.Metadata.service
+  GEN      org.gtk.vfs.UDisks2VolumeMonitor.service
+  GEN      udisks2.monitor
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/test'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/test'
+Making all in man
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/man'
+  GEN      gvfs-cat.1
+  GEN      gvfs-copy.1
+  GEN      gvfs-info.1
+  GEN      gvfs-ls.1
+  GEN      gvfs-less.1
+  GEN      gvfs-mime.1
+  GEN      gvfs-mkdir.1
+  GEN      gvfs-monitor-dir.1
+  GEN      gvfs-monitor-file.1
+  GEN      gvfs-mount.1
+  GEN      gvfs-move.1
+  GEN      gvfs-open.1
+  GEN      gvfs-rename.1
+  GEN      gvfs-rm.1
+  GEN      gvfs-save.1
+  GEN      gvfs-set-attribute.1
+  GEN      gvfs-trash.1
+  GEN      gvfs-tree.1
+  GEN      gvfs.7
+  GEN      gvfsd.1
+  GEN      gvfsd-fuse.1
+  GEN      gvfsd-metadata.1
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/man'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2'
+Making install in common
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/common'
+make  install-am
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/common'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/common'
+ /bin/mkdir -p '/usr/lib/gvfs'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgvfscommon.la '/usr/lib/gvfs'
+libtool: install: /usr/bin/install -c .libs/libgvfscommon.so /usr/lib/gvfs/libgvfscommon.so
+libtool: install: /usr/bin/install -c .libs/libgvfscommon.lai /usr/lib/gvfs/libgvfscommon.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gvfs
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gvfs
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/common'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/common'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/common'
+Making install in metadata
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/metadata'
+make  install-am
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/metadata'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/metadata'
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gvfsd-metadata '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/gvfsd-metadata /usr/libexec/gvfsd-metadata
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.gtk.vfs.Metadata.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/usr/lib/systemd/user'
+ /usr/bin/install -c -m 644 gvfs-metadata.service '/usr/lib/systemd/user'
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/metadata'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/metadata'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/metadata'
+Making install in client
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/client'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/client'
+ /bin/mkdir -p '/usr/lib/gio/modules'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgvfsdbus.la '/usr/lib/gio/modules'
+libtool: install: (cd /sources/7.9/gvfs-1.26.2/client; /bin/sh "/sources/7.9/gvfs-1.26.2/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -export_dynamic -avoid-version -module -no-undefined -export-symbols-regex "^g_vfs_.*|g_io_module_load|g_io_module_unload|g_io_module_query" -o libgvfsdbus.la -rpath /usr/lib/gio/modules gdaemonvfs.lo gdaemonmount.lo gdaemonvolumemonitor.lo gdaemonfile.lo gdaemonfileinputstream.lo gdaemonfileoutputstream.lo gdaemonfileenumerator.lo gdaemonfilemonitor.lo gvfsdaemondbus.lo gvfsiconloadable.lo gvfsuriutils.lo gvfsurimapper.lo smburi.lo httpuri.lo afpuri.lo ../common/libgvfscommon.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 ../metadata/libmetadata.la -lutil )
+libtool: install: /usr/bin/install -c .libs/libgvfsdbus.soT /usr/lib/gio/modules/libgvfsdbus.so
+libtool: install: /usr/bin/install -c .libs/libgvfsdbus.lai /usr/lib/gio/modules/libgvfsdbus.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gio/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gio/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/gvfs-client/gvfs/'
+ /usr/bin/install -c -m 644 gvfsuriutils.h gvfsurimapper.h '/usr/include/gvfs-client/gvfs/'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/client'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/client'
+Making install in daemon
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon'
+Making install in trashlib
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon/trashlib'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/daemon'
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gvfsd gvfsd-sftp gvfsd-trash gvfsd-computer gvfsd-burn gvfsd-localtest gvfsd-ftp gvfsd-network gvfsd-recent gvfsd-http gvfsd-dav gvfsd-afp-browse gvfsd-afp '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/gvfsd /usr/libexec/gvfsd
+libtool: install: /usr/bin/install -c .libs/gvfsd-sftp /usr/libexec/gvfsd-sftp
+libtool: install: /usr/bin/install -c .libs/gvfsd-trash /usr/libexec/gvfsd-trash
+libtool: install: /usr/bin/install -c .libs/gvfsd-computer /usr/libexec/gvfsd-computer
+libtool: install: /usr/bin/install -c .libs/gvfsd-burn /usr/libexec/gvfsd-burn
+libtool: install: /usr/bin/install -c .libs/gvfsd-localtest /usr/libexec/gvfsd-localtest
+libtool: install: /usr/bin/install -c .libs/gvfsd-ftp /usr/libexec/gvfsd-ftp
+libtool: install: /usr/bin/install -c .libs/gvfsd-network /usr/libexec/gvfsd-network
+libtool: install: /usr/bin/install -c .libs/gvfsd-recent /usr/libexec/gvfsd-recent
+libtool: install: /usr/bin/install -c .libs/gvfsd-http /usr/libexec/gvfsd-http
+libtool: install: /usr/bin/install -c .libs/gvfsd-dav /usr/libexec/gvfsd-dav
+libtool: install: /usr/bin/install -c .libs/gvfsd-afp-browse /usr/libexec/gvfsd-afp-browse
+libtool: install: /usr/bin/install -c .libs/gvfsd-afp /usr/libexec/gvfsd-afp
+ /bin/mkdir -p '/usr/lib/gvfs'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgvfsdaemon.la '/usr/lib/gvfs'
+libtool: install: (cd /sources/7.9/gvfs-1.26.2/daemon; /bin/sh "/sources/7.9/gvfs-1.26.2/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -no-undefined -avoid-version -o libgvfsdaemon.la -rpath /usr/lib/gvfs gvfsdaemon.lo gvfsbackend.lo gvfschannel.lo gvfsreadchannel.lo gvfswritechannel.lo gvfsmonitor.lo gvfsdaemonutils.lo gvfsjob.lo gvfsjobsource.lo gvfsjobdbus.lo gvfsjobprogress.lo gvfsjobmount.lo gvfsjobunmount.lo gvfsjobmountmountable.lo gvfsjobunmountmountable.lo gvfsjobstartmountable.lo gvfsjobstopmountable.lo gvfsjobpollmountable.lo gvfsjobopenforread.lo gvfsjobopeniconforread.lo gvfsjoberror.lo gvfsjobread.lo gvfsjobseekread.lo gvfsjobcloseread.lo gvfsjobopenforwrite.lo gvfsjobwrite.lo gvfsjobseekwrite.lo gvfsjobtruncate.lo gvfsjobclosewrite.lo gvfsjobqueryinfo.lo gvfsjobqueryinforead.lo gvfsjobqueryinfowrite.lo gvfsjobqueryfsinfo.lo gvfsjobenumerate.lo gvfsjobsetdisplayname.lo gvfsjobtrash.lo gvfsjobdelete.lo gvfsjobcopy.lo gvfsjobmove.lo gvfsjobpush.lo gvfsjobpull.lo gvfsjobmakedirectory.lo gvfsjobmakesymlink.lo gvfsjobsetattribute.lo gvfsjobqueryattributes.lo gvfsjobcreatemonitor.lo gvfskeyring.lo ../common/libgvfscommon.la -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lsecret-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lgcr-base-3 -lgck-1 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lp11-kit -lutil )
+libtool: install: /usr/bin/install -c .libs/libgvfsdaemon.soT /usr/lib/gvfs/libgvfsdaemon.so
+libtool: install: /usr/bin/install -c .libs/libgvfsdaemon.lai /usr/lib/gvfs/libgvfsdaemon.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gvfs
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gvfs
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/GConf/gsettings'
+ /bin/mkdir -p '/usr/share/gvfs/mounts'
+ /usr/bin/install -c -m 644 sftp.mount ftp.mount ftps.mount trash.mount computer.mount burn.mount localtest.mount network.mount recent.mount http.mount dav.mount afp-browse.mount afp.mount '/usr/share/gvfs/mounts'
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.gtk.vfs.Daemon.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/usr/lib/systemd/user'
+ /usr/bin/install -c -m 644 gvfs-daemon.service '/usr/lib/systemd/user'
+  GEN      org.gnome.system.gvfs.enums.xml
+if test -n "org.gnome.system.gvfs.enums.xml"; then \
+	test -z "/usr/share/glib-2.0/schemas" || /bin/mkdir -p "/usr/share/glib-2.0/schemas"; \
+	/usr/bin/install -c -m 644 org.gnome.system.gvfs.enums.xml "/usr/share/glib-2.0/schemas"; \
+	test -n "" || glib-compile-schemas /usr/share/glib-2.0/schemas; \
+fi
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/daemon'
+Making install in monitor
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor'
+Making install in proxy
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make  install-am
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make[4]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make[4]: Nothing to be done for 'install-exec-am'.
+mkdir -p /usr/share/gvfs/remote-volume-monitors
+ /bin/mkdir -p '/usr/lib/gio/modules'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgioremote-volume-monitor.la '/usr/lib/gio/modules'
+libtool: install: (cd /sources/7.9/gvfs-1.26.2/monitor/proxy; /bin/sh "/sources/7.9/gvfs-1.26.2/libtool"  --silent --tag CC --mode=relink gcc -DG_LOG_DOMAIN=\"GVFS-RemoteVolumeMonitor\" -I../../common -I../../common -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGIO_MODULE_DIR=\"\" -DREMOTE_VOLUME_MONITORS_DIR=\"/usr/share/gvfs/remote-volume-monitors\" -DGVFS_LOCALEDIR=\"/usr/share/locale\" -g -O2 -export_dynamic -avoid-version -module -no-undefined -export-symbols-regex "^g_io_module_(load|unload|query)" -o libgioremote-volume-monitor.la -rpath /usr/lib/gio/modules libgioremote_volume_monitor_la-remote-volume-monitor-module.lo libgioremote_volume_monitor_la-gproxydrive.lo libgioremote_volume_monitor_la-gproxyvolume.lo libgioremote_volume_monitor_la-gproxymount.lo libgioremote_volume_monitor_la-gproxyshadowmount.lo libgioremote_volume_monitor_la-gproxyvolumemonitor.lo libgioremote_volume_monitor_la-gproxymountoperation.lo libgioremote_volume_monitor_la-gvfsvolumemonitordbus.lo -lgmodule-2.0 -pthread -lgio-2.0 -lgobject-2.0 -lglib-2.0 ../../common/libgvfscommon.la -lutil )
+libtool: install: /usr/bin/install -c .libs/libgioremote-volume-monitor.soT /usr/lib/gio/modules/libgioremote-volume-monitor.so
+libtool: install: /usr/bin/install -c .libs/libgioremote-volume-monitor.lai /usr/lib/gio/modules/libgioremote-volume-monitor.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gio/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gio/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/proxy'
+Making install in udisks2
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c gvfs-udisks2-volume-monitor '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/gvfs-udisks2-volume-monitor /usr/libexec/gvfs-udisks2-volume-monitor
+ /bin/mkdir -p '/usr/share/gvfs/remote-volume-monitors'
+ /usr/bin/install -c -m 644 udisks2.monitor '/usr/share/gvfs/remote-volume-monitors'
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.gtk.vfs.UDisks2VolumeMonitor.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/usr/lib/systemd/user'
+ /usr/bin/install -c -m 644 gvfs-udisks2-volume-monitor.service '/usr/lib/systemd/user'
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor/udisks2'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/monitor'
+Making install in po
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/po'
+linguas="af ar as ast be be@latin bg bn bn_IN bs ca ca@valencia cs da de el en_GB en@shaw eo es eu et fa fi fr ga gl gu he hu hi id it ja kk kn ko ku lt lv mai mk ml mr nb nds nl nn oc or pa pl pt pt_BR ro ru sk sl sq sr sr@latin sv ta te tg th tr ug uk vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/gvfs-1.26.2/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/gvfs.mo; \
+    echo "installing $lang.gmo as $dir/gvfs.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/gvfs.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/gvfs.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/gvfs.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gvfs.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/gvfs.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/gvfs.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/gvfs.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/gvfs.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/gvfs.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/gvfs.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/gvfs.mo
+installing be@latin.gmo as /usr/share/locale/be@latin/LC_MESSAGES/gvfs.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gvfs.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/gvfs.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/gvfs.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/gvfs.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/gvfs.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/gvfs.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gvfs.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gvfs.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gvfs.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/gvfs.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/gvfs.mo
+installing en@shaw.gmo as /usr/share/locale/en@shaw/LC_MESSAGES/gvfs.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gvfs.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gvfs.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/gvfs.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/gvfs.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/gvfs.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gvfs.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gvfs.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/gvfs.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/gvfs.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/gvfs.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/gvfs.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gvfs.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/gvfs.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/gvfs.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gvfs.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gvfs.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/gvfs.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/gvfs.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/gvfs.mo
+installing ku.gmo as /usr/share/locale/ku/LC_MESSAGES/gvfs.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/gvfs.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/gvfs.mo
+installing mai.gmo as /usr/share/locale/mai/LC_MESSAGES/gvfs.mo
+installing mk.gmo as /usr/share/locale/mk/LC_MESSAGES/gvfs.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/gvfs.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/gvfs.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/gvfs.mo
+installing nds.gmo as /usr/share/locale/nds/LC_MESSAGES/gvfs.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gvfs.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/gvfs.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/gvfs.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/gvfs.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/gvfs.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gvfs.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/gvfs.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gvfs.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gvfs.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gvfs.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/gvfs.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/gvfs.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/gvfs.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gvfs.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/gvfs.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gvfs.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/gvfs.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/gvfs.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/gvfs.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/gvfs.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gvfs.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/gvfs.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gvfs.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gvfs.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gvfs.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/gvfs.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/gvfs.mo
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/po'
+Making install in programs
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/programs'
+Making install in completion
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 gvfs-cat '/usr/share/bash-completion/completions'
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+set -e; for file in gvfs-copy gvfs-info gvfs-less gvfs-ls gvfs-mkdir gvfs-monitor-dir gvfs-monitor-file gvfs-move gvfs-open gvfs-rename gvfs-rm gvfs-save gvfs-set-attribute gvfs-trash gvfs-tree ; do \
+	ln -s -f gvfs-cat /usr/share/bash-completion/completions/$file; \
+done
+make[4]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs/completion'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/programs'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/programs'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gvfs-mount gvfs-cat gvfs-open gvfs-save gvfs-ls gvfs-tree gvfs-info gvfs-set-attribute gvfs-trash gvfs-rename gvfs-rm gvfs-copy gvfs-move gvfs-monitor-file gvfs-monitor-dir gvfs-mkdir gvfs-mime '/usr/bin'
+libtool: install: /usr/bin/install -c gvfs-mount /usr/bin/gvfs-mount
+libtool: install: /usr/bin/install -c gvfs-cat /usr/bin/gvfs-cat
+libtool: install: /usr/bin/install -c gvfs-open /usr/bin/gvfs-open
+libtool: install: /usr/bin/install -c gvfs-save /usr/bin/gvfs-save
+libtool: install: /usr/bin/install -c gvfs-ls /usr/bin/gvfs-ls
+libtool: install: /usr/bin/install -c gvfs-tree /usr/bin/gvfs-tree
+libtool: install: /usr/bin/install -c gvfs-info /usr/bin/gvfs-info
+libtool: install: /usr/bin/install -c gvfs-set-attribute /usr/bin/gvfs-set-attribute
+libtool: install: /usr/bin/install -c gvfs-trash /usr/bin/gvfs-trash
+libtool: install: /usr/bin/install -c gvfs-rename /usr/bin/gvfs-rename
+libtool: install: /usr/bin/install -c gvfs-rm /usr/bin/gvfs-rm
+libtool: install: /usr/bin/install -c gvfs-copy /usr/bin/gvfs-copy
+libtool: install: /usr/bin/install -c gvfs-move /usr/bin/gvfs-move
+libtool: install: /usr/bin/install -c gvfs-monitor-file /usr/bin/gvfs-monitor-file
+libtool: install: /usr/bin/install -c gvfs-monitor-dir /usr/bin/gvfs-monitor-dir
+libtool: install: /usr/bin/install -c gvfs-mkdir /usr/bin/gvfs-mkdir
+libtool: install: /usr/bin/install -c gvfs-mime /usr/bin/gvfs-mime
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c gvfs-less '/usr/bin'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/programs'
+Making install in test
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/test'
+make  install-am
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/test'
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2/test'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/test'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/test'
+Making install in man
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2/man'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gvfs-cat.1 gvfs-copy.1 gvfs-info.1 gvfs-ls.1 gvfs-less.1 gvfs-mime.1 gvfs-mkdir.1 gvfs-monitor-dir.1 gvfs-monitor-file.1 gvfs-mount.1 gvfs-move.1 gvfs-open.1 gvfs-rename.1 gvfs-rm.1 gvfs-save.1 gvfs-set-attribute.1 gvfs-trash.1 gvfs-tree.1 gvfsd.1 gvfsd-fuse.1 gvfsd-metadata.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man7'
+ /usr/bin/install -c -m 644 gvfs.7 '/usr/share/man/man7'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2/man'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2/man'
+make[1]: Entering directory '/sources/7.9/gvfs-1.26.2'
+make[2]: Entering directory '/sources/7.9/gvfs-1.26.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/gvfs-1.26.2'
+if test -z "" -a "/usr/bin/gio-querymodules" != "no" ; then					\
+	/usr/bin/gio-querymodules /usr/lib/gio/modules ;	\
+fi
+make[3]: Leaving directory '/sources/7.9/gvfs-1.26.2'
+make[2]: Leaving directory '/sources/7.9/gvfs-1.26.2'
+make[1]: Leaving directory '/sources/7.9/gvfs-1.26.2'

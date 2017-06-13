@@ -1,0 +1,3 @@
+./configure --prefix=/usr \
+            --with-default-trust-store-file=/etc/ssl/ca-bundle.crt &&
+make

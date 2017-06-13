@@ -1,0 +1,15 @@
+URL=(
+"http://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libvorbis-1.3.5"
+"alsa-lib-1.1.3"
+"gstreamer-1.10.3"
+"gtk+-3.22.8"
+)

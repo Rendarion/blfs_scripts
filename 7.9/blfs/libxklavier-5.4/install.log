@@ -1,0 +1,319 @@
+installing missing dependency: iso-codes-3.65 ... done!
+--2016-06-10 22:44:39--  http://pkgs.fedoraproject.org/repo/pkgs/libxklavier/libxklavier-5.4.tar.bz2/13af74dcb6011ecedf1e3ed122bd31fa/libxklavier-5.4.tar.bz2
+Resolving pkgs.fedoraproject.org... 209.132.181.4
+Connecting to pkgs.fedoraproject.org|209.132.181.4|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 390428 (381K) [application/x-bzip2]
+Saving to: 'libxklavier-5.4.tar.bz2'
+
+     0K .......... .......... .......... .......... .......... 13%  135K 2s
+    50K .......... .......... .......... .......... .......... 26%  271K 2s
+   100K .......... .......... .......... .......... .......... 39% 1.91M 1s
+   150K .......... .......... .......... .......... .......... 52%  323K 1s
+   200K .......... .......... .......... .......... .......... 65% 3.30M 0s
+   250K .......... .......... .......... .......... .......... 78% 1.33M 0s
+   300K .......... .......... .......... .......... .......... 91% 2.18M 0s
+   350K .......... .......... .......... .                    100% 4.39M=0.8s
+
+2016-06-10 22:44:40 (467 KB/s) - 'libxklavier-5.4.tar.bz2' saved [390428/390428]
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-introspection... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for vapigen... yes
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for nl_langinfo... yes
+checking for nl_langinfo and CODESET... yes
+checking for setlocale... yes
+checking for X... yes
+checking for xkbcomp... /usr/bin/xkbcomp
+checking for X11/extensions/XKBrules.h... yes
+checking whether at least one libxklavier backend is enabled... yes
+checking for XML... yes
+checking for GLIB... yes
+checking for XINPUT... yes
+checking whether iso-codes exists... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libxklavier/Makefile
+config.status: creating libxklavier.spec
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating tests/Makefile
+config.status: creating libxklavier.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+**********************************************************
+  Libxklavier is configured with the following backends:
+    XKB, libxkbfile is present
+         default ruleset: base
+         base: /usr/share/X11/xkb
+         xkbcomp is used from: /usr/bin
+         xinput available: yes
+    xmodmap, default ruleset: base
+             base: /usr/share/xmodmap
+  gtk-doc disabled
+**********************************************************
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libxklavier-5.4'
+Making all in libxklavier
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/libxklavier'
+(cd . \
+&& glib-mkenums \
+	--fhead "#ifndef __XKL_ENUM_TYPES_H__\n#define __XKL_ENUM_TYPES_H__\n" \
+	--fprod "/* enumerations from \"@filename@\" */\n" \
+	--vhead "GType @enum_name@_get_type (void);\n#define XKL_TYPE_@ENUMSHORT@ (@enum_name@_get_type())\n" \
+	--ftail "#endif /* __XKL_ENUM_TYPES_H__ */" \
+	xkl_engine.h xkl_config_item.h xkl_config_registry.h xkl_config_rec.h xkl_engine_marshal.h xklavier.h) > new-xkl-enum-types.h \
+&& (cmp -s new-xkl-enum-types.h xkl-enum-types.h || cp new-xkl-enum-types.h xkl-enum-types.h) \
+&& rm -f new-xkl-enum-types.h \
+&& echo timestamp > stamp-xkl-enum-types.h
+make  all-am
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/libxklavier'
+  CC       xkl-enum-types.lo
+  CC       xklavier.lo
+xklavier.c: In function 'xkl_engine_grab_key':
+xklavier.c:246:7: warning: 'XKeycodeToKeysym' is deprecated [-Wdeprecated-declarations]
+       XKeysymToString(XKeycodeToKeysym(dpy, keycode, 0));
+       ^
+In file included from xklavier.c:24:0:
+/usr/include/X11/Xlib.h:1687:15: note: declared here
+ extern KeySym XKeycodeToKeysym(
+               ^
+  CC       xklavier_evt.lo
+  CC       xklavier_config.lo
+  CC       xklavier_config_iso.lo
+  CC       xklavier_xkb.lo
+  CC       xklavier_evt_xkb.lo
+  CC       xklavier_config_xkb.lo
+  CC       xklavier_toplevel.lo
+  CC       xklavier_xmm.lo
+  CC       xklavier_xmm_opts.lo
+  CC       xklavier_evt_xmm.lo
+  CC       xklavier_config_xmm.lo
+  CC       xklavier_util.lo
+  CC       xklavier_props.lo
+  CC       xklavier_dump.lo
+  CC       xkl_engine_marshal.lo
+  CCLD     libxklavier.la
+.libs/xklavier_config_xkb.o: In function `xkl_config_get_keyboard':
+/sources/7.9/libxklavier-5.4/libxklavier/xklavier_config_xkb.c:248: warning: the use of `tmpnam' is dangerous, better use `mkstemp'
+  GISCAN   Xkl-1.0.gir
+xkl_config_registry.h:132: Warning: Xkl: symbol='ConfigItemProcessFunc': Unknown namespace for identifier 'ConfigItemProcessFunc'
+xkl_config_registry.h:133: Warning: Xkl: symbol='TwoConfigItemsProcessFunc': Unknown namespace for identifier 'TwoConfigItemsProcessFunc'
+xkl_config_item.h:81: Warning: Xkl: symbol='XCI_PROP_ALLOW_MULTIPLE_SELECTION': Unknown namespace for symbol 'XCI_PROP_ALLOW_MULTIPLE_SELECTION'
+xkl_config_item.h:87: Warning: Xkl: symbol='XCI_PROP_VENDOR': Unknown namespace for symbol 'XCI_PROP_VENDOR'
+xkl_config_item.h:93: Warning: Xkl: symbol='XCI_PROP_COUNTRY_LIST': Unknown namespace for symbol 'XCI_PROP_COUNTRY_LIST'
+xkl_config_item.h:99: Warning: Xkl: symbol='XCI_PROP_LANGUAGE_LIST': Unknown namespace for symbol 'XCI_PROP_LANGUAGE_LIST'
+xkl_config_item.h:105: Warning: Xkl: symbol='XCI_PROP_EXTRA_ITEM': Unknown namespace for symbol 'XCI_PROP_EXTRA_ITEM'
+xklavier.h:97: Warning: Xkl: xkl_set_log_appender: argument fun: Missing (scope) annotation for callback without GDestroyNotify (valid: call, async)
+  GICOMP   Xkl-1.0.gir
+  GEN      libxklavier.deps
+ VAPIGEN libxklavier.vapi
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/libxklavier'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/libxklavier'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/doc'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/doc'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/doc'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/tests'
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4'
+make[1]: Leaving directory '/sources/7.9/libxklavier-5.4'
+Making install in libxklavier
+make[1]: Entering directory '/sources/7.9/libxklavier-5.4/libxklavier'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/libxklavier'
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/libxklavier'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxklavier.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxklavier.so.16.4.0 /usr/lib/libxklavier.so.16.4.0
+libtool: install: (cd /usr/lib && { ln -s -f libxklavier.so.16.4.0 libxklavier.so.16 || { rm -f libxklavier.so.16 && ln -s libxklavier.so.16.4.0 libxklavier.so.16; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxklavier.so.16.4.0 libxklavier.so || { rm -f libxklavier.so && ln -s libxklavier.so.16.4.0 libxklavier.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxklavier.lai /usr/lib/libxklavier.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Xkl-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Xkl-1.0.typelib '/usr/lib/girepository-1.0'
+ /bin/mkdir -p '/usr/share/vala/vapi'
+ /usr/bin/install -c -m 644 libxklavier.vapi libxklavier.deps '/usr/share/vala/vapi'
+ /bin/mkdir -p '/usr/include/libxklavier'
+ /usr/bin/install -c -m 644 xkl_engine.h xkl_config_item.h xkl_config_registry.h xkl_config_rec.h xkl_engine_marshal.h xklavier.h xkl-enum-types.h '/usr/include/libxklavier'
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/libxklavier'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/libxklavier'
+make[1]: Leaving directory '/sources/7.9/libxklavier-5.4/libxklavier'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/libxklavier-5.4/doc'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libxklavier.devhelp2
+ /usr/bin/install -c -m 644 ./html/libxklavier-xklavier.html
+ /usr/bin/install -c -m 644 ./html/libxklavier-xkl-engine.html
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/XklConfigItem.html
+ /usr/bin/install -c -m 644 ./html/XklConfigRec.html
+ /usr/bin/install -c -m 644 ./html/XklConfigRegistry.html
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/doc/reference'
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/doc'
+make[3]: Entering directory '/sources/7.9/libxklavier-5.4/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libxklavier-5.4/doc'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/doc'
+make[1]: Leaving directory '/sources/7.9/libxklavier-5.4/doc'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libxklavier-5.4/tests'
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4/tests'
+make[1]: Leaving directory '/sources/7.9/libxklavier-5.4/tests'
+make[1]: Entering directory '/sources/7.9/libxklavier-5.4'
+make[2]: Entering directory '/sources/7.9/libxklavier-5.4'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxklavier.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libxklavier-5.4'
+make[1]: Leaving directory '/sources/7.9/libxklavier-5.4'

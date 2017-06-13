@@ -1,0 +1,4 @@
+make docdir=/usr/share/doc/vlc-2.2.4 install
+
+gtk-update-icon-cache &&
+update-desktop-database

@@ -1,0 +1,2 @@
+mkdir -pv /lib/firmware/iwlwifi-5000-ucode-8.83.5.1
+cp -v iwlwifi-5000-5.ucode /lib/firmware/iwlwifi-5000-ucode-8.83.5.1

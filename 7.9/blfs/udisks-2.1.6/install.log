@@ -1,0 +1,823 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking whether to enable debugging... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether gcc understands -Wall... yes
+checking whether gcc understands -Wstrict-prototypes... yes
+checking whether gcc understands -Wnested-externs... yes
+checking whether gcc understands -Werror=missing-prototypes... yes
+checking whether gcc understands -Werror=implicit-function-declaration... yes
+checking whether gcc understands -Werror=pointer-arith... yes
+checking whether gcc understands -Werror=init-self... yes
+checking whether gcc understands -Werror=format-security... no
+checking whether gcc understands -Werror=format=2... yes
+checking whether gcc understands -Werror=missing-include-dirs... yes
+checking what warning flags to pass to the C compiler...  -Wall -Wstrict-prototypes -Wnested-externs -Werror=missing-prototypes -Werror=implicit-function-declaration -Werror=pointer-arith -Werror=init-self -Werror=format=2 -Werror=missing-include-dirs
+checking what language compliance flags to pass to the C compiler... 
+checking if gcc supports -Waggregate-return flag... yes
+checking if gcc supports -Wall flag... yes
+checking if gcc supports -W flag... yes
+checking if gcc supports -Wextra flag... yes
+checking if gcc supports -Wcast-align flag... yes
+checking if gcc supports -Wdeclaration-after-statement flag... yes
+checking if gcc supports -Wendif-labels flag... yes
+checking if gcc supports -Werror=format-security flag... yes
+checking if gcc supports -Werror=implicit-function-declaration flag... yes
+checking if gcc supports -Werror=overflow flag... yes
+checking if gcc supports -Wformat-nonliteral flag... yes
+checking if gcc supports -Wformat=2 flag... yes
+checking if gcc supports -Wimplicit flag... yes
+checking if gcc supports -Winit-self flag... yes
+checking if gcc supports -Wlogical-op flag... yes
+checking if gcc supports -Wmissing-declarations flag... yes
+checking if gcc supports -Wmissing-format-attribute flag... yes
+checking if gcc supports -Wmissing-include-dirs flag... yes
+checking if gcc supports -Wmissing-noreturn flag... yes
+checking if gcc supports -Wmissing-prototypes flag... yes
+checking if gcc supports -Wnested-externs flag... yes
+checking if gcc supports -Wno-inline flag... yes
+checking if gcc supports -Wno-long-long flag... yes
+checking if gcc supports -Wno-missing-field-initializers flag... yes
+checking if gcc supports -Wno-overlength-strings flag... yes
+checking if gcc supports -Wno-switch-enum flag... yes
+checking if gcc supports -Wno-unused-parameter flag... yes
+checking if gcc supports -Wno-unused-result flag... yes
+checking if gcc supports -Wold-style-definition flag... yes
+checking if gcc supports -Wpacked flag... yes
+checking if gcc supports -Wpointer-arith flag... yes
+checking if gcc supports -Wshadow flag... yes
+checking if gcc supports -Wsign-compare flag... yes
+checking if gcc supports -Wstrict-aliasing=2 flag... yes
+checking if gcc supports -Wstrict-prototypes flag... yes
+checking if gcc supports -Wundef flag... yes
+checking if gcc supports -Wuninitialized flag... yes
+checking if gcc supports -Wmaybe-uninitialized flag... yes
+checking if gcc supports -Wunsafe-loop-optimizations flag... yes
+checking if gcc supports -Wvla flag... yes
+checking if gcc supports -Wwrite-strings flag... yes
+checking if gcc supports -fdata-sections flag... yes
+checking if gcc supports -fdiagnostics-show-option flag... yes
+checking if gcc supports -ffast-math flag... yes
+checking if gcc supports -ffunction-sections flag... yes
+checking if gcc supports -fno-common flag... yes
+checking if gcc supports -fno-strict-aliasing flag... yes
+checking if gcc supports -D_LARGEFILE64_SOURCE flag... yes
+checking if gcc supports -D_FILE_OFFSET_BITS=64 flag... yes
+checking for xsltproc... /usr/bin/xsltproc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for xsltproc... (cached) /usr/bin/xsltproc
+checking for gobject-introspection... yes
+checking for GUDEV... yes
+checking for GLIB... yes
+checking for GIO... yes
+checking for POLKIT_GOBJECT_1... yes
+checking for POLKIT_AGENT_1... yes
+checking for LIBATASMART... yes
+checking for LIBSYSTEMD_LOGIN... no
+checking for LIBSYSTEMD_LOGIN... no
+checking sys/acl.h usability... yes
+checking sys/acl.h presence... yes
+checking for sys/acl.h... yes
+checking acl/libacl.h usability... yes
+checking acl/libacl.h presence... yes
+checking for acl/libacl.h... yes
+checking for acl_get_file in -lacl... yes
+checking whether NLS is requested... yes
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating data/Makefile
+config.status: creating udisks/Makefile
+config.status: creating udisks/udisks2.pc
+config.status: creating src/Makefile
+config.status: creating src/tests/Makefile
+config.status: creating tools/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/version.xml
+config.status: creating doc/man/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+               udisks 2.1.6
+             ================
+
+        prefix:                     /usr
+        libdir:                     ${exec_prefix}/lib
+        libexecdir:                 ${exec_prefix}/libexec
+        bindir:                     ${exec_prefix}/bin
+        sbindir:                    ${exec_prefix}/sbin
+        datadir:                    ${datarootdir}
+        sysconfdir:                 /etc
+        localstatedir:              /var
+        docdir:                     ${datarootdir}/doc/${PACKAGE_TARNAME}
+        introspection:              yes
+
+        udevdir:                    /lib/udev
+        systemdsystemunitdir:       
+        using libsystemd-login:     no
+        use /media for mounting:    no
+
+        compiler:                   gcc
+        cflags:                      -Waggregate-return -Wall -W -Wextra -Wcast-align -Wdeclaration-after-statement -Wendif-labels -Werror=format-security -Werror=implicit-function-declaration -Werror=overflow -Wformat-nonliteral -Wformat=2 -Wimplicit -Winit-self -Wlogical-op -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wmissing-prototypes -Wnested-externs -Wno-inline -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-switch-enum -Wno-unused-parameter -Wno-unused-result -Wold-style-definition -Wpacked -Wpointer-arith -Wshadow -Wsign-compare -Wstrict-aliasing=2 -Wstrict-prototypes -Wundef -Wuninitialized -Wmaybe-uninitialized -Wunsafe-loop-optimizations -Wvla -Wwrite-strings -fdata-sections -fdiagnostics-show-option -ffast-math -ffunction-sections -fno-common -fno-strict-aliasing -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64
+        cppflags:                   
+
+        Maintainer mode:            no
+        Building api docs:          no
+        Building man pages:         yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6'
+Making all in data
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/data'
+cp org.freedesktop.UDisks2.conf.in org.freedesktop.UDisks2.conf
+  ITMRG  org.freedesktop.udisks2.policy
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/data'
+Making all in udisks
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+( top_builddir=`cd .. && pwd`; 						\
+ cd . && glib-mkenums --template udisksenumtypes.h.template udisksenums.h ) | 	\
+   sed 's,U_TYPE_DISKS,UDISKS_TYPE,' | sed 's,u_disks,udisks,' > 			\
+   udisksenumtypes.h.tmp && mv udisksenumtypes.h.tmp udisksenumtypes.h
+( top_builddir=`cd .. && pwd`; 						\
+ cd . && glib-mkenums --template udisksenumtypes.c.template udisksenums.h ) | 	\
+   sed 's,U_TYPE_DISKS,UDISKS_TYPE,' | sed 's,u_disks,udisks,' > 			\
+   udisksenumtypes.c.tmp && mv udisksenumtypes.c.tmp udisksenumtypes.c
+gdbus-codegen							                \
+	--interface-prefix org.freedesktop.UDisks2.                          	\
+	--c-namespace UDisks							\
+	--c-generate-object-manager						\
+	--generate-c-code udisks-generated                             		\
+	--generate-docbook udisks-generated-doc					\
+	../data/org.freedesktop.UDisks2.xml         			\
+	
+sed -e 's/@MAJOR_VERSION@/2/' -e 's/@MINOR_VERSION@/1/' -e 's/@MICRO_VERSION@/6/' ../udisks/udisksversion.h.in > udisksversion.h.tmp && mv udisksversion.h.tmp udisksversion.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+  CC       libudisks2_la-udisksenumtypes.lo
+  CC       libudisks2_la-udisks-generated.lo
+  CC       libudisks2_la-udisksclient.lo
+  CC       libudisks2_la-udisksobjectinfo.lo
+  CC       libudisks2_la-udiskserror.lo
+  CCLD     libudisks2.la
+  GISCAN   UDisks-2.0.gir
+  GICOMP   UDisks-2.0.gir
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+Making all in src
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+Making all in .
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+  CC       libudisks_daemon_la-udisksdaemon.lo
+  CC       libudisks_daemon_la-udisksprovider.lo
+  CC       libudisks_daemon_la-udiskslinuxprovider.lo
+  CC       libudisks_daemon_la-udiskslinuxblockobject.lo
+  CC       libudisks_daemon_la-udiskslinuxblock.lo
+  CC       libudisks_daemon_la-udiskslinuxpartition.lo
+  CC       libudisks_daemon_la-udiskslinuxpartitiontable.lo
+  CC       libudisks_daemon_la-udiskslinuxfilesystem.lo
+  CC       libudisks_daemon_la-udiskslinuxencrypted.lo
+  CC       libudisks_daemon_la-udiskslinuxswapspace.lo
+  CC       libudisks_daemon_la-udiskslinuxloop.lo
+  CC       libudisks_daemon_la-udiskslinuxdriveobject.lo
+  CC       libudisks_daemon_la-udiskslinuxdrive.lo
+  CC       libudisks_daemon_la-udiskslinuxdriveata.lo
+  CC       libudisks_daemon_la-udiskslinuxmdraidobject.lo
+  CC       libudisks_daemon_la-udiskslinuxmdraid.lo
+  CC       libudisks_daemon_la-udiskslinuxmanager.lo
+  CC       libudisks_daemon_la-udiskslinuxfsinfo.lo
+  CC       libudisks_daemon_la-udisksbasejob.lo
+  CC       libudisks_daemon_la-udisksspawnedjob.lo
+  CC       libudisks_daemon_la-udisksthreadedjob.lo
+  CC       libudisks_daemon_la-udiskssimplejob.lo
+  CC       libudisks_daemon_la-udisksmount.lo
+  CC       libudisks_daemon_la-udisksmountmonitor.lo
+  CC       libudisks_daemon_la-udisksdaemonutil.lo
+  CC       libudisks_daemon_la-udiskslogging.lo
+  CC       libudisks_daemon_la-udisksstate.lo
+  CC       libudisks_daemon_la-udisksfstabentry.lo
+  CC       libudisks_daemon_la-udisksfstabmonitor.lo
+  CC       libudisks_daemon_la-udiskscrypttabentry.lo
+  CC       libudisks_daemon_la-udiskscrypttabmonitor.lo
+  CC       libudisks_daemon_la-udiskslinuxdevice.lo
+  CC       libudisks_daemon_la-udisksata.lo
+  CC       libudisks_daemon_la-udisks-daemon-marshal.lo
+  CCLD     libudisks-daemon.la
+  CC       udisksd-main.o
+  CCLD     udisksd
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making all in tests
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[5]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+  CC       udisks_test-test.o
+  CC       udisks_test-testutil.o
+  CCLD     udisks-test
+  CC       udisks_test_helper-helper.o
+  CC       udisks_test_helper-testutil.o
+  CCLD     udisks-test-helper
+make[5]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/tools'
+  CC       udisksctl-udisksctl.o
+  CCLD     udisksctl
+  CC       umount_udisks2-umount-udisks.o
+  CCLD     umount.udisks2
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/tools'
+Making all in po
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/po'
+  MSGFMT ar.gmo
+  MSGFMT as.gmo
+  MSGFMT az.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn_IN.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT cy.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fi.gmo
+  MSGFMT fo.gmo
+  MSGFMT fr.gmo
+  MSGFMT ga.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT ia.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT ka.gmo
+  MSGFMT kk.gmo
+  MSGFMT kn.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT uk.gmo
+  MSGFMT vi.gmo
+  MSGFMT wa.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/po'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+Making all in man
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/doc/man'
+/usr/bin/xsltproc -path "./.." -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl udisksctl.xml
+/usr/bin/xsltproc -path "./.." -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl udisksd.xml
+/usr/bin/xsltproc -path "./.." -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl udisks.xml
+/usr/bin/xsltproc -path "./.." -nonet http://docbook.sourceforge.net/release/xsl/current/manpages/docbook.xsl umount.udisks2.xml
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6'
+Making check in data
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/data'
+Making check in udisks
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+Making check in src
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+Making check in .
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[6]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+PASS: udisks-test
+make[7]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[8]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[7]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+============================================================================
+Testsuite summary for udisks 2.1.6
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[5]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/tools'
+Making check in po
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package udisks2 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/po'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+Making check in man
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6'
+Making install in data
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/data'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/data'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/bash-completion/completions'
+ /usr/bin/install -c -m 644 completions/udisksctl '/usr/share/bash-completion/completions'
+ /bin/mkdir -p '/etc/dbus-1/system.d'
+ /usr/bin/install -c -m 644 org.freedesktop.UDisks2.conf '/etc/dbus-1/system.d'
+ /bin/mkdir -p '/usr/share/dbus-1/system-services'
+ /usr/bin/install -c -m 644 org.freedesktop.UDisks2.service '/usr/share/dbus-1/system-services'
+ /bin/mkdir -p '/usr/share/polkit-1/actions'
+ /usr/bin/install -c -m 644 org.freedesktop.udisks2.policy '/usr/share/polkit-1/actions'
+ /bin/mkdir -p '/lib/udev/rules.d'
+ /usr/bin/install -c -m 644 80-udisks2.rules '/lib/udev/rules.d'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/data'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/data'
+Making install in udisks
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/udisks'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libudisks2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libudisks2.so.0.0.0 /usr/lib/libudisks2.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libudisks2.so.0.0.0 libudisks2.so.0 || { rm -f libudisks2.so.0 && ln -s libudisks2.so.0.0.0 libudisks2.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libudisks2.so.0.0.0 libudisks2.so || { rm -f libudisks2.so && ln -s libudisks2.so.0.0.0 libudisks2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libudisks2.lai /usr/lib/libudisks2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 UDisks-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/udisks2/udisks'
+ /usr/bin/install -c -m 644 udisks.h udisksclient.h udisksobjectinfo.h udisksenums.h udisksenumtypes.h udiskserror.h udiskstypes.h udisks-generated.h udisksversion.h '/usr/include/udisks2/udisks'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 udisks2.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 UDisks-2.0.typelib '/usr/lib/girepository-1.0'
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/udisks'
+Making install in src
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+Making install in .
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src'
+make[4]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /etc/udisks2
+/bin/mkdir -p /var/lib/udisks2
+chmod 0700 /var/lib/udisks2
+ /bin/mkdir -p '/usr/libexec/udisks2'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c udisksd '/usr/libexec/udisks2'
+libtool: install: /usr/bin/install -c .libs/udisksd /usr/libexec/udisks2/udisksd
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making install in tests
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[5]: Entering directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[4]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/src/tests'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/src'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/tools'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/tools'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c udisksctl '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/udisksctl /usr/bin/udisksctl
+ /bin/mkdir -p '/usr/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c umount.udisks2 '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/umount.udisks2 /usr/sbin/umount.udisks2
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/tools'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/tools'
+Making install in po
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/po'
+linguas="ar as az bg bn_IN ca ca@valencia cs cy da de el en_GB eo es et eu fa fi fo fr ga gl gu he hi hr hu ia id it ja ka kk kn ko lt lv ml mr ms nb nl nn oc or pa pl pt pt_BR ro ru sk sl sq sr sr@latin sv ta te th tr uk vi wa zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/udisks-2.1.6/build-aux/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/udisks2.mo; \
+    echo "installing $lang.gmo as $dir/udisks2.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/udisks2.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/udisks2.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/udisks2.mo.m; \
+    echo "installing $lang.gmo.m as $dir/udisks2.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/udisks2.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/udisks2.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/udisks2.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/udisks2.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/udisks2.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/udisks2.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/udisks2.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/udisks2.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/udisks2.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/udisks2.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/udisks2.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/udisks2.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/udisks2.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/udisks2.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/udisks2.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/udisks2.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/udisks2.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/udisks2.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/udisks2.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/udisks2.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/udisks2.mo
+installing fo.gmo as /usr/share/locale/fo/LC_MESSAGES/udisks2.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/udisks2.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/udisks2.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/udisks2.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/udisks2.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/udisks2.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/udisks2.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/udisks2.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/udisks2.mo
+installing ia.gmo as /usr/share/locale/ia/LC_MESSAGES/udisks2.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/udisks2.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/udisks2.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/udisks2.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/udisks2.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/udisks2.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/udisks2.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/udisks2.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/udisks2.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/udisks2.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/udisks2.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/udisks2.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/udisks2.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/udisks2.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/udisks2.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/udisks2.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/udisks2.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/udisks2.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/udisks2.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/udisks2.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/udisks2.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/udisks2.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/udisks2.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/udisks2.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/udisks2.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/udisks2.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/udisks2.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/udisks2.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/udisks2.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/udisks2.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/udisks2.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/udisks2.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/udisks2.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/udisks2.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/udisks2.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/udisks2.mo
+installing wa.gmo as /usr/share/locale/wa/LC_MESSAGES/udisks2.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/udisks2.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/udisks2.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/udisks2.mo
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/po'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+Making install in man
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 udisksctl.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 udisksd.8 udisks.8 umount.udisks2.8 '/usr/share/man/man8'
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc/man'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+make[3]: Entering directory '/sources/7.9/udisks-2.1.6/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2.1.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Block.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Drive.Ata.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Drive.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Encrypted.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Filesystem.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Job.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Loop.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Manager.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.MDRaid.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Partition.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.PartitionTable.html
+ /usr/bin/install -c -m 644 ./html/gdbus-org.freedesktop.UDisks2.Swapspace.html
+ /usr/bin/install -c -m 644 ./html/gio-hierarchy.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/overview.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-block-devices.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-core.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-drives.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-jobs.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-linux-types.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-mdraid.html
+ /usr/bin/install -c -m 644 ./html/ref-daemon-monitoring.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-block-devices.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-drives.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-jobs.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-manager-well-known-object.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-md-raid.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-overview.html
+ /usr/bin/install -c -m 644 ./html/ref-dbus-udisks2-well-known-object.html
+ /usr/bin/install -c -m 644 ./html/ref-library-generated.html
+ /usr/bin/install -c -m 644 ./html/ref-library.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/udisks2-ATA-commands.html
+ /usr/bin/install -c -m 644 ./html/udisks2.devhelp2
+ /usr/bin/install -c -m 644 ./html/udisks2-Logging.html
+ /usr/bin/install -c -m 644 ./html/udisks2-UDisksError.html
+ /usr/bin/install -c -m 644 ./html/udisks2-Utilities.html
+ /usr/bin/install -c -m 644 ./html/udisks.8.html
+ /usr/bin/install -c -m 644 ./html/UDisksBaseJob.html
+ /usr/bin/install -c -m 644 ./html/UDisksBlock.html
+ /usr/bin/install -c -m 644 ./html/UDisksClient.html
+ /usr/bin/install -c -m 644 ./html/UDisksCrypttabMonitor.html
+ /usr/bin/install -c -m 644 ./html/udisksctl.1.html
+ /usr/bin/install -c -m 644 ./html/udisksd.8.html
+ /usr/bin/install -c -m 644 ./html/UDisksDaemon.html
+ /usr/bin/install -c -m 644 ./html/UDisksDriveAta.html
+ /usr/bin/install -c -m 644 ./html/UDisksDrive.html
+ /usr/bin/install -c -m 644 ./html/UDisksEncrypted.html
+ /usr/bin/install -c -m 644 ./html/UDisksFilesystem.html
+ /usr/bin/install -c -m 644 ./html/UDisksFstabMonitor.html
+ /usr/bin/install -c -m 644 ./html/UDisksJob.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxBlock.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxBlockObject.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxDevice.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxDriveAta.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxDrive.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxDriveObject.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxEncrypted.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxFilesystem.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxLoop.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxManager.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxMDRaid.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxMDRaidObject.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxPartition.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxPartitionTable.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxProvider.html
+ /usr/bin/install -c -m 644 ./html/UDisksLinuxSwapspace.html
+ /usr/bin/install -c -m 644 ./html/UDisksLoop.html
+ /usr/bin/install -c -m 644 ./html/UDisksManager.html
+ /usr/bin/install -c -m 644 ./html/UDisksMDRaid.html
+ /usr/bin/install -c -m 644 ./html/UDisksMountMonitor.html
+ /usr/bin/install -c -m 644 ./html/UDisksObject.html
+ /usr/bin/install -c -m 644 ./html/UDisksObjectInfo.html
+ /usr/bin/install -c -m 644 ./html/UDisksObjectManagerClient.html
+ /usr/bin/install -c -m 644 ./html/UDisksPartition.html
+ /usr/bin/install -c -m 644 ./html/UDisksPartitionTable.html
+ /usr/bin/install -c -m 644 ./html/udisks-polkit-actions.html
+ /usr/bin/install -c -m 644 ./html/UDisksProvider.html
+ /usr/bin/install -c -m 644 ./html/UDisksSimpleJob.html
+ /usr/bin/install -c -m 644 ./html/UDisksSpawnedJob.html
+ /usr/bin/install -c -m 644 ./html/UDisksState.html
+ /usr/bin/install -c -m 644 ./html/udisks-std-options.html
+ /usr/bin/install -c -m 644 ./html/UDisksSwapspace.html
+ /usr/bin/install -c -m 644 ./html/UDisksThreadedJob.html
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6/doc'
+make[1]: Entering directory '/sources/7.9/udisks-2.1.6'
+make[2]: Entering directory '/sources/7.9/udisks-2.1.6'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/udisks-2.1.6'
+make[1]: Leaving directory '/sources/7.9/udisks-2.1.6'

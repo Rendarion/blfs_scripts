@@ -1,0 +1,21 @@
+URL=(
+"http://freedesktop.org/software/pulseaudio/releases/pulseaudio-10.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"json-c-0.12.1"
+"libsndfile-1.0.27"
+"alsa-lib-1.1.3"
+"dbus-1.10.14"
+"glib-2.50.3"
+"libcap_with_pam-2.25"
+"openssl-1.0.2k"
+"speex-1.2rc2"
+"speexdsp-1.2rc3"
+"xorg_libraries"
+)

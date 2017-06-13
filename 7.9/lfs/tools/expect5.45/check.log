@@ -1,0 +1,291 @@
+(echo 'if {![package vsatisfies [package provide Tcl] 8.6]} {return}' ; \
+ echo 'package ifneeded Expect 5.45 \
+    [list load [file join $dir libexpect5.45.so]]'\
+) > pkgIndex.tcl
+TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` LD_LIBRARY_PATH=".:/tools/lib:" PATH=".:/tools/lib:/tools/bin:/bin:/usr/bin" TCLLIBPATH="." /tools/bin/tclsh8.6 `echo ./tests/all.tcl` 
+cat.test
+expect.test
+
+
+==== expect-1.4 glob pattern FAILED
+==== Contents of test case:
+
+    expect "*"
+    exp_send "a\r"
+    
+    set timeout 10
+    set x 0
+    expect "a" {set x 1}
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: expect: spawn id exp6 not open
+    while executing
+"expect "*""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== expect-1.4 FAILED
+
+
+
+==== expect-1.5 glob pattern buffering FAILED
+==== Contents of test case:
+
+    expect "*"
+    exp_send "a\r"
+    
+    set timeout 10
+    set x 0
+    expect "*" {set x 1}
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: expect: spawn id exp6 not open
+    while executing
+"expect "*""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== expect-1.5 FAILED
+
+
+
+==== expect-1.6 glob buffer FAILED
+==== Contents of test case:
+
+    expect "*"
+    exp_send "philosophic\r"
+    
+    set timeout 10
+    set x 0
+    expect "hi"
+    set x [string match *phi $expect_out(buffer)]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: expect: spawn id exp6 not open
+    while executing
+"expect "*""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== expect-1.6 FAILED
+
+
+
+==== expect-1.7 glob string FAILED
+==== Contents of test case:
+
+    expect "*"
+    exp_send "philosophic\r"
+    
+    set timeout 10
+    set x 0
+    expect "hi"
+    set expect_out(0,string)
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: expect: spawn id exp6 not open
+    while executing
+"expect "*""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== expect-1.7 FAILED
+
+
+
+==== expect-1.10 re pattern, gate keeping FAILED
+==== Contents of test case:
+
+    expect "*"
+    exp_stty raw < $spawn_out(slave,name)
+    exp_send "\rats-sw-8>show clock"
+
+    #exp_internal 1
+    set timeout 10
+    set x 0
+    expect -re {(.*)show clock$} {set x 1}
+    #exp_internal 0
+    exp_stty -raw < $spawn_out(slave,name)
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: expect: spawn id exp6 not open
+    while executing
+"expect "*""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== expect-1.10 FAILED
+
+
+
+==== expect-1.11 re pattern, gate keeping FAILED
+==== Contents of test case:
+
+    exp_stty raw < $spawn_out(slave,name)
+    expect "*"
+    exp_send "enable"
+    
+    #exp_internal 1
+    set timeout 10
+    set x 0
+    expect -re {(.*)enable$} {set x 1}
+    exp_stty -raw < $spawn_out(slave,name)
+    #exp_internal 0
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: 
+    while executing
+"exp_stty raw < $spawn_out(slave,name)"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX ENOENT {no such file or directory}
+==== expect-1.11 FAILED
+
+
+
+==== expect-1.12 re pattern, gate keeping FAILED
+==== Contents of test case:
+
+    exp_stty raw < $spawn_out(slave,name)
+    expect "*"
+    exp_send "sh clock"
+    
+    #exp_internal 1
+    set timeout 10
+    set x 0
+    expect -re {(.*)sh clock$} {set x 1}
+    exp_stty -raw < $spawn_out(slave,name)
+    #exp_internal 0
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: 
+    while executing
+"exp_stty raw < $spawn_out(slave,name)"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX ENOENT {no such file or directory}
+==== expect-1.12 FAILED
+
+
+
+==== expect-1.13 re pattern, gate keeping FAILED
+==== Contents of test case:
+
+    exp_stty raw < $spawn_out(slave,name)
+    expect "*"
+    exp_send "Password: "
+    
+    #exp_internal 1
+    set timeout 10
+    set x 0
+    expect -re {^.*Password: ?$} {set x 1}
+    exp_stty -raw < $spawn_out(slave,name)
+    #exp_internal 0
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: 
+    while executing
+"exp_stty raw < $spawn_out(slave,name)"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX ENOENT {no such file or directory}
+==== expect-1.13 FAILED
+
+spawn_id: spawn id exp6 not open
+logfile.test
+via sendvia send_userpid.test
+send.test
+
+
+==== send-1.1 basic send operation FAILED
+==== Contents of test case:
+
+    spawn cat
+    after 1000
+    send "foo\r"
+    expect foo
+    after 1000
+    send "\u0004"
+    expect eof
+    regexp "\r\nfoo\r\n" $expect_out(buffer)
+
+---- Result was:
+0
+---- Result should have been (exact matching):
+1
+==== send-1.1 FAILED
+
+
+
+==== send-1.2 send null FAILED
+==== Contents of test case:
+
+    spawn od -c
+    send "a\u0000b\r"
+    after 1000
+    send \u0004
+    expect eof
+    regexp "a  \\\\0   b" $expect_out(buffer)
+
+---- Result was:
+0
+---- Result should have been (exact matching):
+1
+==== send-1.2 FAILED
+
+spawn.test
+
+
+==== spawn-1.4 spawn open file FAILED
+==== Contents of test case:
+
+	set x 0
+	set y 0
+
+	set file [open /tmp/[pid] w]
+	puts $file "testing expect's spawn -open"
+	exp_close $file
+	set pid [exp_spawn -open [open /tmp/[pid]]]
+	expect "testing expect's spawn -open" {set x 1}
+	expect eof {set y 1}
+	exec rm /tmp/[pid]
+	exp_wait
+	list $x $y $pid
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: child killed: segmentation violation
+    while executing
+"exec rm /tmp/[pid]"
+    ("uplevel" body line 11)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: CHILDKILLED 3592 SIGSEGV {segmentation violation}
+==== spawn-1.4 FAILED
+
+stty.test
+all.tcl:	Total	26	Passed	15	Skipped	0	Failed	11
+Sourced 0 Test Files.
+Files with failing tests: logfile.test send.test spawn.test

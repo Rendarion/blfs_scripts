@@ -1,0 +1,817 @@
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'build-aux'.
+libtoolize: copying file 'build-aux/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+checking for xsltproc... no
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for gcc option to accept ISO C99... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/sysctl.h usability... yes
+checking sys/sysctl.h presence... yes
+checking for sys/sysctl.h... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for clock_gettime... yes
+checking for open_memstream... yes
+checking for supported warning flags... 
+checking whether gcc supports -Wall... yes
+checking whether gcc supports -Wextra... yes
+checking whether gcc supports -Wsign-compare... yes
+checking whether gcc supports -Werror-implicit-function-declaration... yes
+checking whether gcc supports -Wpointer-arith... yes
+checking whether gcc supports -Wwrite-strings... yes
+checking whether gcc supports -Wstrict-prototypes... yes
+checking whether gcc supports -Wmissing-prototypes... yes
+checking whether gcc supports -Wmissing-declarations... yes
+checking whether gcc supports -Wnested-externs... yes
+checking whether gcc supports -Wpacked... yes
+checking whether gcc supports -Wswitch-enum... yes
+checking whether gcc supports -Wmissing-format-attribute... yes
+checking whether gcc supports -Wstrict-aliasing=2... yes
+checking whether gcc supports -Winit-self... yes
+checking whether gcc supports -Wdeclaration-after-statement... yes
+checking whether gcc supports -Wold-style-definition... yes
+checking whether gcc supports -Wno-unused-parameter... yes
+checking whether gcc supports -Wno-attributes... yes
+checking whether gcc supports -Wno-long-long... yes
+checking whether gcc supports -Winline... yes
+checking whether gcc supports -Wshadow... yes
+checking which warning flags were supported...  -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow
+checking for native atomic primitives... Intel
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for PCIACCESS... yes
+checking for CUNIT... no
+checking for CU_initialize_registry in -lcunit... no
+checking for CAIRO... no
+checking whether to enable Cairo tests... no
+checking for LIBUDEV... yes
+checking for docbook manpages stylesheet... no
+checking for VALGRIND... yes
+checking whether to enable Valgrind support... yes
+checking whether gcc supports __attribute__(("hidden"))... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libkms/Makefile
+config.status: creating libkms/libkms.pc
+config.status: creating intel/Makefile
+config.status: creating intel/libdrm_intel.pc
+config.status: creating radeon/Makefile
+config.status: creating radeon/libdrm_radeon.pc
+config.status: creating amdgpu/Makefile
+config.status: creating amdgpu/libdrm_amdgpu.pc
+config.status: creating nouveau/Makefile
+config.status: creating nouveau/libdrm_nouveau.pc
+config.status: creating omap/Makefile
+config.status: creating omap/libdrm_omap.pc
+config.status: creating exynos/Makefile
+config.status: creating exynos/libdrm_exynos.pc
+config.status: creating freedreno/Makefile
+config.status: creating freedreno/libdrm_freedreno.pc
+config.status: creating tegra/Makefile
+config.status: creating tegra/libdrm_tegra.pc
+config.status: creating tests/Makefile
+config.status: creating tests/modeprint/Makefile
+config.status: creating tests/modetest/Makefile
+config.status: creating tests/kms/Makefile
+config.status: creating tests/kmstest/Makefile
+config.status: creating tests/proptest/Makefile
+config.status: creating tests/radeon/Makefile
+config.status: creating tests/amdgpu/Makefile
+config.status: creating tests/vbltest/Makefile
+config.status: creating tests/exynos/Makefile
+config.status: creating tests/tegra/Makefile
+config.status: creating tests/nouveau/Makefile
+config.status: creating tests/util/Makefile
+config.status: creating man/Makefile
+config.status: creating libdrm.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+libdrm 2.4.66 will be compiled with:
+
+  libkms         yes
+  Intel API      yes
+  vmwgfx API     yes
+  Radeon API     yes
+  AMDGPU API     yes
+  Nouveau API    yes
+  OMAP API       no
+  EXYNOS API     no
+  Freedreno API  no (kgsl: no)
+  Tegra API      no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66'
+Making all in .
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66'
+  CC       libdrm_la-xf86drm.lo
+  CC       libdrm_la-xf86drmHash.lo
+  CC       libdrm_la-xf86drmRandom.lo
+  CC       libdrm_la-xf86drmSL.lo
+  CC       libdrm_la-xf86drmMode.lo
+  CCLD     libdrm.la
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+Making all in libkms
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+  CC       linux.lo
+  CC       dumb.lo
+  CC       api.lo
+  CC       vmwgfx.lo
+  CC       intel.lo
+  CC       nouveau.lo
+  CC       radeon.lo
+  CCLD     libkms.la
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+Making all in intel
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+  CC       intel_bufmgr.lo
+  CC       intel_bufmgr_fake.lo
+  CC       intel_bufmgr_gem.lo
+  CC       intel_decode.lo
+  CC       mm.lo
+  CCLD     libdrm_intel.la
+  CC       test_decode.o
+  CCLD     test_decode
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+Making all in nouveau
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+  CC       nouveau.lo
+  CC       pushbuf.lo
+  CC       bufctx.lo
+  CC       abi16.lo
+  CCLD     libdrm_nouveau.la
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+Making all in radeon
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/radeon'
+  CC       radeon_bo_gem.lo
+  CC       radeon_cs_gem.lo
+  CC       radeon_cs_space.lo
+  CC       radeon_bo.lo
+  CC       radeon_cs.lo
+  CC       radeon_surface.lo
+  CCLD     libdrm_radeon.la
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/radeon'
+Making all in amdgpu
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+  CC       amdgpu_bo.lo
+  CC       amdgpu_cs.lo
+  CC       amdgpu_device.lo
+  CC       amdgpu_gpu_info.lo
+  CC       amdgpu_vamgr.lo
+  CC       util_hash.lo
+  CC       util_hash_table.lo
+  CCLD     libdrm_amdgpu.la
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+Making all in util
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/util'
+  CC       libutil_la-format.lo
+  CC       libutil_la-kms.lo
+  CC       libutil_la-pattern.lo
+  CCLD     libutil.la
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/util'
+Making all in kms
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+  CC       libkms-test-crtc.lo
+  CC       libkms-test-device.lo
+  CC       libkms-test-framebuffer.lo
+  CC       libkms-test-plane.lo
+  CC       libkms-test-screen.lo
+  CCLD     libkms-test.la
+  CC       kms-steal-crtc.o
+  CCLD     kms-steal-crtc
+  CC       kms-universal-planes.o
+  CCLD     kms-universal-planes
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+Making all in modeprint
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+  CC       modeprint.o
+  CCLD     modeprint
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+Making all in proptest
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+  CC       proptest.o
+  CCLD     proptest
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+Making all in modetest
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+  CC       buffers.o
+  CC       cursor.o
+  CC       modetest.o
+  CCLD     modetest
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+Making all in vbltest
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+  CC       vbltest.o
+  CCLD     vbltest
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+Making all in kmstest
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+  CC       main.o
+  CCLD     kmstest
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+Making all in radeon
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+  CC       rbo.o
+  CC       radeon_ttm.o
+  CCLD     radeon_ttm
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+Making all in nouveau
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+Making check in .
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+Making check in libkms
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+PASS: kms-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+Making check in intel
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+PASS: tests/gen4-3d.batch.sh
+PASS: tests/gm45-3d.batch.sh
+PASS: tests/gen5-3d.batch.sh
+PASS: tests/gen6-3d.batch.sh
+PASS: tests/gen7-2d-copy.batch.sh
+PASS: tests/gen7-3d.batch.sh
+PASS: intel-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+Making check in nouveau
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+PASS: nouveau-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+Making check in radeon
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/radeon'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/radeon'
+Making check in amdgpu
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+PASS: amdgpu-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+Making check in util
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/util'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/util'
+Making check in kms
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+Making check in modeprint
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+Making check in proptest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+Making check in modetest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+Making check in vbltest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+Making check in kmstest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+Making check in radeon
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+Making check in nouveau
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make  threaded
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+  CC       threaded.o
+  CCLD     threaded
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[4]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+SKIP: threaded
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make  libdrmtest.la dristat drmdevice drmstat drmsl hash random openclose getversion getclient getstats setversion updatedraw name_from_fd
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+  CC       drmtest.lo
+  CCLD     libdrmtest.la
+  CC       dristat.o
+  CCLD     dristat
+  CC       drmdevice.o
+  CCLD     drmdevice
+  CC       drmstat.o
+  CCLD     drmstat
+  CC       drmsl.o
+  CCLD     drmsl
+  CC       hash.o
+  CCLD     hash
+  CC       random.o
+  CCLD     random
+  CC       openclose.o
+  CCLD     openclose
+  CC       getversion.o
+  CCLD     getversion
+  CC       getclient.o
+  CCLD     getclient
+  CC       getstats.o
+  CCLD     getstats
+  CC       setversion.o
+  CCLD     setversion
+  CC       updatedraw.o
+  CCLD     updatedraw
+  CC       name_from_fd.o
+  CCLD     name_from_fd
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make[4]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+PASS: drmsl
+PASS: hash
+PASS: random
+PASS: openclose
+PASS: getversion
+PASS: getclient
+PASS: getstats
+PASS: setversion
+PASS: updatedraw
+PASS: name_from_fd
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+Making install in .
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 include/drm/drm.h include/drm/drm_fourcc.h include/drm/drm_mode.h include/drm/drm_sarea.h include/drm/i915_drm.h include/drm/mach64_drm.h include/drm/mga_drm.h include/drm/nouveau_drm.h include/drm/qxl_drm.h include/drm/r128_drm.h include/drm/radeon_drm.h include/drm/amdgpu_drm.h include/drm/savage_drm.h include/drm/sis_drm.h include/drm/tegra_drm.h include/drm/via_drm.h include/drm/vmwgfx_drm.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libdrm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libdrm.so.2.4.0 /usr/lib/libdrm.so.2.4.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm.so.2.4.0 libdrm.so.2 || { rm -f libdrm.so.2 && ln -s libdrm.so.2.4.0 libdrm.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm.so.2.4.0 libdrm.so || { rm -f libdrm.so && ln -s libdrm.so.2.4.0 libdrm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm.lai /usr/lib/libdrm.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 xf86drm.h xf86drmMode.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+Making install in libkms
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libkms.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libdrm-2.4.66/libkms; /bin/sh "/sources/7.9/libdrm-2.4.66/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -I../include/drm -I.. -g -O2 -version-number 1:0:0 -no-undefined -o libkms.la -rpath /usr/lib linux.lo dumb.lo api.lo vmwgfx.lo intel.lo nouveau.lo radeon.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libkms.so.1.0.0T /usr/lib/libkms.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libkms.so.1.0.0 libkms.so.1 || { rm -f libkms.so.1 && ln -s libkms.so.1.0.0 libkms.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libkms.so.1.0.0 libkms.so || { rm -f libkms.so && ln -s libkms.so.1.0.0 libkms.so; }; })
+libtool: install: /usr/bin/install -c .libs/libkms.lai /usr/lib/libkms.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libkms'
+ /usr/bin/install -c -m 644 libkms.h '/usr/include/libkms'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libkms.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+Making install in intel
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_intel.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libdrm-2.4.66/intel; /bin/sh "/sources/7.9/libdrm-2.4.66/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -I.. -I/usr/include/valgrind -I../include/drm -g -O2 -version-number 1:0:0 -no-undefined -o libdrm_intel.la -rpath /usr/lib intel_bufmgr.lo intel_bufmgr_fake.lo intel_bufmgr_gem.lo intel_decode.lo mm.lo ../libdrm.la -lpciaccess )
+libtool: install: /usr/bin/install -c .libs/libdrm_intel.so.1.0.0T /usr/lib/libdrm_intel.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_intel.so.1.0.0 libdrm_intel.so.1 || { rm -f libdrm_intel.so.1 && ln -s libdrm_intel.so.1.0.0 libdrm_intel.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_intel.so.1.0.0 libdrm_intel.so || { rm -f libdrm_intel.so && ln -s libdrm_intel.so.1.0.0 libdrm_intel.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_intel.lai /usr/lib/libdrm_intel.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 intel_bufmgr.h intel_aub.h intel_debug.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_intel.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+Making install in nouveau
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_nouveau.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libdrm-2.4.66/nouveau; /bin/sh "/sources/7.9/libdrm-2.4.66/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -I.. -I../include/drm -DDEBUG -g -O2 -version-number 2:0:0 -no-undefined -o libdrm_nouveau.la -rpath /usr/lib nouveau.lo pushbuf.lo bufctx.lo abi16.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_nouveau.so.2.0.0T /usr/lib/libdrm_nouveau.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_nouveau.so.2.0.0 libdrm_nouveau.so.2 || { rm -f libdrm_nouveau.so.2 && ln -s libdrm_nouveau.so.2.0.0 libdrm_nouveau.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_nouveau.so.2.0.0 libdrm_nouveau.so || { rm -f libdrm_nouveau.so && ln -s libdrm_nouveau.so.2.0.0 libdrm_nouveau.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_nouveau.lai /usr/lib/libdrm_nouveau.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm/nouveau'
+ /usr/bin/install -c -m 644 nouveau.h '/usr/include/libdrm/nouveau'
+ /bin/mkdir -p '/usr/include/libdrm/nouveau/nvif'
+ /usr/bin/install -c -m 644 nvif/class.h nvif/cl0080.h nvif/cl9097.h nvif/if0002.h nvif/if0003.h nvif/ioctl.h nvif/unpack.h '/usr/include/libdrm/nouveau/nvif'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_nouveau.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+Making install in radeon
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/radeon'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/radeon'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_radeon.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libdrm-2.4.66/radeon; /bin/sh "/sources/7.9/libdrm-2.4.66/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -I.. -I../include/drm -g -O2 -version-number 1:0:1 -no-undefined -o libdrm_radeon.la -rpath /usr/lib radeon_bo_gem.lo radeon_cs_gem.lo radeon_cs_space.lo radeon_bo.lo radeon_cs.lo radeon_surface.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_radeon.so.1.0.1T /usr/lib/libdrm_radeon.so.1.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_radeon.so.1.0.1 libdrm_radeon.so.1 || { rm -f libdrm_radeon.so.1 && ln -s libdrm_radeon.so.1.0.1 libdrm_radeon.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_radeon.so.1.0.1 libdrm_radeon.so || { rm -f libdrm_radeon.so && ln -s libdrm_radeon.so.1.0.1 libdrm_radeon.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_radeon.lai /usr/lib/libdrm_radeon.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 radeon_bo.h radeon_cs.h radeon_surface.h radeon_bo_gem.h radeon_cs_gem.h radeon_bo_int.h radeon_cs_int.h r600_pci_ids.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_radeon.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/radeon'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/radeon'
+Making install in amdgpu
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdrm_amdgpu.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libdrm-2.4.66/amdgpu; /bin/sh "/sources/7.9/libdrm-2.4.66/libtool"  --silent --tag CC --mode=relink gcc -Wall -Wextra -Wsign-compare -Werror-implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Winline -Wshadow -I.. -I../include/drm -g -O2 -version-number 1:0:0 -no-undefined -o libdrm_amdgpu.la -rpath /usr/lib amdgpu_bo.lo amdgpu_cs.lo amdgpu_device.lo amdgpu_gpu_info.lo amdgpu_vamgr.lo util_hash.lo util_hash_table.lo ../libdrm.la )
+libtool: install: /usr/bin/install -c .libs/libdrm_amdgpu.so.1.0.0T /usr/lib/libdrm_amdgpu.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so.1 || { rm -f libdrm_amdgpu.so.1 && ln -s libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so || { rm -f libdrm_amdgpu.so && ln -s libdrm_amdgpu.so.1.0.0 libdrm_amdgpu.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdrm_amdgpu.lai /usr/lib/libdrm_amdgpu.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libdrm'
+ /usr/bin/install -c -m 644 amdgpu.h '/usr/include/libdrm'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libdrm_amdgpu.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+Making install in util
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/util'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/util'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/util'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/util'
+Making install in kms
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+Making install in modeprint
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+Making install in proptest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+Making install in modetest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+Making install in vbltest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+Making install in kmstest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+Making install in radeon
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+Making install in nouveau
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'

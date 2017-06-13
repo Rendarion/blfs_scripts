@@ -1,0 +1,7 @@
+./configure --prefix=/usr    \
+            --enable-cxx     \
+            --disable-static \
+            --docdir=/usr/share/doc/"$PKG"
+
+make
+make html

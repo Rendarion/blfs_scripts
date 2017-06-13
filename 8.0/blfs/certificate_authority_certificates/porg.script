@@ -1,0 +1,3 @@
+install -vm755 make-ca.sh-20170119 /usr/sbin/make-ca.sh
+
+/usr/sbin/make-ca.sh

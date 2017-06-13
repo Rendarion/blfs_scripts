@@ -1,0 +1,16 @@
+URL=(
+"https://github.com/i-rinat/libvdpau-va-gl/archive/v0.4.0.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+"ffmpeg-3.2.4"
+"libvdpau-1.1.1"
+"libva-1.7.3"
+"mesa-13.0.4"
+)

@@ -1,0 +1,18 @@
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::SAX::Expat
+Writing MYMETA.yml and MYMETA.json
+cp Expat.pm blib/lib/XML/SAX/Expat.pm
+Manifying 1 pod document
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00basic.t ... ok
+t/98podsyn.t .. skipped: Test::Pod 1.00 required for testing POD
+t/99podcov.t .. skipped: Test::Pod::Coverage required for testing pod coverage
+All tests successful.
+Files=3, Tests=1,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.14 cusr  0.01 csys =  0.19 CPU)
+Result: PASS
+Manifying 1 pod document
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/Expat.pm
+Installing /usr/share/man/man3/XML::SAX::Expat.3
+Appending installation info to /usr/lib/perl5/5.22.1/x86_64-linux/perllocal.pod

@@ -1,0 +1,798 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for bison... bison -y
+checking for dlopen in -ldl... yes
+checking for the suffix of shared libraries... .so
+checking for GLIB... yes
+checking for GOBJECT... yes
+checking for GMODULE... yes
+checking for GIO... yes
+checking for GIO_UNIX... yes
+checking for CAIRO... no
+checking for SCANNER... yes
+checking for FFI... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking for GIREPO... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for working strtod... yes
+checking for memchr... yes
+checking for strchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoull... yes
+checking for backtrace... yes
+checking for backtrace_symbols... yes
+checking for a Python interpreter with version >= 2.7... python
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking for headers required to compile python extensions... found
+checking for python module mako... no
+checking for glib source directory to use for documentation... 
+checking for -fvisibility=hidden compiler flag... yes
+checking for -Bsymbolic-functions linker flag... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/offsets/Makefile
+config.status: creating tests/scanner/Makefile
+config.status: creating tests/scanner/annotationparser/Makefile
+config.status: creating tests/repository/Makefile
+config.status: creating tests/warn/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating docs/reference/version.xml
+config.status: creating gobject-introspection-1.0.pc
+config.status: creating gobject-introspection-no-export-1.0.pc
+config.status: creating config.h.win32
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+[ -d gir ] || /bin/mkdir -p gir ; \
+sed \
+-e s,%CAIRO_SHARED_LIBRARY%,libcairo-gobject.so.2, \
+-e s,%CAIRO_GIR_PACKAGE%,cairo-gobject, \
+< gir/cairo-1.0.gir.in > gir/cairo-1.0.gir.tmp && mv gir/cairo-1.0.gir.tmp gir/cairo-1.0.gir
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+Making all in .
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+  CC       libgirepository_1_0_la-gdump.lo
+  CC       libgirepository_1_0_la-giarginfo.lo
+  CC       libgirepository_1_0_la-gibaseinfo.lo
+  CC       libgirepository_1_0_la-gicallableinfo.lo
+  CC       libgirepository_1_0_la-giconstantinfo.lo
+  CC       libgirepository_1_0_la-gienuminfo.lo
+  CC       libgirepository_1_0_la-gifieldinfo.lo
+  CC       libgirepository_1_0_la-gifunctioninfo.lo
+  CC       libgirepository_1_0_la-ginvoke.lo
+  CC       libgirepository_1_0_la-giinterfaceinfo.lo
+  CC       libgirepository_1_0_la-giobjectinfo.lo
+  CC       libgirepository_1_0_la-gipropertyinfo.lo
+  CC       libgirepository_1_0_la-giregisteredtypeinfo.lo
+  CC       libgirepository_1_0_la-girepository.lo
+  CC       libgirepository_1_0_la-girffi.lo
+  CC       libgirepository_1_0_la-gisignalinfo.lo
+  CC       libgirepository_1_0_la-gistructinfo.lo
+  CC       libgirepository_1_0_la-gitypeinfo.lo
+  CC       libgirepository_1_0_la-gitypelib.lo
+  CC       libgirepository_1_0_la-giunioninfo.lo
+  CC       libgirepository_1_0_la-givfuncinfo.lo
+  CC       libgirepository_gthash_la-gthash.lo
+  CC       libcmph_la-bdz.lo
+  CC       libcmph_la-bdz_ph.lo
+  CC       libcmph_la-bmz8.lo
+  CC       libcmph_la-bmz.lo
+  CC       libcmph_la-brz.lo
+  CC       libcmph_la-buffer_entry.lo
+  CC       libcmph_la-buffer_manager.lo
+  CC       libcmph_la-chd.lo
+  CC       libcmph_la-chd_ph.lo
+  CC       libcmph_la-chm.lo
+  CC       libcmph_la-cmph.lo
+  CC       libcmph_la-cmph_structs.lo
+  CC       libcmph_la-compressed_rank.lo
+  CC       libcmph_la-compressed_seq.lo
+  CC       libcmph_la-fch_buckets.lo
+  CC       libcmph_la-fch.lo
+  CC       libcmph_la-graph.lo
+  CC       libcmph_la-hash.lo
+  CC       libcmph_la-jenkins_hash.lo
+  CC       libcmph_la-miller_rabin.lo
+  CC       libcmph_la-select.lo
+  CC       libcmph_la-vqueue.lo
+  CC       libcmph_la-vstack.lo
+  CCLD     libcmph.la
+  CCLD     libgirepository-gthash.la
+  CCLD     libgirepository-1.0.la
+  CC       libgirepository_internals_la-girmodule.lo
+  CC       libgirepository_internals_la-girnode.lo
+  CC       libgirepository_internals_la-giroffsets.lo
+  CC       libgirepository_internals_la-girparser.lo
+  CC       libgirepository_internals_la-girwriter.lo
+  CCLD     libgirepository-internals.la
+  CC       libgiscanner_la-sourcescanner.lo
+  CC       libgiscanner_la-scannerlexer.lo
+  CC       libgiscanner_la-scannerparser.lo
+  CCLD     libgiscanner.la
+  CC       _giscanner_la-giscannermodule.lo
+  CCLD     _giscanner.la
+  CC       g_ir_compiler-compiler.o
+  CCLD     g-ir-compiler
+  CC       g_ir_generate-generate.o
+  CCLD     g-ir-generate
+  CC       gi_dump_types-gdump.o
+  CC       gi_dump_types-gi-dump-types.o
+  CCLD     gi-dump-types
+  CC       glib_print-glib-print.o
+  CCLD     glib-print
+  GEN      g-ir-scanner
+  GEN      g-ir-annotation-tool
+  GISCAN   GLib-2.0.gir
+g-ir-scanner: GLib: warning: 714 warnings suppressed (use --warn-all to see them)
+  GISCAN   GObject-2.0.gir
+g-ir-scanner: GObject: warning: 21 warnings suppressed (use --warn-all to see them)
+  GISCAN   GModule-2.0.gir
+g-ir-scanner: GModule: warning: 2 warnings suppressed (use --warn-all to see them)
+  GISCAN   Gio-2.0.gir
+  GISCAN   GIRepository-2.0.gir
+  GICOMP   gir/DBus-1.0.gir
+  GICOMP   gir/DBusGLib-1.0.gir
+  GICOMP   gir/fontconfig-2.0.gir
+  GICOMP   gir/freetype2-2.0.gir
+  GICOMP   gir/GL-1.0.gir
+  GICOMP   gir/libxml2-2.0.gir
+  GICOMP   gir/xft-2.0.gir
+  GICOMP   gir/xlib-2.0.gir
+  GICOMP   gir/xfixes-4.0.gir
+  GICOMP   gir/xrandr-1.3.gir
+  GICOMP   gir/win32-1.0.gir
+  GICOMP   gir/cairo-1.0.gir
+  GICOMP   GLib-2.0.gir
+  GICOMP   GObject-2.0.gir
+  GICOMP   GModule-2.0.gir
+  GICOMP   Gio-2.0.gir
+  GICOMP   GIRepository-2.0.gir
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+  GEN      everything-stamp.h
+touch everything-stamp.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in .
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in scanner
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in .
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in annotationparser
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in repository
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+Making all in offsets
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+  CC       liboffsets_la-offsets.lo
+  CCLD     liboffsets.la
+  GISCAN   Offsets-1.0.gir
+  GICOMP   Offsets-1.0.gir
+  GEN      gitestoffsets.c
+make  all-am
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+Making all in warn
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in build
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[1]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+Making check in .
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+make   
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+Making all in .
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+Making all in docs
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+Making all in tests
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in .
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in scanner
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in .
+make[8]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in annotationparser
+make[8]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making all in repository
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+Making all in offsets
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make  all-am
+make[8]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+Making all in warn
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making all in build
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+Making all in win32
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+Making all in vs9
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+Making all in vs10
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+Making all in vs11
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+Making all in vs12
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+make  check-TESTS check-local
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+  CC       cmph_bdz_test-cmph-bdz-test.o
+  CCLD     cmph-bdz-test
+PASS: cmph-bdz-test
+  CC       gthash_test-gthash.o
+  CC       gthash_test-gthash-test.o
+  CCLD     gthash-test
+PASS: gthash-test
+============================================================================
+Testsuite summary for gobject-introspection 1.46.0
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+TEST: PEP-8 INQUISITION
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+Making check in docs
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making check in .
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+  CC       everything.lo
+  CCLD     libeverything-1.0.la
+  GEN      Everything-1.0.gir
+g-ir-scanner: link: /bin/sh ../libtool --mode=link --tag=CC gcc -o /sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectSknf5s/Everything-1.0 -export-dynamic tmp-introspectSknf5s/sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectSknf5s/Everything-1.0.o -L. libeverything-1.0.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -o /sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectSknf5s/Everything-1.0 tmp-introspectSknf5s/sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectSknf5s/Everything-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libeverything-1.0.a /usr/lib/libgio-2.0.so -L/usr/lib/../lib64 -lz -lresolv /usr/lib/libgobject-2.0.so /usr/lib/../lib64/libffi.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libglib-2.0.so /usr/lib/libpcre.so -lpthread -pthread -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64
+  GEN      Everything-1.0.typelib
+PASS: Everything-1.0.typelib
+  CC       gimarshallingtests.lo
+  CCLD     libgimarshallingtests-1.0.la
+  GEN      GIMarshallingTests-1.0.gir
+g-ir-scanner: link: /bin/sh ../libtool --mode=link --tag=CC gcc -o /sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectle1jyl/GIMarshallingTests-1.0 -export-dynamic tmp-introspectle1jyl/sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectle1jyl/GIMarshallingTests-1.0.o -L. libgimarshallingtests-1.0.la -lgio-2.0 -lgobject-2.0 -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+libtool: link: gcc -o /sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectle1jyl/GIMarshallingTests-1.0 tmp-introspectle1jyl/sources/7.9/gobject-introspection-1.46.0/tests/tmp-introspectle1jyl/GIMarshallingTests-1.0.o -Wl,--export-dynamic -pthread -Wl,--export-dynamic  -L. ./.libs/libgimarshallingtests-1.0.a /usr/lib/libgio-2.0.so -L/usr/lib/../lib64 -lz -lresolv /usr/lib/libgobject-2.0.so /usr/lib/../lib64/libffi.so /usr/lib/libgmodule-2.0.so -ldl /usr/lib/libglib-2.0.so /usr/lib/libpcre.so -lpthread -pthread -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64
+  GEN      GIMarshallingTests-1.0.typelib
+PASS: GIMarshallingTests-1.0.typelib
+============================================================================
+Testsuite summary for gobject-introspection 1.46.0
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making check in scanner
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making check in .
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make  check-TESTS
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[7]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+  CC       libsletter_la-sletter.lo
+  CCLD     libsletter.la
+  GISCAN   SLetter-1.0.gir
+PASS: SLetter-1.0.gir
+  CC       utility.lo
+  CCLD     libutility.la
+  GISCAN   Utility-1.0.gir
+  CC       libregress_la-regress.lo
+  CC       libregress_la-annotation.lo
+  CC       libregress_la-foo.lo
+  CC       libregress_la-drawable.lo
+  CCLD     libregress.la
+  GISCAN   Regress-1.0.gir
+FAIL: Regress-1.0.gir
+  CC       libwarnlib_la-warnlib.lo
+  CCLD     libwarnlib.la
+  GISCAN   WarnLib-1.0.gir
+PASS: WarnLib-1.0.gir
+PASS: Utility-1.0.gir
+  CC       gtkfrob.lo
+  CCLD     libgtkfrob.la
+  GISCAN   GtkFrob-1.0.gir
+PASS: GtkFrob-1.0.gir
+  CC       gettype.lo
+  CCLD     libgettype.la
+  GISCAN   GetType-1.0.gir
+PASS: GetType-1.0.gir
+  CC       typedefs.lo
+  CCLD     libtypedefs.la
+  GISCAN   Typedefs-1.0.gir
+PASS: Typedefs-1.0.gir
+  CC       barapp.o
+  CCLD     barapp
+  GISCAN   Bar-1.0.gir
+PASS: Bar-1.0.gir
+  GEN      Headeronly-1.0.gir
+PASS: Headeronly-1.0.gir
+  GEN      Identfilter-1.0.gir
+PASS: Identfilter-1.0.gir
+  GEN      Symbolfilter-1.0.gir
+PASS: Symbolfilter-1.0.gir
+  GICOMP   SLetter-1.0.gir
+PASS: SLetter-1.0.typelib
+  GICOMP   Regress-1.0.gir
+PASS: Regress-1.0.typelib
+  GICOMP   WarnLib-1.0.gir
+PASS: WarnLib-1.0.typelib
+  GICOMP   Utility-1.0.gir
+PASS: Utility-1.0.typelib
+  GICOMP   GtkFrob-1.0.gir
+PASS: GtkFrob-1.0.typelib
+  GICOMP   GetType-1.0.gir
+PASS: GetType-1.0.typelib
+  GICOMP   Typedefs-1.0.gir
+PASS: Typedefs-1.0.typelib
+  GICOMP   Bar-1.0.gir
+PASS: Bar-1.0.typelib
+PASS: test_sourcescanner.py
+PASS: test_transformer.py
+============================================================================
+Testsuite summary for gobject-introspection 1.46.0
+============================================================================
+# TOTAL: 21
+# PASS:  20
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/scanner/test-suite.log
+Please report to http://bugzilla.gnome.org/enter_bug.cgi?product=gobject-introspection
+============================================================================
+Makefile:1245: recipe for target 'test-suite.log' failed
+make[7]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Makefile:1351: recipe for target 'check-TESTS' failed
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Makefile:1617: recipe for target 'check-am' failed
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Makefile:1138: recipe for target 'check-recursive' failed
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Makefile:785: recipe for target 'check-recursive' failed
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Makefile:1105: recipe for target 'check' failed
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Makefile:2720: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+Makefile:3180: recipe for target 'check' failed
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+Making install in .
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libgirepository-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgirepository-1.0.so.1.0.0 /usr/lib/libgirepository-1.0.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgirepository-1.0.so.1.0.0 libgirepository-1.0.so.1 || { rm -f libgirepository-1.0.so.1 && ln -s libgirepository-1.0.so.1.0.0 libgirepository-1.0.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgirepository-1.0.so.1.0.0 libgirepository-1.0.so || { rm -f libgirepository-1.0.so && ln -s libgirepository-1.0.so.1.0.0 libgirepository-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgirepository-1.0.lai /usr/lib/libgirepository-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c g-ir-compiler g-ir-generate '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/g-ir-compiler /usr/bin/g-ir-compiler
+libtool: install: /usr/bin/install -c .libs/g-ir-generate /usr/bin/g-ir-generate
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c g-ir-scanner g-ir-annotation-tool '/usr/bin'
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   _giscanner.la '/usr/lib/gobject-introspection/giscanner'
+libtool: install: /usr/bin/install -c .libs/_giscanner.so /usr/lib/gobject-introspection/giscanner/_giscanner.so
+libtool: install: /usr/bin/install -c .libs/_giscanner.lai /usr/lib/gobject-introspection/giscanner/_giscanner.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gobject-introspection/giscanner
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gobject-introspection/giscanner
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner'
+ /usr/bin/install -c -m 644 giscanner/__init__.py giscanner/annotationmain.py giscanner/annotationparser.py giscanner/ast.py giscanner/cachestore.py giscanner/ccompiler.py giscanner/codegen.py giscanner/docmain.py giscanner/docwriter.py giscanner/dumper.py giscanner/introspectablepass.py giscanner/girparser.py giscanner/girwriter.py giscanner/gdumpparser.py giscanner/libtoolimporter.py giscanner/maintransformer.py giscanner/message.py giscanner/msvccompiler.py giscanner/shlibs.py giscanner/scannermain.py giscanner/sectionparser.py giscanner/sourcescanner.py giscanner/testcodegen.py giscanner/transformer.py giscanner/utils.py giscanner/xmlwriter.py '/usr/lib/gobject-introspection/giscanner'
+Byte-compiling python modules...
+__init__.pyannotationmain.pyannotationparser.pyast.pycachestore.pyccompiler.pycodegen.pydocmain.pydocwriter.pydumper.pyintrospectablepass.pygirparser.pygirwriter.pygdumpparser.pylibtoolimporter.pymaintransformer.pymessage.pymsvccompiler.pyshlibs.pyscannermain.pysectionparser.pysourcescanner.pytestcodegen.pytransformer.pyutils.pyxmlwriter.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyannotationmain.pyannotationparser.pyast.pycachestore.pyccompiler.pycodegen.pydocmain.pydocwriter.pydumper.pyintrospectablepass.pygirparser.pygirwriter.pygdumpparser.pylibtoolimporter.pymaintransformer.pymessage.pymsvccompiler.pyshlibs.pyscannermain.pysectionparser.pysourcescanner.pytestcodegen.pytransformer.pyutils.pyxmlwriter.py
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner/collections'
+ /usr/bin/install -c -m 644 giscanner/collections/__init__.py giscanner/collections/counter.py giscanner/collections/ordereddict.py '/usr/lib/gobject-introspection/giscanner/collections'
+Byte-compiling python modules...
+__init__.pycounter.pyordereddict.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pycounter.pyordereddict.py
+ /bin/mkdir -p '/usr/share/gobject-introspection-1.0'
+ /usr/bin/install -c -m 644 Makefile.introspection '/usr/share/gobject-introspection-1.0'
+ /bin/mkdir -p '/usr/share/gobject-introspection-1.0/'
+ /usr/bin/install -c -m 644 girepository/gdump.c '/usr/share/gobject-introspection-1.0/'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 gir/DBus-1.0.gir gir/DBusGLib-1.0.gir gir/fontconfig-2.0.gir gir/freetype2-2.0.gir gir/GL-1.0.gir gir/libxml2-2.0.gir gir/xft-2.0.gir gir/xlib-2.0.gir gir/xfixes-4.0.gir gir/xrandr-1.3.gir gir/win32-1.0.gir gir/cairo-1.0.gir GLib-2.0.gir GObject-2.0.gir GModule-2.0.gir Gio-2.0.gir GIRepository-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/gobject-introspection-1.0/'
+ /usr/bin/install -c -m 644 girepository/giarginfo.h girepository/gibaseinfo.h girepository/gicallableinfo.h girepository/giconstantinfo.h girepository/gienuminfo.h girepository/gifieldinfo.h girepository/gifunctioninfo.h girepository/giinterfaceinfo.h girepository/giobjectinfo.h girepository/gipropertyinfo.h girepository/giregisteredtypeinfo.h girepository/girepository.h girepository/girffi.h girepository/gisignalinfo.h girepository/gistructinfo.h girepository/gitypeinfo.h girepository/gitypelib.h girepository/gitypes.h girepository/giunioninfo.h girepository/giversionmacros.h girepository/givfuncinfo.h '/usr/include/gobject-introspection-1.0/'
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 m4/introspection.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 docs/g-ir-compiler.1 docs/g-ir-generate.1 docs/g-ir-scanner.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/lib/gobject-introspection'
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner/doctemplates/C'
+ /usr/bin/install -c -m 644  giscanner/doctemplates/C/callback.tmpl giscanner/doctemplates/C/class.tmpl giscanner/doctemplates/C/constructor.tmpl giscanner/doctemplates/C/default.tmpl giscanner/doctemplates/C/enum.tmpl giscanner/doctemplates/C/function.tmpl giscanner/doctemplates/C/field.tmpl giscanner/doctemplates/C/interface.tmpl giscanner/doctemplates/C/method.tmpl giscanner/doctemplates/C/namespace.tmpl giscanner/doctemplates/C/property.tmpl giscanner/doctemplates/C/record.tmpl giscanner/doctemplates/C/signal.tmpl giscanner/doctemplates/C/vfunc.tmpl '/usr/lib/gobject-introspection/giscanner/doctemplates/C'
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner/doctemplates/Python'
+ /usr/bin/install -c -m 644  giscanner/doctemplates/Python/callback.tmpl giscanner/doctemplates/Python/class.tmpl giscanner/doctemplates/Python/constructor.tmpl giscanner/doctemplates/Python/default.tmpl giscanner/doctemplates/Python/enum.tmpl giscanner/doctemplates/Python/function.tmpl giscanner/doctemplates/Python/field.tmpl giscanner/doctemplates/Python/interface.tmpl giscanner/doctemplates/Python/method.tmpl giscanner/doctemplates/Python/namespace.tmpl giscanner/doctemplates/Python/property.tmpl giscanner/doctemplates/Python/record.tmpl giscanner/doctemplates/Python/signal.tmpl giscanner/doctemplates/Python/vfunc.tmpl '/usr/lib/gobject-introspection/giscanner/doctemplates/Python'
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner/doctemplates'
+ /usr/bin/install -c -m 644  giscanner/doctemplates/base.tmpl giscanner/doctemplates/class.tmpl giscanner/doctemplates/namespace.tmpl '/usr/lib/gobject-introspection/giscanner/doctemplates'
+ /bin/mkdir -p '/usr/lib/gobject-introspection/giscanner/doctemplates/Gjs'
+ /usr/bin/install -c -m 644  giscanner/doctemplates/Gjs/callback.tmpl giscanner/doctemplates/Gjs/class.tmpl giscanner/doctemplates/Gjs/constructor.tmpl giscanner/doctemplates/Gjs/default.tmpl giscanner/doctemplates/Gjs/enum.tmpl giscanner/doctemplates/Gjs/function.tmpl giscanner/doctemplates/Gjs/field.tmpl giscanner/doctemplates/Gjs/interface.tmpl giscanner/doctemplates/Gjs/method.tmpl giscanner/doctemplates/Gjs/namespace.tmpl giscanner/doctemplates/Gjs/property.tmpl giscanner/doctemplates/Gjs/record.tmpl giscanner/doctemplates/Gjs/signal.tmpl giscanner/doctemplates/Gjs/vfunc.tmpl '/usr/lib/gobject-introspection/giscanner/doctemplates/Gjs'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gobject-introspection-1.0.pc gobject-introspection-no-export-1.0.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 gir/DBus-1.0.typelib gir/DBusGLib-1.0.typelib gir/fontconfig-2.0.typelib gir/freetype2-2.0.typelib gir/GL-1.0.typelib gir/libxml2-2.0.typelib gir/xft-2.0.typelib gir/xlib-2.0.typelib gir/xfixes-4.0.typelib gir/xrandr-1.3.typelib gir/win32-1.0.typelib gir/cairo-1.0.typelib GLib-2.0.typelib GObject-2.0.typelib GModule-2.0.typelib Gio-2.0.typelib GIRepository-2.0.typelib '/usr/lib/girepository-1.0'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'
+Making install in docs
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/docs'
+Making install in tests
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making install in .
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/gobject-introspection-1.0/tests'
+ /usr/bin/install -c -m 644 everything.c everything.h gimarshallingtests.c gimarshallingtests.h gitestmacros.h '/usr/share/gobject-introspection-1.0/tests'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making install in scanner
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making install in .
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/gobject-introspection-1.0/tests'
+ /usr/bin/install -c -m 644 ./regress.c ./regress.h ./annotation.c ./annotation.h ./foo.c ./foo.h ./drawable.c ./drawable.h ./warnlib.c ./warnlib.h ./utility.c ./utility.h '/usr/share/gobject-introspection-1.0/tests'
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making install in annotationparser
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner/annotationparser'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/scanner'
+Making install in repository
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/repository'
+Making install in offsets
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make  install-am
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[6]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/offsets'
+Making install in warn
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests/warn'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/tests'
+Making install in build
+make[2]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+Making install in win32
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+Making install in vs9
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs9'
+Making install in vs10
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs10'
+Making install in vs11
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs11'
+Making install in vs12
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[5]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build/win32'
+make[3]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[4]: Entering directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[3]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[2]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0/build'
+make[1]: Leaving directory '/sources/7.9/gobject-introspection-1.46.0'

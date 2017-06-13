@@ -1,0 +1,12 @@
+URL=(
+"http://downloads.xiph.org/releases/cdparanoia/cdparanoia-III-10.2.src.tgz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/cdparanoia-III-10.2-gcc_fixes-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

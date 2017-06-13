@@ -1,0 +1,3 @@
+cd js/src
+
+make check

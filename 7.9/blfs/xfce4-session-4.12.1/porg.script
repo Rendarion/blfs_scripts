@@ -1,0 +1,8 @@
+make install
+
+update-desktop-database &&
+update-mime-database
+
+cat > ~/.xinitrc << "EOF"
+ck-launch-session dbus-launch --exit-with-session startxfce4
+EOF

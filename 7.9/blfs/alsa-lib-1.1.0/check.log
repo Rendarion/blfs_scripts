@@ -1,0 +1,221 @@
+Making check in doc
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/doc'
+Making check in pictures
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/doc/pictures'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/doc/pictures'
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/doc'
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/doc'
+Making check in include
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/include'
+Making check in sound
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/include/sound'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/include/sound'
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/include'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/include'
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/include'
+Making check in src
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src'
+Making check in control
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/control'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/control'
+Making check in mixer
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/mixer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/mixer'
+Making check in pcm
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/pcm'
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/pcm'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/pcm'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/pcm'
+Making check in timer
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/timer'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/timer'
+Making check in rawmidi
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/rawmidi'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/rawmidi'
+Making check in hwdep
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/hwdep'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/hwdep'
+Making check in seq
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/seq'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/seq'
+Making check in ucm
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/ucm'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/ucm'
+Making check in topology
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/topology'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/topology'
+Making check in alisp
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/alisp'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/alisp'
+Making check in conf
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf'
+Making check in cards
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/cards'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/cards'
+Making check in pcm
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/pcm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/pcm'
+Making check in alsa.conf.d
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/alsa.conf.d'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/alsa.conf.d'
+Making check in ucm
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm'
+Making check in DAISY-I2S
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/DAISY-I2S'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/DAISY-I2S'
+Making check in PandaBoard
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PandaBoard'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PandaBoard'
+Making check in PandaBoardES
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PandaBoardES'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PandaBoardES'
+Making check in SDP4430
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/SDP4430'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/SDP4430'
+Making check in tegraalc5632
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/tegraalc5632'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/tegraalc5632'
+Making check in PAZ00
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PAZ00'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/PAZ00'
+Making check in GoogleNyan
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/GoogleNyan'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/GoogleNyan'
+Making check in broadwell-rt286
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/broadwell-rt286'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm/broadwell-rt286'
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm'
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/ucm'
+Making check in topology
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology'
+Making check in broadwell
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology/broadwell'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology/broadwell'
+make[4]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology'
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf/topology'
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src/conf'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src/conf'
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src'
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/src'
+Making check in modules
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/modules'
+Making check in mixer
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer'
+Making check in simple
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer/simple'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer/simple'
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/modules/mixer'
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/modules'
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/modules'
+Making check in aserver
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/aserver'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/aserver'
+Making check in alsalisp
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/alsalisp'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/alsalisp'
+Making check in test
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test'
+Making check in .
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test'
+make  control pcm pcm_min latency seq playmidi1 timer rawmidi midiloop oldapi queue_timer namehint client_event_filter chmap audio_time
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test'
+  CC       control.o
+  CCLD     control
+  CC       pcm.o
+  CCLD     pcm
+  CC       pcm_min.o
+  CCLD     pcm_min
+  CC       latency.o
+  CCLD     latency
+  CC       seq.o
+  CCLD     seq
+  CC       playmidi1.o
+  CCLD     playmidi1
+  CC       timer.o
+  CCLD     timer
+  CC       rawmidi.o
+  CCLD     rawmidi
+  CC       midiloop.o
+  CCLD     midiloop
+  CC       oldapi.o
+  CCLD     oldapi
+  CC       queue_timer.o
+  CCLD     queue_timer
+  CC       namehint.o
+  CCLD     namehint
+  CC       client_event_filter.o
+  CCLD     client_event_filter
+  CC       chmap.o
+  CCLD     chmap
+  CC       audio_time.o
+  CCLD     audio_time
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test'
+Making check in lsb
+make[2]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+make  config midi_event
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+  CC       config.o
+  CCLD     config
+  CC       midi_event.o
+  CCLD     midi_event
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+PASS: config
+PASS: midi_event
+==================
+All 2 tests passed
+==================
+make[3]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+make[2]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test/lsb'
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/test'
+Making check in utils
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0/utils'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0/utils'
+make[1]: Entering directory '/sources/7.9/alsa-lib-1.1.0'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/alsa-lib-1.1.0'

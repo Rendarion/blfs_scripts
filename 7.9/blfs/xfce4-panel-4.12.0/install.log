@@ -1,0 +1,1297 @@
+unresolvable dependency: Garcon-0.5.0
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for perl5... no
+checking for perl... perl
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for string.h... (cached) yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for memory.h... (cached) yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for bind_textdomain_codeset... yes
+checking for locale.h... (cached) yes
+checking for LC_MESSAGES... yes
+checking for libintl.h... (cached) yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... (cached) yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  am ar ast be bg bn ca cs da de el en_AU en_GB eo es et eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -lX11... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.9.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for garcon-1 >= 0.1.5... 0.5.0
+checking GARCON_CFLAGS... -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GARCON_LIBS... -lgarcon-1 -lgio-2.0 -lgthread-2.0 -pthread -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for garcon-gtk2-1 >= 0.3.0... 0.5.0
+checking GARCON_GTK2_CFLAGS... -pthread -I/usr/include/garcon-gtk2-1 -I/usr/include/garcon-1 -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GARCON_GTK2_LIBS... -lgarcon-gtk2-1 -lgarcon-1 -lgthread-2.0 -pthread -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4ui-1 >= 4.11.0... 4.12.1
+checking LIBXFCE4UI_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UI_LIBS... -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfconf-0 >= 4.9.0... 4.12.0
+checking XFCONF_CFLAGS... -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking XFCONF_LIBS... -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for exo-1 >= 0.7.2... 0.10.7
+checking EXO_CFLAGS... -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking EXO_LIBS... -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-2.0 >= 2.20.0... 2.24.29
+checking GTK_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for glib-2.0 >= 2.24.0... 2.46.2
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-2.0 >= 2.24.0... 2.46.2
+checking GIO_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gmodule-2.0 >= 2.24.0... 2.46.2
+checking GMODULE_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GMODULE_LIBS... -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for dbus-glib-1 >= 0.73... 0.106
+checking DBUS_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking DBUS_LIBS... -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for cairo >= 1.0.0... 1.14.6
+checking CAIRO_CFLAGS... -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16
+checking CAIRO_LIBS... -lcairo
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libwnck-1.0 >= 2.30... 2.30.7
+checking LIBWNCK_CFLAGS... -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBWNCK_LIBS... -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-3.0 >= 3.2.0... 3.18.7
+checking GTK3_CFLAGS... -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK3_LIBS... -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-unix-2.0 >= 2.24.0... 2.46.2
+checking GIO_UNIX_CFLAGS... -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_UNIX_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking whether to build with debugging support... minimum
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking whether gcc supports the GNUC visibility attribute... yes
+checking if gcc supports -Wno-sign-compare... yes
+checking PLATFORM_CPPFLAGS... 
+checking PLATFORM_CFLAGS... 
+checking PLATFORM_LDFLAGS... 
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating common/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/references/Makefile
+config.status: creating docs/references/version.xml
+config.status: creating icons/Makefile
+config.status: creating icons/16x16/Makefile
+config.status: creating icons/22x22/Makefile
+config.status: creating icons/24x24/Makefile
+config.status: creating icons/32x32/Makefile
+config.status: creating icons/48x48/Makefile
+config.status: creating icons/scalable/Makefile
+config.status: creating libxfce4panel/Makefile
+config.status: creating libxfce4panel/libxfce4panel-1.0.pc
+config.status: creating libxfce4panel/libxfce4panel-2.0.pc
+config.status: creating libxfce4panel/libxfce4panel-config.h
+config.status: creating migrate/Makefile
+config.status: creating migrate/default.xml
+config.status: creating panel/Makefile
+config.status: creating wrapper/Makefile
+config.status: creating plugins/Makefile
+config.status: creating plugins/actions/Makefile
+config.status: creating plugins/actions/actions.desktop.in
+config.status: creating plugins/applicationsmenu/Makefile
+config.status: creating plugins/applicationsmenu/applicationsmenu.desktop.in
+config.status: creating plugins/clock/Makefile
+config.status: creating plugins/clock/clock.desktop.in
+config.status: creating plugins/directorymenu/Makefile
+config.status: creating plugins/directorymenu/directorymenu.desktop.in
+config.status: creating plugins/launcher/Makefile
+config.status: creating plugins/launcher/launcher.desktop.in
+config.status: creating plugins/pager/Makefile
+config.status: creating plugins/pager/pager.desktop.in
+config.status: creating plugins/separator/Makefile
+config.status: creating plugins/separator/separator.desktop.in
+config.status: creating plugins/showdesktop/Makefile
+config.status: creating plugins/showdesktop/showdesktop.desktop.in
+config.status: creating plugins/systray/Makefile
+config.status: creating plugins/systray/systray.desktop.in
+config.status: creating plugins/tasklist/Makefile
+config.status: creating plugins/tasklist/tasklist.desktop.in
+config.status: creating plugins/windowmenu/Makefile
+config.status: creating plugins/windowmenu/windowmenu.desktop.in
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+* Debug Support:          minimum
+* GNU Visibility:         yes
+* GTK+ 3 Support:         yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0'
+Making all in libxfce4panel
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make  all-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+  CC       libxfce4panel_1_0_la-libxfce4panel-aliasdef.lo
+  CC       libxfce4panel_1_0_la-libxfce4panel-enum-types.lo
+  CC       libxfce4panel_1_0_la-libxfce4panel-marshal.lo
+  CC       libxfce4panel_1_0_la-libxfce4panel-config.lo
+  CC       libxfce4panel_1_0_la-xfce-arrow-button.lo
+  CC       libxfce4panel_1_0_la-xfce-hvbox.lo
+  CC       libxfce4panel_1_0_la-xfce-panel-convenience.lo
+  CC       libxfce4panel_1_0_la-xfce-panel-plugin.lo
+  CC       libxfce4panel_1_0_la-xfce-panel-plugin-provider.lo
+  CC       libxfce4panel_1_0_la-xfce-panel-image.lo
+  CCLD     libxfce4panel-1.0.la
+  CC       libxfce4panel_2_0_la-libxfce4panel-aliasdef.lo
+  CC       libxfce4panel_2_0_la-libxfce4panel-enum-types.lo
+  CC       libxfce4panel_2_0_la-libxfce4panel-marshal.lo
+  CC       libxfce4panel_2_0_la-libxfce4panel-config.lo
+  CC       libxfce4panel_2_0_la-xfce-arrow-button.lo
+  CC       libxfce4panel_2_0_la-xfce-panel-convenience.lo
+  CC       libxfce4panel_2_0_la-xfce-panel-plugin.lo
+  CC       libxfce4panel_2_0_la-xfce-panel-plugin-provider.lo
+  CC       libxfce4panel_2_0_la-xfce-panel-image.lo
+  CCLD     libxfce4panel-2.0.la
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+Making all in common
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/common'
+  CC       libpanel_common_la-panel-debug.lo
+  CC       libpanel_common_la-panel-utils.lo
+  CC       libpanel_common_la-panel-xfconf.lo
+  CCLD     libpanel-common.la
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/common'
+Making all in panel
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make  all-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+  CC       xfce4_panel-panel-marshal.o
+  CC       xfce4_panel-main.o
+  CC       xfce4_panel-panel-application.o
+  CC       xfce4_panel-panel-base-window.o
+  CC       xfce4_panel-panel-dbus-client.o
+  CC       xfce4_panel-panel-dbus-service.o
+  CC       xfce4_panel-panel-dialogs.o
+  CC       xfce4_panel-panel-item-dialog.o
+  CC       xfce4_panel-panel-itembar.o
+  CC       xfce4_panel-panel-module.o
+  CC       xfce4_panel-panel-module-factory.o
+  CC       xfce4_panel-panel-plugin-external.o
+  CC       xfce4_panel-panel-plugin-external-wrapper.o
+  CC       xfce4_panel-panel-plugin-external-46.o
+  CC       xfce4_panel-panel-preferences-dialog.o
+  CC       xfce4_panel-panel-tic-tac-toe.o
+  CC       xfce4_panel-panel-window.o
+  CCLD     xfce4-panel
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+Making all in plugins
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+Making all in actions
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+  CC       libactions_la-actions.lo
+  CCLD     libactions.la
+  ITMRG  actions.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+Making all in applicationsmenu
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+  CC       libapplicationsmenu_la-applicationsmenu.lo
+  CCLD     libapplicationsmenu.la
+  GEN      xfce4-popup-applicationsmenu
+  ITMRG  applicationsmenu.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+Making all in clock
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+  CC       libclock_la-clock.lo
+  CC       libclock_la-clock-time.lo
+  CC       libclock_la-clock-analog.lo
+  CC       libclock_la-clock-binary.lo
+  CC       libclock_la-clock-digital.lo
+  CC       libclock_la-clock-fuzzy.lo
+  CC       libclock_la-clock-lcd.lo
+  CCLD     libclock.la
+  ITMRG  clock.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+Making all in directorymenu
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+  CC       libdirectorymenu_la-directorymenu.lo
+  CCLD     libdirectorymenu.la
+  GEN      xfce4-popup-directorymenu
+  ITMRG  directorymenu.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+Making all in launcher
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+  CC       liblauncher_la-launcher.lo
+  CC       liblauncher_la-launcher-dialog.lo
+  CCLD     liblauncher.la
+  ITMRG  launcher.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+Making all in pager
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+  CC       libpager_la-pager.lo
+  CC       libpager_la-pager-buttons.lo
+  CCLD     libpager.la
+  ITMRG  pager.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+Making all in separator
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+  CC       libseparator_la-separator.lo
+  CCLD     libseparator.la
+  ITMRG  separator.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+Making all in showdesktop
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+  CC       libshowdesktop_la-showdesktop.lo
+  CCLD     libshowdesktop.la
+  ITMRG  showdesktop.desktop
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+Making all in systray
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+  CC       libsystray_la-systray-marshal.lo
+  CC       libsystray_la-systray.lo
+  CC       libsystray_la-systray-box.lo
+  CC       libsystray_la-systray-manager.lo
+  CC       libsystray_la-systray-socket.lo
+  CCLD     libsystray.la
+  ITMRG  systray.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+Making all in tasklist
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+  CC       libtasklist_la-tasklist.lo
+  CC       libtasklist_la-tasklist-widget.lo
+  CCLD     libtasklist.la
+  ITMRG  tasklist.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+Making all in windowmenu
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make  all-am
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+  CC       libwindowmenu_la-windowmenu.lo
+  CCLD     libwindowmenu.la
+  GEN      xfce4-popup-windowmenu
+  ITMRG  windowmenu.desktop
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+Making all in wrapper
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make  all-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+  CC       wrapper_1_0-main.o
+  CC       wrapper_1_0-wrapper-module.o
+  CC       wrapper_1_0-wrapper-plug.o
+  CCLD     wrapper-1.0
+  CC       wrapper_2_0-main.o
+  CC       wrapper_2_0-wrapper-module.o
+  CC       wrapper_2_0-wrapper-plug.o
+  CCLD     wrapper-2.0
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+Making all in migrate
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+  CC       migrate-main.o
+  CC       migrate-migrate-46.o
+  CC       migrate-migrate-config.o
+  CC       migrate-migrate-default.o
+  CCLD     migrate
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+Making all in references
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+Making all in icons
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+Making all in 16x16
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+Making all in 22x22
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+Making all in 24x24
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+Making all in 32x32
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+Making all in 48x48
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+Making all in scalable
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+Making all in po
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/po'
+  MSGFMT am.gmo
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/po'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0'
+  ITMRG  panel-desktop-handler.desktop
+  ITMRG  panel-preferences.desktop
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0'
+Making install in libxfce4panel
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make  install-am
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxfce4panel-1.0.la libxfce4panel-2.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxfce4panel-1.0.so.4.0.0 /usr/lib/libxfce4panel-1.0.so.4.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4panel-1.0.so.4.0.0 libxfce4panel-1.0.so.4 || { rm -f libxfce4panel-1.0.so.4 && ln -s libxfce4panel-1.0.so.4.0.0 libxfce4panel-1.0.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4panel-1.0.so.4.0.0 libxfce4panel-1.0.so || { rm -f libxfce4panel-1.0.so && ln -s libxfce4panel-1.0.so.4.0.0 libxfce4panel-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4panel-1.0.lai /usr/lib/libxfce4panel-1.0.la
+libtool: install: /usr/bin/install -c .libs/libxfce4panel-2.0.so.4.0.0 /usr/lib/libxfce4panel-2.0.so.4.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4panel-2.0.so.4.0.0 libxfce4panel-2.0.so.4 || { rm -f libxfce4panel-2.0.so.4 && ln -s libxfce4panel-2.0.so.4.0.0 libxfce4panel-2.0.so.4; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4panel-2.0.so.4.0.0 libxfce4panel-2.0.so || { rm -f libxfce4panel-2.0.so && ln -s libxfce4panel-2.0.so.4.0.0 libxfce4panel-2.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4panel-2.0.lai /usr/lib/libxfce4panel-2.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4panel-2.0/libxfce4panel'
+ /usr/bin/install -c -m 644 libxfce4panel-enum-types.h libxfce4panel.h libxfce4panel-config.h libxfce4panel-enums.h xfce-arrow-button.h xfce-panel-convenience.h xfce-panel-macros.h xfce-panel-macros-46.h xfce-panel-plugin.h xfce-panel-plugin-provider.h xfce-panel-image.h '/usr/include/xfce4/libxfce4panel-2.0/libxfce4panel'
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4panel-1.0/libxfce4panel'
+ /usr/bin/install -c -m 644 libxfce4panel-enum-types.h libxfce4panel.h libxfce4panel-config.h libxfce4panel-enums.h xfce-arrow-button.h xfce-panel-convenience.h xfce-panel-macros.h xfce-panel-macros-46.h xfce-panel-plugin.h xfce-panel-plugin-provider.h xfce-panel-image.h xfce-hvbox.h '/usr/include/xfce4/libxfce4panel-1.0/libxfce4panel'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxfce4panel-1.0.pc libxfce4panel-2.0.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/libxfce4panel'
+Making install in common
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/common'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/common'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/common'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/common'
+Making install in panel
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make  install-am
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c xfce4-panel '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xfce4-panel /usr/bin/xfce4-panel
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/panel'
+Making install in plugins
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+Making install in actions
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 actions.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libactions.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/actions; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libactions.la -rpath /usr/lib/xfce4/panel/plugins libactions_la-actions.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libactions.soT /usr/lib/xfce4/panel/plugins/libactions.so
+libtool: install: /usr/bin/install -c .libs/libactions.lai /usr/lib/xfce4/panel/plugins/libactions.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/actions'
+Making install in applicationsmenu
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xfce4-popup-applicationsmenu '/usr/bin'
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 applicationsmenu.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libapplicationsmenu.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-gtk2-1 -I/usr/include/garcon-1 -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libapplicationsmenu.la -rpath /usr/lib/xfce4/panel/plugins libapplicationsmenu_la-applicationsmenu.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgarcon-1 -lgio-2.0 -lgthread-2.0 -pthread -lgobject-2.0 -lglib-2.0 -lgarcon-gtk2-1 -lgarcon-1 -lgthread-2.0 -pthread -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libapplicationsmenu.soT /usr/lib/xfce4/panel/plugins/libapplicationsmenu.so
+libtool: install: /usr/bin/install -c .libs/libapplicationsmenu.lai /usr/lib/xfce4/panel/plugins/libapplicationsmenu.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/applicationsmenu'
+Making install in clock
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 clock.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libclock.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/clock; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libclock.la -rpath /usr/lib/xfce4/panel/plugins libclock_la-clock.lo libclock_la-clock-time.lo libclock_la-clock-analog.lo libclock_la-clock-binary.lo libclock_la-clock-digital.lo libclock_la-clock-fuzzy.lo libclock_la-clock-lcd.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lcairo -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 -lm )
+libtool: install: /usr/bin/install -c .libs/libclock.soT /usr/lib/xfce4/panel/plugins/libclock.so
+libtool: install: /usr/bin/install -c .libs/libclock.lai /usr/lib/xfce4/panel/plugins/libclock.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/clock'
+Making install in directorymenu
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xfce4-popup-directorymenu '/usr/bin'
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 directorymenu.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libdirectorymenu.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libdirectorymenu.la -rpath /usr/lib/xfce4/panel/plugins libdirectorymenu_la-directorymenu.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libdirectorymenu.soT /usr/lib/xfce4/panel/plugins/libdirectorymenu.so
+libtool: install: /usr/bin/install -c .libs/libdirectorymenu.lai /usr/lib/xfce4/panel/plugins/libdirectorymenu.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/directorymenu'
+Making install in launcher
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 launcher.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   liblauncher.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/launcher; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/garcon-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o liblauncher.la -rpath /usr/lib/xfce4/panel/plugins liblauncher_la-launcher.lo liblauncher_la-launcher-dialog.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgarcon-1 -lgio-2.0 -lgthread-2.0 -pthread -lgobject-2.0 -lglib-2.0 -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/liblauncher.soT /usr/lib/xfce4/panel/plugins/liblauncher.so
+libtool: install: /usr/bin/install -c .libs/liblauncher.lai /usr/lib/xfce4/panel/plugins/liblauncher.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/launcher'
+Making install in pager
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 pager.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libpager.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/pager; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libpager.la -rpath /usr/lib/xfce4/panel/plugins libpager_la-pager.lo libpager_la-pager-buttons.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libpager.soT /usr/lib/xfce4/panel/plugins/libpager.so
+libtool: install: /usr/bin/install -c .libs/libpager.lai /usr/lib/xfce4/panel/plugins/libpager.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/pager'
+Making install in separator
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 separator.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libseparator.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/separator; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libseparator.la -rpath /usr/lib/xfce4/panel/plugins libseparator_la-separator.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lcairo -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libseparator.soT /usr/lib/xfce4/panel/plugins/libseparator.so
+libtool: install: /usr/bin/install -c .libs/libseparator.lai /usr/lib/xfce4/panel/plugins/libseparator.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/separator'
+Making install in showdesktop
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 showdesktop.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libshowdesktop.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libshowdesktop.la -rpath /usr/lib/xfce4/panel/plugins libshowdesktop_la-showdesktop.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype )
+libtool: install: /usr/bin/install -c .libs/libshowdesktop.soT /usr/lib/xfce4/panel/plugins/libshowdesktop.so
+libtool: install: /usr/bin/install -c .libs/libshowdesktop.lai /usr/lib/xfce4/panel/plugins/libshowdesktop.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/showdesktop'
+Making install in systray
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 systray.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libsystray.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/systray; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libsystray.la -rpath /usr/lib/xfce4/panel/plugins libsystray_la-systray-marshal.lo libsystray_la-systray.lo libsystray_la-systray-box.lo libsystray_la-systray-manager.lo libsystray_la-systray-socket.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lSM -lICE -lX11 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libsystray.soT /usr/lib/xfce4/panel/plugins/libsystray.so
+libtool: install: /usr/bin/install -c .libs/libsystray.lai /usr/lib/xfce4/panel/plugins/libsystray.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/systray'
+Making install in tasklist
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 tasklist.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libtasklist.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/tasklist; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libtasklist.la -rpath /usr/lib/xfce4/panel/plugins libtasklist_la-tasklist.lo libtasklist_la-tasklist-widget.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lSM -lICE -lX11 -lXext -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libtasklist.soT /usr/lib/xfce4/panel/plugins/libtasklist.so
+libtool: install: /usr/bin/install -c .libs/libtasklist.lai /usr/lib/xfce4/panel/plugins/libtasklist.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/tasklist'
+Making install in windowmenu
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make  install-am
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xfce4-popup-windowmenu '/usr/bin'
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 windowmenu.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libwindowmenu.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: (cd /sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu; /bin/sh "/sources/7.9/xfce4-panel-4.12.0/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/libwnck-1.0 -I/usr/include/startup-notification-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -module -no-undefined -export-symbols-regex "^xfce_panel_module_(preinit|init|construct)" -Wl,--as-needed -Wl,-O1 -o libwindowmenu.la -rpath /usr/lib/xfce4/panel/plugins libwindowmenu_la-windowmenu.lo ../../libxfce4panel/libxfce4panel-1.0.la ../../common/libpanel-common.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lwnck-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libwindowmenu.soT /usr/lib/xfce4/panel/plugins/libwindowmenu.so
+libtool: install: /usr/bin/install -c .libs/libwindowmenu.lai /usr/lib/xfce4/panel/plugins/libwindowmenu.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins/windowmenu'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/plugins'
+Making install in wrapper
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make  install-am
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/xfce4/panel'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c wrapper-1.0 wrapper-2.0 '/usr/lib/xfce4/panel'
+libtool: install: /usr/bin/install -c .libs/wrapper-1.0 /usr/lib/xfce4/panel/wrapper-1.0
+libtool: install: /usr/bin/install -c .libs/wrapper-2.0 /usr/lib/xfce4/panel/wrapper-2.0
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/wrapper'
+Making install in migrate
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/etc/xdg/xfce4/panel'
+ /usr/bin/install -c -m 644 default.xml '/etc/xdg/xfce4/panel'
+ /bin/mkdir -p '/usr/lib/xfce4/panel'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c migrate '/usr/lib/xfce4/panel'
+libtool: install: /usr/bin/install -c .libs/migrate /usr/lib/xfce4/panel/migrate
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/migrate'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+Making install in references
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/api-index-4-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-4-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Commonly-used-plugin-macros.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Convenience-Functions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel.devhelp2
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-fundamentals.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-GObject-Oriented-Panel-Plugin-Registers-Macros.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-miscelleanous.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Panel-Plugin-Register-Macros-(4.6-Style).html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Panel-Plugin-Register-Macros.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-plugins.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Standard-Enumerations.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-Version-Information.html
+ /usr/bin/install -c -m 644 ./html/libxfce4panel-widgets.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/XfceArrowButton.html
+ /usr/bin/install -c -m 644 ./html/XfceHVBox.html
+ /usr/bin/install -c -m 644 ./html/XfcePanelImage.html
+ /usr/bin/install -c -m 644 ./html/XfcePanelPlugin.html
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs/references'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/docs'
+Making install in icons
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+Making install in 16x16
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/16x16/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.png xfce4-panel-menu.png '/usr/share/icons/hicolor/16x16/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/16x16'
+Making install in 22x22
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/22x22/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.png xfce4-panel-menu.png '/usr/share/icons/hicolor/22x22/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/22x22'
+Making install in 24x24
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/24x24/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.png xfce4-panel-menu.png '/usr/share/icons/hicolor/24x24/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/24x24'
+Making install in 32x32
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/32x32/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.png xfce4-panel-menu.png '/usr/share/icons/hicolor/32x32/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/32x32'
+Making install in 48x48
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.png xfce4-panel-menu.png '/usr/share/icons/hicolor/48x48/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/48x48'
+Making install in scalable
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/scalable/apps'
+ /usr/bin/install -c -m 644 xfce4-panel.svg '/usr/share/icons/hicolor/scalable/apps'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons/scalable'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[3]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+Updating Gtk icon cache.
+make[4]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[3]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/icons'
+Making install in po
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0/po'
+linguas="am ar ast be bg bn ca cs da de el en_AU en_GB eo es et eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/xfce4-panel-4.12.0/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/xfce4-panel.mo; \
+    echo "installing $lang.gmo as $dir/xfce4-panel.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/xfce4-panel.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/xfce4-panel.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/xfce4-panel.mo.m; \
+    echo "installing $lang.gmo.m as $dir/xfce4-panel.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/xfce4-panel.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/xfce4-panel.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/xfce4-panel.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/xfce4-panel.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/xfce4-panel.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/xfce4-panel.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/xfce4-panel.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/xfce4-panel.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/xfce4-panel.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/xfce4-panel.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/xfce4-panel.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/xfce4-panel.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/xfce4-panel.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/xfce4-panel.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/xfce4-panel.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/xfce4-panel.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/xfce4-panel.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/xfce4-panel.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/xfce4-panel.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/xfce4-panel.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/xfce4-panel.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/xfce4-panel.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/xfce4-panel.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/xfce4-panel.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/xfce4-panel.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/xfce4-panel.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/xfce4-panel.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/xfce4-panel.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/xfce4-panel.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/xfce4-panel.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/xfce4-panel.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/xfce4-panel.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/xfce4-panel.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/xfce4-panel.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/xfce4-panel.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/xfce4-panel.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/xfce4-panel.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/xfce4-panel.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/xfce4-panel.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/xfce4-panel.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/xfce4-panel.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/xfce4-panel.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/xfce4-panel.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/xfce4-panel.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/xfce4-panel.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/xfce4-panel.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/xfce4-panel.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/xfce4-panel.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/xfce4-panel.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/xfce4-panel.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/xfce4-panel.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/xfce4-panel.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/xfce4-panel.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/xfce4-panel.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/xfce4-panel.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/xfce4-panel.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/xfce4-panel.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/xfce4-panel.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/xfce4-panel.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/xfce4-panel.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/xfce4-panel.mo
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0/po'
+make[1]: Entering directory '/sources/7.9/xfce4-panel-4.12.0'
+make[2]: Entering directory '/sources/7.9/xfce4-panel-4.12.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 panel-desktop-handler.desktop panel-preferences.desktop '/usr/share/applications'
+make[2]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0'
+make[1]: Leaving directory '/sources/7.9/xfce4-panel-4.12.0'

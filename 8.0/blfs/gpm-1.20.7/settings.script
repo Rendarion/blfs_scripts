@@ -1,0 +1,11 @@
+URL=(
+"http://www.nico.schottelius.org/software/gpm/archives/gpm-1.20.7.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

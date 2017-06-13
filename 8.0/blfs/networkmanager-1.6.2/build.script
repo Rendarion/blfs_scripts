@@ -1,0 +1,14 @@
+sed -e '/Qt[CDN]/s/Qt/Qt5/g'       \
+    -e 's/moc_location/host_bins/' \
+    -i configure
+
+CXXFLAGS="-O2 -fPIC"                       \
+./configure --prefix=/usr                  \
+            --sysconfdir=/etc              \
+            --localstatedir=/var           \
+            --with-nmtui                   \
+            --disable-ppp                  \
+            --disable-json-validation      \
+            --with-systemdsystemunitdir=no \
+            --docdir=/usr/share/doc/network-manager-1.6.2 &&
+make

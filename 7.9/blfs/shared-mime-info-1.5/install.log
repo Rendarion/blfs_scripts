@@ -1,0 +1,374 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for an ANSI C-conforming const... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for fdatasync... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ALL... yes
+checking for GIO... yes
+checking for xmllint... /usr/bin/xmllint
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating shared-mime-info.pc
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+  GEN      create-pot
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+make[1]: 'shared-mime-info.pot' is up to date.
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+  ITMRG  freedesktop.org.xml
+  CC       update_mime_database-update-mime-database.o
+  CCLD     update-mime-database
+Making check in .
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+  CC       test_subclassing-test-subclassing.o
+  CCLD     test-subclassing
+  CC       test_tree_magic-test-tree-magic.o
+  CCLD     test-tree-magic
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+Making check in po
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+  MSGFMT ar.gmo
+  MSGFMT as.gmo
+  MSGFMT az.gmo
+  MSGFMT be@latin.gmo
+  MSGFMT bg.gmo
+  MSGFMT bg_BG.gmo
+  MSGFMT bn_IN.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT cy.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fa_IR.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT fo.gmo
+  MSGFMT ga.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT ia.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT ka.gmo
+  MSGFMT kk.gmo
+  MSGFMT kn.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT rw.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT uk.gmo
+  MSGFMT vi.gmo
+  MSGFMT wa.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+if test -e ./freedesktop.org.xml; then \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+else \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+fi; \
+if test -d .git/ && test -x ./update-mime-database && test -d ./mime-db-tests ; then \
+	./update-mime-database mime-db-tests/ ; \
+fi
+if test -d .git/ && test -x ../xdgmime/src/test-mime-data && test -x ./test-tree-magic ; then \
+	mkdir -p ./temp-mime-dir/mime/packages ; \
+	cp -a ./freedesktop.org.xml ./temp-mime-dir/mime/packages/ ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./update-mime-database "./temp-mime-dir/mime/" ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v tests/list || XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime || (XDG_DATA_DIRS="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v -v tests/list ; exit 1); \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./test-tree-magic tests/tree-list || exit 1; \
+	rm -rf "./temp-mime-dir/" ; \
+fi
+Number of mime-types that might need generic-icon: 438
+Number of mime-types with a generic icon: 346
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+Making all in .
+make[2]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+make[2]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+Making all in po
+make[2]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+  GEN      create-pot
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+make[1]: 'shared-mime-info.pot' is up to date.
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+Making check in .
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+Making check in po
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+if test -e ./freedesktop.org.xml; then \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+else \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+fi; \
+if test -d .git/ && test -x ./update-mime-database && test -d ./mime-db-tests ; then \
+	./update-mime-database mime-db-tests/ ; \
+fi
+if test -d .git/ && test -x ../xdgmime/src/test-mime-data && test -x ./test-tree-magic ; then \
+	mkdir -p ./temp-mime-dir/mime/packages ; \
+	cp -a ./freedesktop.org.xml ./temp-mime-dir/mime/packages/ ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./update-mime-database "./temp-mime-dir/mime/" ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v tests/list || XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime || (XDG_DATA_DIRS="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v -v tests/list ; exit 1); \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./test-tree-magic tests/tree-list || exit 1; \
+	rm -rf "./temp-mime-dir/" ; \
+fi
+Number of mime-types that might need generic-icon: 438
+Number of mime-types with a generic icon: 346
+Making install in .
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+make[2]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c update-mime-database '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 update-mime-database.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/mime/packages'
+ /usr/bin/install -c -m 644 freedesktop.org.xml '/usr/share/mime/packages'
+ /bin/mkdir -p '/usr/share/pkgconfig'
+ /usr/bin/install -c -m 644 shared-mime-info.pc '/usr/share/pkgconfig'
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c update-mime-database '/usr/bin'
+"./update-mime-database" -V "/usr/share/mime"
+Updating MIME database in /usr/share/mime...
+
+Wrote 1013 strings at 2c - 591c
+
+Wrote aliases at 591c - 60c0
+
+Wrote parents at 60c0 - 7798
+
+Wrote literal globs at 7798 - 7874
+
+Wrote suffix globs at 7874 - 11518
+
+Wrote full globs at 11518 - 11558
+
+Wrote magic at 11558 - 1c370
+
+Wrote namespace list at 1c370 - 1c494
+
+Wrote icons list at 1c494 - 1c498
+
+Wrote generic icons list at 1c498 - 1cf6c
+
+Wrote types list at 1cf6c - 1dacc
+
+make[3]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+make[2]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+Making install in po
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+linguas="ar as az be@latin bg bg_BG bn_IN ca ca@valencia cs cy da de el en_GB eo es et eu fa fa_IR fi fr fo ga gl gu he hi hr hu ia id it ja ka kk kn ko lt lv ml mr ms nb nl nn oc or pa pl pt pt_BR ro ru rw sk sl sq sr sr@latin sv ta te th tr uk vi wa zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/shared-mime-info-1.5/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/shared-mime-info.mo; \
+    echo "installing $lang.gmo as $dir/shared-mime-info.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/shared-mime-info.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/shared-mime-info.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/shared-mime-info.mo.m; \
+    echo "installing $lang.gmo.m as $dir/shared-mime-info.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/shared-mime-info.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/shared-mime-info.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/shared-mime-info.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/shared-mime-info.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/shared-mime-info.mo
+installing be@latin.gmo as /usr/share/locale/be@latin/LC_MESSAGES/shared-mime-info.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/shared-mime-info.mo
+installing bg_BG.gmo as /usr/share/locale/bg_BG/LC_MESSAGES/shared-mime-info.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/shared-mime-info.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/shared-mime-info.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/shared-mime-info.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/shared-mime-info.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/shared-mime-info.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/shared-mime-info.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/shared-mime-info.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/shared-mime-info.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/shared-mime-info.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/shared-mime-info.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/shared-mime-info.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/shared-mime-info.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/shared-mime-info.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/shared-mime-info.mo
+installing fa_IR.gmo as /usr/share/locale/fa_IR/LC_MESSAGES/shared-mime-info.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/shared-mime-info.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/shared-mime-info.mo
+installing fo.gmo as /usr/share/locale/fo/LC_MESSAGES/shared-mime-info.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/shared-mime-info.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/shared-mime-info.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/shared-mime-info.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/shared-mime-info.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/shared-mime-info.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/shared-mime-info.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/shared-mime-info.mo
+installing ia.gmo as /usr/share/locale/ia/LC_MESSAGES/shared-mime-info.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/shared-mime-info.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/shared-mime-info.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/shared-mime-info.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/shared-mime-info.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/shared-mime-info.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/shared-mime-info.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/shared-mime-info.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/shared-mime-info.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/shared-mime-info.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/shared-mime-info.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/shared-mime-info.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/shared-mime-info.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/shared-mime-info.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/shared-mime-info.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/shared-mime-info.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/shared-mime-info.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/shared-mime-info.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/shared-mime-info.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/shared-mime-info.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/shared-mime-info.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/shared-mime-info.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/shared-mime-info.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/shared-mime-info.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/shared-mime-info.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/shared-mime-info.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/shared-mime-info.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/shared-mime-info.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/shared-mime-info.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/shared-mime-info.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/shared-mime-info.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/shared-mime-info.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/shared-mime-info.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/shared-mime-info.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/shared-mime-info.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/shared-mime-info.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/shared-mime-info.mo
+installing wa.gmo as /usr/share/locale/wa/LC_MESSAGES/shared-mime-info.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/shared-mime-info.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/shared-mime-info.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/shared-mime-info.mo
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'

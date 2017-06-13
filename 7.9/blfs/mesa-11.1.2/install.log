@@ -1,0 +1,8 @@
+unresolvable dependency: Xorg Libraries and libdrm-2.4.66
+patching file xdemos/glinfo_common.c
+patching file xdemos/glinfo_common.h
+patching file xdemos/glxgears.1
+patching file xdemos/glxgears.c
+patching file xdemos/glxinfo.1
+patching file xdemos/glxinfo.c
+patching file xdemos/Makefile

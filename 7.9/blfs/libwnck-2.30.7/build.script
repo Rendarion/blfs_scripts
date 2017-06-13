@@ -1,0 +1,4 @@
+./configure --prefix=/usr \
+            --disable-static \
+            --program-suffix=-1 &&
+make GETTEXT_PACKAGE=libwnck-1

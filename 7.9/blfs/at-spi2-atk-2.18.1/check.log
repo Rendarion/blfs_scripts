@@ -1,0 +1,32 @@
+Making check in droute
+make[1]: Entering directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+make  droute-test
+make[2]: Entering directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+  CC       droute_test-droute-test.o
+  CCLD     droute-test
+make[2]: Leaving directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+make[3]: Entering directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+FAIL: droute-test
+============================================================================
+Testsuite summary for at-spi2-atk 2.18.1
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See droute/test-suite.log
+Please report to accessibility-atspi@lists.linux-foundation.org
+============================================================================
+Makefile:761: recipe for target 'test-suite.log' failed
+make[3]: Leaving directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+Makefile:867: recipe for target 'check-TESTS' failed
+make[2]: Leaving directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+Makefile:940: recipe for target 'check-am' failed
+make[1]: Leaving directory '/sources/7.9/at-spi2-atk-2.18.1/droute'
+Makefile:506: recipe for target 'check-recursive' failed

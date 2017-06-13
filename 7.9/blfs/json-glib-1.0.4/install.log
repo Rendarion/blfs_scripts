@@ -1,0 +1,752 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.0.0... yes (version 2.46.2)
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking if building for some Win32 platform... no
+checking for -Bsymbolic-functions linker flag... yes
+checking for -fvisibility=hidden compiler flag... yes
+checking for JSON... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for xsltproc... /usr/bin/xsltproc
+checking for XML catalog (/etc/xml/catalog)... found
+checking for xmlcatalog... /usr/bin/xmlcatalog
+checking for DocBook XML DTD V4.1.2 in XML catalog... found
+checking for DocBook XSL Stylesheets in XML catalog... found
+checking whether to generate man pages... yes
+checking for gobject-introspection... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for linguas... as bg bn_IN bs ca ca@valencia cs da de el en_GB eo es et eu fr fur gl he hi hu id it ja ko ky lt lv ml nb or pa pl pt pt_BR ru sk sl sr sr@latin sv te tg tr ug uk vi zh_CN zh_HK zh_TW 
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating build/Makefile
+config.status: creating build/autotools/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/config.h.win32
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating json-glib/Makefile
+config.status: creating json-glib/json-glib.pc
+config.status: creating json-glib/json-version.h
+config.status: creating json-glib/tests/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+ Json-GLib - 1.0.4 (release)
+
+ • Prefix: /usr
+
+ • Debug level: minimum
+ • Compiler flags: -g -O2 
+
+ • API reference: no
+ • Manual pages: yes
+
+ • Install tests: 
+ • Build introspection data: yes
+ • Enable test coverage: no
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4'
+Making all in json-glib
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+  GEN      stamp-enum-types
+  GEN      stamp-marshal
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making all in .
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+  CC       libjson_glib_1_0_la-json-array.lo
+  CC       libjson_glib_1_0_la-json-builder.lo
+  CC       libjson_glib_1_0_la-json-debug.lo
+  CC       libjson_glib_1_0_la-json-gboxed.lo
+  CC       libjson_glib_1_0_la-json-generator.lo
+  CC       libjson_glib_1_0_la-json-gobject.lo
+  CC       libjson_glib_1_0_la-json-gvariant.lo
+  CC       libjson_glib_1_0_la-json-node.lo
+  CC       libjson_glib_1_0_la-json-object.lo
+  CC       libjson_glib_1_0_la-json-parser.lo
+  CC       libjson_glib_1_0_la-json-path.lo
+  CC       libjson_glib_1_0_la-json-reader.lo
+  CC       libjson_glib_1_0_la-json-scanner.lo
+  CC       libjson_glib_1_0_la-json-serializable.lo
+  CC       libjson_glib_1_0_la-json-value.lo
+  CC       libjson_glib_1_0_la-json-enum-types.lo
+  CC       libjson_glib_1_0_la-json-marshal.lo
+  CCLD     libjson-glib-1.0.la
+  CC       json_glib_validate-json-glib-validate.o
+  CCLD     json-glib-validate
+  CC       json_glib_format-json-glib-format.o
+  CCLD     json-glib-format
+  GISCAN   Json-1.0.gir
+  GEN      json-glib-1.0.pc
+  GICOMP   Json-1.0.gir
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making all in tests
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+  GEN      .gitignore
+make  all-am
+make[5]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/doc'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc'
+Making all in build
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/build'
+Making all in autotools
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/build'
+Making all in po
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/po'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/po'
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4'
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4'
+Making check in json-glib
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making check in .
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make  check-am
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make     array boxed builder generator gvariant invalid node object parser path reader serialize-simple serialize-complex serialize-full  \
+                 stream-load.json   
+make[5]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+  CC       array.o
+  CCLD     array
+  CC       boxed.o
+  CCLD     boxed
+  CC       builder.o
+  CCLD     builder
+  CC       generator.o
+  CCLD     generator
+  CC       gvariant.o
+  CCLD     gvariant
+  CC       invalid.o
+  CCLD     invalid
+  CC       node.o
+  CCLD     node
+  CC       object.o
+  CCLD     object
+  CC       parser.o
+  CCLD     parser
+  CC       path.o
+  CCLD     path
+  CC       reader.o
+  CCLD     reader
+  CC       serialize-simple.o
+  CCLD     serialize-simple
+  CC       serialize-complex.o
+  CCLD     serialize-complex
+  CC       serialize-full.o
+  CCLD     serialize-full
+make[5]: Nothing to be done for 'stream-load.json'.
+make[5]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[6]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+PASS: array 1 /array/empty-array
+PASS: array 2 /array/add-element
+PASS: array 3 /array/remove-element
+PASS: array 4 /array/foreach-element
+PASS: boxed 1 /boxed/serialize-property
+PASS: boxed 2 /boxed/deserialize-property
+ERROR: builder - missing test plan
+ERROR: builder - exited with status 133 (terminated by signal 5?)
+PASS: generator 1 /generator/empty-array
+PASS: generator 2 /generator/empty-object
+PASS: generator 3 /generator/simple-array
+PASS: generator 4 /generator/nested-array
+PASS: generator 5 /generator/simple-object
+PASS: generator 6 /generator/nested-object
+PASS: generator 7 /generator/decimal-separator
+PASS: generator 8 /generator/pretty
+PASS: generator 9 /generator/string/abc
+PASS: generator 10 /generator/string/a\177xc
+PASS: generator 11 /generator/string/a\033xc
+PASS: generator 12 /generator/string/a\nxc
+PASS: generator 13 /generator/string/a\\xc
+PASS: generator 14 /generator/string/Barney B\303\244r
+PASS: gvariant 1 /gvariant/to-json/boolean
+PASS: gvariant 2 /gvariant/to-json/byte
+PASS: gvariant 3 /gvariant/to-json/int16
+PASS: gvariant 4 /gvariant/to-json/uint16
+PASS: gvariant 5 /gvariant/to-json/int32
+PASS: gvariant 6 /gvariant/to-json/uint32
+PASS: gvariant 7 /gvariant/to-json/int64
+PASS: gvariant 8 /gvariant/to-json/uint64
+PASS: gvariant 9 /gvariant/to-json/handle
+PASS: gvariant 10 /gvariant/to-json/double
+PASS: gvariant 11 /gvariant/to-json/double-whole
+PASS: gvariant 12 /gvariant/to-json/string
+PASS: gvariant 13 /gvariant/to-json/object-path
+PASS: gvariant 14 /gvariant/to-json/signature
+PASS: gvariant 15 /gvariant/to-json/tuple
+PASS: gvariant 16 /gvariant/to-json/deep-nesting
+PASS: gvariant 17 /gvariant/to-json/mixed1
+PASS: gvariant 18 /gvariant/to-json/mixed2
+PASS: gvariant 19 /gvariant/to-json/maybe/simple/null
+PASS: gvariant 20 /gvariant/to-json/maybe/simple/string
+PASS: gvariant 21 /gvariant/to-json/maybe/container/null
+PASS: gvariant 22 /gvariant/to-json/maybe/container/tuple
+PASS: gvariant 23 /gvariant/to-json/maybe/variant/boolean
+PASS: gvariant 24 /gvariant/to-json/array/empty
+PASS: gvariant 25 /gvariant/to-json/array/byte
+PASS: gvariant 26 /gvariant/to-json/array/string
+PASS: gvariant 27 /gvariant/to-json/array/variant
+PASS: gvariant 28 /gvariant/to-json/array/array/int32
+PASS: gvariant 29 /gvariant/to-json/dictionary/empty
+PASS: gvariant 30 /gvariant/to-json/dictionary/single-entry
+PASS: gvariant 31 /gvariant/to-json/dictionary/string-int32
+PASS: gvariant 32 /gvariant/to-json/dictionary/string-variant
+PASS: gvariant 33 /gvariant/to-json/dictionary/int64-variant
+PASS: gvariant 34 /gvariant/to-json/dictionary/uint64-boolean
+PASS: gvariant 35 /gvariant/to-json/dictionary/boolean-variant
+PASS: gvariant 36 /gvariant/to-json/dictionary/double-string
+PASS: gvariant 37 /gvariant/to-json/variant/string
+PASS: gvariant 38 /gvariant/to-json/variant/dictionary
+PASS: gvariant 39 /gvariant/to-json/variant/maybe/null
+PASS: gvariant 40 /gvariant/to-json/variant/variant/array
+PASS: gvariant 41 /gvariant/from-json/boolean
+PASS: gvariant 42 /gvariant/from-json/byte
+PASS: gvariant 43 /gvariant/from-json/int16
+PASS: gvariant 44 /gvariant/from-json/uint16
+PASS: gvariant 45 /gvariant/from-json/int32
+PASS: gvariant 46 /gvariant/from-json/uint32
+PASS: gvariant 47 /gvariant/from-json/int64
+PASS: gvariant 48 /gvariant/from-json/uint64
+PASS: gvariant 49 /gvariant/from-json/handle
+PASS: gvariant 50 /gvariant/from-json/double
+PASS: gvariant 51 /gvariant/from-json/double-whole
+PASS: gvariant 52 /gvariant/from-json/string
+PASS: gvariant 53 /gvariant/from-json/object-path
+PASS: gvariant 54 /gvariant/from-json/signature
+PASS: gvariant 55 /gvariant/from-json/tuple
+PASS: gvariant 56 /gvariant/from-json/deep-nesting
+PASS: gvariant 57 /gvariant/from-json/mixed1
+PASS: gvariant 58 /gvariant/from-json/mixed2
+PASS: gvariant 59 /gvariant/from-json/string-to-boolean
+PASS: gvariant 60 /gvariant/from-json/string-to-byte
+PASS: gvariant 61 /gvariant/from-json/string-to-int16
+PASS: gvariant 62 /gvariant/from-json/string-to-uint16
+PASS: gvariant 63 /gvariant/from-json/string-to-int32
+PASS: gvariant 64 /gvariant/from-json/string-to-int64
+PASS: gvariant 65 /gvariant/from-json/string-to-uint64
+PASS: gvariant 66 /gvariant/from-json/string-to-double
+PASS: gvariant 67 /gvariant/from-json/string-to-double-whole
+PASS: gvariant 68 /gvariant/from-json/maybe/simple/null
+PASS: gvariant 69 /gvariant/from-json/maybe/simple/string
+PASS: gvariant 70 /gvariant/from-json/maybe/container/null
+PASS: gvariant 71 /gvariant/from-json/maybe/container/tuple
+PASS: gvariant 72 /gvariant/from-json/maybe/variant/boolean
+PASS: gvariant 73 /gvariant/from-json/array/empty
+PASS: gvariant 74 /gvariant/from-json/array/byte
+PASS: gvariant 75 /gvariant/from-json/array/string
+PASS: gvariant 76 /gvariant/from-json/array/variant
+PASS: gvariant 77 /gvariant/from-json/array/array/int32
+PASS: gvariant 78 /gvariant/from-json/dictionary/empty
+PASS: gvariant 79 /gvariant/from-json/dictionary/single-entry
+PASS: gvariant 80 /gvariant/from-json/dictionary/string-int32
+PASS: gvariant 81 /gvariant/from-json/dictionary/string-variant
+PASS: gvariant 82 /gvariant/from-json/dictionary/int64-variant
+PASS: gvariant 83 /gvariant/from-json/dictionary/uint64-boolean
+PASS: gvariant 84 /gvariant/from-json/dictionary/boolean-variant
+PASS: gvariant 85 /gvariant/from-json/dictionary/double-string
+PASS: gvariant 86 /gvariant/from-json/variant/string
+PASS: gvariant 87 /gvariant/from-json/variant/dictionary
+PASS: gvariant 88 /gvariant/from-json/variant/maybe/null
+PASS: gvariant 89 /gvariant/from-json/variant/variant/array
+PASS: invalid 1 /invalid/json/bareword-1
+PASS: invalid 2 /invalid/json/bareword-2
+PASS: invalid 3 /invalid/json/bareword-3
+PASS: invalid 4 /invalid/json/bareword-4
+PASS: invalid 5 /invalid/json/bareword-5
+PASS: invalid 6 /invalid/json/values-1
+PASS: invalid 7 /invalid/json/assignment-1
+PASS: invalid 8 /invalid/json/assignment-2
+PASS: invalid 9 /invalid/json/assignment-3
+PASS: invalid 10 /invalid/json/assignment-4
+PASS: invalid 11 /invalid/json/assignment-5
+PASS: invalid 12 /invalid/json/array-1
+PASS: invalid 13 /invalid/json/array-2
+PASS: invalid 14 /invalid/json/array-3
+PASS: invalid 15 /invalid/json/object-1
+PASS: invalid 16 /invalid/json/object-2
+PASS: invalid 17 /invalid/json/object-3
+PASS: invalid 18 /invalid/json/object-4
+PASS: invalid 19 /invalid/json/object-5
+PASS: invalid 20 /invalid/json/object-6
+PASS: invalid 21 /invalid/json/object-7
+PASS: invalid 22 /invalid/json/trailing-comma-1
+PASS: invalid 23 /invalid/json/trailing-comma-2
+PASS: node 1 /nodes/gvalue
+PASS: node 2 /nodes/init/int
+PASS: node 3 /nodes/init/double
+PASS: node 4 /nodes/init/boolean
+PASS: node 5 /nodes/init/string
+PASS: node 6 /nodes/init/null
+PASS: node 7 /nodes/copy/null
+PASS: node 8 /nodes/copy/value
+PASS: node 9 /nodes/copy/object
+PASS: node 10 /nodes/get/int
+PASS: node 11 /nodes/get/double
+PASS: node 12 /nodes/gvalue/autopromotion
+PASS: object 1 /object/empty-object
+PASS: object 2 /object/add-member
+PASS: object 3 /object/set-member
+PASS: object 4 /object/remove-member
+PASS: object 5 /object/foreach-member
+PASS: object 6 /object/empty-member
+PASS: parser 1 /parser/empty-string
+PASS: parser 2 /parser/base-value
+PASS: parser 3 /parser/empty-array
+PASS: parser 4 /parser/simple-array
+PASS: parser 5 /parser/nested-array
+PASS: parser 6 /parser/empty-object
+PASS: parser 7 /parser/simple-object
+PASS: parser 8 /parser/nested-object
+PASS: parser 9 /parser/assignment
+PASS: parser 10 /parser/unicode-escape
+PASS: parser 11 /parser/stream-sync
+PASS: parser 12 /parser/stream-async
+PASS: path 1 /path/expressions/valid/1
+PASS: path 2 /path/expressions/valid/2
+PASS: path 3 /path/expressions/valid/3
+PASS: path 4 /path/expressions/valid/4
+PASS: path 5 /path/expressions/valid/5
+PASS: path 6 /path/expressions/valid/6
+PASS: path 7 /path/expressions/valid/7
+PASS: path 8 /path/expressions/valid/8
+PASS: path 9 /path/expressions/valid/9
+PASS: path 10 /path/expressions/valid/10
+PASS: path 11 /path/expressions/valid/11
+PASS: path 12 /path/expressions/valid/12
+PASS: path 13 /path/expressions/valid/13
+PASS: path 14 /path/expressions/invalid/1
+PASS: path 15 /path/expressions/invalid/2
+PASS: path 16 /path/expressions/invalid/3
+PASS: path 17 /path/expressions/invalid/4
+PASS: path 18 /path/expressions/invalid/5
+PASS: path 19 /path/expressions/invalid/6
+PASS: path 20 /path/expressions/invalid/7
+PASS: path 21 /path/match/1
+PASS: path 22 /path/match/2
+PASS: path 23 /path/match/3
+PASS: path 24 /path/match/4
+PASS: path 25 /path/match/5
+PASS: path 26 /path/match/6
+PASS: path 27 /path/match/7
+PASS: path 28 /path/match/8
+PASS: path 29 /path/match/9
+PASS: path 30 /path/match/10
+PASS: path 31 /path/match/11
+PASS: path 32 /path/match/12
+PASS: reader 1 /reader/base-array
+PASS: reader 2 /reader/base-object
+PASS: reader 3 /reader/level
+PASS: serialize-simple 1 /serialize/gobject
+PASS: serialize-complex 1 /serialize/gobject-boxed
+PASS: serialize-full 1 /deserialize/json-to-gobject
+make[7]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make  all-am
+make[8]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[7]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+============================================================================
+Testsuite summary for json-glib 1.0.4
+============================================================================
+# TOTAL: 202
+# PASS:  200
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 2
+============================================================================
+See json-glib/tests/test-suite.log
+Please report to http://bugzilla.gnome.org/enter_bug.cgi?product=json-glib
+============================================================================
+Makefile:1200: recipe for target 'test-suite.log' failed
+make[6]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+Makefile:1306: recipe for target 'check-TESTS' failed
+make[5]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+Makefile:1470: recipe for target 'check-am' failed
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+Makefile:1474: recipe for target 'check' failed
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+Makefile:1082: recipe for target 'check-recursive' failed
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Makefile:1234: recipe for target 'check' failed
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Makefile:471: recipe for target 'check-recursive' failed
+Making install in json-glib
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making install in .
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libjson-glib-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libjson-glib-1.0.so.0.0.4 /usr/lib/libjson-glib-1.0.so.0.0.4
+libtool: install: (cd /usr/lib && { ln -s -f libjson-glib-1.0.so.0.0.4 libjson-glib-1.0.so.0 || { rm -f libjson-glib-1.0.so.0 && ln -s libjson-glib-1.0.so.0.0.4 libjson-glib-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libjson-glib-1.0.so.0.0.4 libjson-glib-1.0.so || { rm -f libjson-glib-1.0.so && ln -s libjson-glib-1.0.so.0.0.4 libjson-glib-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libjson-glib-1.0.lai /usr/lib/libjson-glib-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c json-glib-validate json-glib-format '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/json-glib-validate /usr/bin/json-glib-validate
+libtool: install: /usr/bin/install -c .libs/json-glib-format /usr/bin/json-glib-format
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Json-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/json-glib-1.0/json-glib'
+ /usr/bin/install -c -m 644 json-builder.h json-generator.h json-gobject.h json-gvariant.h json-parser.h json-path.h json-reader.h json-types.h json-version-macros.h json-enum-types.h json-version.h json-glib.h '/usr/include/json-glib-1.0/json-glib'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 json-glib-1.0.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0/'
+ /usr/bin/install -c -m 644 Json-1.0.typelib '/usr/lib/girepository-1.0/'
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making install in tests
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make  install-am
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[5]: Entering directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib/tests'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4/json-glib'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4/doc'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/ch05.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/ix01.html
+ /usr/bin/install -c -m 644 ./html/ix02.html
+ /usr/bin/install -c -m 644 ./html/ix03.html
+ /usr/bin/install -c -m 644 ./html/ix04.html
+ /usr/bin/install -c -m 644 ./html/ix05.html
+ /usr/bin/install -c -m 644 ./html/ix06.html
+ /usr/bin/install -c -m 644 ./html/ix07.html
+ /usr/bin/install -c -m 644 ./html/ix08.html
+ /usr/bin/install -c -m 644 ./html/ix09.html
+ /usr/bin/install -c -m 644 ./html/ix10.html
+ /usr/bin/install -c -m 644 ./html/json-advanced.html
+ /usr/bin/install -c -m 644 ./html/json-base.html
+ /usr/bin/install -c -m 644 ./html/JsonBuilder.html
+ /usr/bin/install -c -m 644 ./html/json-format-tool.html
+ /usr/bin/install -c -m 644 ./html/JsonGenerator.html
+ /usr/bin/install -c -m 644 ./html/json-glib-Boxed-Types-Serialization.html
+ /usr/bin/install -c -m 644 ./html/json-glib.devhelp2
+ /usr/bin/install -c -m 644 ./html/json-glib-GObject-Serialization.html
+ /usr/bin/install -c -m 644 ./html/json-glib.html
+ /usr/bin/install -c -m 644 ./html/json-glib-JSON-Array.html
+ /usr/bin/install -c -m 644 ./html/json-glib-JSON-GVariant-Integration.html
+ /usr/bin/install -c -m 644 ./html/json-glib-JSON-Node.html
+ /usr/bin/install -c -m 644 ./html/json-glib-JSON-Object.html
+ /usr/bin/install -c -m 644 ./html/json-glib-Serializable-Interface.html
+ /usr/bin/install -c -m 644 ./html/json-glib-Versioning-information.html
+ /usr/bin/install -c -m 644 ./html/JsonParser.html
+ /usr/bin/install -c -m 644 ./html/JsonPath.html
+ /usr/bin/install -c -m 644 ./html/JsonReader.html
+ /usr/bin/install -c -m 644 ./html/json-streams.html
+ /usr/bin/install -c -m 644 ./html/json-tools.html
+ /usr/bin/install -c -m 644 ./html/json-validate-tool.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/license.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/tools.html
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 json-glib-format.1 json-glib-validate.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc/reference'
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/doc'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc'
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4/doc'
+Making install in build
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4/build'
+Making install in autotools
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/autotools'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32/vs10'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[4]: Entering directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/build/win32'
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4/build'
+make[3]: Entering directory '/sources/7.9/json-glib-1.0.4/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/json-glib-1.0.4/build'
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4/build'
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4/build'
+Making install in po
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4/po'
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/json-glib-1.0.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/json-glib-1.0.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/json-glib-1.0.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/json-glib-1.0.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/json-glib-1.0.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/json-glib-1.0.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/json-glib-1.0.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/json-glib-1.0.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/json-glib-1.0.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/json-glib-1.0.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/json-glib-1.0.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/json-glib-1.0.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/json-glib-1.0.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/json-glib-1.0.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/json-glib-1.0.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/json-glib-1.0.mo
+installing fur.gmo as /usr/share/locale/fur/LC_MESSAGES/json-glib-1.0.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/json-glib-1.0.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/json-glib-1.0.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/json-glib-1.0.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/json-glib-1.0.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/json-glib-1.0.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/json-glib-1.0.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/json-glib-1.0.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/json-glib-1.0.mo
+installing ky.gmo as /usr/share/locale/ky/LC_MESSAGES/json-glib-1.0.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/json-glib-1.0.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/json-glib-1.0.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/json-glib-1.0.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/json-glib-1.0.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/json-glib-1.0.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/json-glib-1.0.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/json-glib-1.0.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/json-glib-1.0.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/json-glib-1.0.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/json-glib-1.0.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/json-glib-1.0.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/json-glib-1.0.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/json-glib-1.0.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/json-glib-1.0.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/json-glib-1.0.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/json-glib-1.0.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/json-glib-1.0.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/json-glib-1.0.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/json-glib-1.0.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/json-glib-1.0.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/json-glib-1.0.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/json-glib-1.0.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/json-glib-1.0.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/json-glib-1.0.mo
+if test "json-glib" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4/po'
+make[1]: Entering directory '/sources/7.9/json-glib-1.0.4'
+make[2]: Entering directory '/sources/7.9/json-glib-1.0.4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/json-glib-1.0.4'
+make[1]: Leaving directory '/sources/7.9/json-glib-1.0.4'

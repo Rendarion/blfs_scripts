@@ -1,0 +1,16 @@
+URL=(
+"ftp://ftp.gnutls.org/gcrypt/gnutls/v3.5/gnutls-3.5.9.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"nettle-3.3"
+"certificate_authority_certificates"
+"libunistring-0.9.7"
+"libtasn1-4.10"
+"p11-kit-0.23.2"
+)

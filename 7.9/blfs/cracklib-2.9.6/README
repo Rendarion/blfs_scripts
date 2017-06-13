@@ -1,0 +1,2 @@
+important: in LFS 7.9, the test suite is run after the installation of
+cracklib. The install.script has been altered to incorporate this

@@ -1,0 +1,78 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/patch-2.7.5'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/patch-2.7.5/lib'
+make  check-am
+make[3]: Entering directory '/sources/7.9/patch-2.7.5/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/patch-2.7.5/lib'
+make[2]: Leaving directory '/sources/7.9/patch-2.7.5/lib'
+Making check in src
+make[2]: Entering directory '/sources/7.9/patch-2.7.5/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/patch-2.7.5/src'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/patch-2.7.5/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/patch-2.7.5/tests'
+make[4]: Entering directory '/sources/7.9/patch-2.7.5/tests'
+PASS: asymmetric-hunks
+PASS: backup-prefix-suffix
+PASS: bad-filenames
+PASS: bad-usage
+PASS: concat-git-diff
+PASS: corrupt-reject-files
+PASS: copy-rename
+PASS: create-directory
+PASS: criss-cross
+PASS: create-delete
+XFAIL: dash-o-append
+PASS: empty-files
+PASS: fifo
+PASS: crlf-handling
+PASS: filename-choice
+PASS: file-modes
+PASS: git-binary-diff
+PASS: garbage
+PASS: global-reject-files
+PASS: inname
+PASS: line-numbers
+PASS: mangled-numbers-abort
+PASS: mixed-patch-types
+PASS: munged-context-format
+PASS: need-filename
+PASS: no-mode-change-git-diff
+PASS: no-newline-triggers-assert
+PASS: preserve-c-function-names
+PASS: preserve-mode-and-timestamp
+PASS: quoted-filenames
+PASS: read-only-files
+PASS: reject-format
+PASS: remember-backup-files
+PASS: remember-reject-files
+PASS: remove-directories
+PASS: merge
+PASS: unmodified-files
+PASS: deep-directories
+PASS: symlinks
+make[5]: Entering directory '/sources/7.9/patch-2.7.5/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/patch-2.7.5/tests'
+============================================================================
+Testsuite summary for GNU patch 2.7.5
+============================================================================
+# TOTAL: 39
+# PASS:  38
+# SKIP:  0
+# XFAIL: 1
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/patch-2.7.5/tests'
+make[3]: Leaving directory '/sources/7.9/patch-2.7.5/tests'
+make[2]: Leaving directory '/sources/7.9/patch-2.7.5/tests'
+make[2]: Entering directory '/sources/7.9/patch-2.7.5'
+make[2]: Leaving directory '/sources/7.9/patch-2.7.5'
+make[1]: Leaving directory '/sources/7.9/patch-2.7.5'

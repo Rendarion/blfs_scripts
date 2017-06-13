@@ -1,0 +1,638 @@
+--2016-06-10 22:38:07--  http://ftp.gnome.org/pub/gnome/sources/libcroco/0.6/libcroco-0.6.11.tar.xz
+Resolving ftp.gnome.org... 130.239.18.173, 130.239.18.165, 2001:6b0:e:2018::165, ...
+Connecting to ftp.gnome.org|130.239.18.173|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 477312 (466K) [application/x-xz]
+Saving to: 'libcroco-0.6.11.tar.xz'
+
+     0K .......... .......... .......... .......... .......... 10%  274K 2s
+    50K .......... .......... .......... .......... .......... 21%  759K 1s
+   100K .......... .......... .......... .......... .......... 32% 1.80M 1s
+   150K .......... .......... .......... .......... .......... 42% 2.49M 0s
+   200K .......... .......... .......... .......... .......... 53%  781K 0s
+   250K .......... .......... .......... .......... .......... 64% 1.25M 0s
+   300K .......... .......... .......... .......... .......... 75% 3.66M 0s
+   350K .......... .......... .......... .......... .......... 85% 3.75M 0s
+   400K .......... .......... .......... .......... .......... 96% 4.10M 0s
+   450K .......... ......                                     100% 6.58M=0.4s
+
+2016-06-10 22:38:08 (1.04 MB/s) - 'libcroco-0.6.11.tar.xz' saved [477312/477312]
+
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether make sets $(MAKE)... (cached) yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for library containing strerror... none required
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.0 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for CROCO... yes
+checking if gcc supports "-Wl,-Bsymbolic-functions" flag... yes
+checking if gcc supports -Wall flag... yes
+checking if gcc supports -Wextra flag... yes
+checking if gcc supports -Wunused flag... yes
+checking if gcc supports -Wreturn-type flag... yes
+checking if gcc supports -Wswitch flag... yes
+checking if gcc supports -Wcomment flag... yes
+checking if gcc supports -Wtrigraphs flag... yes
+checking if gcc supports -Wchar-subscripts flag... yes
+checking if gcc supports -Wparentheses flag... yes
+checking if gcc supports -Winline flag... yes
+checking if gcc supports -Wredundant-decls flag... yes
+checking if gcc supports -Wformat-nonliteral flag... yes
+checking if gcc supports -Werror=format-security flag... yes
+checking if gcc supports -Wsign-compare flag... yes
+checking if gcc supports -Werror=implicit-function-declaration flag... yes
+checking if gcc supports -Wpointer-arith flag... yes
+checking if gcc supports -Wwrite-strings flag... yes
+checking if gcc supports -Wstrict-prototypes flag... yes
+checking if gcc supports -Waggregate-return flag... yes
+checking if gcc supports -Wcast-align flag... yes
+checking if gcc supports -Wimplicit flag... yes
+checking if gcc supports -Wuninitialized flag... yes
+checking if gcc supports -Wmissing-prototypes flag... yes
+checking if gcc supports -Wmissing-declarations flag... yes
+checking if gcc supports -Wnested-externs flag... yes
+checking if gcc supports -Wpacked flag... yes
+checking if gcc supports -Wmissing-format-attribute flag... yes
+checking if gcc supports -Wshadow flag... yes
+checking if gcc supports -Wstrict-aliasing=2 flag... yes
+checking if gcc supports -Winit-self flag... yes
+checking if gcc supports -Wunsafe-loop-optimizations flag... yes
+checking if gcc supports -Wdeclaration-after-statement flag... yes
+checking if gcc supports -Wold-style-definition flag... yes
+checking if gcc supports -Wno-missing-field-initializers flag... yes
+checking if gcc supports -Wno-unused-parameter flag... yes
+checking if gcc supports -fno-common flag... yes
+checking if gcc supports -Wno-switch-enum flag... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libcroco.pc
+config.status: creating libcroco.spec
+config.status: creating libcroco-zip
+config.status: creating croco-config
+config.status: creating config.h.win32
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs9/croco-version-paths.vsprops
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs10/croco-version-paths.props
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating build/win32/vs14/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/examples/Makefile
+config.status: creating docs/reference/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/test-inputs/Makefile
+config.status: creating tests/test-output-refs/Makefile
+config.status: creating global-test-vars.sh
+config.status: creating src/Makefile
+config.status: creating src/libcroco-config.h
+config.status: creating csslint/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+	=====================================================================
+	      LIBCROCO, GNOME CSS2 PARSING AND MANIPULATION TOOLKIT 0.6.11
+	=====================================================================
+
+	prefix:				      :	/usr
+	source code location:		      :	.
+	compiler: 			      :	gcc
+	cflags:				      :	-g -O2 -Wall -Wextra -Wunused -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wchar-subscripts -Wparentheses -Winline -Wredundant-decls -Wformat-nonliteral -Werror=format-security -Wsign-compare -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Waggregate-return -Wcast-align -Wimplicit -Wuninitialized -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wmissing-format-attribute -Wshadow -Wstrict-aliasing=2 -Winit-self -Wunsafe-loop-optimizations -Wdeclaration-after-statement -Wold-style-definition -Wno-missing-field-initializers -Wno-unused-parameter -fno-common -Wno-switch-enum
+
+	Maintainer mode:		      :	yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/src'
+  CC       libcroco_0_6_la-cr-utils.lo
+  CC       libcroco_0_6_la-cr-input.lo
+  CC       libcroco_0_6_la-cr-enc-handler.lo
+  CC       libcroco_0_6_la-cr-num.lo
+  CC       libcroco_0_6_la-cr-rgb.lo
+  CC       libcroco_0_6_la-cr-token.lo
+  CC       libcroco_0_6_la-cr-tknzr.lo
+  CC       libcroco_0_6_la-cr-term.lo
+  CC       libcroco_0_6_la-cr-attr-sel.lo
+  CC       libcroco_0_6_la-cr-pseudo.lo
+  CC       libcroco_0_6_la-cr-additional-sel.lo
+  CC       libcroco_0_6_la-cr-simple-sel.lo
+  CC       libcroco_0_6_la-cr-selector.lo
+  CC       libcroco_0_6_la-cr-doc-handler.lo
+  CC       libcroco_0_6_la-cr-parser.lo
+  CC       libcroco_0_6_la-cr-declaration.lo
+  CC       libcroco_0_6_la-cr-statement.lo
+  CC       libcroco_0_6_la-cr-stylesheet.lo
+  CC       libcroco_0_6_la-cr-cascade.lo
+  CC       libcroco_0_6_la-cr-om-parser.lo
+  CC       libcroco_0_6_la-cr-style.lo
+  CC       libcroco_0_6_la-cr-sel-eng.lo
+  CC       libcroco_0_6_la-cr-fonts.lo
+  CC       libcroco_0_6_la-cr-prop-list.lo
+  CC       libcroco_0_6_la-cr-parsing-location.lo
+  CC       libcroco_0_6_la-cr-string.lo
+  CCLD     libcroco-0.6.la
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/src'
+Making all in csslint
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/csslint'
+  CC       csslint_0_6-csslint.o
+  CCLD     csslint-0.6
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/csslint'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in test-inputs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+Making all in test-output-refs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+  CC       test0-main.o
+  CCLD     test0
+  CC       test1-main.o
+  CCLD     test1
+  CC       test2-main.o
+  CC       cr-test-utils.o
+  CCLD     test2
+  CC       test3-main.o
+  CCLD     test3
+  CC       test4-main.o
+  CCLD     test4
+  CC       test5-main.o
+  CCLD     test5
+  CC       test6-main.o
+  CCLD     test6
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in build
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11'
+cp croco-config croco-0.6-config
+cp libcroco.pc libcroco-0.6.pc
+cp libcroco.pc libcroco-0.6-uninstalled.pc
+cp croco-config croco-0.6-config-uninstalled
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/src'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/src'
+Making all in csslint
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/csslint'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/csslint'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+Making all in reference
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in test-inputs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+Making all in test-output-refs
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+Making all in build
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+if test -x ./tests/testctl ; then ./tests/testctl cleanup ; ./tests/testctl run ; fi 
+REMAINING_ARGS=cleanup
+REMAINING_ARGS=run
+cur_arg=
+run test: test-prop-ident.sh
+run test: test-several-media.sh
+run test: test-unknown-at-rule2.sh
+run test: test-unknown-at-rule.sh
+run test: test0
+run test: test1
+run test: test2
+run test: test3
+run test: test4
+run test: test5
+run test: test6
+creating tmp directory tests/test-outputs ...
+done
+executing  test-prop-ident.sh  > tests/test-outputs/test-prop-ident.sh.out ...
+./tests/test-prop-ident.sh: line 3: .: global-test-vars.sh: file not found
+done
+executing  test-several-media.sh  > tests/test-outputs/test-several-media.sh.out ...
+./tests/test-several-media.sh: line 3: .: global-test-vars.sh: file not found
+done
+executing  test-unknown-at-rule2.sh  > tests/test-outputs/test-unknown-at-rule2.sh.out ...
+./csslint/.libs/csslint-0.6: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test-unknown-at-rule.sh  > tests/test-outputs/test-unknown-at-rule.sh.out ...
+./csslint/.libs/csslint-0.6: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test0 ./tests/test-inputs/test0.1.css > tests/test-outputs/test0.1.css.out ...
+tests/.libs/test0: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test1 ./tests/test-inputs/test1.css > tests/test-outputs/test1.css.out ...
+tests/.libs/test1: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test2 ./tests/test-inputs/test2.1.css > tests/test-outputs/test2.1.css.out ...
+tests/.libs/test2: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test2 ./tests/test-inputs/test2.2.css > tests/test-outputs/test2.2.css.out ...
+tests/.libs/test2: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test2 ./tests/test-inputs/test2.css > tests/test-outputs/test2.css.out ...
+tests/.libs/test2: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test3 ./tests/test-inputs/test3.1.css > tests/test-outputs/test3.1.css.out ...
+tests/.libs/test3: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test3 ./tests/test-inputs/test3.2.css > tests/test-outputs/test3.2.css.out ...
+tests/.libs/test3: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test3 ./tests/test-inputs/test3.css > tests/test-outputs/test3.css.out ...
+tests/.libs/test3: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test4 ./tests/test-inputs/test4.1.css > tests/test-outputs/test4.1.css.out ...
+tests/.libs/test4: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test4 ./tests/test-inputs/test4.2.css > tests/test-outputs/test4.2.css.out ...
+tests/.libs/test4: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test5 ./tests/test-inputs/test5.1.css > tests/test-outputs/test5.1.css.out ...
+tests/.libs/test5: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+executing  test6  > tests/test-outputs/test6.out ...
+tests/.libs/test6: error while loading shared libraries: libcroco-0.6.so.3: cannot open shared object file: No such file or directory
+done
+SOME TESTS ARE KO :(
+See tests/tests-error.log to see what's going on
+Making install in src
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11/src'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcroco-0.6.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcroco-0.6.so.3.0.1 /usr/lib/libcroco-0.6.so.3.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libcroco-0.6.so.3.0.1 libcroco-0.6.so.3 || { rm -f libcroco-0.6.so.3 && ln -s libcroco-0.6.so.3.0.1 libcroco-0.6.so.3; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcroco-0.6.so.3.0.1 libcroco-0.6.so || { rm -f libcroco-0.6.so && ln -s libcroco-0.6.so.3.0.1 libcroco-0.6.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcroco-0.6.lai /usr/lib/libcroco-0.6.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/libcroco-0.6/libcroco'
+ /usr/bin/install -c -m 644 libcroco.h cr-additional-sel.h cr-attr-sel.h cr-cascade.h cr-declaration.h cr-doc-handler.h cr-enc-handler.h cr-input.h cr-num.h cr-om-parser.h cr-parser.h cr-pseudo.h cr-rgb.h cr-selector.h cr-simple-sel.h cr-statement.h cr-stylesheet.h cr-term.h cr-tknzr.h cr-token.h cr-utils.h cr-fonts.h cr-sel-eng.h cr-style.h cr-prop-list.h cr-parsing-location.h cr-string.h libcroco-config.h '/usr/include/libcroco-0.6/libcroco'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/src'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11/src'
+Making install in csslint
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11/csslint'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/csslint'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c csslint-0.6 '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/csslint-0.6 /usr/bin/csslint-0.6
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/csslint'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11/csslint'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+Making install in examples
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/examples'
+Making install in reference
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-additional-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-attr-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-cascade.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-declaration.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-doc-handler.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-enc-handler.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-fonts.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-input.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-num.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-om-parser.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-parser.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-parsing-location.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-prop-list.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-pseudo.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-rgb.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-selector.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-sel-eng.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-simple-sel.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-statement.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-string.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-style.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-stylesheet.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-term.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-tknzr.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-token.html
+ /usr/bin/install -c -m 644 ./html/libcroco-cr-utils.html
+ /usr/bin/install -c -m 644 ./html/libcroco.devhelp2
+ /usr/bin/install -c -m 644 ./html/libcroco-libcroco-config.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs/reference'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11/docs'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+Making install in test-inputs
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-inputs'
+Making install in test-output-refs
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests/test-output-refs'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11/tests'
+Making install in build
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs10'
+Making install in vs11
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs11'
+Making install in vs12
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs12'
+Making install in vs14
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[4]: Entering directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/build/win32'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+make[3]: Entering directory '/sources/7.9/libcroco-0.6.11/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11/build'
+make[1]: Entering directory '/sources/7.9/libcroco-0.6.11'
+make[2]: Entering directory '/sources/7.9/libcroco-0.6.11'
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c croco-0.6-config '/usr/bin'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libcroco-0.6.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/libcroco-0.6.11'
+make[1]: Leaving directory '/sources/7.9/libcroco-0.6.11'

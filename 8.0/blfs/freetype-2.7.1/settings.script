@@ -1,0 +1,14 @@
+URL=(
+"http://downloads.sourceforge.net/freetype/freetype-2.7.1.tar.bz2"
+"http://downloads.sourceforge.net/freetype/freetype-doc-2.7.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libpng-1.6.28"
+"which-2.21"
+)

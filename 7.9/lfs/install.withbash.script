@@ -1,0 +1,104 @@
+# set up variables from settings.script
+
+source /sources/scripts/$LFSVS/lfs/settings.script
+
+set +h
+
+touch /var/log/{btmp,lastlog,wtmp}
+chgrp -v utmp /var/log/lastlog
+chmod -v 664  /var/log/lastlog
+chmod -v 600  /var/log/btmp
+
+export MAKEFLAGS='-j 2'
+
+echo ""
+echo "Installing LFS $LFSVS!"
+echo "(check install.log in package-folders for results.)"
+echo ""
+
+PKGDIR=(
+porg-0.9
+linux-api-headers-4.4.2
+man-pages-4.04
+glibc-2.23
+)
+
+for i in "${PKGDIR[@]}"
+  do :
+    printf "%s" "Installing $i"
+    cd "/sources/scripts/$LFSVS/lfs/$i"
+    touch install.log
+    ./install.script > install.log 2>&1
+    echo " ... done!"
+  done
+
+echo ""
+echo "Adjusting the toolchain!"
+echo ""
+
+mv -v /tools/bin/{ld,ld-old}
+mv -v /tools/$(uname -m)-pc-linux-gnu/bin/{ld,ld-old}
+mv -v /tools/bin/{ld-new,ld}
+ln -sv /tools/bin/ld /tools/$(uname -m)-pc-linux-gnu/bin/ld
+
+gcc -dumpspecs | sed -e 's@/tools@@g'                   \
+    -e '/\*startfile_prefix_spec:/{n;s@.*@/usr/lib/ @}' \
+    -e '/\*cpp:/{n;s@$@ -isystem /usr/include@}' >      \
+    `dirname $(gcc --print-libgcc-file-name)`/specs
+
+echo 'int main(){}' > dummy.c
+cc dummy.c -v -Wl,--verbose &> dummy.log
+readelf -l a.out | grep ': /lib'
+
+grep -o '/usr/lib.*/crt[1in].*succeeded' dummy.log
+
+grep -B1 '^ /usr/include' dummy.log
+
+grep 'SEARCH.*/usr/lib' dummy.log |sed 's|; |\n|g'
+
+grep "/lib.*/libc.so.6 " dummy.log
+
+grep found dummy.log
+
+rm -v dummy.c a.out dummy.log
+
+echo ""
+
+PKGDIR2=(
+zlib-1.2.8
+file-5.25
+binutils-2.26
+gmp-6.1.0
+mpfr-3.1.3
+mpc-1.0.3
+gcc-5.3.0
+bzip2-1.0.6
+pkg-config-0.29
+ncurses-6.0
+attr-2.4.47
+acl-2.2.52
+libcap-2.25
+sed-4.2.2
+shadow-4.2.1
+psmisc-22.21
+procps-ng-3.3.11
+e2fsprogs-1.42.13
+iana-etc-2.30
+m4-1.4.17
+bison-3.0.4
+flex-2.6.0
+grep-2.23
+readline-6.3
+bash-4.3.30
+)
+
+for i in "${PKGDIR2[@]}"
+  do :
+    printf "%s" "Installing $i"
+    cd "/sources/scripts/$LFSVS/lfs/$i"
+    touch install.log
+    ./install.script > install.log 2>&1
+    echo " ... done!"
+  done
+
+exec /bin/bash /sources/scripts/$LFSVS/lfs/install.withbash2.script

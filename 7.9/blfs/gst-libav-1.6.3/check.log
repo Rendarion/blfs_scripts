@@ -1,0 +1,92 @@
+Making check in gst-libs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making check in ext
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+cd libav && make
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making check in ext
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making check in libav
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making check in plugins
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+Making check in m4
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make  generic/plugin-test generic/libavcodec-locking elements/avdec_adpcm elements/avdemux_ape
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+  CC       generic/plugin-test.o
+  CCLD     generic/plugin-test
+  CC       generic/libavcodec-locking.o
+  CCLD     generic/libavcodec-locking
+  CC       elements/avdec_adpcm.o
+  CCLD     elements/avdec_adpcm
+  CC       elements/avdemux_ape.o
+  CCLD     elements/avdemux_ape
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+PASS: generic/plugin-test
+PASS: generic/libavcodec-locking
+PASS: elements/avdec_adpcm
+PASS: elements/avdemux_ape
+============================================================================
+Testsuite summary for GStreamer libav 1.6.3
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+Making check in files
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making check in pkgconfig
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3'

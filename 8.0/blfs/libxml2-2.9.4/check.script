@@ -1,0 +1,3 @@
+make check > check.log
+
+grep -E '^Total|expected' check.log

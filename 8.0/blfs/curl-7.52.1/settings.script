@@ -1,0 +1,14 @@
+URL=(
+"https://curl.haxx.se/download/curl-7.52.1.tar.lzma"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/curl-7.52.1-valgrind_filter-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"certificate_authority_certificates"
+"openssl-1.0.2k"
+)

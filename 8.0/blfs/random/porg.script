@@ -1,0 +1,2 @@
+cd ../$(basename $(find "/sources/$LFSVS" -maxdepth 1 -type d -name "blfs-bootscripts*"))
+make install-$((echo $PKG) | cut -d - -f 1)

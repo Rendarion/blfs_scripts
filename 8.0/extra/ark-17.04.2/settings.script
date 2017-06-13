@@ -1,0 +1,13 @@
+URL=(
+"http://download.kde.org/stable/applications/17.04.2/src/ark-17.04.2.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"kde_frameworks-5.31.0"
+"alsa-lib-1.1.3"
+)

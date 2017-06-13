@@ -1,0 +1,15 @@
+URL=(
+""
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libpng-1.6.28"
+"mesa-13.0.4"
+"xbitmaps-1.1.1"
+"xcb-util-0.4.0"
+)

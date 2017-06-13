@@ -1,0 +1,178 @@
+Extracting cabinet: ../../andale32.exe
+  extracting fontinst.inf
+  extracting andale.inf
+  extracting fontinst.exe
+  extracting AndaleMo.TTF
+  extracting ADVPACK.DLL
+  extracting W95INF32.DLL
+  extracting W95INF16.DLL
+
+All done, no errors.
+Extracting cabinet: ../../arial32.exe
+  extracting FONTINST.EXE
+  extracting fontinst.inf
+  extracting Ariali.TTF
+  extracting Arialbd.TTF
+  extracting Arialbi.TTF
+  extracting Arial.TTF
+
+All done, no errors.
+Extracting cabinet: ../../arialb32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting AriBlk.TTF
+
+All done, no errors.
+Extracting cabinet: ../../comic32.exe
+  extracting fontinst.inf
+  extracting Comicbd.TTF
+  extracting Comic.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+Extracting cabinet: ../../courie32.exe
+  extracting cour.ttf
+  extracting courbd.ttf
+  extracting courbi.ttf
+  extracting fontinst.inf
+  extracting couri.ttf
+  extracting fontinst.exe
+
+All done, no errors.
+Extracting cabinet: ../../georgi32.exe
+  extracting fontinst.inf
+  extracting Georgiaz.TTF
+  extracting Georgiab.TTF
+  extracting Georgiai.TTF
+  extracting Georgia.TTF
+  extracting fontinst.exe
+
+All done, no errors.
+Extracting cabinet: ../../times32.exe
+  extracting fontinst.inf
+  extracting Times.TTF
+  extracting Timesbd.TTF
+  extracting Timesbi.TTF
+  extracting Timesi.TTF
+  extracting FONTINST.EXE
+
+All done, no errors.
+Extracting cabinet: ../../times32.exe
+  extracting fontinst.inf
+  extracting Times.TTF
+  extracting Timesbd.TTF
+  extracting Timesbi.TTF
+  extracting Timesi.TTF
+  extracting FONTINST.EXE
+
+All done, no errors.
+Extracting cabinet: ../../trebuc32.exe
+  extracting FONTINST.EXE
+  extracting trebuc.ttf
+  extracting Trebucbd.ttf
+  extracting trebucbi.ttf
+  extracting trebucit.ttf
+  extracting fontinst.inf
+
+All done, no errors.
+Extracting cabinet: ../../verdan32.exe
+  extracting fontinst.exe
+  extracting fontinst.inf
+  extracting Verdanab.TTF
+  extracting Verdanai.TTF
+  extracting Verdanaz.TTF
+  extracting Verdana.TTF
+
+All done, no errors.
+Extracting cabinet: ../../webdin32.exe
+  extracting fontinst.exe
+  extracting Webdings.TTF
+  extracting fontinst.inf
+  extracting Licen.TXT
+
+All done, no errors.
+removed '/usr/share/fonts/andale/AndaleMo.TTF'
+'AndaleMo.TTF' -> '/usr/share/fonts/andale/AndaleMo.TTF'
+/usr/share/fonts/andale: skipping, existing cache is valid: 1 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+removed '/usr/share/fonts/arial/Arialbd.TTF'
+'Arialbd.TTF' -> '/usr/share/fonts/arial/Arialbd.TTF'
+removed '/usr/share/fonts/arial/Arialbi.TTF'
+'Arialbi.TTF' -> '/usr/share/fonts/arial/Arialbi.TTF'
+removed '/usr/share/fonts/arial/Ariali.TTF'
+'Ariali.TTF' -> '/usr/share/fonts/arial/Ariali.TTF'
+removed '/usr/share/fonts/arial/Arial.TTF'
+'Arial.TTF' -> '/usr/share/fonts/arial/Arial.TTF'
+/usr/share/fonts/arial: skipping, existing cache is valid: 4 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+removed '/usr/share/fonts/arialb/AriBlk.TTF'
+'AriBlk.TTF' -> '/usr/share/fonts/arialb/AriBlk.TTF'
+/usr/share/fonts/arialb: skipping, existing cache is valid: 1 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+removed '/usr/share/fonts/comic/Comicbd.TTF'
+'Comicbd.TTF' -> '/usr/share/fonts/comic/Comicbd.TTF'
+removed '/usr/share/fonts/comic/Comic.TTF'
+'Comic.TTF' -> '/usr/share/fonts/comic/Comic.TTF'
+/usr/share/fonts/comic: skipping, existing cache is valid: 3 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+'courbd.ttf' -> '/usr/share/fonts/courie/courbd.ttf'
+'courbi.ttf' -> '/usr/share/fonts/courie/courbi.ttf'
+'couri.ttf' -> '/usr/share/fonts/courie/couri.ttf'
+'cour.ttf' -> '/usr/share/fonts/courie/cour.ttf'
+/usr/share/fonts/courie: skipping, existing cache is valid: 4 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+removed '/usr/share/fonts/georgi/Georgiab.TTF'
+'Georgiab.TTF' -> '/usr/share/fonts/georgi/Georgiab.TTF'
+removed '/usr/share/fonts/georgi/Georgiai.TTF'
+'Georgiai.TTF' -> '/usr/share/fonts/georgi/Georgiai.TTF'
+removed '/usr/share/fonts/georgi/Georgia.TTF'
+'Georgia.TTF' -> '/usr/share/fonts/georgi/Georgia.TTF'
+removed '/usr/share/fonts/georgi/Georgiaz.TTF'
+'Georgiaz.TTF' -> '/usr/share/fonts/georgi/Georgiaz.TTF'
+/usr/share/fonts/georgi: skipping, existing cache is valid: 4 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+install: creating directory '/usr/share/fonts/times'
+'Timesbd.TTF' -> '/usr/share/fonts/times/Timesbd.TTF'
+'Timesbi.TTF' -> '/usr/share/fonts/times/Timesbi.TTF'
+'Timesi.TTF' -> '/usr/share/fonts/times/Timesi.TTF'
+'Times.TTF' -> '/usr/share/fonts/times/Times.TTF'
+/usr/share/fonts/times: skipping, existing cache is valid: 4 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+install: creating directory '/usr/share/fonts/verdan'
+'Verdanab.TTF' -> '/usr/share/fonts/verdan/Verdanab.TTF'
+'Verdanai.TTF' -> '/usr/share/fonts/verdan/Verdanai.TTF'
+'Verdana.TTF' -> '/usr/share/fonts/verdan/Verdana.TTF'
+'Verdanaz.TTF' -> '/usr/share/fonts/verdan/Verdanaz.TTF'
+/usr/share/fonts/verdan: caching, new cache contents: 4 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+install: creating directory '/usr/share/fonts/webdin'
+'Webdings.TTF' -> '/usr/share/fonts/webdin/Webdings.TTF'
+/usr/share/fonts/webdin: skipping, existing cache is valid: 1 fonts, 0 dirs
+/var/cache/fontconfig: cleaning cache directory
+/root/.cache/fontconfig: not cleaning non-existent cache directory
+/root/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded

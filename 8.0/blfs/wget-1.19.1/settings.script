@@ -1,0 +1,14 @@
+URL=(
+"http://ftp.gnu.org/gnu/wget/wget-1.19.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"certificate_authority_certificates"
+"openssl-1.0.2k"
+"python-3.6.0"
+)

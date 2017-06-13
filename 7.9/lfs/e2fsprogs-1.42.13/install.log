@@ -1,0 +1,2248 @@
+mkdir: created directory 'build'
+Generating configuration file for e2fsprogs version 1.42.13
+Release date is May, 2015
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for dlopen in -ldl... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking how to run the C preprocessor... gcc -E
+checking for additional special compiler flags... (none)
+checking for grep that handles long lines and -e... /tools/bin/grep
+checking for egrep... /tools/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+Disabling maintainer mode by default
+Disabling symlinks for install by default
+Disabling relative symlinks for install by default
+Disabling symlinks for build by default
+Disabling verbose make commands
+Disabling compression support by default
+Enabling htree directory support by default
+Enabling ELF shared libraries
+Disabling BSD shared libraries by default
+Disabling profiling libraries by default
+Disabling journal debugging by default
+Disabling blkid debugging by default
+Enabling testio debugging by default
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for uuid_generate in -luuid... yes
+Disabling private uuid library
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for blkid_get_cache in -lblkid... yes
+Disabling private blkid library
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+Disabling quota support by default
+Enabling use of backtrace by default
+Enabling debugfs support by default
+Enabling e2image support by default
+Enabling e2resize support by default
+Enabling e4defrag support by default
+Not building fsck wrapper
+Building e2initrd helper by default
+Try using thread local support by default
+checking for thread local storage (TLS) class... __thread
+Not building uuidd
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /tools/bin/install -c
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for a sed that does not truncate output... /bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking whether we are using the GNU C Library 2 or newer... yes
+checking for ranlib... ranlib
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for inline... inline
+checking for size_t... yes
+checking for stdint.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for inttypes.h... yes
+checking for unsigned long long int... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking whether imported symbols can be declared weak... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_kill in -lpthread... yes
+checking for multithread API to use... posix
+checking for pthread_rwlock_t... yes
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking for inttypes.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for uselocale... yes
+checking for argz_count... yes
+checking for argz_stringify... yes
+checking for argz_next... yes
+checking for __fsetlocking... yes
+checking whether feof_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking for bison... no
+checking for long long int... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for intmax_t... yes
+checking whether printf() supports POSIX/XSI format strings... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for stdint.h... (cached) yes
+checking for symlink... yes
+checking for working fcntl.h... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for ptrdiff_t... yes
+checking features.h usability... yes
+checking features.h presence... yes
+checking for features.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for asprintf... yes
+checking for fwprintf... yes
+checking for newlocale... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for snprintf... yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking whether _snprintf is declared... no
+checking whether _snwprintf is declared... no
+checking whether getc_unlocked is declared... yes
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... (cached) no
+checking for CFLocaleCopyCurrent... (cached) no
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking whether make sets $(MAKE)... (cached) yes
+checking for GNU make... make
+checking for ln... /tools/bin/ln
+checking whether ln -s works... yes
+checking for mv... /tools/bin/mv
+checking for cp... /tools/bin/cp
+checking for rm... /tools/bin/rm
+checking for chmod... /tools/bin/chmod
+checking for gawk... gawk
+checking for egrep... (cached) /tools/bin/grep -E
+checking for sed... (cached) /bin/sed
+checking for perl... /usr/bin/perl
+checking for ldconfig... /sbin/ldconfig
+checking for ar... ar
+checking for ranlib... (cached) ranlib
+checking for strip... strip
+checking for makeinfo... makeinfo
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking mntent.h usability... yes
+checking mntent.h presence... yes
+checking for mntent.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking semaphore.h usability... yes
+checking semaphore.h presence... yes
+checking for semaphore.h... yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking linux/falloc.h usability... yes
+checking linux/falloc.h presence... yes
+checking for linux/falloc.h... yes
+checking linux/fd.h usability... yes
+checking linux/fd.h presence... yes
+checking for linux/fd.h... yes
+checking linux/major.h usability... yes
+checking linux/major.h presence... yes
+checking for linux/major.h... yes
+checking linux/loop.h usability... yes
+checking linux/loop.h presence... yes
+checking for linux/loop.h... yes
+checking net/if_dl.h usability... no
+checking net/if_dl.h presence... no
+checking for net/if_dl.h... no
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking sys/disklabel.h usability... no
+checking sys/disklabel.h presence... no
+checking for sys/disklabel.h... no
+checking sys/disk.h usability... no
+checking sys/disk.h presence... no
+checking for sys/disk.h... no
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/mount.h usability... yes
+checking sys/mount.h presence... yes
+checking for sys/mount.h... yes
+checking sys/prctl.h usability... yes
+checking sys/prctl.h presence... yes
+checking for sys/prctl.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/sockio.h usability... no
+checking sys/sockio.h presence... no
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/sysmacros.h usability... yes
+checking sys/sysmacros.h presence... yes
+checking for sys/sysmacros.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for net/if.h... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for struct dirent.d_reclen... yes
+checking for struct stat.st_atim... yes
+checking for ssize_t... yes
+checking whether llseek is declared... no
+checking whether lseek64 is declared... yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of long long... 8
+checking size of off_t... 8
+checking whether byte ordering is bigendian... no
+checking for __uNN types... using <asm/types.h>
+checking for inttypes.h... (cached) yes
+checking for intptr_t... yes
+checking whether struct stat has a st_flags field... no
+checking for struct sockaddr.sa_len... no
+checking for library containing blkid_probe_all... -lblkid
+checking for __secure_getenv... no
+checking for backtrace... yes
+checking for blkid_probe_get_topology... yes
+checking for blkid_probe_enable_partitions... yes
+checking for chflags... no
+checking for fadvise64... no
+checking for fallocate... yes
+checking for fallocate64... yes
+checking for fchown... yes
+checking for fdatasync... yes
+checking for fstat64... yes
+checking for ftruncate64... yes
+checking for futimes... yes
+checking for getcwd... (cached) yes
+checking for getdtablesize... yes
+checking for getmntinfo... no
+checking for getpwuid_r... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for jrand48... yes
+checking for llseek... yes
+checking for lseek64... yes
+checking for mallinfo... yes
+checking for mbstowcs... yes
+checking for memalign... yes
+checking for mempcpy... (cached) yes
+checking for mmap... yes
+checking for msync... yes
+checking for nanosleep... yes
+checking for open64... yes
+checking for pathconf... yes
+checking for posix_fadvise... yes
+checking for posix_fadvise64... yes
+checking for posix_memalign... yes
+checking for prctl... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for pread64... yes
+checking for pwrite64... yes
+checking for secure_getenv... yes
+checking for setmntent... yes
+checking for setresgid... yes
+checking for setresuid... yes
+checking for snprintf... (cached) yes
+checking for srandom... yes
+checking for stpcpy... (cached) yes
+checking for strcasecmp... (cached) yes
+checking for strdup... (cached) yes
+checking for strnlen... (cached) yes
+checking for strptime... yes
+checking for strtoull... yes
+checking for sync_file_range... yes
+checking for sysconf... yes
+checking for usleep... yes
+checking for utime... yes
+checking for utimes... yes
+checking for valloc... yes
+checking for socket in -lsocket... no
+checking for optreset... no
+checking for sem_init... no
+checking for sem_init in -lpthread... yes
+checking for unified diff option... -u
+Setting root_bindir to /bin
+checking whether we can link with -static... yes
+configure: creating ./config.status
+config.status: creating MCONFIG
+config.status: creating Makefile
+config.status: creating e2fsprogs.spec
+config.status: creating util/Makefile
+config.status: creating util/subst.conf
+config.status: creating util/gen-tarball
+config.status: creating util/install-symlink
+config.status: creating lib/et/Makefile
+config.status: creating lib/ss/Makefile
+config.status: creating lib/e2p/Makefile
+config.status: creating lib/ext2fs/Makefile
+config.status: creating lib/ext2fs/ext2_types.h
+config.status: creating lib/uuid/Makefile
+config.status: creating lib/uuid/uuid_types.h
+config.status: creating lib/blkid/Makefile
+config.status: creating lib/blkid/blkid_types.h
+config.status: creating lib/quota/Makefile
+config.status: creating lib/ss/ss.pc
+config.status: creating lib/uuid/uuid.pc
+config.status: creating lib/et/com_err.pc
+config.status: creating lib/e2p/e2p.pc
+config.status: creating lib/blkid/blkid.pc
+config.status: creating lib/ext2fs/ext2fs.pc
+config.status: creating misc/Makefile
+config.status: creating ext2ed/Makefile
+config.status: creating e2fsck/Makefile
+config.status: creating debugfs/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/progs/Makefile
+config.status: creating resize/Makefile
+config.status: creating doc/Makefile
+config.status: creating intl/Makefile
+config.status: creating intl/libgnuintl.h
+config.status: creating po/Makefile.in
+config.status: creating lib/config.h
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+cd ./util ; make subst
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+	CREATE dirpaths.h
+	CC ../../util/subst.c
+	LD subst
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'util/subst.conf' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/config.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+	SUBST lib/dirpaths.h
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+cd .; CONFIG_FILES=./lib/ext2fs/ext2_types.h ./config.status
+config.status: creating ./lib/ext2fs/ext2_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing po-directories commands
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+cd .; CONFIG_FILES=./lib/blkid/blkid_types.h ./config.status
+config.status: creating ./lib/blkid/blkid_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing po-directories commands
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+cd .; CONFIG_FILES=./lib/uuid/uuid_types.h ./config.status
+config.status: creating ./lib/uuid/uuid_types.h
+config.status: creating lib/config.h
+config.status: lib/config.h is unchanged
+config.status: executing po-directories commands
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+	SUBST compile_et
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	SUBST ext2_err.et
+	COMPILE_ET ext2_err.et
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make libs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in lib/et
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[3]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+	MKDIR elfshared
+make[3]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+	CC ../../../lib/et/error_message.c
+	CC ../../../lib/et/et_name.c
+	CC ../../../lib/et/init_et.c
+	CC ../../../lib/et/com_err.c
+	CC ../../../lib/et/com_right.c
+	GEN_ELF_SOLIB libcom_err.so.2.1
+	GEN_LIB libcom_err.a
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	SUBST mk_cmds
+	COMPILE_ET ss_err.et
+make[3]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	MKDIR elfshared
+make[3]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	MK_CMDS std_rqs.c
+	COMPILE_ET ss_err.et
+	CC ss_err.c
+	CC std_rqs.c
+	CC ../../../lib/ss/invocation.c
+	CC ../../../lib/ss/help.c
+	CC ../../../lib/ss/execute_cmd.c
+	CC ../../../lib/ss/listen.c
+	CC ../../../lib/ss/parse.c
+	CC ../../../lib/ss/error.c
+	CC ../../../lib/ss/prompt.c
+	CC ../../../lib/ss/request_tbl.c
+	CC ../../../lib/ss/list_rqs.c
+	CC ../../../lib/ss/pager.c
+	CC ../../../lib/ss/requests.c
+	CC ../../../lib/ss/data.c
+	CC ../../../lib/ss/get_readline.c
+	GEN_ELF_SOLIB libss.so.2.0
+	GEN_LIB libss.a
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[3]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+	MKDIR elfshared
+make[3]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+	CC ../../../lib/e2p/fgetflags.c
+	CC ../../../lib/e2p/feature.c
+	CC ../../../lib/e2p/fsetflags.c
+	CC ../../../lib/e2p/fgetversion.c
+	CC ../../../lib/e2p/fsetversion.c
+	CC ../../../lib/e2p/getflags.c
+	CC ../../../lib/e2p/getversion.c
+	CC ../../../lib/e2p/hashstr.c
+	CC ../../../lib/e2p/iod.c
+	CC ../../../lib/e2p/ls.c
+	CC ../../../lib/e2p/mntopts.c
+	CC ../../../lib/e2p/parse_num.c
+	CC ../../../lib/e2p/pe.c
+	CC ../../../lib/e2p/pf.c
+	CC ../../../lib/e2p/ps.c
+	CC ../../../lib/e2p/setflags.c
+	CC ../../../lib/e2p/setversion.c
+	CC ../../../lib/e2p/uuid.c
+	CC ../../../lib/e2p/ostype.c
+	CC ../../../lib/e2p/percent.c
+	GEN_LIB libe2p.a
+	GEN_ELF_SOLIB libe2p.so.2.3
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making all in lib/quota
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+	CC ../../../lib/quota/mkquota.c
+	CC ../../../lib/quota/quotaio.c
+	CC ../../../lib/quota/quotaio_v2.c
+	CC ../../../lib/quota/quotaio_tree.c
+	CC ../../../lib/quota/../../e2fsck/dict.c
+	GEN_LIB libquota.a
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making all in lib/ext2fs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[3]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	MKDIR elfshared
+make[3]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	CC gen_crc32ctable
+	CC ../../../lib/ext2fs/bb_compat.c
+	CC ../../../lib/ext2fs/inode_io.c
+	CC ../../../lib/ext2fs/write_bb_file.c
+	CC ../../../lib/ext2fs/dupfs.c
+	CC ../../../lib/ext2fs/imager.c
+	CC ../../../lib/ext2fs/test_io.c
+	CC ext2_err.c
+	CC ../../../lib/ext2fs/alloc.c
+	CC ../../../lib/ext2fs/alloc_sb.c
+	CC ../../../lib/ext2fs/alloc_stats.c
+	CC ../../../lib/ext2fs/alloc_tables.c
+	CC ../../../lib/ext2fs/badblocks.c
+	CC ../../../lib/ext2fs/bb_inode.c
+	CC ../../../lib/ext2fs/bitmaps.c
+	CC ../../../lib/ext2fs/bitops.c
+	CC ../../../lib/ext2fs/blkmap64_ba.c
+	CC ../../../lib/ext2fs/blkmap64_rb.c
+	CC ../../../lib/ext2fs/blknum.c
+	CC ../../../lib/ext2fs/block.c
+	CC ../../../lib/ext2fs/bmap.c
+	CC ../../../lib/ext2fs/check_desc.c
+	CC ../../../lib/ext2fs/closefs.c
+	CC ../../../lib/ext2fs/crc16.c
+	GEN32CTABLE crc32c_table.h
+	CC ../../../lib/ext2fs/csum.c
+	CC ../../../lib/ext2fs/dblist.c
+	CC ../../../lib/ext2fs/dblist_dir.c
+	CC ../../../lib/ext2fs/dirblock.c
+	CC ../../../lib/ext2fs/dirhash.c
+	CC ../../../lib/ext2fs/dir_iterate.c
+	CC ../../../lib/ext2fs/expanddir.c
+	CC ../../../lib/ext2fs/ext_attr.c
+	CC ../../../lib/ext2fs/extent.c
+	CC ../../../lib/ext2fs/fileio.c
+	CC ../../../lib/ext2fs/finddev.c
+	CC ../../../lib/ext2fs/flushb.c
+	CC ../../../lib/ext2fs/freefs.c
+	CC ../../../lib/ext2fs/gen_bitmap.c
+	CC ../../../lib/ext2fs/gen_bitmap64.c
+	CC ../../../lib/ext2fs/get_pathname.c
+	CC ../../../lib/ext2fs/getsize.c
+	CC ../../../lib/ext2fs/getsectsize.c
+	CC ../../../lib/ext2fs/i_block.c
+	CC ../../../lib/ext2fs/icount.c
+	CC ../../../lib/ext2fs/ind_block.c
+	CC ../../../lib/ext2fs/initialize.c
+	CC ../../../lib/ext2fs/inline.c
+	CC ../../../lib/ext2fs/inode.c
+	CC ../../../lib/ext2fs/io_manager.c
+	CC ../../../lib/ext2fs/ismounted.c
+	CC ../../../lib/ext2fs/link.c
+	CC ../../../lib/ext2fs/llseek.c
+	CC ../../../lib/ext2fs/lookup.c
+	CC ../../../lib/ext2fs/mkdir.c
+	CC ../../../lib/ext2fs/mkjournal.c
+	CC ../../../lib/ext2fs/mmp.c
+	CC ../../../lib/ext2fs/namei.c
+	CC ../../../lib/ext2fs/native.c
+	CC ../../../lib/ext2fs/newdir.c
+	CC ../../../lib/ext2fs/openfs.c
+	CC ../../../lib/ext2fs/progress.c
+	CC ../../../lib/ext2fs/punch.c
+	CC ../../../lib/ext2fs/qcow2.c
+	CC ../../../lib/ext2fs/read_bb.c
+	CC ../../../lib/ext2fs/read_bb_file.c
+	CC ../../../lib/ext2fs/res_gdt.c
+	CC ../../../lib/ext2fs/rw_bitmaps.c
+	CC ../../../lib/ext2fs/swapfs.c
+	CC ../../../lib/ext2fs/symlink.c
+	CC ../../../lib/ext2fs/tdb.c
+	CC ../../../lib/ext2fs/undo_io.c
+	CC ../../../lib/ext2fs/unix_io.c
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:4:0: warning: "FALLOC_FL_KEEP_SIZE" redefined
+ #define FALLOC_FL_KEEP_SIZE 0x01 /* default is extend size */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:321:0: note: this is the location of the previous definition
+ # define FALLOC_FL_KEEP_SIZE  1 /* Don't extend size of file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:5:0: warning: "FALLOC_FL_PUNCH_HOLE" redefined
+ #define FALLOC_FL_PUNCH_HOLE 0x02 /* de-allocates range */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:324:0: note: this is the location of the previous definition
+ # define FALLOC_FL_PUNCH_HOLE  2 /* Create a hole in the file.  */
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:28:0: warning: "FALLOC_FL_COLLAPSE_RANGE" redefined
+ #define FALLOC_FL_COLLAPSE_RANGE 0x08
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:325:0: note: this is the location of the previous definition
+ # define FALLOC_FL_COLLAPSE_RANGE 8 /* Remove a range of a file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:42:0: warning: "FALLOC_FL_ZERO_RANGE" redefined
+ #define FALLOC_FL_ZERO_RANGE  0x10
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:328:0: note: this is the location of the previous definition
+ # define FALLOC_FL_ZERO_RANGE  16 /* Convert a range of a
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:4:0: warning: "FALLOC_FL_KEEP_SIZE" redefined
+ #define FALLOC_FL_KEEP_SIZE 0x01 /* default is extend size */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:321:0: note: this is the location of the previous definition
+ # define FALLOC_FL_KEEP_SIZE  1 /* Don't extend size of file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:5:0: warning: "FALLOC_FL_PUNCH_HOLE" redefined
+ #define FALLOC_FL_PUNCH_HOLE 0x02 /* de-allocates range */
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:324:0: note: this is the location of the previous definition
+ # define FALLOC_FL_PUNCH_HOLE  2 /* Create a hole in the file.  */
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:28:0: warning: "FALLOC_FL_COLLAPSE_RANGE" redefined
+ #define FALLOC_FL_COLLAPSE_RANGE 0x08
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:325:0: note: this is the location of the previous definition
+ # define FALLOC_FL_COLLAPSE_RANGE 8 /* Remove a range of a file
+ ^
+In file included from ../../../lib/ext2fs/unix_io.c:54:0:
+/tools/include/linux/falloc.h:42:0: warning: "FALLOC_FL_ZERO_RANGE" redefined
+ #define FALLOC_FL_ZERO_RANGE  0x10
+ ^
+In file included from /tools/include/bits/fcntl.h:61:0,
+                 from /tools/include/fcntl.h:35,
+                 from ../../../lib/ext2fs/unix_io.c:33:
+/tools/include/bits/fcntl-linux.h:328:0: note: this is the location of the previous definition
+ # define FALLOC_FL_ZERO_RANGE  16 /* Convert a range of a
+ ^
+	CC ../../../lib/ext2fs/unlink.c
+	CC ../../../lib/ext2fs/valid_blk.c
+	CC ../../../lib/ext2fs/version.c
+	CC ../../../lib/ext2fs/rbtree.c
+	CC ../../../lib/ext2fs/crc32c.c
+	GEN_LIB libext2fs.a
+	GEN_ELF_SOLIB libext2fs.so.2.4
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make progs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in lib/et
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making all in lib/quota
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making all in lib/ext2fs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+making all in e2fsck
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+	COMPILE_ET prof_err.et
+	CC gen_crc32table
+	CC ../../e2fsck/dict.c
+	CC ../../e2fsck/unix.c
+	CC ../../e2fsck/e2fsck.c
+	CC ../../e2fsck/super.c
+	CC ../../e2fsck/pass1.c
+	CC ../../e2fsck/pass1b.c
+	CC ../../e2fsck/pass2.c
+	CC ../../e2fsck/pass3.c
+	CC ../../e2fsck/pass4.c
+	CC ../../e2fsck/pass5.c
+	CC ../../e2fsck/journal.c
+	CC ../../e2fsck/badblocks.c
+	CC ../../e2fsck/util.c
+	CC ../../e2fsck/dirinfo.c
+	CC ../../e2fsck/dx_dirinfo.c
+	CC ../../e2fsck/ehandler.c
+	CC ../../e2fsck/problem.c
+	CC ../../e2fsck/message.c
+	CC ../../e2fsck/quota.c
+	CC ../../e2fsck/recovery.c
+	CC ../../e2fsck/region.c
+	CC ../../e2fsck/revoke.c
+	CC ../../e2fsck/ea_refcount.c
+	CC ../../e2fsck/rehash.c
+	CC ../../e2fsck/profile.c
+	CC prof_err.c
+	CC ../../e2fsck/logfile.c
+	CC ../../e2fsck/sigcatcher.c
+	SUBST e2fsck.8
+	SUBST e2fsck.conf.5
+	GEN32TABLE crc32table.h
+	CC ../../e2fsck/crc32.c
+	LD e2fsck
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+making all in debugfs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+	MK_CMDS debug_cmds.c
+	CC ../../debugfs/debugfs.c
+	CC ../../debugfs/util.c
+	CC ../../debugfs/ncheck.c
+	CC ../../debugfs/icheck.c
+	CC ../../debugfs/ls.c
+	CC ../../debugfs/lsdel.c
+	CC ../../debugfs/dump.c
+	CC ../../debugfs/set_fields.c
+	CC ../../debugfs/logdump.c
+	CC ../../debugfs/htree.c
+	CC ../../debugfs/unused.c
+	CC e2freefrag.o
+	CC ../../debugfs/filefrag.c
+	MK_CMDS extent_cmds.c
+	CC ../../debugfs/extent_inode.c
+	CC ../../debugfs/zap.c
+	CC ../../debugfs/quota.c
+	SUBST debugfs.8
+	CC debug_cmds.c
+	CC extent_cmds.c
+	LD debugfs
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+making all in misc
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+	CP ../../e2fsck/profile.h
+	COMPILE_ET prof_err.et
+	CC ../../misc/util.c
+	COMPILE_ET prof_err.et
+if test -f ../../misc/mke2fs.conf.custom.in ; then \
+	cp ../../misc/mke2fs.conf.custom.in mke2fs.conf; \
+else \
+	cp ../../misc/mke2fs.conf.in mke2fs.conf; \
+fi
+	CC ../../misc/mk_hugefiles.c
+In file included from /tools/include/stdio.h:27:0,
+                 from ../../misc/mk_hugefiles.c:9:
+/tools/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+	CC ../../misc/badblocks.c
+	CC ../../misc/tune2fs.c
+	CC ../../misc/dumpe2fs.c
+	CC ../../misc/logsave.c
+	CC ../../misc/e2image.c
+	CC ../../misc/e2undo.c
+	CC ../../misc/chattr.c
+	CC ../../misc/lsattr.c
+	CC ../../misc/mklost+found.c
+	CC ../../misc/filefrag.c
+	CC ../../misc/e2freefrag.c
+	CC ../../misc/e4defrag.c
+	SUBST tune2fs.8
+	SUBST mklost+found.8
+	SUBST mke2fs.8
+	SUBST dumpe2fs.8
+	SUBST badblocks.8
+	SUBST e2label.8
+	SUBST e2image.8
+	SUBST logsave.8
+	SUBST filefrag.8
+	SUBST e2freefrag.8
+	SUBST e2undo.8
+	SUBST e4defrag.8
+	SUBST chattr.1
+	SUBST lsattr.1
+	SUBST mke2fs.conf.5
+	SUBST ext4.5
+	CC ../../misc/e2initrd_helper.c
+	CC ../../misc/mke2fs.c
+	CC ../../misc/../e2fsck/profile.c
+	CC prof_err.c
+	PROFILE_TO_C mke2fs.conf
+	LD badblocks
+	LD tune2fs
+	LD dumpe2fs
+	LD logsave
+	LD e2image
+	LD e2undo
+	LD chattr
+	LD lsattr
+	LD mklost+found
+	LD filefrag
+	LD e2freefrag
+	LD e4defrag
+	LD e2initrd_helper
+	CC default_profile.c
+	LD mke2fs
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+making all in resize
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+	CC ../../resize/extent.c
+	CC ../../resize/resize2fs.c
+	CC ../../resize/main.c
+	CC ../../resize/online.c
+	CC ../../resize/resource_track.c
+	CC ../../resize/sim_progress.c
+	CC ../../resize/test_extent.c
+	SUBST resize2fs.8
+	LD resize2fs
+	LD test_extent
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+making all in tests/progs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+	CC ../../../tests/progs/test_icount.c
+	MK_CMDS test_icount_cmds.c
+	CC ../../../tests/progs/crcsum.c
+	CC test_icount_cmds.c
+	LD crcsum
+	LD test_icount
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+making all in po
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make docs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+	MAKEINFO libext2fs.info
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+'lib/libblkid.so.1' -> '/tools/lib/libblkid.so.1'
+'lib/libuuid.so.1' -> '/tools/lib/libuuid.so.1'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'util/subst.conf' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/config.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/dirpaths.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/blkid/blkid_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/uuid/uuid_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: 'compile_et' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[1]: 'ext2_err.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make libs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in lib/et
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making all in lib/quota
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making all in lib/ext2fs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make progs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'util/subst.conf' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/config.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/dirpaths.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/blkid/blkid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: 'lib/uuid/uuid_types.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: 'compile_et' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: 'ext2_err.h' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in lib/et
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making all in lib/ss
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making all in lib/e2p
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making all in lib/quota
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making all in lib/ext2fs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in intl
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+making all in e2fsck
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+making all in debugfs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+making all in misc
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+making all in resize
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+making all in tests/progs
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+making all in po
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make docs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+make[2]: 'libext2fs.info' is up to date.
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+making check in util
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+making check in lib/et
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+for i in ../../../lib/et/test_cases/*.et ; do \
+	t=`basename $i | sed -e 's/.et//'`; \
+	./compile_et --build-tree $i ; \
+	diff -c ../../../lib/et/test_cases/$t.c $t.c > $t.failed; \
+	if [ $? -ne 0 ]; then echo Test case $t failed; exit 1 ; fi ; \
+	diff -c ../../../lib/et/test_cases/$t.h $t.h >> $t.failed; \
+	if [ $? -ne 0 ]; then echo Test case $t failed; exit 1 ; fi ; \
+	/tools/bin/rm -f $t.c $t.h $t.failed; \
+	echo "Test case $t succeeded" ; \
+done
+Test case continuation succeeded
+Test case heimdal succeeded
+Test case heimdal2 succeeded
+Test case heimdal3 succeeded
+Test case imap_err succeeded
+Test case simple succeeded
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making check in lib/ss
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	CC ../../../lib/ss/test_ss.c
+	MK_CMDS test_cmd.c
+	CC test_cmd.c
+	LD test_ss
+	RUN TEST test_ss
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making check in lib/e2p
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+	LD tst_ostype
+	LD tst_feature
+./tst_ostype
+0: Linux (0)
+1: Hurd (1)
+2: Masix (2)
+3: FreeBSD (3)
+4: Lites (4)
+./tst_feature
+Feature list:
+	Compat = 0, Mask = 1, dir_prealloc
+	Compat = 0, Mask = 4, has_journal
+	Compat = 0, Mask = 2, imagic_inodes
+	Compat = 0, Mask = 8, ext_attr
+	Compat = 0, Mask = 32, dir_index
+	Compat = 0, Mask = 16, resize_inode
+	Compat = 0, Mask = 64, lazy_bg
+	Compat = 0, Mask = 256, snapshot_bitmap
+	Compat = 0, Mask = 512, sparse_super2
+	Compat = 2, Mask = 1, sparse_super
+	Compat = 2, Mask = 2, large_file
+	Compat = 2, Mask = 8, huge_file
+	Compat = 2, Mask = 16, uninit_bg
+	Compat = 2, Mask = 16, uninit_groups
+	Compat = 2, Mask = 32, dir_nlink
+	Compat = 2, Mask = 64, extra_isize
+	Compat = 2, Mask = 256, quota
+	Compat = 2, Mask = 512, bigalloc
+	Compat = 2, Mask = 1024, metadata_csum
+	Compat = 2, Mask = 2048, replica
+	Compat = 1, Mask = 1, compression
+	Compat = 1, Mask = 2, filetype
+	Compat = 1, Mask = 4, needs_recovery
+	Compat = 1, Mask = 8, journal_dev
+	Compat = 1, Mask = 64, extent
+	Compat = 1, Mask = 64, extents
+	Compat = 1, Mask = 16, meta_bg
+	Compat = 1, Mask = 128, 64bit
+	Compat = 1, Mask = 256, mmp
+	Compat = 1, Mask = 512, flex_bg
+	Compat = 1, Mask = 1024, ea_inode
+	Compat = 1, Mask = 4096, dirdata
+	Compat = 1, Mask = 16384, large_dir
+	Compat = 1, Mask = 32768, inline_data
+
+Journal feature list:
+	Compat = 0, Mask = 1, journal_checksum
+	Compat = 1, Mask = 1, journal_incompat_revoke
+	Compat = 1, Mask = 2, journal_64bit
+	Compat = 1, Mask = 4, journal_async_commit
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making check in lib/quota
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making check in lib/ext2fs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	CC ../../../lib/ext2fs/tst_bitops.c
+	CC ../../../lib/ext2fs/tst_badblocks.c
+	CC ../../../lib/ext2fs/tst_iscan.c
+	CC ../../../lib/ext2fs/tst_types.c
+	LD tst_icount
+	CC ../../../lib/ext2fs/tst_super_size.c
+	CC ../../../lib/ext2fs/tst_inode_size.c
+	LD tst_csum
+	CC ../../../lib/ext2fs/tst_bitmaps.c
+	MK_CMDS tst_bitmaps_cmd.c
+	LD tst_inline
+	MK_CMDS ../../../debugfs/debug_cmds.ct
+	MK_CMDS ../../../debugfs/extent_cmds.ct
+	MK_CMDS tst_cmds.c
+	CC ../../../debugfs/debugfs.c
+	CC ../../../debugfs/util.c
+	CC ../../../debugfs/ncheck.c
+	CC ../../../debugfs/icheck.c
+	CC ../../../debugfs/ls.c
+	CC ../../../debugfs/lsdel.c
+	CC ../../../debugfs/dump.c
+	CC ../../../debugfs/set_fields.c
+	CC ../../../debugfs/logdump.c
+	CC ../../../debugfs/htree.c
+	CC ../../../debugfs/unused.c
+	CC ../../../misc/e2freefrag.c
+	CC ../../../debugfs/filefrag.c
+	CC ../../../debugfs/extent_inode.c
+	CC ../../../debugfs/zap.c
+	CC ../../../debugfs/quota.c
+	CC ../../../lib/ext2fs/tst_libext2fs.c
+	LD tst_bitops
+	LD tst_badblocks
+	LD tst_iscan
+	LD tst_types
+	LD tst_super_size
+	LD tst_inode_size
+	CC tst_bitmaps_cmd.c
+	CC debug_cmds.c
+	CC extent_cmds.c
+	CC tst_cmds.c
+	LD tst_bitmaps
+	LD tst_libext2fs
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitops
+ext2fs_test_bit appears to be correct
+ext2fs_set_bit test succeeded.
+ext2fs_clear_bit test succeed.
+big bit number (2147483690) test: 4, expected 4
+big bit number (2147483690) test: 0, expected 0
+ext2fs_set_bit big_test successful
+ext2fs_fast_set_bit test succeeded.
+ext2fs_clear_bit test succeed.
+big bit number (2147483690) test: 4, expected 4
+big bit number (2147483690) test: 0, expected 0
+ext2fs_fast_set_bit big_test successful
+64-bit: ext2fs_test_bit appears to be correct
+64-bit: ext2fs_set_bit test succeeded.
+64-bit: ext2fs_clear_bit test succeed.
+64-bit: big bit number (2147483690) test: 4, expected 4
+64-bit: big bit number (2147483690) test: 0, expected 0
+64-bit: ext2fs_set_bit big_test successful
+64-bit: ext2fs_fast_set_bit test succeeded.
+64-bit: ext2fs_clear_bit test succeed.
+64-bit: big bit number (2147483690) test: 4, expected 4
+64-bit: big bit number (2147483690) test: 0, expected 0
+64-bit: ext2fs_fast_set_bit big_test successful
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_badblocks
+test1: 1 2 3 4 5 6 7 8 9 10 --- OK
+test2: 1 2 3 4 5 6 7 8 9 10 11 --- OK
+test3: 1 2 3 4 5 6 7 8 9 10 --- OK
+test4: 2 12 13 17 20 23 50 56 66 
+	block 20 is present --- OK
+	block 50 is present --- OK
+	block 3 is absent --- OK
+	block 17 is present --- OK
+	block 18 is absent --- OK
+	block 16 is absent --- OK
+	block 11 is absent --- OK
+	block 12 is present --- OK
+	block 13 is present --- OK
+	block 14 is absent --- OK
+	block 80 is absent --- OK
+	block 45 is absent --- OK
+	block 66 is present --- OK
+
+test5: 1 17 20 23 31 51 56 57 
+Adding block 50 --- now present
+Removing block 51 --- now absent
+Removing block 57 --- now absent
+Adding block 66 --- now present
+Removing block 31 --- now absent
+Adding block 12 --- now present
+Adding block 2 --- now present
+Adding block 13 --- now present
+Removing block 1 --- now absent
+After test5 sequence: 2 12 13 17 20 23 50 56 66 
+
+Comparison tests:
+bb1 and bb2 are NOT equal.
+bb1 and bb3 are equal.
+bb1 and bb4 are NOT equal.
+bb4 and bb5 are equal.
+
+Block bitmap matched after reading and writing.
+Expected invalid block
+Block bitmap matched after reading and writing.
+ext2fs library badblocks tests checks out OK!
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_iscan
+Reading blocks: 5-7, 9-11, 13-20, 21-23, 25-32, 33, 35-42, 45-52, 53-60, 61-68, 69-76, 77-84, 85-92, 93-99, 101-108, 109-116, 117-124, 125-132, 133-140, 141-148, 149-156, 157-164, 165-172, 173-180, 181-188, 189-192, 8197-8204, 8205-8212, 8213-8220, 8221-8228, 8229-8236, 8237-8244, 8245-8252, 8253-8260, 8261-8268, 8269-8276, 8277-8284, 8285-8292, 8293-8300, 8301-8308, 8309-8316, 8317-8324, 8325-8332, 8333-8340, 8341-8348, 8349-8356, 8357-8364, 8365-8372, 8373-8380, 8381-8384
+Bad inodes: 25, 26, 27, 28, 29, 30, 31, 32, 57, 58, 59, 60, 61, 62, 63, 64, 153, 154, 155, 156, 157, 158, 159, 160, 233, 234, 235, 236, 237, 238, 239, 240, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 761, 762, 763, 764, 765, 766, 767, 768
+Inode scan tested OK!
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_types
+The ext2_types.h types are correct.
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_icount
+Standard icount run:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 60
+
+Multiple bitmap test:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 60
+
+Resizing icount:
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(4, 4) = 4 (OK)
+icount_store(5, 5) = 5 (OK)
+icount_store(6, 1) = 1 (OK)
+icount_store(7, 2) = 2 (OK)
+icount_store(8, 3) = 3 (OK)
+icount_store(9, 4) = 4 (OK)
+icount_store(10, 5) = 5 (OK)
+icount_store(11, 1) = 1 (OK)
+icount_store(12, 2) = 2 (OK)
+icount_store(13, 3) = 3 (OK)
+icount_store(14, 4) = 4 (OK)
+icount_store(15, 5) = 5 (OK)
+icount_store(16, 1) = 1 (OK)
+icount_store(17, 2) = 2 (OK)
+icount_store(18, 3) = 3 (OK)
+icount_store(19, 4) = 4 (OK)
+icount_store(20, 5) = 5 (OK)
+icount_store(21, 1) = 1 (OK)
+icount_store(22, 2) = 2 (OK)
+icount_store(23, 3) = 3 (OK)
+icount_store(24, 4) = 4 (OK)
+icount_store(25, 5) = 5 (OK)
+icount_store(26, 1) = 1 (OK)
+icount_store(27, 2) = 2 (OK)
+icount_store(28, 3) = 3 (OK)
+icount_store(29, 4) = 4 (OK)
+icount_store(30, 5) = 5 (OK)
+icount size is 2256
+
+Standard icount run with tdb:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 0
+
+Multiple bitmap test with tdb:
+icount_store(42, 42) = 42 (OK)
+icount_store(1, 1) = 1 (OK)
+icount_store(2, 2) = 2 (OK)
+icount_store(3, 3) = 3 (OK)
+icount_store(10, 1) = 1 (OK)
+icount_store(42, 0) = 0 (OK)
+icount_increment(5) = 1 (OK)
+icount_increment(5) = 2 (OK)
+icount_increment(5) = 3 (OK)
+icount_increment(5) = 4 (OK)
+icount_decrement(5) = 3 (OK)
+icount_decrement(5) = 2 (OK)
+icount_decrement(5) = 1 (OK)
+icount_decrement(5) = 0 (OK)
+icount_fetch(10) = 1 (OK)
+icount_fetch(1) = 1 (OK)
+icount_fetch(2) = 2 (OK)
+icount_fetch(3) = 3 (OK)
+icount_increment(1) = 2 (OK)
+icount_decrement(2) = 1 (OK)
+icount_decrement(2) = 0 (OK)
+icount_fetch(12) = 0 (OK)
+icount size is 0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_super_size
+  offset field                          size
+       0 s_inodes_count                   4
+       4 s_blocks_count                   4
+       8 s_r_blocks_count                 4
+      12 s_free_blocks_count              4
+      16 s_free_inodes_count              4
+      20 s_first_data_block               4
+      24 s_log_block_size                 4
+      28 s_log_cluster_size               4
+      32 s_blocks_per_group               4
+      36 s_clusters_per_group             4
+      40 s_inodes_per_group               4
+      44 s_mtime                          4
+      48 s_wtime                          4
+      52 s_mnt_count                      2
+      54 s_max_mnt_count                  2
+      56 s_magic                          2
+      58 s_state                          2
+      60 s_errors                         2
+      62 s_minor_rev_level                2
+      64 s_lastcheck                      4
+      68 s_checkinterval                  4
+      72 s_creator_os                     4
+      76 s_rev_level                      4
+      80 s_def_resuid                     2
+      82 s_def_resgid                     2
+      84 s_first_ino                      4
+      88 s_inode_size                     2
+      90 s_block_group_nr                 2
+      92 s_feature_compat                 4
+      96 s_feature_incompat               4
+     100 s_feature_ro_compat              4
+     104 s_uuid                          16
+     120 s_volume_name                   16
+     136 s_last_mounted                  64
+     200 s_algorithm_usage_bitmap         4
+     204 s_prealloc_blocks                1
+     205 s_prealloc_dir_blocks            1
+     206 s_reserved_gdt_blocks            2
+     208 s_journal_uuid                  16
+     224 s_journal_inum                   4
+     228 s_journal_dev                    4
+     232 s_last_orphan                    4
+     236 s_hash_seed                     16
+     252 s_def_hash_version               1
+     253 s_jnl_backup_type                1
+     254 s_desc_size                      2
+     256 s_default_mount_opts             4
+     260 s_first_meta_bg                  4
+     264 s_mkfs_time                      4
+     268 s_jnl_blocks                    68
+     336 s_blocks_count_hi                4
+     340 s_r_blocks_count_hi              4
+     344 s_free_blocks_hi                 4
+     348 s_min_extra_isize                2
+     350 s_want_extra_isize               2
+     352 s_flags                          4
+     356 s_raid_stride                    2
+     358 s_mmp_update_interval            2
+     360 s_mmp_block                      8
+     368 s_raid_stripe_width              4
+     372 s_log_groups_per_flex            1
+     373 s_reserved_char_pad              1
+     374 s_reserved_pad                   2
+     376 s_kbytes_written                 8
+     384 s_snapshot_inum                  4
+     388 s_snapshot_id                    4
+     392 s_snapshot_r_blocks_count        8
+     400 s_snapshot_list                  4
+     404 s_error_count                    4
+     408 s_first_error_time               4
+     412 s_first_error_ino                4
+     416 s_first_error_block              8
+     424 s_first_error_func              32
+     456 s_first_error_line               4
+     460 s_last_error_time                4
+     464 s_last_error_ino                 4
+     468 s_last_error_line                4
+     472 s_last_error_block               8
+     480 s_last_error_func               32
+     512 s_mount_opts                    64
+     576 s_usr_quota_inum                 4
+     580 s_grp_quota_inum                 4
+     584 s_overhead_blocks                4
+     588 s_backup_bgs                     8
+     596 s_reserved                     424
+    1020 s_checksum                       4
+    1024 Superblock end                   0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_inode_size
+  offset field                          size
+       0 i_mode                           2
+       2 i_uid                            2
+       4 i_size                           4
+       8 i_atime                          4
+      12 i_ctime                          4
+      16 i_mtime                          4
+      20 i_dtime                          4
+      24 i_gid                            2
+      26 i_links_count                    2
+      28 i_blocks                         4
+      32 i_flags                          4
+      36 osd1.linux1.l_i_version          4
+      40 i_block                         60
+     100 i_generation                     4
+     104 i_file_acl                       4
+     108 i_size_high                      4
+     112 i_faddr                          4
+     116 osd2.linux2.l_i_blocks_hi        2
+     118 osd2.linux2.l_i_file_acl_high    2
+     120 osd2.linux2.l_i_uid_high         2
+     122 osd2.linux2.l_i_gid_high         2
+     124 osd2.linux2.l_i_checksum_lo      2
+     126 osd2.linux2.l_i_reserved         2
+     128 Small inode end                  0
+     128 i_extra_isize                    2
+     130 i_checksum_hi                    2
+     132 i_ctime_extra                    4
+     136 i_mtime_extra                    4
+     140 i_atime_extra                    4
+     144 i_crtime                         4
+     148 i_crtime_extra                   4
+     152 i_version_hi                     4
+     156 Large inode end                  0
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_csum
+csum0000 UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 0=df47: d3a4=d3a4
+csum0001 UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 1=2346: 3ea5=3ea5
+csumffff UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 2=6746: 49a5=49a5
+csum_set UUID 4f25e8cf-e797-4823-befa-a7884baeecdb=241f, grp 0=df47: d3a4=d3a4
+new_uuid UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: a4ac=a4ac
+csum_new UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: a4ac=a4ac
+csum_blk UUID 30303030-3030-3030-3030-303030303030=766d, grp 0=76fd: 2e14=2e14
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_inline
+tst_memalign(4) is OK
+tst_memalign(32) is OK
+tst_memalign(1024) is OK
+tst_memalign(4096) is OK
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_crc32c
+No failures.
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -f ../../../lib/ext2fs/tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ../../../lib/ext2fs/tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -t 2 -f ../../../lib/ext2fs/tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ../../../lib/ext2fs/tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -t 3 -f ../../../lib/ext2fs/tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ../../../lib/ext2fs/tst_bitmaps_exp tst_bitmaps_out
+LD_LIBRARY_PATH="../../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../../lib:${DYLD_LIBRARY_PATH}" ./tst_bitmaps -l -f ../../../lib/ext2fs/tst_bitmaps_cmds > tst_bitmaps_out
+Illegal block number passed to ext2fs_test_block_bitmap #0 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #1 for block bitmap
+Illegal block number passed to ext2fs_test_block_bitmap #13 for block bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #0 for inode bitmap
+Illegal inode number passed to ext2fs_test_inode_bitmap #1 for inode bitmap
+diff ../../../lib/ext2fs/tst_bitmaps_exp tst_bitmaps_out
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making check in intl
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+making check in e2fsck
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+	LD tst_refcount
+	LD tst_region
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_refcount
+Creating refcount with size 5
+Storing blk 3 with value 3
+Storing blk 4 with value 4
+Storing blk 1 with value 1
+Storing blk 8 with value 8
+Storing blk 2 with value 2
+Storing blk 4 with value 0
+Storing blk 2 with value 0
+Storing blk 6 with value 6
+Refcount_collapse: size was 5, now 3
+Refcount validation OK.
+Storing blk 4 with value 4
+Storing blk 2 with value 2
+Refcount_collapse: size was 5, now 5
+bcode_fetch(1) returns 1
+bcode_fetch(2) returns 2
+bcode_increment(3) returns 4
+bcode_increment(3) returns 5
+bcode_decrement(4) returns 3
+Storing blk 4 with value 4
+Refcount validation OK.
+Storing blk 20 with value 20
+Storing blk 40 with value 40
+Storing blk 30 with value 30
+Storing blk 10 with value 10
+bcode_decrement(30) returns 29
+bcode_fetch(30) returns 29
+bcode_decrement(2) returns 1
+bcode_decrement(2) returns 0
+Refcount_collapse: size was 10, now 9
+	blk=1, count=1
+	blk=3, count=5
+	blk=4, count=4
+	blk=6, count=6
+	blk=8, count=8
+	blk=10, count=10
+	blk=20, count=20
+	blk=30, count=29
+	blk=40, count=40
+Refcount validation OK.
+Freeing refcount
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_region
+Creating region with args(1, 1001)
+Printing region (min=1. max=1001)
+	
+Region_allocate(10, 10) returns 0
+Region_allocate(30, 10) returns 0
+Printing region (min=1. max=1001)
+	(10, 20)  (30, 40)  
+Region_allocate(1, 15) returns 1
+Region_allocate(15, 8) returns 1
+Region_allocate(1, 20) returns 1
+Region_allocate(1, 8) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (30, 40)  
+Region_allocate(40, 10) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (30, 50)  
+Region_allocate(22, 5) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (22, 27)  (30, 50)  
+Region_allocate(27, 3) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 20)  (22, 50)  
+Region_allocate(20, 2) returns 0
+Printing region (min=1. max=1001)
+	(1, 9)  (10, 50)  
+Region_allocate(49, 1) returns 1
+Region_allocate(50, 5) returns 0
+Region_allocate(9, 2) returns 1
+Region_allocate(9, 1) returns 0
+Printing region (min=1. max=1001)
+	(1, 55)  
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_crc32
+Testing length 0...Testing length 1...Testing length 2...Testing length 3...Testing length 4...Testing length 5...Testing length 6...Testing length 7...Testing length 8...Testing length 9...Testing length 10...Testing length 11...Testing length 12...Testing length 13...Testing length 14...Testing length 15...Testing length 16...Testing length 17...Testing length 18...Testing length 19...Testing length 20...Testing length 21...Testing length 22...Testing length 23...Testing length 24...Testing length 25...Testing length 26...Testing length 27...Testing length 28...Testing length 29...Testing length 30...Testing length 31...Testing length 32...Testing length 33...Testing length 34...Testing length 35...Testing length 36...Testing length 37...Testing length 38...Testing length 39...Testing length 40...Testing length 41...Testing length 42...Testing length 43...Testing length 44...Testing length 45...Testing length 46...Testing length 47...Testing length 48...Testing length 49...Testing length 50...Testing length 51...Testing length 52...Testing length 53...Testing length 54...Testing length 55...Testing length 56...Testing length 57...Testing length 58...Testing length 59...Testing length 60...Testing length 61...Testing length 62...Testing length 63...Testing length 64...
+All test complete.  No failures expected.
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./tst_problem
+e2fsck problem table verified
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+making check in debugfs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+making check in misc
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+	LD base_device
+./base_device < ../../misc/base_device.tst > base_device.out
+cmp ../../misc/base_device.tst base_device.out
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+making check in resize
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+LD_LIBRARY_PATH="../lib:${LD_LIBRARY_PATH}" DYLD_LIBRARY_PATH="../lib:${DYLD_LIBRARY_PATH}" ./test_extent < ../../resize/test_extent.in > test_extent.out
+Test succeeded.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+making check in tests/progs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+making check in po
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+making check in tests
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/tests'
+/tools/bin/cp ../../tests/mke2fs.conf.in mke2fs.conf
+Running e2fsprogs test suite...
+Creating test_one script...
+ 
+f_special_ea: Special files with extended attributes: ok
+f_dup_resize: blocks claimed by the resize inode and another inode: ok
+f_preen: preen shouldn't destroy backup superblocks: ok
+f_orphan: clearing orphan inodes: ok
+f_bbfile: bad blocks in files: ok
+m_raid_opt: raid options: ok
+f_extents2: multiply claimed blocks in extents and other illegal extents: ok
+f_full_bg: inode table in last block of first bg: ok
+r_move_itable: filesystem resize which requires moving the inode table: ok
+f_orphan_indirect_inode: truncating an orphaned inode in preen mode: ok
+f_lpf2: create lost+found and reconnect lost directory: ok
+f_ext_journal: test external journal device: ok
+f_overfsblks: overlapping inode and block bitmaps: ok
+f_hurd: GNU/Hurd specific tests: ok
+r_meta_bg_shrink: meta_bg shrink: ok
+f_zero_xattr: zero length extended attribute in in-inode xattr: ok
+r_ext4_small_bg: ext4 1024 blocksize with small block groups: ok
+r_bigalloc_big_expand: ext4 with bigalloc: ok
+f_dup: blocks claimed by two different files: ok
+debugfs 1.42.13 (17-May-2015)
+f_badcluster: test alignment problems with bigalloc clusters: ok
+f_uninit_ext_past_eof: fallocated extents after i_size: ok
+t_ext_jnl_rm: remove missing external journal device: ok
+f_badprimary: bad blocks in the primary superblock and group descriptors: ok
+m_quota: enable quota feature on mkfs: skipped
+f_clear_xattr: clearing i_file_acl when !ext_attr feature: ok
+f_h_badroot: bad htree root nodes: ok
+r_inline_xattr: shrinking filesystem with in-inode extended attributes: ok
+f_first_meta_bg_too_big: s_first_meta_bg is too large: ok
+f_dupsuper: blocks claimed by a file and superblock or group descriptors: ok
+f_badjour_indblks: corruption in journal inode's indirect blocks: ok
+m_mkfs_overhead: test bg overhead calculation: ok
+f_badjourblks: Illegal blocks in journal inode (and backup in superblock): ok
+f_badsymlinks: corrupted symlinks: ok
+f_bitmaps: corrupted inode and block bitmaps: ok
+f_holedir3: real directories with holes and zero i_size: ok
+f_messy_inode: bad file and directory acl pointers: ok
+f_reconnect: simple disconnected file inode: ok
+f_orphan_extents_inode: truncating an orphaned extent-mapped inode: ok
+f_salvage_dir: salvage corrupted directories: ok
+f_badorphan: corrupted orphan list: ok
+d_special_files: create special files in debugfs: ok
+f_badinode: corrupted inode entries: ok
+i_e2image: create/convert raw/qcow2 images: ok
+f_lotsbad: too many illegal blocks in inode: ok
+m_desc_size_128: enable 128-byte group descriptor on mkfs: ok
+f_invalid_bad_inode: check for bogus bad inode: ok
+f_noroot: missing root directory: ok
+f_invalid_extent_symlink: extent-mapped symlink with two blocks: ok
+f_desc_size_bad: bad superblock s_desc_size: ok
+f_dup_de2: duplicate directory entries for non-indexed dirs: ok
+f_dup4: find all directory pathnames: ok
+u_mke2fs: e2undo with mke2fs: ok
+f_hugedir_blocks: crash e2fsck with a dir with an impossibly high logical blk offset: ok
+e_brel_bma: block relocation table using the memory array implementation: skipped
+f_extra_journal: Valid journal inode, but has_journal feature not present: ok
+f_dup_ba: multiply claimed blocks with bigalloc: ok
+r_min_itable: resize2fs -M with inode table in middle of last block group: ok
+e_icount_normal: inode counting structure optimized for low counts: ok
+f_badroot: file in root directory inode: ok
+m_64bit_flexbg: mkfs with 64bit and flex_bg: ok
+f_imagic_fs: imagic filesystem with imagic inodes: ok
+f_illitable_flexbg: illegal inode table with FLEX_BG: ok
+f_baddir2: salvage last directory entry: ok
+f_dirlink: directory hard links: ok
+f_holedir2: directories with holes and zero i_size: ok
+f_journal: recover journal from corrupted inode table: ok
+r_resize_inode: filesystem resize with a resize_inode present: ok
+f_bad_local_jnl: test for corrupt local journal (bad V1->V2 journal upgrade): ok
+f_resize_inode: e2fsck with resize_inode: ok
+r_ext4_big_expand: very large fs growth using ext4: ok
+f_extent_interior_start_lblk: incorrect starting lblk in an interior node: ok
+f_jnl_64bit: on-disk 64-bit journal format: ok
+f_emptydir: always iterate dir block 0 or e2fsck goes into infinite loop: ok
+f_toobig_extent_dir: directory with a very large lblk in extent: ok
+m_dasd_bs: 2048 byte sector devices: ok
+f_file_acl_high: i_file_acl_high should be zero: ok
+e_icount_opt: inode counting abstraction optimized for counting: ok
+u_tune2fs: e2undo with tune2fs: ok
+f_holedir: directory with holes and illegal blocks: ok
+f_extent_bad_node: bad interior node in extent tree: ok
+m_uninit: uninitialized group feature: ok
+m_no_opt: no filesystem extensions: ok
+f_badtable: bad blocks in bitmaps and inode table: ok
+m_large_file: largefile fs type: ok
+f_desc_size_128: 128-byte group descriptors: ok
+f_illibitmap: illegal inode bitmap: ok
+f_bad_disconnected_inode: Disconnected inode with bad fields: ok
+f_miss_journal: Non-existent journal inode: ok
+f_valid_ea_in_inode: valid ea-in-inode examplars: ok
+f_bbinode: bad blocks in inode table: ok
+t_quota_2off: disable quota using tune2fs: skipped
+f_dup2: blocks claimed by three different files: ok
+f_baddotdir: bad '.' and '..' entries: ok
+f_ext_zero_len: extent with zero length: ok
+f_filetype: set filetype information and illegal special files: ok
+f_extents: basic extents support: ok
+f_lpf: missing lost+found: ok
+f_lpffile: lost+found is not a directory: ok
+f_unused_itable: Don't move files to lost+found for bg_unused_itable: ok
+f_extent_oobounds: ok
+f_h_unsigned: Unsigned HTREE directory: ok
+m_std: standard filesystem options: ok
+m_hugefile_slack: mke2fs creating a hugefile fs with a lot of slack: ok
+f_illitable: illegal inode table: ok
+f_zero_inode_size: superblock with a zero inode size: ok
+f_unsorted_EAs: unsorted EAs in inode should not be deleted: ok
+f_jnl_32bit: on-disk 32-bit journal format: ok
+e_irel_ima: inode relocation table using the memory array implementation: skipped
+m_extent_journal: extent-mapped journal: ok
+m_meta_bg: meta blockgroup feature: ok
+f_dup_de: duplicate directory entries: ok
+f_dir_bad_mode: directory with corrupted i_mode: ok
+f_imagic: non-imagic filesystem with imagic inodes: ok
+f_zero_group: fallback for damaged group descriptors: ok
+f_8192_block: 8192 byte blocksize: ok
+f_jnl_errno: journal s_errno handling: ok
+f_uninit_ext_past_eof2: fallocated extents after nonzero i_size and total extents > 4: ok
+f_recnect_bad: Reconnecting bad inode: ok
+f_end-bitmap: corruption at end of block bitmap: ok
+f_quota: fix incorrect usage stats in quota: skipped (quota not enabled)
+f_dupfsblks: blocks claimed by a file and bitmaps or inode tables: ok
+f_badbblocks: illegal blocks in bad block inode: ok
+f_h_badnode: hash directory with bad HTREE nodes: ok
+r_64bit_big_expand: very large fs growth using ext4 w/64bit: ok
+m_bigjournal: journal over 4GB in size: ok
+f_h_normal: Normal (signed) HTREE directory: ok
+f_zero_super: fallback for damaged superblock: ok
+m_root_owner: root directory owner: ok
+f_crashdisk: Superblock with illegal values: ok
+f_baddir: corrupted directory entries: ok
+f_orphan_dotdot_ft: filetype of .. in orphaned directories: ok
+t_mmp_2off: disable MMP using tune2fs: ok
+f_misstable: missing inode table: ok
+f_rehash_dir: optimize htree directories: ok
+t_mmp_1on: enable MMP using tune2fs: ok
+f_dup3: blocks claimed by one file multiple times: ok
+f_mmp_garbage: repair MMP when it is corrupted: ok
+f_ea_checks: extended attribute block checks: ok
+f_h_reindex: reindex HTREE Directory with different hash seed: ok
+f_okgroup: 8193 block long filesystem: ok
+f_dupdot: duplicate '.' and '..' entries: ok
+t_quota_1on: enable quota using tune2fs: skipped
+f_selinux: SE Linux generated symlinks with EA data: ok
+f_fast_symlink_extents: fast symlink with extents flag set: ok
+d_loaddump: debugfs load/dump test: ok
+f_readonly_fsck: ensure that a readonly check doesn't modify the fs: ok
+f_boundscheck: infinite loop due to off by one error when finding free space for inode table relocation: ok
+f_16384_block: 16384 byte blocksize: ok
+f_big_sparse: big sparse file: ok
+f_mmp: disable MMP with tune2fs after e2fsck killed: ok
+f_miss_blk_bmap: missing block bitmap: ok
+f_summary_counts: incorrect inode/block free counts: ok
+f_mke2fs2b: mke2fs version 0.2b created filesystem: ok
+f_expand: expanding lost+found: ok
+f_eofblocks: blocks after i_size: ok
+f_uninit_last_uninit: last group has BLOCK_UNINIT set: ok
+f_uninit_dir: fix uninit flag on directory extents and check the dir blocks: ok
+m_mmp: enable MMP during mke2fs: ok
+f_illbbitmap: illegal block bitmap: ok
+Creating test_script...
+r_1024_small_bg: ext2 1024 blocksize with small block groups: ok
+153 tests succeeded	0 tests failed
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/tests'
+making install-shlibs in lib/et
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'util/subst.conf' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/config.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/dirpaths.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+cd ../../util ; make symlinks
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/ext2fs/ext2_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[2]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+	CC ../../util/symlinks.c
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/blkid/blkid_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: 'lib/uuid/uuid_types.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: 'compile_et' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[1]: 'ext2_err.h' is up to date.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+	TEXI2DVI libext2fs.dvi
+You don't have a working TeX binary (tex) installed anywhere in
+your PATH, and texi2dvi cannot proceed without one.  If you want to use
+this script, you'll need to install TeX (if you don't have it) or change
+your PATH or TEX environment variable (if you do).  See the --help
+output for more details.
+
+For information about obtaining TeX, please see http://tug.org/texlive,
+or do a web search for TeX and your operating system or distro.
+Makefile:332: recipe for target 'libext2fs.dvi' failed
+make[1]: [libext2fs.dvi] Error 1 (ignored)
+	MKINSTALLDIRS /usr/share/info
+	INSTALL_DATA /usr/share/info/libext2fs.info
+	GZIP /usr/share/info/libext2fs.info*
+	LD symlinks
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/doc'
+making all in lib/et
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making all in lib/ss
+make[2]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/util'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+making all in lib/e2p
+	SYMLINK /lib/libcom_err.so.2
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making all in lib/quota
+	SYMLINK /usr/lib/libcom_err.so
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making all in lib/ext2fs
+	LDCONFIG
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making install-shlibs in lib/ss
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making all in intl
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+making install in e2fsck
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	SYMLINK /lib/libss.so.2
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	SYMLINK /usr/lib/libss.so
+	INSTALL /sbin/e2fsck
+	LINK /sbin/fsck.ext2
+	LINK /sbin/fsck.ext3
+	LINK /sbin/fsck.ext4
+	LINK /sbin/fsck.ext4dev
+	INSTALL_DATA /usr/share/man/man8/e2fsck.8
+	LDCONFIG
+	INSTALL_DATA /usr/share/man/man5/e2fsck.conf.5
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	LINK /usr/share/man/man8/fsck.ext2.8
+	LINK /usr/share/man/man8/fsck.ext3.8
+making install-shlibs in lib/e2p
+	LINK /usr/share/man/man8/fsck.ext4.8
+	LINK /usr/share/man/man8/fsck.ext4dev.8
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/e2fsck'
+making install in debugfs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	SYMLINK /lib/libe2p.so.2
+	INSTALL /sbin/debugfs
+	INSTALL_DATA /usr/share/man/man8/debugfs.8
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/debugfs'
+	SYMLINK /usr/lib/libe2p.so
+making install in misc
+	LDCONFIG
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+	MKINSTALLDIRS /usr/sbin /sbin /bin /usr/share/man/man1 /usr/share/man/man8 /usr/lib /etc
+making install-shlibs in lib/quota
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[1]: Nothing to be done for 'install-shlibs'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making install-shlibs in lib/ext2fs
+	INSTALL /sbin/mke2fs
+	INSTALL /sbin/badblocks
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	INSTALL /sbin/tune2fs
+	INSTALL /sbin/dumpe2fs
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL /sbin/logsave
+	INSTALL /sbin/e2image
+	INSTALL /sbin/e2undo
+	INSTALL /usr/sbin/mklost+found
+	INSTALL /usr/sbin/filefrag
+	INSTALL /usr/sbin/e2freefrag
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	INSTALL /usr/sbin/e4defrag
+	SYMLINK /lib/libext2fs.so.2
+	LINK /sbin/mkfs.ext2
+	LINK /sbin/mkfs.ext3
+	LINK /sbin/mkfs.ext4
+	LINK /sbin/mkfs.ext4dev
+	INSTALL /bin/chattr
+	INSTALL /bin/lsattr
+	INSTALL /usr/lib/e2initrd_helper
+	SYMLINK /usr/lib/libext2fs.so
+	INSTALL_DATA /usr/share/man/man8/tune2fs.8
+	INSTALL_DATA /usr/share/man/man8/mklost+found.8
+	INSTALL_DATA /usr/share/man/man8/mke2fs.8
+	LDCONFIG
+	INSTALL_DATA /usr/share/man/man8/dumpe2fs.8
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making install-shlibs in intl
+	INSTALL_DATA /usr/share/man/man8/badblocks.8
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+make[1]: Nothing to be done for 'install-shlibs'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+	INSTALL_DATA /usr/share/man/man8/e2label.8
+	INSTALL_DATA /usr/share/man/man8/e2image.8
+	INSTALL_DATA /usr/share/man/man8/logsave.8
+	INSTALL_DATA /usr/share/man/man8/filefrag.8
+	INSTALL_DATA /usr/share/man/man8/e2freefrag.8
+	INSTALL_DATA /usr/share/man/man8/e2undo.8
+	INSTALL_DATA /usr/share/man/man8/e4defrag.8
+	LINK mkfs.ext2.8
+	LINK mkfs.ext3.8
+	LINK mkfs.ext4.8
+	LINK mkfs.ext4dev.8
+	INSTALL_DATA /usr/share/man/man1/chattr.1
+	INSTALL_DATA /usr/share/man/man1/lsattr.1
+	INSTALL_DATA /usr/share/man/man5/mke2fs.conf.5
+	INSTALL_DATA /usr/share/man/man5/ext4.5
+	LINK ext2.5
+	LINK ext3.5
+	INSTALL_DATA /etc/mke2fs.conf
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/misc'
+making install in resize
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+	MKINSTALLDIRS /sbin /usr/share/man/man8
+	INSTALL /sbin/resize2fs
+	INSTALL_DATA /usr/share/man/man8/resize2fs.8
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/resize'
+making install in tests/progs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/tests/progs'
+making install in po
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+/bin/sh ../../config/mkinstalldirs /usr/share
+installing ../../po/ca.gmo as /usr/share/locale/ca/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/cs.gmo as /usr/share/locale/cs/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/da.gmo as /usr/share/locale/da/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/de.gmo as /usr/share/locale/de/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/eo.gmo as /usr/share/locale/eo/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/es.gmo as /usr/share/locale/es/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/fr.gmo as /usr/share/locale/fr/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/id.gmo as /usr/share/locale/id/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/it.gmo as /usr/share/locale/it/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/nl.gmo as /usr/share/locale/nl/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/pl.gmo as /usr/share/locale/pl/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/sv.gmo as /usr/share/locale/sv/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/tr.gmo as /usr/share/locale/tr/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/uk.gmo as /usr/share/locale/uk/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/vi.gmo as /usr/share/locale/vi/LC_MESSAGES/e2fsprogs.mo
+installing ../../po/zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/e2fsprogs.mo
+if test "e2fsprogs" = "gettext-tools"; then \
+  /bin/sh ../../config/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ../../po/$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/po'
+if test ! -d e2fsck && test ! -d debugfs && test ! -d misc && test ! -d ext2ed ; then make install-libs ; fi
+making install in lib/et
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libcom_err.so.2.1
+	MKINSTALLDIRS /usr/lib /usr/include/et /usr/share/et /bin /usr/share/man/man1 /usr/share/man/man3
+	SYMLINK /lib/libcom_err.so.2
+mkdir /usr/include/et
+mkdir /usr/share/et
+	SYMLINK /usr/lib/libcom_err.so
+	LDCONFIG
+	INSTALL_DATA /usr/lib/libcom_err.a
+	INSTALL_DATA /usr/include/et/com_err.h
+	INSTALL_DATA /usr/share/et/et_c.awk
+	INSTALL_DATA /usr/share/et/et_h.awk
+	INSTALL_SCRIPT /bin/compile_et
+	INSTALL_DATA /usr/share/man/man3/com_err.3
+	INSTALL_DATA /usr/share/man/man1/compile_et.1
+	INSTALL_DATA /usr/lib/pkgconfig/com_err.pc
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/et'
+making install in lib/ss
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libss.so.2.0
+	MKINSTALLDIRS /usr/lib /usr/include/ss /usr/share/ss /bin
+	SYMLINK /lib/libss.so.2
+mkdir /usr/include/ss
+mkdir /usr/share/ss
+	SYMLINK /usr/lib/libss.so
+	LDCONFIG
+	INSTALL_DATA /usr/lib/libss.a
+	INSTALL_DATA /usr/include/ss/ss.h
+	INSTALL_DATA /usr/include/ss/ss_err.h
+	INSTALL_DATA /usr/share/ss/ct_c.awk
+	INSTALL_DATA /usr/share/ss/ct_c.sed
+	INSTALL /bin/mk_cmds
+	INSTALL_DATA /usr/share/man/man1/mk_cmds.1
+	INSTALL_DATA /usr/lib/pkgconfig/ss.pc
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ss'
+making install in lib/e2p
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libe2p.so.2.3
+	MKINSTALLDIRS /usr/lib /usr/include/e2p
+	SYMLINK /lib/libe2p.so.2
+mkdir /usr/include/e2p
+	SYMLINK /usr/lib/libe2p.so
+	LDCONFIG
+	INSTALL_DATA /usr/lib/libe2p.a
+	INSTALL_DATA /usr/include/e2p/e2p.h
+	INSTALL_DATA /usr/lib/pkgconfig/e2p.pc
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/e2p'
+making install in lib/quota
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/quota'
+making install in lib/ext2fs
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+	MKINSTALLDIRS /lib /usr/lib
+	INSTALL-ELF-LIB /lib/libext2fs.so.2.4
+	MKINSTALLDIRS /usr/lib /usr/include/ext2fs
+	SYMLINK /lib/libext2fs.so.2
+mkdir /usr/include/ext2fs
+	SYMLINK /usr/lib/libext2fs.so
+	LDCONFIG
+	INSTALL_DATA /usr/lib/libext2fs.a
+	INSTALL_DATA /usr/include/ext2fs/bitops.h
+	INSTALL_DATA /usr/include/ext2fs/ext2fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_io.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_fs.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_ext_attr.h
+	INSTALL_DATA /usr/include/ext2fs/ext3_extents.h
+	INSTALL_DATA /usr/include/ext2fs/tdb.h
+	INSTALL_DATA /usr/include/ext2fs/qcow2.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_err.h
+	INSTALL_DATA /usr/include/ext2fs/ext2_types.h
+	INSTALL_DATA /usr/lib/pkgconfig/ext2fs.pc
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/lib/ext2fs'
+making install in intl
+make[1]: Entering directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+if test 'no' = yes; then \
+  test yes != no || /bin/sh ../../config/mkinstalldirs /usr/lib; \
+  temp=/usr/lib/t-charset.alias; \
+  dest=/usr/lib/charset.alias; \
+  if test -f /usr/lib/charset.alias; then \
+    orig=/usr/lib/charset.alias; \
+    sed -f ref-add.sed $orig > $temp; \
+    /tools/bin/install -c -m 644 $temp $dest; \
+    rm -f $temp; \
+  else \
+    if test yes = no; then \
+      orig=charset.alias; \
+      sed -f ref-add.sed $orig > $temp; \
+      /tools/bin/install -c -m 644 $temp $dest; \
+      rm -f $temp; \
+    fi; \
+  fi; \
+  /bin/sh ../../config/mkinstalldirs /usr/share/locale; \
+  test -f /usr/share/locale/locale.alias \
+    && orig=/usr/share/locale/locale.alias \
+    || orig=../../intl/locale.alias; \
+  temp=/usr/share/locale/t-locale.alias; \
+  dest=/usr/share/locale/locale.alias; \
+  sed -f ref-add.sed $orig > $temp; \
+  /tools/bin/install -c -m 644 $temp $dest; \
+  rm -f $temp; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/e2fsprogs-1.42.13/build/intl'
+mode of '/usr/lib/libcom_err.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libe2p.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libext2fs.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+mode of '/usr/lib/libss.a' changed from 0444 (r--r--r--) to 0644 (rw-r--r--)
+/usr/share/info/libext2fs.info.gz:	 79.6% -- replaced with /usr/share/info/libext2fs.info
+'doc/com_err.info' -> '/usr/share/info/com_err.info'

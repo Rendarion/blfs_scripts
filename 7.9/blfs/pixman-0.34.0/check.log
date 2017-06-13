@@ -1,0 +1,61 @@
+Making check in pixman
+make[1]: Entering directory '/sources/7.9/pixman-0.34.0/pixman'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pixman-0.34.0/pixman'
+Making check in demos
+make[1]: Entering directory '/sources/7.9/pixman-0.34.0/demos'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pixman-0.34.0/demos'
+Making check in test
+make[1]: Entering directory '/sources/7.9/pixman-0.34.0/test'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/pixman-0.34.0/test'
+make[3]: Entering directory '/sources/7.9/pixman-0.34.0/test'
+PASS: oob-test
+PASS: infinite-loop
+PASS: trap-crasher
+PASS: fence-image-self-test
+PASS: region-translate-test
+PASS: fetch-test
+PASS: a1-trap-test
+PASS: prng-test
+PASS: radial-invalid
+PASS: pdf-op-test
+PASS: region-test
+PASS: combiner-test
+PASS: scaling-crash-test
+PASS: alpha-loop
+PASS: scaling-helpers-test
+PASS: thread-test
+PASS: rotate-test
+PASS: alphamap
+PASS: gradient-crash-test
+PASS: pixel-test
+PASS: matrix-test
+PASS: composite-traps-test
+PASS: region-contains-test
+PASS: glyph-test
+PASS: solid-test
+PASS: stress-test
+PASS: cover-test
+PASS: blitters-test
+PASS: affine-test
+PASS: scaling-test
+PASS: composite
+PASS: tolerance-test
+============================================================================
+Testsuite summary for pixman 0.34.0
+============================================================================
+# TOTAL: 32
+# PASS:  32
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/pixman-0.34.0/test'
+make[2]: Leaving directory '/sources/7.9/pixman-0.34.0/test'
+make[1]: Leaving directory '/sources/7.9/pixman-0.34.0/test'
+make[1]: Entering directory '/sources/7.9/pixman-0.34.0'
+make[1]: Leaving directory '/sources/7.9/pixman-0.34.0'

@@ -1,0 +1,11 @@
+URL=(
+"https://ftp.gnu.org/gnu/nettle/nettle-3.3.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

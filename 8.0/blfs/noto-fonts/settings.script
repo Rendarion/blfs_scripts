@@ -1,0 +1,11 @@
+URL=(
+"https://noto-website.storage.googleapis.com/pkgs/Noto-hinted.zip"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

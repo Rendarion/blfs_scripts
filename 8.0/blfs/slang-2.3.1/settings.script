@@ -1,0 +1,11 @@
+URL=(
+"http://www.jedsoft.org/releases/slang/slang-2.3.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

@@ -1,0 +1,3 @@
+cd unix
+
+make test

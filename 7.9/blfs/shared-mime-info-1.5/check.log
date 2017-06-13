@@ -1,0 +1,33 @@
+  GEN      create-pot
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+make[1]: 'shared-mime-info.pot' is up to date.
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+Making check in .
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5'
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5'
+Making check in po
+make[1]: Entering directory '/sources/7.9/shared-mime-info-1.5/po'
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/shared-mime-info-1.5/po'
+if test -e ./freedesktop.org.xml; then \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+else \
+	xmllint --noout --valid ./freedesktop.org.xml || exit 1;	\
+fi; \
+if test -d .git/ && test -x ./update-mime-database && test -d ./mime-db-tests ; then \
+	./update-mime-database mime-db-tests/ ; \
+fi
+if test -d .git/ && test -x ../xdgmime/src/test-mime-data && test -x ./test-tree-magic ; then \
+	mkdir -p ./temp-mime-dir/mime/packages ; \
+	cp -a ./freedesktop.org.xml ./temp-mime-dir/mime/packages/ ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./update-mime-database "./temp-mime-dir/mime/" ; \
+	XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v tests/list || XDG_DATA_DIRS="./temp-mime-dir/" XDG_DATA_HOME="./temp-mime-dir/" ../xdgmime/src/test-mime || (XDG_DATA_DIRS="./temp-mime-dir/" ../xdgmime/src/test-mime-data -v -v tests/list ; exit 1); \
+	XDG_DATA_DIRS="./temp-mime-dir/" ./test-tree-magic tests/tree-list || exit 1; \
+	rm -rf "./temp-mime-dir/" ; \
+fi
+Number of mime-types that might need generic-icon: 438
+Number of mime-types with a generic icon: 346

@@ -1,0 +1,5 @@
+patch -Np1 -i ../xcb-proto-1.12-schema-1.patch
+
+patch -Np1 -i ../xcb-proto-1.12-python3-1.patch
+
+./configure $XORG_CONFIG

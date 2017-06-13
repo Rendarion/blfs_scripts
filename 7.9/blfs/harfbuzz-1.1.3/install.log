@@ -1,0 +1,639 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.20... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for atexit... yes
+checking for mprotect... yes
+checking for sysconf... yes
+checking for getpagesize... yes
+checking for mmap... yes
+checking for isatty... yes
+checking for unistd.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking alignment of struct{char;}... 1
+checking for native Win32... no
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... yes
+checking for GLIB... yes
+checking for GOBJECT... yes
+checking for gobject-introspection... no
+checking for CAIRO... no
+checking for FONTCONFIG... no
+checking for ICU... yes
+checking for FREETYPE... yes
+checking for Intel atomic primitives... true
+checking for Solaris atomic operations... false
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/hb-version.h
+config.status: creating src/hb-ucdn/Makefile
+config.status: creating util/Makefile
+config.status: creating test/Makefile
+config.status: creating test/api/Makefile
+config.status: creating test/fuzzing/Makefile
+config.status: creating test/shaping/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/version.xml
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure:
+
+Build configuration:
+
+Unicode callbacks (you want at least one):
+	Glib:			true
+	ICU:			true
+	UCDN:			false
+
+Font callbacks (the more the better):
+	FreeType:		true
+
+Tools used for command-line utilities:
+	Cairo:			false
+	Fontconfig:		false
+
+Additional shapers (the more the better):
+	Graphite2:		false
+
+Platform shapers (not normally needed):
+	CoreText:		false
+	Uniscribe:		false
+
+Other features:
+	Documentation:		no
+	GObject bindings:	true
+	Introspection:		false
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3'
+Making all in src
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+  GEN      hb-gobject-enums.cc
+  GEN      hb-gobject-enums.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+  CXX      libharfbuzz_la-hb-blob.lo
+  CXX      libharfbuzz_la-hb-buffer-serialize.lo
+  CXX      libharfbuzz_la-hb-buffer.lo
+  CXX      libharfbuzz_la-hb-common.lo
+  CXX      libharfbuzz_la-hb-face.lo
+  CXX      libharfbuzz_la-hb-font.lo
+  CXX      libharfbuzz_la-hb-ot-tag.lo
+  CXX      libharfbuzz_la-hb-set.lo
+  CXX      libharfbuzz_la-hb-shape.lo
+  CXX      libharfbuzz_la-hb-shape-plan.lo
+  CXX      libharfbuzz_la-hb-shaper.lo
+  CXX      libharfbuzz_la-hb-unicode.lo
+  CXX      libharfbuzz_la-hb-warning.lo
+  CXX      libharfbuzz_la-hb-ot-font.lo
+  CXX      libharfbuzz_la-hb-ot-layout.lo
+  CXX      libharfbuzz_la-hb-ot-map.lo
+  CXX      libharfbuzz_la-hb-ot-shape.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-arabic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-default.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hangul.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-hebrew.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-indic-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-myanmar.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-thai.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-tibetan.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use.lo
+  CXX      libharfbuzz_la-hb-ot-shape-complex-use-table.lo
+  CXX      libharfbuzz_la-hb-ot-shape-normalize.lo
+  CXX      libharfbuzz_la-hb-ot-shape-fallback.lo
+  CXX      libharfbuzz_la-hb-fallback-shape.lo
+  CXX      libharfbuzz_la-hb-glib.lo
+  CXX      libharfbuzz_la-hb-ft.lo
+  GEN      libharfbuzz.la
+  CXX      libharfbuzz_icu_la-hb-icu.lo
+  CXXLD    libharfbuzz-icu.la
+  CXX      libharfbuzz_gobject_la-hb-gobject-structs.lo
+  CXX      libharfbuzz_gobject_la-hb-gobject-enums.lo
+  CXXLD    libharfbuzz-gobject.la
+  CXX      main-main.o
+  CXXLD    main
+  CXX      test-test.o
+  CXXLD    test
+  CXX      test_buffer_serialize-test-buffer-serialize.o
+  CXXLD    test-buffer-serialize
+  CXX      test_size_params-test-size-params.o
+  CXXLD    test-size-params
+  CXX      test_would_substitute-test-would-substitute.o
+  CXXLD    test-would-substitute
+  GEN      harfbuzz.pc
+  GEN      harfbuzz-icu.pc
+  GEN      harfbuzz-gobject.pc
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+Making all in util
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/util'
+  CXX      hb-shape.o
+  CXX      options.o
+  CXXLD    hb-shape
+  CXX      hb-ot-shape-closure.o
+  CXXLD    hb-ot-shape-closure
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/util'
+Making all in test
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+Making all in api
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+  CC       test-blob.o
+  CCLD     test-blob
+  CC       test-buffer.o
+  CCLD     test-buffer
+  CC       test-common.o
+  CCLD     test-common
+  CC       test-font.o
+  CCLD     test-font
+  CC       test-object.o
+  CCLD     test-object
+  CC       test-set.o
+  CCLD     test-set
+  CC       test-shape.o
+  CCLD     test-shape
+  CC       test_unicode-test-unicode.o
+  CCLD     test-unicode
+  CC       test-version.o
+  CCLD     test-version
+  CC       test-ot-tag.o
+  CCLD     test-ot-tag
+  CC       test_c-test-c.o
+  CCLD     test-c
+  CXX      test_cplusplus-test-cplusplus.o
+  CXXLD    test-cplusplus
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+Making all in shaping
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+Making all in fuzzing
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3'
+Making check in src
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make  test-ot-tag  \
+  check-c-linkage-decls.sh check-defs.sh check-header-guards.sh check-includes.sh check-libstdc++.sh check-static-inits.sh check-symbols.sh 
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+  CXX      test_ot_tag-hb-ot-tag.o
+  CXXLD    test-ot-tag
+make[4]: Nothing to be done for 'check-c-linkage-decls.sh'.
+make[4]: Nothing to be done for 'check-defs.sh'.
+make[4]: Nothing to be done for 'check-header-guards.sh'.
+make[4]: Nothing to be done for 'check-includes.sh'.
+make[4]: Nothing to be done for 'check-libstdc++.sh'.
+make[4]: Nothing to be done for 'check-static-inits.sh'.
+make[4]: Nothing to be done for 'check-symbols.sh'.
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[5]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+PASS: check-c-linkage-decls.sh
+PASS: check-defs.sh
+PASS: check-header-guards.sh
+PASS: check-includes.sh
+PASS: check-libstdc++.sh
+PASS: check-static-inits.sh
+PASS: check-symbols.sh
+PASS: test-ot-tag
+make[6]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make  all-recursive
+make[7]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[8]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[7]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[6]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+============================================================================
+Testsuite summary for HarfBuzz 1.1.3
+============================================================================
+# TOTAL: 8
+# PASS:  8
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+Making check in util
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/util'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/util'
+Making check in test
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+Making check in api
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make  test-blob test-buffer test-common test-font test-object test-set test-shape test-unicode test-version  test-ot-tag  test-c test-cplusplus 
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[3]: 'test-blob' is up to date.
+make[3]: 'test-buffer' is up to date.
+make[3]: 'test-common' is up to date.
+make[3]: 'test-font' is up to date.
+make[3]: 'test-object' is up to date.
+make[3]: 'test-set' is up to date.
+make[3]: 'test-shape' is up to date.
+make[3]: 'test-unicode' is up to date.
+make[3]: 'test-version' is up to date.
+make[3]: 'test-ot-tag' is up to date.
+make[3]: 'test-c' is up to date.
+make[3]: 'test-cplusplus' is up to date.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+PASS: test-blob
+PASS: test-buffer
+PASS: test-common
+PASS: test-font
+PASS: test-object
+PASS: test-set
+PASS: test-shape
+PASS: test-unicode
+PASS: test-version
+PASS: test-ot-tag
+PASS: test-c
+PASS: test-cplusplus
+make[5]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+============================================================================
+Testsuite summary for HarfBuzz 1.1.3
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+Making check in shaping
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+FAIL: tests/arabic-fallback-shaping.tests
+FAIL: tests/arabic-feature-order.tests
+FAIL: tests/cluster.tests
+FAIL: tests/context-matching.tests
+FAIL: tests/cursive-positioning.tests
+FAIL: tests/default-ignorables.tests
+FAIL: tests/fuzzed.tests
+FAIL: tests/hangul-jamo.tests
+FAIL: tests/hyphens.tests
+FAIL: tests/indic-joiner-candrabindu.tests
+FAIL: tests/indic-old-spec.tests
+FAIL: tests/indic-pref-blocking.tests
+FAIL: tests/ligature-id.tests
+FAIL: tests/mongolian-variation-selector.tests
+FAIL: tests/spaces.tests
+FAIL: tests/simple.tests
+FAIL: tests/use.tests
+FAIL: tests/vertical.tests
+FAIL: tests/zero-width-marks.tests
+make[5]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+============================================================================
+Testsuite summary for HarfBuzz 1.1.3
+============================================================================
+# TOTAL: 19
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  19
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See test/shaping/test-suite.log
+Please report to http://bugs.freedesktop.org/enter_bug.cgi?product=harfbuzz
+============================================================================
+Makefile:595: recipe for target 'test-suite.log' failed
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+Makefile:701: recipe for target 'check-TESTS' failed
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+Makefile:767: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+Makefile:396: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+Makefile:486: recipe for target 'check-recursive' failed
+Making install in src
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[4]: Entering directory '/sources/7.9/harfbuzz-1.1.3/src'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libharfbuzz.la libharfbuzz-icu.la libharfbuzz-gobject.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libharfbuzz.so.0.10103.0 /usr/lib/libharfbuzz.so.0.10103.0
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz.so.0.10103.0 libharfbuzz.so.0 || { rm -f libharfbuzz.so.0 && ln -s libharfbuzz.so.0.10103.0 libharfbuzz.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz.so.0.10103.0 libharfbuzz.so || { rm -f libharfbuzz.so && ln -s libharfbuzz.so.0.10103.0 libharfbuzz.so; }; })
+libtool: install: /usr/bin/install -c .libs/libharfbuzz.lai /usr/lib/libharfbuzz.la
+libtool: install: (cd /sources/7.9/harfbuzz-1.1.3/src; /bin/sh /sources/7.9/harfbuzz-1.1.3/libtool  --silent --tag CXX --mode=relink g++ -g -O2 -fno-rtti -fno-exceptions -Wcast-align -fvisibility-inlines-hidden --std=c++0x -version-info 10103:0:10103 -no-undefined -Bsymbolic-functions -o libharfbuzz-icu.la -rpath /usr/lib libharfbuzz_icu_la-hb-icu.lo -licuuc -licudata libharfbuzz.la )
+libtool: install: /usr/bin/install -c .libs/libharfbuzz-icu.so.0.10103.0T /usr/lib/libharfbuzz-icu.so.0.10103.0
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz-icu.so.0.10103.0 libharfbuzz-icu.so.0 || { rm -f libharfbuzz-icu.so.0 && ln -s libharfbuzz-icu.so.0.10103.0 libharfbuzz-icu.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz-icu.so.0.10103.0 libharfbuzz-icu.so || { rm -f libharfbuzz-icu.so && ln -s libharfbuzz-icu.so.0.10103.0 libharfbuzz-icu.so; }; })
+libtool: install: /usr/bin/install -c .libs/libharfbuzz-icu.lai /usr/lib/libharfbuzz-icu.la
+libtool: install: (cd /sources/7.9/harfbuzz-1.1.3/src; /bin/sh /sources/7.9/harfbuzz-1.1.3/libtool  --silent --tag CXX --mode=relink g++ -g -O2 -fno-rtti -fno-exceptions -Wcast-align -fvisibility-inlines-hidden --std=c++0x -version-info 10103:0:10103 -no-undefined -Bsymbolic-functions -o libharfbuzz-gobject.la -rpath /usr/lib libharfbuzz_gobject_la-hb-gobject-structs.lo libharfbuzz_gobject_la-hb-gobject-enums.lo -lgobject-2.0 -lglib-2.0 libharfbuzz.la )
+libtool: install: /usr/bin/install -c .libs/libharfbuzz-gobject.so.0.10103.0T /usr/lib/libharfbuzz-gobject.so.0.10103.0
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz-gobject.so.0.10103.0 libharfbuzz-gobject.so.0 || { rm -f libharfbuzz-gobject.so.0 && ln -s libharfbuzz-gobject.so.0.10103.0 libharfbuzz-gobject.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libharfbuzz-gobject.so.0.10103.0 libharfbuzz-gobject.so || { rm -f libharfbuzz-gobject.so && ln -s libharfbuzz-gobject.so.0.10103.0 libharfbuzz-gobject.so; }; })
+libtool: install: /usr/bin/install -c .libs/libharfbuzz-gobject.lai /usr/lib/libharfbuzz-gobject.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/harfbuzz'
+ /usr/bin/install -c -m 644 hb-version.h hb-gobject-enums.h '/usr/include/harfbuzz'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 harfbuzz.pc harfbuzz-icu.pc harfbuzz-gobject.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/harfbuzz'
+ /usr/bin/install -c -m 644 hb.h hb-blob.h hb-buffer.h hb-common.h hb-deprecated.h hb-face.h hb-font.h hb-set.h hb-shape.h hb-shape-plan.h hb-unicode.h hb-ot.h hb-ot-font.h hb-ot-layout.h hb-ot-shape.h hb-ot-tag.h hb-glib.h hb-ft.h hb-icu.h hb-gobject.h hb-gobject-structs.h '/usr/include/harfbuzz'
+make[4]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/src'
+Making install in util
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/util'
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/util'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c hb-shape hb-ot-shape-closure '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/hb-shape /usr/bin/hb-shape
+libtool: install: /usr/bin/install -c .libs/hb-ot-shape-closure /usr/bin/hb-ot-shape-closure
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/util'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/util'
+Making install in test
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+Making install in api
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/api'
+Making install in shaping
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/shaping'
+Making install in fuzzing
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test/fuzzing'
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[3]: Entering directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/test'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/adding-text-to-the-buffer.html
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-11.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-28.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-31.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-38.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-39.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-41.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-42.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-5.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-7.html
+ /usr/bin/install -c -m 644 ./html/api-index-0-9-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-0-5.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-1-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-1-3.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/buffers-language-script-and-direction.html
+ /usr/bin/install -c -m 644 ./html/building.html
+ /usr/bin/install -c -m 644 ./html/ch07.html
+ /usr/bin/install -c -m 644 ./html/customizing-unicode-functions.html
+ /usr/bin/install -c -m 644 ./html/deprecated-api-index.html
+ /usr/bin/install -c -m 644 ./html/fonts-and-faces.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-Buffers.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz.devhelp2
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-blob.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-common.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-coretext.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-deprecated.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-face.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-font.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ft.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-glib.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-gobject.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-graphite2.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-icu.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ot-font.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ot.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ot-layout.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ot-shape.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-ot-tag.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-set.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-shape-plan.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-unicode.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-uniscribe.html
+ /usr/bin/install -c -m 644 ./html/harfbuzz-hb-version.html
+ /usr/bin/install -c -m 644 ./html/HarfBuzz.png
+ /usr/bin/install -c -m 644 ./html/harfbuzz-Shaping.html
+ /usr/bin/install -c -m 644 ./html/hello-harfbuzz.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/install-harfbuzz.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/plans-and-caching.html
+ /usr/bin/install -c -m 644 ./html/pt01.html
+ /usr/bin/install -c -m 644 ./html/pt02.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/setting-buffer-properties.html
+ /usr/bin/install -c -m 644 ./html/shaping-and-shape-plans.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/using-harfbuzzs-native-opentype-implementation.html
+ /usr/bin/install -c -m 644 ./html/using-your-own-font-functions.html
+ /usr/bin/install -c -m 644 ./html/what-about-the-other-scripts.html
+ /usr/bin/install -c -m 644 ./html/what-is-harfbuzz.html
+ /usr/bin/install -c -m 644 ./html/why-is-it-called-harfbuzz.html
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3/docs'
+make[1]: Entering directory '/sources/7.9/harfbuzz-1.1.3'
+make[2]: Entering directory '/sources/7.9/harfbuzz-1.1.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/harfbuzz-1.1.3'
+make[1]: Leaving directory '/sources/7.9/harfbuzz-1.1.3'

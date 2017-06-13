@@ -1,0 +1,51 @@
+Making check in tests
+make[1]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+Making check in cases
+make[2]: Entering directory '/sources/7.9/intltool-0.51.0/tests/cases'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/intltool-0.51.0/tests/cases'
+Making check in results
+make[2]: Entering directory '/sources/7.9/intltool-0.51.0/tests/results'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/intltool-0.51.0/tests/results'
+make[2]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+make[4]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+cp selftest.pl selftest && chmod +x selftest
+PASS: selftest
+make[5]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+Making all in cases
+make[6]: Entering directory '/sources/7.9/intltool-0.51.0/tests/cases'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/intltool-0.51.0/tests/cases'
+Making all in results
+make[6]: Entering directory '/sources/7.9/intltool-0.51.0/tests/results'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/sources/7.9/intltool-0.51.0/tests/results'
+make[6]: Entering directory '/sources/7.9/intltool-0.51.0/tests'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+make[5]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+============================================================================
+Testsuite summary for intltool 0.51.0
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+make[3]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+make[2]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+make[1]: Leaving directory '/sources/7.9/intltool-0.51.0/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/intltool-0.51.0/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/intltool-0.51.0/doc'
+make[1]: Entering directory '/sources/7.9/intltool-0.51.0'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/intltool-0.51.0'

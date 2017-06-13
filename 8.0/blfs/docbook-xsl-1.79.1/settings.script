@@ -1,0 +1,13 @@
+URL=(
+"http://downloads.sourceforge.net/docbook/docbook-xsl-1.79.1.tar.bz2"
+"http://downloads.sourceforge.net/docbook/docbook-xsl-doc-1.79.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxml2-2.9.4"
+)

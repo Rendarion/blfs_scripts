@@ -1,0 +1,4 @@
+make install &&
+cp liba52/a52_internal.h /usr/include/a52dec &&
+install -v -m644 -D doc/liba52.txt \
+    /usr/share/doc/liba52-0.7.4/liba52.txt

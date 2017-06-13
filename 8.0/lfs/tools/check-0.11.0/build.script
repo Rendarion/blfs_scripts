@@ -1,0 +1,3 @@
+PKG_CONFIG= ./configure --prefix=/tools
+
+make

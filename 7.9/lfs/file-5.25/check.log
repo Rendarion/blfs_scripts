@@ -1,0 +1,40 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/file-5.25/src'
+make  check-am
+make[2]: Entering directory '/sources/7.9/file-5.25/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/file-5.25/src'
+make[1]: Leaving directory '/sources/7.9/file-5.25/src'
+Making check in magic
+make[1]: Entering directory '/sources/7.9/file-5.25/magic'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/file-5.25/magic'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/file-5.25/tests'
+make  test
+make[2]: Entering directory '/sources/7.9/file-5.25/tests'
+  CC       test-test.o
+  CCLD     test
+make[2]: Leaving directory '/sources/7.9/file-5.25/tests'
+make  check-local
+make[2]: Entering directory '/sources/7.9/file-5.25/tests'
+MAGIC=../magic/magic ./test
+for i in ../tests/*.testfile; do echo Running test: $i; MAGIC=../magic/magic ./test $i ${i%%.testfile}.result; done
+Running test: ../tests/escapevel.testfile
+../tests/escapevel.testfile: Zip data (MIME type "application/vnd.nz.gen.geek_central.ti5x"?)
+Running test: ../tests/gedcom.testfile
+../tests/gedcom.testfile: GEDCOM genealogy text version 5.5, ASCII text
+Running test: ../tests/issue311docx.testfile
+../tests/issue311docx.testfile: Microsoft Word 2007+
+make[2]: Leaving directory '/sources/7.9/file-5.25/tests'
+make[1]: Leaving directory '/sources/7.9/file-5.25/tests'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/file-5.25/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/file-5.25/doc'
+Making check in python
+make[1]: Entering directory '/sources/7.9/file-5.25/python'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/file-5.25/python'
+make[1]: Entering directory '/sources/7.9/file-5.25'
+make[1]: Leaving directory '/sources/7.9/file-5.25'

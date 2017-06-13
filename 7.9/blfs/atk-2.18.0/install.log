@@ -1,0 +1,558 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for bind_textdomain_codeset... yes
+checking for some Win32 platform... no
+checking for native Win32 platform... no
+checking for aclocal flags... 
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.31.2... yes (version 2.46.2)
+checking for DEP... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... (cached) yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for catalogs to be installed...  af am an ar as ast az be be@latin bg bn bn_IN bs ca ca@valencia cs cy da de dz el en_CA en_GB en@shaw eo es et eu fa fi fr ga gl gu he hi hr hu hy id is it ja ka kk km kn ko ku li lt lv mai mk ml mn mr ms nb ne nl nn oc or pa pl ps pt pt_BR ro ru rw si sk sl sq sr sr@latin sr@ije sv ta te tg th tk tr tt ug uk vi wa xh yi zh_CN zh_HK zh_TW zu
+checking for gobject-introspection... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for gawk... (cached) gawk
+checking for perl5... no
+checking for perl... perl
+checking for -fvisibility=hidden compiler flag... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating atk.pc
+config.status: creating atk-uninstalled.pc
+config.status: creating atk/Makefile
+config.status: creating atk/atk.rc
+config.status: creating atk/atkversion.h
+config.status: creating tests/Makefile
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating build/win32/vs14/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/version.xml
+config.status: creating atk.spec
+config.status: creating atk-zip.sh
+config.status: creating config.h.win32
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/atk-2.18.0'
+Making all in atk
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/atk'
+  GEN      stamp-atkmarshal.h
+  GEN      stamp-atkmarshal.c
+  GEN      s-enum-types-h
+  GEN      s-enum-types-c
+make  all-am
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/atk'
+  CC       atkaction.lo
+  CC       atkcomponent.lo
+  CC       atkdocument.lo
+  CC       atkeditabletext.lo
+  CC       atkgobjectaccessible.lo
+  CC       atkhyperlink.lo
+  CC       atkhyperlinkimpl.lo
+  CC       atkhypertext.lo
+  CC       atkimage.lo
+  CC       atknoopobject.lo
+  CC       atknoopobjectfactory.lo
+  CC       atkobject.lo
+  CC       atkobjectfactory.lo
+  CC       atkplug.lo
+  CC       atkprivate.lo
+  CC       atkrange.lo
+  CC       atkregistry.lo
+  CC       atkrelation.lo
+  CC       atkrelationset.lo
+  CC       atkselection.lo
+  CC       atksocket.lo
+  CC       atkstate.lo
+  CC       atkstateset.lo
+  CC       atkstreamablecontent.lo
+  CC       atktable.lo
+  CC       atktablecell.lo
+  CC       atktext.lo
+  CC       atkutil.lo
+  CC       atkmisc.lo
+  CC       atkvalue.lo
+  CC       atkversion.lo
+  CC       atkwindow.lo
+  CC       atk-enum-types.lo
+  CCLD     libatk-1.0.la
+  GISCAN   Atk-1.0.gir
+  GICOMP   Atk-1.0.gir
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/atk'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/atk'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/tests'
+  CC       testdocument.o
+  CCLD     testdocument
+  CC       testrole.o
+  CCLD     testrole
+  CC       testrelation.o
+  CCLD     testrelation
+  CC       teststateset.o
+  CCLD     teststateset
+  CC       testvalue.o
+  CCLD     testvalue
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/tests'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/docs'
+Making all in po
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/po'
+Making all in build
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32'
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/build'
+make[2]: Entering directory '/sources/7.9/atk-2.18.0'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0'
+Making install in atk
+make[1]: Entering directory '/sources/7.9/atk-2.18.0/atk'
+make  install-am
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/atk'
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/atk'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libatk-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libatk-1.0.so.0.21809.1 /usr/lib/libatk-1.0.so.0.21809.1
+libtool: install: (cd /usr/lib && { ln -s -f libatk-1.0.so.0.21809.1 libatk-1.0.so.0 || { rm -f libatk-1.0.so.0 && ln -s libatk-1.0.so.0.21809.1 libatk-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libatk-1.0.so.0.21809.1 libatk-1.0.so || { rm -f libatk-1.0.so && ln -s libatk-1.0.so.0.21809.1 libatk-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libatk-1.0.lai /usr/lib/libatk-1.0.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Atk-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/atk-1.0/atk'
+ /usr/bin/install -c -m 644 atk.h atkaction.h atkcomponent.h atkdocument.h atkeditabletext.h atkgobjectaccessible.h atkhyperlink.h atkhyperlinkimpl.h atkhypertext.h atknoopobject.h atknoopobjectfactory.h atkobject.h atkobjectfactory.h atkplug.h atkimage.h atkrange.h atkregistry.h atkrelation.h atkrelationtype.h atkrelationset.h atkselection.h atksocket.h atkstate.h atkstateset.h atkstreamablecontent.h atktable.h atktablecell.h atktext.h atkutil.h atkmisc.h atkvalue.h atkwindow.h ../atk/atkversion.h atk-enum-types.h '/usr/include/atk-1.0/atk'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Atk-1.0.typelib '/usr/lib/girepository-1.0'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/atk'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/atk'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0/atk'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/atk-2.18.0/tests'
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/tests'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0/tests'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/atk-2.18.0/docs'
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/accessibles.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-13.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-3.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-9.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/AtkAction.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkHyperlinkImpl.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkPlug.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkRange.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkSocket.html
+ /usr/bin/install -c -m 644 ./html/atk-AtkState.html
+ /usr/bin/install -c -m 644 ./html/AtkComponent.html
+ /usr/bin/install -c -m 644 ./html/atk.devhelp2
+ /usr/bin/install -c -m 644 ./html/AtkDocument.html
+ /usr/bin/install -c -m 644 ./html/AtkEditableText.html
+ /usr/bin/install -c -m 644 ./html/AtkGObjectAccessible.html
+ /usr/bin/install -c -m 644 ./html/AtkHyperlink.html
+ /usr/bin/install -c -m 644 ./html/AtkHypertext.html
+ /usr/bin/install -c -m 644 ./html/AtkImage.html
+ /usr/bin/install -c -m 644 ./html/AtkMisc.html
+ /usr/bin/install -c -m 644 ./html/AtkNoOpObjectFactory.html
+ /usr/bin/install -c -m 644 ./html/AtkNoOpObject.html
+ /usr/bin/install -c -m 644 ./html/AtkObjectFactory.html
+ /usr/bin/install -c -m 644 ./html/atkobject.html
+ /usr/bin/install -c -m 644 ./html/AtkObject.html
+ /usr/bin/install -c -m 644 ./html/AtkRegistry.html
+ /usr/bin/install -c -m 644 ./html/AtkRelation.html
+ /usr/bin/install -c -m 644 ./html/AtkRelationSet.html
+ /usr/bin/install -c -m 644 ./html/AtkSelection.html
+ /usr/bin/install -c -m 644 ./html/AtkStateSet.html
+ /usr/bin/install -c -m 644 ./html/AtkStreamableContent.html
+ /usr/bin/install -c -m 644 ./html/AtkTableCell.html
+ /usr/bin/install -c -m 644 ./html/AtkTable.html
+ /usr/bin/install -c -m 644 ./html/AtkText.html
+ /usr/bin/install -c -m 644 ./html/AtkUtil.html
+ /usr/bin/install -c -m 644 ./html/AtkValue.html
+ /usr/bin/install -c -m 644 ./html/atk-Versioning-Utilities.html
+ /usr/bin/install -c -m 644 ./html/AtkWindow.html
+ /usr/bin/install -c -m 644 ./html/data.html
+ /usr/bin/install -c -m 644 ./html/deprecated.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/interfaces.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/overview.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/toolkit.html
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/utilities.html
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/docs'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0/docs'
+Making install in po
+make[1]: Entering directory '/sources/7.9/atk-2.18.0/po'
+mkdir -p /usr/share; \
+catalogs='af.gmo am.gmo an.gmo ar.gmo as.gmo ast.gmo az.gmo be.gmo be@latin.gmo bg.gmo bn.gmo bn_IN.gmo bs.gmo ca.gmo ca@valencia.gmo cs.gmo cy.gmo da.gmo de.gmo dz.gmo el.gmo en_CA.gmo en_GB.gmo en@shaw.gmo eo.gmo es.gmo et.gmo eu.gmo fa.gmo fi.gmo fr.gmo ga.gmo gl.gmo gu.gmo he.gmo hi.gmo hr.gmo hu.gmo hy.gmo id.gmo is.gmo it.gmo ja.gmo ka.gmo kk.gmo km.gmo kn.gmo ko.gmo ku.gmo li.gmo lt.gmo lv.gmo mai.gmo mk.gmo ml.gmo mn.gmo mr.gmo ms.gmo nb.gmo ne.gmo nl.gmo nn.gmo oc.gmo or.gmo pa.gmo pl.gmo ps.gmo pt.gmo pt_BR.gmo ro.gmo ru.gmo rw.gmo si.gmo sk.gmo sl.gmo sq.gmo sr.gmo sr@latin.gmo sr@ije.gmo sv.gmo ta.gmo te.gmo tg.gmo th.gmo tk.gmo tr.gmo tt.gmo ug.gmo uk.gmo vi.gmo wa.gmo xh.gmo yi.gmo zh_CN.gmo zh_HK.gmo zh_TW.gmo zu.gmo'; \
+for cat in $catalogs; do \
+  cat=`basename $cat`; \
+  case "$cat" in \
+    *.gmo) destdir=/usr/share/locale;; \
+    *)     destdir=/usr/lib/locale;; \
+  esac; \
+  lang=`echo $cat | sed 's/\.gmo$//'`; \
+  dir=$destdir/$lang/LC_MESSAGES; \
+  mkdir -p $dir; \
+  if test -r $cat; then \
+    /usr/bin/install -c -m 644 $cat $dir/atk10.mo; \
+    echo "installing $cat as $dir/atk10.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$cat $dir/atk10.mo; \
+    echo "installing ./$cat as" \
+	 "$dir/atk10.mo"; \
+  fi; \
+  if test -r $cat.m; then \
+    /usr/bin/install -c -m 644 $cat.m $dir/atk10.mo.m; \
+    echo "installing $cat.m as $dir/atk10.mo.m"; \
+  else \
+    if test -r ./$cat.m ; then \
+      /usr/bin/install -c -m 644 ./$cat.m \
+	$dir/atk10.mo.m; \
+      echo "installing ./$cat as" \
+	   "$dir/atk10.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/atk10.mo
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/atk10.mo
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/atk10.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/atk10.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/atk10.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/atk10.mo
+installing az.gmo as /usr/share/locale/az/LC_MESSAGES/atk10.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/atk10.mo
+installing be@latin.gmo as /usr/share/locale/be@latin/LC_MESSAGES/atk10.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/atk10.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/atk10.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/atk10.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/atk10.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/atk10.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/atk10.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/atk10.mo
+installing cy.gmo as /usr/share/locale/cy/LC_MESSAGES/atk10.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/atk10.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/atk10.mo
+installing dz.gmo as /usr/share/locale/dz/LC_MESSAGES/atk10.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/atk10.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/atk10.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/atk10.mo
+installing en@shaw.gmo as /usr/share/locale/en@shaw/LC_MESSAGES/atk10.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/atk10.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/atk10.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/atk10.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/atk10.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/atk10.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/atk10.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/atk10.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/atk10.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/atk10.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/atk10.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/atk10.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/atk10.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/atk10.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/atk10.mo
+installing hy.gmo as /usr/share/locale/hy/LC_MESSAGES/atk10.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/atk10.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/atk10.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/atk10.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/atk10.mo
+installing ka.gmo as /usr/share/locale/ka/LC_MESSAGES/atk10.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/atk10.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/atk10.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/atk10.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/atk10.mo
+installing ku.gmo as /usr/share/locale/ku/LC_MESSAGES/atk10.mo
+installing li.gmo as /usr/share/locale/li/LC_MESSAGES/atk10.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/atk10.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/atk10.mo
+installing mai.gmo as /usr/share/locale/mai/LC_MESSAGES/atk10.mo
+installing mk.gmo as /usr/share/locale/mk/LC_MESSAGES/atk10.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/atk10.mo
+installing mn.gmo as /usr/share/locale/mn/LC_MESSAGES/atk10.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/atk10.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/atk10.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/atk10.mo
+installing ne.gmo as /usr/share/locale/ne/LC_MESSAGES/atk10.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/atk10.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/atk10.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/atk10.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/atk10.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/atk10.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/atk10.mo
+installing ps.gmo as /usr/share/locale/ps/LC_MESSAGES/atk10.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/atk10.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/atk10.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/atk10.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/atk10.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/atk10.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/atk10.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/atk10.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/atk10.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/atk10.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/atk10.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/atk10.mo
+installing sr@ije.gmo as /usr/share/locale/sr@ije/LC_MESSAGES/atk10.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/atk10.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/atk10.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/atk10.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/atk10.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/atk10.mo
+installing tk.gmo as /usr/share/locale/tk/LC_MESSAGES/atk10.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/atk10.mo
+installing tt.gmo as /usr/share/locale/tt/LC_MESSAGES/atk10.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/atk10.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/atk10.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/atk10.mo
+installing wa.gmo as /usr/share/locale/wa/LC_MESSAGES/atk10.mo
+installing xh.gmo as /usr/share/locale/xh/LC_MESSAGES/atk10.mo
+installing yi.gmo as /usr/share/locale/yi/LC_MESSAGES/atk10.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/atk10.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/atk10.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/atk10.mo
+installing zu.gmo as /usr/share/locale/zu/LC_MESSAGES/atk10.mo
+if test "atk" = "glib"; then \
+  mkdir -p /usr/share/glib-2.0/gettext/po; \
+  /usr/bin/install -c -m 644 ./Makefile.in.in \
+		  /usr/share/glib-2.0/gettext/po/Makefile.in.in; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0/po'
+Making install in build
+make[1]: Entering directory '/sources/7.9/atk-2.18.0/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs10'
+Making install in vs11
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs11'
+Making install in vs12
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs12'
+Making install in vs14
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build/win32'
+make[4]: Entering directory '/sources/7.9/atk-2.18.0/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/build/win32'
+make[2]: Entering directory '/sources/7.9/atk-2.18.0/build'
+make[3]: Entering directory '/sources/7.9/atk-2.18.0/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/atk-2.18.0/build'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0/build'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0/build'
+make[1]: Entering directory '/sources/7.9/atk-2.18.0'
+make[2]: Entering directory '/sources/7.9/atk-2.18.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 atk.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/atk-2.18.0'
+make[1]: Leaving directory '/sources/7.9/atk-2.18.0'

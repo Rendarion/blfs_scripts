@@ -1,0 +1,52 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/fribidi-0.19.7'
+Making check in gen.tab
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/gen.tab'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/gen.tab'
+Making check in charset
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/charset'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/charset'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/lib'
+make  check-am
+make[3]: Entering directory '/sources/7.9/fribidi-0.19.7/lib'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/fribidi-0.19.7/lib'
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/lib'
+Making check in bin
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/bin'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/bin'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/doc'
+Making check in test
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7/test'
+make  run.tests
+make[3]: Entering directory '/sources/7.9/fribidi-0.19.7/test'
+make[3]: Nothing to be done for 'run.tests'.
+make[3]: Leaving directory '/sources/7.9/fribidi-0.19.7/test'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/fribidi-0.19.7/test'
+make[4]: Entering directory '/sources/7.9/fribidi-0.19.7/test'
+PASS: run.tests
+============================================================================
+Testsuite summary for GNU FriBidi 0.19.7
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/fribidi-0.19.7/test'
+make[3]: Leaving directory '/sources/7.9/fribidi-0.19.7/test'
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7/test'
+make[2]: Entering directory '/sources/7.9/fribidi-0.19.7'
+make[2]: Leaving directory '/sources/7.9/fribidi-0.19.7'
+make[1]: Leaving directory '/sources/7.9/fribidi-0.19.7'

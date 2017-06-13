@@ -1,0 +1,11 @@
+./configure --prefix=/usr                \
+            --sysconfdir=/etc            \
+            --localstatedir=/var         \
+            --with-daemon-user=colord    \
+            --enable-vala                \
+            --enable-systemd-login=no    \
+            --disable-argyllcms-sensor   \
+            --disable-bash-completion    \
+            --disable-static             \
+            --with-systemdsystemunitdir=no &&
+make

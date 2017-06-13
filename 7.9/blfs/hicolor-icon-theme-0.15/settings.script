@@ -1,0 +1,29 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://pkgs.fedoraproject.org/repo/pkgs/hicolor-icon-theme/hicolor-icon-theme-0.15.tar.xz/md5/6aa2b3993a883d85017c7cc0cfc0fb73/hicolor-icon-theme-0.15.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

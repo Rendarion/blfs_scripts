@@ -1,0 +1,3913 @@
+patching file xdemos/glinfo_common.c
+patching file xdemos/glinfo_common.h
+patching file xdemos/glxgears.1
+patching file xdemos/glxgears.c
+patching file xdemos/glxinfo.1
+patching file xdemos/glxinfo.c
+patching file xdemos/Makefile
+libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, 'bin'.
+libtoolize: copying file 'bin/ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to run the C preprocessor... gcc -E
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking dependency style of gcc... gcc3
+checking for GNU make... make
+checking for python2.7... python2.7
+checking for a sed that does not truncate output... /bin/sed
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for rm... rm -f
+checking for bison... bison -y
+checking if bison is the parser generator... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking if flex is the lexer generator... yes
+checking for indent... cat
+checking if module mako in python is installed... no
+checking if compiling with clang... no
+checking whether gcc version is sufficient... yes
+checking for __builtin_bswap32... yes
+checking for __builtin_bswap64... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzll... yes
+checking for __builtin_ctz... yes
+checking for __builtin_expect... yes
+checking for __builtin_ffs... yes
+checking for __builtin_ffsll... yes
+checking for __builtin_popcount... yes
+checking for __builtin_popcountll... yes
+checking for __builtin_unreachable... yes
+checking for __attribute__((const))... yes
+checking for __attribute__((flatten))... yes
+checking for __attribute__((format))... yes
+checking for __attribute__((malloc))... yes
+checking for __attribute__((packed))... yes
+checking for __attribute__((pure))... yes
+checking for __attribute__((unused))... yes
+checking for __attribute__((warn_unused_result))... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether gcc supports -Werror=missing-prototypes... yes
+checking whether gcc supports -fvisibility=hidden... yes
+checking whether gcc supports -Werror=vla... yes
+checking whether g++ supports -fvisibility=hidden... yes
+checking if ld supports -Bsymbolic... yes
+checking whether ld supports --gc-sections... yes
+checking if the linker supports version-scripts... yes
+checking if the linker supports --dynamic-list... yes
+checking whether to enable assembly... yes, x86_64
+checking xlocale.h usability... yes
+checking xlocale.h presence... yes
+checking for xlocale.h... yes
+checking sys/sysctl.h usability... yes
+checking sys/sysctl.h presence... yes
+checking for sys/sysctl.h... yes
+checking for strtof... yes
+checking for mkostemp... yes
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking for dladdr... yes
+checking for clock_gettime... yes
+checking for posix_memalign... yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for PTHREAD_PRIO_INHERIT... no
+checking for LIBDRM... yes
+checking for SHA1Init... no
+checking for CC_SHA1_Init... no
+checking for wincrypt.h... no
+checking for SHA1Init in -lmd... no
+checking for LIBSHA1... no
+checking for nettle_sha1_init in -lnettle... yes
+checking for gcry_md_open in -lgcrypt... no
+checking for SHA1_Init in -lcrypto... yes
+checking for OPENSSL... yes
+checking for SHA1 implementation... libnettle
+checking for LIBUDEV... yes
+checking for GLPROTO... yes
+checking for DRI2PROTO... yes
+checking for DRI3PROTO... yes
+checking for PRESENTPROTO... yes
+checking for XCB_DRI3... yes
+checking for XF86VIDMODE... yes
+checking for DRIGL... yes
+checking for EXPAT... yes
+checking for INTEL... yes
+checking for INTEL... yes
+checking for NVVIEUX... yes
+checking for RADEON... yes
+checking for RADEON... yes
+checking for mincore... yes
+checking for VL... yes
+checking for XVMC... yes
+checking for VDPAU... yes
+checking for LIBELF... yes
+checking for WAYLAND_SCANNER... no
+checking for wayland-scanner... /usr/bin/wayland-scanner
+checking for XCB_DRI2... yes
+checking for WAYLAND... yes
+checking for llvm-config... /usr/bin/llvm-config
+checking for NOUVEAU... yes
+checking for RADEON... yes
+checking for RADEON... yes
+checking for RADEON... yes
+checking for AMDGPU... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/egl/Makefile
+config.status: creating src/egl/main/egl.pc
+config.status: creating src/egl/wayland/wayland-drm/Makefile
+config.status: creating src/egl/wayland/wayland-egl/Makefile
+config.status: creating src/egl/wayland/wayland-egl/wayland-egl.pc
+config.status: creating src/gallium/Makefile
+config.status: creating src/gallium/auxiliary/Makefile
+config.status: creating src/gallium/auxiliary/pipe-loader/Makefile
+config.status: creating src/gallium/drivers/freedreno/Makefile
+config.status: creating src/gallium/drivers/ddebug/Makefile
+config.status: creating src/gallium/drivers/i915/Makefile
+config.status: creating src/gallium/drivers/ilo/Makefile
+config.status: creating src/gallium/drivers/llvmpipe/Makefile
+config.status: creating src/gallium/drivers/noop/Makefile
+config.status: creating src/gallium/drivers/nouveau/Makefile
+config.status: creating src/gallium/drivers/r300/Makefile
+config.status: creating src/gallium/drivers/r600/Makefile
+config.status: creating src/gallium/drivers/radeon/Makefile
+config.status: creating src/gallium/drivers/radeonsi/Makefile
+config.status: creating src/gallium/drivers/rbug/Makefile
+config.status: creating src/gallium/drivers/softpipe/Makefile
+config.status: creating src/gallium/drivers/svga/Makefile
+config.status: creating src/gallium/drivers/trace/Makefile
+config.status: creating src/gallium/drivers/vc4/Makefile
+config.status: creating src/gallium/drivers/virgl/Makefile
+config.status: creating src/gallium/state_trackers/clover/Makefile
+config.status: creating src/gallium/state_trackers/dri/Makefile
+config.status: creating src/gallium/state_trackers/glx/xlib/Makefile
+config.status: creating src/gallium/state_trackers/nine/Makefile
+config.status: creating src/gallium/state_trackers/omx/Makefile
+config.status: creating src/gallium/state_trackers/osmesa/Makefile
+config.status: creating src/gallium/state_trackers/va/Makefile
+config.status: creating src/gallium/state_trackers/vdpau/Makefile
+config.status: creating src/gallium/state_trackers/xa/Makefile
+config.status: creating src/gallium/state_trackers/xvmc/Makefile
+config.status: creating src/gallium/targets/d3dadapter9/Makefile
+config.status: creating src/gallium/targets/d3dadapter9/d3d.pc
+config.status: creating src/gallium/targets/dri/Makefile
+config.status: creating src/gallium/targets/libgl-xlib/Makefile
+config.status: creating src/gallium/targets/omx/Makefile
+config.status: creating src/gallium/targets/opencl/Makefile
+config.status: creating src/gallium/targets/opencl/mesa.icd
+config.status: creating src/gallium/targets/osmesa/Makefile
+config.status: creating src/gallium/targets/osmesa/osmesa.pc
+config.status: creating src/gallium/targets/pipe-loader/Makefile
+config.status: creating src/gallium/targets/va/Makefile
+config.status: creating src/gallium/targets/vdpau/Makefile
+config.status: creating src/gallium/targets/xa/Makefile
+config.status: creating src/gallium/targets/xa/xatracker.pc
+config.status: creating src/gallium/targets/xvmc/Makefile
+config.status: creating src/gallium/tests/trivial/Makefile
+config.status: creating src/gallium/tests/unit/Makefile
+config.status: creating src/gallium/winsys/freedreno/drm/Makefile
+config.status: creating src/gallium/winsys/i915/drm/Makefile
+config.status: creating src/gallium/winsys/intel/drm/Makefile
+config.status: creating src/gallium/winsys/nouveau/drm/Makefile
+config.status: creating src/gallium/winsys/radeon/drm/Makefile
+config.status: creating src/gallium/winsys/amdgpu/drm/Makefile
+config.status: creating src/gallium/winsys/svga/drm/Makefile
+config.status: creating src/gallium/winsys/sw/dri/Makefile
+config.status: creating src/gallium/winsys/sw/kms-dri/Makefile
+config.status: creating src/gallium/winsys/sw/null/Makefile
+config.status: creating src/gallium/winsys/sw/wrapper/Makefile
+config.status: creating src/gallium/winsys/sw/xlib/Makefile
+config.status: creating src/gallium/winsys/vc4/drm/Makefile
+config.status: creating src/gallium/winsys/virgl/drm/Makefile
+config.status: creating src/gallium/winsys/virgl/vtest/Makefile
+config.status: creating src/gbm/Makefile
+config.status: creating src/gbm/main/gbm.pc
+config.status: creating src/glsl/Makefile
+config.status: creating src/glx/Makefile
+config.status: creating src/glx/apple/Makefile
+config.status: creating src/glx/tests/Makefile
+config.status: creating src/gtest/Makefile
+config.status: creating src/loader/Makefile
+config.status: creating src/mapi/Makefile
+config.status: creating src/mapi/es1api/glesv1_cm.pc
+config.status: creating src/mapi/es2api/glesv2.pc
+config.status: creating src/mapi/glapi/gen/Makefile
+config.status: creating src/mesa/Makefile
+config.status: creating src/mesa/gl.pc
+config.status: creating src/mesa/drivers/dri/dri.pc
+config.status: creating src/mesa/drivers/dri/common/Makefile
+config.status: creating src/mesa/drivers/dri/common/xmlpool/Makefile
+config.status: creating src/mesa/drivers/dri/i915/Makefile
+config.status: creating src/mesa/drivers/dri/i965/Makefile
+config.status: creating src/mesa/drivers/dri/Makefile
+config.status: creating src/mesa/drivers/dri/nouveau/Makefile
+config.status: creating src/mesa/drivers/dri/r200/Makefile
+config.status: creating src/mesa/drivers/dri/radeon/Makefile
+config.status: creating src/mesa/drivers/dri/swrast/Makefile
+config.status: creating src/mesa/drivers/osmesa/Makefile
+config.status: creating src/mesa/drivers/osmesa/osmesa.pc
+config.status: creating src/mesa/drivers/x11/Makefile
+config.status: creating src/mesa/main/tests/Makefile
+config.status: creating src/util/Makefile
+config.status: creating src/util/tests/hash_table/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+        prefix:          /usr
+        exec_prefix:     ${prefix}
+        libdir:          ${exec_prefix}/lib
+        includedir:      ${prefix}/include
+
+        OpenGL:          yes (ES1: yes ES2: yes)
+
+        OSMesa:          libOSMesa
+
+        DRI platform:    drm
+        DRI drivers:     i915 i965 nouveau r200 radeon swrast 
+        DRI driver dir:  ${libdir}/dri
+        GLX:             DRI-based
+
+        EGL:             yes
+        EGL platforms:   drm x11 wayland
+        EGL drivers:     builtin:egl_dri2 builtin:egl_dri3
+
+        llvm:            yes
+        llvm-config:     /usr/bin/llvm-config
+        llvm-version:    3.7.1
+
+        Gallium drivers: nouveau r300 r600 radeonsi svga swrast
+        Gallium st:      mesa xa xvmc vdpau
+
+        Shader cache:    yes
+        With SHA1 from:  libnettle
+
+        Shared libs:     yes
+        Static libs:     no
+        Shared-glapi:    yes
+
+        CFLAGS:          -O2 -Wall -std=c99 -Werror=implicit-function-declaration -Werror=missing-prototypes -fno-strict-aliasing -fno-math-errno -fno-trapping-math -fno-builtin-memcmp
+        CXXFLAGS:        -O2 -Wall -fno-strict-aliasing -fno-builtin-memcmp
+        Macros:          -D__STDC_LIMIT_MACROS -D_GNU_SOURCE -DUSE_SSE41 -DNDEBUG -DTEXTURE_FLOAT_ENABLED -DUSE_X86_64_ASM -DHAVE_XLOCALE_H -DHAVE_SYS_SYSCTL_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_DLOPEN -DHAVE_POSIX_MEMALIGN -DHAVE_LIBDRM -DHAVE_SHA1 -DGLX_USE_DRM -DHAVE_LIBUDEV -DGLX_INDIRECT_RENDERING -DGLX_DIRECT_RENDERING -DGLX_USE_TLS -DHAVE_ALIAS -DHAVE_DRI3 -DHAVE_MINCORE -DHAVE_LLVM=0x0307 -DMESA_LLVM_VERSION_PATCH=1
+
+        LLVM_CFLAGS:     -I/usr/include   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+        LLVM_CXXFLAGS:   -I/usr/include   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS   -std=c++11   -fno-rtti    
+        LLVM_CPPFLAGS:   -I/usr/include   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS
+        LLVM_LDFLAGS:    -L/usr/lib 
+
+        PYTHON2:         python2.7
+
+        Run 'make' to build Mesa
+
+Making all in src
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making all in .
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+  CC       mesa/main/imports.lo
+  CC       mesa/program/prog_hash_table.lo
+  CC       mesa/program/symbol_table.lo
+  CC       mesa/program/dummy_errors.lo
+  CCLD     libglsl_util.la
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making all in gtest
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+Making all in util
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making all in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+  CC       libmesautil_la-debug.lo
+  CC       libmesautil_la-half_float.lo
+  CC       libmesautil_la-hash_table.lo
+  CC       libmesautil_la-mesa-sha1.lo
+  CC       libmesautil_la-ralloc.lo
+  CC       libmesautil_la-register_allocate.lo
+  CC       libmesautil_la-rgtc.lo
+  CC       libmesautil_la-set.lo
+  CC       libmesautil_la-strndup.lo
+  CC       libmesautil_la-strtod.lo
+  CC       libmesautil_la-format_srgb.lo
+  CCLD     libmesautil.la
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making all in tests/hash_table
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making all in mapi/glapi/gen
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make  all-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+Making all in mapi
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+  CC       shared_glapi_libglapi_la-entry.lo
+  CC       shared_glapi_libglapi_la-mapi_glapi.lo
+  CC       shared_glapi_libglapi_la-stub.lo
+  CC       shared_glapi_libglapi_la-table.lo
+  CC       shared_glapi_libglapi_la-u_current.lo
+  CC       shared_glapi_libglapi_la-u_execmem.lo
+  CCLD     shared-glapi/libglapi.la
+  CC       es1api_libGLESv1_CM_la-entry.lo
+  CCLD     es1api/libGLESv1_CM.la
+  CC       es2api_libGLESv2_la-entry.lo
+  CCLD     es2api/libGLESv2.la
+  CC       glapi/glapi_libglapi_la-glapi_gentable.lo
+  CC       glapi_libglapi_la-entry.lo
+  CCLD     glapi/libglapi.la
+  GEN      .install-mesa-links
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+Making all in glsl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make  all-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+  CXX      nir/glsl_to_nir.lo
+  CXX      nir/glsl_types.lo
+  CC       nir/nir.lo
+  CC       nir/nir_clone.lo
+  CC       nir/nir_control_flow.lo
+  CC       nir/nir_dominance.lo
+  CC       nir/nir_from_ssa.lo
+  CC       nir/nir_gs_count_vertices.lo
+  CC       nir/nir_intrinsics.lo
+  CC       nir/nir_instr_set.lo
+  CC       nir/nir_liveness.lo
+  CC       nir/nir_lower_alu_to_scalar.lo
+  CC       nir/nir_lower_atomics.lo
+  CC       nir/nir_lower_clip.lo
+  CC       nir/nir_lower_global_vars_to_local.lo
+  CC       nir/nir_lower_gs_intrinsics.lo
+  CC       nir/nir_lower_load_const_to_scalar.lo
+  CC       nir/nir_lower_locals_to_regs.lo
+  CC       nir/nir_lower_idiv.lo
+  CC       nir/nir_lower_io.lo
+  CC       nir/nir_lower_outputs_to_temporaries.lo
+  CC       nir/nir_lower_phis_to_scalar.lo
+  CC       nir/nir_lower_samplers.lo
+  CC       nir/nir_lower_system_values.lo
+  CC       nir/nir_lower_tex.lo
+  CC       nir/nir_lower_to_source_mods.lo
+  CC       nir/nir_lower_two_sided_color.lo
+  CC       nir/nir_lower_vars_to_ssa.lo
+  CC       nir/nir_lower_var_copies.lo
+  CC       nir/nir_lower_vec_to_movs.lo
+  CC       nir/nir_metadata.lo
+  CC       nir/nir_move_vec_src_uses_to_dest.lo
+  CC       nir/nir_normalize_cubemap_coords.lo
+  CC       nir/nir_opt_constant_folding.lo
+  CC       nir/nir_opt_copy_propagate.lo
+  CC       nir/nir_opt_cse.lo
+  CC       nir/nir_opt_dce.lo
+  CC       nir/nir_opt_dead_cf.lo
+  CC       nir/nir_opt_gcm.lo
+  CC       nir/nir_opt_global_to_local.lo
+  CC       nir/nir_opt_peephole_select.lo
+  CC       nir/nir_opt_remove_phis.lo
+  CC       nir/nir_opt_undef.lo
+  CC       nir/nir_print.lo
+  CC       nir/nir_remove_dead_variables.lo
+  CC       nir/nir_search.lo
+  CC       nir/nir_split_var_copies.lo
+  CC       nir/nir_sweep.lo
+  CC       nir/nir_to_ssa.lo
+  CC       nir/nir_validate.lo
+  CC       nir/nir_worklist.lo
+  CXX      nir/nir_types.lo
+  CC       nir/shader_enums.lo
+  CC       nir/nir_constant_expressions.lo
+  CC       nir/nir_opcodes.lo
+  CC       nir/nir_opt_algebraic.lo
+  CXXLD    libnir.la
+  CXX      glsl_lexer.lo
+  CXX      glsl_parser.lo
+  CXX      ast_array_index.lo
+  CXX      ast_expr.lo
+  CXX      ast_function.lo
+  CXX      ast_to_hir.lo
+  CXX      ast_type.lo
+  CC       blob.lo
+  CXX      builtin_functions.lo
+  CXX      builtin_types.lo
+  CXX      builtin_variables.lo
+  CXX      glsl_parser_extras.lo
+  CXX      glsl_symbol_table.lo
+  CXX      hir_field_selection.lo
+  CXX      ir_basic_block.lo
+  CXX      ir_builder.lo
+  CXX      ir_clone.lo
+  CXX      ir_constant_expression.lo
+  CXX      ir.lo
+  CXX      ir_equals.lo
+  CXX      ir_expression_flattening.lo
+  CXX      ir_function_can_inline.lo
+  CXX      ir_function_detect_recursion.lo
+  CXX      ir_function.lo
+  CXX      ir_hierarchical_visitor.lo
+  CXX      ir_hv_accept.lo
+  CXX      ir_import_prototypes.lo
+  CXX      ir_print_visitor.lo
+  CXX      ir_reader.lo
+  CXX      ir_rvalue_visitor.lo
+  CXX      ir_set_program_inouts.lo
+  CXX      ir_validate.lo
+  CXX      ir_variable_refcount.lo
+  CXX      linker.lo
+  CXX      link_atomics.lo
+  CXX      link_functions.lo
+  CXX      link_interface_blocks.lo
+  CXX      link_uniforms.lo
+  CXX      link_uniform_initializers.lo
+  CXX      link_uniform_block_active_visitor.lo
+  CXX      link_uniform_blocks.lo
+  CXX      link_varyings.lo
+  CXX      loop_analysis.lo
+  CXX      loop_controls.lo
+  CXX      loop_unroll.lo
+  CXX      lower_clip_distance.lo
+  CXX      lower_const_arrays_to_uniforms.lo
+  CXX      lower_discard.lo
+  CXX      lower_discard_flow.lo
+  CXX      lower_if_to_cond_assign.lo
+  CXX      lower_instructions.lo
+  CXX      lower_jumps.lo
+  CXX      lower_mat_op_to_vec.lo
+  CXX      lower_noise.lo
+  CXX      lower_offset_array.lo
+  CXX      lower_packed_varyings.lo
+  CXX      lower_named_interface_blocks.lo
+  CXX      lower_packing_builtins.lo
+  CXX      lower_subroutine.lo
+  CXX      lower_tess_level.lo
+  CXX      lower_texture_projection.lo
+  CXX      lower_variable_index_to_cond_assign.lo
+  CXX      lower_vec_index_to_cond_assign.lo
+  CXX      lower_vec_index_to_swizzle.lo
+  CXX      lower_vector.lo
+  CXX      lower_vector_derefs.lo
+  CXX      lower_vector_insert.lo
+  CXX      lower_vertex_id.lo
+  CXX      lower_output_reads.lo
+  CXX      lower_ubo_reference.lo
+  CXX      opt_algebraic.lo
+  CXX      opt_array_splitting.lo
+  CXX      opt_conditional_discard.lo
+  CXX      opt_constant_folding.lo
+  CXX      opt_constant_propagation.lo
+  CXX      opt_constant_variable.lo
+  CXX      opt_copy_propagation.lo
+  CXX      opt_copy_propagation_elements.lo
+  CXX      opt_dead_builtin_variables.lo
+  CXX      opt_dead_builtin_varyings.lo
+  CXX      opt_dead_code.lo
+  CXX      opt_dead_code_local.lo
+  CXX      opt_dead_functions.lo
+  CXX      opt_flatten_nested_if_blocks.lo
+  CXX      opt_flip_matrices.lo
+  CXX      opt_function_inlining.lo
+  CXX      opt_if_simplification.lo
+  CXX      opt_minmax.lo
+  CXX      opt_noop_swizzle.lo
+  CXX      opt_rebalance_tree.lo
+  CXX      opt_redundant_jumps.lo
+  CXX      opt_structure_splitting.lo
+  CXX      opt_swizzle_swizzle.lo
+  CXX      opt_tree_grafting.lo
+  CXX      opt_vectorize.lo
+  CXX      s_expression.lo
+  CC       glcpp/glcpp-lex.lo
+  CC       glcpp/glcpp-parse.lo
+  CC       glcpp/pp.lo
+  CCLD     libglcpp.la
+  CXXLD    libglsl.la
+  CXX      standalone_scaffolding.o
+  CXX      main.o
+  CXXLD    glsl_compiler
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+Making all in mesa
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+  CC       x86/gen_matypes.o
+  CCLD     gen_matypes
+  GEN      matypes.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making all in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+  CC       main/libmesa_sse41_la-streaming-load-memcpy.lo
+  CC       main/libmesa_sse41_la-sse_minmax.lo
+  CCLD     libmesa_sse41.la
+  CC       main/accum.lo
+  CC       main/api_arrayelt.lo
+  CC       main/api_exec.lo
+  CC       main/api_loopback.lo
+  CC       main/api_validate.lo
+  CC       main/arbprogram.lo
+  CC       main/arrayobj.lo
+  CC       main/atifragshader.lo
+  CC       main/attrib.lo
+  CC       main/blend.lo
+  CC       main/blit.lo
+  CC       main/bufferobj.lo
+  CC       main/buffers.lo
+  CC       main/clear.lo
+  CC       main/clip.lo
+  CC       main/colortab.lo
+  CC       main/compute.lo
+  CC       main/condrender.lo
+  CC       main/context.lo
+  CC       main/convolve.lo
+  CC       main/copyimage.lo
+  CC       main/cpuinfo.lo
+  CC       main/debug.lo
+  CC       main/depth.lo
+  CC       main/dlist.lo
+  CC       main/drawpix.lo
+  CC       main/drawtex.lo
+  CC       main/enable.lo
+  CC       main/enums.lo
+  CC       main/errors.lo
+  CC       main/eval.lo
+  CC       main/execmem.lo
+  CC       main/extensions.lo
+  CC       main/fbobject.lo
+  CC       main/feedback.lo
+  CXX      main/ff_fragment_shader.lo
+  CC       main/ffvertex_prog.lo
+  CC       main/fog.lo
+  CC       main/format_pack.lo
+  CC       main/format_unpack.lo
+  CC       main/formatquery.lo
+  CC       main/formats.lo
+  CC       main/format_utils.lo
+  CC       main/framebuffer.lo
+  CC       main/get.lo
+  CC       main/genmipmap.lo
+  CC       main/getstring.lo
+  CC       main/glformats.lo
+  CC       main/hash.lo
+  CC       main/hint.lo
+  CC       main/histogram.lo
+  CC       main/image.lo
+  CC       main/light.lo
+  CC       main/lines.lo
+  CC       main/matrix.lo
+  CC       main/mipmap.lo
+  CC       main/mm.lo
+  CC       main/multisample.lo
+  CC       main/objectlabel.lo
+  CC       main/objectpurge.lo
+  CC       main/pack.lo
+  CC       main/pbo.lo
+  CC       main/performance_monitor.lo
+  CC       main/pipelineobj.lo
+  CC       main/pixel.lo
+  CC       main/pixelstore.lo
+  CC       main/pixeltransfer.lo
+  CC       main/points.lo
+  CC       main/polygon.lo
+  CC       main/program_resource.lo
+  CC       main/querymatrix.lo
+  CC       main/queryobj.lo
+  CC       main/rastpos.lo
+  CC       main/readpix.lo
+  CC       main/remap.lo
+  CC       main/renderbuffer.lo
+  CC       main/samplerobj.lo
+  CC       main/scissor.lo
+  CC       main/shaderapi.lo
+  CC       main/shaderimage.lo
+  CC       main/shaderobj.lo
+  CXX      main/shader_query.lo
+  CC       main/shared.lo
+  CC       main/state.lo
+  CC       main/stencil.lo
+  CC       main/syncobj.lo
+  CC       main/texcompress.lo
+  CC       main/texcompress_bptc.lo
+  CC       main/texcompress_cpal.lo
+  CC       main/texcompress_etc.lo
+  CC       main/texcompress_fxt1.lo
+  CC       main/texcompress_rgtc.lo
+  CC       main/texcompress_s3tc.lo
+  CC       main/texenv.lo
+  CC       main/texformat.lo
+  CC       main/texgen.lo
+  CC       main/texgetimage.lo
+  CC       main/teximage.lo
+  CC       main/texobj.lo
+  CC       main/texparam.lo
+  CC       main/texstate.lo
+  CC       main/texstorage.lo
+  CC       main/texstore.lo
+  CC       main/textureview.lo
+  CC       main/texturebarrier.lo
+  CC       main/transformfeedback.lo
+  CXX      main/uniform_query.lo
+  CC       main/uniforms.lo
+  CC       main/varray.lo
+  CC       main/vdpau.lo
+  CC       main/version.lo
+  CC       main/viewport.lo
+  CC       main/vtxfmt.lo
+  CC       main/es1_conversion.lo
+  CC       math/m_debug_clip.lo
+  CC       math/m_debug_norm.lo
+  CC       math/m_debug_xform.lo
+  CC       math/m_eval.lo
+  CC       math/m_matrix.lo
+  CC       math/m_translate.lo
+  CC       math/m_vector.lo
+  CC       math/m_xform.lo
+  CC       vbo/vbo_context.lo
+  CC       vbo/vbo_exec_api.lo
+  CC       vbo/vbo_exec_array.lo
+  CC       vbo/vbo_exec.lo
+  CC       vbo/vbo_exec_draw.lo
+  CC       vbo/vbo_exec_eval.lo
+  CC       vbo/vbo_noop.lo
+  CC       vbo/vbo_primitive_restart.lo
+  CC       vbo/vbo_rebase.lo
+  CC       vbo/vbo_save_api.lo
+  CC       vbo/vbo_save.lo
+  CC       vbo/vbo_save_draw.lo
+  CC       vbo/vbo_save_loopback.lo
+  CC       vbo/vbo_split.lo
+  CC       vbo/vbo_split_copy.lo
+  CC       vbo/vbo_split_inplace.lo
+  CC       tnl/t_context.lo
+  CC       tnl/t_draw.lo
+  CC       tnl/t_pipeline.lo
+  CC       tnl/t_vb_fog.lo
+  CC       tnl/t_vb_light.lo
+  CC       tnl/t_vb_normals.lo
+  CC       tnl/t_vb_points.lo
+  CC       tnl/t_vb_program.lo
+  CC       tnl/t_vb_render.lo
+  CC       tnl/t_vb_texgen.lo
+  CC       tnl/t_vb_texmat.lo
+  CC       tnl/t_vb_vertex.lo
+  CC       tnl/t_vertex.lo
+  CC       tnl/t_vertex_generic.lo
+  CC       tnl/t_vertex_sse.lo
+  CC       tnl/t_vp_build.lo
+  CC       swrast/s_aaline.lo
+  CC       swrast/s_aatriangle.lo
+  CC       swrast/s_alpha.lo
+  CC       swrast/s_atifragshader.lo
+  CC       swrast/s_bitmap.lo
+  CC       swrast/s_blend.lo
+  CC       swrast/s_blit.lo
+  CC       swrast/s_clear.lo
+  CC       swrast/s_context.lo
+  CC       swrast/s_copypix.lo
+  CC       swrast/s_depth.lo
+  CC       swrast/s_drawpix.lo
+  CC       swrast/s_feedback.lo
+  CC       swrast/s_fog.lo
+  CC       swrast/s_fragprog.lo
+  CC       swrast/s_lines.lo
+  CC       swrast/s_logic.lo
+  CC       swrast/s_masking.lo
+  CC       swrast/s_points.lo
+  CC       swrast/s_renderbuffer.lo
+  CC       swrast/s_span.lo
+  CC       swrast/s_stencil.lo
+  CC       swrast/s_texcombine.lo
+  CC       swrast/s_texfetch.lo
+  CC       swrast/s_texfilter.lo
+  CC       swrast/s_texrender.lo
+  CC       swrast/s_texture.lo
+  CC       swrast/s_triangle.lo
+  CC       swrast/s_zoom.lo
+  CC       swrast_setup/ss_context.lo
+  CC       swrast_setup/ss_triangle.lo
+  CC       drivers/common/driverfuncs.lo
+  CC       drivers/common/meta_blit.lo
+  CC       drivers/common/meta_copy_image.lo
+  CC       drivers/common/meta_generate_mipmap.lo
+  CC       drivers/common/meta_tex_subimage.lo
+  CC       drivers/common/meta.lo
+  CC       x86/common_x86.lo
+  CC       x86/x86_xform.lo
+  CC       x86/3dnow.lo
+  CC       x86/sse.lo
+  CC       x86/rtasm/x86sse.lo
+  CC       sparc/sparc.lo
+  CC       x86-64/x86-64.lo
+  CC       program/arbprogparse.lo
+  CXX      program/ir_to_mesa.lo
+  CC       program/lex.yy.lo
+  CC       program/prog_cache.lo
+  CC       program/prog_execute.lo
+  CC       program/prog_instruction.lo
+  CC       program/prog_noise.lo
+  CC       program/prog_opt_constant_fold.lo
+  CC       program/prog_optimize.lo
+  CC       program/prog_parameter.lo
+  CC       program/prog_parameter_layout.lo
+  CC       program/prog_print.lo
+  CC       program/program.lo
+  CC       program/programopt.lo
+  CC       program/program_parse_extra.lo
+  CC       program/program_parse.tab.lo
+  CC       program/prog_statevars.lo
+  CXX      program/sampler.lo
+  CXX      program/string_to_uint_map.lo
+  CC       program/prog_to_nir.lo
+  CPPAS    x86-64/xform4.lo
+  CXXLD    libmesa.la
+  CC       state_tracker/st_atom_array.lo
+  CC       state_tracker/st_atom_blend.lo
+  CC       state_tracker/st_atom.lo
+  CC       state_tracker/st_atom_clip.lo
+  CC       state_tracker/st_atom_constbuf.lo
+  CC       state_tracker/st_atom_depth.lo
+  CC       state_tracker/st_atom_framebuffer.lo
+  CC       state_tracker/st_atom_msaa.lo
+  CC       state_tracker/st_atom_pixeltransfer.lo
+  CC       state_tracker/st_atom_rasterizer.lo
+  CC       state_tracker/st_atom_sampler.lo
+  CC       state_tracker/st_atom_scissor.lo
+  CC       state_tracker/st_atom_shader.lo
+  CC       state_tracker/st_atom_stipple.lo
+  CC       state_tracker/st_atom_tess.lo
+  CC       state_tracker/st_atom_texture.lo
+  CC       state_tracker/st_atom_viewport.lo
+  CC       state_tracker/st_cb_bitmap.lo
+  CC       state_tracker/st_cb_bitmap_shader.lo
+  CC       state_tracker/st_cb_blit.lo
+  CC       state_tracker/st_cb_bufferobjects.lo
+  CC       state_tracker/st_cb_clear.lo
+  CC       state_tracker/st_cb_condrender.lo
+  CC       state_tracker/st_cb_copyimage.lo
+  CC       state_tracker/st_cb_drawpixels.lo
+  CC       state_tracker/st_cb_drawpixels_shader.lo
+  CC       state_tracker/st_cb_drawtex.lo
+  CC       state_tracker/st_cb_eglimage.lo
+  CC       state_tracker/st_cb_fbo.lo
+  CC       state_tracker/st_cb_feedback.lo
+  CC       state_tracker/st_cb_flush.lo
+  CC       state_tracker/st_cb_msaa.lo
+  CC       state_tracker/st_cb_perfmon.lo
+  CC       state_tracker/st_cb_program.lo
+  CC       state_tracker/st_cb_queryobj.lo
+  CC       state_tracker/st_cb_rasterpos.lo
+  CC       state_tracker/st_cb_readpixels.lo
+  CC       state_tracker/st_cb_strings.lo
+  CC       state_tracker/st_cb_syncobj.lo
+  CC       state_tracker/st_cb_texturebarrier.lo
+  CC       state_tracker/st_cb_texture.lo
+  CC       state_tracker/st_cb_viewport.lo
+  CC       state_tracker/st_cb_xformfb.lo
+  CC       state_tracker/st_context.lo
+  CC       state_tracker/st_debug.lo
+  CC       state_tracker/st_draw.lo
+  CC       state_tracker/st_draw_feedback.lo
+  CC       state_tracker/st_extensions.lo
+  CC       state_tracker/st_format.lo
+  CC       state_tracker/st_gen_mipmap.lo
+  CXX      state_tracker/st_glsl_to_tgsi.lo
+  CC       state_tracker/st_manager.lo
+  CC       state_tracker/st_mesa_to_tgsi.lo
+  CC       state_tracker/st_program.lo
+  CC       state_tracker/st_texture.lo
+  CC       state_tracker/st_vdpau.lo
+  CXXLD    libmesagallium.la
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making all in main/tests
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+Making all in drivers/dri
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making all in common
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making all in xmlpool
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make  all-am
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+  CC       utils.lo
+  CC       dri_util.lo
+  CCLD     libdricommon.la
+  CC       libxmlconfig_la-xmlconfig.lo
+  CCLD     libxmlconfig.la
+  CC       megadriver_stub.lo
+  CCLD     libmegadriver_stub.la
+  CC       libdri_test_stubs_la-dri_test.lo
+  CCLD     libdri_test_stubs.la
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making all in i915
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+  CC       i830_context.lo
+  CC       i830_state.lo
+  CC       i830_texblend.lo
+  CC       i830_texstate.lo
+  CC       i830_vtbl.lo
+  CC       i915_context.lo
+  CC       i915_debug_fp.lo
+  CC       i915_fragprog.lo
+  CC       i915_program.lo
+  CC       i915_state.lo
+  CC       i915_tex_layout.lo
+  CC       i915_texstate.lo
+  CC       i915_vtbl.lo
+  CC       intel_batchbuffer.lo
+  CC       intel_blit.lo
+  CC       intel_buffer_objects.lo
+  CC       intel_buffers.lo
+  CC       intel_clear.lo
+  CC       intel_context.lo
+  CC       intel_extensions.lo
+  CC       intel_fbo.lo
+  CC       intel_mipmap_tree.lo
+  CC       intel_pixel_bitmap.lo
+  CC       intel_pixel.lo
+  CC       intel_pixel_copy.lo
+  CC       intel_pixel_draw.lo
+  CC       intel_pixel_read.lo
+  CC       intel_regions.lo
+  CC       intel_render.lo
+  CC       intel_screen.lo
+  CC       intel_state.lo
+  CC       intel_syncobj.lo
+  CC       intel_tex.lo
+  CC       intel_tex_copy.lo
+  CC       intel_tex_image.lo
+  CC       intel_tex_layout.lo
+  CC       intel_tex_subimage.lo
+  CC       intel_tex_validate.lo
+  CC       intel_tris.lo
+  CCLD     libi915_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+Making all in i965
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+  CC       brw_binding_tables.lo
+  CXX      brw_blorp_blit.lo
+  CXX      brw_blorp_blit_eu.lo
+  CXX      brw_blorp.lo
+  CC       brw_cc.lo
+  CC       brw_clear.lo
+  CC       brw_clip.lo
+  CC       brw_clip_line.lo
+  CC       brw_clip_point.lo
+  CC       brw_clip_state.lo
+  CC       brw_clip_tri.lo
+  CC       brw_clip_unfilled.lo
+  CC       brw_clip_util.lo
+  CC       brw_compute.lo
+  CC       brw_conditional_render.lo
+  CC       brw_context.lo
+  CC       brw_cs.lo
+  CC       brw_curbe.lo
+  CC       brw_draw.lo
+  CC       brw_draw_upload.lo
+  CC       brw_ff_gs.lo
+  CC       brw_ff_gs_emit.lo
+  CC       brw_gs.lo
+  CC       brw_gs_state.lo
+  CC       brw_gs_surface_state.lo
+  CXX      brw_link.lo
+  CC       brw_meta_fast_clear.lo
+  CC       brw_meta_stencil_blit.lo
+  CC       brw_meta_updownsample.lo
+  CC       brw_meta_util.lo
+  CC       brw_misc_state.lo
+  CC       brw_object_purgeable.lo
+  CC       brw_performance_monitor.lo
+  CC       brw_pipe_control.lo
+  CC       brw_program.lo
+  CC       brw_primitive_restart.lo
+  CC       brw_queryobj.lo
+  CC       brw_reset.lo
+  CC       brw_sampler_state.lo
+  CC       brw_sf.lo
+  CC       brw_sf_emit.lo
+  CC       brw_sf_state.lo
+  CC       brw_state_batch.lo
+  CC       brw_state_cache.lo
+  CC       brw_state_dump.lo
+  CC       brw_state_upload.lo
+  CC       brw_tex.lo
+  CC       brw_tex_layout.lo
+  CC       brw_urb.lo
+  CC       brw_vs.lo
+  CC       brw_vs_state.lo
+  CC       brw_vs_surface_state.lo
+  CC       brw_wm.lo
+  CC       brw_wm_state.lo
+  CC       brw_wm_surface_state.lo
+  CXX      gen6_blorp.lo
+  CC       gen6_cc.lo
+  CC       gen6_clip_state.lo
+  CC       gen6_depth_state.lo
+  CC       gen6_depthstencil.lo
+  CC       gen6_gs_state.lo
+  CC       gen6_multisample_state.lo
+  CC       gen6_queryobj.lo
+  CC       gen6_sampler_state.lo
+  CC       gen6_scissor_state.lo
+  CC       gen6_sf_state.lo
+  CC       gen6_sol.lo
+  CC       gen6_surface_state.lo
+  CC       gen6_urb.lo
+  CC       gen6_viewport_state.lo
+  CC       gen6_vs_state.lo
+  CC       gen6_wm_state.lo
+  CXX      gen7_blorp.lo
+  CC       gen7_cs_state.lo
+  CC       gen7_disable.lo
+  CC       gen7_gs_state.lo
+  CC       gen7_misc_state.lo
+  CC       gen7_sf_state.lo
+  CC       gen7_sol_state.lo
+  CC       gen7_urb.lo
+  CC       gen7_viewport_state.lo
+  CC       gen7_vs_state.lo
+  CC       gen7_wm_state.lo
+  CC       gen7_wm_surface_state.lo
+  CC       gen8_blend_state.lo
+  CC       gen8_depth_state.lo
+  CC       gen8_disable.lo
+  CC       gen8_draw_upload.lo
+  CC       gen8_gs_state.lo
+  CC       gen8_misc_state.lo
+  CC       gen8_multisample_state.lo
+  CC       gen8_ps_state.lo
+  CC       gen8_sf_state.lo
+  CC       gen8_sol_state.lo
+  CC       gen8_surface_state.lo
+  CC       gen8_viewport_state.lo
+  CC       gen8_vs_state.lo
+  CC       gen8_wm_depth_stencil.lo
+  CC       intel_batchbuffer.lo
+  CC       intel_blit.lo
+  CC       intel_buffer_objects.lo
+  CC       intel_buffers.lo
+  CC       intel_copy_image.lo
+  CC       intel_extensions.lo
+  CC       intel_fbo.lo
+  CC       intel_mipmap_tree.lo
+  CC       intel_pixel_bitmap.lo
+  CC       intel_pixel.lo
+  CC       intel_pixel_copy.lo
+  CC       intel_pixel_draw.lo
+  CC       intel_pixel_read.lo
+  CC       intel_screen.lo
+  CC       intel_state.lo
+  CC       intel_syncobj.lo
+  CC       intel_tex.lo
+  CC       intel_tex_copy.lo
+  CC       intel_tex_image.lo
+  CC       intel_tex_subimage.lo
+  CC       intel_tex_validate.lo
+  CC       intel_tiled_memcpy.lo
+  CC       intel_upload.lo
+  CXX      brw_cfg.lo
+  CXX      brw_cubemap_normalize.lo
+  CXX      brw_dead_control_flow.lo
+  CC       brw_device_info.lo
+  CC       brw_disasm.lo
+  CC       brw_eu.lo
+  CC       brw_eu_compact.lo
+  CC       brw_eu_emit.lo
+  CC       brw_eu_util.lo
+  CC       brw_eu_validate.lo
+  CXX      brw_fs_channel_expressions.lo
+  CXX      brw_fs_cmod_propagation.lo
+  CXX      brw_fs_combine_constants.lo
+  CXX      brw_fs_copy_propagation.lo
+  CXX      brw_fs.lo
+  CXX      brw_fs_cse.lo
+  CXX      brw_fs_dead_code_eliminate.lo
+  CXX      brw_fs_generator.lo
+  CXX      brw_fs_live_variables.lo
+  CXX      brw_fs_nir.lo
+  CXX      brw_fs_reg_allocate.lo
+  CXX      brw_fs_register_coalesce.lo
+  CXX      brw_fs_saturate_propagation.lo
+  CXX      brw_fs_sel_peephole.lo
+  CXX      brw_fs_surface_builder.lo
+  CXX      brw_fs_validate.lo
+  CXX      brw_fs_vector_splitting.lo
+  CXX      brw_fs_visitor.lo
+  CC       brw_interpolation_map.lo
+  CXX      brw_lower_texture_gradients.lo
+  CXX      brw_lower_unnormalized_offset.lo
+  CC       brw_nir.lo
+  CC       brw_nir_analyze_boolean_resolves.lo
+  CC       brw_nir_opt_peephole_ffma.lo
+  CXX      brw_nir_uniforms.lo
+  CC       brw_packed_float.lo
+  CXX      brw_predicated_break.lo
+  CXX      brw_schedule_instructions.lo
+  CXX      brw_shader.lo
+  CC       brw_surface_formats.lo
+  CC       brw_util.lo
+  CXX      brw_vec4_cmod_propagation.lo
+  CXX      brw_vec4_copy_propagation.lo
+  CXX      brw_vec4.lo
+  CXX      brw_vec4_cse.lo
+  CXX      brw_vec4_dead_code_eliminate.lo
+  CXX      brw_vec4_generator.lo
+  CXX      brw_vec4_gs_visitor.lo
+  CXX      brw_vec4_live_variables.lo
+  CXX      brw_vec4_nir.lo
+  CXX      brw_vec4_gs_nir.lo
+  CXX      brw_vec4_reg_allocate.lo
+  CXX      brw_vec4_surface_builder.lo
+  CXX      brw_vec4_visitor.lo
+  CXX      brw_vec4_vs_visitor.lo
+  CC       brw_vue_map.lo
+  CXX      brw_wm_iz.lo
+  CXX      gen6_gs_visitor.lo
+  CC       intel_asm_annotation.lo
+  CC       intel_debug.lo
+  CC       intel_resolve_map.lo
+  CXXLD    libi965_compiler.la
+  CXXLD    libi965_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+Making all in nouveau
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+  CC       nouveau_array.lo
+  CC       nouveau_bufferobj.lo
+  CC       nouveau_context.lo
+  CC       nouveau_driver.lo
+  CC       nouveau_fbo.lo
+  CC       nouveau_scratch.lo
+  CC       nouveau_screen.lo
+  CC       nouveau_span.lo
+  CC       nouveau_state.lo
+  CC       nouveau_surface.lo
+  CC       nouveau_texture.lo
+  CC       nv04_context.lo
+  CC       nv04_render.lo
+  CC       nv04_state_fb.lo
+  CC       nv04_state_frag.lo
+  CC       nv04_state_raster.lo
+  CC       nv04_state_tex.lo
+  CC       nv04_surface.lo
+  CC       nv10_context.lo
+  CC       nv10_render.lo
+  CC       nv10_state_fb.lo
+  CC       nv10_state_frag.lo
+  CC       nv10_state_polygon.lo
+  CC       nv10_state_raster.lo
+  CC       nv10_state_tex.lo
+  CC       nv10_state_tnl.lo
+  CC       nv20_context.lo
+  CC       nv20_render.lo
+  CC       nv20_state_fb.lo
+  CC       nv20_state_frag.lo
+  CC       nv20_state_polygon.lo
+  CC       nv20_state_raster.lo
+  CC       nv20_state_tex.lo
+  CC       nv20_state_tnl.lo
+  CCLD     libnouveau_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+Making all in r200
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+  CC       radeon_buffer_objects.lo
+  CC       radeon_common.lo
+  CC       radeon_common_context.lo
+  CC       radeon_debug.lo
+  CC       radeon_dma.lo
+  CC       radeon_fbo.lo
+  CC       radeon_fog.lo
+  CC       radeon_mipmap_tree.lo
+  CC       radeon_pixel_read.lo
+  CC       radeon_queryobj.lo
+  CC       radeon_span.lo
+  CC       radeon_tex_copy.lo
+  CC       radeon_texture.lo
+  CC       radeon_tile.lo
+  CC       r200_blit.lo
+  CC       r200_cmdbuf.lo
+  CC       r200_context.lo
+  CC       r200_fragshader.lo
+  CC       r200_ioctl.lo
+  CC       r200_maos.lo
+  CC       r200_sanity.lo
+  CC       r200_state.lo
+  CC       r200_state_init.lo
+  CC       r200_swtcl.lo
+  CC       r200_tcl.lo
+  CC       r200_tex.lo
+  CC       r200_texstate.lo
+  CC       r200_vertprog.lo
+  CC       radeon_screen.lo
+  CCLD     libr200_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+Making all in radeon
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+  CC       radeon_buffer_objects.lo
+  CC       radeon_common.lo
+  CC       radeon_common_context.lo
+  CC       radeon_debug.lo
+  CC       radeon_dma.lo
+  CC       radeon_fbo.lo
+  CC       radeon_fog.lo
+  CC       radeon_mipmap_tree.lo
+  CC       radeon_pixel_read.lo
+  CC       radeon_queryobj.lo
+  CC       radeon_span.lo
+  CC       radeon_tex_copy.lo
+  CC       radeon_texture.lo
+  CC       radeon_tile.lo
+  CC       radeon_blit.lo
+  CC       radeon_context.lo
+  CC       radeon_ioctl.lo
+  CC       radeon_maos.lo
+  CC       radeon_sanity.lo
+  CC       radeon_screen.lo
+  CC       radeon_state.lo
+  CC       radeon_state_init.lo
+  CC       radeon_swtcl.lo
+  CC       radeon_tcl.lo
+  CC       radeon_tex.lo
+  CC       radeon_texstate.lo
+  CCLD     libradeon_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+Making all in swrast
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+  CC       swrast.lo
+  CCLD     libswrast_dri.la
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+  CXXLD    mesa_dri_drivers.la
+  GEN      all-local
+  GEN      all-local
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making all in drivers/osmesa
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+  CC       osmesa.lo
+  CXXLD    libOSMesa.la
+  GEN      .install-mesa-links
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making all in loader
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+  CC       libloader_la-loader.lo
+  CC       libloader_la-pci_id_driver_map.lo
+  CCLD     libloader.la
+  CC       loader_dri3_helper.lo
+  CCLD     libloader_dri3_helper.la
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+Making all in glx
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making all in .
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+  CC       clientattrib.lo
+  CC       clientinfo.lo
+  CC       compsize.lo
+  CC       create_context.lo
+  CC       eval.lo
+  CC       glxcmds.lo
+  CC       glxconfig.lo
+  CC       glxcurrent.lo
+  CC       glx_error.lo
+  CC       glxext.lo
+  CC       glxextensions.lo
+  CC       glxhash.lo
+  CC       glx_pbuffer.lo
+  CC       glx_query.lo
+  CC       indirect.lo
+  CC       indirect_glx.lo
+  CC       indirect_init.lo
+  CC       indirect_size.lo
+  CC       indirect_texture_compression.lo
+  CC       indirect_transpose_matrix.lo
+  CC       indirect_vertex_array.lo
+  CC       indirect_vertex_program.lo
+  CC       indirect_window_pos.lo
+  CC       pixel.lo
+  CC       pixelstore.lo
+  CC       query_renderer.lo
+  CC       render2.lo
+  CC       renderpix.lo
+  CC       single2.lo
+  CC       singlepix.lo
+  CC       vertarr.lo
+  CC       drisw_glx.lo
+  CC       dri_common.lo
+  CC       dri_common_query_renderer.lo
+  CC       xfont.lo
+  CC       dri2.lo
+  CC       dri2_glx.lo
+  CC       dri_glx.lo
+  CC       XF86dri.lo
+  CC       dri3_glx.lo
+  CCLD     libglx.la
+  CCLD     libGL.la
+  GEN      .install-mesa-links
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making all in tests
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making all in egl/wayland/wayland-egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+  CC       wayland-egl.lo
+  CCLD     libwayland-egl.la
+  GEN      .install-mesa-links
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+Making all in egl/wayland/wayland-drm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+  GEN      wayland-drm-client-protocol.h
+  GEN      wayland-drm-server-protocol.h
+make  all-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+  CC       wayland-drm.lo
+  CC       wayland-drm-protocol.lo
+  CCLD     libwayland-drm.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+Making all in gbm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+  CC       main/backend.lo
+  CC       main/gbm.lo
+  CC       backends/dri/gbm_dri.lo
+  CCLD     libgbm.la
+  GEN      .install-mesa-links
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+Making all in egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+  CC       main/eglapi.lo
+  CC       main/eglarray.lo
+  CC       main/eglconfig.lo
+  CC       main/eglcontext.lo
+  CC       main/eglcurrent.lo
+  CC       main/egldisplay.lo
+  CC       main/egldriver.lo
+  CC       main/eglfallbacks.lo
+  CC       main/eglglobals.lo
+  CC       main/eglimage.lo
+  CC       main/egllog.lo
+  CC       main/eglsurface.lo
+  CC       main/eglsync.lo
+  CC       drivers/dri2/egl_dri2.lo
+  CC       drivers/dri2/platform_x11.lo
+  CC       drivers/dri2/platform_wayland.lo
+  CC       drivers/dri2/platform_drm.lo
+  CC       drivers/dri2/platform_x11_dri3.lo
+  CCLD     libEGL.la
+  GEN      .install-mesa-links
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+Making all in gallium
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+Making all in auxiliary
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+  CC       cso_cache/cso_cache.lo
+  CC       cso_cache/cso_context.lo
+  CC       cso_cache/cso_hash.lo
+  CC       draw/draw_context.lo
+  CC       draw/draw_fs.lo
+  CC       draw/draw_gs.lo
+  CC       draw/draw_pipe_aaline.lo
+  CC       draw/draw_pipe_aapoint.lo
+  CC       draw/draw_pipe.lo
+  CC       draw/draw_pipe_clip.lo
+  CC       draw/draw_pipe_cull.lo
+  CC       draw/draw_pipe_flatshade.lo
+  CC       draw/draw_pipe_offset.lo
+  CC       draw/draw_pipe_pstipple.lo
+  CC       draw/draw_pipe_stipple.lo
+  CC       draw/draw_pipe_twoside.lo
+  CC       draw/draw_pipe_unfilled.lo
+  CC       draw/draw_pipe_util.lo
+  CC       draw/draw_pipe_validate.lo
+  CC       draw/draw_pipe_vbuf.lo
+  CC       draw/draw_pipe_wide_line.lo
+  CC       draw/draw_pipe_wide_point.lo
+  CC       draw/draw_prim_assembler.lo
+  CC       draw/draw_pt.lo
+  CC       draw/draw_pt_emit.lo
+  CC       draw/draw_pt_fetch.lo
+  CC       draw/draw_pt_fetch_emit.lo
+  CC       draw/draw_pt_fetch_shade_emit.lo
+  CC       draw/draw_pt_fetch_shade_pipeline.lo
+  CC       draw/draw_pt_post_vs.lo
+  CC       draw/draw_pt_so_emit.lo
+  CC       draw/draw_pt_util.lo
+  CC       draw/draw_pt_vsplit.lo
+  CC       draw/draw_vertex.lo
+  CC       draw/draw_vs.lo
+  CC       draw/draw_vs_exec.lo
+  CC       draw/draw_vs_variant.lo
+  CC       hud/font.lo
+  CC       hud/hud_context.lo
+  CC       hud/hud_cpu.lo
+  CC       hud/hud_driver_query.lo
+  CC       hud/hud_fps.lo
+  CC       indices/u_primconvert.lo
+  CC       os/os_misc.lo
+  CC       os/os_process.lo
+  CC       os/os_time.lo
+  CC       pipebuffer/pb_buffer_fenced.lo
+  CC       pipebuffer/pb_buffer_malloc.lo
+  CC       pipebuffer/pb_bufmgr_alt.lo
+  CC       pipebuffer/pb_bufmgr_cache.lo
+  CC       pipebuffer/pb_bufmgr_debug.lo
+  CC       pipebuffer/pb_bufmgr_mm.lo
+  CC       pipebuffer/pb_bufmgr_ondemand.lo
+  CC       pipebuffer/pb_bufmgr_pool.lo
+  CC       pipebuffer/pb_bufmgr_slab.lo
+  CC       pipebuffer/pb_validate.lo
+  CC       postprocess/pp_celshade.lo
+  CC       postprocess/pp_colors.lo
+  CC       postprocess/pp_init.lo
+  CC       postprocess/pp_mlaa.lo
+  CC       postprocess/pp_program.lo
+  CC       postprocess/pp_run.lo
+  CC       rbug/rbug_connection.lo
+  CC       rbug/rbug_context.lo
+  CC       rbug/rbug_core.lo
+  CC       rbug/rbug_demarshal.lo
+  CC       rbug/rbug_shader.lo
+  CC       rbug/rbug_texture.lo
+  CC       rtasm/rtasm_cpu.lo
+  CC       rtasm/rtasm_execmem.lo
+  CC       rtasm/rtasm_x86sse.lo
+  CC       tgsi/tgsi_aa_point.lo
+  CC       tgsi/tgsi_build.lo
+  CC       tgsi/tgsi_dump.lo
+  CC       tgsi/tgsi_exec.lo
+  CC       tgsi/tgsi_emulate.lo
+  CC       tgsi/tgsi_info.lo
+  CC       tgsi/tgsi_iterate.lo
+  CC       tgsi/tgsi_lowering.lo
+  CC       tgsi/tgsi_parse.lo
+  CC       tgsi/tgsi_point_sprite.lo
+  CC       tgsi/tgsi_sanity.lo
+  CC       tgsi/tgsi_scan.lo
+  CC       tgsi/tgsi_strings.lo
+  CC       tgsi/tgsi_text.lo
+  CC       tgsi/tgsi_transform.lo
+  CC       tgsi/tgsi_two_side.lo
+  CC       tgsi/tgsi_ureg.lo
+  CC       tgsi/tgsi_util.lo
+  CC       translate/translate.lo
+  CC       translate/translate_cache.lo
+  CC       translate/translate_generic.lo
+  CC       translate/translate_sse.lo
+  CC       util/u_bitmask.lo
+  CC       util/u_blit.lo
+  CC       util/u_blitter.lo
+  CC       util/u_cache.lo
+  CC       util/u_caps.lo
+  CC       util/u_cpu_detect.lo
+  CC       util/u_debug.lo
+  CC       util/u_debug_describe.lo
+  CC       util/u_debug_flush.lo
+  CC       util/u_debug_memory.lo
+  CC       util/u_debug_refcnt.lo
+  CC       util/u_debug_stack.lo
+  CC       util/u_debug_symbol.lo
+  CC       util/u_dl.lo
+  CC       util/u_draw.lo
+  CC       util/u_draw_quad.lo
+  CC       util/u_dump_defines.lo
+  CC       util/u_dump_state.lo
+  CC       util/u_format.lo
+  CC       util/u_format_etc.lo
+  CC       util/u_format_fake.lo
+  CC       util/u_format_latc.lo
+  CC       util/u_format_other.lo
+  CC       util/u_format_rgtc.lo
+  CC       util/u_format_s3tc.lo
+  CC       util/u_format_tests.lo
+  CC       util/u_format_yuv.lo
+  CC       util/u_format_zs.lo
+  CC       util/u_framebuffer.lo
+  CC       util/u_gen_mipmap.lo
+  CC       util/u_handle_table.lo
+  CC       util/u_hash.lo
+  CC       util/u_hash_table.lo
+  CC       util/u_helpers.lo
+  CC       util/u_index_modify.lo
+  CC       util/u_keymap.lo
+  CC       util/u_linear.lo
+  CC       util/u_math.lo
+  CC       util/u_mm.lo
+  CC       util/u_network.lo
+  CC       util/u_prim_restart.lo
+  CC       util/u_pstipple.lo
+  CC       util/u_resource.lo
+  CC       util/u_ringbuffer.lo
+  CC       util/u_sampler.lo
+  CC       util/u_simple_shaders.lo
+  CC       util/u_slab.lo
+  CC       util/u_staging.lo
+  CC       util/u_suballoc.lo
+  CC       util/u_surface.lo
+  CC       util/u_surfaces.lo
+  CC       util/u_tests.lo
+  CC       util/u_texture.lo
+  CC       util/u_tile.lo
+  CC       util/u_transfer.lo
+  CC       util/u_upload_mgr.lo
+  CC       util/u_vbuf.lo
+  CC       nir/tgsi_to_nir.lo
+  CC       indices/u_indices_gen.lo
+  CC       indices/u_unfilled_gen.lo
+  CC       util/u_format_table.lo
+  CC       gallivm/lp_bld_arit.lo
+  CC       gallivm/lp_bld_arit_overflow.lo
+  CC       gallivm/lp_bld_assert.lo
+  CC       gallivm/lp_bld_bitarit.lo
+  CC       gallivm/lp_bld_const.lo
+  CC       gallivm/lp_bld_conv.lo
+  CXX      gallivm/lp_bld_debug.lo
+  CC       gallivm/lp_bld_flow.lo
+  CC       gallivm/lp_bld_format_aos_array.lo
+  CC       gallivm/lp_bld_format_aos.lo
+  CC       gallivm/lp_bld_format_cached.lo
+  CC       gallivm/lp_bld_format_float.lo
+  CC       gallivm/lp_bld_format.lo
+  CC       gallivm/lp_bld_format_soa.lo
+  CC       gallivm/lp_bld_format_srgb.lo
+  CC       gallivm/lp_bld_format_yuv.lo
+  CC       gallivm/lp_bld_gather.lo
+  CC       gallivm/lp_bld_init.lo
+  CC       gallivm/lp_bld_intr.lo
+  CC       gallivm/lp_bld_logic.lo
+  CXX      gallivm/lp_bld_misc.lo
+  CC       gallivm/lp_bld_pack.lo
+  CC       gallivm/lp_bld_printf.lo
+  CC       gallivm/lp_bld_quad.lo
+  CC       gallivm/lp_bld_sample_aos.lo
+  CC       gallivm/lp_bld_sample.lo
+  CC       gallivm/lp_bld_sample_soa.lo
+  CC       gallivm/lp_bld_struct.lo
+  CC       gallivm/lp_bld_swizzle.lo
+  CC       gallivm/lp_bld_tgsi_action.lo
+  CC       gallivm/lp_bld_tgsi_aos.lo
+  CC       gallivm/lp_bld_tgsi.lo
+  CC       gallivm/lp_bld_tgsi_info.lo
+  CC       gallivm/lp_bld_tgsi_soa.lo
+  CC       gallivm/lp_bld_type.lo
+  CC       draw/draw_llvm.lo
+  CC       draw/draw_llvm_sample.lo
+  CC       draw/draw_pt_fetch_shade_pipeline_llvm.lo
+  CC       draw/draw_vs_llvm.lo
+  CXXLD    libgallium.la
+  CC       vl/vl_stubs.lo
+  CCLD     libgalliumvl_stub.la
+  CC       vl/libgalliumvl_la-vl_compositor.lo
+  CC       vl/libgalliumvl_la-vl_csc.lo
+  CC       vl/libgalliumvl_la-vl_decoder.lo
+  CC       vl/libgalliumvl_la-vl_deint_filter.lo
+  CC       vl/libgalliumvl_la-vl_idct.lo
+  CC       vl/libgalliumvl_la-vl_matrix_filter.lo
+  CC       vl/libgalliumvl_la-vl_mc.lo
+  CC       vl/libgalliumvl_la-vl_median_filter.lo
+  CC       vl/libgalliumvl_la-vl_mpeg12_bitstream.lo
+  CC       vl/libgalliumvl_la-vl_mpeg12_decoder.lo
+  CC       vl/libgalliumvl_la-vl_vertex_buffers.lo
+  CC       vl/libgalliumvl_la-vl_video_buffer.lo
+  CC       vl/libgalliumvl_la-vl_zscan.lo
+  CCLD     libgalliumvl.la
+  CC       vl/libgalliumvlwinsys_la-vl_winsys_dri.lo
+  CC       vl/libgalliumvlwinsys_la-vl_winsys_drm.lo
+  CCLD     libgalliumvlwinsys.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+Making all in auxiliary/pipe-loader
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+  CC       libpipe_loader_static_la-pipe_loader.lo
+  CC       libpipe_loader_static_la-pipe_loader_sw.lo
+  CC       libpipe_loader_static_la-pipe_loader_drm.lo
+  CCLD     libpipe_loader_static.la
+  CC       libpipe_loader_dynamic_la-pipe_loader.lo
+  CC       libpipe_loader_dynamic_la-pipe_loader_sw.lo
+  CC       libpipe_loader_dynamic_la-pipe_loader_drm.lo
+  CCLD     libpipe_loader_dynamic.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+Making all in drivers/ddebug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+  CC       dd_context.lo
+  CC       dd_draw.lo
+  CC       dd_screen.lo
+  CCLD     libddebug.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+Making all in drivers/noop
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+  CC       noop_pipe.lo
+  CC       noop_state.lo
+  CCLD     libnoop.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+Making all in drivers/trace
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+  CC       tr_context.lo
+  CC       tr_dump.lo
+  CC       tr_dump_state.lo
+  CC       tr_screen.lo
+  CC       tr_texture.lo
+  CCLD     libtrace.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+Making all in drivers/rbug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+  CC       rbug_context.lo
+  CC       rbug_core.lo
+  CC       rbug_objects.lo
+  CC       rbug_screen.lo
+  CCLD     librbug.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+Making all in drivers/nouveau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+  CC       nouveau_buffer.lo
+  CC       nouveau_fence.lo
+  CC       nouveau_heap.lo
+  CC       nouveau_mm.lo
+  CC       nouveau_screen.lo
+  CC       nouveau_video.lo
+  CC       nouveau_vp3_video_bsp.lo
+  CC       nouveau_vp3_video.lo
+  CC       nouveau_vp3_video_vp.lo
+  CC       nv30/nv30_clear.lo
+  CC       nv30/nv30_context.lo
+  CC       nv30/nv30_draw.lo
+  CC       nv30/nv30_format.lo
+  CC       nv30/nv30_fragprog.lo
+  CC       nv30/nv30_fragtex.lo
+  CC       nv30/nv30_miptree.lo
+  CC       nv30/nv30_push.lo
+  CC       nv30/nv30_query.lo
+  CC       nv30/nv30_resource.lo
+  CC       nv30/nv30_screen.lo
+  CC       nv30/nv30_state.lo
+  CC       nv30/nv30_state_validate.lo
+  CC       nv30/nv30_texture.lo
+  CC       nv30/nv30_transfer.lo
+  CC       nv30/nv30_vbo.lo
+  CC       nv30/nv30_vertprog.lo
+  CC       nv30/nv40_verttex.lo
+  CC       nv30/nvfx_fragprog.lo
+  CC       nv30/nvfx_vertprog.lo
+  CXX      codegen/nv50_ir.lo
+  CXX      codegen/nv50_ir_bb.lo
+  CXX      codegen/nv50_ir_build_util.lo
+  CXX      codegen/nv50_ir_emit_nv50.lo
+  CXX      codegen/nv50_ir_from_tgsi.lo
+  CXX      codegen/nv50_ir_graph.lo
+  CXX      codegen/nv50_ir_lowering_nv50.lo
+  CXX      codegen/nv50_ir_peephole.lo
+  CXX      codegen/nv50_ir_print.lo
+  CXX      codegen/nv50_ir_ra.lo
+  CXX      codegen/nv50_ir_ssa.lo
+  CXX      codegen/nv50_ir_target.lo
+  CXX      codegen/nv50_ir_target_nv50.lo
+  CXX      codegen/nv50_ir_util.lo
+  CC       nv50/nv50_compute.lo
+  CC       nv50/nv50_context.lo
+  CC       nv50/nv50_formats.lo
+  CC       nv50/nv50_miptree.lo
+  CC       nv50/nv50_program.lo
+  CC       nv50/nv50_push.lo
+  CC       nv50/nv50_query.lo
+  CC       nv50/nv50_query_hw.lo
+  CC       nv50/nv50_query_hw_metric.lo
+  CC       nv50/nv50_query_hw_sm.lo
+  CC       nv50/nv50_resource.lo
+  CC       nv50/nv50_screen.lo
+  CC       nv50/nv50_shader_state.lo
+  CC       nv50/nv50_state.lo
+  CC       nv50/nv50_state_validate.lo
+  CC       nv50/nv50_surface.lo
+  CC       nv50/nv50_tex.lo
+  CC       nv50/nv50_transfer.lo
+  CC       nv50/nv50_vbo.lo
+  CC       nv50/nv84_video_bsp.lo
+  CC       nv50/nv84_video.lo
+  CC       nv50/nv84_video_vp.lo
+  CC       nv50/nv98_video_bsp.lo
+  CC       nv50/nv98_video.lo
+  CC       nv50/nv98_video_ppp.lo
+  CC       nv50/nv98_video_vp.lo
+  CXX      codegen/nv50_ir_emit_gk110.lo
+  CXX      codegen/nv50_ir_emit_gm107.lo
+  CXX      codegen/nv50_ir_emit_nvc0.lo
+  CXX      codegen/nv50_ir_lowering_gm107.lo
+  CXX      codegen/nv50_ir_lowering_nvc0.lo
+  CXX      codegen/nv50_ir_target_gm107.lo
+  CXX      codegen/nv50_ir_target_nvc0.lo
+  CC       nvc0/nvc0_compute.lo
+  CC       nvc0/nvc0_context.lo
+  CC       nvc0/nvc0_formats.lo
+  CC       nvc0/nvc0_miptree.lo
+  CC       nvc0/nvc0_program.lo
+  CC       nvc0/nvc0_query.lo
+  CC       nvc0/nvc0_query_hw.lo
+  CC       nvc0/nvc0_query_hw_metric.lo
+  CC       nvc0/nvc0_query_hw_sm.lo
+  CC       nvc0/nvc0_query_sw.lo
+  CC       nvc0/nvc0_resource.lo
+  CC       nvc0/nvc0_screen.lo
+  CC       nvc0/nvc0_shader_state.lo
+  CC       nvc0/nvc0_state.lo
+  CC       nvc0/nvc0_state_validate.lo
+  CC       nvc0/nvc0_surface.lo
+  CC       nvc0/nvc0_tex.lo
+  CC       nvc0/nvc0_transfer.lo
+  CC       nvc0/nvc0_vbo.lo
+  CC       nvc0/nvc0_vbo_translate.lo
+  CC       nvc0/nvc0_video_bsp.lo
+  CC       nvc0/nvc0_video.lo
+  CC       nvc0/nvc0_video_ppp.lo
+  CC       nvc0/nvc0_video_vp.lo
+  CC       nvc0/nve4_compute.lo
+  CXXLD    libnouveau.la
+  CC       nouveau_compiler.o
+  CXXLD    nouveau_compiler
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+Making all in winsys/nouveau/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+  CC       nouveau_drm_winsys.lo
+  CCLD     libnouveaudrm.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+Making all in drivers/svga
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+  CC       svga_cmd.lo
+  CC       svga_cmd_vgpu10.lo
+  CC       svga_context.lo
+  CC       svga_draw_arrays.lo
+  CC       svga_draw.lo
+  CC       svga_draw_elements.lo
+  CC       svga_format.lo
+  CC       svga_link.lo
+  CC       svga_pipe_blend.lo
+  CC       svga_pipe_blit.lo
+  CC       svga_pipe_clear.lo
+  CC       svga_pipe_constants.lo
+  CC       svga_pipe_depthstencil.lo
+  CC       svga_pipe_draw.lo
+  CC       svga_pipe_flush.lo
+  CC       svga_pipe_fs.lo
+  CC       svga_pipe_gs.lo
+  CC       svga_pipe_misc.lo
+  CC       svga_pipe_query.lo
+  CC       svga_pipe_rasterizer.lo
+  CC       svga_pipe_sampler.lo
+  CC       svga_pipe_streamout.lo
+  CC       svga_pipe_vertex.lo
+  CC       svga_pipe_vs.lo
+  CC       svga_resource_buffer.lo
+  CC       svga_resource_buffer_upload.lo
+  CC       svga_resource.lo
+  CC       svga_resource_texture.lo
+  CC       svga_sampler_view.lo
+  CC       svga_screen.lo
+  CC       svga_screen_cache.lo
+  CC       svga_shader.lo
+  CC       svga_state.lo
+  CC       svga_state_constants.lo
+  CC       svga_state_framebuffer.lo
+  CC       svga_state_fs.lo
+  CC       svga_state_gs.lo
+  CC       svga_state_need_swtnl.lo
+  CC       svga_state_rss.lo
+  CC       svga_state_sampler.lo
+  CC       svga_state_tgsi_transform.lo
+  CC       svga_state_tss.lo
+  CC       svga_state_vdecl.lo
+  CC       svga_state_vs.lo
+  CC       svga_surface.lo
+  CC       svga_swtnl_backend.lo
+  CC       svga_swtnl_draw.lo
+  CC       svga_swtnl_state.lo
+  CC       svga_tgsi.lo
+  CC       svga_tgsi_decl_sm30.lo
+  CC       svga_tgsi_insn.lo
+  CC       svga_tgsi_vgpu10.lo
+  CC       svgadump/svga_dump.lo
+  CC       svgadump/svga_shader_dump.lo
+  CC       svgadump/svga_shader_op.lo
+  CCLD     libsvga.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+Making all in winsys/svga/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+  CC       pb_buffer_simple_fenced.lo
+  CC       vmw_buffer.lo
+  CC       vmw_context.lo
+  CC       vmw_fence.lo
+  CC       vmw_screen.lo
+  CC       vmw_screen_dri.lo
+  CC       vmw_screen_ioctl.lo
+  CC       vmw_screen_pools.lo
+  CC       vmw_screen_svga.lo
+  CC       vmw_surface.lo
+  CC       vmw_shader.lo
+  CC       vmw_query.lo
+  CCLD     libsvgadrm.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+Making all in drivers/r300
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+  CC       r300_blit.lo
+  CC       r300_chipset.lo
+  CC       r300_context.lo
+  CC       r300_debug.lo
+  CC       r300_emit.lo
+  CC       r300_flush.lo
+  CC       r300_fs.lo
+  CC       r300_hyperz.lo
+  CC       r300_query.lo
+  CC       r300_render.lo
+  CC       r300_render_stencilref.lo
+  CC       r300_render_translate.lo
+  CC       r300_resource.lo
+  CC       r300_screen_buffer.lo
+  CC       r300_screen.lo
+  CC       r300_state.lo
+  CC       r300_state_derived.lo
+  CC       r300_texture.lo
+  CC       r300_texture_desc.lo
+  CC       r300_tgsi_to_rc.lo
+  CC       r300_transfer.lo
+  CC       r300_vs.lo
+  CC       r300_vs_draw.lo
+  CC       compiler/memory_pool.lo
+  CC       compiler/r300_fragprog.lo
+  CC       compiler/r300_fragprog_emit.lo
+  CC       compiler/r300_fragprog_swizzle.lo
+  CC       compiler/r3xx_fragprog.lo
+  CC       compiler/r3xx_vertprog.lo
+  CC       compiler/r3xx_vertprog_dump.lo
+  CC       compiler/r500_fragprog.lo
+  CC       compiler/r500_fragprog_emit.lo
+  CC       compiler/radeon_code.lo
+  CC       compiler/radeon_compiler.lo
+  CC       compiler/radeon_compiler_util.lo
+  CC       compiler/radeon_dataflow.lo
+  CC       compiler/radeon_dataflow_deadcode.lo
+  CC       compiler/radeon_dataflow_swizzles.lo
+  CC       compiler/radeon_emulate_branches.lo
+  CC       compiler/radeon_emulate_loops.lo
+  CC       compiler/radeon_inline_literals.lo
+  CC       compiler/radeon_list.lo
+  CC       compiler/radeon_opcodes.lo
+  CC       compiler/radeon_optimize.lo
+  CC       compiler/radeon_pair_dead_sources.lo
+  CC       compiler/radeon_pair_regalloc.lo
+  CC       compiler/radeon_pair_schedule.lo
+  CC       compiler/radeon_pair_translate.lo
+  CC       compiler/radeon_program_alu.lo
+  CC       compiler/radeon_program.lo
+  CC       compiler/radeon_program_pair.lo
+  CC       compiler/radeon_program_print.lo
+  CC       compiler/radeon_program_tex.lo
+  CC       compiler/radeon_remove_constants.lo
+  CC       compiler/radeon_rename_regs.lo
+  CC       compiler/radeon_variable.lo
+  CC       compiler/radeon_vert_fc.lo
+  CCLD     libr300.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+Making all in drivers/radeon
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+  CC       cayman_msaa.lo
+  CC       r600_buffer_common.lo
+  CC       r600_gpu_load.lo
+  CC       r600_pipe_common.lo
+  CC       r600_query.lo
+  CC       r600_streamout.lo
+  CC       r600_texture.lo
+  CC       radeon_uvd.lo
+  CC       radeon_vce_40_2_2.lo
+  CC       radeon_vce_50.lo
+  CC       radeon_vce_52.lo
+  CC       radeon_vce.lo
+  CC       radeon_video.lo
+  CC       radeon_elf_util.lo
+  CC       radeon_llvm_emit.lo
+  CC       radeon_llvm_util.lo
+  CC       radeon_setup_tgsi_llvm.lo
+  CCLD     libradeon.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+Making all in drivers/r600
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+  CC       compute_memory_pool.lo
+  CC       eg_asm.lo
+  CC       evergreen_compute.lo
+  CC       evergreen_hw_context.lo
+  CC       evergreen_state.lo
+  CC       r600_asm.lo
+  CC       r600_blit.lo
+  CC       r600_hw_context.lo
+  CC       r600_isa.lo
+  CC       r600_pipe.lo
+  CC       r600_shader.lo
+  CC       r600_state.lo
+  CC       r600_state_common.lo
+  CC       r600_uvd.lo
+  CC       r700_asm.lo
+  CXX      sb/sb_bc_builder.lo
+  CXX      sb/sb_bc_decoder.lo
+  CXX      sb/sb_bc_dump.lo
+  CXX      sb/sb_bc_finalize.lo
+  CXX      sb/sb_bc_parser.lo
+  CXX      sb/sb_context.lo
+  CXX      sb/sb_core.lo
+  CXX      sb/sb_dce_cleanup.lo
+  CXX      sb/sb_def_use.lo
+  CXX      sb/sb_dump.lo
+  CXX      sb/sb_expr.lo
+  CXX      sb/sb_gcm.lo
+  CXX      sb/sb_gvn.lo
+  CXX      sb/sb_if_conversion.lo
+  CXX      sb/sb_ir.lo
+  CXX      sb/sb_liveness.lo
+  CXX      sb/sb_pass.lo
+  CXX      sb/sb_peephole.lo
+  CXX      sb/sb_psi_ops.lo
+  CXX      sb/sb_ra_checker.lo
+  CXX      sb/sb_ra_coalesce.lo
+  CXX      sb/sb_ra_init.lo
+  CXX      sb/sb_sched.lo
+  CXX      sb/sb_shader.lo
+  CXX      sb/sb_ssa_builder.lo
+  CXX      sb/sb_valtable.lo
+  CC       r600_llvm.lo
+  CXXLD    libr600.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+Making all in drivers/radeonsi
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make  all-am
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+  CC       cik_sdma.lo
+  CC       si_blit.lo
+  CC       si_compute.lo
+  CC       si_cp_dma.lo
+  CC       si_debug.lo
+  CC       si_descriptors.lo
+  CC       si_dma.lo
+  CC       si_hw_context.lo
+  CC       si_pipe.lo
+  CC       si_pm4.lo
+  CC       si_shader.lo
+  CC       si_state.lo
+  CC       si_state_draw.lo
+  CC       si_state_shaders.lo
+  CC       si_uvd.lo
+  CCLD     libradeonsi.la
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+Making all in winsys/amdgpu/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+  CXX      addrlib/addrinterface.lo
+  CXX      addrlib/core/addrelemlib.lo
+  CXX      addrlib/core/addrlib.lo
+  CXX      addrlib/core/addrobject.lo
+  CXX      addrlib/r800/ciaddrlib.lo
+  CXX      addrlib/r800/egbaddrlib.lo
+  CXX      addrlib/r800/siaddrlib.lo
+  CC       amdgpu_bo.lo
+  CC       amdgpu_cs.lo
+  CC       amdgpu_surface.lo
+  CC       amdgpu_winsys.lo
+  CXXLD    libamdgpuwinsys.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+Making all in winsys/radeon/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+  CC       radeon_drm_bo.lo
+  CC       radeon_drm_cs.lo
+  CC       radeon_drm_cs_dump.lo
+  CC       radeon_drm_surface.lo
+  CC       radeon_drm_winsys.lo
+  CCLD     libradeonwinsys.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+Making all in drivers/softpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+  CC       sp_clear.lo
+  CC       sp_context.lo
+  CC       sp_draw_arrays.lo
+  CC       sp_fence.lo
+  CC       sp_flush.lo
+  CC       sp_fs_exec.lo
+  CC       sp_prim_vbuf.lo
+  CC       sp_quad_blend.lo
+  CC       sp_quad_depth_test.lo
+  CC       sp_quad_fs.lo
+  CC       sp_quad_pipe.lo
+  CC       sp_quad_stipple.lo
+  CC       sp_query.lo
+  CC       sp_screen.lo
+  CC       sp_setup.lo
+  CC       sp_state_blend.lo
+  CC       sp_state_clip.lo
+  CC       sp_state_derived.lo
+  CC       sp_state_rasterizer.lo
+  CC       sp_state_sampler.lo
+  CC       sp_state_shader.lo
+  CC       sp_state_so.lo
+  CC       sp_state_surface.lo
+  CC       sp_state_vertex.lo
+  CC       sp_surface.lo
+  CC       sp_tex_sample.lo
+  CC       sp_tex_tile_cache.lo
+  CC       sp_texture.lo
+  CC       sp_tile_cache.lo
+  CCLD     libsoftpipe.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+Making all in drivers/llvmpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+  CC       lp_bld_alpha.lo
+  CC       lp_bld_blend_aos.lo
+  CC       lp_bld_blend.lo
+  CC       lp_bld_blend_logicop.lo
+  CC       lp_bld_depth.lo
+  CC       lp_bld_interp.lo
+  CC       lp_clear.lo
+  CC       lp_context.lo
+  CC       lp_draw_arrays.lo
+  CC       lp_fence.lo
+  CC       lp_flush.lo
+  CC       lp_jit.lo
+  CC       lp_memory.lo
+  CC       lp_perf.lo
+  CC       lp_query.lo
+  CC       lp_rast.lo
+  CC       lp_rast_debug.lo
+  CC       lp_rast_tri.lo
+  CC       lp_scene.lo
+  CC       lp_scene_queue.lo
+  CC       lp_screen.lo
+  CC       lp_setup.lo
+  CC       lp_setup_line.lo
+  CC       lp_setup_point.lo
+  CC       lp_setup_tri.lo
+  CC       lp_setup_vbuf.lo
+  CC       lp_state_blend.lo
+  CC       lp_state_clip.lo
+  CC       lp_state_derived.lo
+  CC       lp_state_fs.lo
+  CC       lp_state_gs.lo
+  CC       lp_state_rasterizer.lo
+  CC       lp_state_sampler.lo
+  CC       lp_state_setup.lo
+  CC       lp_state_so.lo
+  CC       lp_state_surface.lo
+  CC       lp_state_vertex.lo
+  CC       lp_state_vs.lo
+  CC       lp_surface.lo
+  CC       lp_tex_sample.lo
+  CC       lp_texture.lo
+  CCLD     libllvmpipe.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+Making all in winsys/sw/null
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+  CC       null_sw_winsys.lo
+  CCLD     libws_null.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+Making all in winsys/sw/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+  CC       dri_sw_winsys.lo
+  CCLD     libswdri.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+Making all in winsys/sw/kms-dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+  CC       kms_dri_sw_winsys.lo
+  CCLD     libswkmsdri.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+Making all in winsys/sw/wrapper
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+  CC       wrapper_sw_winsys.lo
+  CCLD     libwsw.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+Making all in state_trackers/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+  CC       dri_context.lo
+  CC       dri_drawable.lo
+  CC       dri_query_renderer.lo
+  CC       dri_screen.lo
+  CC       drisw.lo
+  CC       dri2.lo
+  CCLD     libdri.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+Making all in targets/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+  CC       gallium_dri_la-target.lo
+  CXXLD    gallium_dri.la
+  GEN      all-local
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+Making all in state_trackers/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+  CC       bitmap.lo
+  CC       decode.lo
+  CC       device.lo
+  CC       ftab.lo
+  CC       htab.lo
+  CC       mixer.lo
+  CC       output.lo
+  CC       preemption.lo
+  CC       presentation.lo
+  CC       query.lo
+  CC       surface.lo
+  CCLD     libvdpautracker.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+Making all in targets/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+  CC       libvdpau_gallium_la-target.lo
+  CXXLD    libvdpau_gallium.la
+  GEN      all-local
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+Making all in state_trackers/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+  CC       xa_composite.lo
+  CC       xa_context.lo
+  CC       xa_renderer.lo
+  CC       xa_tgsi.lo
+  CC       xa_tracker.lo
+  CC       xa_yuv.lo
+  CCLD     libxatracker.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+Making all in targets/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+  CC       libxatracker_la-target.lo
+  CXXLD    libxatracker.la
+  GEN      .install-mesa-links
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+Making all in state_trackers/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+  CC       attributes.lo
+  CC       block.lo
+  CC       context.lo
+  CC       surface.lo
+  CC       subpicture.lo
+  CCLD     libxvmctracker.la
+  CC       tests/xvmc_bench.o
+  CC       tests/testlib.o
+  CCLD     tests/xvmc_bench
+  CC       tests/test_context.o
+  CCLD     tests/test_context
+  CC       tests/test_surface.o
+  CCLD     tests/test_surface
+  CC       tests/test_subpicture.o
+  CCLD     tests/test_subpicture
+  CC       tests/test_blocks.o
+  CCLD     tests/test_blocks
+  CC       tests/test_rendering.o
+  CCLD     tests/test_rendering
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+Making all in targets/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+  CC       libXvMCgallium_la-target.lo
+  CXXLD    libXvMCgallium.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/xdemos'
+CC glxgears
+CC glxinfo
+make: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/xdemos'
+Making check in src
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making check in .
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making check in gtest
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make  libgtest.la
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+  CXX      src/gtest-all.lo
+  CXX      src/gtest_main.lo
+  CXXLD    libgtest.la
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+Making check in util
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making check in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make  u_atomic_test roundeven_test
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+  CC       u_atomic_test.o
+  CCLD     u_atomic_test
+  CC       roundeven_test.o
+  CCLD     roundeven_test
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+PASS: u_atomic_test
+PASS: roundeven_test
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making check in tests/hash_table
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make  collision delete_and_lookup delete_management destroy_callback insert_and_lookup insert_many null_destroy random_entry remove_null replacement
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+  CC       collision.o
+  CCLD     collision
+  CC       delete_and_lookup.o
+  CCLD     delete_and_lookup
+  CC       delete_management.o
+  CCLD     delete_management
+  CC       destroy_callback.o
+  CCLD     destroy_callback
+  CC       insert_and_lookup.o
+  CCLD     insert_and_lookup
+  CC       insert_many.o
+  CCLD     insert_many
+  CC       null_destroy.o
+  CCLD     null_destroy
+  CC       random_entry.o
+  CCLD     random_entry
+  CC       remove_null.o
+  CCLD     remove_null
+  CC       replacement.o
+  CCLD     replacement
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+PASS: collision
+PASS: delete_and_lookup
+PASS: delete_management
+PASS: destroy_callback
+PASS: insert_and_lookup
+PASS: insert_many
+PASS: null_destroy
+PASS: random_entry
+PASS: remove_null
+PASS: replacement
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making check in mapi/glapi/gen
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make  check-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+Making check in mapi
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make  shared-glapi-test 
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+  CXX      shared-glapi/tests/shared_glapi_test-check_table.o
+  CXXLD    shared-glapi-test
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+PASS: shared-glapi-test
+PASS: es1api/ABI-check
+PASS: es2api/ABI-check
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+Making check in glsl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make  check-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make  glcpp/glcpp glsl_test nir/tests/control_flow_tests tests/blob-test tests/general-ir-test tests/sampler-types-test tests/uniform-initializer-test
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+  CC       glcpp/glcpp.o
+  CCLD     glcpp/glcpp
+  CXX      test.o
+  CXX      test_optpass.o
+  CXXLD    glsl_test
+  CXX      nir/tests/control_flow_tests.o
+  CXXLD    nir/tests/control_flow_tests
+  CC       tests/blob_test.o
+  CCLD     tests/blob-test
+  CXX      tests/builtin_variable_test.o
+  CXX      tests/invalidate_locations_test.o
+  CXX      tests/general_ir_test.o
+  CXX      tests/varyings_test.o
+  CXXLD    tests/general-ir-test
+  CXX      tests/sampler_types_test.o
+  CXXLD    tests/sampler-types-test
+  CXX      tests/copy_constant_to_storage_tests.o
+  CXX      tests/set_uniform_initializer_tests.o
+  CXX      tests/uniform_initializer_utils.o
+  CXXLD    tests/uniform-initializer-test
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+PASS: glcpp/tests/glcpp-test
+PASS: glcpp/tests/glcpp-test-cr-lf
+PASS: nir/tests/control_flow_tests
+PASS: tests/blob-test
+PASS: tests/general-ir-test
+PASS: tests/optimization-test
+PASS: tests/sampler-types-test
+PASS: tests/uniform-initializer-test
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 8
+# PASS:  8
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+Making check in mesa
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making check in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make  
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making all in .
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making all in main/tests
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+Making all in drivers/dri
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making all in common
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making all in xmlpool
+make[9]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make  all-am
+make[10]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[10]: Nothing to be done for 'all-am'.
+make[10]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[9]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[9]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[9]: Nothing to be done for 'all-am'.
+make[9]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making all in i915
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+Making all in i965
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+Making all in nouveau
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+Making all in r200
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+Making all in radeon
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+Making all in swrast
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making all in drivers/osmesa
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making check in main/tests
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make  main-test
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+  CXX      enum_strings.o
+  CXX      dispatch_sanity.o
+  CXX      mesa_formats.o
+  CXX      mesa_extensions.o
+  CXX      program_state_string.o
+  CXXLD    main-test
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make  check-TESTS
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+PASS: main-test
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+Making check in drivers/dri
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making check in common
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making check in xmlpool
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make  check-am
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[7]: Nothing to be done for 'check-am'.
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[6]: Nothing to be done for 'check-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making check in i915
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+Making check in i965
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make  test_fs_cmod_propagation test_fs_saturate_propagation test_eu_compact test_vf_float_conversions test_vec4_cmod_propagation test_vec4_copy_propagation test_vec4_register_coalesce
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+  CXX      test_fs_cmod_propagation.o
+  CXXLD    test_fs_cmod_propagation
+  CXX      test_fs_saturate_propagation.o
+  CXXLD    test_fs_saturate_propagation
+  CC       test_eu_compact.o
+  CXXLD    test_eu_compact
+  CXX      test_vf_float_conversions.o
+  CXXLD    test_vf_float_conversions
+  CXX      test_vec4_cmod_propagation.o
+  CXXLD    test_vec4_cmod_propagation
+  CXX      test_vec4_copy_propagation.o
+  CXXLD    test_vec4_copy_propagation
+  CXX      test_vec4_register_coalesce.o
+  CXXLD    test_vec4_register_coalesce
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make  check-TESTS
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+PASS: test_fs_cmod_propagation
+PASS: test_fs_saturate_propagation
+PASS: test_eu_compact
+PASS: test_vf_float_conversions
+PASS: test_vec4_cmod_propagation
+PASS: test_vec4_copy_propagation
+PASS: test_vec4_register_coalesce
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+Making check in nouveau
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+Making check in r200
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+Making check in radeon
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+Making check in swrast
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making check in drivers/osmesa
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making check in loader
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+Making check in glx
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making check in .
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making check in tests
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make  glx-test
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+  CXX      clientinfo_unittest.o
+  CXX      create_context_unittest.o
+  CXX      enum_sizes.o
+  CXX      fake_glx_screen.o
+  CXX      indirect_api.o
+  CXX      query_renderer_unittest.o
+  CXX      query_renderer_implementation_unittest.o
+  CXXLD    glx-test
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+PASS: glx-test
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making check in egl/wayland/wayland-egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+PASS: wayland-egl-symbols-check
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+Making check in egl/wayland/wayland-drm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make  check-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+Making check in gbm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+PASS: gbm-symbols-check
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+Making check in egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+PASS: egl-symbols-check
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+Making check in gallium
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+Making check in auxiliary
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+Making check in auxiliary/pipe-loader
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+Making check in drivers/ddebug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+Making check in drivers/noop
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+Making check in drivers/trace
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+Making check in drivers/rbug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+Making check in drivers/nouveau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+Making check in winsys/nouveau/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+Making check in drivers/svga
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+Making check in winsys/svga/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+Making check in drivers/r300
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make  r300_compiler_tests
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+  CC       compiler/tests/r300_compiler_tests-r300_compiler_tests.o
+  CC       compiler/tests/r300_compiler_tests-radeon_compiler_optimize_tests.o
+  CC       compiler/tests/r300_compiler_tests-radeon_compiler_regalloc_tests.o
+  CC       compiler/tests/r300_compiler_tests-radeon_compiler_util_tests.o
+  CC       compiler/tests/r300_compiler_tests-rc_test_helpers.o
+  CC       compiler/tests/r300_compiler_tests-unit_test.o
+  CCLD     r300_compiler_tests
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+PASS: r300_compiler_tests
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+Making check in drivers/radeon
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+Making check in drivers/r600
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+Making check in drivers/radeonsi
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make  check-am
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+Making check in winsys/amdgpu/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+Making check in winsys/radeon/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+Making check in drivers/softpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+Making check in drivers/llvmpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make  lp_test_format lp_test_arit lp_test_blend lp_test_conv lp_test_printf
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+  CC       lp_test_format.o
+  CC       lp_test_main.o
+  CXXLD    lp_test_format
+  CC       lp_test_arit.o
+  CXXLD    lp_test_arit
+  CC       lp_test_blend.o
+  CXXLD    lp_test_blend
+  CC       lp_test_conv.o
+  CXXLD    lp_test_conv
+  CC       lp_test_printf.o
+  CXXLD    lp_test_printf
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+PASS: lp_test_format
+PASS: lp_test_arit
+PASS: lp_test_blend
+PASS: lp_test_conv
+PASS: lp_test_printf
+============================================================================
+Testsuite summary for Mesa 11.1.2
+============================================================================
+# TOTAL: 5
+# PASS:  5
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+Making check in winsys/sw/null
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+Making check in winsys/sw/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+Making check in winsys/sw/kms-dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+Making check in winsys/sw/wrapper
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+Making check in state_trackers/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+Making check in targets/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+  GEN      all-local
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+Making check in state_trackers/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+Making check in targets/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+  GEN      all-local
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+Making check in state_trackers/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+Making check in targets/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+Making check in state_trackers/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+Making check in targets/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2'
+Making install in src
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making install in .
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+Making install in gtest
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gtest'
+Making install in util
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making install in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making install in tests/hash_table
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util/tests/hash_table'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/util'
+Making install in mapi/glapi/gen
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make  install-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi/glapi/gen'
+Making install in mapi
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   shared-glapi/libglapi.la es1api/libGLESv1_CM.la es2api/libGLESv2.la '/usr/lib'
+libtool: install: /usr/bin/install -c shared-glapi/.libs/libglapi.so.0.0.0 /usr/lib/libglapi.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libglapi.so.0.0.0 libglapi.so.0 || { rm -f libglapi.so.0 && ln -s libglapi.so.0.0.0 libglapi.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libglapi.so.0.0.0 libglapi.so || { rm -f libglapi.so && ln -s libglapi.so.0.0.0 libglapi.so; }; })
+libtool: install: /usr/bin/install -c shared-glapi/.libs/libglapi.lai /usr/lib/libglapi.la
+libtool: install: (cd /sources/7.9/mesa_with_wayland-11.1.2/src/mapi; /bin/sh "/sources/7.9/mesa_with_wayland-11.1.2/libtool"  --silent --tag CC --mode=relink gcc -pthread -Werror=pointer-arith -Werror=vla -fvisibility=hidden -O2 -Wall -std=c99 -Werror=implicit-function-declaration -Werror=missing-prototypes -fno-strict-aliasing -fno-math-errno -fno-trapping-math -fno-builtin-memcmp -no-undefined -version-number 1:1 -Wl,--gc-sections -Wl,--no-undefined -o es1api/libGLESv1_CM.la -rpath /usr/lib es1api_libGLESv1_CM_la-entry.lo -ldrm -lm -lpthread -ldl shared-glapi/libglapi.la )
+libtool: install: /usr/bin/install -c es1api/.libs/libGLESv1_CM.so.1.1.0T /usr/lib/libGLESv1_CM.so.1.1.0
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv1_CM.so.1.1.0 libGLESv1_CM.so.1 || { rm -f libGLESv1_CM.so.1 && ln -s libGLESv1_CM.so.1.1.0 libGLESv1_CM.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv1_CM.so.1.1.0 libGLESv1_CM.so || { rm -f libGLESv1_CM.so && ln -s libGLESv1_CM.so.1.1.0 libGLESv1_CM.so; }; })
+libtool: install: /usr/bin/install -c es1api/.libs/libGLESv1_CM.lai /usr/lib/libGLESv1_CM.la
+libtool: install: (cd /sources/7.9/mesa_with_wayland-11.1.2/src/mapi; /bin/sh "/sources/7.9/mesa_with_wayland-11.1.2/libtool"  --silent --tag CC --mode=relink gcc -pthread -Werror=pointer-arith -Werror=vla -fvisibility=hidden -O2 -Wall -std=c99 -Werror=implicit-function-declaration -Werror=missing-prototypes -fno-strict-aliasing -fno-math-errno -fno-trapping-math -fno-builtin-memcmp -no-undefined -version-number 2 -Wl,--gc-sections -Wl,--no-undefined -o es2api/libGLESv2.la -rpath /usr/lib es2api_libGLESv2_la-entry.lo -ldrm -lm -lpthread -ldl shared-glapi/libglapi.la )
+libtool: install: /usr/bin/install -c es2api/.libs/libGLESv2.so.2.0.0T /usr/lib/libGLESv2.so.2.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv2.so.2.0.0 libGLESv2.so.2 || { rm -f libGLESv2.so.2 && ln -s libGLESv2.so.2.0.0 libGLESv2.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGLESv2.so.2.0.0 libGLESv2.so || { rm -f libGLESv2.so && ln -s libGLESv2.so.2.0.0 libGLESv2.so; }; })
+libtool: install: /usr/bin/install -c es2api/.libs/libGLESv2.lai /usr/lib/libGLESv2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/GLES2'
+ /usr/bin/install -c -m 644 ../../include/GLES2/gl2.h ../../include/GLES2/gl2ext.h ../../include/GLES2/gl2platform.h '/usr/include/GLES2'
+ /bin/mkdir -p '/usr/include/GLES3'
+ /usr/bin/install -c -m 644 ../../include/GLES3/gl3.h ../../include/GLES3/gl31.h ../../include/GLES3/gl3ext.h ../../include/GLES3/gl3platform.h '/usr/include/GLES3'
+ /bin/mkdir -p '/usr/include/GLES'
+ /usr/bin/install -c -m 644 ../../include/GLES/egl.h ../../include/GLES/gl.h ../../include/GLES/glext.h ../../include/GLES/glplatform.h '/usr/include/GLES'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 es1api/glesv1_cm.pc es2api/glesv2.pc '/usr/lib/pkgconfig'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mapi'
+Making install in glsl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make  install-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glsl'
+Making install in mesa
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making install in .
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+updating main/git_sha1.h
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/GL'
+ /usr/bin/install -c -m 644 ../../include/GL/glcorearb.h ../../include/GL/glext.h ../../include/GL/gl.h ../../include/GL/gl_mangle.h ../../include/GL/glxext.h ../../include/GL/glx.h ../../include/GL/glx_mangle.h ../../include/GL/osmesa.h ../../include/GL/wglext.h '/usr/include/GL'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gl.pc '/usr/lib/pkgconfig'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making install in main/tests
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/main/tests'
+Making install in drivers/dri
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making install in common
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making install in xmlpool
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make  install-am
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[8]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[8]: Nothing to be done for 'install-exec-am'.
+make[8]: Nothing to be done for 'install-data-am'.
+make[8]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common/xmlpool'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+ /bin/mkdir -p '/etc'
+ /usr/bin/install -c -m 644 drirc '/etc'
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/common'
+Making install in i915
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i915'
+Making install in i965
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/i965'
+Making install in nouveau
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/nouveau'
+Making install in r200
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/r200'
+Making install in radeon
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/radeon'
+Making install in swrast
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri/swrast'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+  GEN      all-local
+  GEN      all-local
+make[6]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   mesa_dri_drivers.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/mesa_dri_drivers.so /usr/lib/dri/mesa_dri_drivers.so
+libtool: install: /usr/bin/install -c .libs/mesa_dri_drivers.lai /usr/lib/dri/mesa_dri_drivers.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/GL/internal'
+ /usr/bin/install -c -m 644 ../../../../include/GL/internal/dri_interface.h '/usr/include/GL/internal'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dri.pc '/usr/lib/pkgconfig'
+make  install-data-hook
+make[7]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+for i in i915_dri.so i965_dri.so nouveau_vieux_dri.so r200_dri.so radeon_dri.so swrast_dri.so; do \
+	ln -f /usr/lib/dri/mesa_dri_drivers.so \
+	      /usr/lib/dri/$i; \
+done;
+rm -f /usr/lib/dri/mesa_dri_drivers.*
+make[7]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[6]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/dri'
+Making install in drivers/osmesa
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libOSMesa.la '/usr/lib'
+libtool: install: (cd /sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa; /bin/sh "/sources/7.9/mesa_with_wayland-11.1.2/libtool"  --silent --tag CXX --mode=relink g++ -O2 -Wall -fno-strict-aliasing -fno-builtin-memcmp -no-undefined -version-number 8 -Wl,--gc-sections -Wl,--no-undefined -o libOSMesa.la -rpath /usr/lib osmesa.lo ../../../../src/mesa/libmesa.la ../../../../src/mapi/glapi/libglapi.la ../../../../src/mapi/shared-glapi/libglapi.la -lm -lpthread -ldl )
+libtool: install: /usr/bin/install -c .libs/libOSMesa.so.8.0.0T /usr/lib/libOSMesa.so.8.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libOSMesa.so.8.0.0 libOSMesa.so.8 || { rm -f libOSMesa.so.8 && ln -s libOSMesa.so.8.0.0 libOSMesa.so.8; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libOSMesa.so.8.0.0 libOSMesa.so || { rm -f libOSMesa.so && ln -s libOSMesa.so.8.0.0 libOSMesa.so; }; })
+libtool: install: /usr/bin/install -c .libs/libOSMesa.lai /usr/lib/libOSMesa.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 osmesa.pc '/usr/lib/pkgconfig'
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa/drivers/osmesa'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/mesa'
+Making install in loader
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/loader'
+Making install in glx
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making install in .
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libGL.la '/usr/lib'
+libtool: install: (cd /sources/7.9/mesa_with_wayland-11.1.2/src/glx; /bin/sh "/sources/7.9/mesa_with_wayland-11.1.2/libtool"  --silent --tag CC --mode=relink gcc -I../../include -I../../include/GL/internal -I../../src -I../../src/loader -I../../src/mapi -I../../src/mapi/glapi -I../../src/mapi -I../../src/mapi/glapi -fvisibility=hidden -DGLX_SHARED_GLAPI -DXF86VIDMODE -D_REENTRANT -DDEFAULT_DRIVER_DIR=\"/usr/lib/dri\" -DGL_LIB_NAME=\"libGL.so.1\" -D__STDC_LIMIT_MACROS -D_GNU_SOURCE -DUSE_SSE41 -DNDEBUG -DTEXTURE_FLOAT_ENABLED -DUSE_X86_64_ASM -DHAVE_XLOCALE_H -DHAVE_SYS_SYSCTL_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_DLOPEN -DHAVE_POSIX_MEMALIGN -DHAVE_LIBDRM -DHAVE_SHA1 -DGLX_USE_DRM -DHAVE_LIBUDEV -DGLX_INDIRECT_RENDERING -DGLX_DIRECT_RENDERING -DGLX_USE_TLS -DHAVE_ALIAS -DHAVE_DRI3 -DHAVE_MINCORE -DHAVE_LLVM=0x0307 -DMESA_LLVM_VERSION_PATCH=1 -I/usr/include/libdrm -O2 -Wall -std=c99 -Werror=implicit-function-declaration -Werror=missing-prototypes -fno-strict-aliasing -fno-math-errno -fno-trapping-math -fno-builtin-memcmp -no-undefined -version-number 1:2 -Wl,-Bsymbolic -Wl,--gc-sections -Wl,--no-undefined -o libGL.la -rpath /usr/lib libglx.la ../../src/mapi/glapi/libglapi.la ../../src/mapi/shared-glapi/libglapi.la -lXext -lXdamage -lXfixes -lX11-xcb -lX11 -lxcb-glx -lxcb-dri2 -lxcb -lXxf86vm -ldrm -lm -lpthread -ldl )
+libtool: install: /usr/bin/install -c .libs/libGL.so.1.2.0T /usr/lib/libGL.so.1.2.0
+libtool: install: (cd /usr/lib && { ln -s -f libGL.so.1.2.0 libGL.so.1 || { rm -f libGL.so.1 && ln -s libGL.so.1.2.0 libGL.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libGL.so.1.2.0 libGL.so || { rm -f libGL.so && ln -s libGL.so.1.2.0 libGL.so; }; })
+libtool: install: /usr/bin/install -c .libs/libGL.lai /usr/lib/libGL.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making install in tests
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx/tests'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/glx'
+Making install in egl/wayland/wayland-egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libwayland-egl.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libwayland-egl.so.1.0.0 /usr/lib/libwayland-egl.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libwayland-egl.so.1.0.0 libwayland-egl.so.1 || { rm -f libwayland-egl.so.1 && ln -s libwayland-egl.so.1.0.0 libwayland-egl.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libwayland-egl.so.1.0.0 libwayland-egl.so || { rm -f libwayland-egl.so && ln -s libwayland-egl.so.1.0.0 libwayland-egl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libwayland-egl.lai /usr/lib/libwayland-egl.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 wayland-egl.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-egl'
+Making install in egl/wayland/wayland-drm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make  install-am
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl/wayland/wayland-drm'
+Making install in gbm
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgbm.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libgbm.so.1.0.0 /usr/lib/libgbm.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libgbm.so.1.0.0 libgbm.so.1 || { rm -f libgbm.so.1 && ln -s libgbm.so.1.0.0 libgbm.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libgbm.so.1.0.0 libgbm.so || { rm -f libgbm.so && ln -s libgbm.so.1.0.0 libgbm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgbm.lai /usr/lib/libgbm.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 main/gbm.h '/usr/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 main/gbm.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gbm'
+Making install in egl
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libEGL.la '/usr/lib'
+libtool: install: (cd /sources/7.9/mesa_with_wayland-11.1.2/src/egl; /bin/sh "/sources/7.9/mesa_with_wayland-11.1.2/libtool"  --silent --tag CC --mode=relink gcc -I../../include -I../../src/egl/main -I../../src/gbm/main -I../../src -D__STDC_LIMIT_MACROS -D_GNU_SOURCE -DUSE_SSE41 -DNDEBUG -DTEXTURE_FLOAT_ENABLED -DUSE_X86_64_ASM -DHAVE_XLOCALE_H -DHAVE_SYS_SYSCTL_H -DHAVE_STRTOF -DHAVE_MKOSTEMP -DHAVE_DLOPEN -DHAVE_POSIX_MEMALIGN -DHAVE_LIBDRM -DHAVE_SHA1 -DGLX_USE_DRM -DHAVE_LIBUDEV -DGLX_INDIRECT_RENDERING -DGLX_DIRECT_RENDERING -DGLX_USE_TLS -DHAVE_ALIAS -DHAVE_DRI3 -DHAVE_MINCORE -DHAVE_LLVM=0x0307 -DMESA_LLVM_VERSION_PATCH=1 -fvisibility=hidden -I/usr/include/libdrm -D_EGL_NATIVE_PLATFORM=_EGL_PLATFORM_DRM -DHAVE_X11_PLATFORM -DHAVE_WAYLAND_PLATFORM -DHAVE_DRM_PLATFORM -I../../src/loader -I../../src/egl/drivers/dri2 -I../../src/gbm/backends/dri -I../../src/egl/wayland/wayland-egl -I../../src/egl/wayland/wayland-drm -I../../src/egl/wayland/wayland-drm -DDEFAULT_DRIVER_DIR=\"/usr/lib/dri\" -D_EGL_BUILT_IN_DRIVER_DRI2 -O2 -Wall -std=c99 -Werror=implicit-function-declaration -Werror=missing-prototypes -fno-strict-aliasing -fno-math-errno -fno-trapping-math -fno-builtin-memcmp -no-undefined -version-number 1:0 -Wl,-Bsymbolic -Wl,--gc-sections -Wl,--no-undefined -o libEGL.la -rpath /usr/lib main/eglapi.lo main/eglarray.lo main/eglconfig.lo main/eglcontext.lo main/eglcurrent.lo main/egldisplay.lo main/egldriver.lo main/eglfallbacks.lo main/eglglobals.lo main/eglimage.lo main/egllog.lo main/eglsurface.lo main/eglsync.lo drivers/dri2/egl_dri2.lo drivers/dri2/platform_x11.lo drivers/dri2/platform_wayland.lo drivers/dri2/platform_drm.lo drivers/dri2/platform_x11_dri3.lo -ldl -lpthread -lX11-xcb -lX11 -lxcb-dri2 -lxcb-xfixes -lxcb-render -lxcb-shape -lxcb ../../src/loader/libloader_dri3_helper.la -lwayland-client -lwayland-server -ldrm ../../src/egl/wayland/wayland-drm/libwayland-drm.la ../../src/gbm/libgbm.la ../../src/loader/libloader.la -ldl -ldrm )
+libtool: install: /usr/bin/install -c .libs/libEGL.so.1.0.0T /usr/lib/libEGL.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libEGL.so.1.0.0 libEGL.so.1 || { rm -f libEGL.so.1 && ln -s libEGL.so.1.0.0 libEGL.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libEGL.so.1.0.0 libEGL.so || { rm -f libEGL.so && ln -s libEGL.so.1.0.0 libEGL.so; }; })
+libtool: install: /usr/bin/install -c .libs/libEGL.lai /usr/lib/libEGL.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/EGL'
+ /usr/bin/install -c -m 644 ../../include/EGL/eglext.h ../../include/EGL/egl.h ../../include/EGL/eglextchromium.h ../../include/EGL/eglmesaext.h ../../include/EGL/eglplatform.h '/usr/include/EGL'
+ /bin/mkdir -p '/usr/include/KHR'
+ /usr/bin/install -c -m 644 ../../include/KHR/khrplatform.h '/usr/include/KHR'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 main/egl.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/egl'
+Making install in gallium
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+Making install in auxiliary
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary'
+Making install in auxiliary/pipe-loader
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/auxiliary/pipe-loader'
+Making install in drivers/ddebug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/ddebug'
+Making install in drivers/noop
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/noop'
+Making install in drivers/trace
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/trace'
+Making install in drivers/rbug
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/rbug'
+Making install in drivers/nouveau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/nouveau'
+Making install in winsys/nouveau/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/nouveau/drm'
+Making install in drivers/svga
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/svga'
+Making install in winsys/svga/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/svga/drm'
+Making install in drivers/r300
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r300'
+Making install in drivers/radeon
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeon'
+Making install in drivers/r600
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/r600'
+Making install in drivers/radeonsi
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make  install-am
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/radeonsi'
+Making install in winsys/amdgpu/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/amdgpu/drm'
+Making install in winsys/radeon/drm
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/radeon/drm'
+Making install in drivers/softpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/softpipe'
+Making install in drivers/llvmpipe
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/drivers/llvmpipe'
+Making install in winsys/sw/null
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/null'
+Making install in winsys/sw/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/dri'
+Making install in winsys/sw/kms-dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/kms-dri'
+Making install in winsys/sw/wrapper
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/winsys/sw/wrapper'
+Making install in state_trackers/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/dri'
+Making install in targets/dri
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+  GEN      all-local
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/dri'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   gallium_dri.la '/usr/lib/dri'
+libtool: install: /usr/bin/install -c .libs/gallium_dri.so /usr/lib/dri/gallium_dri.so
+libtool: install: /usr/bin/install -c .libs/gallium_dri.lai /usr/lib/dri/gallium_dri.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/dri
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/dri
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+for i in   nouveau r300 r600 radeonsi vmwgfx    swrast kms_swrast; do                                  \
+	ln -f /usr/lib/dri/gallium_dri.so                \
+	      /usr/lib/dri/${i}_dri.so;                 \
+done;                                                           \
+rm -f /usr/lib/dri/gallium_dri.*
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/dri'
+Making install in state_trackers/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/vdpau'
+Making install in targets/vdpau
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+  GEN      all-local
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/vdpau'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libvdpau_gallium.la '/usr/lib/vdpau'
+libtool: install: /usr/bin/install -c .libs/libvdpau_gallium.so.1.0.0 /usr/lib/vdpau/libvdpau_gallium.so.1.0.0
+libtool: install: (cd /usr/lib/vdpau && { ln -s -f libvdpau_gallium.so.1.0.0 libvdpau_gallium.so.1 || { rm -f libvdpau_gallium.so.1 && ln -s libvdpau_gallium.so.1.0.0 libvdpau_gallium.so.1; }; })
+libtool: install: (cd /usr/lib/vdpau && { ln -s -f libvdpau_gallium.so.1.0.0 libvdpau_gallium.so || { rm -f libvdpau_gallium.so && ln -s libvdpau_gallium.so.1.0.0 libvdpau_gallium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvdpau_gallium.lai /usr/lib/vdpau/libvdpau_gallium.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/vdpau
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/vdpau
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+  GEN      install-data-hook
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/vdpau'
+Making install in state_trackers/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 xa_composite.h xa_context.h xa_tracker.h '/usr/include'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xa'
+Making install in targets/xa
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libxatracker.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxatracker.so.2.3.0 /usr/lib/libxatracker.so.2.3.0
+libtool: install: (cd /usr/lib && { ln -s -f libxatracker.so.2.3.0 libxatracker.so.2 || { rm -f libxatracker.so.2 && ln -s libxatracker.so.2.3.0 libxatracker.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxatracker.so.2.3.0 libxatracker.so || { rm -f libxatracker.so && ln -s libxatracker.so.2.3.0 libxatracker.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxatracker.lai /usr/lib/libxatracker.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xatracker.pc '/usr/lib/pkgconfig'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xa'
+Making install in state_trackers/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/state_trackers/xvmc'
+Making install in targets/xvmc
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../../../libtool   --mode=install /usr/bin/install -c   libXvMCgallium.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libXvMCgallium.so.1.0.0 /usr/lib/libXvMCgallium.so.1.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libXvMCgallium.so.1.0.0 libXvMCgallium.so.1 || { rm -f libXvMCgallium.so.1 && ln -s libXvMCgallium.so.1.0.0 libXvMCgallium.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libXvMCgallium.so.1.0.0 libXvMCgallium.so || { rm -f libXvMCgallium.so && ln -s libXvMCgallium.so.1.0.0 libXvMCgallium.so; }; })
+libtool: install: /usr/bin/install -c .libs/libXvMCgallium.lai /usr/lib/libXvMCgallium.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+  GEN      install-data-hook
+make[5]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium/targets/xvmc'
+make[3]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[4]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[3]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src/gallium'
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/src'
+make[1]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make[2]: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make[1]: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2'
+make: Entering directory '/sources/7.9/mesa_with_wayland-11.1.2/xdemos'
+test -e /bin || install -dm755 /bin
+test -e /share/man/man1 || install -dm755 /share/man/man1
+install -m755 glxgears glxinfo /bin
+install -m644 glxgears.1 glxinfo.1 /share/man/man1
+make: Leaving directory '/sources/7.9/mesa_with_wayland-11.1.2/xdemos'
+install: creating directory '/usr/share/doc/mesa-11.1.2'
+'docs/application-issues.html' -> '/usr/share/doc/mesa-11.1.2/application-issues.html'
+'docs/ARB_color_buffer_float.txt' -> '/usr/share/doc/mesa-11.1.2/ARB_color_buffer_float.txt'
+'docs/autoconf.html' -> '/usr/share/doc/mesa-11.1.2/autoconf.html'
+'docs/bugs.html' -> '/usr/share/doc/mesa-11.1.2/bugs.html'
+'docs/conform.html' -> '/usr/share/doc/mesa-11.1.2/conform.html'
+'docs/contents.html' -> '/usr/share/doc/mesa-11.1.2/contents.html'
+'docs/COPYING' -> '/usr/share/doc/mesa-11.1.2/COPYING'
+'docs/debugging.html' -> '/usr/share/doc/mesa-11.1.2/debugging.html'
+'docs/developers.html' -> '/usr/share/doc/mesa-11.1.2/developers.html'
+'docs/devinfo.html' -> '/usr/share/doc/mesa-11.1.2/devinfo.html'
+'docs/dispatch.html' -> '/usr/share/doc/mesa-11.1.2/dispatch.html'
+'docs/download.html' -> '/usr/share/doc/mesa-11.1.2/download.html'
+'docs/egl.html' -> '/usr/share/doc/mesa-11.1.2/egl.html'
+'docs/envvars.html' -> '/usr/share/doc/mesa-11.1.2/envvars.html'
+'docs/extensions.html' -> '/usr/share/doc/mesa-11.1.2/extensions.html'
+'docs/faq.html' -> '/usr/share/doc/mesa-11.1.2/faq.html'
+'docs/gears.png' -> '/usr/share/doc/mesa-11.1.2/gears.png'
+'docs/GL3.txt' -> '/usr/share/doc/mesa-11.1.2/GL3.txt'
+'docs/helpwanted.html' -> '/usr/share/doc/mesa-11.1.2/helpwanted.html'
+'docs/index.html' -> '/usr/share/doc/mesa-11.1.2/index.html'
+'docs/install.html' -> '/usr/share/doc/mesa-11.1.2/install.html'
+'docs/intro.html' -> '/usr/share/doc/mesa-11.1.2/intro.html'
+'docs/libGL.txt' -> '/usr/share/doc/mesa-11.1.2/libGL.txt'
+'docs/license.html' -> '/usr/share/doc/mesa-11.1.2/license.html'
+'docs/lists.html' -> '/usr/share/doc/mesa-11.1.2/lists.html'
+'docs/llvmpipe.html' -> '/usr/share/doc/mesa-11.1.2/llvmpipe.html'
+'docs/mangling.html' -> '/usr/share/doc/mesa-11.1.2/mangling.html'
+'docs/mesa.css' -> '/usr/share/doc/mesa-11.1.2/mesa.css'
+'docs/opengles.html' -> '/usr/share/doc/mesa-11.1.2/opengles.html'
+'docs/osmesa.html' -> '/usr/share/doc/mesa-11.1.2/osmesa.html'
+'docs/patents.txt' -> '/usr/share/doc/mesa-11.1.2/patents.txt'
+'docs/perf.html' -> '/usr/share/doc/mesa-11.1.2/perf.html'
+'docs/postprocess.html' -> '/usr/share/doc/mesa-11.1.2/postprocess.html'
+'docs/precompiled.html' -> '/usr/share/doc/mesa-11.1.2/precompiled.html'
+'docs/README.UVD' -> '/usr/share/doc/mesa-11.1.2/README.UVD'
+'docs/README.VCE' -> '/usr/share/doc/mesa-11.1.2/README.VCE'
+'docs/README.WIN32' -> '/usr/share/doc/mesa-11.1.2/README.WIN32'
+'docs/relnotes' -> '/usr/share/doc/mesa-11.1.2/relnotes'
+'docs/relnotes/11.1.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.1.2.html'
+'docs/relnotes/6.5.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.5.3.html'
+'docs/relnotes/8.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.html'
+'docs/relnotes/10.5.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.7.html'
+'docs/relnotes/7.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.3.html'
+'docs/relnotes/6.3' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.3'
+'docs/relnotes/10.6.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.1.html'
+'docs/relnotes/3.4' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.4'
+'docs/relnotes/7.4.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.4.4.html'
+'docs/relnotes/7.4.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.4.1.html'
+'docs/relnotes/7.10.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.10.2.html'
+'docs/relnotes/7.0.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.0.3.html'
+'docs/relnotes/11.0.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.0.html'
+'docs/relnotes/8.0.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.2.html'
+'docs/relnotes/9.0.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.0.2.html'
+'docs/relnotes/10.6.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.0.html'
+'docs/relnotes/7.0.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.0.4.html'
+'docs/relnotes/10.5.9.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.9.html'
+'docs/relnotes/6.4' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.4'
+'docs/relnotes/3.5' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.5'
+'docs/relnotes/7.0.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.0.2.html'
+'docs/relnotes/4.0.3' -> '/usr/share/doc/mesa-11.1.2/relnotes/4.0.3'
+'docs/relnotes/10.2.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.5.html'
+'docs/relnotes/11.1.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.1.0.html'
+'docs/relnotes/11.0.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.6.html'
+'docs/relnotes/3.2.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.2.1'
+'docs/relnotes/10.2.9.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.9.html'
+'docs/relnotes/10.2.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.2.html'
+'docs/relnotes/7.11.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.11.2.html'
+'docs/relnotes/10.1.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.5.html'
+'docs/relnotes/7.9.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.9.html'
+'docs/relnotes/7.11.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.11.html'
+'docs/relnotes/7.0.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.0.1.html'
+'docs/relnotes/9.1.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.6.html'
+'docs/relnotes/10.2.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.7.html'
+'docs/relnotes/10.4.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.3.html'
+'docs/relnotes/7.8.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.8.3.html'
+'docs/relnotes/7.10.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.10.3.html'
+'docs/relnotes/10.3.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.6.html'
+'docs/relnotes/9.1.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.4.html'
+'docs/relnotes/9.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.html'
+'docs/relnotes/10.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.html'
+'docs/relnotes/7.10.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.10.1.html'
+'docs/relnotes/11.0.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.1.html'
+'docs/relnotes/10.2.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.1.html'
+'docs/relnotes/10.6.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.6.html'
+'docs/relnotes/10.5.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.6.html'
+'docs/relnotes/10.2.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.3.html'
+'docs/relnotes/5.0.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/5.0.2'
+'docs/relnotes/7.4.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.4.2.html'
+'docs/relnotes/6.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.2'
+'docs/relnotes/6.4.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.4.2.html'
+'docs/relnotes/10.4.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.5.html'
+'docs/relnotes/10.6.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.5.html'
+'docs/relnotes/7.11.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.11.1.html'
+'docs/relnotes/10.5.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.4.html'
+'docs/relnotes/8.0.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.4.html'
+'docs/relnotes/10.6.9.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.9.html'
+'docs/relnotes/10.4.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.7.html'
+'docs/relnotes/10.0.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.2.html'
+'docs/relnotes/10.6.8.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.8.html'
+'docs/relnotes/10.1.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.6.html'
+'docs/relnotes/7.8.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.8.2.html'
+'docs/relnotes/6.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.5.html'
+'docs/relnotes/5.0' -> '/usr/share/doc/mesa-11.1.2/relnotes/5.0'
+'docs/relnotes/10.3.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.7.html'
+'docs/relnotes/3.4.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.4.1'
+'docs/relnotes/10.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.html'
+'docs/relnotes/10.5.8.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.8.html'
+'docs/relnotes/7.8.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.8.html'
+'docs/relnotes/11.0.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.4.html'
+'docs/relnotes/7.8.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.8.1.html'
+'docs/relnotes/6.4.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.4.1.html'
+'docs/relnotes/9.2.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.2.html'
+'docs/relnotes/10.5.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.2.html'
+'docs/relnotes/10.0.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.5.html'
+'docs/relnotes/10.1.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.2.html'
+'docs/relnotes/10.6.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.2.html'
+'docs/relnotes/6.0.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.0.1'
+'docs/relnotes/6.0' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.0'
+'docs/relnotes/7.4.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.4.3.html'
+'docs/relnotes/10.5.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.5.html'
+'docs/relnotes/10.2.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.4.html'
+'docs/relnotes/7.7.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.7.1.html'
+'docs/relnotes/10.4.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.2.html'
+'docs/relnotes/10.3.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.5.html'
+'docs/relnotes/10.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.html'
+'docs/relnotes/8.0.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.1.html'
+'docs/relnotes/7.5.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.5.1.html'
+'docs/relnotes/10.4.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.4.html'
+'docs/relnotes/10.5.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.0.html'
+'docs/relnotes/9.1.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.3.html'
+'docs/relnotes/6.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.4.html'
+'docs/relnotes/11.0.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.5.html'
+'docs/relnotes/10.3.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.4.html'
+'docs/relnotes/10.3.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.3.html'
+'docs/relnotes/11.1.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.1.1.html'
+'docs/relnotes/10.5.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.3.html'
+'docs/relnotes/7.6.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.6.1.html'
+'docs/relnotes/9.1.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.5.html'
+'docs/relnotes/7.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.5.html'
+'docs/relnotes/9.1.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.1.html'
+'docs/relnotes/8.0.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.3.html'
+'docs/relnotes/5.0.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/5.0.1'
+'docs/relnotes/6.3.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.3.1'
+'docs/relnotes/8.0.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/8.0.5.html'
+'docs/relnotes/4.0' -> '/usr/share/doc/mesa-11.1.2/relnotes/4.0'
+'docs/relnotes/10.2.8.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.8.html'
+'docs/relnotes/9.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.html'
+'docs/relnotes/9.2.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.1.html'
+'docs/relnotes/6.5.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.5.1.html'
+'docs/relnotes/10.6.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.4.html'
+'docs/relnotes/10.1.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.4.html'
+'docs/relnotes/6.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.1'
+'docs/relnotes/9.0.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.0.1.html'
+'docs/relnotes/6.2.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.2.1'
+'docs/relnotes/7.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.4.html'
+'docs/relnotes/7.10.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.10.html'
+'docs/relnotes/11.0.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.3.html'
+'docs/relnotes/7.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.2.html'
+'docs/relnotes/10.2.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.2.6.html'
+'docs/relnotes/10.6.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.3.html'
+'docs/relnotes/7.9.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.9.1.html'
+'docs/relnotes/10.0.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.1.html'
+'docs/relnotes/10.6.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.6.7.html'
+'docs/relnotes/3.3' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.3'
+'docs/relnotes/6.5.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.5.2.html'
+'docs/relnotes/10.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.html'
+'docs/relnotes/10.1.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.1.html'
+'docs/relnotes/3.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.1'
+'docs/relnotes/7.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.7.html'
+'docs/relnotes/9.0.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.0.3.html'
+'docs/relnotes/5.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/5.1'
+'docs/relnotes/9.2.5.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.5.html'
+'docs/relnotes/10.3.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.2.html'
+'docs/relnotes/7.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.1.html'
+'docs/relnotes/11.0.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/11.0.2.html'
+'docs/relnotes/10.0.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.3.html'
+'docs/relnotes/10.4.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.6.html'
+'docs/relnotes/3.4.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.4.2'
+'docs/relnotes/6.3.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/6.3.2'
+'docs/relnotes/10.3.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.3.1.html'
+'docs/relnotes/10.1.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.1.3.html'
+'docs/relnotes/10.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.html'
+'docs/relnotes/10.5.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.5.1.html'
+'docs/relnotes/4.0.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/4.0.1'
+'docs/relnotes/4.0.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/4.0.2'
+'docs/relnotes/7.9.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.9.2.html'
+'docs/relnotes/7.5.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.5.2.html'
+'docs/relnotes/7.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.0.html'
+'docs/relnotes/4.1' -> '/usr/share/doc/mesa-11.1.2/relnotes/4.1'
+'docs/relnotes/9.2.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.4.html'
+'docs/relnotes/9.1.7.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.7.html'
+'docs/relnotes/7.6.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/7.6.html'
+'docs/relnotes/9.1.2.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.1.2.html'
+'docs/relnotes/3.2' -> '/usr/share/doc/mesa-11.1.2/relnotes/3.2'
+'docs/relnotes/9.0.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.0.html'
+'docs/relnotes/9.2.3.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/9.2.3.html'
+'docs/relnotes/10.0.4.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.0.4.html'
+'docs/relnotes/10.4.1.html' -> '/usr/share/doc/mesa-11.1.2/relnotes/10.4.1.html'
+'docs/relnotes.html' -> '/usr/share/doc/mesa-11.1.2/relnotes.html'
+'docs/repository.html' -> '/usr/share/doc/mesa-11.1.2/repository.html'
+'docs/shading.html' -> '/usr/share/doc/mesa-11.1.2/shading.html'
+'docs/sourcedocs.html' -> '/usr/share/doc/mesa-11.1.2/sourcedocs.html'
+'docs/sourcetree.html' -> '/usr/share/doc/mesa-11.1.2/sourcetree.html'
+'docs/specs' -> '/usr/share/doc/mesa-11.1.2/specs'
+'docs/specs/MESA_copy_sub_buffer.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_copy_sub_buffer.spec'
+'docs/specs/EXT_shader_integer_mix.spec' -> '/usr/share/doc/mesa-11.1.2/specs/EXT_shader_integer_mix.spec'
+'docs/specs/enums.txt' -> '/usr/share/doc/mesa-11.1.2/specs/enums.txt'
+'docs/specs/WL_bind_wayland_display.spec' -> '/usr/share/doc/mesa-11.1.2/specs/WL_bind_wayland_display.spec'
+'docs/specs/MESA_query_renderer.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_query_renderer.spec'
+'docs/specs/MESA_shader_debug.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_shader_debug.spec'
+'docs/specs/MESA_configless_context.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_configless_context.spec'
+'docs/specs/EXT_shader_samples_identical.txt' -> '/usr/share/doc/mesa-11.1.2/specs/EXT_shader_samples_identical.txt'
+'docs/specs/MESA_drm_image.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_drm_image.spec'
+'docs/specs/MESA_multithread_makecurrent.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_multithread_makecurrent.spec'
+'docs/specs/MESA_ycbcr_texture.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_ycbcr_texture.spec'
+'docs/specs/OLD' -> '/usr/share/doc/mesa-11.1.2/specs/OLD'
+'docs/specs/OLD/MESA_packed_depth_stencil.spec' -> '/usr/share/doc/mesa-11.1.2/specs/OLD/MESA_packed_depth_stencil.spec'
+'docs/specs/OLD/MESA_program_debug.spec' -> '/usr/share/doc/mesa-11.1.2/specs/OLD/MESA_program_debug.spec'
+'docs/specs/OLD/MESA_trace.spec' -> '/usr/share/doc/mesa-11.1.2/specs/OLD/MESA_trace.spec'
+'docs/specs/OLD/MESA_resize_buffers.spec' -> '/usr/share/doc/mesa-11.1.2/specs/OLD/MESA_resize_buffers.spec'
+'docs/specs/OLD/MESA_sprite_point.spec' -> '/usr/share/doc/mesa-11.1.2/specs/OLD/MESA_sprite_point.spec'
+'docs/specs/MESA_agp_offset.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_agp_offset.spec'
+'docs/specs/MESA_release_buffers.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_release_buffers.spec'
+'docs/specs/MESA_swap_frame_usage.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_swap_frame_usage.spec'
+'docs/specs/MESA_texture_signed_rgba.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_texture_signed_rgba.spec'
+'docs/specs/MESA_swap_control.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_swap_control.spec'
+'docs/specs/MESA_pixmap_colormap.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_pixmap_colormap.spec'
+'docs/specs/MESA_window_pos.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_window_pos.spec'
+'docs/specs/MESA_image_dma_buf_export.txt' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_image_dma_buf_export.txt'
+'docs/specs/WL_create_wayland_buffer_from_image.spec' -> '/usr/share/doc/mesa-11.1.2/specs/WL_create_wayland_buffer_from_image.spec'
+'docs/specs/MESA_pack_invert.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_pack_invert.spec'
+'docs/specs/MESA_texture_array.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_texture_array.spec'
+'docs/specs/MESA_set_3dfx_mode.spec' -> '/usr/share/doc/mesa-11.1.2/specs/MESA_set_3dfx_mode.spec'
+'docs/systems.html' -> '/usr/share/doc/mesa-11.1.2/systems.html'
+'docs/thanks.html' -> '/usr/share/doc/mesa-11.1.2/thanks.html'
+'docs/utilities.html' -> '/usr/share/doc/mesa-11.1.2/utilities.html'
+'docs/VERSIONS' -> '/usr/share/doc/mesa-11.1.2/VERSIONS'
+'docs/versions.html' -> '/usr/share/doc/mesa-11.1.2/versions.html'
+'docs/viewperf.html' -> '/usr/share/doc/mesa-11.1.2/viewperf.html'
+'docs/vmware-guest.html' -> '/usr/share/doc/mesa-11.1.2/vmware-guest.html'
+'docs/webmaster.html' -> '/usr/share/doc/mesa-11.1.2/webmaster.html'
+'docs/xlibdriver.html' -> '/usr/share/doc/mesa-11.1.2/xlibdriver.html'

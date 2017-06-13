@@ -1,0 +1,16 @@
+URL=(
+"https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.10.3.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"gst-plugins-base-1.10.3"
+"libdvdread-5.0.3"
+"libdvdnav-5.0.3"
+"llvm-3.9.1"
+"soundtouch-1.9.2"
+)

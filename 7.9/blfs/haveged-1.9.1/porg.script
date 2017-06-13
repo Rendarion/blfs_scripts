@@ -1,0 +1,7 @@
+make install &&
+mkdir -pv    /usr/share/doc/haveged-1.9.1 &&
+cp -v README /usr/share/doc/haveged-1.9.1
+
+cd ../blfs-bootscripts-20150924
+make install-haveged
+

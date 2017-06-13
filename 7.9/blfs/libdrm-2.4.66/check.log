@@ -1,0 +1,212 @@
+Making check in .
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66'
+Making check in libkms
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/libkms'
+PASS: kms-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/libkms'
+Making check in intel
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/intel'
+PASS: tests/gen4-3d.batch.sh
+PASS: tests/gm45-3d.batch.sh
+PASS: tests/gen5-3d.batch.sh
+PASS: tests/gen6-3d.batch.sh
+PASS: tests/gen7-2d-copy.batch.sh
+PASS: tests/gen7-3d.batch.sh
+PASS: intel-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 7
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/intel'
+Making check in nouveau
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/nouveau'
+PASS: nouveau-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/nouveau'
+Making check in radeon
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/radeon'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/radeon'
+Making check in amdgpu
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+PASS: amdgpu-symbol-check
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/amdgpu'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+Making check in util
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/util'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/util'
+Making check in kms
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kms'
+Making check in modeprint
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modeprint'
+Making check in proptest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/proptest'
+Making check in modetest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/modetest'
+Making check in vbltest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/vbltest'
+Making check in kmstest
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/kmstest'
+Making check in radeon
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/radeon'
+Making check in nouveau
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make  threaded
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+  CC       threaded.o
+  CCLD     threaded
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[4]: Entering directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+SKIP: threaded
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests/nouveau'
+make[2]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make  libdrmtest.la dristat drmdevice drmstat drmsl hash random openclose getversion getclient getstats setversion updatedraw name_from_fd
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+  CC       drmtest.lo
+  CCLD     libdrmtest.la
+  CC       dristat.o
+  CCLD     dristat
+  CC       drmdevice.o
+  CCLD     drmdevice
+  CC       drmstat.o
+  CCLD     drmstat
+  CC       drmsl.o
+  CCLD     drmsl
+  CC       hash.o
+  CCLD     hash
+  CC       random.o
+  CCLD     random
+  CC       openclose.o
+  CCLD     openclose
+  CC       getversion.o
+  CCLD     getversion
+  CC       getclient.o
+  CCLD     getclient
+  CC       getstats.o
+  CCLD     getstats
+  CC       setversion.o
+  CCLD     setversion
+  CC       updatedraw.o
+  CCLD     updatedraw
+  CC       name_from_fd.o
+  CCLD     name_from_fd
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+make[4]: Entering directory '/sources/7.9/libdrm-2.4.66/tests'
+PASS: drmsl
+PASS: hash
+PASS: random
+PASS: openclose
+PASS: getversion
+PASS: getclient
+PASS: getstats
+PASS: setversion
+PASS: updatedraw
+PASS: name_from_fd
+============================================================================
+Testsuite summary for libdrm 2.4.66
+============================================================================
+# TOTAL: 10
+# PASS:  10
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[3]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[2]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'
+make[1]: Leaving directory '/sources/7.9/libdrm-2.4.66/tests'

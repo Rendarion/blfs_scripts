@@ -1,0 +1,72 @@
+Checking if your kit is complete...
+Looks good
+Generating a Unix-style Makefile
+Writing Makefile for XML::SAX
+Writing MYMETA.yml and MYMETA.json
+cp SAX/ParserFactory.pm blib/lib/XML/SAX/ParserFactory.pm
+cp SAX/PurePerl/EncodingDetect.pm blib/lib/XML/SAX/PurePerl/EncodingDetect.pm
+cp SAX/PurePerl/Reader/UnicodeExt.pm blib/lib/XML/SAX/PurePerl/Reader/UnicodeExt.pm
+cp SAX/PurePerl/DocType.pm blib/lib/XML/SAX/PurePerl/DocType.pm
+cp SAX/DocumentLocator.pm blib/lib/XML/SAX/DocumentLocator.pm
+cp SAX/PurePerl/XMLDecl.pm blib/lib/XML/SAX/PurePerl/XMLDecl.pm
+cp SAX/PurePerl/Productions.pm blib/lib/XML/SAX/PurePerl/Productions.pm
+cp SAX/PurePerl/DTDDecls.pm blib/lib/XML/SAX/PurePerl/DTDDecls.pm
+cp SAX/PurePerl/UnicodeExt.pm blib/lib/XML/SAX/PurePerl/UnicodeExt.pm
+cp SAX.pm blib/lib/XML/SAX.pm
+cp SAX/PurePerl.pm blib/lib/XML/SAX/PurePerl.pm
+cp SAX/PurePerl/Reader/URI.pm blib/lib/XML/SAX/PurePerl/Reader/URI.pm
+cp SAX/PurePerl/Reader.pm blib/lib/XML/SAX/PurePerl/Reader.pm
+cp SAX/PurePerl/Reader/String.pm blib/lib/XML/SAX/PurePerl/Reader/String.pm
+cp SAX/PurePerl/Exception.pm blib/lib/XML/SAX/PurePerl/Exception.pm
+cp SAX/PurePerl/DebugHandler.pm blib/lib/XML/SAX/PurePerl/DebugHandler.pm
+cp SAX/PurePerl/NoUnicodeExt.pm blib/lib/XML/SAX/PurePerl/NoUnicodeExt.pm
+cp SAX/PurePerl/Reader/Stream.pm blib/lib/XML/SAX/PurePerl/Reader/Stream.pm
+cp SAX/Intro.pod blib/lib/XML/SAX/Intro.pod
+cp SAX/PurePerl/Reader/NoUnicodeExt.pm blib/lib/XML/SAX/PurePerl/Reader/NoUnicodeExt.pm
+Manifying 6 pod documents
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00basic.t ...... ok
+t/01known.t ...... ok
+t/10xmldecl1.t ... ok
+t/11xmldecl2.t ... ok
+t/12miscstart.t .. ok
+t/13int_ent.t .... ok
+t/14encoding.t ... ok
+t/15element.t .... ok
+t/16large.t ...... ok
+t/20factory.t .... ok
+t/21saxini.t ..... ok
+t/40cdata.t ...... ok
+t/42entities.t ... ok
+t/99cleanup.t .... ok
+All tests successful.
+Files=14, Tests=106,  2 wallclock secs ( 0.09 usr  0.01 sys +  2.36 cusr  0.14 csys =  2.60 CPU)
+Result: PASS
+Manifying 6 pod documents
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/ParserFactory.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/Intro.pod
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/DocumentLocator.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Productions.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/UnicodeExt.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/XMLDecl.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Exception.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/DTDDecls.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/NoUnicodeExt.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/DocType.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/EncodingDetect.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/DebugHandler.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader/UnicodeExt.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader/String.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader/NoUnicodeExt.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader/Stream.pm
+Installing /usr/lib/perl5/site_perl/5.22.1/XML/SAX/PurePerl/Reader/URI.pm
+Installing /usr/share/man/man3/XML::SAX::PurePerl.3
+Installing /usr/share/man/man3/XML::SAX::ParserFactory.3
+Installing /usr/share/man/man3/XML::SAX.3
+Installing /usr/share/man/man3/XML::SAX::Intro.3
+Installing /usr/share/man/man3/XML::SAX::PurePerl::Reader.3
+Installing /usr/share/man/man3/XML::SAX::DocumentLocator.3
+Appending installation info to /usr/lib/perl5/5.22.1/x86_64-linux/perllocal.pod

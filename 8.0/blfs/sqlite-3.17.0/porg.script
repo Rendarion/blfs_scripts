@@ -1,0 +1,4 @@
+make install
+
+install -v -m755 -d /usr/share/doc/sqlite-3.17.0 &&
+cp -v -R sqlite-doc-3170000/* /usr/share/doc/sqlite-3.17.0

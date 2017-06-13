@@ -1,0 +1,225 @@
+if test -d ./.git				\
+	&& git --version >/dev/null 2>&1; then			\
+  cd . &&						\
+  git submodule --quiet foreach					\
+      'test "$(git rev-parse "$sha1")"			\
+	  = "$(git merge-base origin "$sha1")"'		\
+    || { echo 'maint.mk: found non-public submodule commit' >&2;	\
+	 exit 1; };						\
+else								\
+  : ;								\
+fi
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+make[4]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+make[3]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+make[2]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/lib'
+Making check in src
+make[2]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+make  libunittest.a
+make[3]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-connect.o -MD -MP -MF .deps/libunittest_a-connect.Tpo -c -o libunittest_a-connect.o `test -f 'connect.c' || echo './'`connect.c
+mv -f .deps/libunittest_a-connect.Tpo .deps/libunittest_a-connect.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-convert.o -MD -MP -MF .deps/libunittest_a-convert.Tpo -c -o libunittest_a-convert.o `test -f 'convert.c' || echo './'`convert.c
+mv -f .deps/libunittest_a-convert.Tpo .deps/libunittest_a-convert.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-cookies.o -MD -MP -MF .deps/libunittest_a-cookies.Tpo -c -o libunittest_a-cookies.o `test -f 'cookies.c' || echo './'`cookies.c
+mv -f .deps/libunittest_a-cookies.Tpo .deps/libunittest_a-cookies.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-ftp.o -MD -MP -MF .deps/libunittest_a-ftp.Tpo -c -o libunittest_a-ftp.o `test -f 'ftp.c' || echo './'`ftp.c
+mv -f .deps/libunittest_a-ftp.Tpo .deps/libunittest_a-ftp.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-css_.o -MD -MP -MF .deps/libunittest_a-css_.Tpo -c -o libunittest_a-css_.o `test -f 'css_.c' || echo './'`css_.c
+mv -f .deps/libunittest_a-css_.Tpo .deps/libunittest_a-css_.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-css-url.o -MD -MP -MF .deps/libunittest_a-css-url.Tpo -c -o libunittest_a-css-url.o `test -f 'css-url.c' || echo './'`css-url.c
+mv -f .deps/libunittest_a-css-url.Tpo .deps/libunittest_a-css-url.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-ftp-basic.o -MD -MP -MF .deps/libunittest_a-ftp-basic.Tpo -c -o libunittest_a-ftp-basic.o `test -f 'ftp-basic.c' || echo './'`ftp-basic.c
+mv -f .deps/libunittest_a-ftp-basic.Tpo .deps/libunittest_a-ftp-basic.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-ftp-ls.o -MD -MP -MF .deps/libunittest_a-ftp-ls.Tpo -c -o libunittest_a-ftp-ls.o `test -f 'ftp-ls.c' || echo './'`ftp-ls.c
+mv -f .deps/libunittest_a-ftp-ls.Tpo .deps/libunittest_a-ftp-ls.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-hash.o -MD -MP -MF .deps/libunittest_a-hash.Tpo -c -o libunittest_a-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/libunittest_a-hash.Tpo .deps/libunittest_a-hash.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-host.o -MD -MP -MF .deps/libunittest_a-host.Tpo -c -o libunittest_a-host.o `test -f 'host.c' || echo './'`host.c
+mv -f .deps/libunittest_a-host.Tpo .deps/libunittest_a-host.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-hsts.o -MD -MP -MF .deps/libunittest_a-hsts.Tpo -c -o libunittest_a-hsts.o `test -f 'hsts.c' || echo './'`hsts.c
+mv -f .deps/libunittest_a-hsts.Tpo .deps/libunittest_a-hsts.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-html-parse.o -MD -MP -MF .deps/libunittest_a-html-parse.Tpo -c -o libunittest_a-html-parse.o `test -f 'html-parse.c' || echo './'`html-parse.c
+mv -f .deps/libunittest_a-html-parse.Tpo .deps/libunittest_a-html-parse.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-html-url.o -MD -MP -MF .deps/libunittest_a-html-url.Tpo -c -o libunittest_a-html-url.o `test -f 'html-url.c' || echo './'`html-url.c
+mv -f .deps/libunittest_a-html-url.Tpo .deps/libunittest_a-html-url.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-http.o -MD -MP -MF .deps/libunittest_a-http.Tpo -c -o libunittest_a-http.o `test -f 'http.c' || echo './'`http.c
+mv -f .deps/libunittest_a-http.Tpo .deps/libunittest_a-http.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-init.o -MD -MP -MF .deps/libunittest_a-init.Tpo -c -o libunittest_a-init.o `test -f 'init.c' || echo './'`init.c
+mv -f .deps/libunittest_a-init.Tpo .deps/libunittest_a-init.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-log.o -MD -MP -MF .deps/libunittest_a-log.Tpo -c -o libunittest_a-log.o `test -f 'log.c' || echo './'`log.c
+mv -f .deps/libunittest_a-log.Tpo .deps/libunittest_a-log.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-main.o -MD -MP -MF .deps/libunittest_a-main.Tpo -c -o libunittest_a-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/libunittest_a-main.Tpo .deps/libunittest_a-main.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-netrc.o -MD -MP -MF .deps/libunittest_a-netrc.Tpo -c -o libunittest_a-netrc.o `test -f 'netrc.c' || echo './'`netrc.c
+mv -f .deps/libunittest_a-netrc.Tpo .deps/libunittest_a-netrc.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-progress.o -MD -MP -MF .deps/libunittest_a-progress.Tpo -c -o libunittest_a-progress.o `test -f 'progress.c' || echo './'`progress.c
+mv -f .deps/libunittest_a-progress.Tpo .deps/libunittest_a-progress.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-ptimer.o -MD -MP -MF .deps/libunittest_a-ptimer.Tpo -c -o libunittest_a-ptimer.o `test -f 'ptimer.c' || echo './'`ptimer.c
+mv -f .deps/libunittest_a-ptimer.Tpo .deps/libunittest_a-ptimer.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-recur.o -MD -MP -MF .deps/libunittest_a-recur.Tpo -c -o libunittest_a-recur.o `test -f 'recur.c' || echo './'`recur.c
+mv -f .deps/libunittest_a-recur.Tpo .deps/libunittest_a-recur.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-res.o -MD -MP -MF .deps/libunittest_a-res.Tpo -c -o libunittest_a-res.o `test -f 'res.c' || echo './'`res.c
+mv -f .deps/libunittest_a-res.Tpo .deps/libunittest_a-res.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-retr.o -MD -MP -MF .deps/libunittest_a-retr.Tpo -c -o libunittest_a-retr.o `test -f 'retr.c' || echo './'`retr.c
+mv -f .deps/libunittest_a-retr.Tpo .deps/libunittest_a-retr.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-spider.o -MD -MP -MF .deps/libunittest_a-spider.Tpo -c -o libunittest_a-spider.o `test -f 'spider.c' || echo './'`spider.c
+mv -f .deps/libunittest_a-spider.Tpo .deps/libunittest_a-spider.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-url.o -MD -MP -MF .deps/libunittest_a-url.Tpo -c -o libunittest_a-url.o `test -f 'url.c' || echo './'`url.c
+mv -f .deps/libunittest_a-url.Tpo .deps/libunittest_a-url.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-warc.o -MD -MP -MF .deps/libunittest_a-warc.Tpo -c -o libunittest_a-warc.o `test -f 'warc.c' || echo './'`warc.c
+mv -f .deps/libunittest_a-warc.Tpo .deps/libunittest_a-warc.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-utils.o -MD -MP -MF .deps/libunittest_a-utils.Tpo -c -o libunittest_a-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/libunittest_a-utils.Tpo .deps/libunittest_a-utils.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-exits.o -MD -MP -MF .deps/libunittest_a-exits.Tpo -c -o libunittest_a-exits.o `test -f 'exits.c' || echo './'`exits.c
+mv -f .deps/libunittest_a-exits.Tpo .deps/libunittest_a-exits.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-build_info.o -MD -MP -MF .deps/libunittest_a-build_info.Tpo -c -o libunittest_a-build_info.o `test -f 'build_info.c' || echo './'`build_info.c
+mv -f .deps/libunittest_a-build_info.Tpo .deps/libunittest_a-build_info.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-test.o -MD -MP -MF .deps/libunittest_a-test.Tpo -c -o libunittest_a-test.o `test -f 'test.c' || echo './'`test.c
+mv -f .deps/libunittest_a-test.Tpo .deps/libunittest_a-test.Po
+gcc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I.  -DTESTING "-I../lib" "-I../lib"   -DHAVE_LIBSSL  -DNDEBUG  -MT libunittest_a-version.o -MD -MP -MF .deps/libunittest_a-version.Tpo -c -o libunittest_a-version.o `test -f 'version.c' || echo './'`version.c
+mv -f .deps/libunittest_a-version.Tpo .deps/libunittest_a-version.Po
+rm -f libunittest.a
+ar cr libunittest.a libunittest_a-connect.o libunittest_a-convert.o libunittest_a-cookies.o libunittest_a-ftp.o libunittest_a-css_.o libunittest_a-css-url.o libunittest_a-ftp-basic.o libunittest_a-ftp-ls.o libunittest_a-hash.o libunittest_a-host.o libunittest_a-hsts.o libunittest_a-html-parse.o libunittest_a-html-url.o libunittest_a-http.o libunittest_a-init.o libunittest_a-log.o libunittest_a-main.o libunittest_a-netrc.o libunittest_a-progress.o libunittest_a-ptimer.o libunittest_a-recur.o libunittest_a-res.o libunittest_a-retr.o libunittest_a-spider.o libunittest_a-url.o libunittest_a-warc.o libunittest_a-utils.o libunittest_a-exits.o libunittest_a-build_info.o   libunittest_a-test.o libunittest_a-build_info.o libunittest_a-version.o ftp-opie.o openssl.o http-ntlm.o
+ranlib libunittest.a
+make[3]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+make[2]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/doc'
+Making check in po
+make[2]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/po'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+make  unit-tests
+make[3]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+cd ../src && make  libunittest.a
+make[4]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+make[4]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+gcc  -DHAVE_LIBSSL  -DNDEBUG    -o unit-tests  ../src/libunittest.a ../lib/libgnu.a   -luuid -lssl -lcrypto -lz   -luuid -lssl -lcrypto -lz 
+make[3]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+make[4]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+cd ../src && make  libunittest.a
+make[5]: Entering directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+make[5]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/src'
+gcc  -DHAVE_LIBSSL  -DNDEBUG    -o unit-tests  ../src/libunittest.a ../lib/libgnu.a   -luuid -lssl -lcrypto -lz   -luuid -lssl -lcrypto -lz 
+PASS: unit-tests
+FAIL: Test-auth-basic.px
+FAIL: Test-auth-no-challenge.px
+FAIL: Test-auth-no-challenge-url.px
+FAIL: Test-auth-with-content-disposition.px
+FAIL: Test-auth-retcode.px
+FAIL: Test-c-full.px
+FAIL: Test-c-partial.px
+FAIL: Test-c.px
+FAIL: Test-c-shorter.px
+FAIL: Test-cookies.px
+FAIL: Test-cookies-401.px
+FAIL: Test-E-k-K.px
+FAIL: Test-E-k.px
+PASS: Test-ftp.px
+PASS: Test-ftp-pasv-fail.px
+PASS: Test-ftp-bad-list.px
+PASS: Test-ftp-recursive.px
+SKIP: Test-ftp-iri.px
+SKIP: Test-ftp-iri-fallback.px
+SKIP: Test-ftp-iri-recursive.px
+SKIP: Test-ftp-iri-disabled.px
+PASS: Test-ftp-list-Multinet.px
+PASS: Test-ftp-list-Unknown.px
+PASS: Test-ftp-list-Unknown-a.px
+PASS: Test-ftp-list-Unknown-hidden.px
+PASS: Test-ftp-list-Unknown-list-a-fails.px
+PASS: Test-ftp-list-UNIX-hidden.px
+PASS: Test-ftp--start-pos.px
+FAIL: Test-HTTP-Content-Disposition-1.px
+FAIL: Test-HTTP-Content-Disposition-2.px
+FAIL: Test-HTTP-Content-Disposition.px
+PASS: Test-i-ftp.px
+FAIL: Test-i-http.px
+SKIP: Test-idn-headers.px
+SKIP: Test-idn-meta.px
+SKIP: Test-idn-cmd.px
+SKIP: Test-idn-cmd-utf8.px
+SKIP: Test-idn-robots.px
+SKIP: Test-idn-robots-utf8.px
+SKIP: Test-iri.px
+SKIP: Test-iri-percent.px
+FAIL: Test-iri-disabled.px
+SKIP: Test-iri-forced-remote.px
+SKIP: Test-iri-list.px
+FAIL: Test-k.px
+FAIL: Test-meta-robots.px
+FAIL: Test-N-current.px
+FAIL: Test-N-HTTP-Content-Disposition.px
+FAIL: Test-N--no-content-disposition.px
+FAIL: Test-N--no-content-disposition-trivial.px
+FAIL: Test-N-no-info.px
+FAIL: Test--no-content-disposition.px
+FAIL: Test--no-content-disposition-trivial.px
+FAIL: Test-N-old.px
+FAIL: Test-nonexisting-quiet.px
+FAIL: Test-noop.px
+FAIL: Test-np.px
+FAIL: Test-N.px
+FAIL: Test-N-smaller.px
+FAIL: Test-O-HTTP-Content-Disposition.px
+FAIL: Test-O-nc.px
+FAIL: Test-O--no-content-disposition.px
+FAIL: Test-O--no-content-disposition-trivial.px
+FAIL: Test-O-nonexisting.px
+FAIL: Test-O.px
+FAIL: Test--post-file.px
+FAIL: Test-proxied-https-auth.px
+FAIL: Test-proxied-https-auth-keepalive.px
+FAIL: Test-proxy-auth-basic.px
+FAIL: Test-restrict-ascii.px
+FAIL: Test-Restrict-Lowercase.px
+FAIL: Test-Restrict-Uppercase.px
+FAIL: Test-stdouterr.px
+FAIL: Test--spider-fail.px
+FAIL: Test--spider.px
+FAIL: Test--spider-r-HTTP-Content-Disposition.px
+FAIL: Test--spider-r--no-content-disposition.px
+FAIL: Test--spider-r--no-content-disposition-trivial.px
+FAIL: Test--spider-r.px
+FAIL: Test--start-pos.px
+FAIL: Test--start-pos--continue.px
+FAIL: Test--httpsonly-r.px
+FAIL: Test-204.px
+PASS: Test-ftp-pasv-not-supported.px
+============================================================================
+Testsuite summary for wget 1.17.1
+============================================================================
+# TOTAL: 85
+# PASS:  14
+# SKIP:  14
+# XFAIL: 0
+# FAIL:  57
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to bug-wget@gnu.org
+============================================================================
+Makefile:1644: recipe for target 'test-suite.log' failed
+make[4]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+Makefile:1750: recipe for target 'check-TESTS' failed
+make[3]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+Makefile:1823: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1/tests'
+Makefile:1406: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/wget_with_openssl-1.17.1'
+Makefile:1698: recipe for target 'check' failed

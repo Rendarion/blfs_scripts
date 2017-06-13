@@ -1,0 +1,15 @@
+URL=(
+"http://people.freedesktop.org/~hughsient/releases/libgusb-0.2.9.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libusb-1.0.21"
+"gobject-introspection-1.50.0"
+"usbutils-008"
+"vala-0.34.4"
+)

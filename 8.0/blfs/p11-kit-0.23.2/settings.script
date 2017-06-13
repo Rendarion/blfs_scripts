@@ -1,0 +1,15 @@
+URL=(
+"http://p11-glue.freedesktop.org/releases/p11-kit-0.23.2.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"certificate_authority_certificates"
+"libtasn1-4.10"
+"libffi-3.2.1"
+"nss-3.29"
+)

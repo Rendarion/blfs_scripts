@@ -1,0 +1,16 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/glib-networking/2.50/glib-networking-2.50.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"gnutls-3.5.9"
+"gsettings-desktop-schemas-3.22.0"
+"certificate_authority_certificates"
+"p11-kit-0.23.2"
+)

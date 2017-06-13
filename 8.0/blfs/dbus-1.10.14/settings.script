@@ -1,0 +1,12 @@
+URL=(
+"http://dbus.freedesktop.org/releases/dbus/dbus-1.10.14.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg_libraries"
+)

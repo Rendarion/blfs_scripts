@@ -1,0 +1,4 @@
+PKG=$(basename $PWD)
+
+make install
+make -C doc install-html docdir=/usr/share/doc/$PKG

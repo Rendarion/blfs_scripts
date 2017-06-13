@@ -1,0 +1,12 @@
+gcc -I./lib -I. -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions  -DHAVE_EXPAT_CONFIG_H -o tests/runtests.o -c tests/runtests.c
+gcc -I./lib -I. -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions  -DHAVE_EXPAT_CONFIG_H -o tests/chardata.o -c tests/chardata.c
+gcc -I./lib -I. -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions  -DHAVE_EXPAT_CONFIG_H -o tests/minicheck.o -c tests/minicheck.c
+g++ -I./lib -I. -g -O2 -Wall -fexceptions  -DHAVE_EXPAT_CONFIG_H -o tests/runtestspp.o -c tests/runtestspp.cpp
+/bin/sh ./libtool --silent --mode=link gcc -I./lib -I. -g -O2 -Wall -Wmissing-prototypes -Wstrict-prototypes -fexceptions  -DHAVE_EXPAT_CONFIG_H  -o tests/runtests tests/runtests.o tests/chardata.o tests/minicheck.o libexpat.la
+/bin/sh ./libtool --silent --mode=link g++ -I./lib -I. -g -O2 -Wall -fexceptions  -DHAVE_EXPAT_CONFIG_H  -o tests/runtestspp tests/runtestspp.o tests/chardata.o tests/minicheck.o libexpat.la
+tests/runtests
+Expat version: expat_2.1.0
+100%: Checks: 50, Failed: 0
+tests/runtestspp
+Expat version: expat_2.1.0
+100%: Checks: 50, Failed: 0

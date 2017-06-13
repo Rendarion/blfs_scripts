@@ -1,0 +1,13 @@
+URL=(
+"http://wayland.freedesktop.org/releases/wayland-1.12.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libffi-3.2.1"
+"libxml2-2.9.4"
+)

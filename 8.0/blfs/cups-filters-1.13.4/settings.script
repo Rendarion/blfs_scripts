@@ -1,0 +1,22 @@
+URL=(
+"https://www.openprinting.org/download/cups-filters/cups-filters-1.13.4.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cups-2.2.2"
+"gLib-2.50.3"
+"ghostscript-9.20"
+"ijs-0.35"
+"little_cms-2.8"
+"mupdf-1.10a"
+"poppler-0.51.0"
+"qpdf-6.0.0"
+"libjpeg-turbo-1.5.1"
+"libpng-1.6.28"
+"libtiff-4.0.7"
+)

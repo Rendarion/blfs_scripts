@@ -1,0 +1,11 @@
+URL=(
+"http://ftp.gnu.org/gnu/libtasn1/libtasn1-4.10.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

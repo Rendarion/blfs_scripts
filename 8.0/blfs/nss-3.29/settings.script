@@ -1,0 +1,14 @@
+URL=(
+"https://ftp.mozilla.org/pub/mozilla.org/security/nss/releases/NSS_3_29_RTM/src/nss-3.29.tar.gz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/nss-3.29-standalone-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"nspr-4.13.1"
+"sqlite-3.17.0"
+)

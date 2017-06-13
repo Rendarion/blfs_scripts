@@ -1,0 +1,6 @@
+ed -e '/^libdocdir =/ s/$(book_name)/atkmm-2.24.2/' \
+    -i doc/Makefile.in
+
+./configure --prefix=/usr &&
+make
+

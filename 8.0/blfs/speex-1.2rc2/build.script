@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speex-1.2rc2 &&
+make

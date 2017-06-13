@@ -1,0 +1,9 @@
+sed -i '/CMAKE_USE_LIBUV 1/s/1/0/' CMakeLists.txt     &&
+sed -i '/"lib64"/s/64//' Modules/GNUInstallDirs.cmake &&
+
+./bootstrap --prefix=/usr       \
+            --system-libs       \
+            --mandir=/share/man \
+            --no-system-jsoncpp \
+            --docdir=/share/doc/cmake-3.7.2 &&
+make

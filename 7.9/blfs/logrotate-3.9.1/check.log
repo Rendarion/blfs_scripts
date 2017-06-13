@@ -1,0 +1,75 @@
+Making test in test
+make[1]: Entering directory '/sources/7.9/logrotate-3.9.1/test'
+(./test)
+SELinux disabled. SELinux tests will not be executed.
+Running test 1
+Running test 2
+Running test 3
+Running test 4
+Running test 5
+Running test 6
+Skipping SELinux part of test 6
+Running test 7
+Running test 8
+Running test 9
+Running test 10
+Skipping SELinux part of test 10
+Running test 11
+Running test 12
+Running test 13
+Running test 14
+Running test 15
+Running test 16
+Running test 17
+Running test 18
+Running test 19
+Running test 20
+Running test 21
+Running test 22
+Running test 23
+Running test 24
+Running test 25
+Running test 26
+Running test 27
+Running test 28
+Running test 29
+Running test 30
+Running test 31
+Running test 32
+Running test 33
+Running test 34
+Running test 35
+Running test 36
+Running test 37
+Running test 38
+Running test 39
+Running test 40
+Running test 41
+Running test 42
+Running test 43
+Running test 44
+Running test 45
+Running test 46
+Skipping SELinux part of test 6
+Running test 47
+Skipping SELinux test 47
+Running test 48
+Running test 49
+Running test 50
+Running test 51
+Running test 52
+Running test 53
+Running test 54
+Running test 55
+Running test 56
+Running test 57
+Running test 58
+Running test 59
+Running test 60
+Running test 61
+Running test 62
+Running test 63
+make[1]: Leaving directory '/sources/7.9/logrotate-3.9.1/test'
+make[1]: Entering directory '/sources/7.9/logrotate-3.9.1'
+make[1]: Nothing to be done for 'test-am'.
+make[1]: Leaving directory '/sources/7.9/logrotate-3.9.1'

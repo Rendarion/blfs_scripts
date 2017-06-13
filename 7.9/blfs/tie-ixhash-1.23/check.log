@@ -1,0 +1,7 @@
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/each-delete.t .. ok
+t/ixhash.t ....... ok
+t/pod.t .......... skipped: Test::Pod 1.14 required for testing POD
+All tests successful.
+Files=3, Tests=28,  1 wallclock secs ( 0.04 usr  0.01 sys +  0.10 cusr  0.01 csys =  0.16 CPU)
+Result: PASS

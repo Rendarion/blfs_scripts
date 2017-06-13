@@ -1,0 +1,14 @@
+mkdir -v build &&
+cd       build &&
+
+CC=gcc CXX=g++                          \
+../configure --prefix=/usr              \
+             --datarootdir=/usr/share   \
+             --sysconfdir=/etc          \
+             --enable-libffi            \
+             --enable-optimized         \
+             --enable-shared            \
+             --enable-targets=host,r600 \
+             --disable-assertions       \
+             --docdir=/usr/share/doc/llvm-3.7.1 &&
+make

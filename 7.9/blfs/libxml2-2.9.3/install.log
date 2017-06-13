@@ -1,0 +1,653 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking how to run the C preprocessor... gcc -E
+checking for mv... /bin/mv
+checking for tar... /bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+Checking zlib
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+Checking lzma
+checking for LZMA... yes
+checking lzma.h usability... yes
+checking lzma.h presence... yes
+checking for lzma.h... yes
+Checking headers
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking ansidecl.h presence... yes
+checking for ansidecl.h... yes
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for stdlib.h... (cached) yes
+checking for sys/socket.h... yes
+checking for netinet/in.h... yes
+checking for arpa/inet.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for arpa/nameser.h... yes
+checking for resolv.h... yes
+checking dl.h usability... no
+checking dl.h presence... no
+checking for dl.h... no
+checking for dlfcn.h... (cached) yes
+Checking types
+checking for uint32_t... yes
+Checking libraries
+checking for strftime... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for strerror... yes
+checking for finite... yes
+checking for isnand... no
+checking for fp_class... no
+checking for class... no
+checking for fpclass... no
+checking for strftime... (cached) yes
+checking for localtime... yes
+checking for gettimeofday... yes
+checking for ftime... yes
+checking for stat... yes
+checking for _stat... no
+checking for signal... yes
+checking for rand... yes
+checking for rand_r... yes
+checking for srand... yes
+checking for time... yes
+checking for isascii... yes
+checking for mmap... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for va_copy... yes
+checking whether va_list is an array type... yes
+checking for library containing gethostent... none required
+checking for library containing setsockopt... none required
+checking for library containing connect... none required
+checking for type of socket length (socklen_t)... socklen_t *
+checking for const gethostbyname() argument... yes
+checking for const send() second argument... yes
+checking whether to enable IPv6... yes
+checking struct sockaddr::ss_family... yes
+checking for getaddrinfo... yes
+checking for isnan... yes
+checking for isinf... yes
+checking for python... /usr/bin/python
+Found Python version 2.7
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+Enabling xmllint shell history
+checking for tputs in -lncurses... yes
+checking readline/history.h usability... yes
+checking readline/history.h presence... yes
+checking for readline/history.h... yes
+checking for append_history in -lhistory... yes
+checking readline/readline.h usability... yes
+checking readline/readline.h presence... yes
+checking for readline/readline.h... yes
+checking for readline in -lreadline... yes
+Enabled Schematron support
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for iconv... yes
+checking for iconv declaration... 
+	extern size_t iconv (iconv_t cd,  char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+Disabling ICU support
+Enabled Schemas/Relax-NG support
+checking for printf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+Disabling code coverage for GCC
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating libxml2.spec
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxml/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating example/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating libxml-2.0.pc
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating libxml2-config.cmake
+config.status: creating python/setup.py
+config.status: creating xml2-config
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Done configuring
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libxml2-2.9.3'
+Making all in include
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/include'
+Making all in libxml
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/include'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/include'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/include'
+Making all in .
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3'
+  CC       SAX.lo
+  CC       entities.lo
+  CC       encoding.lo
+  CC       error.lo
+  CC       parserInternals.lo
+  CC       parser.lo
+  CC       tree.lo
+  CC       hash.lo
+  CC       list.lo
+  CC       xmlIO.lo
+  CC       xmlmemory.lo
+  CC       uri.lo
+  CC       valid.lo
+  CC       xlink.lo
+  CC       HTMLparser.lo
+  CC       HTMLtree.lo
+  CC       debugXML.lo
+  CC       xpath.lo
+  CC       xpointer.lo
+  CC       xinclude.lo
+  CC       nanohttp.lo
+  CC       nanoftp.lo
+  CC       catalog.lo
+  CC       globals.lo
+  CC       threads.lo
+  CC       c14n.lo
+  CC       xmlstring.lo
+  CC       buf.lo
+  CC       xmlregexp.lo
+  CC       xmlschemas.lo
+  CC       xmlschemastypes.lo
+  CC       xmlunicode.lo
+  CC       xmlreader.lo
+  CC       relaxng.lo
+  CC       dict.lo
+  CC       SAX2.lo
+  CC       xmlwriter.lo
+  CC       legacy.lo
+  CC       chvalid.lo
+  CC       pattern.lo
+  CC       xmlsave.lo
+  CC       xmlmodule.lo
+  CC       schematron.lo
+  CC       xzlib.lo
+  CCLD     libxml2.la
+  CC       testdso.lo
+  CCLD     testdso.la
+  CC       xmllint.o
+  CCLD     xmllint
+  CC       xmlcatalog.o
+  CCLD     xmlcatalog
+  CC       testSchemas.o
+  CCLD     testSchemas
+  CC       testRelax.o
+  CCLD     testRelax
+  CC       testSAX.o
+  CCLD     testSAX
+  CC       testHTML.o
+  CCLD     testHTML
+  CC       testXPath.o
+  CCLD     testXPath
+  CC       testURI.o
+  CCLD     testURI
+  CC       testThreads.o
+  CCLD     testThreads
+  CC       testC14N.o
+  CCLD     testC14N
+  CC       testAutomata.o
+  CCLD     testAutomata
+  CC       testRegexp.o
+  CCLD     testRegexp
+  CC       testReader.o
+  CCLD     testReader
+  CC       testapi.o
+  CCLD     testapi
+  CC       testModule.o
+  CCLD     testModule
+  CC       runtest.o
+  CCLD     runtest
+  CC       runsuite.o
+  CCLD     runsuite
+  CC       testchar.o
+  CCLD     testchar
+  CC       testdict.o
+  CCLD     testdict
+  CC       runxmlconf.o
+  CCLD     runxmlconf
+  CC       testrecurse.o
+  CCLD     testrecurse
+  CC       testlimits.o
+  CCLD     testlimits
+sed -e 's?\@XML_LIBDIR\@?-L/usr/lib?g' \
+    -e 's?\@XML_INCLUDEDIR\@?-I/usr/include/libxml2?g' \
+    -e 's?\@VERSION\@?2.9.3?g' \
+    -e 's?\@XML_LIBS\@?-lxml2 -lz   -lm ?g' \
+       < ./xml2Conf.sh.in > xml2Conf.tmp \
+&& mv xml2Conf.tmp xml2Conf.sh
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/doc'
+Making all in .
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc'
+Making all in devhelp
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+Making all in examples
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+  CC       io1.o
+  CCLD     io1
+  CC       io2.o
+  CCLD     io2
+  CC       parse1.o
+  CCLD     parse1
+  CC       parse2.o
+  CCLD     parse2
+  CC       parse3.o
+  CCLD     parse3
+  CC       parse4.o
+  CCLD     parse4
+  CC       reader1.o
+  CCLD     reader1
+  CC       reader2.o
+  CCLD     reader2
+  CC       reader3.o
+  CCLD     reader3
+  CC       reader4.o
+  CCLD     reader4
+  CC       testWriter.o
+  CCLD     testWriter
+  CC       tree1.o
+  CCLD     tree1
+  CC       tree2.o
+  CCLD     tree2
+  CC       xpath1.o
+  CCLD     xpath1
+  CC       xpath2.o
+  CCLD     xpath2
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc'
+Making all in example
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/example'
+  CC       gjobread.o
+  CCLD     gjobread
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/example'
+Making all in xstc
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/xstc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/xstc'
+Making all in python
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+Making all in .
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+  CC       libxml.lo
+  CC       libxml2-py.lo
+  CC       types.lo
+  CCLD     libxml2mod.la
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+Making all in tests
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+make[1]: Leaving directory '/sources/7.9/libxml2-2.9.3'
+Total 2920 tests, no errors
+Total 9 tests, no errors
+Total: 1171 functions, 291083 tests, 0 errors
+Total 2273 tests, 15 errors, 0 leaks
+15 errors were expected
+Total 2920 tests, no errors
+Total 9 tests, no errors
+Total: 1171 functions, 291083 tests, 0 errors
+Total 2273 tests, 15 errors, 0 leaks
+15 errors were expected
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/libxml2-2.9.3'
+Making install in include
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/include'
+Making install in libxml
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX.h entities.h encoding.h parser.h parserInternals.h xmlerror.h HTMLparser.h HTMLtree.h debugXML.h tree.h list.h hash.h xpath.h xpathInternals.h xpointer.h xinclude.h xmlIO.h xmlmemory.h nanohttp.h nanoftp.h uri.h valid.h xlink.h xmlversion.h DOCBparser.h catalog.h threads.h globals.h c14n.h xmlautomata.h xmlregexp.h xmlmodule.h xmlschemas.h schemasInternals.h xmlschemastypes.h xmlstring.h xmlunicode.h xmlreader.h relaxng.h dict.h '/usr/include/libxml2/libxml'
+ /usr/bin/install -c -m 644 SAX2.h xmlexports.h xmlwriter.h chvalid.h pattern.h xmlsave.h schematron.h '/usr/include/libxml2/libxml'
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/include/libxml'
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/include'
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/include'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/include'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/include'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/include'
+Making install in .
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3'
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libxml2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxml2.so.2.9.3 /usr/lib/libxml2.so.2.9.3
+libtool: install: (cd /usr/lib && { ln -s -f libxml2.so.2.9.3 libxml2.so.2 || { rm -f libxml2.so.2 && ln -s libxml2.so.2.9.3 libxml2.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxml2.so.2.9.3 libxml2.so || { rm -f libxml2.so && ln -s libxml2.so.2.9.3 libxml2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxml2.lai /usr/lib/libxml2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c xmllint xmlcatalog '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xmllint /usr/bin/xmllint
+libtool: install: /usr/bin/install -c .libs/xmlcatalog /usr/bin/xmlcatalog
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c xml2-config '/usr/bin'
+ /bin/mkdir -p '/usr/lib'
+ /usr/bin/install -c -m 644 xml2Conf.sh '/usr/lib'
+ /bin/mkdir -p '/usr/lib/cmake/libxml2'
+ /usr/bin/install -c -m 644 libxml2-config.cmake '/usr/lib/cmake/libxml2'
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3
+/usr/bin/install -c -m 0644 ./Copyright /usr/share/doc/libxml2-2.9.3
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/examples
+/usr/bin/install -c -m 0644 ./xmllint.c /usr/share/doc/libxml2-2.9.3/examples
+/usr/bin/install -c -m 0644 ./testSAX.c /usr/share/doc/libxml2-2.9.3/examples
+/usr/bin/install -c -m 0644 ./testHTML.c /usr/share/doc/libxml2-2.9.3/examples
+/usr/bin/install -c -m 0644 ./testXPath.c /usr/share/doc/libxml2-2.9.3/examples
+ /bin/mkdir -p '/usr/share/aclocal'
+ /usr/bin/install -c -m 644 libxml.m4 '/usr/share/aclocal'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xml2-config.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man3'
+ /usr/bin/install -c -m 644 libxml.3 '/usr/share/man/man3'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxml-2.0.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3'
+Making install in doc
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/doc'
+Making install in .
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc'
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/doc'
+make[4]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html
+/usr/bin/install -c -m 0644 ./xml.html ./encoding.html ./FAQ.html ./structure.gif ./DOM.gif ./smallfootonly.gif ./redhat.gif ./libxml.gif ./w3c.png ./Libxml2-Logo-180x168.gif ./Libxml2-Logo-90x34.gif /usr/share/doc/libxml2-2.9.3/html
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html/html
+/usr/bin/install -c -m 0644 ./html/*.html /usr/share/doc/libxml2-2.9.3/html/html
+/usr/bin/install -c -m 0644 ./html/*.png /usr/share/doc/libxml2-2.9.3/html/html
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html/tutorial
+/usr/bin/install -c -m 0644 ./tutorial/*.* \
+	/usr/share/doc/libxml2-2.9.3/html/tutorial
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html/tutorial/images
+/usr/bin/install -c -m 0644 ./tutorial/images/*.* \
+	/usr/share/doc/libxml2-2.9.3/html/tutorial/images
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html/tutorial/images/callouts
+/usr/bin/install -c -m 0644 ./tutorial/images/callouts/*.* \
+	/usr/share/doc/libxml2-2.9.3/html/tutorial/images/callouts
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 xmllint.1 xmlcatalog.1 '/usr/share/man/man1'
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc'
+Making install in devhelp
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 libxml2.devhelp general.html index.html libxml2-c14n.html libxml2-catalog.html libxml2-chvalid.html libxml2-debugXML.html libxml2-dict.html libxml2-DOCBparser.html libxml2-encoding.html libxml2-entities.html libxml2-globals.html libxml2-hash.html libxml2-HTMLparser.html libxml2-HTMLtree.html libxml2-list.html libxml2-nanoftp.html libxml2-nanohttp.html libxml2-parser.html libxml2-parserInternals.html libxml2-pattern.html libxml2-relaxng.html libxml2-SAX2.html libxml2-SAX.html libxml2-schemasInternals.html libxml2-schematron.html libxml2-threads.html libxml2-tree.html libxml2-uri.html libxml2-valid.html libxml2-xinclude.html libxml2-xlink.html libxml2-xmlautomata.html libxml2-xmlerror.html libxml2-xmlexports.html libxml2-xmlIO.html libxml2-xmlmemory.html libxml2-xmlmodule.html libxml2-xmlreader.html libxml2-xmlregexp.html '/usr/share/gtk-doc/html/libxml2'
+ /usr/bin/install -c -m 644 libxml2-xmlsave.html libxml2-xmlschemas.html libxml2-xmlschemastypes.html libxml2-xmlstring.html libxml2-xmlunicode.html libxml2-xmlversion.html libxml2-xmlwriter.html libxml2-xpath.html libxml2-xpathInternals.html libxml2-xpointer.html home.png left.png right.png up.png style.css '/usr/share/gtk-doc/html/libxml2'
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/devhelp'
+Making install in examples
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+make[4]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /usr/share/doc/libxml2-2.9.3/html
+/usr/bin/install -c -m 0644 ./*.html ./*.c ./*.xml ./*.xsl ./*.res /usr/share/doc/libxml2-2.9.3/html
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc/examples'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/doc'
+Making install in example
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/example'
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/example'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/example'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/example'
+Making install in xstc
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/xstc'
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/xstc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/xstc'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/xstc'
+Making install in python
+make[2]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+make  install-recursive
+make[3]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+Making install in .
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+make[5]: Entering directory '/sources/7.9/libxml2-2.9.3/python'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libxml2-python-2.9.3'
+ /usr/bin/install -c -m 644 TODO '/usr/share/doc/libxml2-python-2.9.3'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /usr/bin/install -c -m 644 drv_libxml2.py libxml2.py '/usr/lib/python2.7/site-packages'
+ /bin/mkdir -p '/usr/lib/python2.7/site-packages'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxml2mod.la '/usr/lib/python2.7/site-packages'
+libtool: install: (cd /sources/7.9/libxml2-2.9.3/python; /bin/sh "/sources/7.9/libxml2-2.9.3/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -pedantic -W -Wformat -Wunused -Wimplicit -Wreturn-type -Wswitch -Wcomment -Wtrigraphs -Wformat -Wchar-subscripts -Wuninitialized -Wparentheses -Wshadow -Wpointer-arith -Wcast-align -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wredundant-decls -Wno-long-long -module -avoid-version ../libxml2.la -lpython2.7 -lpthread -ldl -lutil -lm -Xlinker -export-dynamic -o libxml2mod.la -rpath /usr/lib/python2.7/site-packages libxml.lo libxml2-py.lo types.lo )
+libtool: install: /usr/bin/install -c .libs/libxml2mod.soT /usr/lib/python2.7/site-packages/libxml2mod.so
+libtool: install: /usr/bin/install -c .libs/libxml2mod.lai /usr/lib/python2.7/site-packages/libxml2mod.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/python2.7/site-packages
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/python2.7/site-packages
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+Making install in tests
+make[4]: Entering directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[5]: Entering directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/libxml2-python-2.9.3/examples'
+ /usr/bin/install -c -m 644 build.py attribs.py tst.py tstxpath.py xpathext.py push.py pushSAX.py pushSAXhtml.py error.py serialize.py validate.py tstURI.py cutnpaste.py xpathret.py xpath.py outbuf.py inbuf.py input_callback.py resolver.py regexp.py reader.py reader2.py reader3.py reader4.py reader5.py reader6.py reader7.py reader8.py readernext.py walker.py nsdel.py ctxterror.py readererr.py relaxng.py schema.py thread2.py sync.py tstLastError.py indexes.py dtdvalid.py '/usr/share/doc/libxml2-python-2.9.3/examples'
+ /usr/bin/install -c -m 644 tstmem.py validDTD.py validSchemas.py validRNG.py compareNodes.py xpathns.py xpathleak.py tst.xml valid.xml invalid.xml test.dtd '/usr/share/doc/libxml2-python-2.9.3/examples'
+make[5]: Leaving directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[4]: Leaving directory '/sources/7.9/libxml2-2.9.3/python/tests'
+make[3]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+make[2]: Leaving directory '/sources/7.9/libxml2-2.9.3/python'
+make[1]: Leaving directory '/sources/7.9/libxml2-2.9.3'

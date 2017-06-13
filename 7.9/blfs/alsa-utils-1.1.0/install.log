@@ -1,0 +1,536 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ALSA CFLAGS... 
+checking for ALSA LDFLAGS...  -lasound -lm -ldl -lpthread
+checking for libasound headers version >= 1.0.27... found.
+checking for snd_ctl_open in -lasound... yes
+checking for snd_ctl_elem_add_enumerated... yes
+checking for alsa/pcm.h... yes
+checking for alsa/mixer.h... yes
+checking for alsa/rawmidi.h... yes
+checking for alsa/seq.h... yes
+checking for alsa/use-case.h... yes
+checking for alsa/topology.h... yes
+checking for samplerate.h... no
+checking for librt... checking for clock_gettime in -lrt... yes
+checking for ANSI C header files... yes
+checking for NCURSESW... yes
+checking for curses library... ncursesw
+checking for curses header name... <ncurses.h>
+checking for curses compiler flags... -D_GNU_SOURCE
+checking for curses NLS support... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking panel.h usability... yes
+checking panel.h presence... yes
+checking for panel.h... yes
+checking menu.h usability... yes
+checking menu.h presence... yes
+checking for menu.h... yes
+checking form.h usability... yes
+checking form.h presence... yes
+checking for form.h... yes
+checking for new_panel in -lpanelw... yes
+checking for new_menu in -lmenuw... yes
+checking for new_form in -lformw... yes
+checking for curses linker flags... -lformw -lmenuw -lpanelw -lncursesw
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether time.h and sys/time.h may both be included... yes
+checking whether gcc needs -traditional... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating alsactl/Makefile
+config.status: creating alsactl/init/Makefile
+config.status: creating alsamixer/Makefile
+config.status: creating amidi/Makefile
+config.status: creating amixer/Makefile
+config.status: creating m4/Makefile
+config.status: creating po/Makefile.in
+config.status: creating alsaconf/alsaconf
+config.status: creating alsaconf/Makefile
+config.status: creating alsaconf/po/Makefile
+config.status: creating alsaucm/Makefile
+config.status: creating topology/Makefile
+config.status: creating bat/Makefile
+config.status: creating aplay/Makefile
+config.status: creating include/Makefile
+config.status: creating iecset/Makefile
+config.status: creating utils/Makefile
+config.status: creating utils/alsa-utils.spec
+config.status: creating seq/Makefile
+config.status: creating seq/aconnect/Makefile
+config.status: creating seq/aplaymidi/Makefile
+config.status: creating seq/aseqdump/Makefile
+config.status: creating seq/aseqnet/Makefile
+config.status: creating speaker-test/Makefile
+config.status: creating speaker-test/samples/Makefile
+config.status: creating alsaloop/Makefile
+config.status: creating alsa-info/Makefile
+config.status: creating include/aconfig.h
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+Making all in include
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/include'
+make  all-am
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/include'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/include'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/include'
+Making all in alsactl
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+Making all in init
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-alsactl.o -MD -MP -MF .deps/alsactl-alsactl.Tpo -c -o alsactl-alsactl.o `test -f 'alsactl.c' || echo './'`alsactl.c
+mv -f .deps/alsactl-alsactl.Tpo .deps/alsactl-alsactl.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-state.o -MD -MP -MF .deps/alsactl-state.Tpo -c -o alsactl-state.o `test -f 'state.c' || echo './'`state.c
+mv -f .deps/alsactl-state.Tpo .deps/alsactl-state.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-lock.o -MD -MP -MF .deps/alsactl-lock.Tpo -c -o alsactl-lock.o `test -f 'lock.c' || echo './'`lock.c
+mv -f .deps/alsactl-lock.Tpo .deps/alsactl-lock.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-utils.o -MD -MP -MF .deps/alsactl-utils.Tpo -c -o alsactl-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/alsactl-utils.Tpo .deps/alsactl-utils.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-init_parse.o -MD -MP -MF .deps/alsactl-init_parse.Tpo -c -o alsactl-init_parse.o `test -f 'init_parse.c' || echo './'`init_parse.c
+mv -f .deps/alsactl-init_parse.Tpo .deps/alsactl-init_parse.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-daemon.o -MD -MP -MF .deps/alsactl-daemon.Tpo -c -o alsactl-daemon.o `test -f 'daemon.c' || echo './'`daemon.c
+mv -f .deps/alsactl-daemon.Tpo .deps/alsactl-daemon.Po
+gcc -DHAVE_CONFIG_H -I. -I../include     -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2 -MT alsactl-monitor.o -MD -MP -MF .deps/alsactl-monitor.Tpo -c -o alsactl-monitor.o `test -f 'monitor.c' || echo './'`monitor.c
+mv -f .deps/alsactl-monitor.Tpo .deps/alsactl-monitor.Po
+gcc  -D__USE_GNU -DSYS_ASOUNDRC=\"/var/lib/alsa/asound.state\" -DSYS_LOCKFILE=\"/var/lock/asound.state.lock\" -DSYS_PIDFILE=\"/var/run/alsactl.pid\" -g -O2   -o alsactl alsactl-alsactl.o alsactl-state.o alsactl-lock.o alsactl-utils.o alsactl-init_parse.o alsactl-daemon.o alsactl-monitor.o  -lasound -lm -ldl -lpthread
+/bin/sed -r -e 's,@sbindir\@,/usr/sbin,g' -e 's,@mydatadir\@,/usr/share/alsa,g' -e 's,@daemonswitch\@,/etc/alsa/state-daemon.conf,g' < 90-alsa-restore.rules.in > 90-alsa-restore.rules || rm 90-alsa-restore.rules
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+Making all in utils
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/utils'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/utils'
+Making all in m4
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/m4'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/m4'
+Making all in po
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/po'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/po'
+Making all in alsa-info
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+Making all in alsamixer
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-card_select.o -MD -MP -MF .deps/alsamixer-card_select.Tpo -c -o alsamixer-card_select.o `test -f 'card_select.c' || echo './'`card_select.c
+mv -f .deps/alsamixer-card_select.Tpo .deps/alsamixer-card_select.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-cli.o -MD -MP -MF .deps/alsamixer-cli.Tpo -c -o alsamixer-cli.o `test -f 'cli.c' || echo './'`cli.c
+mv -f .deps/alsamixer-cli.Tpo .deps/alsamixer-cli.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-colors.o -MD -MP -MF .deps/alsamixer-colors.Tpo -c -o alsamixer-colors.o `test -f 'colors.c' || echo './'`colors.c
+mv -f .deps/alsamixer-colors.Tpo .deps/alsamixer-colors.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-device_name.o -MD -MP -MF .deps/alsamixer-device_name.Tpo -c -o alsamixer-device_name.o `test -f 'device_name.c' || echo './'`device_name.c
+mv -f .deps/alsamixer-device_name.Tpo .deps/alsamixer-device_name.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-die.o -MD -MP -MF .deps/alsamixer-die.Tpo -c -o alsamixer-die.o `test -f 'die.c' || echo './'`die.c
+mv -f .deps/alsamixer-die.Tpo .deps/alsamixer-die.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mainloop.o -MD -MP -MF .deps/alsamixer-mainloop.Tpo -c -o alsamixer-mainloop.o `test -f 'mainloop.c' || echo './'`mainloop.c
+mv -f .deps/alsamixer-mainloop.Tpo .deps/alsamixer-mainloop.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mem.o -MD -MP -MF .deps/alsamixer-mem.Tpo -c -o alsamixer-mem.o `test -f 'mem.c' || echo './'`mem.c
+mv -f .deps/alsamixer-mem.Tpo .deps/alsamixer-mem.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_controls.o -MD -MP -MF .deps/alsamixer-mixer_controls.Tpo -c -o alsamixer-mixer_controls.o `test -f 'mixer_controls.c' || echo './'`mixer_controls.c
+mv -f .deps/alsamixer-mixer_controls.Tpo .deps/alsamixer-mixer_controls.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_display.o -MD -MP -MF .deps/alsamixer-mixer_display.Tpo -c -o alsamixer-mixer_display.o `test -f 'mixer_display.c' || echo './'`mixer_display.c
+mv -f .deps/alsamixer-mixer_display.Tpo .deps/alsamixer-mixer_display.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-mixer_widget.o -MD -MP -MF .deps/alsamixer-mixer_widget.Tpo -c -o alsamixer-mixer_widget.o `test -f 'mixer_widget.c' || echo './'`mixer_widget.c
+mv -f .deps/alsamixer-mixer_widget.Tpo .deps/alsamixer-mixer_widget.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-proc_files.o -MD -MP -MF .deps/alsamixer-proc_files.Tpo -c -o alsamixer-proc_files.o `test -f 'proc_files.c' || echo './'`proc_files.c
+mv -f .deps/alsamixer-proc_files.Tpo .deps/alsamixer-proc_files.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-textbox.o -MD -MP -MF .deps/alsamixer-textbox.Tpo -c -o alsamixer-textbox.o `test -f 'textbox.c' || echo './'`textbox.c
+mv -f .deps/alsamixer-textbox.Tpo .deps/alsamixer-textbox.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-utils.o -MD -MP -MF .deps/alsamixer-utils.Tpo -c -o alsamixer-utils.o `test -f 'utils.c' || echo './'`utils.c
+mv -f .deps/alsamixer-utils.Tpo .deps/alsamixer-utils.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-volume_mapping.o -MD -MP -MF .deps/alsamixer-volume_mapping.Tpo -c -o alsamixer-volume_mapping.o `test -f 'volume_mapping.c' || echo './'`volume_mapping.c
+mv -f .deps/alsamixer-volume_mapping.Tpo .deps/alsamixer-volume_mapping.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2 -MT alsamixer-widget.o -MD -MP -MF .deps/alsamixer-widget.Tpo -c -o alsamixer-widget.o `test -f 'widget.c' || echo './'`widget.c
+mv -f .deps/alsamixer-widget.Tpo .deps/alsamixer-widget.Po
+gcc -D_GNU_SOURCE -DCURSESINC="<ncurses.h>" -g -O2   -o alsamixer alsamixer-card_select.o alsamixer-cli.o alsamixer-colors.o alsamixer-device_name.o alsamixer-die.o alsamixer-mainloop.o alsamixer-mem.o alsamixer-mixer_controls.o alsamixer-mixer_display.o alsamixer-mixer_widget.o alsamixer-proc_files.o alsamixer-textbox.o alsamixer-utils.o alsamixer-volume_mapping.o alsamixer-widget.o -lformw -lmenuw -lpanelw -lncursesw -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+Making all in amixer
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT amixer.o -MD -MP -MF .deps/amixer.Tpo -c -o amixer.o amixer.c
+mv -f .deps/amixer.Tpo .deps/amixer.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT volume_mapping.o -MD -MP -MF .deps/volume_mapping.Tpo -c -o volume_mapping.o `test -f '../alsamixer/volume_mapping.c' || echo './'`../alsamixer/volume_mapping.c
+mv -f .deps/volume_mapping.Tpo .deps/volume_mapping.Po
+gcc  -g -O2   -o amixer amixer.o volume_mapping.o -lm -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+Making all in amidi
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT amidi.o -MD -MP -MF .deps/amidi.Tpo -c -o amidi.o amidi.c
+mv -f .deps/amidi.Tpo .deps/amidi.Po
+gcc  -g -O2   -o amidi amidi.o  -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+Making all in aplay
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT aplay.o -MD -MP -MF .deps/aplay.Tpo -c -o aplay.o aplay.c
+mv -f .deps/aplay.Tpo .deps/aplay.Po
+gcc  -g -O2   -o aplay aplay.o  -lrt -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+Making all in iecset
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT iecset.o -MD -MP -MF .deps/iecset.Tpo -c -o iecset.o iecset.c
+mv -f .deps/iecset.Tpo .deps/iecset.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT iecbits.o -MD -MP -MF .deps/iecbits.Tpo -c -o iecbits.o iecbits.c
+mv -f .deps/iecbits.Tpo .deps/iecbits.Po
+gcc  -g -O2   -o iecset iecset.o iecbits.o -lm -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+Making all in speaker-test
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+Making all in samples
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT speaker-test.o -MD -MP -MF .deps/speaker-test.Tpo -c -o speaker-test.o speaker-test.c
+mv -f .deps/speaker-test.Tpo .deps/speaker-test.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include   -g -O2 -MT pink.o -MD -MP -MF .deps/pink.Tpo -c -o pink.o pink.c
+mv -f .deps/pink.Tpo .deps/pink.Po
+gcc  -g -O2   -o speaker-test speaker-test.o pink.o  -lm -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+Making all in alsaloop
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT alsaloop.o -MD -MP -MF .deps/alsaloop.Tpo -c -o alsaloop.o alsaloop.c
+mv -f .deps/alsaloop.Tpo .deps/alsaloop.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT pcmjob.o -MD -MP -MF .deps/pcmjob.Tpo -c -o pcmjob.o pcmjob.c
+mv -f .deps/pcmjob.Tpo .deps/pcmjob.Po
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include  -D_GNU_SOURCE -g -O2 -MT control.o -MD -MP -MF .deps/control.Tpo -c -o control.o control.c
+mv -f .deps/control.Tpo .deps/control.Po
+gcc -D_GNU_SOURCE -g -O2   -o alsaloop alsaloop.o pcmjob.o control.o -lm  -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+Making all in seq
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq'
+Making all in aconnect
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aconnect.o -MD -MP -MF .deps/aconnect.Tpo -c -o aconnect.o aconnect.c
+mv -f .deps/aconnect.Tpo .deps/aconnect.Po
+gcc  -g -O2   -o aconnect aconnect.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+Making all in aplaymidi
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aplaymidi.o -MD -MP -MF .deps/aplaymidi.Tpo -c -o aplaymidi.o aplaymidi.c
+mv -f .deps/aplaymidi.Tpo .deps/aplaymidi.Po
+gcc  -g -O2   -o aplaymidi aplaymidi.o  -lasound -lm -ldl -lpthread
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT arecordmidi.o -MD -MP -MF .deps/arecordmidi.Tpo -c -o arecordmidi.o arecordmidi.c
+mv -f .deps/arecordmidi.Tpo .deps/arecordmidi.Po
+gcc  -g -O2   -o arecordmidi arecordmidi.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+Making all in aseqdump
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aseqdump.o -MD -MP -MF .deps/aseqdump.Tpo -c -o aseqdump.o aseqdump.c
+mv -f .deps/aseqdump.Tpo .deps/aseqdump.Po
+gcc  -g -O2   -o aseqdump aseqdump.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+Making all in aseqnet
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+gcc -DHAVE_CONFIG_H -I. -I../../include  -I../../include   -g -O2 -MT aseqnet.o -MD -MP -MF .deps/aseqnet.Tpo -c -o aseqnet.o aseqnet.c
+mv -f .deps/aseqnet.Tpo .deps/aseqnet.Po
+gcc  -g -O2   -o aseqnet aseqnet.o  -lasound -lm -ldl -lpthread
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq'
+Making all in alsaucm
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+gcc -DHAVE_CONFIG_H -I. -I../include  -Wall -I../include   -g -O2 -MT usecase.o -MD -MP -MF .deps/usecase.Tpo -c -o usecase.o usecase.c
+mv -f .deps/usecase.Tpo .deps/usecase.Po
+gcc  -g -O2   -o alsaucm usecase.o -lasound -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+Making all in topology
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/topology'
+gcc -DHAVE_CONFIG_H -I. -I../include  -Wall -I../include   -g -O2 -MT topology.o -MD -MP -MF .deps/topology.Tpo -c -o topology.o topology.c
+mv -f .deps/topology.Tpo .deps/topology.Po
+gcc  -g -O2   -o alsatplg topology.o -lasound -lasound -lm -ldl -lpthread
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/topology'
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0'
+Making install in include
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/include'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/include'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/include'
+Making install in alsactl
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+Making install in init
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/init'
+ /usr/bin/install -c -m 644 00main default help info test hda ca0106 '/usr/share/alsa/init'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl/init'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+ /bin/mkdir -p '/usr/sbin'
+  /usr/bin/install -c alsactl '/usr/sbin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsactl.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/man/man7'
+ /bin/mkdir -p '/lib/udev/rules.d'
+ /usr/bin/install -c -m 644 90-alsa-restore.rules '/lib/udev/rules.d'
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[4]: Nothing to be done for 'install-data-hook'.
+make[4]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsactl'
+Making install in utils
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/utils'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/utils'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/utils'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/utils'
+Making install in m4
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/m4'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/m4'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/m4'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/m4'
+Making install in po
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/po'
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/alsa-utils.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/alsa-utils.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/alsa-utils.mo
+if test "alsa-utils" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/po'
+Making install in alsa-info
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+ /bin/mkdir -p '/usr/sbin'
+ /usr/bin/install -c alsa-info.sh '/usr/sbin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsa-info'
+Making install in alsamixer
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsamixer '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsamixer.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsamixer'
+Making install in amixer
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c amixer '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 amixer.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amixer'
+Making install in amidi
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c amidi '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 amidi.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/amidi'
+Making install in aplay
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aplay '/usr/bin'
+make  install-exec-hook
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+rm -f arecord
+ln -s aplay arecord
+rm -f /usr/bin/arecord
+(cd /usr/bin && ln -s aplay arecord)
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aplay.1 arecord.1 '/usr/share/man/man1'
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+rm -f /usr/share/man/man1/arecord.1
+(cd /usr/share/man/man1 && ln -s aplay.1 arecord.1)
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/aplay'
+Making install in iecset
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c iecset '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 iecset.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/iecset'
+Making install in speaker-test
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+Making install in samples
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/alsa/speaker-test'
+ /usr/bin/install -c -m 644 sample_map.csv '/usr/share/alsa/speaker-test'
+ /bin/mkdir -p '/usr/share/sounds/alsa'
+ /usr/bin/install -c -m 644 Front_Left.wav Rear_Center.wav Rear_Right.wav Side_Right.wav Front_Center.wav Front_Right.wav Noise.wav Rear_Left.wav Side_Left.wav '/usr/share/sounds/alsa'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test/samples'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c speaker-test '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 speaker-test.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/speaker-test'
+Making install in alsaloop
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsaloop '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 alsaloop.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaloop'
+Making install in seq
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq'
+Making install in aconnect
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aconnect '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aconnect.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aconnect'
+Making install in aplaymidi
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aplaymidi arecordmidi '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aplaymidi.1 arecordmidi.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aplaymidi'
+Making install in aseqdump
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aseqdump '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aseqdump.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqdump'
+Making install in aseqnet
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c aseqnet '/usr/bin'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 aseqnet.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq/aseqnet'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/seq'
+Making install in alsaucm
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsaucm '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/alsaucm'
+Making install in topology
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0/topology'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0/topology'
+ /bin/mkdir -p '/usr/bin'
+  /usr/bin/install -c alsatplg '/usr/bin'
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/topology'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0/topology'
+make[1]: Entering directory '/sources/7.9/alsa-utils-1.1.0'
+make[2]: Entering directory '/sources/7.9/alsa-utils-1.1.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/alsa-utils-1.1.0'
+/bin/mkdir -p -m 0755 /var/lib/alsa
+make[3]: Leaving directory '/sources/7.9/alsa-utils-1.1.0'
+make[2]: Leaving directory '/sources/7.9/alsa-utils-1.1.0'
+make[1]: Leaving directory '/sources/7.9/alsa-utils-1.1.0'

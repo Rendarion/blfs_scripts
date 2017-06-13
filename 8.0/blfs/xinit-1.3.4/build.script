@@ -1,0 +1,5 @@
+sed -e '/$serverargs $vtarg/ s/serverargs/: #&/' \
+    -i startx.cpp
+
+./configure $XORG_CONFIG --with-xinitdir=/etc/X11/app-defaults &&
+make

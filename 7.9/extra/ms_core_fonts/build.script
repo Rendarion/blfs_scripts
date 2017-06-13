@@ -1,0 +1,54 @@
+mkdir andale
+cd andale
+cabextract ../../andale32.exe
+cd ..
+
+mkdir arial
+cd arial
+cabextract ../../arial32.exe
+cd ..
+
+mkdir arialb
+cd arialb
+cabextract ../../arialb32.exe
+cd ..
+
+mkdir comic
+cd comic
+cabextract ../../comic32.exe
+cd ..
+
+mkdir courie
+cd courie
+cabextract ../../courie32.exe
+cd ..
+
+mkdir georgi
+cd georgi
+cabextract ../../georgi32.exe
+cd ..
+
+mkdir impact
+cd impact
+cabextract ../../times32.exe
+cd ..
+
+mkdir times
+cd times
+cabextract ../../times32.exe
+cd ..
+
+mkdir trebuc
+cd trebuc
+cabextract ../../trebuc32.exe
+cd ..
+
+mkdir verdan
+cd verdan
+cabextract ../../verdan32.exe
+cd ..
+
+mkdir webdin
+cd webdin
+cabextract ../../webdin32.exe
+cd ..

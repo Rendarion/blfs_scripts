@@ -1,0 +1,403 @@
+Making check in doc
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making check in dtrace
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc/dtrace'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/doc'
+Making check in man
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/man'
+Making check in include
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/include'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/include'
+Making check in dix
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make  check-am
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dix'
+Making check in fb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/fb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/fb'
+Making check in mi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/mi'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/mi'
+Making check in Xext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xext'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xext'
+Making check in miext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making check in sync
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/sync'
+Making check in damage
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/damage'
+Making check in shadow
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/shadow'
+Making check in rootless
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext/rootless'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/miext'
+Making check in os
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/os'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/os'
+Making check in randr
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/randr'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/randr'
+Making check in render
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/render'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/render'
+Making check in Xi
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/Xi'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/Xi'
+Making check in xkb
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xkb'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xkb'
+Making check in dbe
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dbe'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dbe'
+Making check in record
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/record'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/record'
+Making check in xfixes
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/xfixes'
+Making check in damageext
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/damageext'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/damageext'
+Making check in composite
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/composite'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/composite'
+Making check in glx
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glx'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glx'
+Making check in present
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/present'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/present'
+Making check in dri3
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/dri3'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/dri3'
+Making check in exa
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/exa'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/exa'
+Making check in glamor
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/glamor'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/glamor'
+Making check in config
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/config'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/config'
+Making check in hw
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making check in xfree86
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make  check-recursive
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in common
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make  check-am
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/common'
+Making check in ddc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ddc'
+Making check in x86emu
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/x86emu'
+Making check in int10
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/int10'
+Making check in os-support
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making check in bus
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/bus'
+Making check in linux
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/linux'
+Making check in misc
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support/misc'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/os-support'
+Making check in parser
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/parser'
+Making check in ramdac
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/ramdac'
+Making check in vgahw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vgahw'
+Making check in loader
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/loader'
+Making check in modes
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/modes'
+Making check in dri
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri'
+Making check in dri2
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making check in pci_ids
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2/pci_ids'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dri2'
+Making check in .
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in vbe
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/vbe'
+Making check in i2c
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/i2c'
+Making check in dixmods
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/dixmods'
+Making check in fbdevhw
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/fbdevhw'
+Making check in shadowfb
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/shadowfb'
+Making check in exa
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/exa'
+Making check in utils
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making check in gtf
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/gtf'
+Making check in cvt
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/cvt'
+Making check in man
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils/man'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/utils'
+Making check in doc
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/doc'
+Making check in man
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/man'
+Making check in glamor_egl
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/glamor_egl'
+Making check in drivers
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+Making check in modesetting
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers/modesetting'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86/drivers'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xfree86'
+Making check in vfb
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making check in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/vfb'
+Making check in xnest
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making check in man
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest/man'
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xnest'
+Making check in xwayland
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw/xwayland'
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/hw'
+Making check in test
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+Making check in .
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make  libxservertest.la
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: 'libxservertest.la' is up to date.
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test'
+PASS: list
+PASS: string
+PASS: xkb
+PASS: input
+PASS: xtest
+PASS: misc
+PASS: fixes
+PASS: xfree86
+PASS: os
+PASS: signal-logging
+PASS: touch
+PASS: hashtabletest
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+Making check in xi1
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+PASS: protocol-xchangedevicecontrol
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi1'
+Making check in xi2
+make[3]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[5]: Entering directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+PASS: protocol-xiqueryversion
+PASS: protocol-xiquerydevice
+PASS: protocol-xiselectevents
+PASS: protocol-xigetselectedevents
+PASS: protocol-xisetclientpointer
+PASS: protocol-xigetclientpointer
+PASS: protocol-xipassivegrabdevice
+PASS: protocol-xiquerypointer
+PASS: protocol-xiwarppointer
+PASS: protocol-eventconvert
+PASS: xi2
+============================================================================
+Testsuite summary for xorg-server 1.18.1
+============================================================================
+# TOTAL: 11
+# PASS:  11
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[4]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[3]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test/xi2'
+make[2]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1/test'
+make[1]: Entering directory '/sources/7.9/xorg-server-1.18.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/xorg-server-1.18.1'

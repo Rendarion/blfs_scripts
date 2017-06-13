@@ -1,0 +1,38 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/gcr/3.18/gcr-3.18.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.46.2"
+"libgcrypt-1.6.5"
+"libtasn1-4.7"
+"p11-kit-0.23.2"
+"gnupg-2.1.11"
+"gobject-introspection-1.46.0"
+"gtk+-3.18.7"
+"libxslt-1.1.28"
+"vala-0.28.1""
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

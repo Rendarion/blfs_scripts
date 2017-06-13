@@ -1,0 +1,539 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports GNU make features... yes
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=c++11... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for PANGOMM... yes
+checking for GTHREAD_CFLAGS... -pthread
+checking for GMMPROC_DIR... /usr/lib/glibmm-2.4/proc
+configure: Deprecated API will be built, for backwards-compatibility.
+checking for perl... /usr/bin/perl
+checking for dot... dot
+checking for doxygen... doxygen
+checking for xsltproc... /usr/bin/xsltproc
+checking for libstdc documentation... libstdc++.tag@
+checking for libsigc documentation... /usr/share/doc/libsigc++-2.0/reference/libsigc++-2.0.tag@file:///usr/share/doc/libsigc++-2.0/reference/html
+checking for glibmm documentation... /usr/share/doc/glibmm-2.4/reference/glibmm-2.4.tag@file:///usr/share/doc/glibmm-2.4/reference/html
+checking for cairomm documentation... /usr/share/doc/cairomm-1.0/reference/cairomm-1.0.tag@file:///usr/share/doc/cairomm-1.0/reference/html
+checking which C++ compiler warning flags to use... -Wall
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating tools/Makefile
+config.status: creating pango/pangomm-1.4.pc
+config.status: creating pango/pangomm-1.4-uninstalled.pc
+config.status: creating pango/src/Makefile
+config.status: creating pango/pangomm/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/reference/Doxyfile
+config.status: creating MSVC_Net2013/pangomm/pangomm.rc
+config.status: creating config.h
+config.status: creating pango/pangommconfig.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing MSVC_Net2013/pangomm/pangommconfig.h commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/pangomm-2.38.1'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/tools'
+depbase=`echo extra_defs_gen/generate_defs_pango.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+g++ -DHAVE_CONFIG_H   -I.. -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT extra_defs_gen/generate_defs_pango.o -MD -MP -MF $depbase.Tpo -c -o extra_defs_gen/generate_defs_pango.o extra_defs_gen/generate_defs_pango.cc &&\
+mv -f $depbase.Tpo $depbase.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11 -no-undefined -avoid-version  -o extra_defs_gen/generate_extra_defs extra_defs_gen/generate_defs_pango.o -lglibmm-2.4 -lcairomm-1.0 -lsigc-2.0 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lcairo -lglibmm_generate_extra_defs-2.4 
+libtool: link: g++ -Wall -g -O2 -std=c++11 -o extra_defs_gen/generate_extra_defs extra_defs_gen/generate_defs_pango.o  /usr/lib/libglibmm-2.4.so /usr/lib/libcairomm-1.0.so /usr/lib/libsigc-2.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libcairo.so /usr/lib/libglibmm_generate_extra_defs-2.4.so -pthread
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/tools'
+Making all in pango/pangomm
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT attributes.lo -MD -MP -MF .deps/attributes.Tpo -c -o attributes.lo attributes.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT attributes.lo -MD -MP -MF .deps/attributes.Tpo -c attributes.cc  -fPIC -DPIC -o .libs/attributes.o
+mv -f .deps/attributes.Tpo .deps/attributes.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT attriter.lo -MD -MP -MF .deps/attriter.Tpo -c -o attriter.lo attriter.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT attriter.lo -MD -MP -MF .deps/attriter.Tpo -c attriter.cc  -fPIC -DPIC -o .libs/attriter.o
+mv -f .deps/attriter.Tpo .deps/attriter.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT attrlist.lo -MD -MP -MF .deps/attrlist.Tpo -c -o attrlist.lo attrlist.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT attrlist.lo -MD -MP -MF .deps/attrlist.Tpo -c attrlist.cc  -fPIC -DPIC -o .libs/attrlist.o
+mv -f .deps/attrlist.Tpo .deps/attrlist.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT cairofontmap.lo -MD -MP -MF .deps/cairofontmap.Tpo -c -o cairofontmap.lo cairofontmap.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT cairofontmap.lo -MD -MP -MF .deps/cairofontmap.Tpo -c cairofontmap.cc  -fPIC -DPIC -o .libs/cairofontmap.o
+mv -f .deps/cairofontmap.Tpo .deps/cairofontmap.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT color.lo -MD -MP -MF .deps/color.Tpo -c -o color.lo color.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT color.lo -MD -MP -MF .deps/color.Tpo -c color.cc  -fPIC -DPIC -o .libs/color.o
+mv -f .deps/color.Tpo .deps/color.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT context.lo -MD -MP -MF .deps/context.Tpo -c -o context.lo context.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT context.lo -MD -MP -MF .deps/context.Tpo -c context.cc  -fPIC -DPIC -o .libs/context.o
+mv -f .deps/context.Tpo .deps/context.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT coverage.lo -MD -MP -MF .deps/coverage.Tpo -c -o coverage.lo coverage.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT coverage.lo -MD -MP -MF .deps/coverage.Tpo -c coverage.cc  -fPIC -DPIC -o .libs/coverage.o
+mv -f .deps/coverage.Tpo .deps/coverage.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT font.lo -MD -MP -MF .deps/font.Tpo -c -o font.lo font.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT font.lo -MD -MP -MF .deps/font.Tpo -c font.cc  -fPIC -DPIC -o .libs/font.o
+mv -f .deps/font.Tpo .deps/font.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontdescription.lo -MD -MP -MF .deps/fontdescription.Tpo -c -o fontdescription.lo fontdescription.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontdescription.lo -MD -MP -MF .deps/fontdescription.Tpo -c fontdescription.cc  -fPIC -DPIC -o .libs/fontdescription.o
+mv -f .deps/fontdescription.Tpo .deps/fontdescription.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontface.lo -MD -MP -MF .deps/fontface.Tpo -c -o fontface.lo fontface.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontface.lo -MD -MP -MF .deps/fontface.Tpo -c fontface.cc  -fPIC -DPIC -o .libs/fontface.o
+mv -f .deps/fontface.Tpo .deps/fontface.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontfamily.lo -MD -MP -MF .deps/fontfamily.Tpo -c -o fontfamily.lo fontfamily.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontfamily.lo -MD -MP -MF .deps/fontfamily.Tpo -c fontfamily.cc  -fPIC -DPIC -o .libs/fontfamily.o
+mv -f .deps/fontfamily.Tpo .deps/fontfamily.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontmap.lo -MD -MP -MF .deps/fontmap.Tpo -c -o fontmap.lo fontmap.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontmap.lo -MD -MP -MF .deps/fontmap.Tpo -c fontmap.cc  -fPIC -DPIC -o .libs/fontmap.o
+mv -f .deps/fontmap.Tpo .deps/fontmap.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontmetrics.lo -MD -MP -MF .deps/fontmetrics.Tpo -c -o fontmetrics.lo fontmetrics.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontmetrics.lo -MD -MP -MF .deps/fontmetrics.Tpo -c fontmetrics.cc  -fPIC -DPIC -o .libs/fontmetrics.o
+mv -f .deps/fontmetrics.Tpo .deps/fontmetrics.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT fontset.lo -MD -MP -MF .deps/fontset.Tpo -c -o fontset.lo fontset.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT fontset.lo -MD -MP -MF .deps/fontset.Tpo -c fontset.cc  -fPIC -DPIC -o .libs/fontset.o
+mv -f .deps/fontset.Tpo .deps/fontset.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT glyph.lo -MD -MP -MF .deps/glyph.Tpo -c -o glyph.lo glyph.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT glyph.lo -MD -MP -MF .deps/glyph.Tpo -c glyph.cc  -fPIC -DPIC -o .libs/glyph.o
+mv -f .deps/glyph.Tpo .deps/glyph.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT glyphstring.lo -MD -MP -MF .deps/glyphstring.Tpo -c -o glyphstring.lo glyphstring.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT glyphstring.lo -MD -MP -MF .deps/glyphstring.Tpo -c glyphstring.cc  -fPIC -DPIC -o .libs/glyphstring.o
+mv -f .deps/glyphstring.Tpo .deps/glyphstring.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT item.lo -MD -MP -MF .deps/item.Tpo -c -o item.lo item.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT item.lo -MD -MP -MF .deps/item.Tpo -c item.cc  -fPIC -DPIC -o .libs/item.o
+mv -f .deps/item.Tpo .deps/item.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT language.lo -MD -MP -MF .deps/language.Tpo -c -o language.lo language.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT language.lo -MD -MP -MF .deps/language.Tpo -c language.cc  -fPIC -DPIC -o .libs/language.o
+mv -f .deps/language.Tpo .deps/language.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT layout.lo -MD -MP -MF .deps/layout.Tpo -c -o layout.lo layout.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT layout.lo -MD -MP -MF .deps/layout.Tpo -c layout.cc  -fPIC -DPIC -o .libs/layout.o
+mv -f .deps/layout.Tpo .deps/layout.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT layoutiter.lo -MD -MP -MF .deps/layoutiter.Tpo -c -o layoutiter.lo layoutiter.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT layoutiter.lo -MD -MP -MF .deps/layoutiter.Tpo -c layoutiter.cc  -fPIC -DPIC -o .libs/layoutiter.o
+mv -f .deps/layoutiter.Tpo .deps/layoutiter.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT layoutline.lo -MD -MP -MF .deps/layoutline.Tpo -c -o layoutline.lo layoutline.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT layoutline.lo -MD -MP -MF .deps/layoutline.Tpo -c layoutline.cc  -fPIC -DPIC -o .libs/layoutline.o
+mv -f .deps/layoutline.Tpo .deps/layoutline.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT layoutrun.lo -MD -MP -MF .deps/layoutrun.Tpo -c -o layoutrun.lo layoutrun.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT layoutrun.lo -MD -MP -MF .deps/layoutrun.Tpo -c layoutrun.cc  -fPIC -DPIC -o .libs/layoutrun.o
+mv -f .deps/layoutrun.Tpo .deps/layoutrun.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT rectangle.lo -MD -MP -MF .deps/rectangle.Tpo -c -o rectangle.lo rectangle.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT rectangle.lo -MD -MP -MF .deps/rectangle.Tpo -c rectangle.cc  -fPIC -DPIC -o .libs/rectangle.o
+mv -f .deps/rectangle.Tpo .deps/rectangle.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT renderer.lo -MD -MP -MF .deps/renderer.Tpo -c -o renderer.lo renderer.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT renderer.lo -MD -MP -MF .deps/renderer.Tpo -c renderer.cc  -fPIC -DPIC -o .libs/renderer.o
+mv -f .deps/renderer.Tpo .deps/renderer.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT tabarray.lo -MD -MP -MF .deps/tabarray.Tpo -c -o tabarray.lo tabarray.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT tabarray.lo -MD -MP -MF .deps/tabarray.Tpo -c tabarray.cc  -fPIC -DPIC -o .libs/tabarray.o
+mv -f .deps/tabarray.Tpo .deps/tabarray.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT wrap_init.lo -MD -MP -MF .deps/wrap_init.Tpo -c -o wrap_init.lo wrap_init.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT wrap_init.lo -MD -MP -MF .deps/wrap_init.Tpo -c wrap_init.cc  -fPIC -DPIC -o .libs/wrap_init.o
+mv -f .deps/wrap_init.Tpo .deps/wrap_init.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H   -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16  -Wall -g -O2 -std=c++11 -MT init.lo -MD -MP -MF .deps/init.Tpo -c -o init.lo init.cc
+libtool: compile:  g++ -DHAVE_CONFIG_H -I.. -I../.. -DG_LOG_DOMAIN=\"pangomm\" -DPANGOMM_BUILD=1 -pthread -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -Wall -g -O2 -std=c++11 -MT init.lo -MD -MP -MF .deps/init.Tpo -c init.cc  -fPIC -DPIC -o .libs/init.o
+mv -f .deps/init.Tpo .deps/init.Plo
+/bin/sh ../../libtool  --tag=CXX   --mode=link g++ -Wall -g -O2 -std=c++11 -no-undefined -version-info 1:30:0  -o libpangomm-1.4.la -rpath /usr/lib attributes.lo attriter.lo attrlist.lo cairofontmap.lo color.lo context.lo coverage.lo font.lo fontdescription.lo fontface.lo fontfamily.lo fontmap.lo fontmetrics.lo fontset.lo glyph.lo glyphstring.lo item.lo language.lo layout.lo layoutiter.lo layoutline.lo layoutrun.lo rectangle.lo renderer.lo tabarray.lo wrap_init.lo init.lo -lglibmm-2.4 -lcairomm-1.0 -lsigc-2.0 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lcairo 
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o  .libs/attributes.o .libs/attriter.o .libs/attrlist.o .libs/cairofontmap.o .libs/color.o .libs/context.o .libs/coverage.o .libs/font.o .libs/fontdescription.o .libs/fontface.o .libs/fontfamily.o .libs/fontmap.o .libs/fontmetrics.o .libs/fontset.o .libs/glyph.o .libs/glyphstring.o .libs/item.o .libs/language.o .libs/layout.o .libs/layoutiter.o .libs/layoutline.o .libs/layoutrun.o .libs/rectangle.o .libs/renderer.o .libs/tabarray.o .libs/wrap_init.o .libs/init.o   -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 /usr/lib/libglibmm-2.4.so /usr/lib/libcairomm-1.0.so /usr/lib/libsigc-2.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libcairo.so -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. /usr/lib/../lib64/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crtn.o  -O2   -pthread -Wl,-soname -Wl,libpangomm-1.4.so.1 -o .libs/libpangomm-1.4.so.1.0.30
+libtool: link: (cd ".libs" && rm -f "libpangomm-1.4.so.1" && ln -s "libpangomm-1.4.so.1.0.30" "libpangomm-1.4.so.1")
+libtool: link: (cd ".libs" && rm -f "libpangomm-1.4.so" && ln -s "libpangomm-1.4.so.1.0.30" "libpangomm-1.4.so")
+libtool: link: ( cd ".libs" && rm -f "libpangomm-1.4.la" && ln -s "../libpangomm-1.4.la" "libpangomm-1.4.la" )
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/docs'
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1'
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1'
+make[1]: Leaving directory '/sources/7.9/pangomm-2.38.1'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/pangomm-2.38.1/tools'
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/tools'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pangomm-1.4/proc/m4'
+ /usr/bin/install -c -m 644 m4/convert.m4 m4/convert_pango.m4 m4/convert_pangomm.m4 '/usr/lib/pangomm-1.4/proc/m4'
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/tools'
+make[1]: Leaving directory '/sources/7.9/pangomm-2.38.1/tools'
+Making install in pango/pangomm
+make[1]: Entering directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libpangomm-1.4.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpangomm-1.4.so.1.0.30 /usr/lib/libpangomm-1.4.so.1.0.30
+libtool: install: (cd /usr/lib && { ln -s -f libpangomm-1.4.so.1.0.30 libpangomm-1.4.so.1 || { rm -f libpangomm-1.4.so.1 && ln -s libpangomm-1.4.so.1.0.30 libpangomm-1.4.so.1; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpangomm-1.4.so.1.0.30 libpangomm-1.4.so || { rm -f libpangomm-1.4.so && ln -s libpangomm-1.4.so.1.0.30 libpangomm-1.4.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpangomm-1.4.lai /usr/lib/libpangomm-1.4.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/pangomm-1.4/pangomm'
+ /usr/bin/install -c -m 644 attributes.h attriter.h attrlist.h cairofontmap.h color.h context.h coverage.h font.h fontdescription.h fontface.h fontfamily.h fontmap.h fontmetrics.h fontset.h glyph.h glyphstring.h item.h language.h layout.h layoutiter.h layoutline.h layoutrun.h rectangle.h renderer.h tabarray.h init.h types.h wrap_init.h '/usr/include/pangomm-1.4/pangomm'
+ /bin/mkdir -p '/usr/include/pangomm-1.4/pangomm/private'
+ /usr/bin/install -c -m 644 private/attributes_p.h private/attriter_p.h private/attrlist_p.h private/cairofontmap_p.h private/color_p.h private/context_p.h private/coverage_p.h private/font_p.h private/fontdescription_p.h private/fontface_p.h private/fontfamily_p.h private/fontmap_p.h private/fontmetrics_p.h private/fontset_p.h private/glyph_p.h private/glyphstring_p.h private/item_p.h private/language_p.h private/layout_p.h private/layoutiter_p.h private/layoutline_p.h private/layoutrun_p.h private/rectangle_p.h private/renderer_p.h private/tabarray_p.h '/usr/include/pangomm-1.4/pangomm/private'
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+make[1]: Leaving directory '/sources/7.9/pangomm-2.38.1/pango/pangomm'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/pangomm-2.38.1/docs'
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p '/usr/share/doc/pangomm-2.38.1/reference/html'
+/usr/bin/perl -- "../docs/doc-install.pl" --verbose --mode=0644 -l 'libsigc++-2.0.tag@../../../libsigc++-2.0/reference/html/' -l 'glibmm-2.4.tag@../../../glibmm-2.4/reference/html/' -l 'cairomm-1.0.tag@../../../cairomm-1.0/reference/html/' -t '/usr/share/doc/pangomm-2.38.1/reference/html' --glob -- 'reference/html/*.css' 'reference/html/*.gif' 'reference/html/*.html' 'reference/html/*.js' 'reference/html/*.png'
+doc-install: Using base path ../../../libsigc++-2.0/reference/html/ for tag file libsigc++-2.0.tag
+doc-install: Using base path ../../../glibmm-2.4/reference/html/ for tag file glibmm-2.4.tag
+doc-install: Using base path ../../../cairomm-1.0/reference/html/ for tag file cairomm-1.0.tag
+doc-install: Copying tabs.css
+doc-install: Copying doxygen.css
+doc-install: Copying doxygen-extra.css
+doc-install: Translating pages.html (no references)
+doc-install: Translating classPango_1_1FontFamily-members.html (rewrote 92 of 92 references)
+doc-install: Translating namespacemembers_v.html (no references)
+doc-install: Translating classPango_1_1FontMetrics.html (rewrote 2 of 2 references)
+doc-install: Translating functions_p.html (no references)
+doc-install: Translating modules.html (no references)
+doc-install: Translating classPango_1_1LayoutIter.html (rewrote 8 of 8 references)
+doc-install: Translating functions_b.html (no references)
+doc-install: Translating namespacemembers_eval.html (no references)
+doc-install: Translating classPango_1_1AttrFloat.html (rewrote 2 of 3 references)
+doc-install: Translating functions_h.html (no references)
+doc-install: Translating annotated.html (no references)
+doc-install: Translating classPango_1_1GlyphGeometry-members.html (no references)
+doc-install: Translating namespacemembers_o.html (no references)
+doc-install: Translating namespacemembers_func.html (no references)
+doc-install: Translating functions_e.html (no references)
+doc-install: Translating functions_t.html (no references)
+doc-install: Translating functions_func_g.html (no references)
+doc-install: Translating functions_func_h.html (no references)
+doc-install: Translating classPango_1_1AttrFontDesc.html (rewrote 2 of 3 references)
+doc-install: Translating classPango_1_1Rectangle-members.html (no references)
+doc-install: Translating since_1_10.html (rewrote 1 of 1 references)
+doc-install: Translating classPango_1_1AttrList-members.html (no references)
+doc-install: Translating classPango_1_1Coverage-members.html (no references)
+doc-install: Translating functions_f.html (no references)
+doc-install: Translating functions_m.html (no references)
+doc-install: Translating classPango_1_1AttrInt-members.html (no references)
+doc-install: Translating classPango_1_1FontFace.html (rewrote 98 of 99 references)
+doc-install: Translating namespacemembers_d.html (no references)
+doc-install: Translating classPango_1_1TabArray.html (rewrote 4 of 8 references)
+doc-install: Translating namespacemembers_t.html (no references)
+doc-install: Translating classPango_1_1Renderer-members.html (rewrote 92 of 92 references)
+doc-install: Translating classPango_1_1Fontset-members.html (rewrote 92 of 92 references)
+doc-install: Translating classPango_1_1AttrIter-members.html (no references)
+doc-install: Translating classPango_1_1AttrString.html (rewrote 6 of 8 references)
+doc-install: Translating hierarchy.html (rewrote 4 of 4 references)
+doc-install: Translating namespacePango.html (rewrote 12 of 12 references)
+doc-install: Translating classPango_1_1LayoutRun-members.html (no references)
+doc-install: Translating classPango_1_1Analysis-members.html (no references)
+doc-install: Translating classPango_1_1Attribute-members.html (no references)
+doc-install: Translating since_2_14.html (no references)
+doc-install: Translating classPango_1_1GlyphInfo.html (no references)
+doc-install: Translating namespacemembers_w.html (no references)
+doc-install: Translating classPango_1_1FontDescription-members.html (no references)
+doc-install: Translating since_1_16.html (no references)
+doc-install: Translating namespacemembers_r.html (no references)
+doc-install: Translating since_1_4.html (no references)
+doc-install: Translating classPango_1_1Color.html (rewrote 4 of 4 references)
+doc-install: Translating namespacemembers_m.html (no references)
+doc-install: Translating classPango_1_1Language.html (rewrote 10 of 10 references)
+doc-install: Translating classPango_1_1Font-members.html (rewrote 92 of 92 references)
+doc-install: Translating structPango_1_1AttributeTraits.html (no references)
+doc-install: Translating classPango_1_1Analysis.html (rewrote 4 of 4 references)
+doc-install: Translating namespacemembers_l.html (no references)
+doc-install: Translating functions_w.html (no references)
+doc-install: Translating since_1_14.html (no references)
+doc-install: Translating classPango_1_1AttrColor-members.html (no references)
+doc-install: Translating classPango_1_1FontMetrics-members.html (no references)
+doc-install: Translating functions_x.html (no references)
+doc-install: Translating classPango_1_1Item.html (rewrote 6 of 6 references)
+doc-install: Translating structPango_1_1AttributeTraits-members.html (no references)
+doc-install: Translating classPango_1_1LayoutIter-members.html (no references)
+doc-install: Translating classPango_1_1AttrLanguage.html (rewrote 2 of 3 references)
+doc-install: Translating classPango_1_1Renderer.html (rewrote 112 of 113 references)
+doc-install: Translating classPango_1_1LayoutLine.html (rewrote 24 of 26 references)
+doc-install: Translating functions_func_w.html (no references)
+doc-install: Translating index.html (no references)
+doc-install: Translating classPango_1_1FontMap.html (rewrote 108 of 109 references)
+doc-install: Translating functions_o.html (no references)
+doc-install: Translating classPango_1_1Item-members.html (no references)
+doc-install: Translating functions_d.html (no references)
+doc-install: Translating classPango_1_1Context-members.html (rewrote 92 of 92 references)
+doc-install: Translating functions_func_t.html (no references)
+doc-install: Translating classPango_1_1GlyphString.html (rewrote 27 of 33 references)
+doc-install: Translating classPango_1_1Fontset.html (rewrote 100 of 101 references)
+doc-install: Translating functions_s.html (no references)
+doc-install: Translating functions_func_p.html (no references)
+doc-install: Translating functions_func_~.html (no references)
+doc-install: Translating classPango_1_1Coverage.html (rewrote 12 of 12 references)
+doc-install: Translating structPango_1_1LayoutLineTraits.html (rewrote 2 of 2 references)
+doc-install: Translating classPango_1_1CairoFontMap-members.html (rewrote 78 of 78 references)
+doc-install: Translating classPango_1_1TabArray-members.html (no references)
+doc-install: Translating since_2_28.html (no references)
+doc-install: Translating namespacemembers_vars.html (no references)
+doc-install: Translating functions_func_f.html (no references)
+doc-install: Translating functions_func_i.html (no references)
+doc-install: Translating classPango_1_1AttrShape-members.html (no references)
+doc-install: Translating classPango_1_1AttrShape.html (rewrote 2 of 3 references)
+doc-install: Translating group__pangommEnums.html (no references)
+doc-install: Translating classPango_1_1AttrFloat-members.html (no references)
+doc-install: Translating since_1_32.html (no references)
+doc-install: Translating classPango_1_1GlyphString-members.html (no references)
+doc-install: Translating namespacemembers_i.html (no references)
+doc-install: Translating functions_l.html (no references)
+doc-install: Translating functions_r.html (no references)
+doc-install: Translating classPango_1_1AttrColor.html (rewrote 2 of 3 references)
+doc-install: Translating classPango_1_1Context.html (rewrote 126 of 127 references)
+doc-install: Translating inherits.html (rewrote 4 of 4 references)
+doc-install: Translating namespacemembers.html (no references)
+doc-install: Translating functions_func_e.html (no references)
+doc-install: Translating functions_func_d.html (no references)
+doc-install: Translating functions_func_o.html (no references)
+doc-install: Translating since_1_30.html (no references)
+doc-install: Translating classPango_1_1CairoFontMap.html (rewrote 91 of 92 references)
+doc-install: Translating namespacemembers_f.html (no references)
+doc-install: Translating classPango_1_1GlyphGeometry.html (no references)
+doc-install: Translating classPango_1_1Color-members.html (no references)
+doc-install: Translating classPango_1_1GlyphInfo-members.html (no references)
+doc-install: Translating namespacemembers_c.html (no references)
+doc-install: Translating deprecated.html (no references)
+doc-install: Translating classPango_1_1Layout.html (rewrote 149 of 150 references)
+doc-install: Translating classPango_1_1AttrInt.html (rewrote 2 of 3 references)
+doc-install: Translating functions_func.html (no references)
+doc-install: Translating classPango_1_1Layout-members.html (rewrote 92 of 92 references)
+doc-install: Translating since_1_8.html (no references)
+doc-install: Translating since_1_6.html (no references)
+doc-install: Translating since_1_22.html (rewrote 1 of 1 references)
+doc-install: Translating namespacemembers_u.html (no references)
+doc-install: Translating classPango_1_1AttrIter.html (rewrote 1 of 5 references)
+doc-install: Translating classPango_1_1Font.html (rewrote 100 of 101 references)
+doc-install: Translating namespacemembers_s.html (no references)
+doc-install: Translating classPango_1_1Language-members.html (no references)
+doc-install: Translating classPango_1_1FontDescription.html (rewrote 12 of 15 references)
+doc-install: Translating classPango_1_1LayoutLine-members.html (no references)
+doc-install: Translating functions_func_c.html (no references)
+doc-install: Translating structPango_1_1ItemTraits.html (no references)
+doc-install: Translating functions_c.html (no references)
+doc-install: Translating structPango_1_1LayoutLineTraits-members.html (no references)
+doc-install: Translating functions_~.html (no references)
+doc-install: Translating namespacemembers_e.html (no references)
+doc-install: Translating namespaces.html (no references)
+doc-install: Translating classPango_1_1LayoutRun.html (rewrote 2 of 2 references)
+doc-install: Translating functions_func_m.html (no references)
+doc-install: Translating since_2_16.html (no references)
+doc-install: Translating classes.html (no references)
+doc-install: Translating functions_func_b.html (no references)
+doc-install: Translating namespacemembers_type.html (no references)
+doc-install: Translating functions.html (no references)
+doc-install: Translating structPango_1_1ItemTraits-members.html (no references)
+doc-install: Translating functions_vars.html (no references)
+doc-install: Translating classPango_1_1Attribute.html (rewrote 4 of 6 references)
+doc-install: Translating since_1_18.html (no references)
+doc-install: Translating classPango_1_1FontMap-members.html (rewrote 92 of 92 references)
+doc-install: Translating functions_u.html (no references)
+doc-install: Translating classPango_1_1Rectangle.html (rewrote 0 of 1 references)
+doc-install: Translating functions_func_x.html (no references)
+doc-install: Translating functions_i.html (no references)
+doc-install: Translating classPango_1_1FontFace-members.html (rewrote 92 of 92 references)
+doc-install: Translating namespacemembers_enum.html (no references)
+doc-install: Translating classPango_1_1AttrLanguage-members.html (no references)
+doc-install: Translating namespacemembers_g.html (no references)
+doc-install: Translating functions_func_r.html (no references)
+doc-install: Translating graph_legend.html (no references)
+doc-install: Translating functions_type.html (no references)
+doc-install: Translating functions_g.html (no references)
+doc-install: Translating dir_175784427b70f00f3fb8995d1114dcb0.html (no references)
+doc-install: Translating classPango_1_1AttrFontDesc-members.html (no references)
+doc-install: Translating classPango_1_1AttrList.html (rewrote 8 of 8 references)
+doc-install: Translating functions_func_s.html (no references)
+doc-install: Translating functions_func_u.html (no references)
+doc-install: Translating functions_n.html (no references)
+doc-install: Translating classPango_1_1AttrString-members.html (no references)
+doc-install: Translating functions_func_l.html (no references)
+doc-install: Translating classPango_1_1FontFamily.html (rewrote 100 of 101 references)
+doc-install: Translating functions_func_n.html (no references)
+doc-install: Translating since_1_20.html (no references)
+doc-install: Copying jquery.js
+doc-install: Copying dynsections.js
+doc-install: Copying classPango_1_1Renderer__inherit__graph.png
+doc-install: Copying inherit_graph_8.png
+doc-install: Copying nav_g.png
+doc-install: Copying sync_off.png
+doc-install: Copying arrowright.png
+doc-install: Copying inherit_graph_12.png
+doc-install: Copying classPango_1_1FontFamily__inherit__graph.png
+doc-install: Copying nav_f.png
+doc-install: Copying bc_s.png
+doc-install: Copying nav_h.png
+doc-install: Copying open.png
+doc-install: Copying doc.png
+doc-install: Copying tab_s.png
+doc-install: Copying classPango_1_1AttrLanguage__inherit__graph.png
+doc-install: Copying tab_a.png
+doc-install: Copying folderopen.png
+doc-install: Copying sync_on.png
+doc-install: Copying inherit_graph_9.png
+doc-install: Copying inherit_graph_6.png
+doc-install: Copying classPango_1_1Font__inherit__graph.png
+doc-install: Copying bdwn.png
+doc-install: Copying inherit_graph_13.png
+doc-install: Copying doxygen.png
+doc-install: Copying inherit_graph_21.png
+doc-install: Copying classPango_1_1AttrFontDesc__inherit__graph.png
+doc-install: Copying inherit_graph_10.png
+doc-install: Copying splitbar.png
+doc-install: Copying inherit_graph_5.png
+doc-install: Copying inherit_graph_0.png
+doc-install: Copying inherit_graph_2.png
+doc-install: Copying classPango_1_1AttrString__inherit__graph.png
+doc-install: Copying inherit_graph_17.png
+doc-install: Copying arrowdown.png
+doc-install: Copying classPango_1_1AttrInt__inherit__graph.png
+doc-install: Copying inherit_graph_18.png
+doc-install: Copying tab_b.png
+doc-install: Copying classPango_1_1FontFace__inherit__graph.png
+doc-install: Copying classPango_1_1Context__inherit__graph.png
+doc-install: Copying inherit_graph_11.png
+doc-install: Copying classPango_1_1AttrShape__inherit__graph.png
+doc-install: Copying classPango_1_1AttrColor__inherit__graph.png
+doc-install: Copying inherit_graph_3.png
+doc-install: Copying classPango_1_1Layout__inherit__graph.png
+doc-install: Copying classPango_1_1AttrFloat__inherit__graph.png
+doc-install: Copying classPango_1_1FontMap__inherit__graph.png
+doc-install: Copying inherit_graph_1.png
+doc-install: Copying inherit_graph_7.png
+doc-install: Copying classPango_1_1Fontset__inherit__graph.png
+doc-install: Copying inherit_graph_15.png
+doc-install: Copying inherit_graph_16.png
+doc-install: Copying closed.png
+doc-install: Copying classPango_1_1Attribute__inherit__graph.png
+doc-install: Copying classPango_1_1CairoFontMap__inherit__graph.png
+doc-install: Copying graph_legend.png
+doc-install: Copying inherit_graph_14.png
+doc-install: Copying folderclosed.png
+doc-install: Copying inherit_graph_19.png
+doc-install: Copying tab_h.png
+doc-install: Copying inherit_graph_4.png
+doc-install: Copying inherit_graph_20.png
+/bin/mkdir -p '/usr/share/devhelp/books/pangomm-1.4'
+/usr/bin/perl -- "../docs/doc-install.pl" --verbose --mode=0644 --book-base='/usr/share/doc/pangomm-2.38.1/reference/html' -t '/usr/share/devhelp/books/pangomm-1.4' -- reference/pangomm-1.4.devhelp2
+doc-install: Using base path /usr/share/doc/pangomm-2.38.1/reference/html for Devhelp book
+doc-install: Translating pangomm-1.4.devhelp2 (rewrote base path)
+ /bin/mkdir -p '/usr/share/doc/pangomm-2.38.1/images'
+ /usr/bin/install -c -m 644 images/gtkmm_logo.gif images/top.gif '/usr/share/doc/pangomm-2.38.1/images'
+ /bin/mkdir -p '/usr/share/doc/pangomm-2.38.1/reference'
+ /usr/bin/install -c -m 644 reference/pangomm-1.4.tag '/usr/share/doc/pangomm-2.38.1/reference'
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1/docs'
+make[1]: Leaving directory '/sources/7.9/pangomm-2.38.1/docs'
+make[1]: Entering directory '/sources/7.9/pangomm-2.38.1'
+make[2]: Entering directory '/sources/7.9/pangomm-2.38.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pangomm-1.4/include'
+ /usr/bin/install -c -m 644 pango/pangommconfig.h '/usr/lib/pangomm-1.4/include'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pango/pangomm-1.4.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/include/pangomm-1.4'
+ /usr/bin/install -c -m 644 pango/pangomm.h '/usr/include/pangomm-1.4'
+make[2]: Leaving directory '/sources/7.9/pangomm-2.38.1'
+make[1]: Leaving directory '/sources/7.9/pangomm-2.38.1'

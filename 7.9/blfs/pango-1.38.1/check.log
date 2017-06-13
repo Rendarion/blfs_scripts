@@ -1,0 +1,143 @@
+Making check in pango
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+Making check in mini-fribidi
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make[5]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+PASS: check.defs
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+Making check in pango-view
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/examples'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  check-am
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tools'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make  testboundaries testboundaries_ucd testcolor testscript markup-parse test-layout test-font testattributes testiter test-pangocairo-threads test-ot-tags cxx-test
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: 'testboundaries' is up to date.
+make[2]: 'testboundaries_ucd' is up to date.
+make[2]: 'testcolor' is up to date.
+make[2]: 'testscript' is up to date.
+make[2]: 'markup-parse' is up to date.
+make[2]: 'test-layout' is up to date.
+make[2]: 'test-font' is up to date.
+make[2]: 'testattributes' is up to date.
+make[2]: 'testiter' is up to date.
+make[2]: 'test-pangocairo-threads' is up to date.
+make[2]: 'test-ot-tags' is up to date.
+make[2]: 'cxx-test' is up to date.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+PASS: testboundaries
+PASS: testboundaries_ucd
+PASS: testcolor
+PASS: testscript
+PASS: markup-parse
+PASS: test-layout
+PASS: test-font
+PASS: testattributes
+PASS: testiter
+PASS: test-pangocairo-threads
+PASS: test-ot-tags
+PASS: cxx-test
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+Making check in build
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/build'
+Making check in win32
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+Making check in vs9
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+Making check in vs11
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+Making check in vs12
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+Making check in vs14
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Entering directory '/sources/7.9/pango-1.38.1'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1'

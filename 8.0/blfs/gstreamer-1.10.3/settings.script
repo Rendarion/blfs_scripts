@@ -1,0 +1,13 @@
+URL=(
+"https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-1.10.3.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+"gobject-introspection-1.50.0"
+)

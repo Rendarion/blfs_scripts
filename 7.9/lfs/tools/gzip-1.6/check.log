@@ -1,0 +1,68 @@
+  GEN      public-submodule-commit
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/gzip-1.6'
+Making check in lib
+make[2]: Entering directory '/sources/7.9/gzip-1.6/lib'
+make  check-am
+make[3]: Entering directory '/sources/7.9/gzip-1.6/lib'
+make[3]: Leaving directory '/sources/7.9/gzip-1.6/lib'
+make[2]: Leaving directory '/sources/7.9/gzip-1.6/lib'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/gzip-1.6/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gzip-1.6/doc'
+Making check in .
+make[2]: Entering directory '/sources/7.9/gzip-1.6'
+make  check-local
+make[3]: Entering directory '/sources/7.9/gzip-1.6'
+  GEN      gzip.doc.gz
+{ test '.' != . || ./zdiff --__bindir . -c gzip.doc.gz; }
+./zdiff --__bindir . -c ./gzip.doc ./gzip.doc
+./zdiff --__bindir . ./gzip.doc gzip.doc.gz
+./zdiff --__bindir . -c - ./gzip.doc <gzip.doc.gz
+./zdiff --__bindir . -c gzip.doc.gz gzip.doc.gz
+./zgrep --__bindir . -iV >/dev/null
+for file in gunzip gzexe zcat zcmp zdiff zegrep zfgrep zforce zgrep zless zmore znew ./ChangeLog ./configure ./gzip.c; do \
+  ./gzip -cv -- "$file" | ./gzip -d | cmp - "$file" || exit 1; \
+done
+Test succeeded.
+make[3]: Leaving directory '/sources/7.9/gzip-1.6'
+make[2]: Leaving directory '/sources/7.9/gzip-1.6'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/gzip-1.6/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gzip-1.6/tests'
+make[4]: Entering directory '/sources/7.9/gzip-1.6/tests'
+PASS: helin-segv
+PASS: hufts
+PASS: keep
+PASS: memcpy-abuse
+PASS: help-version
+PASS: mixed
+PASS: null-suffix-clobber
+PASS: stdin
+PASS: trailing-nul
+PASS: unpack-invalid
+PASS: zdiff
+PASS: zgrep-f
+PASS: zgrep-context
+PASS: zgrep-signal
+PASS: znew-k
+make[5]: Entering directory '/sources/7.9/gzip-1.6/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/gzip-1.6/tests'
+============================================================================
+Testsuite summary for gzip 1.6
+============================================================================
+# TOTAL: 15
+# PASS:  15
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gzip-1.6/tests'
+make[3]: Leaving directory '/sources/7.9/gzip-1.6/tests'
+make[2]: Leaving directory '/sources/7.9/gzip-1.6/tests'
+make[1]: Leaving directory '/sources/7.9/gzip-1.6'

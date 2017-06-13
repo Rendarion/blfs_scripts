@@ -1,0 +1,14 @@
+make PREFIX=/usr                \
+     SHAREDIR=/usr/share/hwdata \
+     SHARED=yes                 \
+     install install-lib        &&
+
+chmod -v 755 /usr/lib/libpci.so
+
+update-pciids
+
+# add fcron job
+
+line="0 0 3 * *   update-pciids"
+(fcrontab -u root -l; echo "$line" ) | fcrontab -u root -
+

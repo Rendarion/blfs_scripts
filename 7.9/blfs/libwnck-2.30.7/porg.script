@@ -1,0 +1,1 @@
+make GETTEXT_PACKAGE=libwnck-1 install

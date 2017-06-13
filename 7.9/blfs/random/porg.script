@@ -1,0 +1,7 @@
+# set up variables from settings.script
+
+LFSVS=$(basename $PWD)
+source /sources/scripts/$LFSVS/blfs/settings.script
+
+cd /sources/$LFSVS/blfs-bootscripts-20150924
+make install-random

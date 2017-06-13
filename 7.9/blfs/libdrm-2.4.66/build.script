@@ -1,0 +1,5 @@
+sed -i "/pthread-stubs/d" configure.ac  &&
+autoreconf -fiv                         &&
+
+./configure --prefix=/usr --enable-udev &&
+make

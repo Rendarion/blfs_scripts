@@ -1,0 +1,173 @@
+Making check in actions
+make[1]: Entering directory '/sources/7.9/polkit-0.113/actions'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/actions'
+Making check in data
+make[1]: Entering directory '/sources/7.9/polkit-0.113/data'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/data'
+Making check in src
+make[1]: Entering directory '/sources/7.9/polkit-0.113/src'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkit'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkit'
+Making check in polkitbackend
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitbackend'
+Making check in polkitagent
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make  check-am
+make[3]: Entering directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/polkitagent'
+Making check in programs
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/programs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/programs'
+Making check in examples
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src/examples'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/src'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/src'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/polkit-0.113/docs'
+Making check in man
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/man'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs/polkit'
+make[2]: Entering directory '/sources/7.9/polkit-0.113/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/docs'
+Making check in po
+make[1]: Entering directory '/sources/7.9/polkit-0.113/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package polkit-1 --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/po'
+Making check in test
+make[1]: Entering directory '/sources/7.9/polkit-0.113/test'
+Making check in mocklibc
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making check in src
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/src'
+Making check in bin
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make  mocklibc-test
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+sed -e 's|@libdir[@]|/usr/lib|g' -e 's|@libname[@]|libmocklibc.so|g' -e 's|@top_srcdir[@]|..|g' -e 's|@top_builddir[@]|..|g' ./mocklibc-test.in > mocklibc-test
+chmod a+x mocklibc-test
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[5]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+PASS: mocklibc-test
+============================================================================
+Testsuite summary for MockLibc 1.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc/bin'
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/mocklibc'
+Making check in .
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test'
+Making check in polkit
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+make  polkitunixusertest polkitunixgrouptest polkitunixnetgrouptest polkitidentitytest
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+  CC       polkitunixusertest.o
+  CCLD     polkitunixusertest
+  CC       polkitunixgrouptest.o
+  CCLD     polkitunixgrouptest
+  CC       polkitunixnetgrouptest.o
+  CCLD     polkitunixnetgrouptest
+  CC       polkitidentitytest.o
+  CCLD     polkitidentitytest
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/polkit'
+PASS: polkitunixusertest
+PASS: polkitunixgrouptest
+PASS: polkitunixnetgrouptest
+PASS: polkitidentitytest
+============================================================================
+Testsuite summary for polkit 0.113
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/polkit'
+Making check in polkitbackend
+make[2]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make  polkitbackendjsauthoritytest
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make[3]: 'polkitbackendjsauthoritytest' is up to date.
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+make[4]: Entering directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+FAIL: polkitbackendjsauthoritytest
+============================================================================
+Testsuite summary for polkit 0.113
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See test/polkitbackend/test-suite.log
+Please report to http://lists.freedesktop.org/mailman/listinfo/polkit-devel
+============================================================================
+Makefile:768: recipe for target 'test-suite.log' failed
+make[4]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:874: recipe for target 'check-TESTS' failed
+make[3]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:947: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/polkit-0.113/test/polkitbackend'
+Makefile:500: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/polkit-0.113/test'
+Makefile:479: recipe for target 'check-recursive' failed

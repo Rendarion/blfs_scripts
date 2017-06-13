@@ -1,0 +1,678 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking platform... checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for perl5... no
+checking for perl... perl
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for ANSI C header files... (cached) yes
+checking crt_externs.h usability... no
+checking crt_externs.h presence... no
+checking for crt_externs.h... no
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for memory.h... (cached) yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking whether environ is declared... yes
+checking for _NSGetEnviron... no
+checking for locale.h... (cached) yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  am ar ast bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -lX11... yes
+checking for SmcSaveYourselfDone in -lSM... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-2.0 >= 2.30.0... 2.46.2
+checking GOBJECT_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GOBJECT_LIBS... -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-2.0 >= 2.24.0... 2.24.29
+checking GTK2_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK2_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.12.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-3.0 >= 3.2.0... 3.18.7
+checking GTK3_CFLAGS... -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK3_LIBS... -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libstartup-notification-1.0 >= 0.4... 0.12
+checking LIBSTARTUP_NOTIFICATION_CFLAGS... -I/usr/include/startup-notification-1.0
+checking LIBSTARTUP_NOTIFICATION_LIBS... -lstartup-notification-1
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfconf-0 >= 4.12.0... 4.12.0
+checking XFCONF_CFLAGS... -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking XFCONF_LIBS... -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for additional vendor name and/or info... not set
+checking for a custom manual website location... http://docs.xfce.org/help.php
+checking for optional package gladeui-1.0 >= 3.5.0... not found
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking whether to build with debugging support... minimum
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking if gcc supports -Wall... yes
+checking if gcc supports -Werror... yes
+checking if gcc supports -Wno-unused-parameter... yes
+checking whether gcc supports the GNUC visibility attribute... yes
+checking if gcc supports -Wno-sign-compare... yes
+checking PLATFORM_CPPFLAGS... 
+checking PLATFORM_CFLAGS... 
+checking PLATFORM_LDFLAGS... 
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/version.xml
+config.status: creating glade/Makefile
+config.status: creating glade/icons/Makefile
+config.status: creating glade/icons/16x16/Makefile
+config.status: creating glade/icons/22x22/Makefile
+config.status: creating icons/Makefile
+config.status: creating icons/48x48/Makefile
+config.status: creating libxfce4kbd-private/libxfce4kbd-private-2.pc
+config.status: creating libxfce4kbd-private/libxfce4kbd-private-3.pc
+config.status: creating libxfce4kbd-private/Makefile
+config.status: creating libxfce4ui/libxfce4ui-1.pc
+config.status: creating libxfce4ui/libxfce4ui-2.pc
+config.status: creating libxfce4ui/libxfce4ui-config.h
+config.status: creating libxfce4ui/Makefile
+config.status: creating xfce4-about/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+* Glade Interface Designer:  no
+* Keyboard library support:  yes
+* Startup notification:      yes
+* X11 session management:    yes
+* Debug support:             minimum
+* GNU Visibility:            yes
+* Vendor:                    none
+* Manual website:            http://docs.xfce.org/help.php
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1'
+Making all in libxfce4ui
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+  CC       libxfce4ui_1_la-libxfce4ui-aliasdef.lo
+  CC       libxfce4ui_1_la-libxfce4ui-enum-types.lo
+  CC       libxfce4ui_1_la-libxfce4ui-marshal.lo
+  CC       libxfce4ui_1_la-libxfce4ui-config.lo
+  CC       libxfce4ui_1_la-xfce-dialogs.lo
+  CC       libxfce4ui_1_la-xfce-gdk-extensions.lo
+  CC       libxfce4ui_1_la-xfce-gtk-extensions.lo
+  CC       libxfce4ui_1_la-xfce-heading.lo
+  CC       libxfce4ui_1_la-xfce-sm-client.lo
+  CC       libxfce4ui_1_la-xfce-spawn.lo
+  CC       libxfce4ui_1_la-xfce-titled-dialog.lo
+  CCLD     libxfce4ui-1.la
+  CC       libxfce4ui_2_la-libxfce4ui-aliasdef.lo
+  CC       libxfce4ui_2_la-libxfce4ui-enum-types.lo
+  CC       libxfce4ui_2_la-libxfce4ui-marshal.lo
+  CC       libxfce4ui_2_la-libxfce4ui-config.lo
+  CC       libxfce4ui_2_la-xfce-dialogs.lo
+  CC       libxfce4ui_2_la-xfce-gdk-extensions.lo
+  CC       libxfce4ui_2_la-xfce-gtk-extensions.lo
+  CC       libxfce4ui_2_la-xfce-heading.lo
+  CC       libxfce4ui_2_la-xfce-sm-client.lo
+  CC       libxfce4ui_2_la-xfce-spawn.lo
+  CC       libxfce4ui_2_la-xfce-titled-dialog.lo
+  CCLD     libxfce4ui-2.la
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+Making all in libxfce4kbd-private
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+  CC       libxfce4kbd_private_2_la-xfce-shortcuts-marshal.lo
+  CC       libxfce4kbd_private_2_la-xfce-shortcuts-provider.lo
+  CC       libxfce4kbd_private_2_la-xfce-shortcuts-grabber.lo
+  CC       libxfce4kbd_private_2_la-xfce-shortcut-dialog.lo
+  CC       libxfce4kbd_private_2_la-xfce-shortcuts.lo
+  CC       libxfce4kbd_private_2_la-xfce-shortcuts-xfwm4.lo
+  CCLD     libxfce4kbd-private-2.la
+  CC       libxfce4kbd_private_3_la-xfce-shortcuts-marshal.lo
+  CC       libxfce4kbd_private_3_la-xfce-shortcuts-provider.lo
+  CC       libxfce4kbd_private_3_la-xfce-shortcuts-grabber.lo
+  CC       libxfce4kbd_private_3_la-xfce-shortcut-dialog.lo
+  CC       libxfce4kbd_private_3_la-xfce-shortcuts.lo
+  CC       libxfce4kbd_private_3_la-xfce-shortcuts-xfwm4.lo
+  CCLD     libxfce4kbd-private-3.la
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+Making all in xfce4-about
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make  all-am
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+  CC       xfce4_about-main.o
+  CCLD     xfce4-about
+  ITMRG  xfce4-about.desktop
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+Making all in glade
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+Making all in icons
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+Making all in 16x16
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+Making all in 22x22
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+Making all in icons
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+Making all in 48x48
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+Making all in po
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/po'
+  MSGFMT am.gmo
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/po'
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1'
+Making install in libxfce4ui
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxfce4ui-1.la libxfce4ui-2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libxfce4ui-1.so.0.0.0 /usr/lib/libxfce4ui-1.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4ui-1.so.0.0.0 libxfce4ui-1.so.0 || { rm -f libxfce4ui-1.so.0 && ln -s libxfce4ui-1.so.0.0.0 libxfce4ui-1.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4ui-1.so.0.0.0 libxfce4ui-1.so || { rm -f libxfce4ui-1.so && ln -s libxfce4ui-1.so.0.0.0 libxfce4ui-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4ui-1.lai /usr/lib/libxfce4ui-1.la
+libtool: install: /usr/bin/install -c .libs/libxfce4ui-2.so.0.0.0 /usr/lib/libxfce4ui-2.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4ui-2.so.0.0.0 libxfce4ui-2.so.0 || { rm -f libxfce4ui-2.so.0 && ln -s libxfce4ui-2.so.0.0.0 libxfce4ui-2.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4ui-2.so.0.0.0 libxfce4ui-2.so || { rm -f libxfce4ui-2.so && ln -s libxfce4ui-2.so.0.0.0 libxfce4ui-2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4ui-2.lai /usr/lib/libxfce4ui-2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4ui-2/libxfce4ui'
+ /usr/bin/install -c -m 644 libxfce4ui.h libxfce4ui-config.h libxfce4ui-enum-types.h xfce-dialogs.h xfce-gdk-extensions.h xfce-gtk-extensions.h xfce-spawn.h xfce-titled-dialog.h xfce-sm-client.h '/usr/include/xfce4/libxfce4ui-2/libxfce4ui'
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4ui-1/libxfce4ui'
+ /usr/bin/install -c -m 644 libxfce4ui.h libxfce4ui-config.h libxfce4ui-enum-types.h xfce-dialogs.h xfce-gdk-extensions.h xfce-gtk-extensions.h xfce-spawn.h xfce-titled-dialog.h xfce-sm-client.h '/usr/include/xfce4/libxfce4ui-1/libxfce4ui'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxfce4ui-1.pc libxfce4ui-2.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4ui'
+Making install in libxfce4kbd-private
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libxfce4kbd-private-2.la libxfce4kbd-private-3.la '/usr/lib'
+libtool: install: (cd /sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private; /bin/sh "/sources/7.9/libxfce4ui-4.12.1/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -export-dynamic -version-info 0:0:0 -export-symbols-regex "^[^_].*" -no-undefined -Wl,--as-needed -Wl,-O1 -o libxfce4kbd-private-2.la -rpath /usr/lib libxfce4kbd_private_2_la-xfce-shortcuts-marshal.lo libxfce4kbd_private_2_la-xfce-shortcuts-provider.lo libxfce4kbd_private_2_la-xfce-shortcuts-grabber.lo libxfce4kbd_private_2_la-xfce-shortcut-dialog.lo libxfce4kbd_private_2_la-xfce-shortcuts.lo libxfce4kbd_private_2_la-xfce-shortcuts-xfwm4.lo ../libxfce4ui/libxfce4ui-1.la -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lSM -lICE -lX11 -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libxfce4kbd-private-2.so.0.0.0T /usr/lib/libxfce4kbd-private-2.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4kbd-private-2.so.0.0.0 libxfce4kbd-private-2.so.0 || { rm -f libxfce4kbd-private-2.so.0 && ln -s libxfce4kbd-private-2.so.0.0.0 libxfce4kbd-private-2.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4kbd-private-2.so.0.0.0 libxfce4kbd-private-2.so || { rm -f libxfce4kbd-private-2.so && ln -s libxfce4kbd-private-2.so.0.0.0 libxfce4kbd-private-2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4kbd-private-2.lai /usr/lib/libxfce4kbd-private-2.la
+libtool: install: (cd /sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private; /bin/sh "/sources/7.9/libxfce4ui-4.12.1/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -export-dynamic -version-info 0:0:0 -export-symbols-regex "^[^_].*" -no-undefined -Wl,--as-needed -Wl,-O1 -o libxfce4kbd-private-3.la -rpath /usr/lib libxfce4kbd_private_3_la-xfce-shortcuts-marshal.lo libxfce4kbd_private_3_la-xfce-shortcuts-provider.lo libxfce4kbd_private_3_la-xfce-shortcuts-grabber.lo libxfce4kbd_private_3_la-xfce-shortcut-dialog.lo libxfce4kbd_private_3_la-xfce-shortcuts.lo libxfce4kbd_private_3_la-xfce-shortcuts-xfwm4.lo ../libxfce4ui/libxfce4ui-2.la -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lSM -lICE -lX11 -lxfce4util -lglib-2.0 -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/libxfce4kbd-private-3.so.0.0.0T /usr/lib/libxfce4kbd-private-3.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4kbd-private-3.so.0.0.0 libxfce4kbd-private-3.so.0 || { rm -f libxfce4kbd-private-3.so.0 && ln -s libxfce4kbd-private-3.so.0.0.0 libxfce4kbd-private-3.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libxfce4kbd-private-3.so.0.0.0 libxfce4kbd-private-3.so || { rm -f libxfce4kbd-private-3.so && ln -s libxfce4kbd-private-3.so.0.0.0 libxfce4kbd-private-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libxfce4kbd-private-3.lai /usr/lib/libxfce4kbd-private-3.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4kbd-private-3/libxfce4kbd-private'
+ /usr/bin/install -c -m 644 xfce-shortcuts-provider.h xfce-shortcuts-grabber.h xfce-shortcut-dialog.h xfce-shortcuts.h xfce-shortcuts-xfwm4.h '/usr/include/xfce4/libxfce4kbd-private-3/libxfce4kbd-private'
+ /bin/mkdir -p '/usr/include/xfce4/libxfce4kbd-private-2/libxfce4kbd-private'
+ /usr/bin/install -c -m 644 xfce-shortcuts-provider.h xfce-shortcuts-grabber.h xfce-shortcut-dialog.h xfce-shortcuts.h xfce-shortcuts-xfwm4.h '/usr/include/xfce4/libxfce4kbd-private-2/libxfce4kbd-private'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libxfce4kbd-private-2.pc libxfce4kbd-private-3.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/etc/xdg/xfce4/xfconf/xfce-perchannel-xml'
+ /usr/bin/install -c -m 644 xfce4-keyboard-shortcuts.xml '/etc/xdg/xfce4/xfconf/xfce-perchannel-xml'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/libxfce4kbd-private'
+Making install in xfce4-about
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make  install-am
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c xfce4-about '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/xfce4-about /usr/bin/xfce4-about
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 xfce4-about.desktop '/usr/share/applications'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/xfce4-about'
+Making install in glade
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+Making install in icons
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+Making install in 16x16
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/16x16'
+Making install in 22x22
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons/22x22'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade/icons'
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/glade'
+Making install in icons
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+Making install in 48x48
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 xfce4-logo.png '/usr/share/icons/hicolor/48x48/apps'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons/48x48'
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[3]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+Updating Gtk icon cache.
+make[4]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[3]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/icons'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/ix01.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libxfce4ui.devhelp2
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-extensions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-fundamentals.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-introduction.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-libxfce4ui-config.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-sm.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-widgets.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-xfce-dialogs.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-xfce-gdk-extensions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-xfce-gtk-extensions.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-xfce-spawn.html
+ /usr/bin/install -c -m 644 ./html/libxfce4ui-xfce-titled-dialog.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+ /usr/bin/install -c -m 644 ./html/XfceSMClient.html
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/docs'
+Making install in po
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1/po'
+linguas="am ar ast bg bn ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/libxfce4ui-4.12.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/libxfce4ui.mo; \
+    echo "installing $lang.gmo as $dir/libxfce4ui.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/libxfce4ui.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/libxfce4ui.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/libxfce4ui.mo.m; \
+    echo "installing $lang.gmo.m as $dir/libxfce4ui.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/libxfce4ui.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/libxfce4ui.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/libxfce4ui.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/libxfce4ui.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/libxfce4ui.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/libxfce4ui.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/libxfce4ui.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/libxfce4ui.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/libxfce4ui.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/libxfce4ui.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/libxfce4ui.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/libxfce4ui.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/libxfce4ui.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/libxfce4ui.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/libxfce4ui.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/libxfce4ui.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/libxfce4ui.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/libxfce4ui.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/libxfce4ui.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/libxfce4ui.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/libxfce4ui.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/libxfce4ui.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/libxfce4ui.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/libxfce4ui.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/libxfce4ui.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/libxfce4ui.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/libxfce4ui.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/libxfce4ui.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/libxfce4ui.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/libxfce4ui.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/libxfce4ui.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/libxfce4ui.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/libxfce4ui.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/libxfce4ui.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/libxfce4ui.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/libxfce4ui.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/libxfce4ui.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/libxfce4ui.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/libxfce4ui.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/libxfce4ui.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/libxfce4ui.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/libxfce4ui.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/libxfce4ui.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/libxfce4ui.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/libxfce4ui.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/libxfce4ui.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/libxfce4ui.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/libxfce4ui.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/libxfce4ui.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/libxfce4ui.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/libxfce4ui.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/libxfce4ui.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/libxfce4ui.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/libxfce4ui.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/libxfce4ui.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/libxfce4ui.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/libxfce4ui.mo
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1/po'
+make[1]: Entering directory '/sources/7.9/libxfce4ui-4.12.1'
+make[2]: Entering directory '/sources/7.9/libxfce4ui-4.12.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1'
+make[1]: Leaving directory '/sources/7.9/libxfce4ui-4.12.1'

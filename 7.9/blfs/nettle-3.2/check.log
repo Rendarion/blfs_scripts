@@ -1,0 +1,287 @@
+make check-here
+make[1]: Entering directory '/sources/7.9/nettle-3.2'
+true
+make[1]: Leaving directory '/sources/7.9/nettle-3.2'
+set -e; for d in tools testsuite examples; do \
+  echo "Making check in $d" ; (cd $d && make check); done
+Making check in tools
+make[1]: Entering directory '/sources/7.9/nettle-3.2/tools'
+true
+make[1]: Leaving directory '/sources/7.9/nettle-3.2/tools'
+Making check in testsuite
+make[1]: Entering directory '/sources/7.9/nettle-3.2/testsuite'
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT aes-test.o -MD -MP -MF aes-test.o.d -c aes-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  aes-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o aes-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT arcfour-test.o -MD -MP -MF arcfour-test.o.d -c arcfour-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  arcfour-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o arcfour-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT arctwo-test.o -MD -MP -MF arctwo-test.o.d -c arctwo-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  arctwo-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o arctwo-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT blowfish-test.o -MD -MP -MF blowfish-test.o.d -c blowfish-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  blowfish-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o blowfish-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT cast128-test.o -MD -MP -MF cast128-test.o.d -c cast128-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  cast128-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o cast128-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT base16-test.o -MD -MP -MF base16-test.o.d -c base16-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  base16-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o base16-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT base64-test.o -MD -MP -MF base64-test.o.d -c base64-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  base64-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o base64-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT camellia-test.o -MD -MP -MF camellia-test.o.d -c camellia-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  camellia-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o camellia-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT chacha-test.o -MD -MP -MF chacha-test.o.d -c chacha-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  chacha-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o chacha-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT des-test.o -MD -MP -MF des-test.o.d -c des-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  des-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o des-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT des3-test.o -MD -MP -MF des3-test.o.d -c des3-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  des3-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o des3-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT des-compat-test.o -MD -MP -MF des-compat-test.o.d -c des-compat-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  des-compat-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o des-compat-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT md2-test.o -MD -MP -MF md2-test.o.d -c md2-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  md2-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o md2-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT md4-test.o -MD -MP -MF md4-test.o.d -c md4-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  md4-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o md4-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT md5-test.o -MD -MP -MF md5-test.o.d -c md5-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  md5-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o md5-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT md5-compat-test.o -MD -MP -MF md5-compat-test.o.d -c md5-compat-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  md5-compat-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o md5-compat-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT memxor-test.o -MD -MP -MF memxor-test.o.d -c memxor-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  memxor-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o memxor-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT gosthash94-test.o -MD -MP -MF gosthash94-test.o.d -c gosthash94-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  gosthash94-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o gosthash94-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ripemd160-test.o -MD -MP -MF ripemd160-test.o.d -c ripemd160-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ripemd160-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ripemd160-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT salsa20-test.o -MD -MP -MF salsa20-test.o.d -c salsa20-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  salsa20-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o salsa20-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha1-test.o -MD -MP -MF sha1-test.o.d -c sha1-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha1-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha1-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha224-test.o -MD -MP -MF sha224-test.o.d -c sha224-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha224-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha224-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha256-test.o -MD -MP -MF sha256-test.o.d -c sha256-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha256-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha256-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha384-test.o -MD -MP -MF sha384-test.o.d -c sha384-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha384-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha384-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha512-test.o -MD -MP -MF sha512-test.o.d -c sha512-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha512-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha512-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha512-224-test.o -MD -MP -MF sha512-224-test.o.d -c sha512-224-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha512-224-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha512-224-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha512-256-test.o -MD -MP -MF sha512-256-test.o.d -c sha512-256-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha512-256-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha512-256-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha3-permute-test.o -MD -MP -MF sha3-permute-test.o.d -c sha3-permute-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha3-permute-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha3-permute-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha3-224-test.o -MD -MP -MF sha3-224-test.o.d -c sha3-224-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha3-224-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha3-224-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha3-256-test.o -MD -MP -MF sha3-256-test.o.d -c sha3-256-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha3-256-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha3-256-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha3-384-test.o -MD -MP -MF sha3-384-test.o.d -c sha3-384-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha3-384-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha3-384-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sha3-512-test.o -MD -MP -MF sha3-512-test.o.d -c sha3-512-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sha3-512-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sha3-512-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT serpent-test.o -MD -MP -MF serpent-test.o.d -c serpent-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  serpent-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o serpent-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT twofish-test.o -MD -MP -MF twofish-test.o.d -c twofish-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  twofish-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o twofish-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT version-test.o -MD -MP -MF version-test.o.d -c version-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  version-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o version-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT knuth-lfib-test.o -MD -MP -MF knuth-lfib-test.o.d -c knuth-lfib-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  knuth-lfib-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o knuth-lfib-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT cbc-test.o -MD -MP -MF cbc-test.o.d -c cbc-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  cbc-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o cbc-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ctr-test.o -MD -MP -MF ctr-test.o.d -c ctr-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ctr-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ctr-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT gcm-test.o -MD -MP -MF gcm-test.o.d -c gcm-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  gcm-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o gcm-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT eax-test.o -MD -MP -MF eax-test.o.d -c eax-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  eax-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o eax-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ccm-test.o -MD -MP -MF ccm-test.o.d -c ccm-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ccm-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ccm-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT poly1305-test.o -MD -MP -MF poly1305-test.o.d -c poly1305-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  poly1305-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o poly1305-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT chacha-poly1305-test.o -MD -MP -MF chacha-poly1305-test.o.d -c chacha-poly1305-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  chacha-poly1305-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o chacha-poly1305-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT hmac-test.o -MD -MP -MF hmac-test.o.d -c hmac-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  hmac-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o hmac-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT umac-test.o -MD -MP -MF umac-test.o.d -c umac-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  umac-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o umac-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT meta-hash-test.o -MD -MP -MF meta-hash-test.o.d -c meta-hash-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  meta-hash-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o meta-hash-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT meta-cipher-test.o -MD -MP -MF meta-cipher-test.o.d -c meta-cipher-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  meta-cipher-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o meta-cipher-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT meta-aead-test.o -MD -MP -MF meta-aead-test.o.d -c meta-aead-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  meta-aead-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o meta-aead-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT meta-armor-test.o -MD -MP -MF meta-armor-test.o.d -c meta-armor-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  meta-armor-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o meta-armor-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT buffer-test.o -MD -MP -MF buffer-test.o.d -c buffer-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  buffer-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o buffer-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT yarrow-test.o -MD -MP -MF yarrow-test.o.d -c yarrow-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  yarrow-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o yarrow-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT pbkdf2-test.o -MD -MP -MF pbkdf2-test.o.d -c pbkdf2-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  pbkdf2-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o pbkdf2-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sexp-test.o -MD -MP -MF sexp-test.o.d -c sexp-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sexp-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sexp-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sexp-format-test.o -MD -MP -MF sexp-format-test.o.d -c sexp-format-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sexp-format-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sexp-format-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT rsa2sexp-test.o -MD -MP -MF rsa2sexp-test.o.d -c rsa2sexp-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  rsa2sexp-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o rsa2sexp-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT sexp2rsa-test.o -MD -MP -MF sexp2rsa-test.o.d -c sexp2rsa-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  sexp2rsa-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o sexp2rsa-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT bignum-test.o -MD -MP -MF bignum-test.o.d -c bignum-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  bignum-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o bignum-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT random-prime-test.o -MD -MP -MF random-prime-test.o.d -c random-prime-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  random-prime-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o random-prime-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT pkcs1-test.o -MD -MP -MF pkcs1-test.o.d -c pkcs1-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  pkcs1-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o pkcs1-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT rsa-sign-tr-test.o -MD -MP -MF rsa-sign-tr-test.o.d -c rsa-sign-tr-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  rsa-sign-tr-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o rsa-sign-tr-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT rsa-test.o -MD -MP -MF rsa-test.o.d -c rsa-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  rsa-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o rsa-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT rsa-encrypt-test.o -MD -MP -MF rsa-encrypt-test.o.d -c rsa-encrypt-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  rsa-encrypt-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o rsa-encrypt-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT rsa-keygen-test.o -MD -MP -MF rsa-keygen-test.o.d -c rsa-keygen-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  rsa-keygen-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o rsa-keygen-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT dsa-test.o -MD -MP -MF dsa-test.o.d -c dsa-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  dsa-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o dsa-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT dsa-keygen-test.o -MD -MP -MF dsa-keygen-test.o.d -c dsa-keygen-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  dsa-keygen-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o dsa-keygen-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT curve25519-dh-test.o -MD -MP -MF curve25519-dh-test.o.d -c curve25519-dh-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  curve25519-dh-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o curve25519-dh-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-mod-test.o -MD -MP -MF ecc-mod-test.o.d -c ecc-mod-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-mod-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-mod-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-modinv-test.o -MD -MP -MF ecc-modinv-test.o.d -c ecc-modinv-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-modinv-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-modinv-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-redc-test.o -MD -MP -MF ecc-redc-test.o.d -c ecc-redc-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-redc-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-redc-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-sqrt-test.o -MD -MP -MF ecc-sqrt-test.o.d -c ecc-sqrt-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-sqrt-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-sqrt-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-dup-test.o -MD -MP -MF ecc-dup-test.o.d -c ecc-dup-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-dup-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-dup-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-add-test.o -MD -MP -MF ecc-add-test.o.d -c ecc-add-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-add-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-add-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-mul-g-test.o -MD -MP -MF ecc-mul-g-test.o.d -c ecc-mul-g-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-mul-g-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-mul-g-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecc-mul-a-test.o -MD -MP -MF ecc-mul-a-test.o.d -c ecc-mul-a-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecc-mul-a-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecc-mul-a-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecdsa-sign-test.o -MD -MP -MF ecdsa-sign-test.o.d -c ecdsa-sign-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecdsa-sign-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecdsa-sign-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecdsa-verify-test.o -MD -MP -MF ecdsa-verify-test.o.d -c ecdsa-verify-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecdsa-verify-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecdsa-verify-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecdsa-keygen-test.o -MD -MP -MF ecdsa-keygen-test.o.d -c ecdsa-keygen-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecdsa-keygen-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecdsa-keygen-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ecdh-test.o -MD -MP -MF ecdh-test.o.d -c ecdh-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ecdh-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ecdh-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT eddsa-compress-test.o -MD -MP -MF eddsa-compress-test.o.d -c eddsa-compress-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  eddsa-compress-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o eddsa-compress-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT eddsa-sign-test.o -MD -MP -MF eddsa-sign-test.o.d -c eddsa-sign-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  eddsa-sign-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o eddsa-sign-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT eddsa-verify-test.o -MD -MP -MF eddsa-verify-test.o.d -c eddsa-verify-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  eddsa-verify-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o eddsa-verify-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT ed25519-test.o -MD -MP -MF ed25519-test.o.d -c ed25519-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  ed25519-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o ed25519-test
+g++ -I.. -I..  -DHAVE_CONFIG_H -g -O2 -MT cxx-test.o -MD -MP -MF cxx-test.o.d -c cxx-test.cxx && true
+g++ -g -O2 -L..  cxx-test.o testutils.o ../nettle-internal.o -lhogweed -lnettle -lgmp  -o cxx-test
+gcc -I.. -I..  -DHAVE_CONFIG_H -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs  -MT dlopen-test.o -MD -MP -MF dlopen-test.o.d -c dlopen-test.c && true
+gcc -g -O2 -ggdb3 -Wall -W   -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes   -Wpointer-arith -Wbad-function-cast -Wnested-externs -L..  dlopen-test.o -ldl -o dlopen-test
+LD_LIBRARY_PATH=../.lib PATH="../.lib:$PATH" srcdir="." \
+  EMULATOR="" NM="nm" EXEEXT="" \
+          ../run-tests aes-test arcfour-test arctwo-test blowfish-test cast128-test base16-test base64-test camellia-test chacha-test des-test des3-test des-compat-test md2-test md4-test md5-test md5-compat-test memxor-test gosthash94-test ripemd160-test salsa20-test sha1-test sha224-test sha256-test sha384-test sha512-test sha512-224-test sha512-256-test sha3-permute-test sha3-224-test sha3-256-test sha3-384-test sha3-512-test serpent-test twofish-test version-test knuth-lfib-test cbc-test ctr-test gcm-test eax-test ccm-test poly1305-test chacha-poly1305-test hmac-test umac-test meta-hash-test meta-cipher-test meta-aead-test meta-armor-test buffer-test yarrow-test pbkdf2-test  sexp-test sexp-format-test rsa2sexp-test sexp2rsa-test bignum-test random-prime-test pkcs1-test rsa-sign-tr-test rsa-test rsa-encrypt-test rsa-keygen-test dsa-test dsa-keygen-test curve25519-dh-test ecc-mod-test ecc-modinv-test ecc-redc-test ecc-sqrt-test ecc-dup-test ecc-add-test ecc-mul-g-test ecc-mul-a-test ecdsa-sign-test ecdsa-verify-test ecdsa-keygen-test ecdh-test eddsa-compress-test eddsa-sign-test eddsa-verify-test ed25519-test cxx-test sexp-conv-test pkcs1-conv-test nettle-pbkdf2-test symbols-test  dlopen-test
+PASS: aes
+PASS: arcfour
+PASS: arctwo
+PASS: blowfish
+PASS: cast128
+PASS: base16
+PASS: base64
+PASS: camellia
+PASS: chacha
+PASS: des
+PASS: des3
+PASS: des-compat
+PASS: md2
+PASS: md4
+PASS: md5
+PASS: md5-compat
+PASS: memxor
+PASS: gosthash94
+PASS: ripemd160
+PASS: salsa20
+PASS: sha1
+PASS: sha224
+PASS: sha256
+PASS: sha384
+PASS: sha512
+PASS: sha512-224
+PASS: sha512-256
+PASS: sha3-permute
+PASS: sha3-224
+PASS: sha3-256
+PASS: sha3-384
+PASS: sha3-512
+PASS: serpent
+PASS: twofish
+PASS: version
+PASS: knuth-lfib
+PASS: cbc
+PASS: ctr
+PASS: gcm
+PASS: eax
+PASS: ccm
+PASS: poly1305
+PASS: chacha-poly1305
+PASS: hmac
+PASS: umac
+PASS: meta-hash
+PASS: meta-cipher
+PASS: meta-aead
+PASS: meta-armor
+PASS: buffer
+PASS: yarrow
+PASS: pbkdf2
+PASS: sexp
+PASS: sexp-format
+PASS: rsa2sexp
+PASS: sexp2rsa
+PASS: bignum
+PASS: random-prime
+PASS: pkcs1
+PASS: rsa-sign-tr
+PASS: rsa
+PASS: rsa-encrypt
+PASS: rsa-keygen
+PASS: dsa
+PASS: dsa-keygen
+PASS: curve25519-dh
+PASS: ecc-mod
+PASS: ecc-modinv
+PASS: ecc-redc
+PASS: ecc-sqrt
+PASS: ecc-dup
+PASS: ecc-add
+PASS: ecc-mul-g
+PASS: ecc-mul-a
+PASS: ecdsa-sign
+PASS: ecdsa-verify
+PASS: ecdsa-keygen
+PASS: ecdh
+PASS: eddsa-compress
+PASS: eddsa-sign
+PASS: eddsa-verify
+PASS: ed25519
+PASS: cxx
+PASS: sexp-conv
+PASS: pkcs1-conv
+PASS: nettle-pbkdf2
+PASS: symbols
+PASS: dlopen
+===================
+All 88 tests passed
+===================
+make[1]: Leaving directory '/sources/7.9/nettle-3.2/testsuite'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/nettle-3.2/examples'
+LD_LIBRARY_PATH=../.lib PATH="../.lib:$PATH" srcdir="." \
+  EMULATOR="" EXEEXT="" \
+          ".."/run-tests rsa-sign-test rsa-verify-test rsa-encrypt-test
+PASS: rsa-sign
+PASS: rsa-verify
+PASS: rsa-encrypt
+==================
+All 3 tests passed
+==================
+make[1]: Leaving directory '/sources/7.9/nettle-3.2/examples'

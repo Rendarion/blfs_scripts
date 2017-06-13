@@ -1,0 +1,1104 @@
+installing missing dependency: cairo-1.14.6 ... done!
+--2016-06-10 18:09:18--  http://ftp.gnome.org/pub/gnome/sources/pango/1.38/pango-1.38.1.tar.xz
+Resolving ftp.gnome.org... 130.239.18.165, 130.239.18.173, 2001:6b0:e:2018::165, ...
+Connecting to ftp.gnome.org|130.239.18.165|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1047372 (1023K) [application/x-xz]
+Saving to: 'pango-1.38.1.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  4%  301K 3s
+    50K .......... .......... .......... .......... ..........  9%  561K 2s
+   100K .......... .......... .......... .......... .......... 14% 4.82M 2s
+   150K .......... .......... .......... .......... .......... 19% 1.89M 1s
+   200K .......... .......... .......... .......... .......... 24%  940K 1s
+   250K .......... .......... .......... .......... .......... 29% 4.67M 1s
+   300K .......... .......... .......... .......... .......... 34% 2.68M 1s
+   350K .......... .......... .......... .......... .......... 39% 4.14M 1s
+   400K .......... .......... .......... .......... .......... 43% 1.04M 1s
+   450K .......... .......... .......... .......... .......... 48% 2.86M 0s
+   500K .......... .......... .......... .......... .......... 53% 2.59M 0s
+   550K .......... .......... .......... .......... .......... 58% 2.90M 0s
+   600K .......... .......... .......... .......... .......... 63% 3.92M 0s
+   650K .......... .......... .......... .......... .......... 68% 2.33M 0s
+   700K .......... .......... .......... .......... .......... 73% 1.05M 0s
+   750K .......... .......... .......... .......... .......... 78% 2.09M 0s
+   800K .......... .......... .......... .......... .......... 83% 1.46M 0s
+   850K .......... .......... .......... .......... .......... 87%  376K 0s
+   900K .......... .......... .......... .......... .......... 92%  115M 0s
+   950K .......... .......... .......... .......... .......... 97%  909K 0s
+  1000K .......... .......... ..                              100%  118M=0.8s
+
+2016-06-10 18:09:19 (1.23 MB/s) - 'pango-1.38.1.tar.xz' saved [1047372/1047372]
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for native Win32... no
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for c++... c++
+checking whether we are using the GNU C++ compiler... yes
+checking whether c++ accepts -g... yes
+checking dependency style of c++... gcc3
+checking for sysconf... yes
+checking for getpagesize... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... c++ -E
+checking for ld used by c++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the c++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for c++ option to produce PIC... -fPIC -DPIC
+checking if c++ PIC flag -fPIC -DPIC works... yes
+checking if c++ static flag -static works... yes
+checking if c++ supports -c -o file.o... yes
+checking if c++ supports -c -o file.o... (cached) yes
+checking whether the c++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: creating ./config.lt
+config.lt: creating libtool
+checking for some Win32 platform... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for HARFBUZZ... yes
+checking for FONTCONFIG... yes
+checking for FcWeightFromOpenType... no
+checking for FREETYPE... yes
+checking for XFT... yes
+checking for CoreText availability... no
+checking for CAIRO... yes
+checking which cairo font backends could be used... freetype 
+checking for GLIB... yes
+checking for LIBTHAI... no
+checking for gobject-introspection... yes
+checking for flockfile... yes
+checking for strtok_r... yes
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.15 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking for -Bsymbolic-functions linker flag... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for unistd.h... (cached) yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pango/Makefile
+config.status: creating pango/mini-fribidi/Makefile
+config.status: creating pango/pango.rc
+config.status: creating pango/pangoft2.rc
+config.status: creating pango/pangowin32.rc
+config.status: creating pango/pangocairo.rc
+config.status: creating pango/pangoxft.rc
+config.status: creating pango-view/Makefile
+config.status: creating examples/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/version.xml
+config.status: creating tools/Makefile
+config.status: creating tests/Makefile
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating build/win32/vs14/Makefile
+config.status: creating pango.pc
+config.status: creating pangowin32.pc
+config.status: creating pangoft2.pc
+config.status: creating pangoxft.pc
+config.status: creating pangocairo.pc
+config.status: creating pango-uninstalled.pc
+config.status: creating pangowin32-uninstalled.pc
+config.status: creating pangoft2-uninstalled.pc
+config.status: creating pangoxft-uninstalled.pc
+config.status: creating pangocairo-uninstalled.pc
+config.status: creating config.h.win32
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing pango/pango-features.h commands
+config.status: creating pango/pango-features.h
+config.status: pango/pango-features.h is unchanged
+configuration:
+	backends: Cairo Xft FreeType
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/pango-1.38.1'
+Making all in pango
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+  GEN      s-enum-types-h
+  GEN      s-enum-types-c
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+Making all in mini-fribidi
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+  CC       fribidi.lo
+  CC       fribidi_char_type.lo
+  CC       fribidi_types.lo
+  CCLD     libmini-fribidi.la
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+  CC       break.lo
+  CC       ellipsize.lo
+  CC       fonts.lo
+  CC       glyphstring.lo
+  CC       modules.lo
+  CC       pango-attributes.lo
+  CC       pango-bidi-type.lo
+  CC       pango-color.lo
+  CC       pango-context.lo
+  CC       pango-coverage.lo
+  CC       pango-engine.lo
+  CC       pango-fontmap.lo
+  CC       pango-fontset.lo
+  CC       pango-glyph-item.lo
+  CC       pango-gravity.lo
+  CC       pango-item.lo
+  CC       pango-language.lo
+  CC       pango-layout.lo
+  CC       pango-markup.lo
+pango-markup.c: In function 'span_parse_int':
+pango-markup.c:955:3: warning: 'pango_scan_int' is deprecated [-Wdeprecated-declarations]
+   if (!pango_scan_int (&end, val) || *end != '\0')
+   ^
+In file included from ../pango/pango.h:46:0,
+                 from pango-impl-utils.h:28,
+                 from pango-markup.c:30:
+../pango/pango-utils.h:48:10: note: declared here
+ gboolean pango_scan_int       (const char **pos,
+          ^
+pango-markup.c: In function 'span_parse_alpha':
+pango-markup.c:1040:3: warning: 'pango_scan_int' is deprecated [-Wdeprecated-declarations]
+   if (pango_scan_int (&end, &int_val))
+   ^
+In file included from ../pango/pango.h:46:0,
+                 from pango-impl-utils.h:28,
+                 from pango-markup.c:30:
+../pango/pango-utils.h:48:10: note: declared here
+ gboolean pango_scan_int       (const char **pos,
+          ^
+pango-markup.c: In function 'span_parse_enum':
+pango-markup.c:1090:3: warning: 'pango_parse_enum' is deprecated [-Wdeprecated-declarations]
+   if (!pango_parse_enum (type, attr_val, val, FALSE, &possible_values))
+   ^
+In file included from ../pango/pango.h:46:0,
+                 from pango-impl-utils.h:28,
+                 from pango-markup.c:30:
+../pango/pango-utils.h:63:10: note: declared here
+ gboolean pango_parse_enum     (GType       type,
+          ^
+pango-markup.c: In function 'span_parse_func':
+pango-markup.c:1264:4: warning: 'pango_scan_int' is deprecated [-Wdeprecated-declarations]
+    if ((end = size, !pango_scan_int (&end, &n)) || *end != '\0' || n < 0)
+    ^
+In file included from ../pango/pango.h:46:0,
+                 from pango-impl-utils.h:28,
+                 from pango-markup.c:30:
+../pango/pango-utils.h:48:10: note: declared here
+ gboolean pango_scan_int       (const char **pos,
+          ^
+  CC       pango-matrix.lo
+  CC       pango-renderer.lo
+  CC       pango-script.lo
+  CC       pango-tabs.lo
+  CC       pango-utils.lo
+pango-utils.c: In function 'pango_split_file_list':
+pango-utils.c:205:7: warning: 'pango_trim_string' is deprecated [-Wdeprecated-declarations]
+       char *file = pango_trim_string (files[i]);
+       ^
+pango-utils.c:166:1: note: declared here
+ pango_trim_string (const char *str)
+ ^
+  CC       reorder-items.lo
+  CC       shape.lo
+  CC       pango-enum-types.lo
+  CCLD     libpango-1.0.la
+  CC       pangofc-font.lo
+  CC       pangofc-fontmap.lo
+  CC       pangofc-decoder.lo
+  CC       pangofc-shape.lo
+  CC       pangoft2.lo
+pangoft2.c: In function 'load_fallback_face':
+pangoft2.c:113:56: warning: passing argument 1 of 'pango_fc_font_map_get_config' from incompatible pointer type [-Wincompatible-pointer-types]
+   matched = FcFontMatch (pango_fc_font_map_get_config (fcfont->fontmap), sans, &result);
+                                                        ^
+In file included from pangoft2-private.h:27:0,
+                 from pangoft2.c:40:
+../pango/pangofc-fontmap.h:207:1: note: expected 'PangoFcFontMap * {aka struct _PangoFcFontMap *}' but argument is of type 'PangoFontMap * {aka struct _PangoFontMap *}'
+ pango_fc_font_map_get_config (PangoFcFontMap *fcfontmap);
+ ^
+pangoft2.c: In function 'pango_ft2_font_real_lock_face':
+pangoft2.c:436:3: warning: 'pango_ft2_font_get_face' is deprecated: Use 'pango_fc_font_lock_face' instead [-Wdeprecated-declarations]
+   return pango_ft2_font_get_face ((PangoFont *)font);
+   ^
+pangoft2.c:177:1: note: declared here
+ pango_ft2_font_get_face (PangoFont *font)
+ ^
+pangoft2.c: In function 'pango_ft2_get_unknown_glyph':
+pangoft2.c:512:3: warning: 'pango_ft2_font_get_face' is deprecated: Use 'pango_fc_font_lock_face' instead [-Wdeprecated-declarations]
+   FT_Face face = pango_ft2_font_get_face (font);
+   ^
+pangoft2.c:177:1: note: declared here
+ pango_ft2_font_get_face (PangoFont *font)
+ ^
+  CC       pangoft2-fontmap.lo
+  CC       pangoft2-render.lo
+pangoft2-render.c: In function 'pango_ft2_font_render_glyph':
+pangoft2-render.c:224:3: warning: 'pango_ft2_font_get_face' is deprecated: Use 'pango_fc_font_lock_face' instead [-Wdeprecated-declarations]
+   face = pango_ft2_font_get_face (font);
+   ^
+In file included from pangoft2-private.h:26:0,
+                 from pangoft2-render.c:37:
+../pango/pangoft2.h:125:16: note: declared here
+ FT_Face        pango_ft2_font_get_face     (PangoFont       *font);
+                ^
+  CC       pango-ot-buffer.lo
+  CC       pango-ot-info.lo
+  CC       pango-ot-ruleset.lo
+  CC       pango-ot-tag.lo
+  CCLD     libpangoft2-1.0.la
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+  CC       pangoxft-font.lo
+  CC       pangoxft-fontmap.lo
+  CC       pangoxft-render.lo
+  CCLD     libpangoxft-1.0.la
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libharfbuzz.la' seems to be moved
+libtool: warning: '/usr/lib64/libfontconfig.la' seems to be moved
+libtool: warning: '/usr/lib64/libfreetype.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+  CC       pangocairo-context.lo
+  CC       pangocairo-font.lo
+  CC       pangocairo-fontmap.lo
+  CC       pangocairo-render.lo
+  CC       pangocairo-fcfont.lo
+  CC       pangocairo-fcfontmap.lo
+  CCLD     libpangocairo-1.0.la
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libharfbuzz.la' seems to be moved
+libtool: warning: '/usr/lib64/libfontconfig.la' seems to be moved
+libtool: warning: '/usr/lib64/libfreetype.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+  GISCAN   Pango-1.0.gir
+pango-layout.h:102: Warning: Pango: unknown annotation: element-type:
+pango-engine.h:297: Warning: Pango: symbol='script_engine_list': Unknown namespace for symbol 'script_engine_list'
+pango-engine.h:310: Warning: Pango: symbol='script_engine_init': Unknown namespace for symbol 'script_engine_init'
+pango-engine.h:321: Warning: Pango: symbol='script_engine_exit': Unknown namespace for symbol 'script_engine_exit'
+pango-engine.h:332: Warning: Pango: symbol='script_engine_create': Unknown namespace for symbol 'script_engine_create'
+fonts.c:1527: Warning: Pango: pango_font_get_coverage: unknown parameter 'language' in documentation comment, should be 'lang'
+fonts.c:1546: Warning: Pango: pango_font_find_shaper: unknown parameter 'language' in documentation comment, should be 'lang'
+pango-coverage.c:127: Warning: Pango: pango_coverage_ref: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-coverage.c:88: Warning: Pango: pango_coverage_copy: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-coverage.c:64: Warning: Pango: pango_coverage_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-coverage.c:460: Warning: Pango: pango_coverage_from_bytes: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-coverage.c:64: Warning: Pango: pango_coverage_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-coverage.c:460: Warning: Pango: pango_coverage_from_bytes: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-script.c:128: Warning: Pango: pango_script_iter_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-script.c:128: Warning: Pango: pango_script_iter_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:164: Warning: Pango: pango_attribute_copy: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:303: Warning: Pango: pango_attr_language_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:559: Warning: Pango: pango_attr_size_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:574: Warning: Pango: pango_attr_size_new_absolute: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:710: Warning: Pango: pango_attr_font_desc_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1040: Warning: Pango: pango_attr_shape_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:995: Warning: Pango: pango_attr_shape_new_with_data: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1110: Warning: Pango: pango_attr_font_features_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1690: Warning: Pango: pango_attr_list_get_iterator: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1801: Warning: Pango: pango_attr_iterator_copy: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1846: Warning: Pango: pango_attr_iterator_get: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:303: Warning: Pango: pango_attr_language_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:258: Warning: Pango: pango_attr_family_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:379: Warning: Pango: pango_attr_foreground_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:405: Warning: Pango: pango_attr_background_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:559: Warning: Pango: pango_attr_size_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:574: Warning: Pango: pango_attr_size_new_absolute: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:591: Warning: Pango: pango_attr_style_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:613: Warning: Pango: pango_attr_weight_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:635: Warning: Pango: pango_attr_variant_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:657: Warning: Pango: pango_attr_stretch_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:710: Warning: Pango: pango_attr_font_desc_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:737: Warning: Pango: pango_attr_underline_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:763: Warning: Pango: pango_attr_underline_color_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:789: Warning: Pango: pango_attr_strikethrough_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:815: Warning: Pango: pango_attr_strikethrough_color_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:842: Warning: Pango: pango_attr_rise_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:865: Warning: Pango: pango_attr_scale_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:893: Warning: Pango: pango_attr_fallback_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:918: Warning: Pango: pango_attr_letter_spacing_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1040: Warning: Pango: pango_attr_shape_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:995: Warning: Pango: pango_attr_shape_new_with_data: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1060: Warning: Pango: pango_attr_gravity_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1086: Warning: Pango: pango_attr_gravity_hint_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1110: Warning: Pango: pango_attr_font_features_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1136: Warning: Pango: pango_attr_foreground_alpha_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pango-attributes.c:1160: Warning: Pango: pango_attr_background_alpha_new: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+modules.c:61: Warning: Pango: pango_map_get_engine: return value: Missing (transfer) annotation
+modules.c:72: Warning: Pango: pango_map_get_engines: argument exact_engines: Missing (element-type) annotation
+modules.c:72: Warning: Pango: pango_map_get_engines: argument fallback_engines: Missing (element-type) annotation
+modules.c:42: Warning: Pango: pango_find_map: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+fonts.c:1531: Warning: Pango: pango_font_get_coverage: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+fonts.c:1552: Warning: Pango: pango_font_find_shaper: return value: Missing (transfer) annotation
+  GISCAN   PangoFT2-1.0.gir
+pangofc-fontmap.c:1817: Warning: PangoFT2: missing ":" at column 25:
+ * @fcconfig: (nullable) a #FcConfig, or %NULL
+                        ^
+pangofc-font.h:36: Warning: PangoFT2: symbol='PangoFcFont': Skipping foreign identifier 'PangoFcFont' from namespace Pango
+pangofc-font.h:37: Warning: PangoFT2: symbol='PangoFcFontClass': Skipping foreign identifier 'PangoFcFontClass' from namespace Pango
+pangofc-font.h:129: Warning: PangoFT2: symbol='pango_fc_font_has_char': Skipping foreign symbol from namespace Pango
+pangofc-font.h:131: Warning: PangoFT2: symbol='pango_fc_font_get_glyph': Skipping foreign symbol from namespace Pango
+pangofc-font.h:135: Warning: PangoFT2: symbol='pango_fc_font_get_unknown_glyph': Skipping foreign symbol from namespace Pango
+pangofc-font.h:138: Warning: PangoFT2: symbol='pango_fc_font_kern_glyphs': Skipping foreign symbol from namespace Pango
+pangofc-font.h:144: Warning: PangoFT2: symbol='pango_fc_font_get_type': Skipping foreign symbol from namespace Pango
+pangofc-font.h:146: Warning: PangoFT2: symbol='pango_fc_font_lock_face': Skipping foreign symbol from namespace Pango
+pangofc-font.h:147: Warning: PangoFT2: symbol='pango_fc_font_unlock_face': Skipping foreign symbol from namespace Pango
+pango-ot.h:44: Warning: PangoFT2: symbol='PangoOTTag': Skipping foreign identifier 'PangoOTTag' from namespace Pango
+pango-ot.h:72: Warning: PangoFT2: symbol='PangoOTInfo': Skipping foreign identifier 'PangoOTInfo' from namespace Pango
+pango-ot.h:73: Warning: PangoFT2: symbol='PangoOTBuffer': Skipping foreign identifier 'PangoOTBuffer' from namespace Pango
+pango-ot.h:74: Warning: PangoFT2: symbol='PangoOTGlyph': Skipping foreign identifier 'PangoOTGlyph' from namespace Pango
+pango-ot.h:75: Warning: PangoFT2: symbol='PangoOTRuleset': Skipping foreign identifier 'PangoOTRuleset' from namespace Pango
+pango-ot.h:76: Warning: PangoFT2: symbol='PangoOTFeatureMap': Skipping foreign identifier 'PangoOTFeatureMap' from namespace Pango
+pango-ot.h:77: Warning: PangoFT2: symbol='PangoOTRulesetDescription': Skipping foreign identifier 'PangoOTRulesetDescription' from namespace Pango
+pango-ot.h:92: Warning: PangoFT2: symbol='PangoOTTableType': Skipping foreign identifier 'PangoOTTableType' from namespace Pango
+pango-ot.h:251: Warning: PangoFT2: symbol='pango_ot_info_get_type': Skipping foreign symbol from namespace Pango
+pango-ot.h:256: Warning: PangoFT2: symbol='pango_ot_ruleset_get_type': Skipping foreign symbol from namespace Pango
+pango-ot.h:260: Warning: PangoFT2: symbol='pango_ot_info_get': Skipping foreign symbol from namespace Pango
+pango-ot.h:263: Warning: PangoFT2: symbol='pango_ot_info_find_script': Skipping foreign symbol from namespace Pango
+pango-ot.h:269: Warning: PangoFT2: symbol='pango_ot_info_find_language': Skipping foreign symbol from namespace Pango
+pango-ot.h:276: Warning: PangoFT2: symbol='pango_ot_info_find_feature': Skipping foreign symbol from namespace Pango
+pango-ot.h:284: Warning: PangoFT2: symbol='pango_ot_info_list_scripts': Skipping foreign symbol from namespace Pango
+pango-ot.h:287: Warning: PangoFT2: symbol='pango_ot_info_list_languages': Skipping foreign symbol from namespace Pango
+pango-ot.h:292: Warning: PangoFT2: symbol='pango_ot_info_list_features': Skipping foreign symbol from namespace Pango
+pango-ot.h:299: Warning: PangoFT2: symbol='pango_ot_buffer_new': Skipping foreign symbol from namespace Pango
+pango-ot.h:301: Warning: PangoFT2: symbol='pango_ot_buffer_destroy': Skipping foreign symbol from namespace Pango
+pango-ot.h:303: Warning: PangoFT2: symbol='pango_ot_buffer_clear': Skipping foreign symbol from namespace Pango
+pango-ot.h:305: Warning: PangoFT2: symbol='pango_ot_buffer_set_rtl': Skipping foreign symbol from namespace Pango
+pango-ot.h:308: Warning: PangoFT2: symbol='pango_ot_buffer_add_glyph': Skipping foreign symbol from namespace Pango
+pango-ot.h:313: Warning: PangoFT2: symbol='pango_ot_buffer_get_glyphs': Skipping foreign symbol from namespace Pango
+pango-ot.h:317: Warning: PangoFT2: symbol='pango_ot_buffer_output': Skipping foreign symbol from namespace Pango
+pango-ot.h:321: Warning: PangoFT2: symbol='pango_ot_buffer_set_zero_width_marks': Skipping foreign symbol from namespace Pango
+pango-ot.h:325: Warning: PangoFT2: symbol='pango_ot_ruleset_get_for_description': Skipping foreign symbol from namespace Pango
+pango-ot.h:328: Warning: PangoFT2: symbol='pango_ot_ruleset_new': Skipping foreign symbol from namespace Pango
+pango-ot.h:330: Warning: PangoFT2: symbol='pango_ot_ruleset_new_for': Skipping foreign symbol from namespace Pango
+pango-ot.h:334: Warning: PangoFT2: symbol='pango_ot_ruleset_new_from_description': Skipping foreign symbol from namespace Pango
+pango-ot.h:337: Warning: PangoFT2: symbol='pango_ot_ruleset_add_feature': Skipping foreign symbol from namespace Pango
+pango-ot.h:342: Warning: PangoFT2: symbol='pango_ot_ruleset_maybe_add_feature': Skipping foreign symbol from namespace Pango
+pango-ot.h:347: Warning: PangoFT2: symbol='pango_ot_ruleset_maybe_add_features': Skipping foreign symbol from namespace Pango
+pango-ot.h:352: Warning: PangoFT2: symbol='pango_ot_ruleset_get_feature_count': Skipping foreign symbol from namespace Pango
+pango-ot.h:357: Warning: PangoFT2: symbol='pango_ot_ruleset_substitute': Skipping foreign symbol from namespace Pango
+pango-ot.h:361: Warning: PangoFT2: symbol='pango_ot_ruleset_position': Skipping foreign symbol from namespace Pango
+pango-ot.h:365: Warning: PangoFT2: symbol='pango_ot_tag_to_script': Skipping foreign symbol from namespace Pango
+pango-ot.h:368: Warning: PangoFT2: symbol='pango_ot_tag_from_script': Skipping foreign symbol from namespace Pango
+pango-ot.h:371: Warning: PangoFT2: symbol='pango_ot_tag_to_language': Skipping foreign symbol from namespace Pango
+pango-ot.h:374: Warning: PangoFT2: symbol='pango_ot_tag_from_language': Skipping foreign symbol from namespace Pango
+pango-ot.h:377: Warning: PangoFT2: symbol='pango_ot_ruleset_description_hash': Skipping foreign symbol from namespace Pango
+pango-ot.h:380: Warning: PangoFT2: symbol='pango_ot_ruleset_description_equal': Skipping foreign symbol from namespace Pango
+pango-ot.h:384: Warning: PangoFT2: symbol='pango_ot_ruleset_description_copy': Skipping foreign symbol from namespace Pango
+pango-ot.h:387: Warning: PangoFT2: symbol='pango_ot_ruleset_description_free': Skipping foreign symbol from namespace Pango
+pangofc-decoder.h:33: Warning: PangoFT2: symbol='PangoFcDecoder': Skipping foreign identifier 'PangoFcDecoder' from namespace Pango
+pangofc-decoder.h:34: Warning: PangoFT2: symbol='PangoFcDecoderClass': Skipping foreign identifier 'PangoFcDecoderClass' from namespace Pango
+pangofc-decoder.h:98: Warning: PangoFT2: symbol='pango_fc_decoder_get_type': Skipping foreign symbol from namespace Pango
+pangofc-decoder.h:100: Warning: PangoFT2: symbol='pango_fc_decoder_get_charset': Skipping foreign symbol from namespace Pango
+pangofc-decoder.h:103: Warning: PangoFT2: symbol='pango_fc_decoder_get_glyph': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:43: Warning: PangoFT2: symbol='PangoFcFontsetKey': Skipping foreign identifier 'PangoFcFontsetKey' from namespace Pango
+pangofc-fontmap.h:45: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_language': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:46: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_description': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:47: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_matrix': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:48: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_absolute_size': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:49: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_resolution': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:50: Warning: PangoFT2: symbol='pango_fc_fontset_key_get_context_key': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:60: Warning: PangoFT2: symbol='PangoFcFontKey': Skipping foreign identifier 'PangoFcFontKey' from namespace Pango
+pangofc-fontmap.h:62: Warning: PangoFT2: symbol='pango_fc_font_key_get_pattern': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:63: Warning: PangoFT2: symbol='pango_fc_font_key_get_matrix': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:64: Warning: PangoFT2: symbol='pango_fc_font_key_get_context_key': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:77: Warning: PangoFT2: symbol='PangoFcFontMap': Skipping foreign identifier 'PangoFcFontMap' from namespace Pango
+pangofc-fontmap.h:78: Warning: PangoFT2: symbol='PangoFcFontMapClass': Skipping foreign identifier 'PangoFcFontMapClass' from namespace Pango
+pangofc-fontmap.h:79: Warning: PangoFT2: symbol='PangoFcFontMapPrivate': Skipping foreign identifier 'PangoFcFontMapPrivate' from namespace Pango
+pangofc-fontmap.h:190: Warning: PangoFT2: symbol='pango_fc_font_map_create_context': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:192: Warning: PangoFT2: symbol='pango_fc_font_map_shutdown': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:196: Warning: PangoFT2: symbol='pango_fc_font_map_get_type': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:198: Warning: PangoFT2: symbol='pango_fc_font_map_cache_clear': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:201: Warning: PangoFT2: symbol='pango_fc_font_map_config_changed': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:204: Warning: PangoFT2: symbol='pango_fc_font_map_set_config': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:207: Warning: PangoFT2: symbol='pango_fc_font_map_get_config': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:219: Warning: PangoFT2: symbol='PangoFcDecoderFindFunc': Skipping foreign identifier 'PangoFcDecoderFindFunc' from namespace Pango
+pangofc-fontmap.h:222: Warning: PangoFT2: symbol='pango_fc_font_map_add_decoder_find_func': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:226: Warning: PangoFT2: symbol='pango_fc_font_map_find_decoder': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:229: Warning: PangoFT2: symbol='pango_fc_font_description_from_pattern': Skipping foreign symbol from namespace Pango
+pango-ot.h:139: Warning: PangoFT2: symbol='PANGO_OT_ALL_GLYPHS': Skipping foreign symbol from namespace Pango
+pango-ot.h:140: Warning: PangoFT2: symbol='PANGO_OT_NO_FEATURE': Skipping foreign symbol from namespace Pango
+pango-ot.h:141: Warning: PangoFT2: symbol='PANGO_OT_NO_SCRIPT': Skipping foreign symbol from namespace Pango
+pango-ot.h:142: Warning: PangoFT2: symbol='PANGO_OT_DEFAULT_LANGUAGE': Skipping foreign symbol from namespace Pango
+pangofc-font.h:48: Warning: PangoFT2: symbol='PANGO_RENDER_TYPE_FC': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:245: Warning: PangoFT2: symbol='PANGO_FC_GRAVITY': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:261: Warning: PangoFT2: symbol='PANGO_FC_VERSION': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:278: Warning: PangoFT2: symbol='PANGO_FC_PRGNAME': Skipping foreign symbol from namespace Pango
+pangofc-fontmap.h:294: Warning: PangoFT2: symbol='PANGO_FC_FONT_FEATURES': Skipping foreign symbol from namespace Pango
+pangoft2.h:40: Warning: PangoFT2: symbol='PANGO_RENDER_TYPE_FT2': Skipping foreign symbol from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcFontClass' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoOTGlyph' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoOTRulesetDescription' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcDecoder' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoOTFeatureMap' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcDecoderClass' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcFont' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcFontMap' from namespace Pango
+<unknown>:: Warning: PangoFT2: context=None Skipping foreign identifier 'PangoFcFontMapClass' from namespace Pango
+pangoft2.h:111: Warning: PangoFT2: pango_ft2_get_context: return value: Missing (transfer) annotation
+pangoft2.c:170: Warning: PangoFT2: pango_ft2_font_get_face: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pangoft2.c:480: Warning: PangoFT2: pango_ft2_font_get_coverage: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pangoft2.h:103: Warning: PangoFT2: pango_ft2_font_map_create_context: return value: Missing (transfer) annotation
+pangoft2.h:114: Warning: PangoFT2: pango_ft2_font_map_for_display: return value: Missing (transfer) annotation
+  GISCAN   PangoXft-1.0.gir
+pangoxft.h:41: Warning: PangoXft: symbol='PANGO_RENDER_TYPE_XFT': Skipping foreign symbol from namespace Pango
+pangoxft-font.c:508: Warning: PangoXft: pango_xft_font_get_font: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pangoxft-font.c:526: Warning: PangoXft: pango_xft_font_get_display: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+pangoxft-font.c:573: Warning: PangoXft: pango_xft_font_lock_face: return value: Invalid non-constant return of bare structure or union; register as boxed type or (skip)
+  GISCAN   PangoCairo-1.0.gir
+  GICOMP   Pango-1.0.gir
+  GICOMP   PangoFT2-1.0.gir
+  GICOMP   PangoXft-1.0.gir
+  GICOMP   PangoCairo-1.0.gir
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+Making all in pango-view
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+  CC       viewer-render.o
+viewer-render.c: In function 'parse_enum':
+viewer-render.c:361:3: warning: 'pango_parse_enum' is deprecated [-Wdeprecated-declarations]
+   ret = pango_parse_enum (type,
+   ^
+In file included from ../pango/pango.h:46:0,
+                 from viewer-render.c:31:
+../pango/pango-utils.h:63:10: note: declared here
+ gboolean pango_parse_enum     (GType       type,
+          ^
+  CC       viewer-main.o
+  CC       pango-view.o
+  CC       viewer-pangoft2.o
+  CC       viewer-pangoxft.o
+  CC       viewer-x.o
+  CC       viewer-cairo.o
+  CC       viewer-pangocairo.o
+  CCLD     pango-view
+  GEN      pango-view.1
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+make[3]: 'pango-view.1.in' is up to date.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/examples'
+  CC       cairosimple.o
+  CCLD     cairosimple
+  CC       cairotwisted.o
+cairotwisted.c: In function 'point_on_path':
+cairotwisted.c:370:29: warning: 'current_point.point.y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  *y = current_point.point.y * (1 - ratio) + data[1].point.y * ratio;
+                             ^
+cairotwisted.c:369:29: warning: 'current_point.point.x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  *x = current_point.point.x * (1 - ratio) + data[1].point.x * ratio;
+                             ^
+cairotwisted.c: In function 'draw_twisted':
+cairotwisted.c:151:6: warning: 'current_point.point.y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   dy = b->point.y - a->point.y;
+      ^
+cairotwisted.c:170:28: note: 'current_point.point.y' was declared here
+   cairo_path_data_t *data, current_point;
+                            ^
+cairotwisted.c:150:6: warning: 'current_point.point.x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   dx = b->point.x - a->point.x;
+      ^
+cairotwisted.c:170:28: note: 'current_point.point.x' was declared here
+   cairo_path_data_t *data, current_point;
+                            ^
+cairotwisted.c:178:3: warning: 'current_point.point.y' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cairo_move_to (cr, x0, y0);
+   ^
+cairotwisted.c:221:42: note: 'current_point.point.y' was declared here
+   cairo_path_data_t *data, last_move_to, current_point;
+                                          ^
+cairotwisted.c:178:3: warning: 'current_point.point.x' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cairo_move_to (cr, x0, y0);
+   ^
+cairotwisted.c:221:42: note: 'current_point.point.x' was declared here
+   cairo_path_data_t *data, last_move_to, current_point;
+                                          ^
+  CCLD     cairotwisted
+  CC       cairoshape.o
+  CCLD     cairoshape
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/examples'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  all-am
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tools'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tools'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+  CC       testboundaries.o
+  CCLD     testboundaries
+  CC       testboundaries_ucd.o
+  CCLD     testboundaries_ucd
+  CC       testcolor.o
+  CCLD     testcolor
+  CC       testscript.o
+  CCLD     testscript
+  CC       markup-parse.o
+  CCLD     markup-parse
+  CC       test-layout.o
+  CC       test-common.o
+  CCLD     test-layout
+  CC       test-font.o
+  CCLD     test-font
+  CC       testattributes.o
+  CCLD     testattributes
+  CC       testiter.o
+  CCLD     testiter
+  CC       test-pangocairo-threads.o
+  CCLD     test-pangocairo-threads
+  CC       test-ot-tags.o
+  CCLD     test-ot-tags
+  CXX      cxx-test.o
+  CXXLD    cxx-test
+  CC       gen-all-unicode.o
+  CCLD     gen-all-unicode
+  CC       dump-boundaries.o
+  CCLD     dump-boundaries
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+Making all in build
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1'
+Making check in pango
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+Making check in mini-fribidi
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make[5]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+PASS: check.defs
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+Making check in pango-view
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+Making check in examples
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/examples'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  check-am
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tools'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make  testboundaries testboundaries_ucd testcolor testscript markup-parse test-layout test-font testattributes testiter test-pangocairo-threads test-ot-tags cxx-test
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: 'testboundaries' is up to date.
+make[2]: 'testboundaries_ucd' is up to date.
+make[2]: 'testcolor' is up to date.
+make[2]: 'testscript' is up to date.
+make[2]: 'markup-parse' is up to date.
+make[2]: 'test-layout' is up to date.
+make[2]: 'test-font' is up to date.
+make[2]: 'testattributes' is up to date.
+make[2]: 'testiter' is up to date.
+make[2]: 'test-pangocairo-threads' is up to date.
+make[2]: 'test-ot-tags' is up to date.
+make[2]: 'cxx-test' is up to date.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+PASS: testboundaries
+PASS: testboundaries_ucd
+PASS: testcolor
+PASS: testscript
+PASS: markup-parse
+PASS: test-layout
+PASS: test-font
+PASS: testattributes
+PASS: testiter
+PASS: test-pangocairo-threads
+PASS: test-ot-tags
+PASS: cxx-test
+============================================================================
+Testsuite summary for pango 1.38.1
+============================================================================
+# TOTAL: 12
+# PASS:  12
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+Making check in build
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/build'
+Making check in win32
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+Making check in vs9
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+Making check in vs11
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+Making check in vs12
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+Making check in vs14
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Entering directory '/sources/7.9/pango-1.38.1'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1'
+Making install in pango
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+Making install in mini-fribidi
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango/mini-fribidi'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/pango'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpango-1.0.la libpangoft2-1.0.la libpangoxft-1.0.la libpangocairo-1.0.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libpango-1.0.so.0.3800.1 /usr/lib/libpango-1.0.so.0.3800.1
+libtool: install: (cd /usr/lib && { ln -s -f libpango-1.0.so.0.3800.1 libpango-1.0.so.0 || { rm -f libpango-1.0.so.0 && ln -s libpango-1.0.so.0.3800.1 libpango-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpango-1.0.so.0.3800.1 libpango-1.0.so || { rm -f libpango-1.0.so && ln -s libpango-1.0.so.0.3800.1 libpango-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpango-1.0.lai /usr/lib/libpango-1.0.la
+libtool: warning: relinking 'libpangoft2-1.0.la'
+libtool: install: (cd /sources/7.9/pango-1.38.1/pango; /bin/sh "/sources/7.9/pango-1.38.1/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -version-info 3800:1:3800 -export-symbols-regex "^pango_.*" -Wl,-Bsymbolic-functions -o libpangoft2-1.0.la -rpath /usr/lib pangofc-font.lo pangofc-fontmap.lo pangofc-decoder.lo pangofc-shape.lo pangoft2.lo pangoft2-fontmap.lo pangoft2-render.lo pango-ot-buffer.lo pango-ot-info.lo pango-ot-ruleset.lo pango-ot-tag.lo libpango-1.0.la -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lharfbuzz -lfreetype -lfontconfig -lfreetype -lm )
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: install: /usr/bin/install -c .libs/libpangoft2-1.0.so.0.3800.1T /usr/lib/libpangoft2-1.0.so.0.3800.1
+libtool: install: (cd /usr/lib && { ln -s -f libpangoft2-1.0.so.0.3800.1 libpangoft2-1.0.so.0 || { rm -f libpangoft2-1.0.so.0 && ln -s libpangoft2-1.0.so.0.3800.1 libpangoft2-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpangoft2-1.0.so.0.3800.1 libpangoft2-1.0.so || { rm -f libpangoft2-1.0.so && ln -s libpangoft2-1.0.so.0.3800.1 libpangoft2-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpangoft2-1.0.lai /usr/lib/libpangoft2-1.0.la
+libtool: warning: relinking 'libpangoxft-1.0.la'
+libtool: install: (cd /sources/7.9/pango-1.38.1/pango; /bin/sh "/sources/7.9/pango-1.38.1/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -version-info 3800:1:3800 -export-symbols-regex "^pango_.*" -Wl,-Bsymbolic-functions -o libpangoxft-1.0.la -rpath /usr/lib pangoxft-font.lo pangoxft-fontmap.lo pangoxft-render.lo libpangoft2-1.0.la libpango-1.0.la -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lXft -lXrender -lX11 -lfreetype -lfontconfig -lfreetype -lm )
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libharfbuzz.la' seems to be moved
+libtool: warning: '/usr/lib64/libfontconfig.la' seems to be moved
+libtool: warning: '/usr/lib64/libfreetype.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: install: /usr/bin/install -c .libs/libpangoxft-1.0.so.0.3800.1T /usr/lib/libpangoxft-1.0.so.0.3800.1
+libtool: install: (cd /usr/lib && { ln -s -f libpangoxft-1.0.so.0.3800.1 libpangoxft-1.0.so.0 || { rm -f libpangoxft-1.0.so.0 && ln -s libpangoxft-1.0.so.0.3800.1 libpangoxft-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpangoxft-1.0.so.0.3800.1 libpangoxft-1.0.so || { rm -f libpangoxft-1.0.so && ln -s libpangoxft-1.0.so.0.3800.1 libpangoxft-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpangoxft-1.0.lai /usr/lib/libpangoxft-1.0.la
+libtool: warning: relinking 'libpangocairo-1.0.la'
+libtool: install: (cd /sources/7.9/pango-1.38.1/pango; /bin/sh "/sources/7.9/pango-1.38.1/libtool"  --silent --tag CC --mode=relink gcc -g -O2 -Wall -version-info 3800:1:3800 -export-symbols-regex "^pango_.*" -Wl,-Bsymbolic-functions -o libpangocairo-1.0.la -rpath /usr/lib pangocairo-context.lo pangocairo-font.lo pangocairo-fontmap.lo pangocairo-render.lo pangocairo-fcfont.lo pangocairo-fcfontmap.lo libpango-1.0.la -lgobject-2.0 -lgthread-2.0 -pthread -lglib-2.0 -lcairo -lfontconfig -lfreetype -lm libpangoft2-1.0.la -lfreetype )
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libharfbuzz.la' seems to be moved
+libtool: warning: '/usr/lib64/libfontconfig.la' seems to be moved
+libtool: warning: '/usr/lib64/libfreetype.la' seems to be moved
+libtool: warning: '/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libgthread-2.0.la' seems to be moved
+libtool: warning: '/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: install: /usr/bin/install -c .libs/libpangocairo-1.0.so.0.3800.1T /usr/lib/libpangocairo-1.0.so.0.3800.1
+libtool: install: (cd /usr/lib && { ln -s -f libpangocairo-1.0.so.0.3800.1 libpangocairo-1.0.so.0 || { rm -f libpangocairo-1.0.so.0 && ln -s libpangocairo-1.0.so.0.3800.1 libpangocairo-1.0.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libpangocairo-1.0.so.0.3800.1 libpangocairo-1.0.so || { rm -f libpangocairo-1.0.so && ln -s libpangocairo-1.0.so.0.3800.1 libpangocairo-1.0.so; }; })
+libtool: install: /usr/bin/install -c .libs/libpangocairo-1.0.lai /usr/lib/libpangocairo-1.0.la
+libtool: finish: PATH="/sbin:/bin:/usr/sbin:/usr/bin:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Pango-1.0.gir PangoFT2-1.0.gir PangoXft-1.0.gir PangoCairo-1.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/pango-1.0/pango'
+ /usr/bin/install -c -m 644 pango.h pango-attributes.h pango-bidi-type.h pango-break.h pango-context.h pango-coverage.h pango-engine.h pango-font.h pango-fontmap.h pango-fontset.h pango-glyph.h pango-glyph-item.h pango-gravity.h pango-item.h pango-language.h pango-layout.h pango-matrix.h pango-modules.h pango-renderer.h pango-script.h pango-tabs.h pango-types.h pango-utils.h pango-features.h pango-enum-types.h pango-ot.h pangofc-font.h pangofc-fontmap.h pangofc-decoder.h pangoft2.h pangoxft.h pangoxft-render.h pangocairo.h '/usr/include/pango-1.0/pango'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Pango-1.0.typelib PangoFT2-1.0.typelib PangoXft-1.0.typelib PangoCairo-1.0.typelib '/usr/lib/girepository-1.0'
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango'
+Making install in pango-view
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/pango-view'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c pango-view '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pango-view /usr/bin/pango-view
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 pango-view.1 '/usr/share/man/man1'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/pango-view'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/examples'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/examples'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/examples'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/examples'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make  install-am
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-10.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-12.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-16.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-18.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-20.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-24.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-26.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-2.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-30.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-31-0.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-32-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-34.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-38.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-6.html
+ /usr/bin/install -c -m 644 ./html/api-index-1-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/layout.gif
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/lowlevel.html
+ /usr/bin/install -c -m 644 ./html/pango-Bidirectional-Text.html
+ /usr/bin/install -c -m 644 ./html/pango-Cairo-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-CoreText-Fonts.html
+ /usr/bin/install -c -m 644 ./html/pango-Coverage-Maps.html
+ /usr/bin/install -c -m 644 ./html/pango.devhelp2
+ /usr/bin/install -c -m 644 ./html/PangoEngineLang.html
+ /usr/bin/install -c -m 644 ./html/PangoEngineShape.html
+ /usr/bin/install -c -m 644 ./html/pango-Engines.html
+ /usr/bin/install -c -m 644 ./html/PangoFcDecoder.html
+ /usr/bin/install -c -m 644 ./html/PangoFcFont.html
+ /usr/bin/install -c -m 644 ./html/PangoFcFontMap.html
+ /usr/bin/install -c -m 644 ./html/pango-Fonts.html
+ /usr/bin/install -c -m 644 ./html/pango-FreeType-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-Glyph-Storage.html
+ /usr/bin/install -c -m 644 ./html/pango-hierarchy.html
+ /usr/bin/install -c -m 644 ./html/pango.html
+ /usr/bin/install -c -m 644 ./html/pango-Layout-Objects.html
+ /usr/bin/install -c -m 644 ./html/PangoMarkupFormat.html
+ /usr/bin/install -c -m 644 ./html/pango-Miscellaneous-Utilities.html
+ /usr/bin/install -c -m 644 ./html/pango-Modules.html
+ /usr/bin/install -c -m 644 ./html/pango-OpenType-Font-Handling.html
+ /usr/bin/install -c -m 644 ./html/PangoRenderer.html
+ /usr/bin/install -c -m 644 ./html/pango-Scripts-and-Languages.html
+ /usr/bin/install -c -m 644 ./html/pango-Tab-Stops.html
+ /usr/bin/install -c -m 644 ./html/pango-Text-Attributes.html
+ /usr/bin/install -c -m 644 ./html/pango-Text-Processing.html
+ /usr/bin/install -c -m 644 ./html/pango-Version-Checking.html
+ /usr/bin/install -c -m 644 ./html/pango-Vertical-Text.html
+ /usr/bin/install -c -m 644 ./html/pango-Win32-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/pango-Xft-Fonts-and-Rendering.html
+ /usr/bin/install -c -m 644 ./html/rendering.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rotated-text.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/docs'
+Making install in tools
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tools'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tools'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tools'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tools'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/tests'
+Making install in build
+make[1]: Entering directory '/sources/7.9/pango-1.38.1/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs10'
+Making install in vs11
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs11'
+Making install in vs12
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs12'
+Making install in vs14
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32/vs14'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+make[4]: Entering directory '/sources/7.9/pango-1.38.1/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build/win32'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1/build'
+make[3]: Entering directory '/sources/7.9/pango-1.38.1/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1/build'
+make[1]: Entering directory '/sources/7.9/pango-1.38.1'
+make[2]: Entering directory '/sources/7.9/pango-1.38.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 pango.pc pangocairo.pc pangoxft.pc pangoft2.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/pango-1.38.1'
+make[1]: Leaving directory '/sources/7.9/pango-1.38.1'

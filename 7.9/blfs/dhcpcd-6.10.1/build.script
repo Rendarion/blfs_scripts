@@ -1,0 +1,3 @@
+./configure --libexecdir=/lib/dhcpcd \
+            --dbdir=/var/tmp         &&
+make

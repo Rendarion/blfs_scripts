@@ -1,0 +1,11 @@
+URL=(
+"https://github.com/gorhill/uBlock/archive/1.12.4.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

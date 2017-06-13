@@ -1,0 +1,11 @@
+URL=(
+"http://bitmath.org/code/mtdev/mtdev-1.1.5.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

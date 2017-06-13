@@ -1,0 +1,3 @@
+sed -i 's/^TESTS/#&/' tests/nouveau/Makefile.in
+
+make check

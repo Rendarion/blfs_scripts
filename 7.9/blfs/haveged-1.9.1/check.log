@@ -1,0 +1,57 @@
+Making check in src
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1/src'
+Making check in init.d
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1/init.d'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1/init.d'
+Making check in man
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1/man'
+Making check in ent
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1/ent'
+make  entest
+make[2]: Entering directory '/sources/7.9/haveged-1.9.1/ent'
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -g -O2 -MT entest.o -MD -MP -MF .deps/entest.Tpo -c -o entest.o entest.c
+mv -f .deps/entest.Tpo .deps/entest.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -g -O2 -MT iso8859.o -MD -MP -MF .deps/iso8859.Tpo -c -o iso8859.o iso8859.c
+mv -f .deps/iso8859.Tpo .deps/iso8859.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -g -O2 -MT randtest.o -MD -MP -MF .deps/randtest.Tpo -c -o randtest.o randtest.c
+mv -f .deps/randtest.Tpo .deps/randtest.Po
+gcc -DHAVE_CONFIG_H -I. -I..    -Wall -g -O2 -MT chisq.o -MD -MP -MF .deps/chisq.Tpo -c -o chisq.o chisq.c
+mv -f .deps/chisq.Tpo .deps/chisq.Po
+/bin/sh ../libtool --tag=CC   --mode=link gcc -Wall -g -O2   -o entest entest.o iso8859.o randtest.o chisq.o -lm 
+libtool: link: gcc -Wall -g -O2 -o entest entest.o iso8859.o randtest.o chisq.o  -lm
+make[2]: Leaving directory '/sources/7.9/haveged-1.9.1/ent'
+make  check-local
+make[2]: Entering directory '/sources/7.9/haveged-1.9.1/ent'
+./entest -t ./entitle.gif
+Self-test good!
+../src/haveged -n 16384k -v 1 
+./entest -vf sample
+
+Test Results
+Sample:      16777216 bytes
+Entropy:     7.999989 bits
+Chi-Square:  267.420837(28.409222%)
+Mean:        127.476273
+PI:          3.141717(0.003965%)
+Correlation: 0.000474
+Sample looks good!
+make[2]: Leaving directory '/sources/7.9/haveged-1.9.1/ent'
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1/ent'
+Making check in nist
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1/nist'
+make  
+make[2]: Entering directory '/sources/7.9/haveged-1.9.1/nist'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/haveged-1.9.1/nist'
+make  check-local
+make[2]: Entering directory '/sources/7.9/haveged-1.9.1/nist'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/sources/7.9/haveged-1.9.1/nist'
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1/nist'
+make[1]: Entering directory '/sources/7.9/haveged-1.9.1'
+make[1]: Leaving directory '/sources/7.9/haveged-1.9.1'

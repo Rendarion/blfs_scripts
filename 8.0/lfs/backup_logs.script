@@ -1,0 +1,2 @@
+rename -v .log _old.log *.log
+rename -v .log _old.log **/*.log

@@ -1,0 +1,3 @@
+install -v -d -m755 /usr/share/fonts/freefont &&
+install -v -m644 *.ttf /usr/share/fonts/freefont &&
+fc-cache -v /usr/share/fonts/freefont

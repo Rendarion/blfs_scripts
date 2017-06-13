@@ -1,0 +1,12 @@
+URL=(
+"http://ftp.x.org/pub/individual/driver/xf86-video-nouveau-1.0.13.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"xorg-server-1.19.1"
+)

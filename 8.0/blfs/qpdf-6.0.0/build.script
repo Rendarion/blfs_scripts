@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/qpdf-6.0.0 &&
+make

@@ -1,0 +1,597 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.40.0... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for DBUS... yes
+checking for GLIB... yes
+checking for GOBJ... yes
+checking for GIO... yes
+checking for dlopen in -lc... no
+checking for dlopen in -ldl... yes
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for XTestFakeKeyEvent in -lXtst... yes
+checking for XkbQueryExtension in -lX11... yes
+checking X11/XKBlib.h usability... yes
+checking X11/XKBlib.h presence... yes
+checking for X11/XKBlib.h... yes
+checking for XOpenDevice in -lXi... yes
+checking X11/extensions/XInput.h usability... yes
+checking X11/extensions/XInput.h presence... yes
+checking for X11/extensions/XInput.h... yes
+checking for XevieStart in -lXext... no
+checking for XevieQueryVersion in -lXevie... no
+checking for dbus-daemon... /usr/bin/dbus-daemon
+checking for glib-mkenums... /usr/bin/glib-mkenums
+checking for gobject-introspection... yes
+checking alignment of char... 1
+checking alignment of dbus_bool_t... 4
+checking alignment of dbus_int16_t... 2
+checking alignment of dbus_int32_t... 4
+checking alignment of dbus_int64_t... 8
+checking alignment of double... 8
+checking alignment of dbind_pointer... 8
+checking alignment of dbind_struct... 1
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating xml/Makefile
+config.status: creating dbind/Makefile
+config.status: creating dbind/dbind-config.h
+config.status: creating atspi/Makefile
+config.status: creating registryd/Makefile
+config.status: creating bus/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/libatspi/Makefile
+config.status: creating doc/libatspi/version.xml
+config.status: creating test/Makefile
+config.status: creating atspi-2.pc
+config.status: creating atspi-2-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po/stamp-it commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3'
+Making all in po
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/po'
+  MSGFMT an.gmo
+  MSGFMT as.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn_IN.gmo
+  MSGFMT bs.gmo
+  MSGFMT ca.gmo
+  MSGFMT ca@valencia.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_CA.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fa.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT fur.gmo
+  MSGFMT ga.gmo
+  MSGFMT gl.gmo
+  MSGFMT gu.gmo
+  MSGFMT he.gmo
+  MSGFMT hi.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT km.gmo
+  MSGFMT kn.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ml.gmo
+  MSGFMT mr.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT oc.gmo
+  MSGFMT or.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sr@latin.gmo
+  MSGFMT sv.gmo
+  MSGFMT ta.gmo
+  MSGFMT te.gmo
+  MSGFMT tg.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT uz@cyrillic.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/po'
+Making all in dbind
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+  CC       dbind.lo
+  CC       dbind-any.lo
+  CCLD     libdbind.la
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Making all in xml
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+Making all in atspi
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+  GEN      atspi-enum-types.c
+  GEN      atspi-enum-types.h
+make  all-am
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+  CC       libatspi_la-atspi-enum-types.lo
+  CC       libatspi_la-atspi-gmain.lo
+  CC       libatspi_la-atspi-accessible.lo
+  CC       libatspi_la-atspi-action.lo
+  CC       libatspi_la-atspi-application.lo
+  CC       libatspi_la-atspi-collection.lo
+  CC       libatspi_la-atspi-component.lo
+  CC       libatspi_la-atspi-device-listener.lo
+  CC       libatspi_la-atspi-document.lo
+  CC       libatspi_la-atspi-editabletext.lo
+  CC       libatspi_la-atspi-event-listener.lo
+  CC       libatspi_la-atspi-hyperlink.lo
+  CC       libatspi_la-atspi-hypertext.lo
+  CC       libatspi_la-atspi-image.lo
+  CC       libatspi_la-atspi-matchrule.lo
+  CC       libatspi_la-atspi-misc.lo
+  CC       libatspi_la-atspi-object.lo
+  CC       libatspi_la-atspi-registry.lo
+  CC       libatspi_la-atspi-relation.lo
+  CC       libatspi_la-atspi-selection.lo
+  CC       libatspi_la-atspi-stateset.lo
+  CC       libatspi_la-atspi-table.lo
+  CC       libatspi_la-atspi-table-cell.lo
+  CC       libatspi_la-atspi-text.lo
+  CC       libatspi_la-atspi-value.lo
+  CCLD     libatspi.la
+  GISCAN   Atspi-2.0.gir
+  GICOMP   Atspi-2.0.gir
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+Making all in bus
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+  CC       at_spi_bus_launcher-at-spi-bus-launcher.o
+  CCLD     at-spi-bus-launcher
+sed -e "s|[@]DATADIR[@]|/usr/share|" ./accessibility.conf.in > accessibility.conf
+sed -e "s,@libexecdir[@],/usr/libexec," org.a11y.Bus.service.in > org.a11y.Bus.service.tmp && mv org.a11y.Bus.service.tmp org.a11y.Bus.service
+sed -e"s,@libexecdir[@],/usr/libexec,"  at-spi-dbus-bus.desktop.in > at-spi-dbus-bus.desktop.tmp && mv at-spi-dbus-bus.desktop.tmp at-spi-dbus-bus.desktop
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+Making all in registryd
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+  CC       at_spi2_registryd-de-marshaller.o
+  CC       at_spi2_registryd-registry-main.o
+  CC       at_spi2_registryd-registry.o
+  CC       at_spi2_registryd-introspection.o
+  CC       at_spi2_registryd-deviceeventcontroller.o
+  CC       at_spi2_registryd-reentrant-list.o
+  CC       at_spi2_registryd-ucs2keysym.o
+  CC       at_spi2_registryd-deviceeventcontroller-x11.o
+  CC       at_spi2_registryd-display.o
+  CC       at_spi2_registryd-event-source.o
+  CCLD     at-spi2-registryd
+sed -e "s|[@]LIBEXECDIR[@]|/usr/libexec|" ./org.a11y.atspi.Registry.service.in > org.a11y.atspi.Registry.service
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+Making all in libatspi
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+Making all in test
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/test'
+  CC       memory-memory.o
+  CCLD     memory
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/test'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3'
+Making check in po
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package at-spi2-core --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/po'
+Making check in dbind
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make  dbtest
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+  CC       dbtest.o
+  CC       atspi-gmain.o
+  CCLD     dbtest
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+FAIL: dbtest
+============================================================================
+Testsuite summary for at-spi2-core 2.18.3
+============================================================================
+# TOTAL: 1
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See dbind/test-suite.log
+Please report to accessibility-atspi@lists.linux-foundation.org
+============================================================================
+Makefile:779: recipe for target 'test-suite.log' failed
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:885: recipe for target 'check-TESTS' failed
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:958: recipe for target 'check-am' failed
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Makefile:551: recipe for target 'check-recursive' failed
+Making install in po
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/po'
+linguas="an as ast be bg bn_IN bs ca ca@valencia cs da de el en_CA en_GB eo es et eu fa fi fr fur ga gl gu he hi hu id it ja kk km kn ko lt lv ml mr ms nb nl oc or pa pl pt pt_BR ro ru sk sl sq sr sr@latin sv ta te tg tr ug uk uz@cyrillic vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/at-spi2-core-2.18.3/config/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/at-spi2-core.mo; \
+    echo "installing $lang.gmo as $dir/at-spi2-core.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/at-spi2-core.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/at-spi2-core.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/at-spi2-core.mo.m; \
+    echo "installing $lang.gmo.m as $dir/at-spi2-core.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/at-spi2-core.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/at-spi2-core.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/at-spi2-core.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/at-spi2-core.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/at-spi2-core.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/at-spi2-core.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/at-spi2-core.mo
+installing bn_IN.gmo as /usr/share/locale/bn_IN/LC_MESSAGES/at-spi2-core.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/at-spi2-core.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/at-spi2-core.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/at-spi2-core.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/at-spi2-core.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/at-spi2-core.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/at-spi2-core.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/at-spi2-core.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/at-spi2-core.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/at-spi2-core.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/at-spi2-core.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/at-spi2-core.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/at-spi2-core.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/at-spi2-core.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/at-spi2-core.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/at-spi2-core.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/at-spi2-core.mo
+installing fur.gmo as /usr/share/locale/fur/LC_MESSAGES/at-spi2-core.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/at-spi2-core.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/at-spi2-core.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/at-spi2-core.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/at-spi2-core.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/at-spi2-core.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/at-spi2-core.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/at-spi2-core.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/at-spi2-core.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/at-spi2-core.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/at-spi2-core.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/at-spi2-core.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/at-spi2-core.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/at-spi2-core.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/at-spi2-core.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/at-spi2-core.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/at-spi2-core.mo
+installing mr.gmo as /usr/share/locale/mr/LC_MESSAGES/at-spi2-core.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/at-spi2-core.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/at-spi2-core.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/at-spi2-core.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/at-spi2-core.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/at-spi2-core.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/at-spi2-core.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/at-spi2-core.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/at-spi2-core.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/at-spi2-core.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/at-spi2-core.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/at-spi2-core.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/at-spi2-core.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/at-spi2-core.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/at-spi2-core.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/at-spi2-core.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/at-spi2-core.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/at-spi2-core.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/at-spi2-core.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/at-spi2-core.mo
+installing tg.gmo as /usr/share/locale/tg/LC_MESSAGES/at-spi2-core.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/at-spi2-core.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/at-spi2-core.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/at-spi2-core.mo
+installing uz@cyrillic.gmo as /usr/share/locale/uz@cyrillic/LC_MESSAGES/at-spi2-core.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/at-spi2-core.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/at-spi2-core.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/at-spi2-core.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/at-spi2-core.mo
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/po'
+Making install in dbind
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/dbind'
+Making install in xml
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/xml'
+Making install in atspi
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+make  install-am
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libatspi.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libatspi.so.0.0.1 /usr/lib/libatspi.so.0.0.1
+libtool: install: (cd /usr/lib && { ln -s -f libatspi.so.0.0.1 libatspi.so.0 || { rm -f libatspi.so.0 && ln -s libatspi.so.0.0.1 libatspi.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libatspi.so.0.0.1 libatspi.so || { rm -f libatspi.so && ln -s libatspi.so.0.0.1 libatspi.so; }; })
+libtool: install: /usr/bin/install -c .libs/libatspi.lai /usr/lib/libatspi.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Atspi-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/at-spi-2.0/atspi'
+ /usr/bin/install -c -m 644 atspi.h atspi-accessible.h atspi-action.h atspi-application.h atspi-collection.h atspi-component.h atspi-constants.h atspi-device-listener.h atspi-device-listener-private.h atspi-document.h atspi-editabletext.h atspi-enum-types.h atspi-event-listener.h atspi-event-listener-private.h atspi-gmain.c atspi-gmain.h atspi-hyperlink.h atspi-hypertext.h atspi-image.h atspi-matchrule.h atspi-misc.h atspi-object.h atspi-private.h atspi-registry.h atspi-relation.h atspi-selection.h atspi-stateset.h atspi-table.h atspi-table-cell.h atspi-text.h atspi-types.h atspi-value.h '/usr/include/at-spi-2.0/atspi'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Atspi-2.0.typelib '/usr/lib/girepository-1.0'
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/atspi'
+Making install in bus
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c at-spi-bus-launcher '/usr/libexec'
+libtool: install: /usr/bin/install -c at-spi-bus-launcher /usr/libexec/at-spi-bus-launcher
+ /bin/mkdir -p '/etc/at-spi2'
+ /usr/bin/install -c -m 644 accessibility.conf '/etc/at-spi2'
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.a11y.Bus.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/etc/xdg/autostart'
+ /usr/bin/install -c -m 644 at-spi-dbus-bus.desktop '/etc/xdg/autostart'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/bus'
+Making install in registryd
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+ /bin/mkdir -p '/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c at-spi2-registryd '/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/at-spi2-registryd /usr/libexec/at-spi2-registryd
+ /bin/mkdir -p '/usr/share/dbus-1/accessibility-services'
+ /usr/bin/install -c -m 644 org.a11y.atspi.Registry.service '/usr/share/dbus-1/accessibility-services'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/registryd'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+Making install in libatspi
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/AtspiAccessible.html
+ /usr/bin/install -c -m 644 ./html/AtspiDeviceListener.html
+ /usr/bin/install -c -m 644 ./html/AtspiEventListener.html
+ /usr/bin/install -c -m 644 ./html/AtspiHyperlink.html
+ /usr/bin/install -c -m 644 ./html/AtspiMatchRule.html
+ /usr/bin/install -c -m 644 ./html/AtspiObject.html
+ /usr/bin/install -c -m 644 ./html/AtspiRelation.html
+ /usr/bin/install -c -m 644 ./html/AtspiStateSet.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-action.html
+ /usr/bin/install -c -m 644 ./html/libatspi-AtspiApplication.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-collection.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-component.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-constants.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-document.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-editabletext.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-hypertext.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-image.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-listener-private.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-misc.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-misc-private.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-registry.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-selection.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-table-cell.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-table.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-text.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-types.html
+ /usr/bin/install -c -m 644 ./html/libatspi-atspi-value.html
+ /usr/bin/install -c -m 644 ./html/libatspi.devhelp2
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc/libatspi'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[3]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/doc'
+Making install in test
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/test'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3/test'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/test'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3/test'
+make[1]: Entering directory '/sources/7.9/at-spi2-core-2.18.3'
+make[2]: Entering directory '/sources/7.9/at-spi2-core-2.18.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 atspi-2.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3'
+make[1]: Leaving directory '/sources/7.9/at-spi2-core-2.18.3'

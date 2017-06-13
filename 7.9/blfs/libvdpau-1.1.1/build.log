@@ -1,0 +1,178 @@
+--2016-06-09 20:50:31--  http://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.bz2
+Resolving people.freedesktop.org... 131.252.210.176, 2610:10:20:722:a800:ff:feda:470f
+Connecting to people.freedesktop.org|131.252.210.176|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.bz2 [following]
+--2016-06-09 20:50:32--  https://people.freedesktop.org/~aplattner/vdpau/libvdpau-1.1.1.tar.bz2
+Connecting to people.freedesktop.org|131.252.210.176|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 429576 (420K) [application/x-bzip2]
+Saving to: 'libvdpau-1.1.1.tar.bz2'
+
+     0K .......... .......... .......... .......... .......... 11%  127K 3s
+    50K .......... .......... .......... .......... .......... 23%  298K 2s
+   100K .......... .......... .......... .......... .......... 35% 2.50M 1s
+   150K .......... .......... .......... .......... .......... 47% 4.07M 1s
+   200K .......... .......... .......... .......... .......... 59%  283K 1s
+   250K .......... .......... .......... .......... .......... 71% 3.23M 0s
+   300K .......... .......... .......... .......... .......... 83% 6.30M 0s
+   350K .......... .......... .......... .......... .......... 95% 7.24M 0s
+   400K .......... .........                                  100% 1.93M=0.8s
+
+2016-06-09 20:50:34 (518 KB/s) - 'libvdpau-1.1.1.tar.bz2' saved [429576/429576]
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for __secure_getenv... no
+checking for secure_getenv... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for X11... yes
+checking for dri2proto... yes
+checking for XEXT... yes
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking for library containing pthread_once... -lpthread
+checking for doxygen... no
+checking for dot... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating test/Makefile
+config.status: creating trace/Makefile
+config.status: creating vdpau.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/libvdpau-1.1.1'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/libvdpau-1.1.1/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/libvdpau-1.1.1/doc'
+Making all in src
+make[2]: Entering directory '/sources/7.9/libvdpau-1.1.1/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -MT vdpau_wrapper.lo -MD -MP -MF .deps/vdpau_wrapper.Tpo -c -o vdpau_wrapper.lo vdpau_wrapper.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -DVDPAU_MODULEDIR=\"/usr/lib/vdpau\" -DVDPAU_SYSCONFDIR=\"/etc\" -g -O2 -MT vdpau_wrapper.lo -MD -MP -MF .deps/vdpau_wrapper.Tpo -c vdpau_wrapper.c  -fPIC -DPIC -o .libs/vdpau_wrapper.o
+mv -f .deps/vdpau_wrapper.Tpo .deps/vdpau_wrapper.Plo
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..    -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -MT mesa_dri2.lo -MD -MP -MF .deps/mesa_dri2.Tpo -c -o mesa_dri2.lo mesa_dri2.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -DVDPAU_MODULEDIR=\"/usr/lib/vdpau\" -DVDPAU_SYSCONFDIR=\"/etc\" -g -O2 -MT mesa_dri2.lo -MD -MP -MF .deps/mesa_dri2.Tpo -c mesa_dri2.c  -fPIC -DPIC -o .libs/mesa_dri2.o
+mesa_dri2.c: In function '_vdp_DRI2Connect':
+mesa_dri2.c:135:21: warning: implicit declaration of function 'secure_getenv' [-Wimplicit-function-declaration]
+       char *prime = secure_getenv("DRI_PRIME");
+                     ^
+mesa_dri2.c:135:21: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+mv -f .deps/mesa_dri2.Tpo .deps/mesa_dri2.Plo
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../include -DVDPAU_MODULEDIR="\"/usr/lib/vdpau\"" -DVDPAU_SYSCONFDIR="\"/etc\""    -g -O2 -version-info 1:0:0 -no-undefined  -o libvdpau.la -rpath /usr/lib vdpau_wrapper.lo mesa_dri2.lo -ldl -lpthread -lXext -lpthread 
+libtool: link: gcc -shared  -fPIC -DPIC  .libs/vdpau_wrapper.o .libs/mesa_dri2.o   /usr/lib/libXext.so -L/usr/lib /usr/lib/libX11.so /usr/lib/libxcb.so /usr/lib/libXau.so /usr/lib/libXdmcp.so -ldl -lpthread  -g -O2   -Wl,-soname -Wl,libvdpau.so.1 -o .libs/libvdpau.so.1.0.0
+libtool: link: (cd ".libs" && rm -f "libvdpau.so.1" && ln -s "libvdpau.so.1.0.0" "libvdpau.so.1")
+libtool: link: (cd ".libs" && rm -f "libvdpau.so" && ln -s "libvdpau.so.1.0.0" "libvdpau.so")
+libtool: link: ( cd ".libs" && rm -f "libvdpau.la" && ln -s "../libvdpau.la" "libvdpau.la" )
+make[2]: *** Deleting file 'libvdpau.la'
+Makefile:451: recipe for target 'libvdpau.la' failed
+make[2]: *** [libvdpau.la] Interrupt
+Makefile:468: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Interrupt
+Makefile:377: recipe for target 'all' failed
+make: *** [all] Interrupt

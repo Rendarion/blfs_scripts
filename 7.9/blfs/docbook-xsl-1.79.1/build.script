@@ -1,0 +1,1 @@
+tar -xf ../docbook-xsl-doc-1.79.1.tar.bz2 --strip-components=1

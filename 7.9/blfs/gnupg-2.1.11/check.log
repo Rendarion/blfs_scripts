@@ -1,0 +1,249 @@
+Making check in m4
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/m4'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/common'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/common'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnupg-2.1.11/common'
+PASS: t-stringhelp
+PASS: t-timestuff
+PASS: t-convert
+PASS: t-percent
+PASS: t-gettime
+PASS: t-sysutils
+PASS: t-sexputil
+Known envvars: GPG_TTY(ttyname) TERM(ttytype) DISPLAY(display) XAUTHORITY(xauthority) XMODIFIERS GTK_IM_MODULE DBUS_SESSION_BUS_ADDRESS QT_IM_MODULE INSIDE_EMACS PINENTRY_USER_DATA(pinentry-user-data)
+PASS: t-session-env
+PASS: t-openpgp-oid
+PASS: t-ssh-utils
+PASS: t-mapstrings
+PASS: t-zb32
+PASS: t-mbox-util
+PASS: t-iobuf
+PASS: t-strlist
+max. file descriptors: 4096
+open file descriptors: 3
+PASS: t-exechelp
+===================
+All 16 tests passed
+===================
+make[3]: Leaving directory '/sources/7.9/gnupg-2.1.11/common'
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/common'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/common'
+Making check in kbx
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/kbx'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/kbx'
+Making check in g10
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/g10'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/g10'
+PASS: t-rmd160
+ ok.
+All 1 tests passed.
+PASS: t-keydb
+ ok.
+All 1 tests passed.
+PASS: t-keydb-get-keyblock
+==================
+All 3 tests passed
+==================
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/g10'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/g10'
+Making check in sm
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/sm'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/sm'
+Making check in agent
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/agent'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/agent'
+PASS: t-protect
+=============
+1 test passed
+=============
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/agent'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/agent'
+Making check in scd
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/scd'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/scd'
+Making check in dirmngr
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+PASS: t-dns-stuff
+=============
+1 test passed
+=============
+make[3]: Leaving directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/dirmngr'
+Making check in tools
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/tools'
+Making check in po
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/po'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/po'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/doc'
+make  check-am
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/doc'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/doc'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11/tests'
+Making check in openpgp
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/tests/openpgp'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnupg-2.1.11/tests/openpgp'
+gpg (GnuPG) 2.1.11
+libgcrypt 1.6.5
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Home: /sources/7.9/gnupg-2.1.11/tests/openpgp
+Supported algorithms:
+Pubkey: RSA, ELG, DSA, ECDH, ECDSA, EDDSA
+Cipher: IDEA, 3DES, CAST5, BLOWFISH, AES, AES192, AES256, TWOFISH,
+        CAMELLIA128, CAMELLIA192, CAMELLIA256
+Hash: SHA1, RIPEMD160, SHA256, SHA384, SHA512, SHA224
+Compression: Uncompressed, ZIP, ZLIB, BZIP2
+PASS: version.test
+Hash algorithm MD5 is not installed (not an error)
+PASS: mds.test
+PASS: decrypt.test
+PASS: decrypt-dsa.test
+    > SHA1 RIPEMD160 SHA256 SHA384 SHA512 SHA224 <
+PASS: sigs.test
+PASS: sigs-dsa.test
+    > IDEA 3DES CAST5 BLOWFISH AES AES192 AES256 TWOFISH CAMELLIA128 CAMELLIA192 CAMELLIA256 <
+PASS: encrypt.test
+    > IDEA 3DES CAST5 BLOWFISH AES AES192 AES256 TWOFISH CAMELLIA128 CAMELLIA192 CAMELLIA256 <
+PASS: encrypt-dsa.test
+PASS: seat.test
+PASS: clearsig.test
+PASS: encryptp.test
+PASS: detach.test
+PASS: armsigs.test
+PASS: armencrypt.test
+PASS: armencryptp.test
+PASS: signencrypt.test
+PASS: signencrypt-dsa.test
+PASS: armsignencrypt.test
+PASS: armdetach.test
+PASS: armdetachm.test
+PASS: detachm.test
+PASS: genkey1024.test
+    > IDEA 3DES CAST5 BLOWFISH AES AES192 AES256 TWOFISH CAMELLIA128 CAMELLIA192 CAMELLIA256 <
+PASS: conventional.test
+    > IDEA 3DES CAST5 BLOWFISH AES AES192 AES256 TWOFISH CAMELLIA128 CAMELLIA192 CAMELLIA256 <
+PASS: conventional-mdc.test
+PASS: multisig.test
+PASS: verify.test
+PASS: armor.test
+PASS: import.test
+PASS: ecc.test
+PASS: 4gb-packet.test
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+plain-1
+plain-2
+plain-3
+data-500
+data-9000
+data-32000
+data-80000
+PASS: gpgtar.test
+PASS: use-exact-key.test
+PASS: default-key.test
+PASS: finish.test
+===================
+All 34 tests passed
+===================
+make[3]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests/openpgp'
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests/openpgp'
+Making check in .
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnupg-2.1.11/tests'
+==================
+All 0 tests passed
+==================
+make[3]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests'
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests'
+Making check in pkits
+make[2]: Entering directory '/sources/7.9/gnupg-2.1.11/tests/pkits'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gnupg-2.1.11/tests/pkits'
+Note: PKITS_data.tar.bz2 is not installed
+      All tests will be skipped (this is not an error)
+SKIP: import-all-certs
+SKIP: validate-all-certs
+SKIP: signature-verification
+SKIP: validity-periods
+SKIP: verifying-name-chaining
+SKIP: basic-certificate-revocation
+SKIP: verifying-paths-self-issued
+SKIP: verifying-basic-constraints
+SKIP: key-usage
+SKIP: certificate-policies
+SKIP: require-explicit-policy
+SKIP: policy-mappings
+SKIP: inhibit-policy-mapping
+SKIP: inhibit-any-policy
+SKIP: name-constraints
+SKIP: distribution-points
+SKIP: delta-crls
+SKIP: private-certificate-extensions
+=======================
+All 0 tests passed
+(18 tests were not run)
+=======================
+make[3]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests/pkits'
+make[2]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests/pkits'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11/tests'
+make[1]: Entering directory '/sources/7.9/gnupg-2.1.11'
+make[1]: Leaving directory '/sources/7.9/gnupg-2.1.11'

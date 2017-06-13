@@ -1,0 +1,60 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+SCRIPTDIR="$PWD"
+PKG=$(basename $PWD)
+URL=""
+ARC=$(basename $(find /sources/$LFSVS/ -maxdepth 1 -type f -name "$PKG.*"))
+
+# move to source folder
+
+cd "/sources/$LFSVS"
+
+# clean up leftover build-folders
+
+if [ -a "$PKG" ]
+  then
+    rm -rf "$PKG"
+  fi
+
+# unpack package
+
+tar -xf "$ARC"
+cd "$PKG"
+
+# configure, build and install
+
+sed -i 's/groups$(EXEEXT) //' src/Makefile.in
+find man -name Makefile.in -exec sed -i 's/groups\.1 / /'   {} \;
+find man -name Makefile.in -exec sed -i 's/getspnam\.3 / /' {} \;
+find man -name Makefile.in -exec sed -i 's/passwd\.5 / /'   {} \;
+
+sed -i -e 's@#ENCRYPT_METHOD DES@ENCRYPT_METHOD SHA512@' \
+       -e 's@/var/spool/mail@/var/mail@' etc/login.defs
+
+sed -i 's@DICTPATH.*@DICTPATH\t/lib/cracklib/pw_dict@' etc/login.defs
+
+sed -i 's/1000/999/' etc/useradd
+
+./configure --sysconfdir=/etc --with-group-name-max-length=32
+
+make
+
+porg -lp "$PKG" "$SCRIPTDIR/porg.script"
+
+pwconv
+grpconv
+
+sed -i 's/yes/no/' /etc/default/useradd
+
+# passwd root
+
+# clean up
+
+if [ $PKG != "" ]
+  then
+    rm -rf "/sources/$LFSVS/$PKG"
+  fi

@@ -1,0 +1,4 @@
+./configure --prefix=/usr    \
+            --disable-static \
+            --docdir=/usr/share/doc/speexdsp-1.2rc3 &&
+make

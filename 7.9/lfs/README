@@ -1,0 +1,22 @@
+This folder contains the bash-scripts to automatically build and install Linux from scratch version 7.9
+
+Settings are contained in settings.script and should be reset to default values after install for security reasons.
+
+To execute, run start.install script as root (using su in terminal is necessary)
+
+Script tree:
+
++ start.install.script
+  + install.script
+
+    * LFS_SOURCES/install.script        # download sources
+
+    + /tools/install.script		# set up toolchaine
+      + /tools/install.withlfs.script
+        + /tools/install.withbash.script
+
+    + install.withchroot.script		# build lfs
+      + install.withbash.script
+        * install.withbash2.script
+    * install.withchroot2.script
+    * install.withchroot3.script

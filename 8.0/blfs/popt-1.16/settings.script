@@ -1,0 +1,11 @@
+URL=(
+"http://rpm5.org/files/popt/popt-1.16.tar.gz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+)

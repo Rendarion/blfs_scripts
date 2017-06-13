@@ -1,0 +1,2829 @@
+./install.script: line 30: paper_size: No such file or directory
+/bin/sh configure
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking that C++ compiler can compile simple program... yes
+checking that C++ static constructors and destructors are called... yes
+checking that header files support C++... yes
+checking whether character set is EBCDIC... no
+checking whether to install .cmd wrapper scripts for Windows... no
+checking for X... no
+configure: gxditview and xtotroff won't be built
+checking for a sed that does not truncate output... /bin/sed
+checking for gawk... gawk
+checking for perl... /usr/bin/perl
+checking for perl version... 5.22.1
+checking for lpr... no
+checking for lp... no
+checking for command to use for printing PostScript files... 
+checking for command to use for printing dvi files... 
+checking for egrep... (cached) /bin/grep -E
+checking for byacc... no
+checking for bison... bison -y
+checking for makeinfo... makeinfo
+checking for makeinfo version... 6.1
+checking for ranlib... ranlib
+checking for install-info... install-info
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking for csh hash hack... no
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking sys/dir.h usability... yes
+checking sys/dir.h presence... yes
+checking for sys/dir.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking process.h usability... no
+checking process.h presence... no
+checking for process.h... no
+checking for ISC 3.x or 4.x... no
+checking whether -D_POSIX_SOURCE is necessary... no
+checking for return type of srand... void
+checking whether gettimeofday must be declared... no
+checking whether hypot must be declared... no
+checking whether popen must be declared... no
+checking whether pclose must be declared... no
+checking whether putenv must be declared... no
+checking whether rand must be declared... no
+checking whether snprintf must be declared... no
+checking whether srand must be declared... no
+checking whether strcasecmp must be declared... no
+checking whether strncasecmp must be declared... no
+checking whether vfprintf must be declared... no
+checking whether vsnprintf must be declared... no
+checking for sys_nerr in <errno.h>, <stdio.h>, or <stdlib.h>... yes
+checking for sys_errlist in <errno.h>, <stdio.h>, or <stdlib.h>... yes
+checking C++ <osfcn.h>... no
+checking C++ <limits.h>... yes
+checking C++ <inttypes.h>... yes
+checking for unsigned long long... yes
+checking for declaration of time_t... yes
+checking for return type of signal handlers... void
+checking struct exception... yes
+checking whether byte ordering is bigendian... no
+checking for main in -lc... yes
+checking for sin in -lm... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C++ preprocessor... g++ -E
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for fmod... yes
+checking for getcwd... yes
+checking for putenv... yes
+checking for snprintf... yes
+checking for strcasecmp... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strtol... yes
+checking for vsnprintf... yes
+checking for gettimeofday... yes
+checking for isatty... yes
+checking for kill... yes
+checking for rename... yes
+checking for setlocale... yes
+checking for strsep... yes
+checking for mkstemp... yes
+checking whether sys_siglist is declared... no
+checking whether getc_unlocked is declared... yes
+checking for nl_langinfo and CODESET... yes
+checking whether ANSI array delete syntax is supported... yes
+checking traditional preprocessor... no
+checking w_coredump... no
+checking default value for grops -b option... 0
+checking default paper size... letter
+checking for existing troff installation... no
+checking for prefix of system macro packages... 
+checking which system macro packages should be made available... 
+checking separator character to use in groff search paths... :
+checking for gs... no
+checking for gswin32c... no
+checking for gsos2... no
+checking for pnmcut... missing
+checking for pnmcrop... missing
+checking for pnmtopng... missing
+checking for psselect... missing
+checking for pnmtops... missing
+configure: WARNING: missing programs:
+
+  The programs
+     `pnmcut', `pnmcrop', `pnmtopng', `psselect', `pnmtops' and `gs'
+  cannot be found in the PATH.
+  Consequently, groff's HTML backend (grohtml) will not work properly;
+  therefore, it will neither be possible to prepare, nor to install,
+  documentation in HTML format.
+     
+configure: WARNING: missing program:
+
+  The program `gs' cannot be found in the PATH.
+  Consequently, groff's PDF formatter (pdfroff) will not work properly;
+  therefore, it will neither be possible to prepare, nor to install,
+  documentation and most of the examples in PDF format.
+     
+checking whether pnmtops can handle the -nosetpage option... no
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for symlink... yes
+checking for working fcntl.h... yes
+checking whether getc_unlocked is declared... (cached) yes
+configure: creating ./config.status
+config.status: creating stamp-h
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating src/utils/xtotroff/Makefile
+config.status: creating contrib/gdiffmk/tests/runtests
+config.status: creating test-groff
+config.status: creating src/include/config.h
+
+groff version 1.22.3
+----------------------------------------------------------------------
+ Prefix            : /usr/local
+ Compiler          : gcc -g -O2 
+ X11 support       : no
+ Doc build         : yes 
+----------------------------------------------------------------------
+make all
+make[1]: Entering directory '/sources/7.9/groff-1.22.3'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/include'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/arch/misc'
+/bin/sh ./shdeps.sh ":" ":" "/usr/local/bin" > shdeps.sed
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/arch/misc'
+make[2]: Nothing to be done for 'arch/misc'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/include'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+rm -f gropdf
+sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+    -e "s|@VERSION@|1.22.3|" \
+    -e "s|@PERL@|/usr/bin/perl|" \
+    -e "s|@GROFF_FONT_DIR@|/usr/local/share/groff/site-font:/usr/local/share/groff/1.22.3/font:/usr/lib/font|" \
+    -e "s|@RT_SEP@|:|" ./gropdf.pl >gropdf
+chmod +x gropdf
+rm -f pdfmom
+sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+    -e "s|@VERSION@|1.22.3|" \
+    -e "s|@PERL@|/usr/bin/perl|" ./pdfmom.pl >pdfmom
+chmod +x pdfmom
+Making gropdf.n from gropdf.man
+Making pdfmom.n from pdfmom.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+/sources/7.9/groff-1.22.3/src/libs/gnulib/build-aux/missing: Unknown '--is-lightweight' option
+Try '/sources/7.9/groff-1.22.3/src/libs/gnulib/build-aux/missing --help' for more information
+configure: WARNING: 'missing' script is too old or missing
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking for ranlib... ranlib
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking features.h usability... yes
+checking features.h presence... yes
+checking for features.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking whether stdint.h conforms to C99... yes
+checking whether imaxabs is declared without a macro... yes
+checking whether imaxdiv is declared without a macro... yes
+checking whether strtoimax is declared without a macro... yes
+checking whether strtoumax is declared without a macro... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for nl_langinfo and CODESET... yes
+checking for symlink... yes
+checking for iswcntrl... yes
+checking for wcwidth... yes
+checking for working fcntl.h... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for wchar_t... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking for wint_t... yes
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether btowc is declared without a macro... yes
+checking whether wctob is declared without a macro... yes
+checking whether mbsinit is declared without a macro... yes
+checking whether mbrtowc is declared without a macro... yes
+checking whether mbrlen is declared without a macro... yes
+checking whether mbsrtowcs is declared without a macro... yes
+checking whether mbsnrtowcs is declared without a macro... yes
+checking whether wcrtomb is declared without a macro... yes
+checking whether wcsrtombs is declared without a macro... yes
+checking whether wcsnrtombs is declared without a macro... yes
+checking whether wcwidth is declared without a macro... yes
+checking whether wmemchr is declared without a macro... yes
+checking whether wmemcmp is declared without a macro... yes
+checking whether wmemcpy is declared without a macro... yes
+checking whether wmemmove is declared without a macro... yes
+checking whether wmemset is declared without a macro... yes
+checking whether wcslen is declared without a macro... yes
+checking whether wcsnlen is declared without a macro... yes
+checking whether wcscpy is declared without a macro... yes
+checking whether wcpcpy is declared without a macro... yes
+checking whether wcsncpy is declared without a macro... yes
+checking whether wcpncpy is declared without a macro... yes
+checking whether wcscat is declared without a macro... yes
+checking whether wcsncat is declared without a macro... yes
+checking whether wcscmp is declared without a macro... yes
+checking whether wcsncmp is declared without a macro... yes
+checking whether wcscasecmp is declared without a macro... yes
+checking whether wcsncasecmp is declared without a macro... yes
+checking whether wcscoll is declared without a macro... yes
+checking whether wcsxfrm is declared without a macro... yes
+checking whether wcsdup is declared without a macro... yes
+checking whether wcschr is declared without a macro... yes
+checking whether wcsrchr is declared without a macro... yes
+checking whether wcscspn is declared without a macro... yes
+checking whether wcsspn is declared without a macro... yes
+checking whether wcspbrk is declared without a macro... yes
+checking whether wcsstr is declared without a macro... yes
+checking whether wcstok is declared without a macro... yes
+checking whether wcswidth is declared without a macro... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking whether wctype is declared without a macro... yes
+checking whether iswctype is declared without a macro... yes
+checking whether wctrans is declared without a macro... yes
+checking whether towctrans is declared without a macro... yes
+checking whether wcwidth is declared... (cached) yes
+checking whether wcwidth works reasonably in UTF-8 locales... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating m4/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+(CDPATH="${ZSH_VERSION+.}:" && cd . && :)
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/sh ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+Making all in lib
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+rm -f configmake.h-t && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  echo '#define PREFIX "/usr/local"'; \
+  echo '#define EXEC_PREFIX "/usr/local"'; \
+  echo '#define BINDIR "/usr/local/bin"'; \
+  echo '#define SBINDIR "/usr/local/sbin"'; \
+  echo '#define LIBEXECDIR "/usr/local/libexec"'; \
+  echo '#define DATAROOTDIR "/usr/local/share"'; \
+  echo '#define DATADIR "/usr/local/share"'; \
+  echo '#define SYSCONFDIR "/usr/local/etc"'; \
+  echo '#define SHAREDSTATEDIR "/usr/local/com"'; \
+  echo '#define LOCALSTATEDIR "/usr/local/var"'; \
+  echo '#define INCLUDEDIR "/usr/local/include"'; \
+  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+  echo '#define DOCDIR "/usr/local/share/doc/dummy"'; \
+  echo '#define INFODIR "/usr/local/share/info"'; \
+  echo '#define HTMLDIR "/usr/local/share/doc/dummy"'; \
+  echo '#define DVIDIR "/usr/local/share/doc/dummy"'; \
+  echo '#define PDFDIR "/usr/local/share/doc/dummy"'; \
+  echo '#define PSDIR "/usr/local/share/doc/dummy"'; \
+  echo '#define LIBDIR "/usr/local/lib"'; \
+  echo '#define LISPDIR "/usr/local/share/emacs/site-lisp"'; \
+  echo '#define LOCALEDIR "/usr/local/share/locale"'; \
+  echo '#define MANDIR "/usr/local/share/man"'; \
+  echo '#define MANEXT ""'; \
+  echo '#define PKGDATADIR "/usr/local/share/dummy"'; \
+  echo '#define PKGINCLUDEDIR "/usr/local/include/dummy"'; \
+  echo '#define PKGLIBDIR "/usr/local/lib/dummy"'; \
+  echo '#define PKGLIBEXECDIR "/usr/local/libexec/dummy"'; \
+} | sed '/""/d' > configmake.h-t && \
+mv -f configmake.h-t configmake.h
+rm -f arg-nonnull.h-t arg-nonnull.h && \
+sed -n -e '/GL_ARG_NONNULL/,$p' \
+  < ../build-aux/snippet/arg-nonnull.h \
+  > arg-nonnull.h-t && \
+mv arg-nonnull.h-t arg-nonnull.h
+rm -f c++defs.h-t c++defs.h && \
+sed -n -e '/_GL_CXXDEFS/,$p' \
+  < ../build-aux/snippet/c++defs.h \
+  > c++defs.h-t && \
+mv c++defs.h-t c++defs.h
+rm -f warn-on-use.h-t warn-on-use.h && \
+sed -n -e '/^.ifndef/,$p' \
+  < ../build-aux/snippet/warn-on-use.h \
+  > warn-on-use.h-t && \
+mv warn-on-use.h-t warn-on-use.h
+rm -f unitypes.h-t unitypes.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ./unitypes.in.h; \
+} > unitypes.h-t && \
+mv -f unitypes.h-t unitypes.h
+rm -f uniwidth.h-t uniwidth.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  cat ./uniwidth.in.h; \
+} > uniwidth.h-t && \
+mv -f uniwidth.h-t uniwidth.h
+rm -f wchar.h-t wchar.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''HAVE_FEATURES_H''@|1|g' \
+      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+      -e 's/@''GNULIB_BTOWC''@/0/g' \
+      -e 's/@''GNULIB_WCTOB''@/0/g' \
+      -e 's/@''GNULIB_MBSINIT''@/0/g' \
+      -e 's/@''GNULIB_MBRTOWC''@/0/g' \
+      -e 's/@''GNULIB_MBRLEN''@/0/g' \
+      -e 's/@''GNULIB_MBSRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_MBSNRTOWCS''@/0/g' \
+      -e 's/@''GNULIB_WCRTOMB''@/0/g' \
+      -e 's/@''GNULIB_WCSRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCSNRTOMBS''@/0/g' \
+      -e 's/@''GNULIB_WCWIDTH''@/1/g' \
+      -e 's/@''GNULIB_WMEMCHR''@/0/g' \
+      -e 's/@''GNULIB_WMEMCMP''@/0/g' \
+      -e 's/@''GNULIB_WMEMCPY''@/0/g' \
+      -e 's/@''GNULIB_WMEMMOVE''@/0/g' \
+      -e 's/@''GNULIB_WMEMSET''@/0/g' \
+      -e 's/@''GNULIB_WCSLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSNLEN''@/0/g' \
+      -e 's/@''GNULIB_WCSCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCPNCPY''@/0/g' \
+      -e 's/@''GNULIB_WCSCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSNCAT''@/0/g' \
+      -e 's/@''GNULIB_WCSCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSNCASECMP''@/0/g' \
+      -e 's/@''GNULIB_WCSCOLL''@/0/g' \
+      -e 's/@''GNULIB_WCSXFRM''@/0/g' \
+      -e 's/@''GNULIB_WCSDUP''@/0/g' \
+      -e 's/@''GNULIB_WCSCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSRCHR''@/0/g' \
+      -e 's/@''GNULIB_WCSCSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSSPN''@/0/g' \
+      -e 's/@''GNULIB_WCSPBRK''@/0/g' \
+      -e 's/@''GNULIB_WCSSTR''@/0/g' \
+      -e 's/@''GNULIB_WCSTOK''@/0/g' \
+      -e 's/@''GNULIB_WCSWIDTH''@/0/g' \
+      < ./wchar.in.h | \
+  sed -e 's|@''HAVE_WINT_T''@|1|g' \
+      -e 's|@''HAVE_BTOWC''@|1|g' \
+      -e 's|@''HAVE_MBSINIT''@|1|g' \
+      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+      -e 's|@''HAVE_MBRLEN''@|1|g' \
+      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+      -e 's|@''HAVE_WMEMCHR''@|1|g' \
+      -e 's|@''HAVE_WMEMCMP''@|1|g' \
+      -e 's|@''HAVE_WMEMCPY''@|1|g' \
+      -e 's|@''HAVE_WMEMMOVE''@|1|g' \
+      -e 's|@''HAVE_WMEMSET''@|1|g' \
+      -e 's|@''HAVE_WCSLEN''@|1|g' \
+      -e 's|@''HAVE_WCSNLEN''@|1|g' \
+      -e 's|@''HAVE_WCSCPY''@|1|g' \
+      -e 's|@''HAVE_WCPCPY''@|1|g' \
+      -e 's|@''HAVE_WCSNCPY''@|1|g' \
+      -e 's|@''HAVE_WCPNCPY''@|1|g' \
+      -e 's|@''HAVE_WCSCAT''@|1|g' \
+      -e 's|@''HAVE_WCSNCAT''@|1|g' \
+      -e 's|@''HAVE_WCSCMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCMP''@|1|g' \
+      -e 's|@''HAVE_WCSCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSNCASECMP''@|1|g' \
+      -e 's|@''HAVE_WCSCOLL''@|1|g' \
+      -e 's|@''HAVE_WCSXFRM''@|1|g' \
+      -e 's|@''HAVE_WCSDUP''@|1|g' \
+      -e 's|@''HAVE_WCSCHR''@|1|g' \
+      -e 's|@''HAVE_WCSRCHR''@|1|g' \
+      -e 's|@''HAVE_WCSCSPN''@|1|g' \
+      -e 's|@''HAVE_WCSSPN''@|1|g' \
+      -e 's|@''HAVE_WCSPBRK''@|1|g' \
+      -e 's|@''HAVE_WCSSTR''@|1|g' \
+      -e 's|@''HAVE_WCSTOK''@|1|g' \
+      -e 's|@''HAVE_WCSWIDTH''@|1|g' \
+      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+  | \
+  sed -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+      -e 's|@''REPLACE_BTOWC''@|0|g' \
+      -e 's|@''REPLACE_WCTOB''@|0|g' \
+      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+      -e 's|@''REPLACE_MBRTOWC''@|0|g' \
+      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+      -e 's|@''REPLACE_WCSWIDTH''@|0|g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_ARG_NONNULL/r arg-nonnull.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h'; \
+} > wchar.h-t && \
+mv wchar.h-t wchar.h
+rm -f wctype.h-t wctype.h && \
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+  sed -e 's|@''GUARD_PREFIX''@|GL|g' \
+      -e 's/@''HAVE_WCTYPE_H''@/1/g' \
+      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+      -e 's|@''PRAGMA_SYSTEM_HEADER''@|#pragma GCC system_header|g' \
+      -e 's|@''PRAGMA_COLUMNS''@||g' \
+      -e 's|@''NEXT_WCTYPE_H''@|<wctype.h>|g' \
+      -e 's/@''GNULIB_ISWBLANK''@/0/g' \
+      -e 's/@''GNULIB_WCTYPE''@/0/g' \
+      -e 's/@''GNULIB_ISWCTYPE''@/0/g' \
+      -e 's/@''GNULIB_WCTRANS''@/0/g' \
+      -e 's/@''GNULIB_TOWCTRANS''@/0/g' \
+      -e 's/@''HAVE_ISWBLANK''@/1/g' \
+      -e 's/@''HAVE_ISWCNTRL''@/1/g' \
+      -e 's/@''HAVE_WCTYPE_T''@/1/g' \
+      -e 's/@''HAVE_WCTRANS_T''@/1/g' \
+      -e 's/@''HAVE_WINT_T''@/1/g' \
+      -e 's/@''REPLACE_ISWBLANK''@/0/g' \
+      -e 's/@''REPLACE_ISWCNTRL''@/0/g' \
+      -e 's/@''REPLACE_TOWLOWER''@/0/g' \
+      -e '/definitions of _GL_FUNCDECL_RPL/r c++defs.h' \
+      -e '/definition of _GL_WARN_ON_USE/r warn-on-use.h' \
+      < ./wctype.in.h; \
+} > wctype.h-t && \
+mv wctype.h-t wctype.h
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[8]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[8]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[8]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[8]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+depbase=`echo localcharset.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT localcharset.o -MD -MP -MF $depbase.Tpo -c -o localcharset.o localcharset.c &&\
+mv -f $depbase.Tpo $depbase.Po
+depbase=`echo wctype-h.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT wctype-h.o -MD -MP -MF $depbase.Tpo -c -o wctype-h.o wctype-h.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f t-charset.alias charset.alias && \
+/bin/sh ./config.charset 'x86_64-unknown-linux-gnu' > t-charset.alias && \
+mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/dummy/g' ref-add.sin > t-ref-add.sed && \
+mv t-ref-add.sed ref-add.sed
+rm -f t-ref-del.sed ref-del.sed && \
+sed -e '/^#/d' -e 's/@''PACKAGE''@/dummy/g' ref-del.sin > t-ref-del.sed && \
+mv t-ref-del.sed ref-del.sed
+depbase=`echo uniwidth/width.o | sed 's|[^/]*$|.deps/&|;s|\.o$||'`;\
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT uniwidth/width.o -MD -MP -MF $depbase.Tpo -c -o uniwidth/width.o uniwidth/width.c &&\
+mv -f $depbase.Tpo $depbase.Po
+rm -f libgnu.a
+ar cru libgnu.a localcharset.o uniwidth/width.o wctype-h.o 
+ranlib libgnu.a
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+Making all in m4
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/m4'
+cd .. && make  am--refresh
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/m4'
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[4]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  input.cpp
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+/bin/sh ./config.charset 'x86_64-unknown-linux-gnu' > t-charset.alias
+mv t-charset.alias charset.alias
+sed -e '/^#/d' \
+    -e 's/@''PACKAGE''@/groff/g' ./ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+sed -e '/^#/d' \
+    -e 's/@''PACKAGE''@/groff/g' ./ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  assert.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  change_lf.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  cmap.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  color.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  cset.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  device.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  printer.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  errarg.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  error.cpp
+ar r libdriver.a input.o printer.o
+ar: creating libdriver.a
+ranlib libdriver.a
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  fatal.cpp
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  common.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  filename.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  index.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  font.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  linear.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  fontfile.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  geometry.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" getopt.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  search.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" getopt1.c
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  map.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  glyphuni.cpp
+ar r libbib.a common.o index.o linear.o search.o map.o
+ar: creating libbib.a
+ranlib libbib.a
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  htmlhint.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hypot.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" iftoa.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  invalid.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" itoa.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lf.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lineno.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" localcharset.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  macropath.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" matherr.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  maxfilename.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  maxpathname.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  mksdir.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  nametoindex.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  new.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  paper.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  prime.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" progname.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  ptable.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" quotearg.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  relocate.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  searchpath.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c -D__GETOPT_PREFIX=groff_ -DENABLE_RELOCATABLE=1 -DLIBDIR=\"/usr/local/lib\" spawnvp.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  string.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  strsave.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  symbol.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  tmpfile.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  tmpname.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  unicode.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  uniglyph.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  uniuni.cpp
+Making version.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  version.cpp
+version.cpp:3:24: warning: 'Version_string' initialized and declared 'extern'
+ extern "C" const char *Version_string = "1.22.3";
+                        ^
+ar r libgroff.a assert.o change_lf.o cmap.o color.o cset.o device.o errarg.o error.o fatal.o filename.o font.o fontfile.o geometry.o getopt.o getopt1.o glyphuni.o htmlhint.o hypot.o iftoa.o invalid.o itoa.o lf.o lineno.o localcharset.o macropath.o matherr.o maxfilename.o maxpathname.o mksdir.o nametoindex.o new.o paper.o prime.o progname.o ptable.o quotearg.o relocate.o searchpath.o spawnvp.o string.o strsave.o symbol.o tmpfile.o tmpname.o unicode.o uniglyph.o uniuni.o version.o
+ar: creating libgroff.a
+ranlib libgroff.a
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  dictionary.cpp
+groff options: abcCd:D:eEf:F:gGhiI:jJkK:lL:m:M:n:No:pP:r:RsStT:UvVw:W:XzZ
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  groff.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  div.cpp
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pipeline.c
+Making groff.n from groff.man
+no arg: abcCeEgGhijJklNpRsStUvVXzZ
+g++ -g -O2  -o groff groff.o pipeline.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+with arg: dDfFIKLmMnoPrTwW
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  preconv.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  env.cpp
+Making preconv.n from preconv.man
+g++ -g -O2  -o preconv preconv.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  table.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  input.cpp
+Making tbl.n from tbl.man
+g++ -g -O2  -o tbl main.o table.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pic.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lex.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  object.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  common.cpp
+Making majorminor.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  mtsm.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  node.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  troff.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  tex.cpp
+Making pic.n from pic.man
+g++ -g -O2  -o pic pic.o lex.o main.o object.o common.o troff.o tex.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+rm -f neqn
+sed -e 's/@g@//g' \
+    -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+    -e 1s/a/a/ ./neqn.sh >neqn
+chmod +x neqn
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  eqn.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lex.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  box.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  limit.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  list.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  over.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  text.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  script.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  mark.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  other.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  number.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  delim.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  sqrt.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pile.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  reg.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  special.cpp
+Making troff.n from troff.man
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  majorminor.cpp
+Making eqn.n from eqn.man
+g++ -g -O2  -o troff dictionary.o div.o env.o input.o majorminor.o mtsm.o node.o number.o reg.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+Making neqn.n from neqn.man
+g++ -g -O2  -o eqn eqn.o main.o lex.o box.o limit.o list.o over.o text.o script.o mark.o other.o delim.o sqrt.o pile.o special.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hdb.cpp
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  command.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hpoint.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hgraph.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  label.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  main.cpp
+Making grn.n from grn.man
+g++ -g -O2  -o grn hdb.o hpoint.o hgraph.o main.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  soelim.cpp
+Making soelim.n from soelim.man
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  ref.cpp
+g++ -g -O2  -o soelim soelim.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pre-html.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pushback.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  refer.cpp
+g++ -g -O2  -o pre-grohtml pre-html.o pushback.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  ps.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  token.cpp
+Making refer.n from refer.man
+g++ -g -O2  -o refer command.o label.o ref.o refer.o token.o /sources/7.9/groff-1.22.3/src/libs/libbib/libbib.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  tty.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  psrm.cpp
+Making grotty.n from grotty.man
+g++ -g -O2  -o grotty tty.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  dvi.cpp
+Making grops.n from grops.man
+g++ -g -O2  -o grops ps.o psrm.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lj4.cpp
+Making grodvi.n from grodvi.man
+g++ -g -O2  -o grodvi dvi.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+Making grolj4.n from grolj4.man
+Making lj4_font.n from lj4_font.man
+g++ -g -O2  -o grolj4 lj4.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  post-html.cpp
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lbp.cpp
+Making grolbp.n from grolbp.man
+g++ -g -O2  -o grolbp lbp.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  tfmtodit.cpp
+Making tfmtodit.n from tfmtodit.man
+g++ -g -O2  -o tfmtodit tfmtodit.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hpftodit.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  html-table.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  html-text.cpp
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  hpuni.cpp
+Making hpftodit.n from hpftodit.man
+g++ -g -O2  -o hpftodit hpftodit.o hpuni.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lookbib.cpp
+Making lookbib.n from lookbib.man
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  output.cpp
+g++ -g -O2  -o lookbib lookbib.o /sources/7.9/groff-1.22.3/src/libs/libbib/libbib.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  indxbib.cpp
+Making grohtml.n from grohtml.man
+g++ -g -O2  -o post-grohtml post-html.o html-table.o html-text.o output.o /sources/7.9/groff-1.22.3/src/libs/libdriver/libdriver.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a /sources/7.9/groff-1.22.3/src/libs/gnulib/lib/libgnu.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  lkbib.cpp
+Making lkbib.n from lkbib.man
+g++ -g -O2  -o lkbib lkbib.o /sources/7.9/groff-1.22.3/src/libs/libbib/libbib.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  signal.c
+Making indxbib.n from indxbib.man
+g++ -g -O2  -o indxbib indxbib.o signal.o /sources/7.9/groff-1.22.3/src/libs/libbib/libbib.a /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  addftinfo.cpp
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+gcc -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  pfbtops.c
+g++ -I. -I. -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/include -I/sources/7.9/groff-1.22.3/src/libs/gnulib/lib -DHAVE_CONFIG_H -g -O2  -c  guess.cpp
+Making pfbtops.n from pfbtops.man
+g++ -g -O2  -o pfbtops pfbtops.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   -lm
+Making addftinfo.n from addftinfo.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+g++ -g -O2  -o addftinfo addftinfo.o guess.o /sources/7.9/groff-1.22.3/src/libs/libgroff/libgroff.a   
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devps'
+cat ./DESC.in >DESC
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devdvi'
+cat ./DESC.in >DESC
+echo broken 0 >>DESC
+if test "letter" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+if test "letter" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' ||	echo print '' >>DESC
+test -z '' || echo print '' >>DESC
+rm -f prologue
+sed -f ./psstrip.sed prologue.ps >prologue
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devdvi'
+rm -f symbolsl.pfa
+sed -f ./psstrip.sed symbolsl.ps >symbolsl.pfa
+rm -f zapfdr.pfa
+sed -f ./psstrip.sed zapfdr.ps >zapfdr.pfa
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devps'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devhtml'
+Making R
+Making I
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devlj4'
+echo "res 1200" >DESC
+echo "unitwidth `expr 7620000 / 1200`" >>DESC
+cat ./DESC.in >>DESC
+if test "letter" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlj4'
+Making B
+Making BI
+Making CR
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devlbp'
+cat ./DESC.in >DESC
+if test "letter" = A4; then \
+  echo "papersize a4" >>DESC; \
+else \
+  echo "papersize letter" >>DESC; \
+fi
+test -z '' || echo print '' >>DESC
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlbp'
+Making CI
+Making CB
+Making CBI
+Making S
+Making DESC
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devascii'
+Making R
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devhtml'
+Making I
+Making B
+Making BI
+Making DESC
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devlatin1'
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devascii'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlatin1'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devutf8'
+Making R
+Making I
+Making B
+Making BI
+Making DESC
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devutf8'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/arch/misc'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/arch/misc'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/include'
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/include'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+Making all in lib
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[3]: Entering directory '/sources/7.9/groff-1.22.3'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3'
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[7]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+cd .. && make  am--refresh
+make[8]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[8]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[8]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[8]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/lib'
+Making all in m4
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/m4'
+cd .. && make  am--refresh
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[6]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[6]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib/m4'
+make[5]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+CDPATH="${ZSH_VERSION+.}:" && cd . && : -I m4
+make[5]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[4]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/gnulib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/font/devpdf'
+rm -f DESC
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/afmtodit'
+if test -n "/usr/bin/perl"; then \
+  sed -e "s|/usr/bin/perl|/usr/bin/perl|" \
+      -e "s|@VERSION@|1.22.3|" \
+      -e "s|@FONTDIR@|/usr/local/share/groff/1.22.3/font|" \
+      -e "/@afmtodit.tables@/ r ./afmtodit.tables" \
+      -e "/@afmtodit.tables@/ d" \
+      ./afmtodit.pl >afmtodit; \
+else \
+  sed -e "s|@VERSION@|1.22.3|" \
+      -e "s|@FONTDIR@|/usr/local/share/groff/1.22.3/font|" \
+      -e "/@afmtodit.tables@/ r ./afmtodit.tables" \
+      -e "/@afmtodit.tables@/ d" \
+      ./afmtodit.pl >afmtodit; \
+fi
+cat ./DESC.in >/sources/7.9/groff-1.22.3/font/devpdf/DESC
+if test "letter" = A4; then \
+  echo "papersize a4" >>/sources/7.9/groff-1.22.3/font/devpdf/DESC; \
+else \
+  echo "papersize letter" >>/sources/7.9/groff-1.22.3/font/devpdf/DESC; \
+fi
+chmod +x afmtodit
+rm -f Foundry
+cat ./Foundry.in >/sources/7.9/groff-1.22.3/font/devpdf/Foundry
+Making afmtodit.n from afmtodit.man
+test -d /sources/7.9/groff-1.22.3/font/devpdf/enc \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /sources/7.9/groff-1.22.3/font/devpdf/enc
+mkdir -p -- /sources/7.9/groff-1.22.3/font/devpdf/enc
+test -d /sources/7.9/groff-1.22.3/font/devpdf/map \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /sources/7.9/groff-1.22.3/font/devpdf/map
+mkdir -p -- /sources/7.9/groff-1.22.3/font/devpdf/map
+cp -f /sources/7.9/groff-1.22.3/font/devps/text.enc \
+  /sources/7.9/groff-1.22.3/font/devpdf/enc
+cp -f /sources/7.9/groff-1.22.3/font/devps/symbolmap \
+  /sources/7.9/groff-1.22.3/font/devpdf/map
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/afmtodit'
+cp -f /sources/7.9/groff-1.22.3/font/devps/generate/dingbats.map \
+  /sources/7.9/groff-1.22.3/font/devpdf/map
+cp -f /sources/7.9/groff-1.22.3/font/devps/generate/textmap \
+  /sources/7.9/groff-1.22.3/font/devpdf/map
+cp -f /sources/7.9/groff-1.22.3/font/devps/generate/symbolchars \
+  /sources/7.9/groff-1.22.3/font/devpdf/map
+test -d util || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs util
+rm -f util/BuildFoundries
+if test -n "/usr/bin/perl"; then \
+  sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+      -e "s|/usr/bin/perl|/usr/bin/perl|" \
+      -e "s|@GROFF_GHOSTSCRIPT_INTERPRETERS@|missing|" \
+      -e "s|@VERSION@|1.22.3|" \
+      -e "s|@GROFF_FONT_DIR@|/usr/local/share/groff/1.22.3/font|" \
+      ./util/BuildFoundries.pl \
+  >/sources/7.9/groff-1.22.3/font/devpdf/util/BuildFoundries ;\
+else \
+  sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+      -e "s|@VERSION@|1.22.3|" \
+      -e "s|@GROFF_FONT_DIR@|/usr/local/share/groff/1.22.3/font|" \
+      ./util/BuildFoundries.pl \
+  >/sources/7.9/groff-1.22.3/font/devpdf/util/BuildFoundries ;\
+fi
+chmod +x util/BuildFoundries
+echo "# foundry	ps name	psfile" > /sources/7.9/groff-1.22.3/font/devpdf/download
+PATH="/sources/7.9/groff-1.22.3/src/utils/afmtodit:/bin:/usr/bin:/sbin:/usr/sbin:/tools/bin" \
+  util/BuildFoundries /sources/7.9/groff-1.22.3/font/devpdf \
+    '/sources/7.9/groff-1.22.3/font/devps : /sources/7.9/groff-1.22.3/font/devps' \
+   >> /sources/7.9/groff-1.22.3/font/devpdf/download
+Warning: line 28: Unable to locate font(s) URWGothicL-Demi,a010015l.pfb on the given path(s)
+Warning: line 29: Unable to locate font(s) URWGothicL-DemiObli,a010035l.pfb on the given path(s)
+Warning: line 30: Unable to locate font(s) URWGothicL-BookObli,a010033l.pfb on the given path(s)
+Warning: line 31: Unable to locate font(s) URWGothicL-Book,a010013l.pfb on the given path(s)
+Warning: line 32: Unable to locate font(s) URWBookmanL-DemiBold,b018015l.pfb on the given path(s)
+Warning: line 33: Unable to locate font(s) URWBookmanL-DemiBoldItal,b018035l.pfb on the given path(s)
+Warning: line 34: Unable to locate font(s) URWBookmanL-LighItal,b018032l.pfb on the given path(s)
+Warning: line 35: Unable to locate font(s) URWBookmanL-Ligh,b018012l.pfb on the given path(s)
+Copied grops font CB...
+Copied grops font CBI...
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/arch/mingw'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/arch/mingw'
+Copied grops font CI...
+Copied grops font CR...
+Copied grops font EURO...
+Copied grops font HB...
+Copied grops font HBI...
+Copied grops font HI...
+Warning: line 44: Unable to locate font(s) NimbusSanL-BoldCond,n019044l.pfb on the given path(s)
+Warning: line 45: Unable to locate font(s) NimbusSanL-BoldCondItal,n019064l.pfb on the given path(s)
+Warning: line 46: Unable to locate font(s) NimbusSanL-ReguCondItal,n019063l.pfb on the given path(s)
+Warning: line 47: Unable to locate font(s) NimbusSanL-ReguCond,n019043l.pfb on the given path(s)
+Copied grops font HR...
+Warning: line 49: Unable to locate font(s) CenturySchL-Bold,c059016l.pfb on the given path(s)
+Warning: line 50: Unable to locate font(s) CenturySchL-BoldItal,c059036l.pfb on the given path(s)
+Warning: line 51: Unable to locate font(s) CenturySchL-Ital,c059033l.pfb on the given path(s)
+Warning: line 52: Unable to locate font(s) CenturySchL-Roma,c059013l.pfb on the given path(s)
+Warning: line 53: Unable to locate font(s) URWPalladioL-Bold,p052004l.pfb on the given path(s)
+Warning: line 54: Unable to locate font(s) URWPalladioL-BoldItal,p052024l.pfb on the given path(s)
+Warning: line 55: Unable to locate font(s) URWPalladioL-Ital,p052023l.pfb on the given path(s)
+Warning: line 56: Unable to locate font(s) URWPalladioL-Roma,p052003l.pfb on the given path(s)
+Copied grops font S...
+Copied grops font TB...
+Copied grops font TBI...
+Copied grops font TI...
+Copied grops font TR...
+Warning: line 62: Unable to locate font(s) URWChanceryL-MediItal,z003034l.pfb on the given path(s)
+Copied grops font ZD...
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/chem'
+sed -e "s|@g@||g" README.txt >README
+rm -f chem;
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+    -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@MACRODIR@|/usr/local/share/groff/1.22.3/tmac|g" \
+    -e "s|@PICDIR@|/usr/local/share/groff/1.22.3/pic|g" \
+    -e "s|@VERSION@|1.22.3|g" \
+    -e "1s/a/a/" \
+    ./chem.pl >chem;
+chmod +x chem;
+Making chem.n from chem.man
+Warning: line 77: Failed to create groff font 'U-AB' by running afmtodit
+test -d examples || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs examples;
+sed -e "s|@g@||g" examples/README.txt >examples/README
+test -d examples || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs examples;
+test -d examples/122 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs examples/122;
+sed -e "s|@g@||g" examples/122/README.txt >examples/122/README;
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/chem'
+Warning: line 78: Failed to create groff font 'U-ABI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/eqn2graph'
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.22.3|" \
+    -e 1s/a/a/ ./eqn2graph.sh >eqn2graph
+chmod +x eqn2graph
+Making eqn2graph.n from eqn2graph.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/eqn2graph'
+Warning: line 79: Failed to create groff font 'U-AI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gdiffmk'
+sed -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@VERSION@|1.22.3|g" \
+    -e 1s/a/a/  ./gdiffmk.sh >gdiffmk
+chmod +x gdiffmk
+Making gdiffmk.n from gdiffmk.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gdiffmk'
+Warning: line 80: Failed to create groff font 'U-AR' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/glilypond'
+rm -f glilypond
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+    -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@glilypond_dir@|/usr/local/lib/groff/glilypond|g" \
+    -e "s|@VERSION@|1.22.3|g" \
+    ./glilypond.pl >glilypond
+chmod +x glilypond
+Making glilypond.n from glilypond.man
+Warning: line 81: Failed to create groff font 'U-BMB' by running afmtodit
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/glilypond'
+Warning: line 82: Failed to create groff font 'U-BMBI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gperl'
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+            -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@VERSION@|1.22.3|g" \
+    -e "1s/a/a/" \
+    ./gperl.pl >gperl; \
+chmod +x gperl
+Making gperl.n from gperl.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gperl'
+Warning: line 83: Failed to create groff font 'U-BMI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gpinyin'
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+    -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@gpinyin_dir@|/usr/local/lib/groff/gpinyin|" \
+    -e "s|@VERSION@|1.22.3|g" \
+    -e "1s/a/a/" \
+    ./gpinyin.pl >gpinyin; \
+chmod +x gpinyin
+Making gpinyin.n from gpinyin.man
+Warning: line 84: Failed to create groff font 'U-BMR' by running afmtodit
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gpinyin'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/grap2graph'
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.22.3|" \
+    -e 1s/a/a/ ./grap2graph.sh >grap2graph
+chmod +x grap2graph
+Making grap2graph.n from grap2graph.man
+Warning: line 85: Failed to create groff font 'U-CB' by running afmtodit
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/grap2graph'
+Warning: line 86: Failed to create groff font 'U-CBI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/groff_filenames'
+Making groff_filenames.n from groff_filenames.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/groff_filenames'
+Warning: line 87: Failed to create groff font 'U-CI' by running afmtodit
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/groffer'
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+    -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@libdir@|/usr/local/lib|g" \
+    -e "s|@groffer_dir@|/usr/local/lib/groff/groffer|g" \
+    -e "s|@VERSION@|1.22.3|g" \
+    -e "1s/a/a/" \
+     ./groffer.pl >groffer; \
+for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+  cp ./roff2.pl $f; \
+done; \
+chmod +x groffer
+for m in dvi html pdf ps text x; do \
+  cat ./roff2.man \
+    | sed 's/@ROFF2MODE@/'"$m"'/g' > roff2${m}.man; \
+done
+Making groffer.n from groffer.man
+Warning: line 88: Failed to create groff font 'U-CR' by running afmtodit
+Warning: line 89: Failed to create groff font 'U-HB' by running afmtodit
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/groffer'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/hdtbl'
+if test -f /sources/7.9/groff-1.22.3/doc/gnu.eps; then \
+  cp /sources/7.9/groff-1.22.3/doc/gnu.eps . ; \
+elif test -f /sources/7.9/groff-1.22.3/doc/gnu.eps; then \
+  cp /sources/7.9/groff-1.22.3/doc/gnu.eps . ; \
+else \
+  xpmtoppm /sources/7.9/groff-1.22.3/doc/gnu.xpm | pnmdepth 15 \
+    | pnmtops -noturn -rle >gnu.eps ; \
+fi
+test -d examples || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs examples
+Warning: line 90: Failed to create groff font 'U-HBI' by running afmtodit
+touch examples/stamp
+for f in hdtbl.tmac hdmisc.tmac; do \
+  rm -f $f-s; \
+  sed -f /sources/7.9/groff-1.22.3/tmac/strip.sed ./$f >$f-s; \
+done
+touch stamp-strip
+Making groff_hdtbl.n from groff_hdtbl.man
+Warning: line 91: Failed to create groff font 'U-HI' by running afmtodit
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/chess_board.roff >examples/chess_board.ps
+Warning: line 92: Failed to create groff font 'U-HNB' by running afmtodit
+Warning: line 93: Failed to create groff font 'U-HNBI' by running afmtodit
+Warning: line 94: Failed to create groff font 'U-HNI' by running afmtodit
+elapsed time: 0 seconds
+Warning: line 95: Failed to create groff font 'U-HNR' by running afmtodit
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/color_boxes.roff >examples/color_boxes.ps
+Warning: line 96: Failed to create groff font 'U-HR' by running afmtodit
+Warning: line 97: Failed to create groff font 'U-NB' by running afmtodit
+Warning: line 98: Failed to create groff font 'U-NBI' by running afmtodit
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/color_nested_tables.roff >examples/color_nested_tables.ps
+Warning: line 99: Failed to create groff font 'U-NI' by running afmtodit
+Warning: line 100: Failed to create groff font 'U-NR' by running afmtodit
+Warning: line 101: Failed to create groff font 'U-PB' by running afmtodit
+Warning: line 102: Failed to create groff font 'U-PBI' by running afmtodit
+elapsed time: 1 seconds
+Warning: line 103: Failed to create groff font 'U-PI' by running afmtodit
+Warning: line 104: Failed to create groff font 'U-PR' by running afmtodit
+Warning: line 105: Failed to create groff font 'U-S' by running afmtodit
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/color_table_cells.roff >examples/color_table_cells.ps
+Warning: line 106: Failed to create groff font 'U-TB' by running afmtodit
+Warning: line 107: Failed to create groff font 'U-TBI' by running afmtodit
+Warning: line 108: Failed to create groff font 'U-TI' by running afmtodit
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/color_transitions.roff >examples/color_transitions.ps
+Warning: line 109: Failed to create groff font 'U-TR' by running afmtodit
+Warning: line 110: Failed to create groff font 'U-ZCMI' by running afmtodit
+Warning: line 111: Failed to create groff font 'U-ZD' by running afmtodit
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/font/devpdf'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/mm'
+sed -e 's;/usr/bin/perl;/usr/bin/perl;' ./mmroff.pl >mmroff
+chmod +x mmroff
+Making mmroff.n from mmroff.man
+Making groff_mm.n from groff_mm.man
+Making groff_mmse.n from groff_mmse.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/mm'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/pdfmark'
+sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+    -e "s|@VERSION@|1.22.3|" \
+    -e "s|@GROFF_AWK_INTERPRETERS@|gawk mawk nawk awk|" \
+    -e "s|@GROFF_GHOSTSCRIPT_INTERPRETERS@|gs gswin32c gsos2|" \
+    -e "s|@GROFF_BIN_DIR@|/usr/local/bin|" ./pdfroff.sh >pdfroff
+chmod +x pdfroff
+Making pdfroff.n from pdfroff.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/pdfmark'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/pic2graph'
+sed -e "s|@g@||g" \
+    -e "s|@VERSION@|1.22.3|" \
+    -e 1s/a/a/ ./pic2graph.sh >pic2graph
+chmod +x pic2graph
+Making pic2graph.n from pic2graph.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/pic2graph'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/contrib/mom'
+for f in om.tmac; do \
+  rm -f $f-s; \
+  LANG=C LC_ALL=C \
+    sed -f /sources/7.9/groff-1.22.3/tmac/strip.sed ./$f >$f-s; \
+done
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/col_rowspan_colors.roff >examples/col_rowspan_colors.ps
+examples/col_rowspan_colors.roff:75: cols was even (10), increased by one col to 11.
+elapsed time: 0 seconds
+Sun Jun  5 20:47:20 CEST 2016 ***
+sed -e "s|@fontdir@|/usr/local/share/groff/1.22.3/font|" examples/fonts_n.in >examples/fonts_n.roff
+sed -e "s|@fontdir@|/usr/local/share/groff/1.22.3/font|" examples/fonts_x.in >examples/fonts_x.roff
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/mixed_pickles.roff >examples/mixed_pickles.ps
+touch stamp-strip
+Making groff_mom.n from groff_mom.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/mom'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/doc'
+sed -e "s;@VERSION@;1.22.3;" meref.me | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -k -Tps -ge -me >meref.ps
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/rainbow.roff >examples/rainbow.ps
+sed -e "s;@VERSION@;1.22.3;" meintro.me | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -k -Tps -ge -me >meintro.ps
+sed -e "s;@VERSION@;1.22.3;" meintro_fr.me | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -k -Tps -ge -me >meintro_fr.ps
+sed -e "s;@VERSION@;1.22.3;" pic.ms | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -Tps -ms -mwww >pic.ps
+test -f grnexmpl.g || cp ./grnexmpl.g .
+test -f groff.css || cp ./groff.css .
+if test ! -f gnu.eps; then \
+  if test -f ./gnu.eps; then \
+    cp ./gnu.eps .; \
+  elif test -f /sources/7.9/groff-1.22.3/contrib/pdfmark/gnu.eps; then \
+    cp /sources/7.9/groff-1.22.3/contrib/pdfmark/gnu.eps .; \
+  fi; \
+fi
+echo timestamp > examples.stamp
+sed -e "s;@VERSION@;1.22.3;" webpage.ms | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -Tps -ms -mwww >webpage.ps
+sed -e "s;@VERSION@;1.22.3;" grnexmpl.me | GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/preconv /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/preproc/grn /sources/7.9/groff-1.22.3/src/preproc/refer /sources/7.9/groff-1.22.3/src/preproc/soelim /sources/7.9/groff-1.22.3/src/preproc/html /sources/7.9/groff-1.22.3/src/devices/grops /sources/7.9/groff-1.22.3/src/devices/gropdf /sources/7.9/groff-1.22.3/src/devices/grohtml | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -Upet -ww -k -Tps -ge -me >grnexmpl.ps
+elapsed time: 1 seconds
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/doc'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/man'
+Making groff_font.n from groff_font.man
+Making groff_out.n from groff_out.man
+Making groff_tmac.n from groff_tmac.man
+Making ditroff.n from ditroff.man
+Making groff_char.n from groff_char.man
+Making groff_diff.n from groff_diff.man
+Making groff.n from groff.man
+Making roff.n from roff.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/man'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/grog'
+rm -f grog
+sed -f "/sources/7.9/groff-1.22.3/arch/misc/shdeps.sed" \
+    -e "1s|^\(#! \).*perl|\\1/usr/bin/perl|" \
+    -e "s|@g@||g" \
+    -e "s|@BINDIR@|/usr/local/bin|g" \
+    -e "s|@grog_dir@|/usr/local/lib/groff/grog|g" \
+    -e "s|@EGREP@|/bin/grep -E|g" \
+    -e "s|@VERSION@|1.22.3|" \
+    -e "1s/a/a/" \
+    ./grog.pl >grog
+chmod +x grog
+Making grog.n from grog.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/grog'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/nroff'
+rm -f nroff
+sed -f /sources/7.9/groff-1.22.3/arch/misc/shdeps.sed \
+    -e 1s/a/a/ \
+    -e "s|@VERSION@|1.22.3|" ./nroff.sh >nroff
+chmod +x nroff
+Making nroff.n from nroff.man
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/nroff'
+make[3]: Entering directory '/sources/7.9/groff-1.22.3/tmac'
+for f in e.tmac doc.tmac doc-old.tmac doc-common doc-ditroff doc-nroff doc-syms mdoc.local; do \
+  rm -f $f-s; \
+  sed -f ./strip.sed ./$f >$f-s; \
+done
+touch stamp-strip
+if test -n ""; then \
+  for m in ""; do \
+    rm -f $m-wrap; \
+    if test "$m" = an; then \
+      echo .do mso andoc.tmac >>$m-wrap; \
+    fi; \
+    echo .cp 1 >>$m-wrap; \
+    echo .so $m >>$m-wrap; \
+  done; \
+fi
+touch stamp-wrap
+sed -e "s;@PNMTOPS_NOSETPAGE@;pnmtops;g" \
+  ./www.tmac > www.tmac-sed
+touch stamp-sed
+Making groff_ms.n from groff_ms.man
+Making groff_man.n from groff_man.man
+Making groff_me.n from groff_me.man
+Making groff_mdoc.n from groff_mdoc.man
+Making groff_trace.n from groff_trace.man
+Making groff_www.n from groff_www.man
+elapsed time: 0 seconds
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/tmac'
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/short_reference.roff >examples/short_reference.ps
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/fonts_n.roff >examples/fonts_n.ps
+listing font `AB'...
+elapsed time: 0 seconds
+GROFF_COMMAND_PREFIX= GROFF_BIN_PATH="`echo /sources/7.9/groff-1.22.3/src/roff/groff /sources/7.9/groff-1.22.3/src/roff/troff /sources/7.9/groff-1.22.3/src/preproc/eqn /sources/7.9/groff-1.22.3/src/preproc/pic /sources/7.9/groff-1.22.3/src/preproc/tbl /sources/7.9/groff-1.22.3/src/devices/grops | sed -e 's|  *|:|g'`" /sources/7.9/groff-1.22.3/src/roff/groff/groff -F/sources/7.9/groff-1.22.3/font -F/sources/7.9/groff-1.22.3/font -M/sources/7.9/groff-1.22.3/tmac -M/sources/7.9/groff-1.22.3/tmac -M. -t -p -e -U -Tps -dfontpath=/sources/7.9/groff-1.22.3/font -dsopath=./ \
+         -mhdtbl examples/fonts_x.roff >examples/fonts_x.ps
+listing font `AB'...
+listing font `ABI'...
+listing font `ABI'...
+listing font `AI'...
+listing font `AI'...
+listing font `AR'...
+listing font `AR'...
+listing font `BMB'...
+listing font `BMB'...
+listing font `BMBI'...
+listing font `BMBI'...
+listing font `BMI'...
+listing font `BMI'...
+listing font `BMR'...
+listing font `BMR'...
+listing font `CB'...
+listing font `CB'...
+listing font `CBI'...
+listing font `CBI'...
+listing font `CI'...
+listing font `CI'...
+listing font `CR'...
+listing font `CR'...
+listing font `EURO'...
+listing font `EURO'...
+listing font `HB'...
+listing font `HB'...
+listing font `HBI'...
+listing font `HBI'...
+listing font `HI'...
+listing font `HI'...
+listing font `HNB'...
+listing font `HNB'...
+listing font `HNBI'...
+listing font `HNBI'...
+listing font `HNI'...
+listing font `HNI'...
+listing font `HNR'...
+listing font `HR'...
+listing font `HNR'...
+listing font `NB'...
+listing font `HR'...
+listing font `NBI'...
+listing font `NB'...
+listing font `NI'...
+listing font `NBI'...
+listing font `NR'...
+listing font `NI'...
+listing font `PB'...
+listing font `NR'...
+listing font `PBI'...
+listing font `PB'...
+listing font `PI'...
+listing font `PBI'...
+listing font `PR'...
+listing font `PI'...
+listing font `S'...
+listing font `PR'...
+listing font `SS'...
+listing font `S'...
+listing font `TB'...
+listing font `TBI'...
+listing font `SS'...
+listing font `TI'...
+listing font `TB'...
+listing font `TR'...
+listing font `TBI'...
+listing font `ZCMI'...
+listing font `TI'...
+listing font `ZD'...
+listing font `TR'...
+listing font `ZDR'...
+listing font `ZCMI'...
+elapsed time: 5 seconds
+Sun Jun  5 20:47:27 CEST 2016 ***
+listing font `ZD'...
+listing font `ZDR'...
+elapsed time: 6 seconds
+Sun Jun  5 20:47:28 CEST 2016 ***
+make[3]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/hdtbl'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3'
+make[1]: Leaving directory '/sources/7.9/groff-1.22.3'
+test -d /usr/local \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local
+make[1]: Entering directory '/sources/7.9/groff-1.22.3'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/include'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/arch/misc'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/include'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/arch/misc'
+make[1]: Nothing to be done for 'arch/misc'.
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+make[2]: Entering directory '/sources/7.9/groff-1.22.3'
+test -d /usr/local/share/groff/site-font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/site-font
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+mkdir -p -- /usr/local/share/groff/site-font
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3'
+/usr/bin/install -c -m 644 gropdf.n /usr/local/share/man/man1/gropdf.1
+/usr/bin/install -c -m 644 pdfmom.n /usr/local/share/man/man1/pdfmom.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+test yes != no || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib
+if test -f /usr/local/lib/charset.alias; then \
+  sed -f ref-add.sed /usr/local/lib/charset.alias \
+    > /usr/local/lib/t-charset.alias; \
+  /usr/bin/install -c -m 644 /usr/local/lib/t-charset.alias \
+    /usr/local/lib/charset.alias; \
+  rm -f /usr/local/lib/t-charset.alias; \
+else \
+  if test yes = no; then \
+    sed -f ref-add.sed charset.alias \
+      > /usr/local/lib/t-charset.alias; \
+    /usr/bin/install -c -m 644 /usr/local/lib/t-charset.alias \
+      /usr/local/lib/charset.alias; \
+    rm -f /usr/local/lib/t-charset.alias; \
+  fi; \
+fi
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libgroff'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+for f in gropdf pdfmom; do \
+  rm -f /usr/local/bin/$f; \
+  /usr/bin/install -c $f /usr/local/bin/$f; \
+done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+make[2]: Nothing to be done for 'do_install'.
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libdriver'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/gropdf'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+make[2]: Nothing to be done for 'do_install'.
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/libs/libbib'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/groff
+rm -f /usr/local/bin/troff
+/usr/bin/install -c groff /usr/local/bin/groff
+/usr/bin/install -c troff /usr/local/bin/troff
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 groff.n /usr/local/share/man/man1/groff.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c -m 644 troff.n /usr/local/share/man/man1/troff.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/lib/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/troff'
+mkdir -p -- /usr/local/lib/groff
+for f in  groff_opts_no_arg.txt groff_opts_with_arg.txt; do \
+  rm -f /usr/local/lib/groff/$f; \
+  /usr/bin/install -c $f /usr/local/lib/groff; \
+done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/groff'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+rm -f /usr/local/bin/preconv
+/usr/bin/install -c preconv /usr/local/bin/preconv
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 preconv.n /usr/local/share/man/man1/preconv.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/tbl
+/usr/bin/install -c tbl /usr/local/bin/tbl
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/preconv'
+/usr/bin/install -c -m 644 tbl.n /usr/local/share/man/man1/tbl.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/pic
+/usr/bin/install -c pic /usr/local/bin/pic
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/tbl'
+/usr/bin/install -c -m 644 pic.n /usr/local/share/man/man1/pic.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/eqn
+/usr/bin/install -c eqn /usr/local/bin/eqn
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/pic'
+/usr/bin/install -c -m 644 eqn.n /usr/local/share/man/man1/eqn.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+/usr/bin/install -c -m 644 neqn.n /usr/local/share/man/man1/neqn.1
+rm -f /usr/local/bin/grn
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c grn /usr/local/bin/grn
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+rm -f /usr/local/bin/neqn
+/usr/bin/install -c neqn /usr/local/bin/neqn
+/usr/bin/install -c -m 644 grn.n /usr/local/share/man/man1/grn.1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/eqn'
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/grn'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+rm -f /usr/local/bin/refer
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c refer /usr/local/bin/refer
+/usr/bin/install -c -m 644 refer.n /usr/local/share/man/man1/refer.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+rm -f /usr/local/bin/soelim
+/usr/bin/install -c soelim /usr/local/bin/soelim
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/lib/groff/refer \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/refer
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+mkdir -p -- /usr/local/lib/groff/refer
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/refer'
+/usr/bin/install -c -m 644 soelim.n /usr/local/share/man/man1/soelim.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/pre-grohtml
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/soelim'
+/usr/bin/install -c pre-grohtml /usr/local/bin/pre-grohtml
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/grops
+/usr/bin/install -c grops /usr/local/bin/grops
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/preproc/html'
+/usr/bin/install -c -m 644 grops.n /usr/local/share/man/man1/grops.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/grotty
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c grotty /usr/local/bin/grotty
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grops'
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 grotty.n /usr/local/share/man/man1/grotty.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/grodvi
+/usr/bin/install -c grodvi /usr/local/bin/grodvi
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grotty'
+/usr/bin/install -c -m 644 grodvi.n /usr/local/share/man/man1/grodvi.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+rm -f /usr/local/bin/grolj4
+/usr/bin/install -c grolj4 /usr/local/bin/grolj4
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grodvi'
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 grolj4.n /usr/local/share/man/man1/grolj4.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/post-grohtml
+/usr/bin/install -c post-grohtml /usr/local/bin/post-grohtml
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+/usr/bin/install -c -m 644 lj4_font.n /usr/local/share/man/man5/lj4_font.5
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolj4'
+/usr/bin/install -c -m 644 grohtml.n /usr/local/share/man/man1/grohtml.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/grolbp
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grohtml'
+/usr/bin/install -c grolbp /usr/local/bin/grolbp
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/tfmtodit
+/usr/bin/install -c -m 644 grolbp.n /usr/local/share/man/man1/grolbp.1
+/usr/bin/install -c tfmtodit /usr/local/bin/tfmtodit
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/devices/grolbp'
+/usr/bin/install -c -m 644 tfmtodit.n /usr/local/share/man/man1/tfmtodit.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/hpftodit
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/tfmtodit'
+/usr/bin/install -c hpftodit /usr/local/bin/hpftodit
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/lookbib
+/usr/bin/install -c -m 644 hpftodit.n /usr/local/share/man/man1/hpftodit.1
+/usr/bin/install -c lookbib /usr/local/bin/lookbib
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/hpftodit'
+/usr/bin/install -c -m 644 lookbib.n /usr/local/share/man/man1/lookbib.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/indxbib
+/usr/bin/install -c indxbib /usr/local/bin/indxbib
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lookbib'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+/usr/bin/install -c -m 644 indxbib.n /usr/local/share/man/man1/indxbib.1
+rm -f /usr/local/bin/lkbib
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c lkbib /usr/local/bin/lkbib
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+/usr/bin/install -c -m 644 lkbib.n /usr/local/share/man/man1/lkbib.1
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+mkdir -p -- /usr/local/share/groff/1.22.3
+if test -f /usr/lib/eign; then \
+   /usr/local/share/groff/1.22.3/eign; \
+  ln -s /usr/lib/eign /usr/local/share/groff/1.22.3/eign 2>/dev/null \
+    || ln /usr/lib/eign /usr/local/share/groff/1.22.3/eign 2>/dev/null \
+    || cp /usr/lib/eign /usr/local/share/groff/1.22.3/eign; \
+else \
+  rm -f /usr/local/share/groff/1.22.3/eign; \
+  /usr/bin/install -c -m 644 ./eign /usr/local/share/groff/1.22.3/eign; \
+fi
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/lkbib'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/indxbib'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/addftinfo
+/usr/bin/install -c addftinfo /usr/local/bin/addftinfo
+rm -f /usr/local/bin/pfbtops
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+/usr/bin/install -c pfbtops /usr/local/bin/pfbtops
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 addftinfo.n /usr/local/share/man/man1/addftinfo.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c -m 644 pfbtops.n /usr/local/share/man/man1/pfbtops.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/addftinfo'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/pfbtops'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devps'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devdvi'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+mkdir -p -- /usr/local/share/groff/1.22.3/font
+mkdir -p -- /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font/devps \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devps
+test -d /usr/local/share/groff/1.22.3/font/devdvi \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devdvi
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devdvi
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devps
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devdvi/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devdvi/generate; \
+fi
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devps/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devps/generate; \
+fi
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devps/generate
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devdvi/generate
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devps/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devps/enc; \
+fi
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devdvi/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devdvi/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devdvi/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devdvi/map; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devps/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devps/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devdvi/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devdvi/util; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devps/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devps/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devdvi \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devdvi; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devps \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devps; \
+fi
+test -z "DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map" \
+  || for f in ""DESC TR TI TB TBI CW CWI HR HI HB HBI TREC TIEC TBEC TBIEC CWEC CWIEC HREC HIEC HBEC HBIEC TRTC TITC TBTC TBITC CWTC CWITC HRTC HITC HBTC HBITC MI S EX SA SB SC generate/Makefile generate/msam.map generate/msbm.map generate/texb.map generate/texex.map generate/texi.map generate/texmi.map generate/texr.map generate/texsy.map generate/textt.map generate/textex.map generate/ec.map generate/tc.map; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       fi; \
+     done
+mkdir -p -- /usr/local/share/groff/1.22.3/oldfont
+mkdir -p -- /usr/local/share/groff/1.22.3/oldfont/devps
+test -z "DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap" \
+  || for f in ""DESC prologue symbolsl.pfa zapfdr.pfa S SS ZD ZDR ZCMI AB ABI AI AR BMB BMBI BMI BMR CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR EURO freeeuro.pfa freeeuro.afm text.enc download generate/Makefile generate/dingbats.map generate/dingbats.rmap generate/lgreekmap generate/symbolchars generate/symbolsl.afm generate/textmap; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devdvi/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devdvi/$f; \
+     done
+test -z "generate/CompileFonts" \
+  || for f in ""generate/CompileFonts; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devdvi/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devdvi'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devhtml'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+test -z "S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps" \
+  || for f in ""S SS CB CBI CI CR HB HBI HI HR HNB HNBI HNI HNR NB NBI NI NR PB PBI PI PR TB TBI TI TR symbol.afm symbolsl.afm zapfdr.afm zapfdr.ps; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devps/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devps/$f; \
+     done
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font/devhtml \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devhtml
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devhtml
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devhtml/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devhtml/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devhtml/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devhtml/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devhtml/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devhtml/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devhtml/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devhtml/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devhtml \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devhtml; \
+fi
+test -z "R I B BI CR CI CB CBI S DESC" \
+  || for f in ""R I B BI CR CI CB CBI S DESC; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devhtml/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devhtml/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devhtml/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devhtml'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devlj4'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -z "generate/afmname generate/symbol.sed" \
+  || for f in ""generate/afmname generate/symbol.sed; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devps/$f; \
+       fi; \
+     done
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font/devlj4 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlj4
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devps'
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devlj4
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlj4/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlj4/generate; \
+fi
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devlbp'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devlj4/generate
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlj4/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlj4/enc; \
+fi
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlj4/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlj4/map; \
+fi
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlj4/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlj4/util; \
+fi
+test -d /usr/local/share/groff/1.22.3/font/devlbp \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlbp
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devlj4 \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devlj4; \
+fi
+test -z "DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk" \
+  || for f in ""DESC AB ABI AI AR ALBB ALBR AOB AOI AOR CB CBI CI CR GB GBI GI GR LGB LGI LGR OB OBI OI OR TB TBI TI TR TNRB TNRBI TNRI TNRR UB UBI UI UR UCB UCBI UCI UCR CLARENDON CORONET MARIGOLD S SYMBOL WINGDINGS generate/Makefile generate/special.map generate/symbol.map generate/text.map generate/wingdings.map generate/special.awk; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       fi; \
+     done
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devlbp
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlbp/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlbp/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlbp/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlbp/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlbp/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlbp/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlbp/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlbp/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devlbp \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devlbp; \
+fi
+test -z "DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI" \
+  || for f in ""DESC HB HBI HI HR HNB HNBI HNI HNR TB TBI TI TR CR CB CI ER EB EI; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devlbp/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devlbp/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devlbp/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlbp'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devascii'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font/devascii \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devascii
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devascii
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devascii/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devascii/generate; \
+fi
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devascii/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devascii/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devascii/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devascii/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devascii/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devascii/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devascii \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devascii; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devascii/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devascii/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devascii/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devascii'
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devlj4/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devlj4/$f; \
+     done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devlatin1'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devlj4/$f; \
+       fi; \
+     done
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlj4'
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+test -d /usr/local/share/groff/1.22.3/font/devlatin1 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlatin1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devutf8'
+test -d /usr/local/share \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share
+test -d /usr/local/share/groff \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devlatin1
+test -d /usr/local/share/groff/1.22.3 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlatin1/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlatin1/generate; \
+fi
+test -d /usr/local/share/groff/1.22.3/font \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlatin1/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlatin1/enc; \
+fi
+test -d /usr/local/share/groff/1.22.3/font/devutf8 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devutf8
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlatin1/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlatin1/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devlatin1/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devlatin1/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devlatin1 \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devlatin1; \
+fi
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devutf8
+if test -d ./generate; then \
+  test -d /usr/local/share/groff/1.22.3/font/devutf8/generate \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devutf8/generate; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       fi; \
+     done
+if test -d ./enc; then \
+  test -d /usr/local/share/groff/1.22.3/font/devutf8/enc \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devutf8/enc; \
+fi
+if test -d ./map; then \
+  test -d /usr/local/share/groff/1.22.3/font/devutf8/map \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devutf8/map; \
+fi
+if test -d ./util; then \
+  test -d /usr/local/share/groff/1.22.3/font/devutf8/util \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devutf8/util; \
+fi
+if test -d ./old; then \
+  test -d /usr/local/share/groff/1.22.3/oldfont \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont; \
+  test -d /usr/local/share/groff/1.22.3/oldfont/devutf8 \
+    || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/oldfont/devutf8; \
+fi
+test -z "R I B BI DESC" \
+  || for f in ""R I B BI DESC; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       else \
+         /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       fi; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devlatin1/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devlatin1/$f; \
+     done
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devlatin1/$f; \
+       fi; \
+     done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devlatin1'
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/oldfont/devutf8/$f; \
+       /usr/bin/install -c -m 644 ./old/$f \
+         /usr/local/share/groff/1.22.3/oldfont/devutf8/$f; \
+     done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/utils/afmtodit'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -z "" \
+  || for f in ""; do \
+       rm -f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       if test -f $f; then \
+         /usr/bin/install -c $f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       else \
+         /usr/bin/install -c ./$f /usr/local/share/groff/1.22.3/font/devutf8/$f; \
+       fi; \
+     done
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devutf8'
+/usr/bin/install -c -m 644 afmtodit.n /usr/local/share/man/man1/afmtodit.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/font/devpdf'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/afmtodit
+/usr/bin/install -c afmtodit /usr/local/bin/afmtodit
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/utils/afmtodit'
+test -d /usr/local/share/groff/1.22.3/font/devpdf \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devpdf
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/arch/mingw'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devpdf
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/groff/1.22.3/font/devpdf/enc \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devpdf/enc
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devpdf/enc
+test -d /usr/local/share/groff/1.22.3/font/devpdf/map \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devpdf/map
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/arch/mingw'
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devpdf/map
+test -d /usr/local/share/groff/1.22.3/font/devpdf/util \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/font/devpdf/util
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/chem'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin;
+mkdir -p -- /usr/local/share/groff/1.22.3/font/devpdf/util
+for f in download DESC Foundry util/BuildFoundries `cd /sources/7.9/groff-1.22.3/font/devpdf && find * -maxdepth 0 -type f ! -name 'Makefile.sub*' -exec grep -l internalname {} \;` `cd /sources/7.9/groff-1.22.3/font/devpdf; ls enc/*` `cd /sources/7.9/groff-1.22.3/font/devpdf; ls map/*`; do \
+  rm -f /usr/local/share/groff/1.22.3/font/devpdf/$f; \
+  if test -f $f; then \
+    /usr/bin/install -c -m 644 $f /usr/local/share/groff/1.22.3/font/devpdf/$f; \
+  else \
+    /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/font/devpdf/$f; \
+  fi; \
+done
+rm -f /usr/local/bin/chem;
+/usr/bin/install -c chem /usr/local/bin/chem;
+test -d /usr/local/share/groff/1.22.3/pic \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/pic;
+mkdir -p -- /usr/local/share/groff/1.22.3/pic
+rm -f /usr/local/share/groff/1.22.3/pic/chem.pic;
+/usr/bin/install -c -m 644 ./chem.pic \
+  /usr/local/share/groff/1.22.3/pic/chem.pic;
+test -d /usr/local/share/doc/groff-1.22.3/examples/chem \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/examples/chem;
+mkdir -p -- /usr/local/share/doc/groff-1.22.3/examples/chem
+test -d /usr/local/share/doc/groff-1.22.3/examples/chem/122 \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/examples/chem/122;
+mkdir -p -- /usr/local/share/doc/groff-1.22.3/examples/chem/122
+find /usr/local/share/doc/groff-1.22.3/examples/chem -type f -exec rm -f '{}' ';'
+/usr/bin/install -c -m 644 examples/README /usr/local/share/doc/groff-1.22.3/examples/chem/README;
+for i in ./examples/*.chem; do \
+  n=`echo $i | sed 's|./examples/||g'`; \
+  /usr/bin/install -c -m 644 $i /usr/local/share/doc/groff-1.22.3/examples/chem/$n; \
+done;
+/usr/bin/install -c -m 644 examples/122/README \
+  /usr/local/share/doc/groff-1.22.3/examples/chem/122/README;
+for i in ./examples/122/*.chem; do \
+  n=`echo $i | sed 's|./examples/122/||g'`; \
+  /usr/bin/install -c -m 644 $i /usr/local/share/doc/groff-1.22.3/examples/chem/122/$n; \
+done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/font/devpdf'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/eqn2graph'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 eqn2graph.n /usr/local/share/man/man1/eqn2graph.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/eqn2graph
+/usr/bin/install -c eqn2graph /usr/local/bin/eqn2graph
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/eqn2graph'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gdiffmk'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 gdiffmk.n /usr/local/share/man/man1/gdiffmk.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/gdiffmk
+/usr/bin/install -c gdiffmk /usr/local/bin/gdiffmk
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gdiffmk'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/glilypond'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 glilypond.n /usr/local/share/man/man1/glilypond.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/glilypond
+/usr/bin/install -c glilypond /usr/local/bin/glilypond
+test -d /usr/local/lib/groff/glilypond \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/glilypond
+mkdir -p -- /usr/local/lib/groff/glilypond
+for f in `echo ./subs.pl ./oop_fh.pl ./args.pl | sed 's|./||g'`; do \
+  rm -f /usr/local/lib/groff/glilypond/$f; \
+  /usr/bin/install -c ./$f /usr/local/lib/groff/glilypond/$f; \
+done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/glilypond'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gperl'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 gperl.n /usr/local/share/man/man1/gperl.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/gperl
+/usr/bin/install -c gperl /usr/local/bin/gperl
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gperl'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 chem.n /usr/local/share/man/man1/chem.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/gpinyin'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/chem'
+/usr/bin/install -c -m 644 gpinyin.n /usr/local/share/man/man1/gpinyin.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/grap2graph'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/bin || \
+  /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin; \
+rm -f /usr/local/bin/gpinyin; \
+/usr/bin/install -c gpinyin /usr/local/bin/gpinyin; \
+test -d /usr/local/lib/groff/gpinyin || \
+  /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/gpinyin; \
+rm -f /usr/local/lib/groff/gpinyin/subs.pl; \
+/usr/bin/install -c ./subs.pl \
+  /usr/local/lib/groff/gpinyin/subs.pl
+/usr/bin/install -c -m 644 grap2graph.n /usr/local/share/man/man1/grap2graph.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+mkdir -p -- /usr/local/lib/groff/gpinyin
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/gpinyin'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/grap2graph
+/usr/bin/install -c grap2graph /usr/local/bin/grap2graph
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/grap2graph'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/groff_filenames'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/groffer'
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+Making roff2dvi.n from roff2dvi.man
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c -m 644 groff_filenames.n /usr/local/share/man/man7/groff_filenames.7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/groff_filenames'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/hdtbl'
+test -d /usr/local/share/groff/1.22.3/tmac || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac
+Making roff2html.n from roff2html.man
+mkdir -p -- /usr/local/share/groff/1.22.3/tmac
+for f in hdtbl.tmac hdmisc.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+Making roff2pdf.n from roff2pdf.man
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c -m 644 groff_hdtbl.n /usr/local/share/man/man7/groff_hdtbl.7
+test -d /usr/local/share/doc/groff-1.22.3/examples/hdtbl \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/examples/hdtbl
+mkdir -p -- /usr/local/share/doc/groff-1.22.3/examples/hdtbl
+for f in `echo examples/common.roff examples/chess_board.roff examples/color_boxes.roff examples/color_nested_tables.roff examples/color_table_cells.roff examples/color_transitions.roff examples/col_rowspan_colors.roff examples/mixed_pickles.roff examples/rainbow.roff examples/short_reference.roff | sed 's|examples/||g'`; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /usr/local/share/doc/groff-1.22.3/examples/hdtbl/$f; \
+done
+Making roff2ps.n from roff2ps.man
+Making roff2text.n from roff2text.man
+for f in `echo examples/chess_board.ps examples/color_boxes.ps examples/color_nested_tables.ps examples/color_table_cells.ps examples/color_transitions.ps examples/col_rowspan_colors.ps examples/fonts_n.ps examples/fonts_x.ps examples/mixed_pickles.ps examples/rainbow.ps examples/short_reference.ps | sed 's|examples/||g'` `echo examples/fonts_n.roff examples/fonts_x.roff | sed 's|examples/||g'`; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/hdtbl/$f; \
+  /usr/bin/install -c -m 644 examples/$f /usr/local/share/doc/groff-1.22.3/examples/hdtbl/$f; \
+done
+Making roff2x.n from roff2x.man
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 groffer.n /usr/local/share/man/man1/groffer.1
+/usr/bin/install -c -m 644 roff2dvi.n /usr/local/share/man/man1/roff2dvi.1
+/usr/bin/install -c -m 644 gnu.eps /usr/local/share/doc/groff-1.22.3/examples/hdtbl/gnu.eps
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/hdtbl'
+/usr/bin/install -c -m 644 roff2html.n /usr/local/share/man/man1/roff2html.1
+/usr/bin/install -c -m 644 roff2pdf.n /usr/local/share/man/man1/roff2pdf.1
+/usr/bin/install -c -m 644 roff2ps.n /usr/local/share/man/man1/roff2ps.1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/mm'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/mmroff
+/usr/bin/install -c -m 644 roff2text.n /usr/local/share/man/man1/roff2text.1
+/usr/bin/install -c mmroff /usr/local/bin/mmroff
+test -d /usr/local/share/groff/1.22.3/tmac || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac
+rm -f /usr/local/share/groff/1.22.3/tmac/tmac.m
+/usr/bin/install -c -m 644 roff2x.n /usr/local/share/man/man1/roff2x.1
+rm -f /usr/local/share/groff/1.22.3/tmac/m.tmac
+/usr/bin/install -c -m 644 ./m.tmac \
+  /usr/local/share/groff/1.22.3/tmac/m.tmac
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/groffer
+/usr/bin/install -c groffer /usr/local/bin/groffer
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+for f in `echo dvi html pdf ps text x | sed 's/[a-z][a-z]*/roff2&/g'`; do \
+  rm -f /usr/local/bin/$f; \
+  /usr/bin/install -c $f /usr/local/bin/$f; \
+done
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 mmroff.n /usr/local/share/man/man1/mmroff.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/lib/groff/groffer \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/groffer
+/usr/bin/install -c -m 644 groff_mm.n /usr/local/share/man/man7/groff_mm.7
+mkdir -p -- /usr/local/lib/groff/groffer
+/usr/bin/install -c -m 644 groff_mmse.n /usr/local/share/man/man7/groff_mmse.7
+rm -f /usr/local/lib/groff/groffer/version.sh
+test -d /usr/local/share/groff/1.22.3/tmac/mm \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac/mm
+/usr/bin/install -c -m 644 ./version.sh /usr/local/lib/groff/groffer/version.sh
+for f in subs.pl main_subs.pl man.pl split_env.sh; do \
+  rm -f /usr/local/lib/groff/groffer/$f; \
+done
+mkdir -p -- /usr/local/share/groff/1.22.3/tmac/mm
+for f in 0.MT 5.MT 4.MT ms.cov se_ms.cov; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/mm/$f; \
+  /usr/bin/install -c -m 644 ./mm/$f /usr/local/share/groff/1.22.3/tmac/mm/$f; \
+done
+for f in subs.pl main_subs.pl man.pl split_env.sh; do \
+  /usr/bin/install -c ./$f /usr/local/lib/groff/groffer/$f; \
+done;
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/groffer'
+for f in locale se_locale; do \
+  test -f /usr/local/share/groff/1.22.3/tmac/mm/$f \
+    || touch /usr/local/share/groff/1.22.3/tmac/mm/$f; \
+done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/pdfmark'
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+/usr/bin/install -c -m 644 ./refer-mm.tmac \
+  /usr/local/share/groff/1.22.3/tmac/refer-mm.tmac
+for f in pdfroff; do \
+  rm -f /usr/local/bin/$f; \
+  /usr/bin/install -c $f /usr/local/bin/$f; \
+done
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/mm'
+test -d /usr/local/share/groff/1.22.3/tmac || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac
+for f in pdfmark.tmac spdf.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/pic2graph'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+/usr/bin/install -c -m 644 pic2graph.n /usr/local/share/man/man1/pic2graph.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c -m 644 pdfroff.n /usr/local/share/man/man1/pdfroff.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+rm -f /usr/local/bin/pic2graph
+/usr/bin/install -c pic2graph /usr/local/bin/pic2graph
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/pdfmark'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/pic2graph'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/doc'
+test -d /usr/local/share/doc/groff-1.22.3 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/contrib/mom'
+test -d /usr/local/share/groff/1.22.3/tmac || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac
+test -d /usr/local/share/doc/groff-1.22.3/examples \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/examples
+for f in mom.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+d=.; test -f "gnu.eps" || d=.; \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/gnu.eps; \
+  /usr/bin/install -c -m 644 $d/gnu.eps /usr/local/share/doc/groff-1.22.3/examples/gnu.eps
+for f in om.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+for f in webpage.ms groff.css grnexmpl.g grnexmpl.me; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/local/share/doc/groff-1.22.3/examples/$f; \
+done
+test -d /usr/local/share/doc/groff-1.22.3/examples/mom \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/examples/mom
+for f in webpage.ps grnexmpl.ps; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/$f; \
+  /usr/bin/install -c -m 644 $f /usr/local/share/doc/groff-1.22.3/examples/$f; \
+done
+mkdir -p -- /usr/local/share/doc/groff-1.22.3/examples/mom
+for f in `echo examples/letter.mom examples/mom-pdf.mom examples/sample_docs.mom examples/typesetting.mom examples/README.txt examples/elvis_syntax examples/elvis_syntax.new examples/penguin.ps examples/penguin.pdf examples/mom.vim | sed 's|examples/||g'`; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/examples/mom/$f; \
+  /usr/bin/install -c -m 644 ./examples/$f \
+    /usr/local/share/doc/groff-1.22.3/examples/mom/$f; \
+done
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+for f in meref.me meintro.me meintro_fr.me pic.ms; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/local/share/doc/groff-1.22.3/$f; \
+done
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+for f in meref.ps meintro.ps meintro_fr.ps pic.ps; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/$f; \
+  /usr/bin/install -c -m 644 $f /usr/local/share/doc/groff-1.22.3/$f; \
+done
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/share/info || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/info
+/usr/bin/install -c -m 644 groff_mom.n /usr/local/share/man/man7/groff_mom.7
+test -d /usr/local/share/doc/groff-1.22.3/html/mom \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/doc/groff-1.22.3/html/mom
+d=.; test -f "groff.info" || d=.; \
+  for p in $d/groff.info `ls $d/groff.info*`; do \
+    f=`basename $p`; \
+    rm -f /usr/local/share/info/$f; \
+    /usr/bin/install -c -m 644 $p /usr/local/share/info/$f; \
+  done
+mkdir -p -- /usr/local/share/doc/groff-1.22.3/html/mom
+for f in `echo momdoc/stylesheet.css momdoc/appendices.html momdoc/color.html momdoc/cover.html momdoc/definitions.html momdoc/docelement.html momdoc/docprocessing.html momdoc/goodies.html momdoc/graphical.html momdoc/headfootpage.html momdoc/images.html momdoc/inlines.html momdoc/intro.html momdoc/letters.html momdoc/macrolist.html momdoc/rectoverso.html momdoc/refer.html momdoc/reserved.html momdoc/tables-of-contents.html momdoc/toc.html momdoc/typesetting.html momdoc/using.html momdoc/version-2.html | sed 's|momdoc/||g'`; do \
+  rm -f /usr/local/share/doc/groff-1.22.3/html/mom/$f; \
+  /usr/bin/install -c -m 644 ./momdoc/$f \
+    /usr/local/share/doc/groff-1.22.3/html/mom/$f; \
+done
+install-info --info-dir=/usr/local/share/info \
+  /usr/local/share/info/groff.info
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/doc'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/man'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+/usr/bin/install -c -m 644 groff_font.n /usr/local/share/man/man5/groff_font.5
+/usr/bin/install -c -m 644 groff_out.n /usr/local/share/man/man5/groff_out.5
+/usr/bin/install -c -m 644 groff_tmac.n /usr/local/share/man/man5/groff_tmac.5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c -m 644 ditroff.n /usr/local/share/man/man7/ditroff.7
+/usr/bin/install -c -m 644 groff_char.n /usr/local/share/man/man7/groff_char.7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/contrib/mom'
+/usr/bin/install -c -m 644 groff_diff.n /usr/local/share/man/man7/groff_diff.7
+/usr/bin/install -c -m 644 groff.n /usr/local/share/man/man7/groff.7
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/grog'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+/usr/bin/install -c -m 644 roff.n /usr/local/share/man/man7/roff.7
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/man'
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/src/roff/nroff'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+/usr/bin/install -c -m 644 grog.n /usr/local/share/man/man1/grog.1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c -m 644 nroff.n /usr/local/share/man/man1/nroff.1
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+rm -f /usr/local/bin/grog
+/usr/bin/install -c grog /usr/local/bin/grog
+test -d /usr/local/lib/groff/grog || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/grog
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+test -d /usr/local/bin || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/bin
+mkdir -p -- /usr/local/lib/groff/grog
+rm -f /usr/local/bin/nroff
+for f in `echo ./subs.pl | sed 's|./||g'`; do \
+  rm -f /usr/local/lib/groff/grog/$f; \
+  /usr/bin/install -c ./$f /usr/local/lib/groff/grog/$f; \
+done
+/usr/bin/install -c nroff /usr/local/bin/nroff
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/nroff'
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/src/roff/grog'
+make[2]: Entering directory '/sources/7.9/groff-1.22.3/tmac'
+test -d /usr/local/share/man || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man
+test -d /usr/local/share/man/man1 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man1
+test -d /usr/local/share/man/man5 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man5
+test -d /usr/local/share/man/man7 || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/man/man7
+/usr/bin/install -c -m 644 groff_ms.n /usr/local/share/man/man7/groff_ms.7
+/usr/bin/install -c -m 644 groff_man.n /usr/local/share/man/man7/groff_man.7
+/usr/bin/install -c -m 644 groff_me.n /usr/local/share/man/man7/groff_me.7
+/usr/bin/install -c -m 644 groff_mdoc.n /usr/local/share/man/man7/groff_mdoc.7
+/usr/bin/install -c -m 644 groff_trace.n /usr/local/share/man/man7/groff_trace.7
+/usr/bin/install -c -m 644 groff_www.n /usr/local/share/man/man7/groff_www.7
+test -d /usr/local/share/groff/1.22.3/tmac \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac
+test -d /usr/local/lib/groff/site-tmac \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/lib/groff/site-tmac
+mkdir -p -- /usr/local/lib/groff/site-tmac
+test -d /usr/local/share/groff/site-tmac \
+  || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/site-tmac
+mkdir -p -- /usr/local/share/groff/site-tmac
+if test -n ""; then \
+  for m in ""; do \
+    /usr/bin/install -c -m 644 $m-wrap /usr/local/lib/groff/site-tmac/$m.tmac; \
+  done; \
+fi
+for f in man.tmac mandoc.tmac andoc.tmac an-old.tmac an-ext.tmac ms.tmac me.tmac mdoc.tmac pic.tmac a4.tmac papersize.tmac 62bit.tmac ec.tmac safer.tmac trace.tmac ps.tmac psold.tmac pspic.tmac psatk.tmac pdf.tmac dvi.tmac tty.tmac tty-char.tmac latin1.tmac latin2.tmac latin5.tmac latin9.tmac cp1047.tmac unicode.tmac X.tmac Xps.tmac lj4.tmac lbp.tmac html.tmac html-end.tmac devtag.tmac europs.tmac composite.tmac fallbacks.tmac eqnrc refer.tmac refer-me.tmac refer-ms.tmac troffrc troffrc-end trans.tmac hyphen.us hyphenex.us fr.tmac hyphen.fr sv.tmac hyphen.sv de.tmac den.tmac hyphen.det hyphen.den hyphenex.det cs.tmac hyphen.cs hyphenex.cs ja.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 ./$f /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+rm -f /usr/local/share/groff/1.22.3/tmac/s.tmac
+/usr/bin/install -c -m 644 ./s.tmac \
+  /usr/local/share/groff/1.22.3/tmac/s.tmac
+rm -f /usr/local/share/groff/1.22.3/tmac/an.tmac
+/usr/bin/install -c -m 644 ./an.tmac \
+  /usr/local/share/groff/1.22.3/tmac/an.tmac
+rm -f /usr/local/share/groff/1.22.3/tmac/www.tmac
+/usr/bin/install -c -m 644 www.tmac-sed /usr/local/share/groff/1.22.3/tmac/www.tmac
+for f in e.tmac doc.tmac doc-old.tmac; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/local/share/groff/1.22.3/tmac/$f; \
+done
+test -d /usr/local/share/groff/1.22.3/tmac/mdoc || /bin/sh /sources/7.9/groff-1.22.3/mkinstalldirs /usr/local/share/groff/1.22.3/tmac/mdoc
+mkdir -p -- /usr/local/share/groff/1.22.3/tmac/mdoc
+for f in doc-common doc-ditroff doc-nroff doc-syms; do \
+  rm -f /usr/local/share/groff/1.22.3/tmac/mdoc/$f; \
+  /usr/bin/install -c -m 644 $f-s /usr/local/share/groff/1.22.3/tmac/mdoc/$f; \
+done
+test -f /usr/local/share/groff/site-tmac/man.local \
+  || /usr/bin/install -c -m 644 ./man.local \
+       /usr/local/share/groff/site-tmac/man.local
+test -f /usr/local/share/groff/site-tmac/mdoc.local \
+  || /usr/bin/install -c -m 644 mdoc.local-s /usr/local/share/groff/site-tmac/mdoc.local
+make[2]: Leaving directory '/sources/7.9/groff-1.22.3/tmac'
+make[1]: Leaving directory '/sources/7.9/groff-1.22.3'
+cd /usr/local/share/groff; \
+  rm -f current; \
+  ln -s `cat /sources/7.9/groff-1.22.3/VERSION``sed -e 's/^0$//' -e 's/^[1-9].*$/.&/' /sources/7.9/groff-1.22.3/REVISION` current

@@ -1,0 +1,665 @@
+installing missing dependency: libcroco-0.6.11 ... done!
+installing missing dependency: vala-0.28.1 ... done!
+--2016-06-10 22:42:58--  http://ftp.gnome.org/pub/gnome/sources/librsvg/2.40/librsvg-2.40.13.tar.xz
+Resolving ftp.gnome.org... 130.239.18.173, 130.239.18.165, 2001:6b0:e:2018::165, ...
+Connecting to ftp.gnome.org|130.239.18.173|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 552900 (540K) [application/x-xz]
+Saving to: 'librsvg-2.40.13.tar.xz'
+
+     0K .......... .......... .......... .......... ..........  9%  304K 2s
+    50K .......... .......... .......... .......... .......... 18%  672K 1s
+   100K .......... .......... .......... .......... .......... 27% 1.69M 1s
+   150K .......... .......... .......... .......... .......... 37% 1.59M 1s
+   200K .......... .......... .......... .......... .......... 46% 1002K 0s
+   250K .......... .......... .......... .......... .......... 55% 2.01M 0s
+   300K .......... .......... .......... .......... .......... 64% 3.01M 0s
+   350K .......... .......... .......... .......... .......... 74% 1.22M 0s
+   400K .......... .......... .......... .......... .......... 83% 6.43M 0s
+   450K .......... .......... .......... .......... .......... 92% 3.71M 0s
+   500K .......... .......... .......... .........            100% 3.52M=0.5s
+
+2016-06-10 22:42:59 (1.14 MB/s) - 'librsvg-2.40.13.tar.xz' saved [552900/552900]
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether ln -s works... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking how to run the C preprocessor... gcc -E
+checking for gawk... (cached) gawk
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc and cc understand -c and -o together... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether byte ordering is bigendian... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for cos in -lm... yes
+checking for some Win32 platform... no
+checking for native Win32... no
+checking for LIBRSVG... yes
+checking for GTHREAD... yes
+checking for GMODULE... yes
+checking for RSVG_CONVERT... yes
+checking for strtok_r... yes
+checking for GTK3... yes
+checking whether to build the GDK-Pixbuf SVG loader... yes
+checking for GDK_PIXBUF... yes
+checking for gdk-pixbuf-query-loaders... /usr/bin/gdk-pixbuf-query-loaders
+checking if gcc supports "-Wl,-Bsymbolic-functions" flag... yes
+checking for gtk-doc... no
+configure: WARNING:
+  You will not be able to create source packages with 'make dist'
+  because gtk-doc >= 1.13 is not found.
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking whether to build miscellaneous tools... yes
+checking for gobject-introspection... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for vala... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating librsvg-features.h
+config.status: creating Makefile
+config.status: creating librsvg-zip
+config.status: creating gdk-pixbuf-loader/Makefile
+config.status: creating tests/Makefile
+config.status: creating tools/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/version.xml
+config.status: creating config.h.win32
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating build/win32/vs11/Makefile
+config.status: creating build/win32/vs12/Makefile
+config.status: creating build/win32/vs14/Makefile
+config.status: creating librsvg-2.0.pc
+config.status: creating librsvg-2.0-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+librsvg-2.40.13
+
+	prefix:                         /usr
+	compiler:                       gcc
+
+	Build introspectable bindings:  yes
+	Build Vala bindings:            yes
+	Build GdkPixbuf loader:         yes
+        GTK+ 3.10.0 or later:           yes
+	Build miscellaneous tools:      yes
+
+  GEN      s-enum-types-h
+  GEN      s-enum-types-c
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/librsvg-2.40.13'
+Making all in .
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13'
+  CC       librsvg_2_la-librsvg-features.lo
+  CC       librsvg_2_la-rsvg-css.lo
+  CC       librsvg_2_la-rsvg-defs.lo
+  CC       librsvg_2_la-rsvg-image.lo
+  CC       librsvg_2_la-rsvg-io.lo
+  CC       librsvg_2_la-rsvg-paint-server.lo
+  CC       librsvg_2_la-rsvg-path.lo
+  CC       librsvg_2_la-rsvg-base-file-util.lo
+  CC       librsvg_2_la-rsvg-filter.lo
+  CC       librsvg_2_la-rsvg-marker.lo
+  CC       librsvg_2_la-rsvg-mask.lo
+  CC       librsvg_2_la-rsvg-shapes.lo
+  CC       librsvg_2_la-rsvg-structure.lo
+  CC       librsvg_2_la-rsvg-styles.lo
+  CC       librsvg_2_la-rsvg-text.lo
+  CC       librsvg_2_la-rsvg-cond.lo
+  CC       librsvg_2_la-rsvg-base.lo
+  CC       librsvg_2_la-librsvg-enum-types.lo
+  CC       librsvg_2_la-rsvg-cairo-draw.lo
+  CC       librsvg_2_la-rsvg-cairo-render.lo
+  CC       librsvg_2_la-rsvg-cairo-clip.lo
+  CC       librsvg_2_la-rsvg.lo
+  CC       librsvg_2_la-rsvg-gobject.lo
+  CC       librsvg_2_la-rsvg-file-util.lo
+  CC       librsvg_2_la-rsvg-size-callback.lo
+  CC       librsvg_2_la-rsvg-xml.lo
+  CCLD     librsvg-2.la
+  CC       rsvg_convert-rsvg-convert.o
+  CC       rsvg_convert-rsvg-size-callback.o
+  CCLD     rsvg-convert
+  CC       rsvg_view_3-test-display.o
+test-display.c: In function 'view_surface':
+test-display.c:563:13: warning: 'gtk_widget_override_background_color' is deprecated [-Wdeprecated-declarations]
+             gtk_widget_override_background_color (parent_widget, GTK_STATE_FLAG_NORMAL, &rgba);
+             ^
+In file included from /usr/include/gtk-3.0/gtk/gtkapplication.h:27:0,
+                 from /usr/include/gtk-3.0/gtk/gtkwindow.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkdialog.h:33,
+                 from /usr/include/gtk-3.0/gtk/gtkaboutdialog.h:30,
+                 from /usr/include/gtk-3.0/gtk/gtk.h:31,
+                 from test-display.c:29:
+/usr/include/gtk-3.0/gtk/gtkwidget.h:1137:14: note: declared here
+ void         gtk_widget_override_background_color (GtkWidget     *widget,
+              ^
+  CCLD     rsvg-view-3
+  GISCAN   Rsvg-2.0.gir
+  GICOMP   Rsvg-2.0.gir
+ VAPIGEN librsvg-2.0.vapi
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+Making all in gdk-pixbuf-loader
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+  CC       libpixbufloader_svg_la-io-svg.lo
+io-svg.c: In function 'gdk_pixbuf__svg_image_load_increment':
+io-svg.c:125:17: warning: 'rsvg_handle_set_size_callback' is deprecated [-Wdeprecated-declarations]
+                 rsvg_handle_set_size_callback (context->handle, context->size_func, context->user_data, NULL);
+                 ^
+In file included from io-svg.c:28:0:
+../rsvg.h:222:6: note: declared here
+ void rsvg_handle_set_size_callback (RsvgHandle * handle,
+      ^
+  CCLD     libpixbufloader-svg.la
+libtool: link: warning: `/usr/lib64/libgdk_pixbuf-2.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libgio-2.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libpangocairo-1.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libpango-1.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libcairo.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libpng16.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libcroco-0.6.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: link: warning: `/usr/lib64/libxml2.la' seems to be moved
+  CC       rsvg_loader-test.o
+  GEN      gdk-pixbuf-loaders
+  CCLD     rsvg-loader
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  all-am
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+Making all in tools
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tools'
+  CC       rsvg-tools-main.lo
+  CCLD     librsvg_tools_main.la
+  CC       rsvg-dimensions.o
+  CCLD     rsvg-dimensions
+  CC       test-performance.o
+  CCLD     test-performance
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tools'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/doc'
+Making all in build
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+Making all in vs11
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+Making all in vs12
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+Making all in vs14
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[1]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/librsvg-2.40.13'
+Making check in .
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+Making check in gdk-pixbuf-loader
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+  GEN      gdk-pixbuf-loaders
+  CCLD     rsvg-loader
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+Making check in tests
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  check-am
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make     rsvg-test crash styles \
+                   ./fixtures/crash/bug620238.svg ./fixtures/crash/mask-cycles.svg ./fixtures/crash/marker-cycles.svg ./fixtures/crash/pattern-fallback-cycles.svg  ./fixtures/reftests/nonexisting-filter.svg ./fixtures/reftests/gzip-compressed.svg ./fixtures/reftests/duplicate-id.svg ./fixtures/reftests/include-compressed.svg ./fixtures/reftests/gzip-compressed-ref.png ./fixtures/reftests/duplicate-id-ref.png ./fixtures/reftests/include-compressed-ref.png ./fixtures/reftests/nonexisting-filter-ref.png   fixtures/dimensions/bug564527.svg fixtures/dimensions/bug614018.svg fixtures/dimensions/bug612951.svg fixtures/dimensions/bug608102.svg fixtures/dimensions/sub-rect-no-unit.svg fixtures/styles/bug620693.svg fixtures/styles/bug614704.svg fixtures/styles/bug614606.svg fixtures/styles/important.svg fixtures/styles/svg-class.svg fixtures/styles/bug592207.svg fixtures/styles/bug338160.svg fixtures/styles/bug379629.svg fixtures/styles/bug614643.svg fixtures/styles/bug418823.svg fixtures/styles/order.svg
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+  CC       rsvg-test.o
+  CC       test-utils.o
+  CCLD     rsvg-test
+  CC       crash.o
+  CCLD     crash
+  CC       styles.o
+  CCLD     styles
+make[4]: Nothing to be done for 'fixtures/crash/bug620238.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/mask-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/marker-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/pattern-fallback-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/nonexisting-filter.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/nonexisting-filter-ref.png'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug564527.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug614018.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug612951.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug608102.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/sub-rect-no-unit.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug620693.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614704.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614606.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/important.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/svg-class.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug592207.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug338160.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug379629.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug614643.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/bug418823.svg'.
+make[4]: Nothing to be done for 'fixtures/styles/order.svg'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+PASS: rsvg-test 1 /rsvg/reftest/duplicate-id.svg
+PASS: rsvg-test 2 /rsvg/reftest/gzip-compressed.svg
+PASS: rsvg-test 3 /rsvg/reftest/include-compressed.svg
+PASS: rsvg-test 4 /rsvg/reftest/nonexisting-filter.svg
+PASS: crash 1 /crash/bug620238.svg
+PASS: crash 2 /crash/marker-cycles.svg
+PASS: crash 3 /crash/mask-cycles.svg
+PASS: crash 4 /crash/pattern-fallback-cycles.svg
+PASS: styles 1 /styles/override presentation attribute
+PASS: styles 2 /styles/svg-element-style
+PASS: styles 3 /styles/presentation attribute in svg element
+PASS: styles 4 /styles/selectors/type
+PASS: styles 5 /styles/selectors/class
+PASS: styles 6 /styles/selectors/#id
+PASS: styles 7 /styles/selectors/style
+PASS: styles 8 /styles/selectors/style property prior than class
+PASS: styles 9 /styles/selectors/#id prior than class
+PASS: styles 10 /styles/selectors/type#id prior than class
+PASS: styles 11 /styles/selectors/class#id prior than class
+PASS: styles 12 /styles/selectors/type.class#id prior than class
+PASS: styles 13 /styles/selectors/#id prior than type
+PASS: styles 14 /styles/selectors/comma-separate (fill)
+PASS: styles 15 /styles/selectors/comma-separete (stroke)
+PASS: styles 16 /styles/selectors/2 or more selectors (fill)
+PASS: styles 17 /styles/selectors/2 or more selectors (stroke)
+PASS: styles 18 /styles/!important/stroke
+PASS: styles 19 /styles/!important/stroke-width
+PASS: styles 20 /styles/!important/class
+PASS: styles 21 /styles/!important/element
+PASS: styles 22 /styles/!important/#id prior than class
+PASS: styles 23 /styles/!important/class prior than type
+PASS: styles 24 /styles/!important/presentation attribute is invalid
+PASS: styles 25 /styles/!important/style prior than class
+make[6]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  all-am
+make[7]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[6]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+============================================================================
+Testsuite summary for RSVG 2.40.13
+============================================================================
+# TOTAL: 33
+# PASS:  33
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+Making check in tools
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tools'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tools'
+Making check in doc
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/doc'
+Making check in build
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+Making check in win32
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+Making check in vs9
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+Making check in vs10
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+Making check in vs11
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+Making check in vs12
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+Making check in vs14
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[1]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+make  install-recursive
+make[1]: Entering directory '/sources/7.9/librsvg-2.40.13'
+Making install in .
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   librsvg-2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/librsvg-2.so.2.40.13 /usr/lib/librsvg-2.so.2.40.13
+libtool: install: (cd /usr/lib && { ln -s -f librsvg-2.so.2.40.13 librsvg-2.so.2 || { rm -f librsvg-2.so.2 && ln -s librsvg-2.so.2.40.13 librsvg-2.so.2; }; })
+libtool: install: (cd /usr/lib && { ln -s -f librsvg-2.so.2.40.13 librsvg-2.so || { rm -f librsvg-2.so && ln -s librsvg-2.so.2.40.13 librsvg-2.so; }; })
+libtool: install: /usr/bin/install -c .libs/librsvg-2.lai /usr/lib/librsvg-2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ./libtool   --mode=install /usr/bin/install -c rsvg-convert rsvg-view-3 '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/rsvg-convert /usr/bin/rsvg-convert
+libtool: install: /usr/bin/install -c .libs/rsvg-view-3 /usr/bin/rsvg-view-3
+ /bin/mkdir -p '/usr/include/librsvg-2.0/librsvg'
+ /usr/bin/install -c -m 644 rsvg.h rsvg-cairo.h librsvg-features.h librsvg-enum-types.h '/usr/include/librsvg-2.0/librsvg'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 rsvg-convert.1 '/usr/share/man/man1'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Rsvg-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Rsvg-2.0.typelib '/usr/lib/girepository-1.0'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 librsvg-2.0.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/share/vala/vapi'
+ /usr/bin/install -c -m 644 librsvg-2.0.vapi '/usr/share/vala/vapi'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13'
+Making install in gdk-pixbuf-loader
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+  GEN      gdk-pixbuf-loaders
+  CCLD     rsvg-loader
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libpixbufloader-svg.la '/usr/lib/gdk-pixbuf-2.0/2.10.0/loaders'
+libtool: install: warning: relinking `libpixbufloader-svg.la'
+libtool: install: (cd /sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader; /bin/sh /sources/7.9/librsvg-2.40.13/libtool  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/libcroco-0.6 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libxml2 -g -O2 -avoid-version -module -o libpixbufloader-svg.la -rpath /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders libpixbufloader_svg_la-io-svg.lo ../librsvg-2.la -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lgdk_pixbuf-2.0 -lgio-2.0 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lcairo -lpng16 -lcroco-0.6 -lglib-2.0 -lxml2 )
+libtool: relink: warning: `/usr/lib64/libgdk_pixbuf-2.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libgio-2.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libpangocairo-1.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libpango-1.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libgobject-2.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libcairo.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libpng16.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libcroco-0.6.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libglib-2.0.la' seems to be moved
+libtool: relink: warning: `/usr/lib64/libxml2.la' seems to be moved
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-svg.soT /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.so
+libtool: install: /usr/bin/install -c .libs/libpixbufloader-svg.lai /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-svg.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+if test -z ""; then \
+	/bin/sh /sources/7.9/librsvg-2.40.13/install-sh -d /usr/lib/gdk-pixbuf-2.0/2.10.0 ; \
+	/usr/bin/gdk-pixbuf-query-loaders > /usr/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache ; \
+fi
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/gdk-pixbuf-loader'
+Making install in tests
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make  install-am
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tests'
+Making install in tools
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/tools'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/tools'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/tools'
+Making install in doc
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/doc'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/annotation-glossary.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-14.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-22.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-32.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-36.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-4.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-8.html
+ /usr/bin/install -c -m 644 ./html/api-index-2-9.html
+ /usr/bin/install -c -m 644 ./html/api-index-deprecated.html
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/licence.html
+ /usr/bin/install -c -m 644 ./html/object-tree.html
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/rsvg.devhelp2
+ /usr/bin/install -c -m 644 ./html/RsvgHandle.html
+ /usr/bin/install -c -m 644 ./html/rsvg.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-cairo.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-GdkPixbuf.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Using-RSVG-with-GIO.html
+ /usr/bin/install -c -m 644 ./html/rsvg-Version-check-and-feature-tests.html
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/doc'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/doc'
+Making install in build
+make[2]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+Making install in win32
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+Making install in vs9
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs9'
+Making install in vs10
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs10'
+Making install in vs11
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs11'
+Making install in vs12
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs12'
+Making install in vs14
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32/vs14'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[5]: Entering directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build/win32'
+make[3]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+make[4]: Entering directory '/sources/7.9/librsvg-2.40.13/build'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[3]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[2]: Leaving directory '/sources/7.9/librsvg-2.40.13/build'
+make[1]: Leaving directory '/sources/7.9/librsvg-2.40.13'

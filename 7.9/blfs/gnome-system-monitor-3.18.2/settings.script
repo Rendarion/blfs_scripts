@@ -1,0 +1,35 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+# set up package variables
+
+PTH=$(dirname $PWD)
+PKG=$(basename $PWD)
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/gnome-system-monitor/3.18/gnome-system-monitor-3.18.2.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"adwaita-icon-theme-3.18.0"
+"gtkmm-3.18.0"
+"itstool-2.0.2"
+"libgtop-2.32.0"
+"librsvg-2.40.13"
+"libwnck-3.14.1"
+)
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+export -f as_root

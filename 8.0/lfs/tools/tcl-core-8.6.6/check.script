@@ -1,0 +1,3 @@
+cd unix
+
+TZ=UTC make test

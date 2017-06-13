@@ -1,0 +1,6 @@
+# configure and build
+
+cd unix
+./configure --prefix=/tools
+
+make

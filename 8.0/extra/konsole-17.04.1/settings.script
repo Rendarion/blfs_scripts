@@ -1,0 +1,12 @@
+URL=(
+"http://download.kde.org/stable/applications/17.04.1/src/konsole-17.04.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"kde_frameworks-5.31.0"
+)

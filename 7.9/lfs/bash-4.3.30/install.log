@@ -1,0 +1,2496 @@
+patching file arrayfunc.c
+patching file assoc.c
+patching file bashline.c
+patching file builtins/common.h
+patching file builtins/read.def
+patching file builtins/set.def
+patching file jobs.c
+patching file lib/readline/complete.c
+patching file lib/sh/unicode.c
+patching file parse.y
+patching file patchlevel.h
+patching file shell.c
+patching file sig.c
+patching file subst.c
+patching file subst.h
+patching file variables.c
+patching file y.tab.c
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+
+Beginning configuration for bash-4.3-release for x86_64-unknown-linux-gnu
+
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for strerror in -lcposix... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking whether gcc needs -traditional... no
+checking for tgetent... no
+checking for tgetent in -ltermcap... no
+checking for tgetent in -ltinfo... no
+checking for tgetent in -lcurses... yes
+checking which library has the termcap functions... using libcurses
+checking version of installed readline library... 6.3
+checking for a BSD-compatible install... /tools/bin/install -c
+checking for ar... ar
+checking for ranlib... ranlib
+checking for bison... bison -y
+checking whether make sets $(MAKE)... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for preprocessor stringizing operator... yes
+checking for long double with more range or precision than double... yes
+checking for function prototypes... yes
+checking whether char is unsigned... no
+checking for working volatile... yes
+checking for C/C++ restrict keyword... __restrict
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking for off_t... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/time.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking whether integer division by zero raises SIGFPE... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unsigned long long... yes
+checking for inttypes.h... yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking argz.h usability... yes
+checking argz.h presence... yes
+checking for argz.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for feof_unlocked... yes
+checking for fgets_unlocked... yes
+checking for getc_unlocked... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for localeconv... yes
+checking for stpcpy... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for __fsetlocking... yes
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking for bison... bison
+checking version of bison... 3.0.4, ok
+checking whether NLS is requested... yes
+checking whether included gettext is requested... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether time.h and sys/time.h may both be included... yes
+checking for inttypes.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking varargs.h usability... no
+checking varargs.h presence... no
+checking for varargs.h... no
+checking for limits.h... (cached) yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for locale.h... (cached) yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking stdbool.h usability... yes
+checking stdbool.h presence... yes
+checking for stdbool.h... yes
+checking for stddef.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking for strings.h... (cached) yes
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking ulimit.h usability... yes
+checking ulimit.h presence... yes
+checking for ulimit.h... yes
+checking sys/pte.h usability... no
+checking sys/pte.h presence... no
+checking for sys/pte.h... no
+checking sys/stream.h usability... no
+checking sys/stream.h presence... no
+checking for sys/stream.h... no
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking for sys/param.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking for sys/ptem.h... no
+checking for working alloca.h... (cached) yes
+checking for alloca... (cached) yes
+checking whether getpgrp requires zero arguments... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for working strcoll... yes
+checking return type of signal handlers... void
+checking for __setostype... no
+checking for wait3... yes
+checking for mkfifo... yes
+checking for dup2... yes
+checking for eaccess... yes
+checking for fcntl... yes
+checking for getdtablesize... yes
+checking for getgroups... yes
+checking for gethostname... yes
+checking for getpagesize... (cached) yes
+checking for getpeername... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for gettimeofday... yes
+checking for kill... yes
+checking for killpg... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for sbrk... yes
+checking for select... yes
+checking for setdtablesize... no
+checking for setitimer... yes
+checking for tcgetpgrp... yes
+checking for uname... yes
+checking for ulimit... yes
+checking for waitpid... yes
+checking for rename... yes
+checking for bcopy... yes
+checking for bzero... yes
+checking for confstr... yes
+checking for faccessat... yes
+checking for fnmatch... yes
+checking for getaddrinfo... yes
+checking for gethostbyname... yes
+checking for getservbyname... yes
+checking for getservent... yes
+checking for inet_aton... yes
+checking for imaxdiv... yes
+checking for memmove... yes
+checking for pathconf... yes
+checking for putenv... (cached) yes
+checking for raise... yes
+checking for regcomp... yes
+checking for regexec... yes
+checking for setenv... (cached) yes
+checking for setlinebuf... yes
+checking for setlocale... (cached) yes
+checking for setvbuf... yes
+checking for siginterrupt... yes
+checking for strchr... yes
+checking for sysconf... yes
+checking for syslog... yes
+checking for tcgetattr... yes
+checking for times... yes
+checking for ttyname... yes
+checking for tzset... yes
+checking for unsetenv... yes
+checking for vasprintf... yes
+checking for asprintf... yes
+checking for isascii... yes
+checking for isblank... yes
+checking for isgraph... yes
+checking for isprint... yes
+checking for isspace... yes
+checking for isxdigit... yes
+checking for getpwent... yes
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for getcwd... (cached) yes
+checking for memset... yes
+checking for strcasecmp... (cached) yes
+checking for strcasestr... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for strnlen... yes
+checking for strpbrk... yes
+checking for strstr... yes
+checking for strtod... yes
+checking for strtol... yes
+checking for strtoul... (cached) yes
+checking for strtoll... yes
+checking for strtoull... yes
+checking for strtoimax... yes
+checking for strtoumax... yes
+checking for dprintf... yes
+checking for strchrnul... yes
+checking for strdup... (cached) yes
+checking whether AUDIT_USER_TTY is declared... yes
+checking whether confstr is declared... yes
+checking whether printf is declared... yes
+checking whether sbrk is declared... yes
+checking whether setregid is declared... yes
+checking whether strcpy is declared... yes
+checking whether strsignal is declared... yes
+checking whether strtold is declared... yes
+checking for broken strtold... no
+checking for declaration of strtoimax... yes
+checking for declaration of strtol... yes
+checking for declaration of strtoll... yes
+checking for declaration of strtoul... yes
+checking for declaration of strtoull... yes
+checking for declaration of strtoumax... yes
+checking for alarm... yes
+checking for fpurge... no
+checking for __fpurge... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for working mktime... yes
+checking for argz.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for malloc.h... (cached) yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for getpagesize... (cached) yes
+checking for working mmap... (cached) yes
+checking for __argz_count... (cached) yes
+checking for __argz_next... (cached) yes
+checking for __argz_stringify... (cached) yes
+checking for dcgettext... yes
+checking for mempcpy... (cached) yes
+checking for munmap... (cached) yes
+checking for stpcpy... (cached) yes
+checking for strcspn... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for mbrlen... yes
+checking for mbscasecmp... no
+checking for mbscmp... no
+checking for mbsnrtowcs... yes
+checking for mbsrtowcs... yes
+checking for mbschr... no
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for wcsdup... yes
+checking for wcwidth... yes
+checking for wctype... yes
+checking for wcswidth... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for iswlower... yes
+checking for iswupper... yes
+checking for towlower... yes
+checking for towupper... yes
+checking for iswctype... yes
+checking for nl_langinfo and CODESET... yes
+checking for wchar_t in wchar.h... yes
+checking for wctype_t in wctype.h... yes
+checking for wint_t in wctype.h... yes
+checking for wcwidth broken with unicode combining characters... 
+checking for locale_charset... no
+checking for dlopen in -ldl... yes
+checking for dlopen... yes
+checking for dlclose... yes
+checking for dlsym... yes
+checking whether sys_siglist is declared... yes
+checking for uid_t in sys/types.h... yes
+checking type of array argument to getgroups... gid_t
+checking for off_t... (cached) yes
+checking for mode_t... yes
+checking for uid_t in sys/types.h... (cached) yes
+checking for pid_t... yes
+checking for size_t... (cached) yes
+checking for ssize_t... yes
+checking for time_t... yes
+checking for long long... long long
+checking for unsigned long long... unsigned long long
+checking return type of signal handlers... (cached) void
+checking for sig_atomic_t in signal.h... yes
+checking size of char... 1
+checking size of short... 2
+checking size of int... 4
+checking size of long... 8
+checking size of char *... 8
+checking size of double... 8
+checking size of long long... 8
+checking for u_int... yes
+checking for u_long... yes
+checking for bits16_t... no
+checking for u_bits16_t... no
+checking for bits32_t... no
+checking for u_bits32_t... no
+checking for bits64_t... no
+checking for ptrdiff_t... yes
+checking whether stat file-mode macros are broken... no
+checking whether #! works in shell scripts... yes
+checking whether the ctype macros accept non-ascii characters... yes
+checking if dup2 fails to clear the close-on-exec flag... no
+checking whether pgrps need synchronization... no
+checking for type of signal functions... posix
+checking for sys_errlist and sys_nerr... yes
+checking for sys_siglist in system C library... yes
+checking for _sys_siglist in signal.h or unistd.h... yes
+checking for _sys_siglist in system C library... yes
+checking whether signal handlers are of type void... yes
+checking for clock_t... yes
+checking for sigset_t... yes
+checking for sig_atomic_t... yes
+checking for quad_t... yes
+checking for intmax_t... yes
+checking for uintmax_t... yes
+checking for socklen_t... yes
+checking for size and type of struct rlimit fields... rlim_t
+checking size of intmax_t... 8
+checking for struct termios.c_line... yes
+checking for struct termio.c_line... yes
+checking for struct dirent.d_ino... yes
+checking for struct dirent.d_fileno... yes
+checking for struct dirent.d_namlen... no
+checking for struct winsize in sys/ioctl.h and termios.h... sys/ioctl.h
+checking for struct timeval in sys/time.h and time.h... yes
+checking for struct stat.st_blocks... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... yes
+checking for struct timezone in sys/time.h and time.h... yes
+checking for offset of exit status in return status from wait... 8
+checking for struct timespec in <time.h>... yes
+checking for struct stat.st_atim.tv_nsec... yes
+checking whether struct stat.st_atim is of type struct timespec... yes
+checking for the existence of strsignal... yes
+checking if opendir() opens non-directories... no
+checking whether ulimit can substitute for getdtablesize... yes
+checking whether fpurge is declared... no
+checking to see if getenv can be redefined... yes
+checking if getcwd() will dynamically allocate memory with 0 size... yes
+checking for presence of POSIX-style sigsetjmp/siglongjmp... present
+checking whether or not strcoll and strcmp differ... no
+checking for standard-conformant snprintf... yes
+checking for standard-conformant vsnprintf... yes
+checking for standard-conformant putenv declaration... yes
+checking for standard-conformant unsetenv declaration... yes
+checking for printf floating point output in hex notation... yes
+checking if signal handlers must be reinstalled when invoked... no
+checking for presence of necessary job control definitions... present
+checking for presence of named pipes... present
+checking whether termios.h defines TIOCGWINSZ... no
+checking whether sys/ioctl.h defines TIOCGWINSZ... yes
+checking for TIOCSTAT in sys/ioctl.h... no
+checking for FIONREAD in sys/ioctl.h... yes
+checking whether WCONTINUED flag to waitpid is unavailable or available but broken... no
+checking for speed_t in sys/types.h... no
+checking whether getpw functions are declared in pwd.h... yes
+checking for unusable real-time signals due to large values... no
+checking which library has the termcap functions... (cached) using libcurses
+checking whether /dev/fd is available... standard
+checking whether /dev/stdin stdout stderr are available... present
+checking for default mail directory... /var/mail
+checking shared object configuration for loadable builtins... supported
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating builtins/Makefile
+config.status: creating lib/readline/Makefile
+config.status: creating lib/glob/Makefile
+config.status: creating lib/intl/Makefile
+config.status: creating lib/malloc/Makefile
+config.status: creating lib/sh/Makefile
+config.status: creating lib/termcap/Makefile
+config.status: creating lib/tilde/Makefile
+config.status: creating doc/Makefile
+config.status: creating support/Makefile
+config.status: creating po/Makefile.in
+config.status: creating examples/loadables/Makefile
+config.status: creating examples/loadables/perl/Makefile
+config.status: creating config.h
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing default commands
+rm -f mksyntax
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2   -rdynamic  -g -O2 -rdynamic -g -O2  -o mksyntax ./mksyntax.c 
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f mkbuiltins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2  mkbuiltins.c
+rm -f general.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c general.c
+gcc -rdynamic -g -O2 -rdynamic -g -O2  -o mkbuiltins mkbuiltins.o -ldl 
+./mkbuiltins -externfile builtext.h -structfile builtins.c \
+    -noproduction -D .   ./alias.def ./bind.def ./break.def ./builtin.def ./caller.def ./cd.def ./colon.def ./command.def ./declare.def ./echo.def ./enable.def ./eval.def ./getopts.def ./exec.def ./exit.def ./fc.def ./fg_bg.def ./hash.def ./help.def ./history.def ./jobs.def ./kill.def ./let.def ./read.def ./return.def ./set.def ./setattr.def ./shift.def ./source.def ./suspend.def ./test.def ./times.def ./trap.def ./type.def ./ulimit.def ./umask.def ./wait.def ./reserved.def ./pushd.def ./shopt.def ./printf.def ./complete.def ./mapfile.def
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f make_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c make_cmd.c
+rm -f dispose_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c dispose_cmd.c
+rm -f copy_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c copy_cmd.c
+rm -f error.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c error.c
+rm -f expr.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c expr.c
+expr.c:210:17: warning: conflicting types for built-in function 'exp2'
+ static intmax_t exp2 __P((void));
+                 ^
+rm -f flags.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c flags.c
+rm -f jobs.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c jobs.c
+rm -f subst.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c subst.c
+rm -f hashcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashcmd.c
+rm -f hashlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c hashlib.c
+rm -f mailcheck.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c mailcheck.c
+rm -f mksignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -c ./support/mksignames.c
+rm -f buildsignames.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -o buildsignames.o -c ./support/signames.c
+rm -f input.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c input.c
+rm -f unwind_prot.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c unwind_prot.c
+rm -f pathexp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pathexp.c
+rm -f sig.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c sig.c
+rm -f test.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c test.c
+rm -f alias.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c alias.c
+rm -f array.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c array.c
+rm -f arrayfunc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c arrayfunc.c
+rm -f assoc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c assoc.c
+rm -f braces.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c braces.c
+rm -f bracecomp.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bracecomp.c
+rm -f bashhist.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashhist.c
+rm -f bashline.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c bashline.c
+rm -f list.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c list.c
+rm -f stringlib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c stringlib.c
+rm -f locale.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c locale.c
+rm -f findcmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c findcmd.c
+rm -f redir.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c redir.c
+rm -f pcomplete.o
+rm -f pcomplib.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplete.c
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c pcomplib.c
+pcomplete.c: In function 'pcomp_filename_completion_function':
+pcomplete.c:781:29: warning: passing argument 1 of 'sh_contains_quotes' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+         sh_contains_quotes (text)) /* guess */
+                             ^
+In file included from shell.h:42:0,
+                 from pcomplete.c:46:
+externs.h:327:12: note: expected 'char *' but argument is of type 'const char *'
+ extern int sh_contains_quotes __P((char *));
+            ^
+rm -f xmalloc.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c xmalloc.c
+rm -f syntax.c
+./mksyntax -o syntax.c
+rm -f shell.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c shell.c
+rm -f eval.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c eval.c
+rm -f y.tab.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c y.tab.c
+rm -f print_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c print_cmd.c
+rm -f execute_cmd.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c execute_cmd.c
+execute_cmd.c: In function 'coproc_pidchk':
+execute_cmd.c:2062:1: warning: type of 'status' defaults to 'int' [-Wimplicit-int]
+ coproc_pidchk (pid, status)
+ ^
+rm -f mksignames
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2   -rdynamic  -g -O2 -rdynamic -g -O2  -o mksignames mksignames.o buildsignames.o 
+rm -f syntax.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c syntax.c
+/bin/sh ./support/mkversion.sh -b -S . -s release -d 4.3 -o newversion.h \
+	&& mv newversion.h version.h
+rm -f lsignames.h
+./mksignames lsignames.h
+rm -f version.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c version.c
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f builtins.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtins.c
+rm -f alias.o
+./mkbuiltins -D . alias.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 alias.c || ( rm -f alias.c ; exit 1 )
+rm -f alias.c
+rm -f bind.o
+./mkbuiltins -D . bind.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bind.c || ( rm -f bind.c ; exit 1 )
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2  -DBUILDTOOL -c -o buildversion.o ./version.c
+rm -f variables.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c variables.c
+rm -f bind.c
+rm -f break.o
+./mkbuiltins -D . break.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 break.c || ( rm -f break.c ; exit 1 )
+variables.c: In function 'bind_variable_internal':
+variables.c:2529:87: warning: passing argument 1 of 'valid_array_reference' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   if ((aflags & ASS_FROMREF) && (hflags & HASH_NOSRCH) == 0 && valid_array_reference (name))
+                                                                                       ^
+In file included from shell.h:32:0,
+                 from variables.c:49:
+arrayfunc.h:60:12: note: expected 'char *' but argument is of type 'const char *'
+ extern int valid_array_reference __P((char *));
+            ^
+variables.c:2531:38: warning: passing argument 1 of 'array_variable_name' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+       newname = array_variable_name (name, &subp, &sublen);
+                                      ^
+In file included from shell.h:32:0,
+                 from variables.c:49:
+arrayfunc.h:66:14: note: expected 'char *' but argument is of type 'const char *'
+ extern char *array_variable_name __P((char *, char **, int *));
+              ^
+variables.c:2576:33: warning: passing argument 1 of 'array_expand_index' from incompatible pointer type [-Wincompatible-pointer-types]
+       ind = array_expand_index (name, subp, sublen);
+                                 ^
+In file included from shell.h:32:0,
+                 from variables.c:49:
+arrayfunc.h:59:19: note: expected 'SHELL_VAR * {aka struct variable *}' but argument is of type 'const char *'
+ extern arrayind_t array_expand_index __P((SHELL_VAR *, char *, int));
+                   ^
+rm -f break.c
+rm -f builtin.o
+./mkbuiltins -D . builtin.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 builtin.c || ( rm -f builtin.c ; exit 1 )
+rm -f builtin.c
+rm -f caller.o
+./mkbuiltins -D . caller.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 caller.c || ( rm -f caller.c ; exit 1 )
+rm -f caller.c
+rm -f cd.o
+./mkbuiltins -D . cd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 cd.c || ( rm -f cd.c ; exit 1 )
+rm -f cd.c
+rm -f colon.o
+./mkbuiltins -D . colon.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 colon.c || ( rm -f colon.c ; exit 1 )
+rm -f colon.c
+rm -f command.o
+./mkbuiltins -D . command.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 command.c || ( rm -f command.c ; exit 1 )
+rm -f command.c
+rm -f common.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 common.c
+rm -f declare.o
+./mkbuiltins -D . declare.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 declare.c || ( rm -f declare.c ; exit 1 )
+rm -f declare.c
+rm -f echo.o
+./mkbuiltins -D . echo.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 echo.c || ( rm -f echo.c ; exit 1 )
+rm -f echo.c
+rm -f enable.o
+./mkbuiltins -D . enable.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 enable.c || ( rm -f enable.c ; exit 1 )
+if cmp -s lsignames.h signames.h ; then :; else rm -f signames.h ; cp lsignames.h signames.h ; fi
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2   -rdynamic  -g -O2 -rdynamic -g -O2  -o bashversion ./support/bashversion.c buildversion.o 
+rm -f enable.c
+rm -f eval.o
+./mkbuiltins -D . eval.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 eval.c || ( rm -f eval.c ; exit 1 )
+rm -f trap.o
+gcc  -DPROGRAM='"bash"' -DCONF_HOSTTYPE='"x86_64"' -DCONF_OSTYPE='"linux-gnu"' -DCONF_MACHTYPE='"x86_64-unknown-linux-gnu"' -DCONF_VENDOR='"unknown"' -DLOCALEDIR='"/usr/share/locale"' -DPACKAGE='"bash"' -DSHELL -DHAVE_CONFIG_H   -I.  -I. -I./include -I./lib   -g -O2 -c trap.c
+rm -f eval.c
+rm -f evalfile.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalfile.c
+rm -f evalstring.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 evalstring.c
+evalstring.c: In function 'parse_and_execute':
+evalstring.c:208:16: warning: passing argument 1 of 'sigemptyset' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigemptyset (&pe_sigmask);
+                ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:213:12: note: expected 'sigset_t * {aka struct <anonymous> *}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigemptyset (sigset_t *__set) __THROW __nonnull ((1));
+            ^
+evalstring.c:209:45: warning: passing argument 3 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigprocmask (SIG_BLOCK, (sigset_t *)NULL, &pe_sigmask);
+                                             ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:246:12: note: expected 'sigset_t * restrict {aka struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c:288:31: warning: passing argument 2 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     sigprocmask (SIG_SETMASK, &pe_sigmask, (sigset_t *)NULL);
+                               ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:246:12: note: expected 'const sigset_t * restrict {aka const struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c: In function 'parse_string':
+evalstring.c:460:16: warning: passing argument 1 of 'sigemptyset' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigemptyset (&ps_sigmask);
+                ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:213:12: note: expected 'sigset_t * {aka struct <anonymous> *}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigemptyset (sigset_t *__set) __THROW __nonnull ((1));
+            ^
+evalstring.c:461:45: warning: passing argument 3 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   sigprocmask (SIG_BLOCK, (sigset_t *)NULL, &ps_sigmask);
+                                             ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:246:12: note: expected 'sigset_t * restrict {aka struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+evalstring.c:513:34: warning: passing argument 2 of 'sigprocmask' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+        sigprocmask (SIG_SETMASK, &ps_sigmask, (sigset_t *)NULL);
+                                  ^
+In file included from evalstring.c:31:0:
+/usr/include/signal.h:246:12: note: expected 'const sigset_t * restrict {aka const struct <anonymous> * restrict}' but argument is of type 'volatile sigset_t * {aka volatile struct <anonymous> *}'
+ extern int sigprocmask (int __how, const sigset_t *__restrict __set,
+            ^
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.42(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+
+making lib/glob/libglob.a in ./lib/glob
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/glob'
+rm -f glob.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 glob.c
+rm -f exec.o
+./mkbuiltins -D . exec.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exec.c || ( rm -f exec.c ; exit 1 )
+rm -f exec.c
+rm -f exit.o
+./mkbuiltins -D . exit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 exit.c || ( rm -f exit.c ; exit 1 )
+rm -f exit.c
+rm -f fc.o
+./mkbuiltins -D . fc.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fc.c || ( rm -f fc.c ; exit 1 )
+rm -f strmatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 strmatch.c
+rm -f fc.c
+rm -f fg_bg.o
+./mkbuiltins -D . fg_bg.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 fg_bg.c || ( rm -f fg_bg.c ; exit 1 )
+rm -f smatch.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 smatch.c
+rm -f fg_bg.c
+rm -f hash.o
+./mkbuiltins -D . hash.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 hash.c || ( rm -f hash.c ; exit 1 )
+rm -f hash.c
+rm -f help.o
+./mkbuiltins -D . help.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 help.c || ( rm -f help.c ; exit 1 )
+rm -f help.c
+rm -f history.o
+./mkbuiltins -D . history.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 history.c || ( rm -f history.c ; exit 1 )
+rm -f history.c
+rm -f jobs.o
+./mkbuiltins -D . jobs.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 jobs.c || ( rm -f jobs.c ; exit 1 )
+rm -f xmbsrtowcs.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 xmbsrtowcs.c
+rm -f jobs.c
+rm -f kill.o
+./mkbuiltins -D . kill.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 kill.c || ( rm -f kill.c ; exit 1 )
+rm -f gmisc.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 gmisc.c
+rm -f kill.c
+rm -f let.o
+./mkbuiltins -D . let.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 let.c || ( rm -f let.c ; exit 1 )
+rm -f -f libglob.a
+ar cr libglob.a glob.o strmatch.o smatch.o xmbsrtowcs.o gmisc.o
+test -n "ranlib" && ranlib libglob.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/glob'
+making lib/sh/libsh.a in ./lib/sh
+rm -f let.c
+rm -f mapfile.o
+./mkbuiltins -D . mapfile.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 mapfile.c || ( rm -f mapfile.c ; exit 1 )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/sh'
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clktck.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   clock.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   getenv.c
+rm -f mapfile.c
+rm -f pushd.o
+./mkbuiltins -D . pushd.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 pushd.c || ( rm -f pushd.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   oslib.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   setlinebuf.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strnlen.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   itos.c
+rm -f pushd.c
+rm -f read.o
+./mkbuiltins -D . read.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 read.c || ( rm -f read.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zread.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zwrite.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shtty.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmatch.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   eaccess.c
+rm -f read.c
+rm -f return.o
+./mkbuiltins -D . return.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 return.c || ( rm -f return.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netconn.c
+rm -f return.c
+rm -f set.o
+./mkbuiltins -D . set.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 set.c || ( rm -f set.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   netopen.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   timeval.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   makepath.c
+rm -f set.c
+rm -f setattr.o
+./mkbuiltins -D . setattr.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 setattr.c || ( rm -f setattr.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathcanon.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   pathphys.c
+rm -f setattr.c
+rm -f shift.o
+./mkbuiltins -D . shift.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shift.c || ( rm -f shift.c ; exit 1 )
+rm -f shift.c
+rm -f source.o
+./mkbuiltins -D . source.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 source.c || ( rm -f source.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   tmpfile.c
+rm -f source.c
+rm -f suspend.o
+./mkbuiltins -D . suspend.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 suspend.c || ( rm -f suspend.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringlist.c
+rm -f suspend.c
+rm -f test.o
+./mkbuiltins -D . test.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 test.c || ( rm -f test.c ; exit 1 )
+rm -f test.c
+rm -f times.o
+./mkbuiltins -D . times.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 times.c || ( rm -f times.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   stringvec.c
+rm -f times.c
+rm -f trap.o
+./mkbuiltins -D . trap.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 trap.c || ( rm -f trap.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   spell.c
+rm -f trap.c
+rm -f type.o
+./mkbuiltins -D . type.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 type.c || ( rm -f type.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shquote.c
+rm -f type.c
+gcc  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2  -rdynamic -g -O2 -rdynamic -g -O2  -o psize.aux ./psize.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   strtrans.c
+rm -f umask.o
+./mkbuiltins -D . umask.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 umask.c || ( rm -f umask.c ; exit 1 )
+rm -f umask.c
+rm -f wait.o
+./mkbuiltins -D . wait.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 wait.c || ( rm -f wait.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   snprintf.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mailstat.c
+rm -f wait.c
+rm -f getopts.o
+./mkbuiltins -D . getopts.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopts.c || ( rm -f getopts.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtulong.c
+rm -f getopts.c
+rm -f shopt.o
+./mkbuiltins -D . shopt.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 shopt.c || ( rm -f shopt.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtullong.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fmtumax.c
+rm -f shopt.c
+rm -f printf.o
+./mkbuiltins -D . printf.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 printf.c || ( rm -f printf.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zcatfd.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zmapfd.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   winsize.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   wcsdup.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fpurge.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   zgetline.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   uconvert.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   ufuncs.c
+rm -f printf.c
+rm -f getopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 getopt.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   casemod.c
+rm -f bashgetopt.o
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 bashgetopt.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   input_avail.c
+rm -f complete.o
+./mkbuiltins -D . complete.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 complete.c || ( rm -f complete.c ; exit 1 )
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbscasecmp.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   fnxform.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   unicode.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   shmbchar.c
+rm -f complete.c
+/bin/sh ./psize.sh > pipesize.h
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   wcsnwidth.c
+gcc -c  -I. -I../.. -I../.. -I../../lib -I../../include -I.  -DHAVE_CONFIG_H -DSHELL  -g -O2   mbschr.c
+rm -f libsh.a
+ar cr libsh.a clktck.o clock.o getenv.o oslib.o setlinebuf.o strnlen.o itos.o zread.o zwrite.o shtty.o shmatch.o eaccess.o netconn.o netopen.o timeval.o makepath.o pathcanon.o pathphys.o tmpfile.o stringlist.o stringvec.o spell.o shquote.o strtrans.o snprintf.o mailstat.o fmtulong.o fmtullong.o fmtumax.o zcatfd.o zmapfd.o winsize.o wcsdup.o fpurge.o zgetline.o mbscmp.o uconvert.o ufuncs.o casemod.o input_avail.o mbscasecmp.o fnxform.o unicode.o shmbchar.o wcsnwidth.o mbschr.o
+test -n "ranlib" && ranlib libsh.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/sh'
+making lib/tilde/libtilde.a in ./lib/tilde
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/lib/tilde'
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I../.. -I../.. -I../../include -I../../lib  -g -O2 tilde.c
+rm -f libtilde.a
+ar cr libtilde.a tilde.o
+test -n "ranlib" && ranlib libtilde.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/lib/tilde'
+rm -f ulimit.o
+./mkbuiltins -D . ulimit.def
+gcc -c  -DHAVE_CONFIG_H -DSHELL  -I. -I..  -I.. -I../include -I../lib -I.    -g -O2 ulimit.c || ( rm -f ulimit.c ; exit 1 )
+rm -f ulimit.c
+rm -f libbuiltins.a
+ar cr libbuiltins.a builtins.o alias.o bind.o break.o builtin.o caller.o cd.o colon.o command.o common.o declare.o echo.o enable.o eval.o evalfile.o evalstring.o exec.o exit.o fc.o fg_bg.o hash.o help.o history.o jobs.o kill.o let.o mapfile.o pushd.o read.o return.o set.o setattr.o shift.o source.o suspend.o test.o times.o trap.o type.o ulimit.o umask.o wait.o getopts.o shopt.o printf.o getopt.o bashgetopt.o complete.o
+ranlib libbuiltins.a
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+rm -f bash
+gcc -L./builtins -L/usr/lib -L/usr/lib -L./lib/glob -L./lib/tilde  -L./lib/sh  -rdynamic  -g -O2 -o bash shell.o eval.o y.tab.o general.o make_cmd.o print_cmd.o  dispose_cmd.o execute_cmd.o variables.o copy_cmd.o error.o expr.o flags.o jobs.o subst.o hashcmd.o hashlib.o mailcheck.o trap.o input.o unwind_prot.o pathexp.o sig.o test.o version.o alias.o array.o arrayfunc.o assoc.o braces.o bracecomp.o bashhist.o bashline.o  list.o stringlib.o locale.o findcmd.o redir.o pcomplete.o pcomplib.o syntax.o xmalloc.o  -lbuiltins -lglob -lsh -lreadline -lhistory -lcurses -ltilde     -ldl 
+ls -l bash
+-rwxrwxr-x 1 root root 2876200 Jun  5 17:38 bash
+size bash
+   text	   data	    bss	    dec	    hex	filename
+ 761975	  15604	  38960	 816539	  c759b	bash
+changed ownership of './hashcmd.c' from 286 to nobody
+changed ownership of './subst.o' from root to nobody
+changed ownership of './builtins.h' from 286 to nobody
+changed ownership of './shell.o' from root to nobody
+changed ownership of './locale.c' from 286 to nobody
+changed ownership of './general.o' from root to nobody
+changed ownership of './redir.c' from 286 to nobody
+changed ownership of './hashcmd.h' from 286 to nobody
+changed ownership of './MANIFEST' from 286 to nobody
+changed ownership of './bashline.o' from root to nobody
+changed ownership of './hashlib.o' from root to nobody
+changed ownership of './config.status' from root to nobody
+changed ownership of './doc/version.texi' from 286 to nobody
+changed ownership of './doc/FAQ' from 286 to nobody
+changed ownership of './doc/builtins.1' from 286 to nobody
+changed ownership of './doc/builtins.0' from 286 to nobody
+changed ownership of './doc/infopost.sh' from 286 to nobody
+changed ownership of './doc/texinfo.tex' from 286 to nobody
+changed ownership of './doc/builtins.ps' from 286 to nobody
+changed ownership of './doc/bashref.texi' from 286 to nobody
+changed ownership of './doc/INTRO' from 286 to nobody
+changed ownership of './doc/bashref.ps' from 286 to nobody
+changed ownership of './doc/bashbug.1' from 286 to nobody
+changed ownership of './doc/bash.ps' from 286 to nobody
+changed ownership of './doc/rose94.pdf' from 286 to nobody
+changed ownership of './doc/article.ps' from 286 to nobody
+changed ownership of './doc/bash.html' from 286 to nobody
+changed ownership of './doc/bashref.info' from 286 to nobody
+changed ownership of './doc/article.pdf' from 286 to nobody
+changed ownership of './doc/bash.pdf' from 286 to nobody
+changed ownership of './doc/bash.1' from 286 to nobody
+changed ownership of './doc/bash.0' from 286 to nobody
+changed ownership of './doc/Makefile.in' from 286 to nobody
+changed ownership of './doc/bashref.dvi' from 286 to nobody
+changed ownership of './doc/fdl.txt' from 286 to nobody
+changed ownership of './doc/rbash.ps' from 286 to nobody
+changed ownership of './doc/rbash.0' from 286 to nobody
+changed ownership of './doc/rose94.ps' from 286 to nobody
+changed ownership of './doc/README' from 286 to nobody
+changed ownership of './doc/fdl.texi' from 286 to nobody
+changed ownership of './doc/bashref.pdf' from 286 to nobody
+changed ownership of './doc/aosa-bash.pdf' from 286 to nobody
+changed ownership of './doc/article.ms' from 286 to nobody
+changed ownership of './doc/article.txt' from 286 to nobody
+changed ownership of './doc/Makefile' from root to nobody
+changed ownership of './doc/bashbug.0' from 286 to nobody
+changed ownership of './doc/bashbug.ps' from 286 to nobody
+changed ownership of './doc/bashref.html' from 286 to nobody
+changed ownership of './doc/rbash.1' from 286 to nobody
+changed ownership of './doc/htmlpost.sh' from 286 to nobody
+changed ownership of './doc' from 286 to nobody
+changed ownership of './bashhist.o' from root to nobody
+changed ownership of './pathnames.h.in' from 286 to nobody
+changed ownership of './mksyntax.c' from 286 to nobody
+changed ownership of './syntax.c' from root to nobody
+changed ownership of './RBASH' from 286 to nobody
+changed ownership of './alias.o' from root to nobody
+changed ownership of './pcomplete.c' from 286 to nobody
+changed ownership of './input.o' from root to nobody
+changed ownership of './eval.c' from 286 to nobody
+changed ownership of './jobs.o' from root to nobody
+changed ownership of './externs.h' from 286 to nobody
+changed ownership of './variables.c' from 286 to nobody
+changed ownership of './test.c' from 286 to nobody
+changed ownership of './trap.c' from 286 to nobody
+changed ownership of './patchlevel.h' from 286 to nobody
+changed ownership of './aclocal.m4' from 286 to nobody
+changed ownership of './make_cmd.o' from root to nobody
+changed ownership of './INSTALL' from 286 to nobody
+changed ownership of './pathexp.o' from root to nobody
+changed ownership of './config.h.in' from 286 to nobody
+changed ownership of './NOTES' from 286 to nobody
+changed ownership of './conftypes.h' from 286 to nobody
+changed ownership of './hashlib.h' from 286 to nobody
+changed ownership of './po/en@quot.gmo' from 286 to nobody
+changed ownership of './po/en@quot.header' from 286 to nobody
+changed ownership of './po/es.po' from 286 to nobody
+changed ownership of './po/ca.gmo' from 286 to nobody
+changed ownership of './po/sv.po' from 286 to nobody
+changed ownership of './po/gl.gmo' from 286 to nobody
+changed ownership of './po/quot.sed' from 286 to nobody
+changed ownership of './po/uk.gmo' from 286 to nobody
+changed ownership of './po/pl.po' from 286 to nobody
+changed ownership of './po/Makevars' from 286 to nobody
+changed ownership of './po/sk.gmo' from 286 to nobody
+changed ownership of './po/hr.po' from 286 to nobody
+changed ownership of './po/sl.po' from 286 to nobody
+changed ownership of './po/Rules-builtins' from 286 to nobody
+changed ownership of './po/sr.po' from 286 to nobody
+changed ownership of './po/lt.gmo' from 286 to nobody
+changed ownership of './po/uk.po' from 286 to nobody
+changed ownership of './po/POTFILES' from root to nobody
+changed ownership of './po/hr.gmo' from 286 to nobody
+changed ownership of './po/en@boldquot.gmo' from 286 to nobody
+changed ownership of './po/bg.gmo' from 286 to nobody
+changed ownership of './po/fi.gmo' from 286 to nobody
+changed ownership of './po/boldquot.sed' from 286 to nobody
+changed ownership of './po/sl.gmo' from 286 to nobody
+changed ownership of './po/fr.po' from 286 to nobody
+changed ownership of './po/af.gmo' from 286 to nobody
+changed ownership of './po/en@boldquot.header' from 286 to nobody
+changed ownership of './po/lt.po' from 286 to nobody
+changed ownership of './po/zh_TW.gmo' from 286 to nobody
+changed ownership of './po/sr.gmo' from 286 to nobody
+changed ownership of './po/id.gmo' from 286 to nobody
+changed ownership of './po/zh_CN.gmo' from 286 to nobody
+changed ownership of './po/en@boldquot.po' from 286 to nobody
+changed ownership of './po/da.po' from 286 to nobody
+changed ownership of './po/et.po' from 286 to nobody
+changed ownership of './po/Makefile.in.in' from 286 to nobody
+changed ownership of './po/vi.gmo' from 286 to nobody
+changed ownership of './po/nl.po' from 286 to nobody
+changed ownership of './po/et.gmo' from 286 to nobody
+changed ownership of './po/LINGUAS' from 286 to nobody
+changed ownership of './po/da.gmo' from 286 to nobody
+changed ownership of './po/tr.po' from 286 to nobody
+changed ownership of './po/eo.po' from 286 to nobody
+changed ownership of './po/es.gmo' from 286 to nobody
+changed ownership of './po/af.po' from 286 to nobody
+changed ownership of './po/pl.gmo' from 286 to nobody
+changed ownership of './po/zh_TW.po' from 286 to nobody
+changed ownership of './po/cs.po' from 286 to nobody
+changed ownership of './po/ro.po' from 286 to nobody
+changed ownership of './po/insert-header.sin' from 286 to nobody
+changed ownership of './po/ga.po' from 286 to nobody
+changed ownership of './po/Makefile.in' from root to nobody
+changed ownership of './po/fr.gmo' from 286 to nobody
+changed ownership of './po/en@quot.po' from 286 to nobody
+changed ownership of './po/ru.po' from 286 to nobody
+changed ownership of './po/de.gmo' from 286 to nobody
+changed ownership of './po/ja.gmo' from 286 to nobody
+changed ownership of './po/nl.gmo' from 286 to nobody
+changed ownership of './po/ca.po' from 286 to nobody
+changed ownership of './po/sk.po' from 286 to nobody
+changed ownership of './po/pt_BR.po' from 286 to nobody
+changed ownership of './po/README' from 286 to nobody
+changed ownership of './po/tr.gmo' from 286 to nobody
+changed ownership of './po/pt_BR.gmo' from 286 to nobody
+changed ownership of './po/ja.po' from 286 to nobody
+changed ownership of './po/cs.gmo' from 286 to nobody
+changed ownership of './po/bg.po' from 286 to nobody
+changed ownership of './po/Rules-quot' from 286 to nobody
+changed ownership of './po/gl.po' from 286 to nobody
+changed ownership of './po/zh_CN.po' from 286 to nobody
+changed ownership of './po/de.po' from 286 to nobody
+changed ownership of './po/it.po' from 286 to nobody
+changed ownership of './po/eo.gmo' from 286 to nobody
+changed ownership of './po/Makefile' from root to nobody
+changed ownership of './po/fi.po' from 286 to nobody
+changed ownership of './po/id.po' from 286 to nobody
+changed ownership of './po/ga.gmo' from 286 to nobody
+changed ownership of './po/hu.po' from 286 to nobody
+changed ownership of './po/bash.pot' from 286 to nobody
+changed ownership of './po/el.po' from 286 to nobody
+changed ownership of './po/ro.gmo' from 286 to nobody
+changed ownership of './po/vi.po' from 286 to nobody
+changed ownership of './po/el.gmo' from 286 to nobody
+changed ownership of './po/POTFILES.in' from 286 to nobody
+changed ownership of './po/it.gmo' from 286 to nobody
+changed ownership of './po/hu.gmo' from 286 to nobody
+changed ownership of './po/ru.gmo' from 286 to nobody
+changed ownership of './po/sv.gmo' from 286 to nobody
+changed ownership of './po/remove-potcdate.sin' from 286 to nobody
+changed ownership of './po' from 286 to nobody
+changed ownership of './siglist.h' from 286 to nobody
+changed ownership of './make_cmd.h' from 286 to nobody
+changed ownership of './bashansi.h' from 286 to nobody
+changed ownership of './stringlib.c' from 286 to nobody
+changed ownership of './dispose_cmd.o' from root to nobody
+changed ownership of './.made' from root to nobody
+changed ownership of './error.h' from 286 to nobody
+changed ownership of './NEWS' from 286 to nobody
+changed ownership of './configure' from 286 to nobody
+changed ownership of './dispose_cmd.c' from 286 to nobody
+changed ownership of './shell.h' from 286 to nobody
+changed ownership of './config.h' from root to nobody
+changed ownership of './y.tab.h' from 286 to nobody
+changed ownership of './bashjmp.h' from 286 to nobody
+changed ownership of './sig.o' from root to nobody
+changed ownership of './copy_cmd.c' from 286 to nobody
+changed ownership of './nojobs.c' from 286 to nobody
+changed ownership of './sig.c' from 286 to nobody
+changed ownership of './version.o' from root to nobody
+changed ownership of './buildversion.o' from root to nobody
+changed ownership of './bracecomp.c' from 286 to nobody
+changed ownership of './assoc.o' from root to nobody
+changed ownership of './error.c' from 286 to nobody
+changed ownership of './trap.o' from root to nobody
+changed ownership of './assoc.h' from 286 to nobody
+changed ownership of './jobs.c' from 286 to nobody
+changed ownership of './general.c' from 286 to nobody
+changed ownership of './parser-built' from 286 to nobody
+changed ownership of './AUTHORS' from 286 to nobody
+changed ownership of './assoc.c' from 286 to nobody
+changed ownership of './y.tab.o' from root to nobody
+changed ownership of './config-top.h' from 286 to nobody
+changed ownership of './ABOUT-NLS' from 286 to nobody
+changed ownership of './version.c' from 286 to nobody
+changed ownership of './y.tab.c' from 286 to nobody
+changed ownership of './tests/array4.sub' from 286 to nobody
+changed ownership of './tests/comsub-eof4.sub' from 286 to nobody
+changed ownership of './tests/arith5.sub' from 286 to nobody
+changed ownership of './tests/rsh.tests' from 286 to nobody
+changed ownership of './tests/comsub.tests' from 286 to nobody
+changed ownership of './tests/nameref.tests' from 286 to nobody
+changed ownership of './tests/array-at-star' from 286 to nobody
+changed ownership of './tests/comsub1.sub' from 286 to nobody
+changed ownership of './tests/dollar-at-star' from 286 to nobody
+changed ownership of './tests/nquote4.right' from 286 to nobody
+changed ownership of './tests/assoc2.sub' from 286 to nobody
+changed ownership of './tests/exec8.sub' from 286 to nobody
+changed ownership of './tests/varenv.right' from 286 to nobody
+changed ownership of './tests/trap4.sub' from 286 to nobody
+changed ownership of './tests/COPYRIGHT' from 286 to nobody
+changed ownership of './tests/varenv1.sub' from 286 to nobody
+changed ownership of './tests/run-ifs' from 286 to nobody
+changed ownership of './tests/redir7.sub' from 286 to nobody
+changed ownership of './tests/run-history' from 286 to nobody
+changed ownership of './tests/cond-regexp2.sub' from 286 to nobody
+changed ownership of './tests/run-array2' from 286 to nobody
+changed ownership of './tests/new-exp3.sub' from 286 to nobody
+changed ownership of './tests/nquote3.right' from 286 to nobody
+changed ownership of './tests/run-read' from 286 to nobody
+changed ownership of './tests/run-heredoc' from 286 to nobody
+changed ownership of './tests/tilde2.right' from 286 to nobody
+changed ownership of './tests/posixpat.right' from 286 to nobody
+changed ownership of './tests/redir8.sub' from 286 to nobody
+changed ownership of './tests/array9.sub' from 286 to nobody
+changed ownership of './tests/unicode2.sub' from 286 to nobody
+changed ownership of './tests/mapfile1.sub' from 286 to nobody
+changed ownership of './tests/comsub-posix.right' from 286 to nobody
+changed ownership of './tests/exp1.sub' from 286 to nobody
+changed ownership of './tests/set-x1.sub' from 286 to nobody
+changed ownership of './tests/arith.tests' from 286 to nobody
+changed ownership of './tests/dstack.tests' from 286 to nobody
+changed ownership of './tests/tilde2.tests' from 286 to nobody
+changed ownership of './tests/strip.right' from 286 to nobody
+changed ownership of './tests/array1.sub' from 286 to nobody
+changed ownership of './tests/read.right' from 286 to nobody
+changed ownership of './tests/redir.tests' from 286 to nobody
+changed ownership of './tests/histexp.right' from 286 to nobody
+changed ownership of './tests/run-redir' from 286 to nobody
+changed ownership of './tests/printf1.sub' from 286 to nobody
+changed ownership of './tests/trap3.sub' from 286 to nobody
+changed ownership of './tests/dollar-at-star1.sub' from 286 to nobody
+changed ownership of './tests/globstar.right' from 286 to nobody
+changed ownership of './tests/set-e2.sub' from 286 to nobody
+changed ownership of './tests/cond.tests' from 286 to nobody
+changed ownership of './tests/builtins1.sub' from 286 to nobody
+changed ownership of './tests/type4.sub' from 286 to nobody
+changed ownership of './tests/casemod.tests' from 286 to nobody
+changed ownership of './tests/varenv4.sub' from 286 to nobody
+changed ownership of './tests/run-glob-test' from 286 to nobody
+changed ownership of './tests/nquote.tests' from 286 to nobody
+changed ownership of './tests/dollar-star6.sub' from 286 to nobody
+changed ownership of './tests/test.right' from 286 to nobody
+changed ownership of './tests/dbg-support2.tests' from 286 to nobody
+changed ownership of './tests/printf2.sub' from 286 to nobody
+changed ownership of './tests/run-builtins' from 286 to nobody
+changed ownership of './tests/heredoc.tests' from 286 to nobody
+changed ownership of './tests/alias.right' from 286 to nobody
+changed ownership of './tests/comsub-eof.tests' from 286 to nobody
+changed ownership of './tests/vredir6.sub' from 286 to nobody
+changed ownership of './tests/rsh.right' from 286 to nobody
+changed ownership of './tests/getopts7.sub' from 286 to nobody
+changed ownership of './tests/run-extglob3' from 286 to nobody
+changed ownership of './tests/history1.sub' from 286 to nobody
+changed ownership of './tests/run-posixexp2' from 286 to nobody
+changed ownership of './tests/cond-regexp3.sub' from 286 to nobody
+changed ownership of './tests/set-x.tests' from 286 to nobody
+changed ownership of './tests/assoc7.sub' from 286 to nobody
+changed ownership of './tests/dollar-at1.sub' from 286 to nobody
+changed ownership of './tests/invert.tests' from 286 to nobody
+changed ownership of './tests/array6.sub' from 286 to nobody
+changed ownership of './tests/heredoc1.sub' from 286 to nobody
+changed ownership of './tests/assoc6.sub' from 286 to nobody
+changed ownership of './tests/run-printf' from 286 to nobody
+changed ownership of './tests/run-lastpipe' from 286 to nobody
+changed ownership of './tests/trap1.sub' from 286 to nobody
+changed ownership of './tests/input-line.sub' from 286 to nobody
+changed ownership of './tests/run-comsub-posix' from 286 to nobody
+changed ownership of './tests/appendop.tests' from 286 to nobody
+changed ownership of './tests/dollar-star5.sub' from 286 to nobody
+changed ownership of './tests/jobs.tests' from 286 to nobody
+changed ownership of './tests/run-jobs' from 286 to nobody
+changed ownership of './tests/ifs.tests' from 286 to nobody
+changed ownership of './tests/dollar-star7.sub' from 286 to nobody
+changed ownership of './tests/nameref1.sub' from 286 to nobody
+changed ownership of './tests/exec9.sub' from 286 to nobody
+changed ownership of './tests/type.right' from 286 to nobody
+changed ownership of './tests/run-cond' from 286 to nobody
+changed ownership of './tests/cond.right' from 286 to nobody
+changed ownership of './tests/array14.sub' from 286 to nobody
+changed ownership of './tests/dollar-star2.sub' from 286 to nobody
+changed ownership of './tests/comsub-posix3.sub' from 286 to nobody
+changed ownership of './tests/arith3.sub' from 286 to nobody
+changed ownership of './tests/exec3.sub' from 286 to nobody
+changed ownership of './tests/errors.tests' from 286 to nobody
+changed ownership of './tests/posix2.right' from 286 to nobody
+changed ownership of './tests/dbg-support.tests' from 286 to nobody
+changed ownership of './tests/appendop1.sub' from 286 to nobody
+changed ownership of './tests/dollar-at6.sub' from 286 to nobody
+changed ownership of './tests/redir10.sub' from 286 to nobody
+changed ownership of './tests/new-exp4.sub' from 286 to nobody
+changed ownership of './tests/herestr.right' from 286 to nobody
+changed ownership of './tests/run-braces' from 286 to nobody
+changed ownership of './tests/lastpipe.tests' from 286 to nobody
+changed ownership of './tests/exp.tests' from 286 to nobody
+changed ownership of './tests/run-tilde2' from 286 to nobody
+changed ownership of './tests/dollar-star3.sub' from 286 to nobody
+changed ownership of './tests/comsub-eof1.sub' from 286 to nobody
+changed ownership of './tests/source2.sub' from 286 to nobody
+changed ownership of './tests/run-nquote4' from 286 to nobody
+changed ownership of './tests/coproc.right' from 286 to nobody
+changed ownership of './tests/jobs2.sub' from 286 to nobody
+changed ownership of './tests/getopts1.sub' from 286 to nobody
+changed ownership of './tests/vredir5.sub' from 286 to nobody
+changed ownership of './tests/getopts.right' from 286 to nobody
+changed ownership of './tests/run-coproc' from 286 to nobody
+changed ownership of './tests/func.right' from 286 to nobody
+changed ownership of './tests/run-invert' from 286 to nobody
+changed ownership of './tests/run-appendop' from 286 to nobody
+changed ownership of './tests/arith6.sub' from 286 to nobody
+changed ownership of './tests/redir4.in1' from 286 to nobody
+changed ownership of './tests/dollar.right' from 286 to nobody
+changed ownership of './tests/run-dirstack' from 286 to nobody
+changed ownership of './tests/dollar-at5.sub' from 286 to nobody
+changed ownership of './tests/run-ifs-posix' from 286 to nobody
+changed ownership of './tests/nameref4.sub' from 286 to nobody
+changed ownership of './tests/tilde.right' from 286 to nobody
+changed ownership of './tests/new-exp8.sub' from 286 to nobody
+changed ownership of './tests/nameref5.sub' from 286 to nobody
+changed ownership of './tests/arith-for.tests' from 286 to nobody
+changed ownership of './tests/jobs5.sub' from 286 to nobody
+changed ownership of './tests/array.right' from 286 to nobody
+changed ownership of './tests/run-varenv' from 286 to nobody
+changed ownership of './tests/exp4.sub' from 286 to nobody
+changed ownership of './tests/new-exp9.sub' from 286 to nobody
+changed ownership of './tests/vredir.tests' from 286 to nobody
+changed ownership of './tests/run-all' from 286 to nobody
+changed ownership of './tests/type1.sub' from 286 to nobody
+changed ownership of './tests/run-dollars' from 286 to nobody
+changed ownership of './tests/extglob3.tests' from 286 to nobody
+changed ownership of './tests/dollar-star1.sub' from 286 to nobody
+changed ownership of './tests/read6.sub' from 286 to nobody
+changed ownership of './tests/input.right' from 286 to nobody
+changed ownership of './tests/coproc.tests' from 286 to nobody
+changed ownership of './tests/herestr.tests' from 286 to nobody
+changed ownership of './tests/printf.tests' from 286 to nobody
+changed ownership of './tests/func1.sub' from 286 to nobody
+changed ownership of './tests/source7.sub' from 286 to nobody
+changed ownership of './tests/trap2.sub' from 286 to nobody
+changed ownership of './tests/run-getopts' from 286 to nobody
+changed ownership of './tests/run-posixexp' from 286 to nobody
+changed ownership of './tests/extglob2.tests' from 286 to nobody
+changed ownership of './tests/run-type' from 286 to nobody
+changed ownership of './tests/run-mapfile' from 286 to nobody
+changed ownership of './tests/comsub.right' from 286 to nobody
+changed ownership of './tests/run-rsh' from 286 to nobody
+changed ownership of './tests/iquote.tests' from 286 to nobody
+changed ownership of './tests/casemod.right' from 286 to nobody
+changed ownership of './tests/arith.right' from 286 to nobody
+changed ownership of './tests/run-cprint' from 286 to nobody
+changed ownership of './tests/alias.tests' from 286 to nobody
+changed ownership of './tests/varenv3.sub' from 286 to nobody
+changed ownership of './tests/run-shopt' from 286 to nobody
+changed ownership of './tests/new-exp5.sub' from 286 to nobody
+changed ownership of './tests/getopts5.sub' from 286 to nobody
+changed ownership of './tests/set-e3.sub' from 286 to nobody
+changed ownership of './tests/type3.sub' from 286 to nobody
+changed ownership of './tests/run-globstar' from 286 to nobody
+changed ownership of './tests/intl1.sub' from 286 to nobody
+changed ownership of './tests/dbg-support3.sub' from 286 to nobody
+changed ownership of './tests/globstar2.sub' from 286 to nobody
+changed ownership of './tests/redir3.sub' from 286 to nobody
+changed ownership of './tests/extglob3.right' from 286 to nobody
+changed ownership of './tests/history.tests' from 286 to nobody
+changed ownership of './tests/func2.sub' from 286 to nobody
+changed ownership of './tests/source4.sub' from 286 to nobody
+changed ownership of './tests/array12.sub' from 286 to nobody
+changed ownership of './tests/more-exp.right' from 286 to nobody
+changed ownership of './tests/run-tilde' from 286 to nobody
+changed ownership of './tests/comsub-eof0.sub' from 286 to nobody
+changed ownership of './tests/intl.right' from 286 to nobody
+changed ownership of './tests/assoc.right' from 286 to nobody
+changed ownership of './tests/posixpat.tests' from 286 to nobody
+changed ownership of './tests/builtins2.sub' from 286 to nobody
+changed ownership of './tests/run-iquote' from 286 to nobody
+changed ownership of './tests/nameref.right' from 286 to nobody
+changed ownership of './tests/nquote2.sub' from 286 to nobody
+changed ownership of './tests/array16.sub' from 286 to nobody
+changed ownership of './tests/vredir4.sub' from 286 to nobody
+changed ownership of './tests/arith1.sub' from 286 to nobody
+changed ownership of './tests/set-x.right' from 286 to nobody
+changed ownership of './tests/getopts.tests' from 286 to nobody
+changed ownership of './tests/cprint.tests' from 286 to nobody
+changed ownership of './tests/builtins4.sub' from 286 to nobody
+changed ownership of './tests/redir.right' from 286 to nobody
+changed ownership of './tests/globstar1.sub' from 286 to nobody
+changed ownership of './tests/new-exp.tests' from 286 to nobody
+changed ownership of './tests/execscript' from 286 to nobody
+changed ownership of './tests/ifs-posix.right' from 286 to nobody
+changed ownership of './tests/run-more-exp' from 286 to nobody
+changed ownership of './tests/run-comsub' from 286 to nobody
+changed ownership of './tests/posix2.tests' from 286 to nobody
+changed ownership of './tests/nquote1.tests' from 286 to nobody
+changed ownership of './tests/nquote.right' from 286 to nobody
+changed ownership of './tests/exec5.sub' from 286 to nobody
+changed ownership of './tests/arith-for.right' from 286 to nobody
+changed ownership of './tests/appendop2.sub' from 286 to nobody
+changed ownership of './tests/nquote5.tests' from 286 to nobody
+changed ownership of './tests/new-exp6.sub' from 286 to nobody
+changed ownership of './tests/printf4.sub' from 286 to nobody
+changed ownership of './tests/set-e.tests' from 286 to nobody
+changed ownership of './tests/dollar-at3.sub' from 286 to nobody
+changed ownership of './tests/run-extglob2' from 286 to nobody
+changed ownership of './tests/exec.right' from 286 to nobody
+changed ownership of './tests/array7.sub' from 286 to nobody
+changed ownership of './tests/quote.tests' from 286 to nobody
+changed ownership of './tests/new-exp.right' from 286 to nobody
+changed ownership of './tests/run-nameref' from 286 to nobody
+changed ownership of './tests/iquote1.sub' from 286 to nobody
+changed ownership of './tests/errors2.sub' from 286 to nobody
+changed ownership of './tests/mapfile.data' from 286 to nobody
+changed ownership of './tests/comsub-posix2.sub' from 286 to nobody
+changed ownership of './tests/prec.right' from 286 to nobody
+changed ownership of './tests/nquote4.tests' from 286 to nobody
+changed ownership of './tests/extglob1a.sub' from 286 to nobody
+changed ownership of './tests/comsub-posix.tests' from 286 to nobody
+changed ownership of './tests/array10.sub' from 286 to nobody
+changed ownership of './tests/posixexp2.right' from 286 to nobody
+changed ownership of './tests/unicode3.sub' from 286 to nobody
+changed ownership of './tests/getopts4.sub' from 286 to nobody
+changed ownership of './tests/shopt.right' from 286 to nobody
+changed ownership of './tests/run-minimal' from 286 to nobody
+changed ownership of './tests/redir4.sub' from 286 to nobody
+changed ownership of './tests/version.mini' from 286 to nobody
+changed ownership of './tests/heredoc2.sub' from 286 to nobody
+changed ownership of './tests/func3.sub' from 286 to nobody
+changed ownership of './tests/iquote.right' from 286 to nobody
+changed ownership of './tests/posixexp1.sub' from 286 to nobody
+changed ownership of './tests/redir3.in2' from 286 to nobody
+changed ownership of './tests/extglob1.sub' from 286 to nobody
+changed ownership of './tests/vredir2.sub' from 286 to nobody
+changed ownership of './tests/nameref8.sub' from 286 to nobody
+changed ownership of './tests/source3.sub' from 286 to nobody
+changed ownership of './tests/func4.sub' from 286 to nobody
+changed ownership of './tests/nquote1.right' from 286 to nobody
+changed ownership of './tests/unicode1.sub' from 286 to nobody
+changed ownership of './tests/history2.sub' from 286 to nobody
+changed ownership of './tests/case.right' from 286 to nobody
+changed ownership of './tests/braces.tests' from 286 to nobody
+changed ownership of './tests/array11.sub' from 286 to nobody
+changed ownership of './tests/input-line.sh' from 286 to nobody
+changed ownership of './tests/run-dbg-support' from 286 to nobody
+changed ownership of './tests/builtins.tests' from 286 to nobody
+changed ownership of './tests/set-e.right' from 286 to nobody
+changed ownership of './tests/jobs3.sub' from 286 to nobody
+changed ownership of './tests/exp2.sub' from 286 to nobody
+changed ownership of './tests/run-input-test' from 286 to nobody
+changed ownership of './tests/intl.tests' from 286 to nobody
+changed ownership of './tests/more-exp.tests' from 286 to nobody
+changed ownership of './tests/run-trap' from 286 to nobody
+changed ownership of './tests/rhs-exp.tests' from 286 to nobody
+changed ownership of './tests/run-posixpipe' from 286 to nobody
+changed ownership of './tests/nameref3.sub' from 286 to nobody
+changed ownership of './tests/misc/run-r2.sh' from 286 to nobody
+changed ownership of './tests/misc/dev-tcp.tests' from 286 to nobody
+changed ownership of './tests/misc/sigint-2.sh' from 286 to nobody
+changed ownership of './tests/misc/test-minus-e.2' from 286 to nobody
+changed ownership of './tests/misc/redir-t2.sh' from 286 to nobody
+changed ownership of './tests/misc/test-minus-e.1' from 286 to nobody
+changed ownership of './tests/misc/sigint-3.sh' from 286 to nobody
+changed ownership of './tests/misc/perf-script' from 286 to nobody
+changed ownership of './tests/misc/sigint-1.sh' from 286 to nobody
+changed ownership of './tests/misc/perftest' from 286 to nobody
+changed ownership of './tests/misc/wait-bg.tests' from 286 to nobody
+changed ownership of './tests/misc/read-nchars.tests' from 286 to nobody
+changed ownership of './tests/misc/sigint-4.sh' from 286 to nobody
+changed ownership of './tests/misc' from 286 to nobody
+changed ownership of './tests/ifs.right' from 286 to nobody
+changed ownership of './tests/exp6.sub' from 286 to nobody
+changed ownership of './tests/heredoc.right' from 286 to nobody
+changed ownership of './tests/mapfile.right' from 286 to nobody
+changed ownership of './tests/run-errors' from 286 to nobody
+changed ownership of './tests/nquote2.tests' from 286 to nobody
+changed ownership of './tests/jobs4.sub' from 286 to nobody
+changed ownership of './tests/version' from 286 to nobody
+changed ownership of './tests/history.right' from 286 to nobody
+changed ownership of './tests/trap.tests' from 286 to nobody
+changed ownership of './tests/run-quote' from 286 to nobody
+changed ownership of './tests/glob.right' from 286 to nobody
+changed ownership of './tests/builtins.right' from 286 to nobody
+changed ownership of './tests/run-nquote' from 286 to nobody
+changed ownership of './tests/invert.right' from 286 to nobody
+changed ownership of './tests/glob.tests' from 286 to nobody
+changed ownership of './tests/appendop.right' from 286 to nobody
+changed ownership of './tests/exp3.sub' from 286 to nobody
+changed ownership of './tests/run-extglob' from 286 to nobody
+changed ownership of './tests/assoc1.sub' from 286 to nobody
+changed ownership of './tests/getopts6.sub' from 286 to nobody
+changed ownership of './tests/run-arith' from 286 to nobody
+changed ownership of './tests/arith2.sub' from 286 to nobody
+changed ownership of './tests/assoc.tests' from 286 to nobody
+changed ownership of './tests/printf3.sub' from 286 to nobody
+changed ownership of './tests/run-nquote3' from 286 to nobody
+changed ownership of './tests/run-exp-tests' from 286 to nobody
+changed ownership of './tests/heredoc3.sub' from 286 to nobody
+changed ownership of './tests/redir5.sub' from 286 to nobody
+changed ownership of './tests/lastpipe1.sub' from 286 to nobody
+changed ownership of './tests/strip.tests' from 286 to nobody
+changed ownership of './tests/run-rhs-exp' from 286 to nobody
+changed ownership of './tests/exec4.sub' from 286 to nobody
+changed ownership of './tests/ifs-posix.tests' from 286 to nobody
+changed ownership of './tests/vredir3.sub' from 286 to nobody
+changed ownership of './tests/run-precedence' from 286 to nobody
+changed ownership of './tests/func.tests' from 286 to nobody
+changed ownership of './tests/run-strip' from 286 to nobody
+changed ownership of './tests/comsub-eof3.sub' from 286 to nobody
+changed ownership of './tests/run-comsub-eof' from 286 to nobody
+changed ownership of './tests/rhs-exp.right' from 286 to nobody
+changed ownership of './tests/source6.sub' from 286 to nobody
+changed ownership of './tests/errors1.sub' from 286 to nobody
+changed ownership of './tests/varenv2.sub' from 286 to nobody
+changed ownership of './tests/builtins3.sub' from 286 to nobody
+changed ownership of './tests/read5.sub' from 286 to nobody
+changed ownership of './tests/exp.right' from 286 to nobody
+changed ownership of './tests/alias1.sub' from 286 to nobody
+changed ownership of './tests/run-alias' from 286 to nobody
+changed ownership of './tests/nameref6.sub' from 286 to nobody
+changed ownership of './tests/cond-regexp1.sub' from 286 to nobody
+changed ownership of './tests/run-func' from 286 to nobody
+changed ownership of './tests/jobs1.sub' from 286 to nobody
+changed ownership of './tests/shopt.tests' from 286 to nobody
+changed ownership of './tests/redir3.in1' from 286 to nobody
+changed ownership of './tests/trap5.sub' from 286 to nobody
+changed ownership of './tests/run-casemod' from 286 to nobody
+changed ownership of './tests/precedence' from 286 to nobody
+changed ownership of './tests/redir1.sub' from 286 to nobody
+changed ownership of './tests/new-exp2.sub' from 286 to nobody
+changed ownership of './tests/run-set-x' from 286 to nobody
+changed ownership of './tests/dstack2.right' from 286 to nobody
+changed ownership of './tests/run-test' from 286 to nobody
+changed ownership of './tests/read2.sub' from 286 to nobody
+changed ownership of './tests/set-e3a.sub' from 286 to nobody
+changed ownership of './tests/dbg-support.right' from 286 to nobody
+changed ownership of './tests/read3.sub' from 286 to nobody
+changed ownership of './tests/tilde.tests' from 286 to nobody
+changed ownership of './tests/dollar-star4.sub' from 286 to nobody
+changed ownership of './tests/extglob2.right' from 286 to nobody
+changed ownership of './tests/run-nquote5' from 286 to nobody
+changed ownership of './tests/run-case' from 286 to nobody
+changed ownership of './tests/globstar.tests' from 286 to nobody
+changed ownership of './tests/glob1.sub' from 286 to nobody
+changed ownership of './tests/source1.sub' from 286 to nobody
+changed ownership of './tests/varenv5.sub' from 286 to nobody
+changed ownership of './tests/posixpipe.tests' from 286 to nobody
+changed ownership of './tests/README' from 286 to nobody
+changed ownership of './tests/getopts3.sub' from 286 to nobody
+changed ownership of './tests/printf.right' from 286 to nobody
+changed ownership of './tests/dstack2.tests' from 286 to nobody
+changed ownership of './tests/quote1.sub' from 286 to nobody
+changed ownership of './tests/varenv.sh' from 286 to nobody
+changed ownership of './tests/nquote1.sub' from 286 to nobody
+changed ownership of './tests/array3.sub' from 286 to nobody
+changed ownership of './tests/comsub-eof5.sub' from 286 to nobody
+changed ownership of './tests/jobs.right' from 286 to nobody
+changed ownership of './tests/run-histexpand' from 286 to nobody
+changed ownership of './tests/source5.sub' from 286 to nobody
+changed ownership of './tests/new-exp1.sub' from 286 to nobody
+changed ownership of './tests/array2.sub' from 286 to nobody
+changed ownership of './tests/posixexp.right' from 286 to nobody
+changed ownership of './tests/redir2.sub' from 286 to nobody
+changed ownership of './tests/array8.sub' from 286 to nobody
+changed ownership of './tests/trap2a.sub' from 286 to nobody
+changed ownership of './tests/run-posixpat' from 286 to nobody
+changed ownership of './tests/extglob.tests' from 286 to nobody
+changed ownership of './tests/array15.sub' from 286 to nobody
+changed ownership of './tests/run-vredir' from 286 to nobody
+changed ownership of './tests/trap.right' from 286 to nobody
+changed ownership of './tests/run-new-exp' from 286 to nobody
+changed ownership of './tests/array2.right' from 286 to nobody
+changed ownership of './tests/array5.sub' from 286 to nobody
+changed ownership of './tests/new-exp7.sub' from 286 to nobody
+changed ownership of './tests/read4.sub' from 286 to nobody
+changed ownership of './tests/nameref2.sub' from 286 to nobody
+changed ownership of './tests/run-array' from 286 to nobody
+changed ownership of './tests/rhs-exp1.sub' from 286 to nobody
+changed ownership of './tests/errors.right' from 286 to nobody
+changed ownership of './tests/redir6.sub' from 286 to nobody
+changed ownership of './tests/array13.sub' from 286 to nobody
+changed ownership of './tests/comsub-eof.right' from 286 to nobody
+changed ownership of './tests/dbg-support2.right' from 286 to nobody
+changed ownership of './tests/run-arith-for' from 286 to nobody
+changed ownership of './tests/run-herestr' from 286 to nobody
+changed ownership of './tests/run-nquote1' from 286 to nobody
+changed ownership of './tests/run-posix2' from 286 to nobody
+changed ownership of './tests/type2.sub' from 286 to nobody
+changed ownership of './tests/comsub-eof2.sub' from 286 to nobody
+changed ownership of './tests/mapfile.tests' from 286 to nobody
+changed ownership of './tests/test.tests' from 286 to nobody
+changed ownership of './tests/intl2.sub' from 286 to nobody
+changed ownership of './tests/run-set-e' from 286 to nobody
+changed ownership of './tests/braces.right' from 286 to nobody
+changed ownership of './tests/dollar-at4.sub' from 286 to nobody
+changed ownership of './tests/case.tests' from 286 to nobody
+changed ownership of './tests/history.list' from 286 to nobody
+changed ownership of './tests/exp5.sub' from 286 to nobody
+changed ownership of './tests/posixexp.tests' from 286 to nobody
+changed ownership of './tests/exec7.sub' from 286 to nobody
+changed ownership of './tests/exec6.sub' from 286 to nobody
+changed ownership of './tests/exec1.sub' from 286 to nobody
+changed ownership of './tests/nquote2.right' from 286 to nobody
+changed ownership of './tests/dbg-support.sub' from 286 to nobody
+changed ownership of './tests/lastpipe.right' from 286 to nobody
+changed ownership of './tests/run-intl' from 286 to nobody
+changed ownership of './tests/nameref7.sub' from 286 to nobody
+changed ownership of './tests/run-assoc' from 286 to nobody
+changed ownership of './tests/case1.sub' from 286 to nobody
+changed ownership of './tests/posixexp2.tests' from 286 to nobody
+changed ownership of './tests/run-dbg-support2' from 286 to nobody
+changed ownership of './tests/redir9.sub' from 286 to nobody
+changed ownership of './tests/assoc3.sub' from 286 to nobody
+changed ownership of './tests/errors3.sub' from 286 to nobody
+changed ownership of './tests/extglob.right' from 286 to nobody
+changed ownership of './tests/run-execscript' from 286 to nobody
+changed ownership of './tests/exec2.sub' from 286 to nobody
+changed ownership of './tests/read1.sub' from 286 to nobody
+changed ownership of './tests/comsub-posix1.sub' from 286 to nobody
+changed ownership of './tests/assoc5.sub' from 286 to nobody
+changed ownership of './tests/posixpipe.right' from 286 to nobody
+changed ownership of './tests/quote.right' from 286 to nobody
+changed ownership of './tests/getopts2.sub' from 286 to nobody
+changed ownership of './tests/vredir.right' from 286 to nobody
+changed ownership of './tests/assoc4.sub' from 286 to nobody
+changed ownership of './tests/type.tests' from 286 to nobody
+changed ownership of './tests/cprint.right' from 286 to nobody
+changed ownership of './tests/run-nquote2' from 286 to nobody
+changed ownership of './tests/dstack.right' from 286 to nobody
+changed ownership of './tests/read.tests' from 286 to nobody
+changed ownership of './tests/posixexp2.sub' from 286 to nobody
+changed ownership of './tests/array.tests' from 286 to nobody
+changed ownership of './tests/nquote3.tests' from 286 to nobody
+changed ownership of './tests/nquote5.right' from 286 to nobody
+changed ownership of './tests/dollar-at2.sub' from 286 to nobody
+changed ownership of './tests/histexp.tests' from 286 to nobody
+changed ownership of './tests/set-e1.sub' from 286 to nobody
+changed ownership of './tests/vredir1.sub' from 286 to nobody
+changed ownership of './tests/varenv6.sub' from 286 to nobody
+changed ownership of './tests/arith4.sub' from 286 to nobody
+changed ownership of './tests' from 286 to nobody
+changed ownership of './mailcheck.c' from 286 to nobody
+changed ownership of './array.c' from 286 to nobody
+changed ownership of './unwind_prot.c' from 286 to nobody
+changed ownership of './general.h' from 286 to nobody
+changed ownership of './bashtypes.h' from 286 to nobody
+changed ownership of './braces.o' from root to nobody
+changed ownership of './signames.h' from root to nobody
+changed ownership of './bashversion' from root to nobody
+changed ownership of './siglist.c' from 286 to nobody
+changed ownership of './pcomplib.c' from 286 to nobody
+changed ownership of './findcmd.o' from root to nobody
+changed ownership of './arrayfunc.c' from 286 to nobody
+changed ownership of './hashlib.c' from 286 to nobody
+changed ownership of './syntax.o' from root to nobody
+changed ownership of './test.o' from root to nobody
+changed ownership of './pcomplete.o' from root to nobody
+changed ownership of './bracecomp.o' from root to nobody
+changed ownership of './mksignames' from root to nobody
+changed ownership of './config-bot.h' from 286 to nobody
+changed ownership of './redir.h' from 286 to nobody
+changed ownership of './trap.h' from 286 to nobody
+changed ownership of './Y2K' from 286 to nobody
+changed ownership of './arrayfunc.h' from 286 to nobody
+changed ownership of './print_cmd.o' from root to nobody
+changed ownership of './stringlib.o' from root to nobody
+changed ownership of './input.c' from 286 to nobody
+changed ownership of './xmalloc.o' from root to nobody
+changed ownership of './buildsignames.o' from root to nobody
+changed ownership of './include/posixtime.h' from 286 to nobody
+changed ownership of './include/shmbutil.h' from 286 to nobody
+changed ownership of './include/posixselect.h' from 286 to nobody
+changed ownership of './include/ocache.h' from 286 to nobody
+changed ownership of './include/chartypes.h' from 286 to nobody
+changed ownership of './include/typemax.h' from 286 to nobody
+changed ownership of './include/posixdir.h' from 286 to nobody
+changed ownership of './include/memalloc.h' from 286 to nobody
+changed ownership of './include/filecntl.h' from 286 to nobody
+changed ownership of './include/stdc.h' from 286 to nobody
+changed ownership of './include/ansi_stdlib.h' from 286 to nobody
+changed ownership of './include/posixjmp.h' from 286 to nobody
+changed ownership of './include/shmbchar.h' from 286 to nobody
+changed ownership of './include/unionwait.h' from 286 to nobody
+changed ownership of './include/posixstat.h' from 286 to nobody
+changed ownership of './include/stat-time.h' from 286 to nobody
+changed ownership of './include/maxpath.h' from 286 to nobody
+changed ownership of './include/posixwait.h' from 286 to nobody
+changed ownership of './include/gettext.h' from 286 to nobody
+changed ownership of './include/systimes.h' from 286 to nobody
+changed ownership of './include/shtty.h' from 286 to nobody
+changed ownership of './include' from 286 to nobody
+changed ownership of './config.log' from root to nobody
+changed ownership of './hashcmd.o' from root to nobody
+changed ownership of './findcmd.h' from 286 to nobody
+changed ownership of './cross-build/x86-beos.cache' from 286 to nobody
+changed ownership of './cross-build/opennt.cache' from 286 to nobody
+changed ownership of './cross-build/cygwin32.cache' from 286 to nobody
+changed ownership of './cross-build' from 286 to nobody
+changed ownership of './alias.c' from 286 to nobody
+changed ownership of './configure.ac' from 286 to nobody
+changed ownership of './POSIX' from 286 to nobody
+changed ownership of './redir.o' from root to nobody
+changed ownership of './array.o' from root to nobody
+changed ownership of './syntax.h' from 286 to nobody
+changed ownership of './xmalloc.c' from 286 to nobody
+changed ownership of './lsignames.h' from root to nobody
+changed ownership of './unwind_prot.h' from 286 to nobody
+changed ownership of './unwind_prot.o' from root to nobody
+changed ownership of './stamp-h' from root to nobody
+changed ownership of './builtins/bashgetopt.o' from root to nobody
+changed ownership of './builtins/let.o' from root to nobody
+changed ownership of './builtins/break.o' from root to nobody
+changed ownership of './builtins/mkbuiltins.o' from root to nobody
+changed ownership of './builtins/getopts.o' from root to nobody
+changed ownership of './builtins/gen-helpfiles.c' from 286 to nobody
+changed ownership of './builtins/exit.def' from 286 to nobody
+changed ownership of './builtins/source.def' from 286 to nobody
+changed ownership of './builtins/alias.o' from root to nobody
+changed ownership of './builtins/shift.o' from root to nobody
+changed ownership of './builtins/fc.def' from 286 to nobody
+changed ownership of './builtins/alias.def' from 286 to nobody
+changed ownership of './builtins/jobs.o' from root to nobody
+changed ownership of './builtins/return.o' from root to nobody
+changed ownership of './builtins/getopt.o' from root to nobody
+changed ownership of './builtins/colon.o' from root to nobody
+changed ownership of './builtins/read.o' from root to nobody
+changed ownership of './builtins/caller.o' from root to nobody
+changed ownership of './builtins/eval.def' from 286 to nobody
+changed ownership of './builtins/suspend.def' from 286 to nobody
+changed ownership of './builtins/bind.o' from root to nobody
+changed ownership of './builtins/builtin.def' from 286 to nobody
+changed ownership of './builtins/shopt.o' from root to nobody
+changed ownership of './builtins/set.o' from root to nobody
+changed ownership of './builtins/complete.o' from root to nobody
+changed ownership of './builtins/type.def' from 286 to nobody
+changed ownership of './builtins/libbuiltins.a' from root to nobody
+changed ownership of './builtins/suspend.o' from root to nobody
+changed ownership of './builtins/history.def' from 286 to nobody
+changed ownership of './builtins/getopt.h' from 286 to nobody
+changed ownership of './builtins/caller.def' from 286 to nobody
+changed ownership of './builtins/shift.def' from 286 to nobody
+changed ownership of './builtins/times.def' from 286 to nobody
+changed ownership of './builtins/exec.def' from 286 to nobody
+changed ownership of './builtins/help.def' from 286 to nobody
+changed ownership of './builtins/evalfile.c' from 286 to nobody
+changed ownership of './builtins/kill.def' from 286 to nobody
+changed ownership of './builtins/trap.o' from root to nobody
+changed ownership of './builtins/bashgetopt.h' from 286 to nobody
+changed ownership of './builtins/echo.def' from 286 to nobody
+changed ownership of './builtins/common.c' from 286 to nobody
+changed ownership of './builtins/declare.o' from root to nobody
+changed ownership of './builtins/builtext.h' from root to nobody
+changed ownership of './builtins/inlib.def' from 286 to nobody
+changed ownership of './builtins/source.o' from root to nobody
+changed ownership of './builtins/hash.def' from 286 to nobody
+changed ownership of './builtins/evalstring.c' from 286 to nobody
+changed ownership of './builtins/ulimit.o' from root to nobody
+changed ownership of './builtins/times.o' from root to nobody
+changed ownership of './builtins/setattr.o' from root to nobody
+changed ownership of './builtins/fc.o' from root to nobody
+changed ownership of './builtins/let.def' from 286 to nobody
+changed ownership of './builtins/psize.c' from 286 to nobody
+changed ownership of './builtins/psize.aux' from root to nobody
+changed ownership of './builtins/command.o' from root to nobody
+changed ownership of './builtins/test.o' from root to nobody
+changed ownership of './builtins/set.def' from 286 to nobody
+changed ownership of './builtins/break.def' from 286 to nobody
+changed ownership of './builtins/hash.o' from root to nobody
+changed ownership of './builtins/bashgetopt.c' from 286 to nobody
+changed ownership of './builtins/colon.def' from 286 to nobody
+changed ownership of './builtins/declare.def' from 286 to nobody
+changed ownership of './builtins/umask.o' from root to nobody
+changed ownership of './builtins/wait.o' from root to nobody
+changed ownership of './builtins/getopt.c' from 286 to nobody
+changed ownership of './builtins/echo.o' from root to nobody
+changed ownership of './builtins/cd.def' from 286 to nobody
+changed ownership of './builtins/pushd.def' from 286 to nobody
+changed ownership of './builtins/mkbuiltins.c' from 286 to nobody
+changed ownership of './builtins/ulimit.def' from 286 to nobody
+changed ownership of './builtins/shopt.def' from 286 to nobody
+changed ownership of './builtins/evalfile.o' from root to nobody
+changed ownership of './builtins/evalstring.o' from root to nobody
+changed ownership of './builtins/enable.o' from root to nobody
+changed ownership of './builtins/help.o' from root to nobody
+changed ownership of './builtins/Makefile.in' from 286 to nobody
+changed ownership of './builtins/trap.def' from 286 to nobody
+changed ownership of './builtins/printf.o' from root to nobody
+changed ownership of './builtins/pushd.o' from root to nobody
+changed ownership of './builtins/psize.sh' from 286 to nobody
+changed ownership of './builtins/kill.o' from root to nobody
+changed ownership of './builtins/common.o' from root to nobody
+changed ownership of './builtins/exec.o' from root to nobody
+changed ownership of './builtins/read.def' from 286 to nobody
+changed ownership of './builtins/wait.def' from 286 to nobody
+changed ownership of './builtins/setattr.def' from 286 to nobody
+changed ownership of './builtins/reserved.def' from 286 to nobody
+changed ownership of './builtins/printf.def' from 286 to nobody
+changed ownership of './builtins/type.o' from root to nobody
+changed ownership of './builtins/enable.def' from 286 to nobody
+changed ownership of './builtins/mapfile.def' from 286 to nobody
+changed ownership of './builtins/fg_bg.def' from 286 to nobody
+changed ownership of './builtins/builtin.o' from root to nobody
+changed ownership of './builtins/cd.o' from root to nobody
+changed ownership of './builtins/bind.def' from 286 to nobody
+changed ownership of './builtins/complete.def' from 286 to nobody
+changed ownership of './builtins/builtins.c' from root to nobody
+changed ownership of './builtins/umask.def' from 286 to nobody
+changed ownership of './builtins/getopts.def' from 286 to nobody
+changed ownership of './builtins/mkbuiltins' from root to nobody
+changed ownership of './builtins/eval.o' from root to nobody
+changed ownership of './builtins/mapfile.o' from root to nobody
+changed ownership of './builtins/test.def' from 286 to nobody
+changed ownership of './builtins/Makefile' from root to nobody
+changed ownership of './builtins/exit.o' from root to nobody
+changed ownership of './builtins/fg_bg.o' from root to nobody
+changed ownership of './builtins/pipesize.h' from root to nobody
+changed ownership of './builtins/history.o' from root to nobody
+changed ownership of './builtins/builtins.o' from root to nobody
+changed ownership of './builtins/jobs.def' from 286 to nobody
+changed ownership of './builtins/return.def' from 286 to nobody
+changed ownership of './builtins/common.h' from 286 to nobody
+changed ownership of './builtins/command.def' from 286 to nobody
+changed ownership of './builtins' from 286 to nobody
+changed ownership of './bashline.c' from 286 to nobody
+changed ownership of './alias.h' from 286 to nobody
+changed ownership of './parse.y' from 286 to nobody
+changed ownership of './.build' from root to nobody
+changed ownership of './findcmd.c' from 286 to nobody
+changed ownership of './bashhist.h' from 286 to nobody
+changed ownership of './Makefile.in' from 286 to nobody
+changed ownership of './pathexp.h' from 286 to nobody
+changed ownership of './bashline.h' from 286 to nobody
+changed ownership of './ChangeLog' from 286 to nobody
+changed ownership of './COPYING' from 286 to nobody
+changed ownership of './braces.c' from 286 to nobody
+changed ownership of './mksyntax' from root to nobody
+changed ownership of './array.h' from 286 to nobody
+changed ownership of './m4/stat-time.m4' from 286 to nobody
+changed ownership of './m4/timespec.m4' from 286 to nobody
+changed ownership of './m4' from 286 to nobody
+changed ownership of './xmalloc.h' from 286 to nobody
+changed ownership of './locale.o' from root to nobody
+changed ownership of './execute_cmd.o' from root to nobody
+changed ownership of './sig.h' from 286 to nobody
+changed ownership of './list.o' from root to nobody
+changed ownership of './command.h' from 286 to nobody
+changed ownership of './input.h' from 286 to nobody
+changed ownership of './README' from 286 to nobody
+changed ownership of './arrayfunc.o' from root to nobody
+changed ownership of './pcomplete.h' from 286 to nobody
+changed ownership of './execute_cmd.c' from 286 to nobody
+changed ownership of './subst.c' from 286 to nobody
+changed ownership of './subst.h' from 286 to nobody
+changed ownership of './mailcheck.h' from 286 to nobody
+changed ownership of './expr.o' from root to nobody
+changed ownership of './quit.h' from 286 to nobody
+changed ownership of './pcomplib.o' from root to nobody
+changed ownership of './flags.o' from root to nobody
+changed ownership of './variables.h' from 286 to nobody
+changed ownership of './mailcheck.o' from root to nobody
+changed ownership of './print_cmd.c' from 286 to nobody
+changed ownership of './bashbug' from root to nobody
+changed ownership of './version.h' from root to nobody
+changed ownership of './patchlevel.h~' from 286 to nobody
+changed ownership of './lib/sh/strchrnul.c' from 286 to nobody
+changed ownership of './lib/sh/shmatch.c' from 286 to nobody
+changed ownership of './lib/sh/strerror.c' from 286 to nobody
+changed ownership of './lib/sh/zwrite.o' from root to nobody
+changed ownership of './lib/sh/clktck.c' from 286 to nobody
+changed ownership of './lib/sh/input_avail.o' from root to nobody
+changed ownership of './lib/sh/fpurge.c' from 286 to nobody
+changed ownership of './lib/sh/mbschr.c' from 286 to nobody
+changed ownership of './lib/sh/input_avail.c' from 286 to nobody
+changed ownership of './lib/sh/winsize.o' from root to nobody
+changed ownership of './lib/sh/fmtumax.c' from 286 to nobody
+changed ownership of './lib/sh/strtrans.o' from root to nobody
+changed ownership of './lib/sh/zmapfd.o' from root to nobody
+changed ownership of './lib/sh/ufuncs.c' from 286 to nobody
+changed ownership of './lib/sh/times.c' from 286 to nobody
+changed ownership of './lib/sh/stringlist.o' from root to nobody
+changed ownership of './lib/sh/shtty.o' from root to nobody
+changed ownership of './lib/sh/mbschr.o' from root to nobody
+changed ownership of './lib/sh/pathphys.c' from 286 to nobody
+changed ownership of './lib/sh/shtty.c' from 286 to nobody
+changed ownership of './lib/sh/strtoll.c' from 286 to nobody
+changed ownership of './lib/sh/itos.o' from root to nobody
+changed ownership of './lib/sh/fmtullong.c' from 286 to nobody
+changed ownership of './lib/sh/netopen.o' from root to nobody
+changed ownership of './lib/sh/zcatfd.c' from 286 to nobody
+changed ownership of './lib/sh/netconn.c' from 286 to nobody
+changed ownership of './lib/sh/makepath.c' from 286 to nobody
+changed ownership of './lib/sh/oslib.o' from root to nobody
+changed ownership of './lib/sh/inet_aton.c' from 286 to nobody
+changed ownership of './lib/sh/clock.o' from root to nobody
+changed ownership of './lib/sh/getcwd.c' from 286 to nobody
+changed ownership of './lib/sh/tmpfile.c' from 286 to nobody
+changed ownership of './lib/sh/strpbrk.c' from 286 to nobody
+changed ownership of './lib/sh/fmtullong.o' from root to nobody
+changed ownership of './lib/sh/netconn.o' from root to nobody
+changed ownership of './lib/sh/dprintf.c' from 286 to nobody
+changed ownership of './lib/sh/strtoumax.c' from 286 to nobody
+changed ownership of './lib/sh/mktime.c' from 286 to nobody
+changed ownership of './lib/sh/mbscasecmp.c' from 286 to nobody
+changed ownership of './lib/sh/strtoul.c' from 286 to nobody
+changed ownership of './lib/sh/snprintf.o' from root to nobody
+changed ownership of './lib/sh/shmatch.o' from root to nobody
+changed ownership of './lib/sh/casemod.o' from root to nobody
+changed ownership of './lib/sh/rename.c' from 286 to nobody
+changed ownership of './lib/sh/tmpfile.o' from root to nobody
+changed ownership of './lib/sh/winsize.c' from 286 to nobody
+changed ownership of './lib/sh/zgetline.c' from 286 to nobody
+changed ownership of './lib/sh/stringlist.c' from 286 to nobody
+changed ownership of './lib/sh/zread.c' from 286 to nobody
+changed ownership of './lib/sh/mailstat.o' from root to nobody
+changed ownership of './lib/sh/wcsnwidth.c' from 286 to nobody
+changed ownership of './lib/sh/mbscmp.c' from 286 to nobody
+changed ownership of './lib/sh/mailstat.c' from 286 to nobody
+changed ownership of './lib/sh/uconvert.c' from 286 to nobody
+changed ownership of './lib/sh/pathcanon.o' from root to nobody
+changed ownership of './lib/sh/shmbchar.o' from root to nobody
+changed ownership of './lib/sh/shmbchar.c' from 286 to nobody
+changed ownership of './lib/sh/getenv.c' from 286 to nobody
+changed ownership of './lib/sh/eaccess.c' from 286 to nobody
+changed ownership of './lib/sh/strnlen.c' from 286 to nobody
+changed ownership of './lib/sh/unicode.c' from 286 to nobody
+changed ownership of './lib/sh/uconvert.o' from root to nobody
+changed ownership of './lib/sh/strftime.c' from 286 to nobody
+changed ownership of './lib/sh/timeval.o' from root to nobody
+changed ownership of './lib/sh/zwrite.c' from 286 to nobody
+changed ownership of './lib/sh/strtrans.c' from 286 to nobody
+changed ownership of './lib/sh/strnlen.o' from root to nobody
+changed ownership of './lib/sh/snprintf.c' from 286 to nobody
+changed ownership of './lib/sh/clock.c' from 286 to nobody
+changed ownership of './lib/sh/wcsnwidth.o' from root to nobody
+changed ownership of './lib/sh/wcswidth.c' from 286 to nobody
+changed ownership of './lib/sh/strdup.c' from 286 to nobody
+changed ownership of './lib/sh/oslib.c' from 286 to nobody
+changed ownership of './lib/sh/timeval.c' from 286 to nobody
+changed ownership of './lib/sh/Makefile.in' from 286 to nobody
+changed ownership of './lib/sh/mbscasecmp.o' from root to nobody
+changed ownership of './lib/sh/spell.o' from root to nobody
+changed ownership of './lib/sh/fmtulong.c' from 286 to nobody
+changed ownership of './lib/sh/setlinebuf.c' from 286 to nobody
+changed ownership of './lib/sh/strcasecmp.c' from 286 to nobody
+changed ownership of './lib/sh/shquote.c' from 286 to nobody
+changed ownership of './lib/sh/stringvec.o' from root to nobody
+changed ownership of './lib/sh/eaccess.o' from root to nobody
+changed ownership of './lib/sh/spell.c' from 286 to nobody
+changed ownership of './lib/sh/pathphys.o' from root to nobody
+changed ownership of './lib/sh/netopen.c' from 286 to nobody
+changed ownership of './lib/sh/itos.c' from 286 to nobody
+changed ownership of './lib/sh/fpurge.o' from root to nobody
+changed ownership of './lib/sh/mbscmp.o' from root to nobody
+changed ownership of './lib/sh/fnxform.o' from root to nobody
+changed ownership of './lib/sh/strstr.c' from 286 to nobody
+changed ownership of './lib/sh/wcsdup.c' from 286 to nobody
+changed ownership of './lib/sh/zcatfd.o' from root to nobody
+changed ownership of './lib/sh/strtoimax.c' from 286 to nobody
+changed ownership of './lib/sh/libsh.a' from root to nobody
+changed ownership of './lib/sh/strtol.c' from 286 to nobody
+changed ownership of './lib/sh/zread.o' from root to nobody
+changed ownership of './lib/sh/wcsdup.o' from root to nobody
+changed ownership of './lib/sh/shquote.o' from root to nobody
+changed ownership of './lib/sh/ufuncs.o' from root to nobody
+changed ownership of './lib/sh/clktck.o' from root to nobody
+changed ownership of './lib/sh/Makefile' from root to nobody
+changed ownership of './lib/sh/setlinebuf.o' from root to nobody
+changed ownership of './lib/sh/pathcanon.c' from 286 to nobody
+changed ownership of './lib/sh/strtoull.c' from 286 to nobody
+changed ownership of './lib/sh/strcasestr.c' from 286 to nobody
+changed ownership of './lib/sh/zgetline.o' from root to nobody
+changed ownership of './lib/sh/casemod.c' from 286 to nobody
+changed ownership of './lib/sh/memset.c' from 286 to nobody
+changed ownership of './lib/sh/makepath.o' from root to nobody
+changed ownership of './lib/sh/vprint.c' from 286 to nobody
+changed ownership of './lib/sh/stringvec.c' from 286 to nobody
+changed ownership of './lib/sh/strtod.c' from 286 to nobody
+changed ownership of './lib/sh/unicode.o' from root to nobody
+changed ownership of './lib/sh/zmapfd.c' from 286 to nobody
+changed ownership of './lib/sh/fmtulong.o' from root to nobody
+changed ownership of './lib/sh/fmtumax.o' from root to nobody
+changed ownership of './lib/sh/fnxform.c' from 286 to nobody
+changed ownership of './lib/sh/getenv.o' from root to nobody
+changed ownership of './lib/sh' from 286 to nobody
+changed ownership of './lib/malloc/imalloc.h' from 286 to nobody
+changed ownership of './lib/malloc/shmalloc.h' from 286 to nobody
+changed ownership of './lib/malloc/xleaktrace' from 286 to nobody
+changed ownership of './lib/malloc/table.c' from 286 to nobody
+changed ownership of './lib/malloc/getpagesize.h' from 286 to nobody
+changed ownership of './lib/malloc/malloc.c' from 286 to nobody
+changed ownership of './lib/malloc/table.h' from 286 to nobody
+changed ownership of './lib/malloc/stats.c' from 286 to nobody
+changed ownership of './lib/malloc/xmalloc.c' from 286 to nobody
+changed ownership of './lib/malloc/trace.c' from 286 to nobody
+changed ownership of './lib/malloc/watch.c' from 286 to nobody
+changed ownership of './lib/malloc/Makefile.in' from 286 to nobody
+changed ownership of './lib/malloc/x386-alloca.s' from 286 to nobody
+changed ownership of './lib/malloc/mstats.h' from 286 to nobody
+changed ownership of './lib/malloc/stub.c' from 286 to nobody
+changed ownership of './lib/malloc/alloca.c' from 286 to nobody
+changed ownership of './lib/malloc/watch.h' from 286 to nobody
+changed ownership of './lib/malloc/Makefile' from root to nobody
+changed ownership of './lib/malloc/i386-alloca.s' from 286 to nobody
+changed ownership of './lib/malloc' from 286 to nobody
+changed ownership of './lib/termcap/version.c' from 286 to nobody
+changed ownership of './lib/termcap/termcap.h' from 286 to nobody
+changed ownership of './lib/termcap/Makefile.in' from 286 to nobody
+changed ownership of './lib/termcap/termcap.c' from 286 to nobody
+changed ownership of './lib/termcap/Makefile' from root to nobody
+changed ownership of './lib/termcap/tparam.c' from 286 to nobody
+changed ownership of './lib/termcap/ltcap.h' from 286 to nobody
+changed ownership of './lib/termcap' from 286 to nobody
+changed ownership of './lib/readline/parse-colors.h' from 286 to nobody
+changed ownership of './lib/readline/mbutil.c' from 286 to nobody
+changed ownership of './lib/readline/doc/version.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/history.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/hsuser.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/rluser.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/rluserman.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/fdl.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/hstech.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/rltech.texi' from 286 to nobody
+changed ownership of './lib/readline/doc/Makefile' from 286 to nobody
+changed ownership of './lib/readline/doc/rlman.texi' from 286 to nobody
+changed ownership of './lib/readline/doc' from 286 to nobody
+changed ownership of './lib/readline/rlshell.h' from 286 to nobody
+changed ownership of './lib/readline/kill.c' from 286 to nobody
+changed ownership of './lib/readline/savestring.c' from 286 to nobody
+changed ownership of './lib/readline/misc.c' from 286 to nobody
+changed ownership of './lib/readline/vi_keymap.c' from 286 to nobody
+changed ownership of './lib/readline/rlmbutil.h' from 286 to nobody
+changed ownership of './lib/readline/parens.c' from 286 to nobody
+changed ownership of './lib/readline/readline.c.orig' from 286 to nobody
+changed ownership of './lib/readline/rldefs.h' from 286 to nobody
+changed ownership of './lib/readline/funmap.c' from 286 to nobody
+changed ownership of './lib/readline/text.c' from 286 to nobody
+changed ownership of './lib/readline/rltty.h' from 286 to nobody
+changed ownership of './lib/readline/rltypedefs.h' from 286 to nobody
+changed ownership of './lib/readline/STANDALONE' from 286 to nobody
+changed ownership of './lib/readline/signals.c' from 286 to nobody
+changed ownership of './lib/readline/histexpand.c' from 286 to nobody
+changed ownership of './lib/readline/rlprivate.h' from 286 to nobody
+changed ownership of './lib/readline/emacs_keymap.c' from 286 to nobody
+changed ownership of './lib/readline/posixselect.h' from 286 to nobody
+changed ownership of './lib/readline/tilde.h' from 286 to nobody
+changed ownership of './lib/readline/macro.c' from 286 to nobody
+changed ownership of './lib/readline/histsearch.c' from 286 to nobody
+changed ownership of './lib/readline/readline.h' from 286 to nobody
+changed ownership of './lib/readline/rltty.c' from 286 to nobody
+changed ownership of './lib/readline/colors.h' from 286 to nobody
+changed ownership of './lib/readline/keymaps.h' from 286 to nobody
+changed ownership of './lib/readline/history.c' from 286 to nobody
+changed ownership of './lib/readline/input.c' from 286 to nobody
+changed ownership of './lib/readline/undo.c' from 286 to nobody
+changed ownership of './lib/readline/posixdir.h' from 286 to nobody
+changed ownership of './lib/readline/xmalloc.c' from 286 to nobody
+changed ownership of './lib/readline/Makefile.in' from 286 to nobody
+changed ownership of './lib/readline/histlib.h' from 286 to nobody
+changed ownership of './lib/readline/ChangeLog' from 286 to nobody
+changed ownership of './lib/readline/COPYING' from 286 to nobody
+changed ownership of './lib/readline/ansi_stdlib.h' from 286 to nobody
+changed ownership of './lib/readline/complete.c' from 286 to nobody
+changed ownership of './lib/readline/nls.c' from 286 to nobody
+changed ownership of './lib/readline/posixjmp.h' from 286 to nobody
+changed ownership of './lib/readline/isearch.c' from 286 to nobody
+changed ownership of './lib/readline/xmalloc.h' from 286 to nobody
+changed ownership of './lib/readline/posixstat.h' from 286 to nobody
+changed ownership of './lib/readline/README' from 286 to nobody
+changed ownership of './lib/readline/vi_mode.c' from 286 to nobody
+changed ownership of './lib/readline/parse-colors.c' from 286 to nobody
+changed ownership of './lib/readline/display.c' from 286 to nobody
+changed ownership of './lib/readline/xfree.c' from 286 to nobody
+changed ownership of './lib/readline/rlwinsize.h' from 286 to nobody
+changed ownership of './lib/readline/histfile.c' from 286 to nobody
+changed ownership of './lib/readline/rlstdc.h' from 286 to nobody
+changed ownership of './lib/readline/colors.c' from 286 to nobody
+changed ownership of './lib/readline/compat.c' from 286 to nobody
+changed ownership of './lib/readline/bind.c' from 286 to nobody
+changed ownership of './lib/readline/readline.c' from 286 to nobody
+changed ownership of './lib/readline/shell.c' from 286 to nobody
+changed ownership of './lib/readline/keymaps.c' from 286 to nobody
+changed ownership of './lib/readline/Makefile' from root to nobody
+changed ownership of './lib/readline/tcap.h' from 286 to nobody
+changed ownership of './lib/readline/util.c' from 286 to nobody
+changed ownership of './lib/readline/history.h' from 286 to nobody
+changed ownership of './lib/readline/examples/rlcat.c' from 286 to nobody
+changed ownership of './lib/readline/examples/rl-callbacktest.c' from 286 to nobody
+changed ownership of './lib/readline/examples/Inputrc' from 286 to nobody
+changed ownership of './lib/readline/examples/manexamp.c' from 286 to nobody
+changed ownership of './lib/readline/examples/fileman.c' from 286 to nobody
+changed ownership of './lib/readline/examples/excallback.c' from 286 to nobody
+changed ownership of './lib/readline/examples/rltest.c' from 286 to nobody
+changed ownership of './lib/readline/examples/histexamp.c' from 286 to nobody
+changed ownership of './lib/readline/examples/rl.c' from 286 to nobody
+changed ownership of './lib/readline/examples/Makefile' from 286 to nobody
+changed ownership of './lib/readline/examples' from 286 to nobody
+changed ownership of './lib/readline/terminal.c' from 286 to nobody
+changed ownership of './lib/readline/chardefs.h' from 286 to nobody
+changed ownership of './lib/readline/rlconf.h' from 286 to nobody
+changed ownership of './lib/readline/tilde.c' from 286 to nobody
+changed ownership of './lib/readline/callback.c' from 286 to nobody
+changed ownership of './lib/readline/search.c' from 286 to nobody
+changed ownership of './lib/readline' from 286 to nobody
+changed ownership of './lib/intl/intl-compat.c' from 286 to nobody
+changed ownership of './lib/intl/dgettext.c' from 286 to nobody
+changed ownership of './lib/intl/ngettext.c' from 286 to nobody
+changed ownership of './lib/intl/locale.alias' from 286 to nobody
+changed ownership of './lib/intl/relocatable.h' from 286 to nobody
+changed ownership of './lib/intl/textdomain.c' from 286 to nobody
+changed ownership of './lib/intl/log.c' from 286 to nobody
+changed ownership of './lib/intl/gettext.c' from 286 to nobody
+changed ownership of './lib/intl/bindtextdom.c' from 286 to nobody
+changed ownership of './lib/intl/plural-exp.c' from 286 to nobody
+changed ownership of './lib/intl/os2compat.c' from 286 to nobody
+changed ownership of './lib/intl/loadinfo.h' from 286 to nobody
+changed ownership of './lib/intl/localcharset.h' from 286 to nobody
+changed ownership of './lib/intl/finddomain.c' from 286 to nobody
+changed ownership of './lib/intl/eval-plural.h' from 286 to nobody
+changed ownership of './lib/intl/osdep.c' from 286 to nobody
+changed ownership of './lib/intl/localealias.c' from 286 to nobody
+changed ownership of './lib/intl/explodename.c' from 286 to nobody
+changed ownership of './lib/intl/loadmsgcat.c' from 286 to nobody
+changed ownership of './lib/intl/plural.y' from 286 to nobody
+changed ownership of './lib/intl/libgnuintl.h.in' from 286 to nobody
+changed ownership of './lib/intl/hash-string.h' from 286 to nobody
+changed ownership of './lib/intl/localename.c' from 286 to nobody
+changed ownership of './lib/intl/dcigettext.c' from 286 to nobody
+changed ownership of './lib/intl/ref-add.sin' from 286 to nobody
+changed ownership of './lib/intl/ref-del.sin' from 286 to nobody
+changed ownership of './lib/intl/plural.c' from 286 to nobody
+changed ownership of './lib/intl/gettextP.h' from 286 to nobody
+changed ownership of './lib/intl/Makefile.in' from 286 to nobody
+changed ownership of './lib/intl/dcngettext.c' from 286 to nobody
+changed ownership of './lib/intl/ChangeLog' from 286 to nobody
+changed ownership of './lib/intl/relocatable.c' from 286 to nobody
+changed ownership of './lib/intl/l10nflist.c' from 286 to nobody
+changed ownership of './lib/intl/VERSION' from 286 to nobody
+changed ownership of './lib/intl/config.charset' from 286 to nobody
+changed ownership of './lib/intl/localcharset.c' from 286 to nobody
+changed ownership of './lib/intl/os2compat.h' from 286 to nobody
+changed ownership of './lib/intl/Makefile' from root to nobody
+changed ownership of './lib/intl/dcgettext.c' from 286 to nobody
+changed ownership of './lib/intl/plural-exp.h' from 286 to nobody
+changed ownership of './lib/intl/dngettext.c' from 286 to nobody
+changed ownership of './lib/intl/gmo.h' from 286 to nobody
+changed ownership of './lib/intl' from 286 to nobody
+changed ownership of './lib/glob/glob_loop.c' from 286 to nobody
+changed ownership of './lib/glob/strmatch.c' from 286 to nobody
+changed ownership of './lib/glob/smatch.c' from 286 to nobody
+changed ownership of './lib/glob/doc/glob.texi' from 286 to nobody
+changed ownership of './lib/glob/doc/Makefile' from 286 to nobody
+changed ownership of './lib/glob/doc' from 286 to nobody
+changed ownership of './lib/glob/gmisc.c' from 286 to nobody
+changed ownership of './lib/glob/strmatch.h' from 286 to nobody
+changed ownership of './lib/glob/glob.h' from 286 to nobody
+changed ownership of './lib/glob/collsyms.h' from 286 to nobody
+changed ownership of './lib/glob/gmisc.o' from root to nobody
+changed ownership of './lib/glob/glob.c' from 286 to nobody
+changed ownership of './lib/glob/ndir.h' from 286 to nobody
+changed ownership of './lib/glob/xmbsrtowcs.c' from 286 to nobody
+changed ownership of './lib/glob/sm_loop.c' from 286 to nobody
+changed ownership of './lib/glob/strmatch.o' from root to nobody
+changed ownership of './lib/glob/xmbsrtowcs.o' from root to nobody
+changed ownership of './lib/glob/Makefile.in' from 286 to nobody
+changed ownership of './lib/glob/libglob.a' from root to nobody
+changed ownership of './lib/glob/glob.o' from root to nobody
+changed ownership of './lib/glob/Makefile' from root to nobody
+changed ownership of './lib/glob/smatch.o' from root to nobody
+changed ownership of './lib/glob' from 286 to nobody
+changed ownership of './lib/tilde/tilde.o' from root to nobody
+changed ownership of './lib/tilde/tilde.h' from 286 to nobody
+changed ownership of './lib/tilde/Makefile.in' from 286 to nobody
+changed ownership of './lib/tilde/README' from 286 to nobody
+changed ownership of './lib/tilde/shell.c' from 286 to nobody
+changed ownership of './lib/tilde/Makefile' from root to nobody
+changed ownership of './lib/tilde/libtilde.a' from root to nobody
+changed ownership of './lib/tilde/tilde.c' from 286 to nobody
+changed ownership of './lib/tilde' from 286 to nobody
+changed ownership of './lib' from 286 to nobody
+changed ownership of './bashhist.c' from 286 to nobody
+changed ownership of './pathexp.c' from 286 to nobody
+changed ownership of './mksignames.o' from root to nobody
+changed ownership of './list.c' from 286 to nobody
+changed ownership of './COMPAT' from 286 to nobody
+changed ownership of './expr.c' from 286 to nobody
+changed ownership of './shell.c' from 286 to nobody
+changed ownership of './pathnames.h' from root to nobody
+changed ownership of './eval.o' from root to nobody
+changed ownership of './execute_cmd.h' from 286 to nobody
+changed ownership of './dispose_cmd.h' from 286 to nobody
+changed ownership of './Makefile' from root to nobody
+changed ownership of './CHANGES' from 286 to nobody
+changed ownership of './bashintl.h' from 286 to nobody
+changed ownership of './make_cmd.c' from 286 to nobody
+changed ownership of './flags.c' from 286 to nobody
+changed ownership of './bash' from root to nobody
+changed ownership of './support/recho.c' from 286 to nobody
+changed ownership of './support/fixlinks' from 286 to nobody
+changed ownership of './support/xcase.c' from 286 to nobody
+changed ownership of './support/printenv.sh' from 286 to nobody
+changed ownership of './support/texi2html' from 286 to nobody
+changed ownership of './support/SYMLINKS' from 286 to nobody
+changed ownership of './support/checkbashisms' from 286 to nobody
+changed ownership of './support/missing' from 286 to nobody
+changed ownership of './support/mkversion.sh' from 286 to nobody
+changed ownership of './support/signames.c' from 286 to nobody
+changed ownership of './support/zecho.c' from 286 to nobody
+changed ownership of './support/config.guess' from 286 to nobody
+changed ownership of './support/mkdirs' from 286 to nobody
+changed ownership of './support/texi2dvi' from 286 to nobody
+changed ownership of './support/shobj-conf' from 286 to nobody
+changed ownership of './support/xenix-link.sh' from 286 to nobody
+changed ownership of './support/mksignames.c' from 286 to nobody
+changed ownership of './support/mkconffiles' from 286 to nobody
+changed ownership of './support/bashbug.sh' from 286 to nobody
+changed ownership of './support/mkinstalldirs' from 286 to nobody
+changed ownership of './support/printenv.c' from 286 to nobody
+changed ownership of './support/Makefile.in' from 286 to nobody
+changed ownership of './support/config.rpath' from 286 to nobody
+changed ownership of './support/mkclone' from 286 to nobody
+changed ownership of './support/config.sub' from 286 to nobody
+changed ownership of './support/man2html.c' from 286 to nobody
+changed ownership of './support/bashversion.c' from 286 to nobody
+changed ownership of './support/rlvers.sh' from 286 to nobody
+changed ownership of './support/Makefile' from root to nobody
+changed ownership of './support/install.sh' from 286 to nobody
+changed ownership of './support/bash.xbm' from 286 to nobody
+changed ownership of './support' from 286 to nobody
+changed ownership of './examples/INDEX.html' from 286 to nobody
+changed ownership of './examples/startup-files/Bashrc.bfox' from 286 to nobody
+changed ownership of './examples/startup-files/Bash_profile' from 286 to nobody
+changed ownership of './examples/startup-files/Bash_aliases' from 286 to nobody
+changed ownership of './examples/startup-files/bash-profile' from 286 to nobody
+changed ownership of './examples/startup-files/README' from 286 to nobody
+changed ownership of './examples/startup-files/bashrc' from 286 to nobody
+changed ownership of './examples/startup-files' from 286 to nobody
+changed ownership of './examples/functions/array-stuff' from 286 to nobody
+changed ownership of './examples/functions/func' from 286 to nobody
+changed ownership of './examples/functions/inpath' from 286 to nobody
+changed ownership of './examples/functions/ksh-cd' from 286 to nobody
+changed ownership of './examples/functions/csh-compat' from 286 to nobody
+changed ownership of './examples/functions/autoload.v2' from 286 to nobody
+changed ownership of './examples/functions/autoload' from 286 to nobody
+changed ownership of './examples/functions/external' from 286 to nobody
+changed ownership of './examples/functions/substr2' from 286 to nobody
+changed ownership of './examples/functions/inetaddr' from 286 to nobody
+changed ownership of './examples/functions/fstty' from 286 to nobody
+changed ownership of './examples/functions/sort-pos-params' from 286 to nobody
+changed ownership of './examples/functions/exitstat' from 286 to nobody
+changed ownership of './examples/functions/whatis' from 286 to nobody
+changed ownership of './examples/functions/fact' from 286 to nobody
+changed ownership of './examples/functions/whence' from 286 to nobody
+changed ownership of './examples/functions/isnum2' from 286 to nobody
+changed ownership of './examples/functions/login' from 286 to nobody
+changed ownership of './examples/functions/array-to-string' from 286 to nobody
+changed ownership of './examples/functions/autoload.v3' from 286 to nobody
+changed ownership of './examples/functions/kshenv' from 286 to nobody
+changed ownership of './examples/functions/basename' from 286 to nobody
+changed ownership of './examples/functions/notify.bash' from 286 to nobody
+changed ownership of './examples/functions/which' from 286 to nobody
+changed ownership of './examples/functions/seq2' from 286 to nobody
+changed ownership of './examples/functions/seq' from 286 to nobody
+changed ownership of './examples/functions/substr' from 286 to nobody
+changed ownership of './examples/functions/dirname' from 286 to nobody
+changed ownership of './examples/functions/ksh-compat-test' from 286 to nobody
+changed ownership of './examples/functions/isvalidip' from 286 to nobody
+changed ownership of './examples/functions/shcat2' from 286 to nobody
+changed ownership of './examples/functions/shcat' from 286 to nobody
+changed ownership of './examples/functions' from 286 to nobody
+changed ownership of './examples/INDEX.txt' from 286 to nobody
+changed ownership of './examples/misc/aliasconv.sh' from 286 to nobody
+changed ownership of './examples/misc/aliasconv.bash' from 286 to nobody
+changed ownership of './examples/misc/cshtobash' from 286 to nobody
+changed ownership of './examples/misc' from 286 to nobody
+changed ownership of './examples/loadables/id.c' from 286 to nobody
+changed ownership of './examples/loadables/hello.c' from 286 to nobody
+changed ownership of './examples/loadables/logname.c' from 286 to nobody
+changed ownership of './examples/loadables/ln.c' from 286 to nobody
+changed ownership of './examples/loadables/print.c' from 286 to nobody
+changed ownership of './examples/loadables/sync.c' from 286 to nobody
+changed ownership of './examples/loadables/dirname.c' from 286 to nobody
+changed ownership of './examples/loadables/realpath.c' from 286 to nobody
+changed ownership of './examples/loadables/necho.c' from 286 to nobody
+changed ownership of './examples/loadables/mypid.c' from 286 to nobody
+changed ownership of './examples/loadables/finfo.c' from 286 to nobody
+changed ownership of './examples/loadables/rmdir.c' from 286 to nobody
+changed ownership of './examples/loadables/cat.c' from 286 to nobody
+changed ownership of './examples/loadables/truefalse.c' from 286 to nobody
+changed ownership of './examples/loadables/sleep.c' from 286 to nobody
+changed ownership of './examples/loadables/basename.c' from 286 to nobody
+changed ownership of './examples/loadables/head.c' from 286 to nobody
+changed ownership of './examples/loadables/tty.c' from 286 to nobody
+changed ownership of './examples/loadables/strftime.c' from 286 to nobody
+changed ownership of './examples/loadables/whoami.c' from 286 to nobody
+changed ownership of './examples/loadables/mkdir.c' from 286 to nobody
+changed ownership of './examples/loadables/printenv.c' from 286 to nobody
+changed ownership of './examples/loadables/Makefile.in' from 286 to nobody
+changed ownership of './examples/loadables/push.c' from 286 to nobody
+changed ownership of './examples/loadables/unlink.c' from 286 to nobody
+changed ownership of './examples/loadables/README' from 286 to nobody
+changed ownership of './examples/loadables/pathchk.c' from 286 to nobody
+changed ownership of './examples/loadables/uname.c' from 286 to nobody
+changed ownership of './examples/loadables/Makefile' from root to nobody
+changed ownership of './examples/loadables/perl/iperl.c' from 286 to nobody
+changed ownership of './examples/loadables/perl/bperl.c' from 286 to nobody
+changed ownership of './examples/loadables/perl/Makefile.in' from 286 to nobody
+changed ownership of './examples/loadables/perl/README' from 286 to nobody
+changed ownership of './examples/loadables/perl/Makefile' from root to nobody
+changed ownership of './examples/loadables/perl' from 286 to nobody
+changed ownership of './examples/loadables/tee.c' from 286 to nobody
+changed ownership of './examples/loadables/template.c' from 286 to nobody
+changed ownership of './examples/loadables' from 286 to nobody
+changed ownership of './examples/scripts/inpath' from 286 to nobody
+changed ownership of './examples/scripts/shprompt' from 286 to nobody
+changed ownership of './examples/scripts/spin.bash' from 286 to nobody
+changed ownership of './examples/scripts/zprintf' from 286 to nobody
+changed ownership of './examples/scripts/cat.sh' from 286 to nobody
+changed ownership of './examples/scripts/xterm_title' from 286 to nobody
+changed ownership of './examples/scripts/center' from 286 to nobody
+changed ownership of './examples/scripts' from 286 to nobody
+changed ownership of './examples/complete/complete-examples' from 286 to nobody
+changed ownership of './examples/complete/cdfunc' from 286 to nobody
+changed ownership of './examples/complete/bashcc-1.0.1.tar.gz' from 286 to nobody
+changed ownership of './examples/complete/bash_completion' from 286 to nobody
+changed ownership of './examples/complete' from 286 to nobody
+changed ownership of './examples' from 286 to nobody
+changed ownership of './flags.h' from 286 to nobody
+changed ownership of './jobs.h' from 286 to nobody
+changed ownership of './variables.o' from root to nobody
+changed ownership of './test.h' from 286 to nobody
+changed ownership of './copy_cmd.o' from root to nobody
+changed ownership of './error.o' from root to nobody
+changed ownership of './parser.h' from 286 to nobody
+changed ownership of './CWRU/sh-redir-hack' from 286 to nobody
+changed ownership of './CWRU/misc/open-files.c' from 286 to nobody
+changed ownership of './CWRU/misc/sigs.c' from 286 to nobody
+changed ownership of './CWRU/misc/errlist.c' from 286 to nobody
+changed ownership of './CWRU/misc/hpux10-dlfcn.h' from 286 to nobody
+changed ownership of './CWRU/misc/bison' from 286 to nobody
+changed ownership of './CWRU/misc/sigstat.c' from 286 to nobody
+changed ownership of './CWRU/misc' from 286 to nobody
+changed ownership of './CWRU/PLATFORMS' from 286 to nobody
+changed ownership of './CWRU/README' from 286 to nobody
+changed ownership of './CWRU/changelog' from 286 to nobody
+changed ownership of './CWRU' from 286 to nobody
+changed ownership of '.' from 286 to nobody
+bash: tee: command not found
+
+	  ***********************************************************
+	  *                                                         *
+	  * GNU bash, version 4.3.42(1)-release (x86_64-unknown-linux-gnu)
+	  *                                                         *
+	  ***********************************************************
+mkdir -p -- /usr/share/doc/bash-4.3.30
+
+( cd ./po/ ; make -j --jobserver-fds=3,4 DESTDIR= installdirs )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/po'
+/bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /usr/share
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /usr/share/gettext/po; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+/tools/bin/install -c -m 0755 bash /usr/bin/bash
+/tools/bin/install -c -m 0555 bashbug /usr/bin/bashbug
+/tools/bin/install -c -m 644 ./CHANGES ./COMPAT ./NEWS ./POSIX ./RBASH ./README /usr/share/doc/bash-4.3.30
+( cd ./doc ; make -j --jobserver-fds=3,4 \
+	man1dir=/usr/share/man/man1 man1ext=.1 \
+	man3dir=/usr/share/man/man3 man3ext=.3 \
+	infodir=/usr/share/info htmldir=/usr/share/doc/bash-4.3.30 DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/doc'
+/bin/sh ../support/mkinstalldirs /usr/share/man/man1
+/bin/sh ./infopost.sh < ./bashref.info > bash.info ; \
+
+/bin/sh ../support/mkinstalldirs /usr/share/info
+/bin/sh ../support/mkinstalldirs /usr/share/doc/bash-4.3.30
+if test -n "/usr/share/doc/bash-4.3.30" ; then \
+	/bin/sh ../support/mkinstalldirs /usr/share/doc/bash-4.3.30 ; \
+fi
+/tools/bin/install -c -m 644 ./bash.1 /usr/share/man/man1/bash.1
+/tools/bin/install -c -m 644 ./bashbug.1 /usr/share/man/man1/bashbug.1
+/tools/bin/install -c -m 644 ./FAQ ./INTRO /usr/share/doc/bash-4.3.30
+if test -f bash.info; then d=.; else d=.; fi; \
+  /tools/bin/install -c -m 644 $d/bash.info /usr/share/info/bash.info
+if /bin/sh -c 'install-info --version' >/dev/null 2>&1; then \
+	install-info --dir-file=/usr/share/info/dir /usr/share/info/bash.info; \
+else true; fi
+if test -n "/usr/share/doc/bash-4.3.30" ; then \
+	/tools/bin/install -c -m 644 ./bash.html /usr/share/doc/bash-4.3.30 ; \
+	/tools/bin/install -c -m 644 ./bashref.html /usr/share/doc/bash-4.3.30 ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/doc'
+( cd ./builtins ; make -j --jobserver-fds=3,4 DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/builtins'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/builtins'
+( cd ./po/ ; make -j --jobserver-fds=3,4 DESTDIR= install )
+make[1]: Entering directory '/sources/7.9/bash-4.3.30/po'
+test -z "en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo" || make en@quot.gmo en@boldquot.gmo af.gmo bg.gmo ca.gmo cs.gmo da.gmo de.gmo el.gmo eo.gmo es.gmo et.gmo fi.gmo fr.gmo ga.gmo gl.gmo hr.gmo hu.gmo id.gmo it.gmo ja.gmo lt.gmo nl.gmo pl.gmo pt_BR.gmo ro.gmo ru.gmo sk.gmo sl.gmo sr.gmo sv.gmo tr.gmo uk.gmo vi.gmo zh_CN.gmo zh_TW.gmo
+make[2]: Entering directory '/sources/7.9/bash-4.3.30/po'
+make[2]: 'en@quot.gmo' is up to date.
+make[2]: 'en@boldquot.gmo' is up to date.
+make[2]: 'af.gmo' is up to date.
+make[2]: 'bg.gmo' is up to date.
+make[2]: 'ca.gmo' is up to date.
+make[2]: 'cs.gmo' is up to date.
+make[2]: 'da.gmo' is up to date.
+make[2]: 'de.gmo' is up to date.
+make[2]: 'el.gmo' is up to date.
+make[2]: 'eo.gmo' is up to date.
+make[2]: 'es.gmo' is up to date.
+make[2]: 'et.gmo' is up to date.
+make[2]: 'fi.gmo' is up to date.
+make[2]: 'fr.gmo' is up to date.
+make[2]: 'ga.gmo' is up to date.
+make[2]: 'gl.gmo' is up to date.
+make[2]: 'hr.gmo' is up to date.
+make[2]: 'hu.gmo' is up to date.
+make[2]: 'id.gmo' is up to date.
+make[2]: 'it.gmo' is up to date.
+make[2]: 'ja.gmo' is up to date.
+make[2]: 'lt.gmo' is up to date.
+make[2]: 'nl.gmo' is up to date.
+make[2]: 'pl.gmo' is up to date.
+make[2]: 'pt_BR.gmo' is up to date.
+make[2]: 'ro.gmo' is up to date.
+make[2]: 'ru.gmo' is up to date.
+make[2]: 'sk.gmo' is up to date.
+make[2]: 'sl.gmo' is up to date.
+make[2]: 'sr.gmo' is up to date.
+make[2]: 'sv.gmo' is up to date.
+make[2]: 'tr.gmo' is up to date.
+make[2]: 'uk.gmo' is up to date.
+make[2]: 'vi.gmo' is up to date.
+make[2]: 'zh_CN.gmo' is up to date.
+make[2]: 'zh_TW.gmo' is up to date.
+make[2]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+touch stamp-po
+/bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /usr/share
+installing en@quot.gmo as /usr/share/locale/en@quot/LC_MESSAGES/bash.mo
+installing en@boldquot.gmo as /usr/share/locale/en@boldquot/LC_MESSAGES/bash.mo
+installing af.gmo as /usr/share/locale/af/LC_MESSAGES/bash.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/bash.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/bash.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/bash.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/bash.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/bash.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/bash.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/bash.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/bash.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/bash.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/bash.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/bash.mo
+installing ga.gmo as /usr/share/locale/ga/LC_MESSAGES/bash.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/bash.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/bash.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/bash.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/bash.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/bash.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/bash.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/bash.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/bash.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/bash.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/bash.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/bash.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/bash.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/bash.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/bash.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/bash.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/bash.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/bash.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/bash.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/bash.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/bash.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/bash.mo
+if test "bash" = "gettext-tools"; then \
+  /bin/sh /sources/7.9/bash-4.3.30/./support/mkinstalldirs /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/bash-4.3.30/po'
+'/usr/bin/bash' -> '/bin/bash'

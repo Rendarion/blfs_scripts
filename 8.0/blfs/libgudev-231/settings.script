@@ -1,0 +1,12 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/libgudev/231/libgudev-231.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"glib-2.50.3"
+)

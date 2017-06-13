@@ -1,0 +1,173 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking whether ln -s works... yes
+checking for xmlto... no
+checking whether to build manpages... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pm-utils.pc
+config.status: creating man/Makefile
+config.status: creating src/Makefile
+config.status: creating pm/Makefile
+config.status: creating pm/sleep.d/Makefile
+config.status: creating pm/power.d/Makefile
+config.status: creating pm/module.d/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+
+                    pm-utils 1.4.1
+                  ==================
+
+        prefix:                    /usr
+        compiler:                  gcc
+        cflags:                    -g -O2
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/pm-utils-1.4.1'
+Making all in pm
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm'
+Making all in sleep.d
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+Making all in power.d
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+Making all in module.d
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm'
+sed -e 's,[@]PM-UTILS-LIBDIR[@],/usr/lib/pm-utils,g' -e 's,[@]PM-UTILS-SYSCONFDIR[@],/etc/pm,g' functions.in >functions
+chmod +x functions
+sed -e 's,[@]PM-UTILS-LIBDIR[@],/usr/lib/pm-utils,g' -e 's,[@]PM-UTILS-SYSCONFDIR[@],/etc/pm,g' pm-functions.in >pm-functions
+chmod +x pm-functions
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm'
+Making all in man
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/man'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/man'
+Making all in src
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/src'
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pm-pmu.o -MD -MP -MF .deps/pm-pmu.Tpo -c -o pm-pmu.o pm-pmu.c
+mv -f .deps/pm-pmu.Tpo .deps/pm-pmu.Po
+gcc  -g -O2   -o pm-pmu pm-pmu.o  
+gcc -DHAVE_CONFIG_H -I. -I..     -g -O2 -MT pm-reset-swap.o -MD -MP -MF .deps/pm-reset-swap.Tpo -c -o pm-reset-swap.o pm-reset-swap.c
+mv -f .deps/pm-reset-swap.Tpo .deps/pm-reset-swap.Po
+gcc  -g -O2   -o pm-reset-swap pm-reset-swap.o  
+sed -e 's,[@]PM-UTILS-LIBDIR[@],/usr/lib/pm-utils,g' -e 's,[@]PM-UTILS-SYSCONFDIR[@],/etc/pm,g' pm-is-supported.in >pm-is-supported
+chmod +x pm-is-supported
+sed -e 's,[@]PM-UTILS-LIBDIR[@],/usr/lib/pm-utils,g' -e 's,[@]PM-UTILS-SYSCONFDIR[@],/etc/pm,g' pm-action.in >pm-action
+chmod +x pm-action
+sed -e 's,[@]PM-UTILS-LIBDIR[@],/usr/lib/pm-utils,g' -e 's,[@]PM-UTILS-SYSCONFDIR[@],/etc/pm,g' pm-powersave.in >pm-powersave
+chmod +x pm-powersave
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/src'
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1'
+make[1]: Leaving directory '/sources/7.9/pm-utils-1.4.1'
+Making install in pm
+make[1]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm'
+Making install in sleep.d
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+mkdir -p /etc/pm/sleep.d
+test -z "/usr/lib/pm-utils/sleep.d" || /bin/mkdir -p "/usr/lib/pm-utils/sleep.d"
+ /usr/bin/install -c 00logging 00powersave 01grub 49bluetooth 55NetworkManager 75modules 90clock 94cpufreq 95led 98video-quirk-db-handler 99video '/usr/lib/pm-utils/sleep.d'
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/sleep.d'
+Making install in power.d
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+mkdir -p /etc/pm/power.d
+test -z "/usr/lib/pm-utils/power.d" || /bin/mkdir -p "/usr/lib/pm-utils/power.d"
+ /usr/bin/install -c sched-powersave harddrive laptop-mode xfs_buffer readahead intel-audio-powersave wireless journal-commit disable_wol pcie_aspm sata_alpm hal-cd-polling '/usr/lib/pm-utils/power.d'
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/power.d'
+Making install in module.d
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[3]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/lib/pm-utils/module.d" || /bin/mkdir -p "/usr/lib/pm-utils/module.d"
+ /usr/bin/install -c kernel tuxonice uswsusp '/usr/lib/pm-utils/module.d'
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm/module.d'
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm'
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/pm'
+mkdir /etc/pm/config.d
+test -z "/usr/share/doc/pm-utils-1.4.1" || /bin/mkdir -p "/usr/share/doc/pm-utils-1.4.1"
+ /usr/bin/install -c -m 644 HOWTO.hooks HOWTO.modules '/usr/share/doc/pm-utils-1.4.1'
+test -z "/usr/lib/pm-utils" || /bin/mkdir -p "/usr/lib/pm-utils"
+ /usr/bin/install -c -m 644 defaults '/usr/lib/pm-utils'
+test -z "/usr/lib/pm-utils" || /bin/mkdir -p "/usr/lib/pm-utils"
+ /usr/bin/install -c functions pm-functions '/usr/lib/pm-utils'
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm'
+make[1]: Leaving directory '/sources/7.9/pm-utils-1.4.1/pm'
+Making install in man
+make[1]: Entering directory '/sources/7.9/pm-utils-1.4.1/man'
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+test -z "/usr/share/man/man8" || /bin/mkdir -p "/usr/share/man/man8"
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/man'
+test -z "/usr/share/man/man1" || /bin/mkdir -p "/usr/share/man/man1"
+test -z "/usr/share/man/man8" || /bin/mkdir -p "/usr/share/man/man8"
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/man'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/man'
+make[1]: Leaving directory '/sources/7.9/pm-utils-1.4.1/man'
+Making install in src
+make[1]: Entering directory '/sources/7.9/pm-utils-1.4.1/src'
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1/src'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c pm-is-supported '/usr/bin'
+test -z "/usr/bin" || /bin/mkdir -p "/usr/bin"
+ /usr/bin/install -c on_ac_power '/usr/bin'
+test -z "/usr/sbin" || /bin/mkdir -p "/usr/sbin"
+ /usr/bin/install -c pm-powersave '/usr/sbin'
+test -z "/usr/lib/pm-utils/bin" || /bin/mkdir -p "/usr/lib/pm-utils/bin"
+  /usr/bin/install -c pm-pmu pm-reset-swap '/usr/lib/pm-utils/bin'
+test -z "/usr/lib/pm-utils/bin" || /bin/mkdir -p "/usr/lib/pm-utils/bin"
+ /usr/bin/install -c pm-action service '/usr/lib/pm-utils/bin'
+make  install-data-hook
+make[3]: Entering directory '/sources/7.9/pm-utils-1.4.1/src'
+mkdir -p /usr/sbin
+ln -s /usr/lib/pm-utils/bin/pm-action /usr/sbin/pm-suspend
+ln -s /usr/lib/pm-utils/bin/pm-action /usr/sbin/pm-hibernate
+ln -s /usr/lib/pm-utils/bin/pm-action /usr/sbin/pm-suspend-hybrid
+make[3]: Leaving directory '/sources/7.9/pm-utils-1.4.1/src'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1/src'
+make[1]: Leaving directory '/sources/7.9/pm-utils-1.4.1/src'
+make[1]: Entering directory '/sources/7.9/pm-utils-1.4.1'
+make[2]: Entering directory '/sources/7.9/pm-utils-1.4.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+test -z "/usr/share/doc/pm-utils-1.4.1" || /bin/mkdir -p "/usr/share/doc/pm-utils-1.4.1"
+ /usr/bin/install -c -m 644 README README.debugging README.distributions '/usr/share/doc/pm-utils-1.4.1'
+test -z "/usr/lib/pkgconfig" || /bin/mkdir -p "/usr/lib/pkgconfig"
+ /usr/bin/install -c -m 644 pm-utils.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/pm-utils-1.4.1'
+make[1]: Leaving directory '/sources/7.9/pm-utils-1.4.1'
+'man/on_ac_power.1' -> '/usr/share/man/man1/on_ac_power.1'
+'man/pm-is-supported.1' -> '/usr/share/man/man1/pm-is-supported.1'
+'man/pm-action.8' -> '/usr/share/man/man8/pm-action.8'
+'man/pm-pmu.8' -> '/usr/share/man/man8/pm-pmu.8'
+'man/pm-powersave.8' -> '/usr/share/man/man8/pm-powersave.8'
+'/usr/share/man/man8/pm-suspend.8' -> 'pm-action.8'
+'/usr/share/man/man8/pm-hibernate.8' -> 'pm-action.8'
+'/usr/share/man/man8/pm-suspend-hybrid.8' -> 'pm-action.8'

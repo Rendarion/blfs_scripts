@@ -1,0 +1,12 @@
+URL=(
+"http://ftp.x.org/pub/individual/data/xbitmaps-1.1.1.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"util-macros-1.19.1"
+)

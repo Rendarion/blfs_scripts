@@ -1,0 +1,20 @@
+URL=(
+"http://download.qt.io/community_releases/5.8/5.8.0-final/qtwebkit-opensource-src-5.8.0.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"icu-58.2"
+"libjpeg-turbo-1.5.1"
+"libpng-1.6.28"
+"libwebp-0.6.0"
+"libxslt-1.1.29"
+"qt-5.8.0"
+"ruby-2.4.0"
+"sqlite-3.17.0"
+"gst-plugins-base-1.10.3"
+)

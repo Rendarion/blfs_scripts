@@ -1,0 +1,1822 @@
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1       -DTCL_LIBRARY="\"/usr/lib/tcl8.6\"" -DTCL_PACKAGE_PATH="\"/usr/lib \"" /sources/7.9/tcl8.6.4/unix/tclUnixInit.c
+rm -f libtcl8.6.so
+gcc -shared -DNDEBUG -O2  -pipe -m64    -Wl,--export-dynamic  -o libtcl8.6.so regcomp.o regexec.o regfree.o regerror.o tclAlloc.o tclAssembly.o tclAsync.o tclBasic.o tclBinary.o tclCkalloc.o tclClock.o tclCmdAH.o tclCmdIL.o tclCmdMZ.o tclCompCmds.o tclCompCmdsGR.o tclCompCmdsSZ.o tclCompExpr.o tclCompile.o tclConfig.o tclDate.o tclDictObj.o tclDisassemble.o tclEncoding.o tclEnsemble.o tclEnv.o tclEvent.o tclExecute.o tclFCmd.o tclFileName.o tclGet.o tclHash.o tclHistory.o tclIndexObj.o tclInterp.o tclIO.o tclIOCmd.o tclIORChan.o tclIORTrans.o tclIOGT.o tclIOSock.o tclIOUtil.o tclLink.o tclListObj.o tclLiteral.o tclLoad.o tclMain.o tclNamesp.o tclNotify.o tclObj.o tclOptimize.o tclPanic.o tclParse.o tclPathObj.o tclPipe.o tclPkg.o tclPkgConfig.o tclPosixStr.o tclPreserve.o tclProc.o tclRegexp.o tclResolve.o tclResult.o tclScan.o tclStringObj.o tclStrToD.o tclThread.o tclThreadAlloc.o tclThreadJoin.o tclThreadStorage.o tclStubInit.o tclTimer.o tclTrace.o tclUtf.o tclUtil.o tclVar.o tclZlib.o tclTomMathInterface.o tclUnixChan.o tclUnixEvent.o tclUnixFCmd.o tclUnixFile.o tclUnixPipe.o tclUnixSock.o tclUnixTime.o tclUnixInit.o tclUnixThrd.o tclUnixCompat.o tclUnixNotfy.o  tclOO.o tclOOBasic.o tclOOCall.o tclOODefineCmds.o tclOOInfo.o tclOOMethod.o tclOOStubInit.o tclLoadDl.o  bncore.o bn_reverse.o bn_fast_s_mp_mul_digs.o bn_fast_s_mp_sqr.o bn_mp_add.o bn_mp_and.o bn_mp_add_d.o bn_mp_clamp.o bn_mp_clear.o bn_mp_clear_multi.o bn_mp_cmp.o bn_mp_cmp_d.o bn_mp_cmp_mag.o bn_mp_cnt_lsb.o bn_mp_copy.o bn_mp_count_bits.o bn_mp_div.o bn_mp_div_d.o bn_mp_div_2.o bn_mp_div_2d.o bn_mp_div_3.o bn_mp_exch.o bn_mp_expt_d.o bn_mp_grow.o bn_mp_init.o bn_mp_init_copy.o bn_mp_init_multi.o bn_mp_init_set.o bn_mp_init_set_int.o bn_mp_init_size.o bn_mp_karatsuba_mul.o bn_mp_karatsuba_sqr.o bn_mp_lshd.o bn_mp_mod.o bn_mp_mod_2d.o bn_mp_mul.o bn_mp_mul_2.o bn_mp_mul_2d.o bn_mp_mul_d.o bn_mp_neg.o bn_mp_or.o bn_mp_radix_size.o bn_mp_radix_smap.o bn_mp_read_radix.o bn_mp_rshd.o bn_mp_set.o bn_mp_set_int.o bn_mp_shrink.o bn_mp_sqr.o bn_mp_sqrt.o bn_mp_sub.o bn_mp_sub_d.o bn_mp_to_unsigned_bin.o bn_mp_to_unsigned_bin_n.o bn_mp_toom_mul.o bn_mp_toom_sqr.o bn_mp_toradix_n.o bn_mp_unsigned_bin_size.o bn_mp_xor.o bn_mp_zero.o bn_s_mp_add.o bn_s_mp_mul_digs.o bn_s_mp_sqr.o bn_s_mp_sub.o   -ldl -lz  -lpthread -lieee -lm   -Wl,-rpath,/usr/lib
+gcc -DNDEBUG -O2  -pipe -m64    -Wl,--export-dynamic  tclAppInit.o \
+	-L/sources/7.9/tcl8.6.4/unix -ltcl8.6 libtclstub8.6.a -ldl -lz  -lpthread -lieee -lm  \
+	-Wl,-rpath,/usr/lib -o tclsh
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        \
+	-DTCL_BUILDTIME_LIBRARY="\"/sources/7.9/tcl8.6.4/library\"" \
+	-DTCL_TEST /sources/7.9/tcl8.6.4/unix/tclAppInit.c
+rm -f tclTestInit.o
+mv tclAppInit.o tclTestInit.o
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        /sources/7.9/tcl8.6.4/generic/tclTest.c
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        /sources/7.9/tcl8.6.4/generic/tclTestObj.c
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        /sources/7.9/tcl8.6.4/generic/tclTestProcBodyObj.c
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        /sources/7.9/tcl8.6.4/generic/tclThreadTest.c
+gcc -c -DNDEBUG -O2  -pipe -m64  -Wall -fPIC -DBUILD_tcl -I"." -I/sources/7.9/tcl8.6.4/unix -I/sources/7.9/tcl8.6.4/generic -I/sources/7.9/tcl8.6.4/libtommath -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1        /sources/7.9/tcl8.6.4/unix/tclUnixTest.c
+cd dltest ; make
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/dltest'
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkga.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkga.so pkga.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkgb.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkgb.so pkgb.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkgc.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkgc.so pkgc.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkgd.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkgd.so pkgd.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkge.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkge.so pkge.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkgua.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkgua.so pkgua.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+gcc -c -O2  -pipe -m64  -I/sources/7.9/tcl8.6.4/unix/dltest/../../generic -DTCL_MEM_DEBUG -fPIC -DUSE_TCL_STUBS -DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1  /sources/7.9/tcl8.6.4/unix/dltest/pkgooa.c
+gcc -shared -O2  -pipe -m64    -Wl,--export-dynamic  -o pkgooa.so pkgooa.o -L/sources/7.9/tcl8.6.4/unix -ltclstub8.6 -ldl -lz  -lpthread -lieee -lm
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/dltest'
+make tcltest-real LIB_RUNTIME_DIR="`pwd`"
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix'
+gcc -DNDEBUG -O2  -pipe -m64    -Wl,--export-dynamic  tclTestInit.o tclTest.o tclTestObj.o tclTestProcBodyObj.o tclThreadTest.o tclUnixTest.o \
+	-L/sources/7.9/tcl8.6.4/unix -ltcl8.6 libtclstub8.6.a -ldl -lz  -lpthread -lieee -lm  \
+	-Wl,-rpath,/sources/7.9/tcl8.6.4/unix -o tcltest
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix'
+LD_LIBRARY_PATH=`pwd`: TCLLIBPATH="/sources/7.9/tcl8.6.4/unix/pkgs" TCL_LIBRARY="/sources/7.9/tcl8.6.4/library" ./tcltest /sources/7.9/tcl8.6.4/tests/all.tcl 
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix
+Temporary files stored in /sources/7.9/tcl8.6.4/unix
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:12:58 CEST 2016
+aaa_exit.test
+append.test
+appendComp.test
+apply.test
+assemble.test
+assocd.test
+async.test
+autoMkindex.test
+basic.test
+binary.test
+case.test
+chan.test
+chanio.test
+clock.test
+cmdAH.test
+cmdIL.test
+cmdInfo.test
+cmdMZ.test
+compExpr-old.test
+compExpr.test
+compile.test
+concat.test
+config.test
+coroutine.test
+dcall.test
+dict.test
+dstring.test
+encoding.test
+env.test
+error.test
+eval.test
+event.test
+exec.test
+execute.test
+expr-old.test
+expr.test
+fCmd.test
+fileName.test
+fileSystem.test
+for-old.test
+for.test
+foreach.test
+format.test
+get.test
+history.test
+http.test
+Running httpd in thread tid0x7fe421b7a700
+
+
+==== http-3.3 http::geturl FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.3 FAILED
+
+
+
+==== http-3.4 http::geturl FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.4 FAILED
+
+
+
+==== http-3.5 http::geturl FAILED
+==== Contents of test case:
+
+    http::config -proxyfilter selfproxy
+    set token [http::geturl $url]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.5 FAILED
+
+
+
+==== http-3.6 http::geturl FAILED
+==== Contents of test case:
+
+    http::config -proxyfilter bogus
+    set token [http::geturl $url]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.6 FAILED
+
+
+
+==== http-3.7 http::geturl FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -headers {Pragma no-cache}]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -headers {Pragma no-cache}"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.7 FAILED
+
+
+
+==== http-3.8 http::geturl FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -query Name=Value&Foo=Bar -timeout 2000]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -query Name=Value&Foo=Bar -timeout 2000"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.8 FAILED
+
+
+
+==== http-3.9 http::geturl FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -validate 1]
+    http::code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -validate 1"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.9 FAILED
+
+
+
+==== http-3.10 http::geturl queryprogress FAILED
+==== Contents of test case:
+
+    proc postProgress {token x y} {
+	global postProgress
+	lappend postProgress $y
+    }
+    set postProgress {}
+    set t [http::geturl $posturl -keepalive 0 -query $query  -queryprogress postProgress -queryblocksize 16384]
+    http::wait $t
+    list [http::status $t] [string length $query] $postProgress [http::data $t]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $posturl -keepalive 0 -query $query  -queryprogress postProgress -queryblocksize 16384"
+    ("uplevel" body line 7)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "t": no such variable
+---- errorInfo(cleanup): can't read "t": no such variable
+    while executing
+"http::cleanup $t"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME t
+==== http-3.10 FAILED
+
+
+
+==== http-3.11 http::geturl querychannel with -command FAILED
+==== Contents of test case:
+
+    set fp [open $file]
+    proc asyncCB {token} {
+	global postResult
+	lappend postResult [http::data $token]
+    }
+    set postResult [list ]
+    set t [http::geturl $posturl -querychannel $fp]
+    http::wait $t
+    set testRes [list [http::status $t] [string length $query] [http::data $t]]
+    # Now do async
+    http::cleanup $t
+    close $fp
+    set fp [open $file]
+    set t [http::geturl $posturl -querychannel $fp -command asyncCB]
+    set postResult [list PostStart]
+    http::wait $t
+    close $fp
+    lappend testRes [http::status $t] $postResult
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $posturl -querychannel $fp"
+    ("uplevel" body line 8)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "t": no such variable
+---- errorInfo(cleanup): can't read "t": no such variable
+    while executing
+"http::cleanup $t"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME t
+==== http-3.11 FAILED
+
+
+
+==== http-3.14 http::geturl HTTP://user:pass@pikatchu:8010/a/b/c FAILED
+==== Contents of test case:
+
+    set token [http::geturl $fullurl -validate 1]
+    http::code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $fullurl -validate 1"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.14 FAILED
+
+
+
+==== http-3.25 http::meta FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -timeout 2000]
+    array set m [http::meta $token]
+    lsort [array names m]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -timeout 2000"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.25 FAILED
+
+
+
+==== http-3.26 http::meta FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -headers {X-Check 1} -timeout 2000]
+    array set m [http::meta $token]
+    lsort [array names m]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -headers {X-Check 1} -timeout 2000"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.26 FAILED
+
+
+
+==== http-3.27 http::geturl: -headers override -type FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url/headers -type "text/plain" -query dummy  -headers [list "Content-Type" "text/plain;charset=utf-8"]]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url/headers -type "text/plain" -query dummy  -headers [list "Content-Type" "text/plain;charset=utf-8"]"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.27 FAILED
+
+
+
+==== http-3.28 http::geturl: -headers override -type default FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url/headers -query dummy  -headers [list "Content-Type" "text/plain;charset=utf-8"]]
+    http::data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url/headers -query dummy  -headers [list "Content-Type" "text/plain;charset=utf-8"]"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+---- Test cleanup failed:
+can't read "token": no such variable
+---- errorInfo(cleanup): can't read "token": no such variable
+    while executing
+"http::cleanup $token"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $cleanup"
+---- errorCode(cleanup): TCL LOOKUP VARNAME token
+==== http-3.28 FAILED
+
+
+
+==== http-3.30 http::geturl query without path FAILED
+==== Contents of test case:
+
+    set token [http::geturl $authorityurl?var=val]
+    http::ncode $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $authorityurl?var=val"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-3.30 FAILED
+
+
+
+==== http-3.31 http::geturl fragment without path FAILED
+==== Contents of test case:
+
+    set token [http::geturl "$authorityurl#fragment42"]
+    http::ncode $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl "$authorityurl#fragment42""
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-3.31 FAILED
+
+
+
+==== http-4.1 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -keepalive 0]
+    upvar #0 $token data
+    array set meta $data(meta)
+    expr {($data(totalsize) == $meta(Content-Length))}
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -keepalive 0"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.1 FAILED
+
+
+
+==== http-4.2 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url]
+    upvar #0 $token data
+    array set meta $data(meta)
+    string compare $data(type) [string trim $meta(Content-Type)]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.2 FAILED
+
+
+
+==== http-4.3 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url]
+    http::code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.3 FAILED
+
+
+
+==== http-4.4 http::Event FAILED
+==== Contents of test case:
+
+    set out [open $testfile w]
+    set token [http::geturl $url -channel $out]
+    close $out
+    set in [open $testfile]
+    set x [read $in]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -channel $out"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.4 FAILED
+
+
+
+==== http-4.5 http::Event FAILED
+==== Contents of test case:
+
+    set out [open $testfile w]
+    fconfigure $out -translation lf
+    set token [http::geturl $url -channel $out]
+    close $out
+    upvar #0 $token data
+    expr {$data(currentsize) == $data(totalsize)}
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -channel $out"
+    ("uplevel" body line 4)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.5 FAILED
+
+
+
+==== http-4.6 http::Event FAILED
+==== Contents of test case:
+
+    set out [open $testfile w]
+    set token [http::geturl $binurl -channel $out]
+    close $out
+    set in [open $testfile]
+    fconfigure $in -translation binary
+    read $in
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $binurl -channel $out"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.6 FAILED
+
+
+
+==== http-4.7 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -keepalive 0 -progress myProgress]
+    return $progress
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -keepalive 0 -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.7 FAILED
+
+
+
+==== http-4.8 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url]
+    http::status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.8 FAILED
+
+
+
+==== http-4.9 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -progress myProgress]
+    http::code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.9 FAILED
+
+
+
+==== http-4.10 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -progress myProgress]
+    http::size $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.10 FAILED
+
+
+
+==== http-4.11 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url -timeout 1 -keepalive 0 -command \#]
+    http::reset $token
+    http::status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url -timeout 1 -keepalive 0 -command \#"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.11 FAILED
+
+
+
+==== http-4.12 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url/?timeout=10 -keepalive 0 -command \#]
+    http::reset $token
+    http::status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url/?timeout=10 -keepalive 0 -command \#"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.12 FAILED
+
+
+
+==== http-4.13 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $url?timeout=30 -keepalive 0 -timeout 10 -command \#]
+    http::wait $token
+    http::status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url?timeout=30 -keepalive 0 -timeout 10 -command \#"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.13 FAILED
+
+
+
+==== http-4.14 http::Event FAILED
+==== Contents of test case:
+
+    set token [http::geturl $badurl/?timeout=10 -timeout 10000 -command \#]
+    if {$token eq ""} {
+	error "bogus return from http::geturl"
+    }
+    http::wait $token
+    lindex [http::error $token] 0
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $badurl/?timeout=10 -timeout 10000 -command \#"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-4.14 FAILED
+
+
+
+==== http-6.1 http::ProxyRequired FAILED
+==== Contents of test case:
+
+    http::config -proxyhost [info hostname] -proxyport $port
+    set token [http::geturl $url]
+    http::wait $token
+    upvar #0 $token data
+    set data(body)
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"http::geturl $url"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== http-6.1 FAILED
+
+http11.test
+httpold.test
+
+
+==== httpold-3.3 http_get FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.3 FAILED
+
+
+
+==== httpold-3.4 http_get FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.4 FAILED
+
+
+
+==== httpold-3.5 http_get FAILED
+==== Contents of test case:
+
+    http_config -proxyfilter selfproxy
+    set token [http_get $url]
+    http_config -proxyfilter httpProxyRequired
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $phost $pport"
+    (procedure "http_get" line 59)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.5 FAILED
+
+
+
+==== httpold-3.6 http_get FAILED
+==== Contents of test case:
+
+    http_config -proxyfilter bogus
+    set token [http_get $url]
+    http_config -proxyfilter httpProxyRequired
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 3)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.6 FAILED
+
+
+
+==== httpold-3.7 http_get FAILED
+==== Contents of test case:
+
+    set token [http_get $url -headers {Pragma no-cache}]
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -headers {Pragma no-cache}"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.7 FAILED
+
+
+
+==== httpold-3.8 http_get FAILED
+==== Contents of test case:
+
+    set token [http_get $url -query Name=Value&Foo=Bar]
+    http_data $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -query Name=Value&Foo=Bar"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.8 FAILED
+
+
+
+==== httpold-3.9 http_get FAILED
+==== Contents of test case:
+
+    set token [http_get $url -validate 1]
+    http_code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -validate 1"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-3.9 FAILED
+
+
+
+==== httpold-4.1 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    upvar #0 $token data
+    array set meta $data(meta)
+    expr ($data(totalsize) == $meta(Content-Length))
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.1 FAILED
+
+
+
+==== httpold-4.2 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    upvar #0 $token data
+    array set meta $data(meta)
+    string compare $data(type) [string trim $meta(Content-Type)]
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.2 FAILED
+
+
+
+==== httpold-4.3 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    http_code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.3 FAILED
+
+
+
+==== httpold-4.4 httpEvent FAILED
+==== Contents of test case:
+
+    set testfile [makeFile "" testfile]
+    set out [open $testfile w]
+    set token [http_get $url -channel $out]
+    close $out
+    set in [open $testfile]
+    set x [read $in]
+    close $in
+    removeFile $testfile
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -channel $out"
+    ("uplevel" body line 4)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.4 FAILED
+
+
+
+==== httpold-4.5 httpEvent FAILED
+==== Contents of test case:
+
+    set testfile [makeFile "" testfile]
+    set out [open $testfile w]
+    set token [http_get $url -channel $out]
+    close $out
+    upvar #0 $token data
+    removeFile $testfile
+    expr $data(currentsize) == $data(totalsize)
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -channel $out"
+    ("uplevel" body line 4)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.5 FAILED
+
+
+
+==== httpold-4.6 httpEvent FAILED
+==== Contents of test case:
+
+    set testfile [makeFile "" testfile]
+    set out [open $testfile w]
+    set token [http_get $binurl -channel $out]
+    close $out
+    set in [open $testfile]
+    fconfigure $in -translation binary
+    set x [read $in]
+    close $in
+    removeFile $testfile
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $binurl -channel $out"
+    ("uplevel" body line 4)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.6 FAILED
+
+
+
+==== httpold-4.7 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url -progress myProgress]
+    set progress
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.7 FAILED
+
+
+
+==== httpold-4.8 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url]
+    http_status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.8 FAILED
+
+
+
+==== httpold-4.9 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url -progress myProgress]
+    http_code $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.9 FAILED
+
+
+
+==== httpold-4.10 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url -progress myProgress]
+    http_size $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -progress myProgress"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.10 FAILED
+
+
+
+==== httpold-4.11 httpEvent FAILED
+==== Contents of test case:
+
+    set token [http_get $url -timeout 1 -command {#}]
+    http_reset $token
+    http_status $token
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -timeout 1 -command {#}"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.11 FAILED
+
+
+
+==== httpold-4.12 httpEvent FAILED
+==== Contents of test case:
+
+    update
+    set x {}
+    after 500 {lappend x ok}
+    set token [http_get $url -timeout 1 -command {lappend x fail}]
+    vwait x
+    list [http_status $token] $x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url -timeout 1 -command {lappend x fail}"
+    ("uplevel" body line 5)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-4.12 FAILED
+
+
+
+==== httpold-6.1 httpProxyRequired FAILED
+==== Contents of test case:
+
+    update
+    http_config -proxyhost [info hostname] -proxyport $port
+    set token [http_get $url]
+    http_wait $token
+    http_config -proxyhost {} -proxyport {}
+    upvar #0 $token data
+    set data(body)
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: Name or service not known
+    while executing
+"socket $host $port"
+    (procedure "http_get" line 61)
+    invoked from within
+"http_get $url"
+    ("uplevel" body line 4)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: NONE
+==== httpold-6.1 FAILED
+
+if-old.test
+if.test
+incr-old.test
+incr.test
+indexObj.test
+info.test
+init.test
+interp.test
+io.test
+ioCmd.test
+ioTrans.test
+iogt.test
+join.test
+lindex.test
+link.test
+linsert.test
+list.test
+listObj.test
+llength.test
+lmap.test
+load.test
+lrange.test
+lrepeat.test
+lreplace.test
+lsearch.test
+lset.test
+lsetComp.test
+macOSXFCmd.test
+macOSXLoad.test
+main.test
+mathop.test
+misc.test
+msgcat.test
+namespace-old.test
+namespace.test
+notify.test
+nre.test
+obj.test
+oo.test
+ooNext2.test
+opt.test
+package.test
+parse.test
+parseExpr.test
+parseOld.test
+pid.test
+pkgMkIndex.test
+platform.test
+proc-old.test
+proc.test
+pwd.test
+reg.test
+regexp.test
+regexpComp.test
+registry.test
+rename.test
+resolver.test
+result.test
+safe.test
+scan.test
+security.test
+set-old.test
+set.test
+socket.test
+source.test
+split.test
+stack.test
+string.test
+stringComp.test
+stringObj.test
+subst.test
+switch.test
+tailcall.test
+tcltest.test
+thread.test
+timer.test
+tm.test
+trace.test
+unixFCmd.test
+unixFile.test
+unixForkEvent.test
+unixInit.test
+unixNotfy.test
+unknown.test
+unload.test
+uplevel.test
+upvar.test
+utf.test
+util.test
+var.test
+while-old.test
+while.test
+winConsole.test
+winDde.test
+winFCmd.test
+winFile.test
+winNotify.test
+winPipe.test
+winTime.test
+zlib.test
+
+Tests ended at Tue Jul 05 01:17:44 CEST 2016
+all.tcl:	Total	29299	Passed	28153	Skipped	1095	Failed	51
+Sourced 148 Test Files.
+Files with failing tests: http.test httpold.test
+Number of tests skipped for each constraint:
+	9	!ieeeFloatingPoint
+	3	asyncPipeChan
+	76	bigEndian
+	5	bug-3057639
+	49	dde
+	4	dontCopyLinks
+	63	emptyTest
+	2	hasIsoLocale
+	1	knownBadTest
+	43	knownBug
+	100	localeRegexp
+	9	localhost_v6
+	48	longIs32bit
+	14	macosxFileAttr
+	74	memory
+	45	nonPortable
+	1	nonportable
+	5	notNetworkFilesystem
+	9	nt
+	1	pcOnly
+	4	readonlyAttr
+	3	singleTestInterp
+	1	testexprparser && !ieeeFloatingPoint
+	1	testwinclock
+	21	testwordend
+	2	unthreaded
+	2	wideBiggerThanInt
+	485	win
+	4	winVista
+Configuring package 'itcl4.0.3'
+Configuring package 'sqlite3.8.8.3'
+Configuring package 'tdbc1.0.3'
+Configuring package 'tdbcmysql1.0.3'
+Configuring package 'tdbcodbc1.0.3'
+Configuring package 'tdbcpostgres1.0.3'
+Configuring package 'tdbcsqlite3-1.0.3'
+Configuring package 'thread2.7.2'
+Building package 'itcl4.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3'
+Building package 'sqlite3.8.8.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3'
+If you have documentation to create, place the commands to
+build the docs in the 'doc:' target.  For example:
+        xml2nroff sample.xml > sample.n
+        xml2html sample.xml > sample.html
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3'
+Building package 'tdbc1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3'
+cp -p /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library/tdbc.tcl .
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3'
+Building package 'tdbcmysql1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3'
+Building package 'tdbcodbc1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3'
+Building package 'tdbcpostgres1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3'
+Building package 'tdbcsqlite3-1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3'
+If you have documentation to create, place the commands to
+build the docs in the 'doc:' target.  For example:
+        xml2nroff sample.xml > sample.n
+        xml2html sample.xml > sample.html
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3'
+Building package 'thread2.7.2'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/thread2.7.2'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/thread2.7.2'
+Testing package 'itcl4.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3'
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/itcl4.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:44 CEST 2016
+basic.test
+body.test
+chain.test
+delete.test
+eclasscomponent.test
+ensemble.test
+general1.test
+import.test
+info.test
+inherit.test
+interp.test
+local.test
+methods.test
+mkindex.test
+namespace.test
+protection.test
+scope.test
+sfbugs.test
+typeclass.test
+typedelegation.test
+typefunction.test
+typeinfo.test
+typeoption.test
+typevariable.test
+widgetadaptor.test
+widgetclass.test
+
+Tests ended at Tue Jul 05 01:17:46 CEST 2016
+all.tcl:	Total	759	Passed	694	Skipped	65	Failed	0
+Sourced 26 Test Files.
+Number of tests skipped for each constraint:
+	5	needs_frq_1773103
+	2	only_working_in_itcl3.4
+	58	tk
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/itcl4.0.3'
+Testing package 'sqlite3.8.8.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3'
+TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/sqlite3.8.8.3/tests/all.tcl`  \
+	-load "package ifneeded sqlite3 3.8.8.3 \
+		[list load `echo libsqlite3.8.8.3.so` sqlite3]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/sqlite3.8.8.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:46 CEST 2016
+leapsecond.test
+
+Tests ended at Tue Jul 05 01:17:46 CEST 2016
+all.tcl:	Total	1	Passed	1	Skipped	0	Failed	0
+Sourced 1 Test Files.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/sqlite3.8.8.3'
+Testing package 'tdbc1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3'
+cp -p /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library/tdbc.tcl .
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:46 CEST 2016
+tdbc.test
+tokenize.test
+
+Tests ended at Tue Jul 05 01:17:46 CEST 2016
+all.tcl:	Total	13	Passed	13	Skipped	0	Failed	0
+Sourced 2 Test Files.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3'
+Testing package 'tdbcmysql1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3'
+LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TDBCMYSQL_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbcmysql1.0.3/library`  TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` TDBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcmysql1.0.3/tests/all.tcl`  \
+	-load "package ifneeded tdbc::mysql 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcmysql1.0.3/library/tdbcmysql.tcl`]\;[list load `echo libtdbcmysql1.0.3.so` tdbcmysql];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbcmysql1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:46 CEST 2016
+tdbcmysql.test
+Test file error: couldn't load file "libmysql.so.15": libmysql.so.15: cannot open shared object file: No such file or directory
+    while executing
+"load libtdbcmysql1.0.3.so tdbcmysql"
+    ("package ifneeded tdbc::mysql 1.0.3" script)
+    invoked from within
+"package require tdbc::mysql"
+    (file "/sources/7.9/tcl8.6.4/pkgs/tdbcmysql1.0.3/tests/tdbcmysql.test" line 17)
+
+Tests ended at Tue Jul 05 01:17:47 CEST 2016
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+Sourced 1 Test Files.
+
+Test files exiting with errors:  
+
+  tdbcmysql.test
+
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcmysql1.0.3'
+Testing package 'tdbcodbc1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3'
+testing tdbcodbc against Jet
+TDBCODBC_TYPE=jet \
+	LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TDBCODBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library`  TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` TDBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/all.tcl`  \
+	-load "package ifneeded tdbc::odbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library/tdbcodbc.tcl`]\;[list load `echo libtdbcodbc1.0.3.so` tdbcodbc];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:47 CEST 2016
+tdbcodbc.test
+Test file error: couldn't load file "libodbc.so": libodbc.so: cannot open shared object file: No such file or directory
+    while executing
+"load libtdbcodbc1.0.3.so tdbcodbc"
+    ("package ifneeded tdbc::odbc 1.0.3" script)
+    invoked from within
+"package require tdbc::odbc"
+    (file "/sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/tdbcodbc.test" line 16)
+
+Tests ended at Tue Jul 05 01:17:47 CEST 2016
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+Sourced 1 Test Files.
+
+Test files exiting with errors:  
+
+  tdbcodbc.test
+
+testing tdbcodbc against SQL Server
+TDBCODBC_TYPE=sqlserver \
+	LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TDBCODBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library`  TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` TDBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/all.tcl`  \
+	-load "package ifneeded tdbc::odbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library/tdbcodbc.tcl`]\;[list load `echo libtdbcodbc1.0.3.so` tdbcodbc];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:47 CEST 2016
+tdbcodbc.test
+Test file error: couldn't load file "libodbc.so": libodbc.so: cannot open shared object file: No such file or directory
+    while executing
+"load libtdbcodbc1.0.3.so tdbcodbc"
+    ("package ifneeded tdbc::odbc 1.0.3" script)
+    invoked from within
+"package require tdbc::odbc"
+    (file "/sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/tdbcodbc.test" line 16)
+
+Tests ended at Tue Jul 05 01:17:47 CEST 2016
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+Sourced 1 Test Files.
+
+Test files exiting with errors:  
+
+  tdbcodbc.test
+
+testing tdbcodbc against SQLite
+TDBCODBC_TYPE=sqlite \
+	LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TDBCODBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library`  TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` TDBC_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbc1.0.3/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/all.tcl`  \
+	-load "package ifneeded tdbc::odbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/library/tdbcodbc.tcl`]\;[list load `echo libtdbcodbc1.0.3.so` tdbcodbc];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:47 CEST 2016
+tdbcodbc.test
+Test file error: couldn't load file "libodbc.so": libodbc.so: cannot open shared object file: No such file or directory
+    while executing
+"load libtdbcodbc1.0.3.so tdbcodbc"
+    ("package ifneeded tdbc::odbc 1.0.3" script)
+    invoked from within
+"package require tdbc::odbc"
+    (file "/sources/7.9/tcl8.6.4/pkgs/tdbcodbc1.0.3/tests/tdbcodbc.test" line 16)
+
+Tests ended at Tue Jul 05 01:17:47 CEST 2016
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+Sourced 1 Test Files.
+
+Test files exiting with errors:  
+
+  tdbcodbc.test
+
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcodbc1.0.3'
+Testing package 'tdbcpostgres1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3'
+LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TDBCPOSTGRES_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/tdbcpostgres1.0.3/library` TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcpostgres1.0.3/tests/all.tcl`  \
+	-load "package ifneeded tdbc::postgres 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcpostgres1.0.3/library/tdbcpostgres.tcl`]\;[list load `echo libtdbcpostgres1.0.3.so` tdbcpostgres];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3/../../tcltest
+Tests located in:  /sources/7.9/tcl8.6.4/pkgs/tdbcpostgres1.0.3/tests
+Tests running in:  /sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3
+Temporary files stored in /sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3
+Test files run in separate interpreters
+Running tests that match:  *
+Skipping test files that match:  l.*.test
+Only running test files that match:  *.test
+Tests began at Tue Jul 05 01:17:47 CEST 2016
+tdbcpostgres.test
+Test file error: couldn't load file "libpq.so.5": libpq.so.5: cannot open shared object file: No such file or directory
+    while executing
+"load libtdbcpostgres1.0.3.so tdbcpostgres"
+    ("package ifneeded tdbc::postgres 1.0.3" script)
+    invoked from within
+"package require tdbc::postgres"
+    (file "/sources/7.9/tcl8.6.4/pkgs/tdbcpostgres1.0.3/tests/tdbcpostgres.test" line 15)
+
+Tests ended at Tue Jul 05 01:17:47 CEST 2016
+all.tcl:	Total	0	Passed	0	Skipped	0	Failed	0
+Sourced 1 Test Files.
+
+Test files exiting with errors:  
+
+  tdbcpostgres.test
+
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcpostgres1.0.3'
+Testing package 'tdbcsqlite3-1.0.3'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3'
+PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs" TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/tdbcsqlite3-1.0.3/tests/all.tcl`  -load \
+	"package ifneeded tdbc::sqlite3 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/pkgs/tdbcsqlite3-1.0.3/library/tdbcsqlite3.tcl`];\
+	package ifneeded tdbc 1.0.3 \
+		[list source `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/tdbc.tcl`]\;[list load `echo /sources/7.9/tcl8.6.4/unix/pkgs/tdbc1.0.3/libtdbc1.0.3.so` tdbc]"
+Tests running in interp:       /sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3/../../tcltest
+Tests running with pwd:        /sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3
+Tests running in working dir:  /sources/7.9/tcl8.6.4/pkgs/tdbcsqlite3-1.0.3/tests
+Only running tests that match:        *
+Skipping test files that match:       l.*.test
+Only sourcing test files that match:  *.test
+Tests began at Tue Jul 05 01:17:47 CEST 2016
+tdbcsqlite3.test
+
+Tests ended at Tue Jul 05 01:17:54 CEST 2016
+all.tcl:	Total	161	Passed	158	Skipped	3	Failed	0
+Sourced 0 Test Files.
+Number of tests skipped for each constraint:
+	3	knownBug
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/tdbcsqlite3-1.0.3'
+Testing package 'thread2.7.2'
+make[1]: Entering directory '/sources/7.9/tcl8.6.4/unix/pkgs/thread2.7.2'
+TCL_THREAD_LIBRARY=`echo /sources/7.9/tcl8.6.4/pkgs/thread2.7.2/lib` LD_LIBRARY_PATH=".:/sources/7.9/tcl8.6.4/unix:../..:" PATH=".:/sources/7.9/tcl8.6.4/unix:/bin:/usr/bin" TCLLIBPATH="../../pkgs ./../lib" TCL_LIBRARY=`echo /sources/7.9/tcl8.6.4/library` ../../tcltest `echo /sources/7.9/tcl8.6.4/pkgs/thread2.7.2/tests/all.tcl`  \
+	-load "package ifneeded thread 2.7.2 \
+		[list load `echo libthread2.7.2.so` thread]"
+Tcl 8.6.4 tests running in interp:  /sources/7.9/tcl8.6.4/unix/pkgs/thread2.7.2/../../tcltest
+Tests running in working dir:  /sources/7.9/tcl8.6.4/pkgs/thread2.7.2/tests
+Only running tests that match:  *
+Skipping test files that match:  l.*.test
+Only sourcing test files that match:  *.test
+Tests began at Tue Jul 05 01:17:54 CEST 2016
+Thread 2.7.2
+Mainthread id is tid0x7f8db5f22700
+thread.test
+tpool.test
+tsv.test
+ttrace.test
+
+Tests ended at Tue Jul 05 01:18:09 CEST 2016
+all.tcl:	Total	116	Passed	116	Skipped	0	Failed	0
+Sourced 0 Test Files.
+make[1]: Leaving directory '/sources/7.9/tcl8.6.4/unix/pkgs/thread2.7.2'

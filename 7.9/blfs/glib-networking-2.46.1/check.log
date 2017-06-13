@@ -1,0 +1,397 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+Making check in po
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/po'
+INTLTOOL_EXTRACT="/usr/bin/intltool-extract" XGETTEXT="/usr/bin/xgettext" srcdir=. /usr/bin/intltool-update --gettext-package glib-networking --pot
+rm -f missing notexist
+srcdir=. /usr/bin/intltool-update -m
+if [ -r missing -o -r notexist ]; then \
+  exit 1; \
+fi
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/po'
+Making check in proxy/gnome
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  check-am
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make      \
+                   
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  all-am
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  all-am
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+Making check in proxy/tests
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make  check-am
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make     gnome  \
+                   
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+  CC       gnome.o
+  CCLD     gnome
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+PASS: gnome 1 /proxy/gnome/uri
+PASS: gnome 2 /proxy/gnome/socks
+PASS: gnome 3 /proxy/gnome/ignore
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make  all-am
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 3
+# PASS:  3
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+Making check in tls/pkcs11
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  check-am
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make      \
+                   
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  all-am
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  all-am
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+Making check in tls/gnutls
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  check-am
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make      \
+                   
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  all-am
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  all-am
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+Making check in tls/tests
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make  check-am
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make     certificate file-database connection  pkcs11-util pkcs11-array pkcs11-pin pkcs11-slot \
+                   
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+  CC       certificate.o
+  CCLD     certificate
+  CC       file-database.o
+  CCLD     file-database
+  CC       connection.o
+  CC       mock-interaction.o
+  CCLD     connection
+  CC       pkcs11-util.o
+  CCLD     pkcs11-util
+  CC       pkcs11-array.o
+  CCLD     pkcs11-array
+  CC       pkcs11-pin.o
+  CCLD     pkcs11-pin
+  CC       pkcs11-slot.o
+  CC       mock-pkcs11.o
+  CCLD     pkcs11-slot
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+PASS: certificate 1 /tls/certificate/create-pem
+PASS: certificate 2 /tls/certificate/create-der
+PASS: certificate 3 /tls/certificate/create-with-key-pem
+PASS: certificate 4 /tls/certificate/create-with-key-der
+PASS: certificate 5 /tls/certificate/create-with-issuer
+PASS: certificate 6 /tls/certificate/create-chain
+PASS: certificate 7 /tls/certificate/create-no-chain
+PASS: certificate 8 /tls/certificate/create-list
+PASS: certificate 9 /tls/certificate/create-list-bad
+PASS: certificate 10 /tls/certificate/verify-good
+PASS: certificate 11 /tls/certificate/verify-bad-identity
+PASS: certificate 12 /tls/certificate/verify-bad-ca
+PASS: certificate 13 /tls/certificate/verify-bad-before
+PASS: certificate 14 /tls/certificate/verify-bad-expired
+PASS: certificate 15 /tls/certificate/verify-bad-combo
+PASS: certificate 16 /tls/certificate/is-same
+PASS: file-database 1 /tls/backend/default-database-is-singleton
+PASS: file-database 2 /tls/database/verify-good
+PASS: file-database 3 /tls/database/verify-bad-identity
+PASS: file-database 4 /tls/database/verify-bad-ca
+PASS: file-database 5 /tls/database/verify-bad-before
+PASS: file-database 6 /tls/database/verify-bad-expired
+PASS: file-database 7 /tls/database/verify-bad-combo
+PASS: file-database 8 /tls/database/verify-with-incorrect-root-in-chain
+PASS: file-database 9 /tls/file-database/anchors-property
+PASS: file-database 10 /tls/file-database/lookup-certificates-issued-by
+PASS: file-database 11 /tls/file-database/test-handle
+PASS: file-database 12 /tls/file-database/test-handle-invalid
+PASS: connection 1 /tls/connection/basic
+PASS: connection 2 /tls/connection/verified
+PASS: connection 3 /tls/connection/verified-chain
+PASS: connection 4 /tls/connection/verified-chain-with-redundant-root-cert
+PASS: connection 5 /tls/connection/verified-chain-with-duplicate-server-cert
+PASS: connection 6 /tls/connection/verified-unordered-chain
+PASS: connection 7 /tls/connection/verified-chain-with-alternative-ca-cert
+PASS: connection 8 /tls/connection/invalid-chain-with-alternative-ca-cert
+PASS: connection 9 /tls/connection/client-auth
+PASS: connection 10 /tls/connection/client-auth-rehandshake
+PASS: connection 11 /tls/connection/client-auth-failure
+PASS: connection 12 /tls/connection/client-auth-request-cert
+PASS: connection 13 /tls/connection/client-auth-request-fail
+PASS: connection 14 /tls/connection/no-database
+PASS: connection 15 /tls/connection/failed
+PASS: connection 16 /tls/connection/socket-client
+PASS: connection 17 /tls/connection/socket-client-failed
+PASS: connection 18 /tls/connection/read-time-out-then-write
+PASS: connection 19 /tls/connection/simultaneous-async
+PASS: connection 20 /tls/connection/simultaneous-sync
+PASS: connection 21 /tls/connection/simultaneous-async-rehandshake
+PASS: connection 22 /tls/connection/simultaneous-sync-rehandshake
+PASS: connection 23 /tls/connection/close-immediately
+PASS: connection 24 /tls/connection/close-during-handshake
+PASS: connection 25 /tls/connection/write-during-handshake
+PASS: connection 26 /tls/connection/async-implicit-handshake
+PASS: connection 27 /tls/connection/fallback/SSL
+PASS: connection 28 /tls/connection/fallback/TLS
+PASS: pkcs11-util 1 /pkcs11/util/propagate-error
+PASS: pkcs11-array 1 /pkcs11/array/add-find
+PASS: pkcs11-array 2 /pkcs11/array/set-find
+PASS: pkcs11-array 3 /pkcs11/array/value
+PASS: pkcs11-array 4 /pkcs11/array/boolean
+PASS: pkcs11-array 5 /pkcs11/array/ulong
+PASS: pkcs11-array 6 /pkcs11/array/boxed
+PASS: pkcs11-pin 1 /pkcs11/pin/attributes
+PASS: pkcs11-pin 2 /pkcs11/pin/warnings
+PASS: pkcs11-pin 3 /pkcs11/pin/set-get-value
+PASS: pkcs11-pin 4 /pkcs11/pin/internal-pin
+PASS: pkcs11-slot 1 /pkcs11/slot/properties
+PASS: pkcs11-slot 2 /pkcs11/slot/token-info
+PASS: pkcs11-slot 3 /pkcs11/slot/token-not-present
+PASS: pkcs11-slot 4 /pkcs11/slot/matches-uri
+PASS: pkcs11-slot 5 /pkcs11/slot/enumerate-no-match
+PASS: pkcs11-slot 6 /pkcs11/slot/enumerate-not-present
+PASS: pkcs11-slot 7 /pkcs11/slot/enumerate-all
+PASS: pkcs11-slot 8 /pkcs11/slot/enumerate-first
+PASS: pkcs11-slot 9 /pkcs11/slot/enumerate-no-attrs
+PASS: pkcs11-slot 10 /pkcs11/slot/enumerate-fail-session
+PASS: pkcs11-slot 11 /pkcs11/slot/enumerate-fail-attributes
+PASS: pkcs11-slot 12 /pkcs11/slot/enumerate-cancel
+PASS: pkcs11-slot 13 /pkcs11/slot/enumerate-private
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make  all-am
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 80
+# PASS:  80
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[2]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make      \
+                   
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make  all-recursive
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+Making all in po
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/po'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/po'
+Making all in proxy/gnome
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  all-am
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+Making all in proxy/tests
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make  all-am
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+Making all in tls/pkcs11
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  all-am
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+Making all in tls/gnutls
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  all-am
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+Making all in tls/tests
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make  all-am
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make[4]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make[5]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+Making all in po
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/po'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/po'
+Making all in proxy/gnome
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make  all-am
+make[8]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/gnome'
+Making all in proxy/tests
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make  all-am
+make[8]: Entering directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/proxy/tests'
+Making all in tls/pkcs11
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make  all-am
+make[8]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/pkcs11'
+Making all in tls/gnutls
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make  all-am
+make[8]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/gnutls'
+Making all in tls/tests
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make  all-am
+make[8]: Entering directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1/tls/tests'
+make[7]: Entering directory '/sources/7.9/glib-networking-2.46.1'
+make[7]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[6]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[5]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+============================================================================
+Testsuite summary for glib-networking 2.46.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[3]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[2]: Leaving directory '/sources/7.9/glib-networking-2.46.1'
+make[1]: Leaving directory '/sources/7.9/glib-networking-2.46.1'

@@ -1,0 +1,60 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for xmllint... no
+checking for a Python interpreter with version >= 2.5... python3
+checking for python3... /usr/bin/python3
+checking for python3 version... 3.5
+checking for python3 platform... linux
+checking for python3 script directory... ${prefix}/lib/python3.5/site-packages
+checking for python3 extension module directory... ${exec_prefix}/lib/python3.5/site-packages
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating xcbgen/Makefile
+config.status: creating xcb-proto.pc
+Making check in src
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make  check-local
+make[2]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make[2]: Nothing to be done for 'check-local'.
+make[2]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+Making check in xcbgen
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11'
+Making install in src
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make[2]: Entering directory '/sources/7.9/xcb-proto-1.11/src'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xcb'
+ /usr/bin/install -c -m 644 xcb.xsd xproto.xml bigreq.xml composite.xml damage.xml dpms.xml dri2.xml dri3.xml ge.xml glx.xml present.xml randr.xml record.xml render.xml res.xml screensaver.xml shape.xml shm.xml sync.xml xc_misc.xml xevie.xml xf86dri.xml xf86vidmode.xml xfixes.xml xinerama.xml xinput.xml xkb.xml xprint.xml xselinux.xml xtest.xml xv.xml xvmc.xml '/usr/share/xcb'
+make[2]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/src'
+Making install in xcbgen
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[2]: Entering directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/python3.5/site-packages/xcbgen'
+ /usr/bin/install -c -m 644 __init__.py error.py expr.py matcher.py state.py xtypes.py '/usr/lib/python3.5/site-packages/xcbgen'
+Byte-compiling python modules...
+__init__.pyerror.pyexpr.pymatcher.pystate.pyxtypes.py
+Byte-compiling python modules (optimized versions) ...
+__init__.pyerror.pyexpr.pymatcher.pystate.pyxtypes.py
+make[2]: Leaving directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11/xcbgen'
+make[1]: Entering directory '/sources/7.9/xcb-proto-1.11'
+make[2]: Entering directory '/sources/7.9/xcb-proto-1.11'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 xcb-proto.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/xcb-proto-1.11'
+make[1]: Leaving directory '/sources/7.9/xcb-proto-1.11'

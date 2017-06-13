@@ -1,0 +1,2 @@
+mkdir /usr/share/doc/gsl-2.1 &&
+cp doc/gsl-ref.html/* /usr/share/doc/gsl-2.1

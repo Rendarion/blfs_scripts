@@ -1,0 +1,5 @@
+./configure --prefix=/usr \
+            --mandir=/usr/share/man \
+            --enable-shared \
+            --disable-static &&
+make

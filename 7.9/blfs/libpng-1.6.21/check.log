@@ -1,0 +1,69 @@
+rm -f scripts/symbols.out scripts/symbols.tf[12]
+test -d scripts || mkdir scripts || test -d scripts
+gcc -E -DHAVE_CONFIG_H -I. \
+     -DPNGLIB_LIBNAME='PNG16_0' -DPNGLIB_VERSION='1.6.21' -DSYMBOL_PREFIX='' -DPNG_NO_USE_READ_MACROS -DPNG_BUILDING_SYMBOL_TABLE  scripts/symbols.c > scripts/symbols.tf1
+gawk -f "./scripts/dfn.awk" out="scripts/symbols.tf2" scripts/symbols.tf1 1>&2
+rm -f scripts/symbols.tf1
+mv scripts/symbols.tf2 scripts/symbols.out
+rm -f scripts/symbols.chk scripts/symbols.new
+gawk -f ./scripts/checksym.awk ./scripts/symbols.def\
+    of="scripts/symbols.new" scripts/symbols.out >&2
+mv scripts/symbols.new scripts/symbols.chk
+make  check-am
+make[1]: Entering directory '/sources/7.9/libpng-1.6.21'
+make  pngtest pngunknown pngstest pngvalid pngimage
+make[2]: Entering directory '/sources/7.9/libpng-1.6.21'
+make[2]: 'pngunknown' is up to date.
+make[2]: 'pngstest' is up to date.
+make[2]: 'pngvalid' is up to date.
+make[2]: 'pngimage' is up to date.
+make[2]: Leaving directory '/sources/7.9/libpng-1.6.21'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/libpng-1.6.21'
+make[3]: Entering directory '/sources/7.9/libpng-1.6.21'
+PASS: tests/pngtest
+PASS: tests/pngvalid-gamma-16-to-8
+PASS: tests/pngvalid-gamma-alpha-mode
+PASS: tests/pngvalid-gamma-background
+PASS: tests/pngvalid-gamma-expand16-alpha-mode
+PASS: tests/pngvalid-gamma-expand16-background
+PASS: tests/pngvalid-gamma-expand16-transform
+PASS: tests/pngvalid-gamma-sbit
+PASS: tests/pngvalid-gamma-threshold
+PASS: tests/pngvalid-gamma-transform
+PASS: tests/pngvalid-progressive-size
+PASS: tests/pngvalid-progressive-interlace-standard
+PASS: tests/pngvalid-transform
+PASS: tests/pngvalid-progressive-standard
+PASS: tests/pngvalid-standard
+PASS: tests/pngstest-1.8
+PASS: tests/pngstest-1.8-alpha
+PASS: tests/pngstest-linear
+PASS: tests/pngstest-linear-alpha
+PASS: tests/pngstest-none
+PASS: tests/pngstest-none-alpha
+PASS: tests/pngstest-sRGB
+PASS: tests/pngstest-sRGB-alpha
+PASS: tests/pngunknown-IDAT
+PASS: tests/pngunknown-discard
+PASS: tests/pngunknown-if-safe
+PASS: tests/pngunknown-sAPI
+PASS: tests/pngunknown-sTER
+PASS: tests/pngunknown-save
+PASS: tests/pngunknown-vpAg
+PASS: tests/pngimage-quick
+PASS: tests/pngimage-full
+============================================================================
+Testsuite summary for libpng 1.6.21
+============================================================================
+# TOTAL: 32
+# PASS:  32
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/libpng-1.6.21'
+make[2]: Leaving directory '/sources/7.9/libpng-1.6.21'
+make[1]: Leaving directory '/sources/7.9/libpng-1.6.21'

@@ -1,0 +1,23 @@
+PERL_DL_NONLAZY=1 "/usr/bin/perl" "-MExtUtils::Command::MM" "-MTest::Harness" "-e" "undef *Test::Harness::Switches; test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00basic.t ............. ok
+t/01exception.t ......... ok
+t/01simpledriver.t ...... ok
+t/02simplefilter.t ...... ok
+t/03chdriver.t .......... ok
+t/04chfilter.t .......... ok
+t/05dtdhdriver.t ........ ok
+t/06lexhdriver.t ........ ok
+t/07declhdriver.t ....... ok
+t/08errorhdriver.t ...... ok
+t/09resoldriver.t ....... ok
+t/10dochdriver.t ........ ok
+t/11sax1multiclass.t .... ok
+t/12sax2multiclass.t .... ok
+t/13handlerswitch.t ..... ok
+t/14downstreamswitch.t .. ok
+t/15parentswitch.t ...... ok
+t/16gethandlers.t ....... ok
+t/release-pod-syntax.t .. skipped: these tests are for release candidate testing
+All tests successful.
+Files=19, Tests=137,  1 wallclock secs ( 0.09 usr  0.02 sys +  0.95 cusr  0.08 csys =  1.14 CPU)
+Result: PASS

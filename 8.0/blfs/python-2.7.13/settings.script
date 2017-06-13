@@ -1,0 +1,14 @@
+URL=(
+"https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tar.xz"
+"https://docs.python.org/2.7/archives/python-2.7.13-docs-html.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libffi-3.2.1"
+"openssl-1.0.2k"
+)

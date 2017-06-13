@@ -1,0 +1,15 @@
+URL=(
+"http://download.kde.org/stable/qca/2.1.1/src/qca-2.1.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"certificate_authority_certificates"
+"cmake-3.7.2"
+"qt-5.8.0"
+"which-2.21"
+)

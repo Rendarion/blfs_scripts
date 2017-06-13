@@ -1,0 +1,65 @@
+cd andale
+install -v -d -m755 /usr/share/fonts/andale &&
+install -v -m644 *.TTF /usr/share/fonts/andale &&
+fc-cache -v /usr/share/fonts/andale
+cd ..
+
+cd arial
+install -v -d -m755 /usr/share/fonts/arial &&
+install -v -m644 *.TTF /usr/share/fonts/arial &&
+fc-cache -v /usr/share/fonts/arial
+cd ..
+
+cd arialb
+install -v -d -m755 /usr/share/fonts/arialb &&
+install -v -m644 *.TTF /usr/share/fonts/arialb &&
+fc-cache -v /usr/share/fonts/arialb
+cd ..
+
+cd comic
+install -v -d -m755 /usr/share/fonts/comic &&
+install -v -m644 *.TTF /usr/share/fonts/comic &&
+fc-cache -v /usr/share/fonts/comic
+cd ..
+
+cd courie
+install -v -d -m755 /usr/share/fonts/courie &&
+install -v -m644 *.ttf /usr/share/fonts/courie &&
+fc-cache -v /usr/share/fonts/courie
+cd ..
+
+cd georgi
+install -v -d -m755 /usr/share/fonts/georgi &&
+install -v -m644 *.TTF /usr/share/fonts/georgi &&
+fc-cache -v /usr/share/fonts/georgi
+cd ..
+
+cd impact
+install -v -d -m755 /usr/share/fonts/impact &&
+install -v -m644 *.TTF /usr/share/fonts/impact &&
+fc-cache -v /usr/share/fonts/impact
+cd ..
+
+cd times
+install -v -d -m755 /usr/share/fonts/times &&
+install -v -m644 *.TTF /usr/share/fonts/times &&
+fc-cache -v /usr/share/fonts/times
+cd ..
+
+cd trebuc
+install -v -d -m755 /usr/share/fonts/trebuc &&
+install -v -m644 *.TTF /usr/share/fonts/trebuc &&
+fc-cache -v /usr/share/fonts/trebuc
+cd ..
+
+cd verdan
+install -v -d -m755 /usr/share/fonts/verdan &&
+install -v -m644 *.TTF /usr/share/fonts/verdan &&
+fc-cache -v /usr/share/fonts/verdan
+cd ..
+
+cd webdin
+install -v -d -m755 /usr/share/fonts/webdin &&
+install -v -m644 *.TTF /usr/share/fonts/webdin &&
+fc-cache -v /usr/share/fonts/webdin
+cd ..

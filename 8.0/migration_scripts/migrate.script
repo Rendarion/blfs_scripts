@@ -1,0 +1,97 @@
+##
+# read settings variables from settings.script file
+##
+source settings.script
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+##
+# create mountpoints for partitions and mount them
+##
+
+as_root mkdir -pv /mnt/new_root
+as_root mount -v -t ext4 /dev/sda1 /mnt/new_root
+as_root mkdir -pv /mnt/new_opt
+as_root mount -v -t ext4 /dev/sda6 /mnt/new_opt
+as_root mkdir -pv /mnt/new_home
+as_root mount -v -t ext4 /dev/sda8 /mnt/new_home
+
+##
+# clean up (empty) root
+##
+
+#as_root rm -rf /mnt/new_root/*
+
+##
+# move root
+##
+
+#as_root rsync -aAXv --exclude={"/opt/*","/sources/*","/home/*","/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"} / /mnt/new_root
+
+##
+# clean up (empty) opt
+##
+
+as_root rm -rf /mnt/new_opt/*
+
+##
+# move opt
+##
+
+as_root rsync -aAXv /opt/ /mnt/new_opt/
+
+##
+# clean (remove old configs) home
+##
+
+as_root rm -rf /mnt/new_home/*/.*
+
+##
+# move home
+##
+
+as_root rsync -aAXv /home/ /mnt/new_home/
+
+##
+# replace fstab
+##
+
+as_root cat > /mnt/new_root/etc/fstab << "EOF"
+# Begin /etc/fstab
+ 
+# file system  mount-point  type     options             dump  fsck
+#                                                              order
+
+/dev/sda1      /            ext4     defaults            1     1
+/dev/sda3      /boot        ext4     ro                  0     0
+/dev/sda5      swap         swap     pri=1               0     0
+/dev/sda6      /opt         ext4     defaults            0     2
+/dev/sda7      /sources     ext4     defaults            0     2
+/dev/sda8      /home        ext4     defaults            0     2
+/dev/sda9      /backup      ext4     defaults            0     2
+proc           /proc        proc     nosuid,noexec,nodev 0     0
+sysfs          /sys         sysfs    nosuid,noexec,nodev 0     0
+devpts         /dev/pts     devpts   gid=5,mode=620      0     0
+tmpfs          /run         tmpfs    defaults            0     0
+devtmpfs       /dev         devtmpfs mode=0755,nosuid    0     0
+ 
+# End /etc/fstab
+EOF
+
+##
+# modify grub
+##
+
+#mount -o remount,rw /dev/sda3 /boot
+
+#as_root cat >> /boot/grub/grub.cfg << "EOF"
+#menuentry "GNU/Linux, Linux 4.4.2-lfs-7.9 sda1" {
+#        linux   /vmlinuz-4.4.2-lfs-7.9 root=/dev/sda1 ro resume=/dev/sda5
+#}
+#EOF

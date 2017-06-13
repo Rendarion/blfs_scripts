@@ -1,0 +1,4 @@
+./configure --prefix=/usr                                 \
+            --with-ca-certificates=/etc/ssl/ca-bundle.crt \
+            --disable-static                              &&
+make

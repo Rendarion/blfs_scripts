@@ -1,0 +1,12 @@
+URL=(
+"ftp://lynx.isc.org/lynx/tarballs/lynx2.8.8rel.2.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"openssl-1.0.2k"
+)

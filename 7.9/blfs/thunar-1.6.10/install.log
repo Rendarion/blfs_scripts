@@ -1,0 +1,1105 @@
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for perl5... no
+checking for perl... perl
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for memory.h... (cached) yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking sched.h usability... yes
+checking sched.h presence... yes
+checking for sched.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for localeconv... yes
+checking for mkdtemp... yes
+checking for pread... yes
+checking for pwrite... yes
+checking for sched_yield... yes
+checking for setgroupent... no
+checking for setpassent... no
+checking for strcoll... yes
+checking for strlcpy... no
+checking for strptime... yes
+checking for symlink... yes
+checking for atexit... yes
+checking for locale.h... (cached) yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  am ar ast be bg bn ca cs da de el en_AU en_GB eo es et eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -lX11... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for exo-1 >= 0.10.0... 0.10.7
+checking EXO_CFLAGS... -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking EXO_LIBS... -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for glib-2.0 >= 2.30.0... 2.46.2
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-2.0 >= 2.30.0... 2.46.2
+checking GIO_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gthread-2.0 >= 2.30.0... 2.46.2
+checking GTHREAD_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTHREAD_LIBS... -lgthread-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gmodule-2.0 >= 2.30.0... 2.46.2
+checking GMODULE_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GMODULE_LIBS... -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-2.0 >= 2.24.0... 2.24.29
+checking GTK_CFLAGS... -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK_LIBS... -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gdk-pixbuf-2.0 >= 2.14.0... 2.32.3
+checking GDK_PIXBUF_CFLAGS... -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GDK_PIXBUF_LIBS... -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.10.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4ui-1 >= 4.10.0... 4.12.1
+checking LIBXFCE4UI_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UI_LIBS... -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfconf-0 >= 4.10.0... 4.12.0
+checking XFCONF_CFLAGS... -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking XFCONF_LIBS... -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for SmcSaveYourselfDone in -lSM... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-unix-2.0 >= 2.30.0... 2.46.2
+checking GIO_UNIX_CFLAGS... -pthread -I/usr/include/gio-unix-2.0/ -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_UNIX_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for dbus-glib-1 >= 0.34... 0.106
+checking DBUS_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking DBUS_LIBS... -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for optional package gudev-1.0 >= 145... not found
+checking for optional package libnotify >= 0.4.0... not found
+checking whether to build with debugging support... minimum
+checking whether /usr/bin/ld -m elf_x86_64 accepts --as-needed... yes
+checking whether /usr/bin/ld -m elf_x86_64 accepts -O1... yes
+checking PLATFORM_CPPFLAGS... 
+checking PLATFORM_CFLAGS... 
+checking PLATFORM_LDFLAGS... 
+checking whether to build the thunar-apr plugin... yes
+checking for optional package libexif >= 0.6.0... not found
+checking whether to build the thunar-sbr plugin... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libpcre >= 6.0... 8.38
+checking PCRE_CFLAGS... 
+checking PCRE_LIBS... -lpcre
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4panel-1.0 >= 4.7.0... 4.12.0
+checking LIBXFCE4PANEL_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4panel-1.0 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4PANEL_LIBS... -lxfce4panel-1.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -Wl,--export-dynamic -lgmodule-2.0 -pthread -lxfce4util -lglib-2.0
+checking whether to build the thunar-tpa plugin... yes
+checking whether to build the thunar-uca plugin... yes
+checking whether to build the thunar-wallpaper plugin... yes
+checking for xfconf-query... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/design/Makefile
+config.status: creating docs/papers/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/tex-open-terminal/Makefile
+config.status: creating icons/Makefile
+config.status: creating icons/16x16/Makefile
+config.status: creating icons/24x24/Makefile
+config.status: creating icons/48x48/Makefile
+config.status: creating icons/64x64/Makefile
+config.status: creating icons/128x128/Makefile
+config.status: creating icons/scalable/Makefile
+config.status: creating pixmaps/Makefile
+config.status: creating plugins/Makefile
+config.status: creating plugins/thunar-apr/Makefile
+config.status: creating plugins/thunar-sbr/Makefile
+config.status: creating plugins/thunar-sendto-email/Makefile
+config.status: creating plugins/thunar-tpa/Makefile
+config.status: creating plugins/thunar-uca/Makefile
+config.status: creating plugins/thunar-wallpaper/Makefile
+config.status: creating po/Makefile.in
+config.status: creating thunar/Makefile
+config.status: creating thunarx/Makefile
+config.status: creating thunarx/thunarx-2.pc
+config.status: creating thunarx/thunarx-config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+Build Configuration:
+
+* D-BUS support:                      yes
+* GIO UNIX features:                  yes
+* GUDev (required for thunar-volman): no
+* Mount notification support:         no
+* Debug Support:                      minimum
+
+Additional Plugins:
+
+* Advanced Properties:                yes
+* Simple Builtin Renamers:            yes
+* Trash Panel Applet:                 yes
+* User Customizable Actions:          yes
+* Wallpaper support:                  yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10'
+Making all in icons
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+Making all in 16x16
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+Making all in 24x24
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+Making all in 48x48
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+Making all in 64x64
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+Making all in 128x128
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+Making all in scalable
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+Making all in pixmaps
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/pixmaps'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/pixmaps'
+Making all in po
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/po'
+  MSGFMT am.gmo
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT be.gmo
+  MSGFMT bg.gmo
+  MSGFMT bn.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT eo.gmo
+  MSGFMT es.gmo
+  MSGFMT et.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pa.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ro.gmo
+  MSGFMT ru.gmo
+  MSGFMT si.gmo
+  MSGFMT sk.gmo
+  MSGFMT sl.gmo
+  MSGFMT sq.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT ur_PK.gmo
+  MSGFMT ur.gmo
+  MSGFMT vi.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_HK.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/po'
+Making all in thunarx
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/thunarx'
+  CC       libthunarx_2_la-thunarx-config.lo
+  CC       libthunarx_2_la-thunarx-file-info.lo
+  CC       libthunarx_2_la-thunarx-menu-provider.lo
+  CC       libthunarx_2_la-thunarx-preferences-provider.lo
+  CC       libthunarx_2_la-thunarx-private.lo
+  CC       libthunarx_2_la-thunarx-property-page.lo
+  CC       libthunarx_2_la-thunarx-property-page-provider.lo
+  CC       libthunarx_2_la-thunarx-provider-factory.lo
+  CC       libthunarx_2_la-thunarx-provider-module.lo
+  CC       libthunarx_2_la-thunarx-provider-plugin.lo
+  CC       libthunarx_2_la-thunarx-renamer.lo
+  CC       libthunarx_2_la-thunarx-renamer-provider.lo
+  CCLD     libthunarx-2.la
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/thunarx'
+Making all in thunar
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+make  all-am
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+  CC       thunar-thunar-marshal.o
+  CC       thunar-thunar-thumbnail-frame.o
+  CC       thunar-thunar-dbus-client.o
+  CC       thunar-thunar-dbus-service.o
+  CC       thunar-main.o
+  CC       thunar-thunar-abstract-dialog.o
+  CC       thunar-thunar-abstract-icon-view.o
+  CC       thunar-thunar-application.o
+  CC       thunar-thunar-browser.o
+  CC       thunar-thunar-chooser-button.o
+  CC       thunar-thunar-chooser-dialog.o
+  CC       thunar-thunar-chooser-model.o
+  CC       thunar-thunar-clipboard-manager.o
+  CC       thunar-thunar-column-editor.o
+  CC       thunar-thunar-column-model.o
+  CC       thunar-thunar-compact-view.o
+  CC       thunar-thunar-component.o
+  CC       thunar-thunar-create-dialog.o
+  CC       thunar-thunar-deep-count-job.o
+  CC       thunar-thunar-details-view.o
+  CC       thunar-thunar-dialogs.o
+  CC       thunar-thunar-device.o
+  CC       thunar-thunar-device-monitor.o
+  CC       thunar-thunar-dnd.o
+  CC       thunar-thunar-emblem-chooser.o
+  CC       thunar-thunar-enum-types.o
+  CC       thunar-thunar-exec.o
+  CC       thunar-thunar-file.o
+  CC       thunar-thunar-file-monitor.o
+  CC       thunar-thunar-folder.o
+  CC       thunar-thunar-gdk-extensions.o
+  CC       thunar-thunar-gio-extensions.o
+  CC       thunar-thunar-gobject-extensions.o
+  CC       thunar-thunar-gtk-extensions.o
+  CC       thunar-thunar-history-action.o
+  CC       thunar-thunar-history.o
+  CC       thunar-thunar-ice.o
+  CC       thunar-thunar-icon-factory.o
+  CC       thunar-thunar-icon-renderer.o
+  CC       thunar-thunar-icon-view.o
+  CC       thunar-thunar-image.o
+  CC       thunar-thunar-io-jobs.o
+  CC       thunar-thunar-io-jobs-util.o
+  CC       thunar-thunar-io-scan-directory.o
+  CC       thunar-thunar-job.o
+  CC       thunar-thunar-launcher.o
+  CC       thunar-thunar-list-model.o
+  CC       thunar-thunar-location-bar.o
+  CC       thunar-thunar-location-button.o
+  CC       thunar-thunar-location-buttons.o
+  CC       thunar-thunar-location-dialog.o
+  CC       thunar-thunar-location-entry.o
+  CC       thunar-thunar-misc-jobs.o
+  CC       thunar-thunar-notify.o
+  CC       thunar-thunar-navigator.o
+  CC       thunar-thunar-pango-extensions.o
+  CC       thunar-thunar-path-entry.o
+  CC       thunar-thunar-permissions-chooser.o
+  CC       thunar-thunar-preferences-dialog.o
+  CC       thunar-thunar-preferences.o
+  CC       thunar-thunar-progress-dialog.o
+  CC       thunar-thunar-progress-view.o
+  CC       thunar-thunar-properties-dialog.o
+  CC       thunar-thunar-renamer-dialog.o
+  CC       thunar-thunar-renamer-model.o
+  CC       thunar-thunar-renamer-pair.o
+  CC       thunar-thunar-renamer-progress.o
+  CC       thunar-thunar-sendto-model.o
+  CC       thunar-thunar-session-client.o
+  CC       thunar-thunar-shortcuts-icon-renderer.o
+  CC       thunar-thunar-shortcuts-model.o
+  CC       thunar-thunar-shortcuts-pane.o
+  CC       thunar-thunar-shortcuts-view.o
+  CC       thunar-thunar-side-pane.o
+  CC       thunar-thunar-simple-job.o
+  CC       thunar-thunar-size-label.o
+  CC       thunar-thunar-standard-view.o
+  CC       thunar-thunar-statusbar.o
+  CC       thunar-thunar-stock.o
+  CC       thunar-thunar-templates-action.o
+  CC       thunar-thunar-text-renderer.o
+  CC       thunar-thunar-thumbnail-cache.o
+  CC       thunar-thunar-thumbnailer.o
+  CC       thunar-thunar-transfer-job.o
+  CC       thunar-thunar-trash-action.o
+  CC       thunar-thunar-tree-model.o
+  CC       thunar-thunar-tree-pane.o
+  CC       thunar-thunar-tree-view.o
+  CC       thunar-thunar-user.o
+  CC       thunar-thunar-util.o
+  CC       thunar-thunar-view.o
+  CC       thunar-thunar-window.o
+  CCLD     thunar
+  ITMRG  thunar-settings.desktop
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/docs'
+Making all in design
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs/design'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/design'
+Making all in papers
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/docs'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/examples'
+Making all in tex-open-terminal
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/examples/tex-open-terminal'
+  CC       tex_open_terminal_la-tex-open-terminal-plugin.lo
+  CC       tex_open_terminal_la-tex-open-terminal.lo
+  CCLD     tex-open-terminal.la
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/examples/tex-open-terminal'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/examples'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/examples'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/examples'
+Making all in plugins
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins'
+Making all in thunar-apr
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+  CC       thunar_apr_la-thunar-apr-abstract-page.lo
+  CC       thunar_apr_la-thunar-apr-desktop-page.lo
+  CC       thunar_apr_la-thunar-apr-image-page.lo
+  CC       thunar_apr_la-thunar-apr-plugin.lo
+  CC       thunar_apr_la-thunar-apr-private.lo
+  CC       thunar_apr_la-thunar-apr-provider.lo
+  CCLD     thunar-apr.la
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+Making all in thunar-sbr
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+  CC       thunar_sbr_la-thunar-sbr-case-renamer.lo
+  CC       thunar_sbr_la-thunar-sbr-date-renamer.lo
+  CC       thunar_sbr_la-thunar-sbr-enum-types.lo
+  CC       thunar_sbr_la-thunar-sbr-insert-renamer.lo
+  CC       thunar_sbr_la-thunar-sbr-number-renamer.lo
+  CC       thunar_sbr_la-thunar-sbr-plugin.lo
+  CC       thunar_sbr_la-thunar-sbr-provider.lo
+  CC       thunar_sbr_la-thunar-sbr-remove-renamer.lo
+  CC       thunar_sbr_la-thunar-sbr-replace-renamer.lo
+  CCLD     thunar-sbr.la
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+Making all in thunar-tpa
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make  all-am
+make[4]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+  CC       libthunar_tpa_la-thunar-tpa.lo
+  CCLD     libthunar-tpa.la
+  ITMRG  thunar-tpa.desktop
+make[4]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+Making all in thunar-uca
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+  CC       thunar_uca_la-thunar-uca-chooser.lo
+  CC       thunar_uca_la-thunar-uca-context.lo
+  CC       thunar_uca_la-thunar-uca-editor.lo
+  CC       thunar_uca_la-thunar-uca-model.lo
+  CC       thunar_uca_la-thunar-uca-plugin.lo
+  CC       thunar_uca_la-thunar-uca-private.lo
+  CC       thunar_uca_la-thunar-uca-provider.lo
+  CCLD     thunar-uca.la
+  ITMRG  uca.xml
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+Making all in thunar-wallpaper
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+  CC       thunar_wallpaper_plugin_la-twp-provider.lo
+  CC       thunar_wallpaper_plugin_la-thunar-wallpaper-plugin.lo
+  CCLD     thunar-wallpaper-plugin.la
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+Making all in thunar-sendto-email
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+  CC       thunar_sendto_email-main.o
+  CCLD     thunar-sendto-email
+sed -e "s,\@HELPERDIR\@,/usr/lib,g" < thunar-sendto-email.desktop.in.in > thunar-sendto-email.desktop.in
+  ITMRG  thunar-sendto-email.desktop
+rm thunar-sendto-email.desktop.in
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10'
+  GEN      ThunarBulkRename
+  ITMRG  thunar.appdata.xml
+  GEN      Thunar.desktop.in
+  ITMRG  Thunar.desktop
+  GEN      Thunar-bulk-rename.desktop.in
+  ITMRG  Thunar-bulk-rename.desktop
+  GEN      Thunar-folder-handler.desktop.in
+  ITMRG  Thunar-folder-handler.desktop
+sed -e "s,\@bindir\@,/usr/bin,g" < org.xfce.thunar.policy.in.in > org.xfce.thunar.policy.in
+  ITMRG  org.xfce.thunar.policy
+  GEN      org.xfce.FileManager.service
+  GEN      org.xfce.Thunar.service
+rm Thunar-folder-handler.desktop.in Thunar.desktop.in Thunar-bulk-rename.desktop.in org.xfce.thunar.policy.in
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10'
+Making install in icons
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+Making install in 16x16
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/16x16/apps'
+ /usr/bin/install -c -m 644 Thunar.png '/usr/share/icons/hicolor/16x16/apps'
+ /bin/mkdir -p '/usr/share/icons/hicolor/16x16/stock/navigation'
+ /usr/bin/install -c -m 644 stock_folder-copy.png stock_folder-move.png stock_thunar-shortcuts.png '/usr/share/icons/hicolor/16x16/stock/navigation'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/16x16'
+Making install in 24x24
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/24x24/apps'
+ /usr/bin/install -c -m 644 Thunar.png '/usr/share/icons/hicolor/24x24/apps'
+ /bin/mkdir -p '/usr/share/icons/hicolor/24x24/stock/navigation'
+ /usr/bin/install -c -m 644 stock_folder-copy.png stock_folder-move.png '/usr/share/icons/hicolor/24x24/stock/navigation'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/24x24'
+Making install in 48x48
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 Thunar.png '/usr/share/icons/hicolor/48x48/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/48x48'
+Making install in 64x64
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/64x64/apps'
+ /usr/bin/install -c -m 644 Thunar.png '/usr/share/icons/hicolor/64x64/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/64x64'
+Making install in 128x128
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/128x128/apps'
+ /usr/bin/install -c -m 644 Thunar.png '/usr/share/icons/hicolor/128x128/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/128x128'
+Making install in scalable
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/scalable/apps'
+ /usr/bin/install -c -m 644 Thunar.svg '/usr/share/icons/hicolor/scalable/apps'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons/scalable'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[4]: Entering directory '/sources/7.9/thunar-1.6.10/icons'
+Updating Gtk icon cache.
+make[4]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/icons'
+Making install in pixmaps
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/pixmaps'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/pixmaps'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/pixmaps/Thunar'
+ /usr/bin/install -c -m 644 Thunar-about-logo.png '/usr/share/pixmaps/Thunar'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/pixmaps'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/pixmaps'
+Making install in po
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/po'
+linguas="am ar ast be bg bn ca cs da de el en_AU en_GB eo es et eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pa pl pt_BR pt ro ru si sk sl sq sr sv te th tr ug uk ur_PK ur vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/thunar-1.6.10/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/Thunar.mo; \
+    echo "installing $lang.gmo as $dir/Thunar.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/Thunar.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/Thunar.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/Thunar.mo.m; \
+    echo "installing $lang.gmo.m as $dir/Thunar.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/Thunar.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/Thunar.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing am.gmo as /usr/share/locale/am/LC_MESSAGES/Thunar.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/Thunar.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/Thunar.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/Thunar.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/Thunar.mo
+installing bn.gmo as /usr/share/locale/bn/LC_MESSAGES/Thunar.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/Thunar.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/Thunar.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/Thunar.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/Thunar.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/Thunar.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/Thunar.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/Thunar.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/Thunar.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/Thunar.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/Thunar.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/Thunar.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/Thunar.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/Thunar.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/Thunar.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/Thunar.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/Thunar.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/Thunar.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/Thunar.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/Thunar.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/Thunar.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/Thunar.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/Thunar.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/Thunar.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/Thunar.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/Thunar.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/Thunar.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/Thunar.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/Thunar.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/Thunar.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/Thunar.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/Thunar.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/Thunar.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/Thunar.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/Thunar.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/Thunar.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/Thunar.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/Thunar.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/Thunar.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/Thunar.mo
+installing sq.gmo as /usr/share/locale/sq/LC_MESSAGES/Thunar.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/Thunar.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/Thunar.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/Thunar.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/Thunar.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/Thunar.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/Thunar.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/Thunar.mo
+installing ur_PK.gmo as /usr/share/locale/ur_PK/LC_MESSAGES/Thunar.mo
+installing ur.gmo as /usr/share/locale/ur/LC_MESSAGES/Thunar.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/Thunar.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/Thunar.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/Thunar.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/Thunar.mo
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/po'
+Making install in thunarx
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/thunarx'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/thunarx'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libthunarx-2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libthunarx-2.so.0.0.0 /usr/lib/libthunarx-2.so.0.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libthunarx-2.so.0.0.0 libthunarx-2.so.0 || { rm -f libthunarx-2.so.0 && ln -s libthunarx-2.so.0.0.0 libthunarx-2.so.0; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libthunarx-2.so.0.0.0 libthunarx-2.so || { rm -f libthunarx-2.so && ln -s libthunarx-2.so.0.0.0 libthunarx-2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libthunarx-2.lai /usr/lib/libthunarx-2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/thunarx-2/thunarx'
+ /usr/bin/install -c -m 644 thunarx.h thunarx-config.h thunarx-file-info.h thunarx-menu-provider.h thunarx-preferences-provider.h thunarx-property-page.h thunarx-property-page-provider.h thunarx-provider-factory.h thunarx-provider-plugin.h thunarx-renamer.h thunarx-renamer-provider.h '/usr/include/thunarx-2/thunarx'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 thunarx-2.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/thunarx'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/thunarx'
+Making install in thunar
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+make  install-am
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c thunar '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/thunar /usr/bin/thunar
+ /bin/mkdir -p '/usr/bin'
+ /usr/bin/install -c thunar-settings '/usr/bin'
+make  install-exec-hook
+make[4]: Entering directory '/sources/7.9/thunar-1.6.10/thunar'
+/bin/sh /sources/7.9/thunar-1.6.10/install-sh -d /usr/bin
+( cd /usr/bin ; test -x Thunar || ln -sf thunar Thunar )
+make[4]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 thunar-settings.desktop '/usr/share/applications'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/thunar'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/docs'
+Making install in design
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/docs/design'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs/design'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/design'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/design'
+Making install in papers
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/docs/papers'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/docs'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/doc/Thunar-1.6.10'
+ /usr/bin/install -c -m 644 README.gtkrc '/usr/share/doc/Thunar-1.6.10'
+ /bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 Thunar.1 '/usr/share/man/man1'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/docs'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/docs'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/docs'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/examples'
+Making install in tex-open-terminal
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/examples/tex-open-terminal'
+make[2]: Nothing to be done for 'install'.
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/examples/tex-open-terminal'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/examples'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/examples'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/examples'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/examples'
+Making install in plugins
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10/plugins'
+Making install in thunar-apr
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/thunarx-2'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   thunar-apr.la '/usr/lib/thunarx-2'
+libtool: install: (cd /sources/7.9/thunar-1.6.10/plugins/thunar-apr; /bin/sh "/sources/7.9/thunar-1.6.10/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -no-undefined -export-symbols-regex "^thunar_extension_(shutdown|initialize|list_types)" -module -Wl,--as-needed -Wl,-O1 -o thunar-apr.la -rpath /usr/lib/thunarx-2 thunar_apr_la-thunar-apr-abstract-page.lo thunar_apr_la-thunar-apr-desktop-page.lo thunar_apr_la-thunar-apr-image-page.lo thunar_apr_la-thunar-apr-plugin.lo thunar_apr_la-thunar-apr-private.lo thunar_apr_la-thunar-apr-provider.lo ../../thunarx/libthunarx-2.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype )
+libtool: install: /usr/bin/install -c .libs/thunar-apr.soT /usr/lib/thunarx-2/thunar-apr.so
+libtool: install: /usr/bin/install -c .libs/thunar-apr.lai /usr/lib/thunarx-2/thunar-apr.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/thunarx-2
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/thunarx-2
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-apr'
+Making install in thunar-sbr
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/thunarx-2'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   thunar-sbr.la '/usr/lib/thunarx-2'
+libtool: install: (cd /sources/7.9/thunar-1.6.10/plugins/thunar-sbr; /bin/sh "/sources/7.9/thunar-1.6.10/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -no-undefined -export-symbols-regex "^thunar_extension_(shutdown|initialize|list_types)" -module -Wl,--as-needed -Wl,-O1 -o thunar-sbr.la -rpath /usr/lib/thunarx-2 thunar_sbr_la-thunar-sbr-case-renamer.lo thunar_sbr_la-thunar-sbr-date-renamer.lo thunar_sbr_la-thunar-sbr-enum-types.lo thunar_sbr_la-thunar-sbr-insert-renamer.lo thunar_sbr_la-thunar-sbr-number-renamer.lo thunar_sbr_la-thunar-sbr-plugin.lo thunar_sbr_la-thunar-sbr-provider.lo thunar_sbr_la-thunar-sbr-remove-renamer.lo thunar_sbr_la-thunar-sbr-replace-renamer.lo ../../thunarx/libthunarx-2.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lglib-2.0 -lpcre )
+libtool: install: /usr/bin/install -c .libs/thunar-sbr.soT /usr/lib/thunarx-2/thunar-sbr.so
+libtool: install: /usr/bin/install -c .libs/thunar-sbr.lai /usr/lib/thunarx-2/thunar-sbr.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/thunarx-2
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/thunarx-2
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sbr'
+Making install in thunar-tpa
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make  install-am
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make[4]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/xfce4/panel/plugins'
+ /usr/bin/install -c -m 644 thunar-tpa.desktop '/usr/share/xfce4/panel/plugins'
+ /bin/mkdir -p '/usr/lib/xfce4/panel/plugins'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libthunar-tpa.la '/usr/lib/xfce4/panel/plugins'
+libtool: install: /usr/bin/install -c .libs/libthunar-tpa.so /usr/lib/xfce4/panel/plugins/libthunar-tpa.so
+libtool: install: /usr/bin/install -c .libs/libthunar-tpa.lai /usr/lib/xfce4/panel/plugins/libthunar-tpa.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/xfce4/panel/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/xfce4/panel/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-tpa'
+Making install in thunar-uca
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/etc/xdg/Thunar'
+ /usr/bin/install -c -m 644 uca.xml '/etc/xdg/Thunar'
+ /bin/mkdir -p '/usr/lib/thunarx-2'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   thunar-uca.la '/usr/lib/thunarx-2'
+libtool: install: (cd /sources/7.9/thunar-1.6.10/plugins/thunar-uca; /bin/sh "/sources/7.9/thunar-1.6.10/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/xfce4/libxfce4ui-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -no-undefined -export-symbols-regex "^thunar_extension_(shutdown|initialize|list_types)" -module -Wl,--as-needed -Wl,-O1 -o thunar-uca.la -rpath /usr/lib/thunarx-2 thunar_uca_la-thunar-uca-chooser.lo thunar_uca_la-thunar-uca-context.lo thunar_uca_la-thunar-uca-editor.lo thunar_uca_la-thunar-uca-model.lo thunar_uca_la-thunar-uca-plugin.lo thunar_uca_la-thunar-uca-private.lo thunar_uca_la-thunar-uca-provider.lo ../../thunarx/libthunarx-2.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lxfce4util -lglib-2.0 -lxfce4ui-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 )
+libtool: install: /usr/bin/install -c .libs/thunar-uca.soT /usr/lib/thunarx-2/thunar-uca.so
+libtool: install: /usr/bin/install -c .libs/thunar-uca.lai /usr/lib/thunarx-2/thunar-uca.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/thunarx-2
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/thunarx-2
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-uca'
+Making install in thunar-wallpaper
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/thunarx-2'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   thunar-wallpaper-plugin.la '/usr/lib/thunarx-2'
+libtool: install: (cd /sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper; /bin/sh "/sources/7.9/thunar-1.6.10/libtool"  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/exo-1 -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -g -O2 -avoid-version -export-dynamic -no-undefined -export-symbols-regex "^thunar_extension_(shutdown|initialize|list_types)" -module -Wl,--as-needed -Wl,-O1 -o thunar-wallpaper-plugin.la -rpath /usr/lib/thunarx-2 thunar_wallpaper_plugin_la-twp-provider.lo thunar_wallpaper_plugin_la-thunar-wallpaper-plugin.lo ../../thunarx/libthunarx-2.la -lexo-1 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lxfce4util -lglib-2.0 -lglib-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0 -lSM -lICE -lX11 )
+libtool: install: /usr/bin/install -c .libs/thunar-wallpaper-plugin.soT /usr/lib/thunarx-2/thunar-wallpaper-plugin.so
+libtool: install: /usr/bin/install -c .libs/thunar-wallpaper-plugin.lai /usr/lib/thunarx-2/thunar-wallpaper-plugin.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/thunarx-2
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/thunarx-2
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-wallpaper'
+Making install in thunar-sendto-email
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/Thunar/sendto'
+ /usr/bin/install -c -m 644 thunar-sendto-email.desktop '/usr/share/Thunar/sendto'
+ /bin/mkdir -p '/usr/lib/Thunar'
+  /bin/sh ../../libtool   --mode=install /usr/bin/install -c thunar-sendto-email '/usr/lib/Thunar'
+libtool: install: /usr/bin/install -c thunar-sendto-email /usr/lib/Thunar/thunar-sendto-email
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins/thunar-sendto-email'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10/plugins'
+make[3]: Entering directory '/sources/7.9/thunar-1.6.10/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10/plugins'
+make[1]: Entering directory '/sources/7.9/thunar-1.6.10'
+make[2]: Entering directory '/sources/7.9/thunar-1.6.10'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/appdata'
+ /usr/bin/install -c -m 644 thunar.appdata.xml '/usr/share/appdata'
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 Thunar.desktop Thunar-bulk-rename.desktop Thunar-folder-handler.desktop '/usr/share/applications'
+ /bin/mkdir -p '/usr/share/polkit-1/actions'
+ /usr/bin/install -c -m 644 org.xfce.thunar.policy '/usr/share/polkit-1/actions'
+ /bin/mkdir -p '/usr/share/dbus-1/services'
+ /usr/bin/install -c -m 644 org.xfce.FileManager.service org.xfce.Thunar.service '/usr/share/dbus-1/services'
+ /bin/mkdir -p '/usr/lib/Thunar'
+ /usr/bin/install -c ThunarBulkRename '/usr/lib/Thunar'
+make[2]: Leaving directory '/sources/7.9/thunar-1.6.10'
+make[1]: Leaving directory '/sources/7.9/thunar-1.6.10'

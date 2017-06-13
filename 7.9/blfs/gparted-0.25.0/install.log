@@ -1,0 +1,631 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gawk... (cached) gawk
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gksudo... no
+checking for gksu... no
+checking for kdesudo... no
+checking for xdg-su... no
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking whether NLS is requested... yes
+checking for intltool >= 0.35.5... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for XML::Parser... ok
+checking for uuid_generate in -luuid... yes
+checking for dlopen in -ldl... yes
+checking for ped_device_read in -lparted... yes
+checking for libparted >= 1.7.1 (querying pkg-config)... 3.2
+checking for 2.0 <= libparted <= 3.0 (loop table creation doesn't delete old partitions)... (cached) no
+checking for libparted >= 2.2 (improved pt re-read)... (cached) yes
+checking for ped_file_system_resize in -lparted... no
+checking for ped_file_system_resize in -lparted-fs-resize... yes
+checking for libparted >= 3.2 (online resize)... (cached) yes
+checking for GTHREAD... yes
+checking for GTKMM... yes
+checking for Glib::Regex class... yes
+checking for Gtk::Window::set_default_icon_name method... no
+checking for gtk_show_uri function... yes
+checking for Gtk::MessageDialog::get_message_area() method... yes
+checking for glibmm >= 2.45.40 which requires C++11 compilation... yes
+checking whether g++ supports C++11 features by default... no
+checking whether g++ supports C++11 features with -std=gnu++11... yes
+checking whether help documentation should be built... no
+checking gnome-doc-utils >= 0.3.2... no
+checking whether to use native libparted /dev/mapper dmraid support... no
+checking whether online resize support is enabled... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating compose/Makefile
+config.status: creating data/Makefile
+config.status: creating data/icons/Makefile
+config.status: creating doc/Makefile
+config.status: creating help/Makefile
+config.status: creating include/Makefile
+config.status: creating src/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+======================== Final configuration ===========================
+                         Installing into prefix  :  /usr
+
+                      Build help documentation?  :  no
+
+           Use native libparted dmraid support?  :  no
+
+       --- Features Based On Libparted Version ---
+       Need delete old partitions before
+              creating a loop table workaround?  :  no
+       Need partition table re-read workaround?  :  no
+     Supports large sector sizes (> 512 bytes)?  :  yes
+   Have old libparted file system resizing API?  :  no
+   Have new libparted file system resizing LIB?  :  yes
+                  Enable online resize support?  :  yes
+
+ If all settings are OK, type make and then (as root) make install
+========================================================================
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0'
+Making all in compose
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/compose'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/compose'
+Making all in data
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/data'
+Making all in icons
+make[3]: Entering directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[3]: Entering directory '/sources/7.9/gparted-0.25.0/data'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gparted-0.25.0/data'
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/data'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/doc'
+Making all in include
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/include'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/include'
+Making all in po
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/po'
+file=`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ar.po
+file=`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bg.po
+file=`echo br | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file br.po
+file=`echo bs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file bs.po
+file=`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca.po
+file=`echo ca@valencia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ca@valencia.po
+file=`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file cs.po
+file=`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file da.po
+file=`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file de.po
+file=`echo dz | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file dz.po
+file=`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file el.po
+file=`echo en_CA | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_CA.po
+file=`echo en_GB | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file en_GB.po
+file=`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eo.po
+file=`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file es.po
+file=`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file et.po
+file=`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file eu.po
+file=`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fa.po
+file=`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fi.po
+file=`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file fr.po
+file=`echo gd | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gd.po
+file=`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gl.po
+file=`echo gu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file gu.po
+file=`echo he | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file he.po
+file=`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file hu.po
+file=`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file id.po
+file=`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file is.po
+file=`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file it.po
+file=`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ja.po
+file=`echo kk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file kk.po
+file=`echo ko | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ko.po
+file=`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lt.po
+file=`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file lv.po
+file=`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file mk.po
+file=`echo ml | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ml.po
+file=`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nb.po
+file=`echo ne | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ne.po
+file=`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nl.po
+file=`echo nn | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file nn.po
+file=`echo oc | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file oc.po
+file=`echo pa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pa.po
+file=`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pl.po
+file=`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt.po
+file=`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file pt_BR.po
+file=`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ro.po
+file=`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file ru.po
+file=`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file rw.po
+file=`echo si | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file si.po
+file=`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sk.po
+file=`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sl.po
+file=`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr.po
+file=`echo sr@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sr@latin.po
+file=`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file sv.po
+file=`echo te | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file te.po
+file=`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file th.po
+file=`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file tr.po
+file=`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file uk.po
+file=`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file vi.po
+file=`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_CN.po
+file=`echo zh_HK | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_HK.po
+file=`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && /usr/bin/msgfmt -o $file zh_TW.po
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/po'
+Making all in src
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/src'
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Copy_Blocks.o -MD -MP -MF .deps/Copy_Blocks.Tpo -c -o Copy_Blocks.o Copy_Blocks.cc
+mv -f .deps/Copy_Blocks.Tpo .deps/Copy_Blocks.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT DMRaid.o -MD -MP -MF .deps/DMRaid.Tpo -c -o DMRaid.o DMRaid.cc
+mv -f .deps/DMRaid.Tpo .deps/DMRaid.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Device.o -MD -MP -MF .deps/Device.Tpo -c -o Device.o Device.cc
+mv -f .deps/Device.Tpo .deps/Device.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT DialogFeatures.o -MD -MP -MF .deps/DialogFeatures.Tpo -c -o DialogFeatures.o DialogFeatures.cc
+mv -f .deps/DialogFeatures.Tpo .deps/DialogFeatures.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT DialogManageFlags.o -MD -MP -MF .deps/DialogManageFlags.Tpo -c -o DialogManageFlags.o DialogManageFlags.cc
+mv -f .deps/DialogManageFlags.Tpo .deps/DialogManageFlags.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Base_Partition.o -MD -MP -MF .deps/Dialog_Base_Partition.Tpo -c -o Dialog_Base_Partition.o Dialog_Base_Partition.cc
+mv -f .deps/Dialog_Base_Partition.Tpo .deps/Dialog_Base_Partition.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Disklabel.o -MD -MP -MF .deps/Dialog_Disklabel.Tpo -c -o Dialog_Disklabel.o Dialog_Disklabel.cc
+mv -f .deps/Dialog_Disklabel.Tpo .deps/Dialog_Disklabel.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_FileSystem_Label.o -MD -MP -MF .deps/Dialog_FileSystem_Label.Tpo -c -o Dialog_FileSystem_Label.o Dialog_FileSystem_Label.cc
+mv -f .deps/Dialog_FileSystem_Label.Tpo .deps/Dialog_FileSystem_Label.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Partition_Copy.o -MD -MP -MF .deps/Dialog_Partition_Copy.Tpo -c -o Dialog_Partition_Copy.o Dialog_Partition_Copy.cc
+mv -f .deps/Dialog_Partition_Copy.Tpo .deps/Dialog_Partition_Copy.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Partition_Info.o -MD -MP -MF .deps/Dialog_Partition_Info.Tpo -c -o Dialog_Partition_Info.o Dialog_Partition_Info.cc
+mv -f .deps/Dialog_Partition_Info.Tpo .deps/Dialog_Partition_Info.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Partition_Name.o -MD -MP -MF .deps/Dialog_Partition_Name.Tpo -c -o Dialog_Partition_Name.o Dialog_Partition_Name.cc
+mv -f .deps/Dialog_Partition_Name.Tpo .deps/Dialog_Partition_Name.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Partition_New.o -MD -MP -MF .deps/Dialog_Partition_New.Tpo -c -o Dialog_Partition_New.o Dialog_Partition_New.cc
+mv -f .deps/Dialog_Partition_New.Tpo .deps/Dialog_Partition_New.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Partition_Resize_Move.o -MD -MP -MF .deps/Dialog_Partition_Resize_Move.Tpo -c -o Dialog_Partition_Resize_Move.o Dialog_Partition_Resize_Move.cc
+mv -f .deps/Dialog_Partition_Resize_Move.Tpo .deps/Dialog_Partition_Resize_Move.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Progress.o -MD -MP -MF .deps/Dialog_Progress.Tpo -c -o Dialog_Progress.o Dialog_Progress.cc
+mv -f .deps/Dialog_Progress.Tpo .deps/Dialog_Progress.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Dialog_Rescue_Data.o -MD -MP -MF .deps/Dialog_Rescue_Data.Tpo -c -o Dialog_Rescue_Data.o Dialog_Rescue_Data.cc
+mv -f .deps/Dialog_Rescue_Data.Tpo .deps/Dialog_Rescue_Data.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT DrawingAreaVisualDisk.o -MD -MP -MF .deps/DrawingAreaVisualDisk.Tpo -c -o DrawingAreaVisualDisk.o DrawingAreaVisualDisk.cc
+mv -f .deps/DrawingAreaVisualDisk.Tpo .deps/DrawingAreaVisualDisk.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT FS_Info.o -MD -MP -MF .deps/FS_Info.Tpo -c -o FS_Info.o FS_Info.cc
+mv -f .deps/FS_Info.Tpo .deps/FS_Info.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT FileSystem.o -MD -MP -MF .deps/FileSystem.Tpo -c -o FileSystem.o FileSystem.cc
+mv -f .deps/FileSystem.Tpo .deps/FileSystem.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Frame_Resizer_Base.o -MD -MP -MF .deps/Frame_Resizer_Base.Tpo -c -o Frame_Resizer_Base.o Frame_Resizer_Base.cc
+mv -f .deps/Frame_Resizer_Base.Tpo .deps/Frame_Resizer_Base.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Frame_Resizer_Extended.o -MD -MP -MF .deps/Frame_Resizer_Extended.Tpo -c -o Frame_Resizer_Extended.o Frame_Resizer_Extended.cc
+mv -f .deps/Frame_Resizer_Extended.Tpo .deps/Frame_Resizer_Extended.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT GParted_Core.o -MD -MP -MF .deps/GParted_Core.Tpo -c -o GParted_Core.o GParted_Core.cc
+mv -f .deps/GParted_Core.Tpo .deps/GParted_Core.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT HBoxOperations.o -MD -MP -MF .deps/HBoxOperations.Tpo -c -o HBoxOperations.o HBoxOperations.cc
+mv -f .deps/HBoxOperations.Tpo .deps/HBoxOperations.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT LVM2_PV_Info.o -MD -MP -MF .deps/LVM2_PV_Info.Tpo -c -o LVM2_PV_Info.o LVM2_PV_Info.cc
+mv -f .deps/LVM2_PV_Info.Tpo .deps/LVM2_PV_Info.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Operation.o -MD -MP -MF .deps/Operation.Tpo -c -o Operation.o Operation.cc
+mv -f .deps/Operation.Tpo .deps/Operation.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationChangeUUID.o -MD -MP -MF .deps/OperationChangeUUID.Tpo -c -o OperationChangeUUID.o OperationChangeUUID.cc
+mv -f .deps/OperationChangeUUID.Tpo .deps/OperationChangeUUID.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationCheck.o -MD -MP -MF .deps/OperationCheck.Tpo -c -o OperationCheck.o OperationCheck.cc
+mv -f .deps/OperationCheck.Tpo .deps/OperationCheck.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationCopy.o -MD -MP -MF .deps/OperationCopy.Tpo -c -o OperationCopy.o OperationCopy.cc
+mv -f .deps/OperationCopy.Tpo .deps/OperationCopy.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationCreate.o -MD -MP -MF .deps/OperationCreate.Tpo -c -o OperationCreate.o OperationCreate.cc
+mv -f .deps/OperationCreate.Tpo .deps/OperationCreate.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationDelete.o -MD -MP -MF .deps/OperationDelete.Tpo -c -o OperationDelete.o OperationDelete.cc
+mv -f .deps/OperationDelete.Tpo .deps/OperationDelete.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationDetail.o -MD -MP -MF .deps/OperationDetail.Tpo -c -o OperationDetail.o OperationDetail.cc
+mv -f .deps/OperationDetail.Tpo .deps/OperationDetail.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationFormat.o -MD -MP -MF .deps/OperationFormat.Tpo -c -o OperationFormat.o OperationFormat.cc
+mv -f .deps/OperationFormat.Tpo .deps/OperationFormat.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationLabelFileSystem.o -MD -MP -MF .deps/OperationLabelFileSystem.Tpo -c -o OperationLabelFileSystem.o OperationLabelFileSystem.cc
+mv -f .deps/OperationLabelFileSystem.Tpo .deps/OperationLabelFileSystem.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationNamePartition.o -MD -MP -MF .deps/OperationNamePartition.Tpo -c -o OperationNamePartition.o OperationNamePartition.cc
+mv -f .deps/OperationNamePartition.Tpo .deps/OperationNamePartition.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT OperationResizeMove.o -MD -MP -MF .deps/OperationResizeMove.Tpo -c -o OperationResizeMove.o OperationResizeMove.cc
+mv -f .deps/OperationResizeMove.Tpo .deps/OperationResizeMove.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Partition.o -MD -MP -MF .deps/Partition.Tpo -c -o Partition.o Partition.cc
+mv -f .deps/Partition.Tpo .deps/Partition.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT PipeCapture.o -MD -MP -MF .deps/PipeCapture.Tpo -c -o PipeCapture.o PipeCapture.cc
+mv -f .deps/PipeCapture.Tpo .deps/PipeCapture.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Proc_Partitions_Info.o -MD -MP -MF .deps/Proc_Partitions_Info.Tpo -c -o Proc_Partitions_Info.o Proc_Partitions_Info.cc
+mv -f .deps/Proc_Partitions_Info.Tpo .deps/Proc_Partitions_Info.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT SWRaid_Info.o -MD -MP -MF .deps/SWRaid_Info.Tpo -c -o SWRaid_Info.o SWRaid_Info.cc
+mv -f .deps/SWRaid_Info.Tpo .deps/SWRaid_Info.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT TreeView_Detail.o -MD -MP -MF .deps/TreeView_Detail.Tpo -c -o TreeView_Detail.o TreeView_Detail.cc
+mv -f .deps/TreeView_Detail.Tpo .deps/TreeView_Detail.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Utils.o -MD -MP -MF .deps/Utils.Tpo -c -o Utils.o Utils.cc
+mv -f .deps/Utils.Tpo .deps/Utils.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT Win_GParted.o -MD -MP -MF .deps/Win_GParted.Tpo -c -o Win_GParted.o Win_GParted.cc
+mv -f .deps/Win_GParted.Tpo .deps/Win_GParted.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT btrfs.o -MD -MP -MF .deps/btrfs.Tpo -c -o btrfs.o btrfs.cc
+mv -f .deps/btrfs.Tpo .deps/btrfs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT exfat.o -MD -MP -MF .deps/exfat.Tpo -c -o exfat.o exfat.cc
+mv -f .deps/exfat.Tpo .deps/exfat.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT ext2.o -MD -MP -MF .deps/ext2.Tpo -c -o ext2.o ext2.cc
+mv -f .deps/ext2.Tpo .deps/ext2.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT f2fs.o -MD -MP -MF .deps/f2fs.Tpo -c -o f2fs.o f2fs.cc
+mv -f .deps/f2fs.Tpo .deps/f2fs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT fat16.o -MD -MP -MF .deps/fat16.Tpo -c -o fat16.o fat16.cc
+mv -f .deps/fat16.Tpo .deps/fat16.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT hfs.o -MD -MP -MF .deps/hfs.Tpo -c -o hfs.o hfs.cc
+mv -f .deps/hfs.Tpo .deps/hfs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT hfsplus.o -MD -MP -MF .deps/hfsplus.Tpo -c -o hfsplus.o hfsplus.cc
+mv -f .deps/hfsplus.Tpo .deps/hfsplus.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT jfs.o -MD -MP -MF .deps/jfs.Tpo -c -o jfs.o jfs.cc
+mv -f .deps/jfs.Tpo .deps/jfs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT linux_swap.o -MD -MP -MF .deps/linux_swap.Tpo -c -o linux_swap.o linux_swap.cc
+mv -f .deps/linux_swap.Tpo .deps/linux_swap.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT lvm2_pv.o -MD -MP -MF .deps/lvm2_pv.Tpo -c -o lvm2_pv.o lvm2_pv.cc
+mv -f .deps/lvm2_pv.Tpo .deps/lvm2_pv.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT main.o -MD -MP -MF .deps/main.Tpo -c -o main.o main.cc
+mv -f .deps/main.Tpo .deps/main.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT nilfs2.o -MD -MP -MF .deps/nilfs2.Tpo -c -o nilfs2.o nilfs2.cc
+mv -f .deps/nilfs2.Tpo .deps/nilfs2.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT ntfs.o -MD -MP -MF .deps/ntfs.Tpo -c -o ntfs.o ntfs.cc
+mv -f .deps/ntfs.Tpo .deps/ntfs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT reiser4.o -MD -MP -MF .deps/reiser4.Tpo -c -o reiser4.o reiser4.cc
+mv -f .deps/reiser4.Tpo .deps/reiser4.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT reiserfs.o -MD -MP -MF .deps/reiserfs.Tpo -c -o reiserfs.o reiserfs.cc
+mv -f .deps/reiserfs.Tpo .deps/reiserfs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT ufs.o -MD -MP -MF .deps/ufs.Tpo -c -o ufs.o ufs.cc
+mv -f .deps/ufs.Tpo .deps/ufs.Po
+g++ -DHAVE_CONFIG_H -I. -I..  -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -pthread -I/usr/include/gtkmm-2.4 -I/usr/lib/gtkmm-2.4/include -I/usr/include/atkmm-1.6 -I/usr/include/gtk-unix-print-2.0 -I/usr/include/gtk-2.0 -I/usr/include/gdkmm-2.4 -I/usr/lib/gdkmm-2.4/include -I/usr/include/giomm-2.4 -I/usr/lib/giomm-2.4/include -I/usr/include/pangomm-1.4 -I/usr/lib/pangomm-1.4/include -I/usr/include/glibmm-2.4 -I/usr/lib/glibmm-2.4/include -I/usr/include/cairomm-1.0 -I/usr/lib/cairomm-1.0/include -I/usr/include/sigc++-2.0 -I/usr/lib/sigc++-2.0/include -I/usr/include/gtk-2.0 -I/usr/lib/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/pango-1.0 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DGPARTED_DATADIR=\""/usr/share"\" -DGNOME_ICONDIR=\""/usr/share/pixmaps"\" -DGNOMELOCALEDIR=\""/usr/share/locale"\"  -Wall	 -g -O2 -std=gnu++11 -MT xfs.o -MD -MP -MF .deps/xfs.Tpo -c -o xfs.o xfs.cc
+mv -f .deps/xfs.Tpo .deps/xfs.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall	 -g -O2 -std=gnu++11   -o gpartedbin Copy_Blocks.o DMRaid.o Device.o DialogFeatures.o DialogManageFlags.o Dialog_Base_Partition.o Dialog_Disklabel.o Dialog_FileSystem_Label.o Dialog_Partition_Copy.o Dialog_Partition_Info.o Dialog_Partition_Name.o Dialog_Partition_New.o Dialog_Partition_Resize_Move.o Dialog_Progress.o Dialog_Rescue_Data.o DrawingAreaVisualDisk.o FS_Info.o FileSystem.o Frame_Resizer_Base.o Frame_Resizer_Extended.o GParted_Core.o HBoxOperations.o LVM2_PV_Info.o Operation.o OperationChangeUUID.o OperationCheck.o OperationCopy.o OperationCreate.o OperationDelete.o OperationDetail.o OperationFormat.o OperationLabelFileSystem.o OperationNamePartition.o OperationResizeMove.o Partition.o PipeCapture.o Proc_Partitions_Info.o SWRaid_Info.o TreeView_Detail.o Utils.o Win_GParted.o btrfs.o exfat.o ext2.o f2fs.o fat16.o hfs.o hfsplus.o jfs.o linux_swap.o lvm2_pv.o main.o nilfs2.o ntfs.o reiser4.o reiserfs.o ufs.o xfs.o -lgthread-2.0 -pthread -lglib-2.0 -lgtkmm-2.4 -latkmm-1.6 -lgtk-x11-2.0 -lgdkmm-2.4 -lgiomm-2.4 -lpangomm-1.4 -lglibmm-2.4 -lcairomm-1.0 -lsigc-2.0 -lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lfontconfig -lfreetype -lparted-fs-resize -lparted -ldl -luuid 
+libtool: link: g++ -Wall -g -O2 -std=gnu++11 -o gpartedbin Copy_Blocks.o DMRaid.o Device.o DialogFeatures.o DialogManageFlags.o Dialog_Base_Partition.o Dialog_Disklabel.o Dialog_FileSystem_Label.o Dialog_Partition_Copy.o Dialog_Partition_Info.o Dialog_Partition_Name.o Dialog_Partition_New.o Dialog_Partition_Resize_Move.o Dialog_Progress.o Dialog_Rescue_Data.o DrawingAreaVisualDisk.o FS_Info.o FileSystem.o Frame_Resizer_Base.o Frame_Resizer_Extended.o GParted_Core.o HBoxOperations.o LVM2_PV_Info.o Operation.o OperationChangeUUID.o OperationCheck.o OperationCopy.o OperationCreate.o OperationDelete.o OperationDetail.o OperationFormat.o OperationLabelFileSystem.o OperationNamePartition.o OperationResizeMove.o Partition.o PipeCapture.o Proc_Partitions_Info.o SWRaid_Info.o TreeView_Detail.o Utils.o Win_GParted.o btrfs.o exfat.o ext2.o f2fs.o fat16.o hfs.o hfsplus.o jfs.o linux_swap.o lvm2_pv.o main.o nilfs2.o ntfs.o reiser4.o reiserfs.o ufs.o xfs.o -pthread  /usr/lib/libgthread-2.0.so /usr/lib/libgtkmm-2.4.so /usr/lib/libatkmm-1.6.so /usr/lib/libgdkmm-2.4.so /usr/lib/libgiomm-2.4.so /usr/lib/libpangomm-1.4.so /usr/lib/libglibmm-2.4.so /usr/lib/libcairomm-1.0.so /usr/lib/libsigc-2.0.so /usr/lib/libgtk-x11-2.0.so /usr/lib/libgdk-x11-2.0.so /usr/lib/libpangocairo-1.0.so /usr/lib/libatk-1.0.so /usr/lib/libcairo.so /usr/lib/libgdk_pixbuf-2.0.so /usr/lib/libgio-2.0.so /usr/lib/libpangoft2-1.0.so /usr/lib/libpango-1.0.so /usr/lib/libgobject-2.0.so /usr/lib/libglib-2.0.so /usr/lib/libfontconfig.so /usr/lib/libfreetype.so /usr/lib/libparted-fs-resize.so /usr/lib/libparted.so -ldl /usr/lib/libuuid.so -pthread
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/src'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0'
+sed -e 's,[@]installdir[@],/usr/sbin,g' -e 's,[@]gksuprog[@],,g' < ./gparted.in > gparted
+chmod +x gparted
+LC_ALL=C /usr/bin/intltool-merge  -x -u -c ./po/.intltool-merge-cache ./po gparted.appdata.xml.in gparted.appdata.xml
+Generating and caching the translation database
+Merging translations into gparted.appdata.xml.
+CREATED gparted.appdata.xml
+sed -e 's,[@]installdir[@],/usr/sbin,g' -e 's,[@]gksuprog[@],,g' < ./gparted.desktop.in.in > gparted.desktop.in
+LC_ALL=C /usr/bin/intltool-merge  -d -u -c ./po/.intltool-merge-cache ./po gparted.desktop.in gparted.desktop
+Found cached translation database
+Merging translations into gparted.desktop.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0'
+Making install in compose
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/compose'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/compose'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/compose'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/compose'
+Making install in data
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/data'
+Making install in icons
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[3]: Entering directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[3]: Nothing to be done for 'install-exec-am'.
+for icon in hicolor_apps_16x16_gparted.png hicolor_apps_22x22_gparted.png hicolor_apps_24x24_gparted.png hicolor_apps_32x32_gparted.png hicolor_apps_48x48_gparted.png hicolor_apps_scalable_gparted.svg ; do \
+	THEME=`echo $icon | cut -d_ -f1`; \
+	CONTEXT=`echo $icon | cut -d_ -f2`; \
+	SIZE=`echo $icon | cut -d_ -f3`; \
+	ICONFILE=`echo $icon | cut -d_ -f4`; \
+	mkdir -p /usr/share/icons/$THEME/$SIZE/$CONTEXT; \
+	/usr/bin/install -c -m 644 ./$icon /usr/share/icons/$THEME/$SIZE/$CONTEXT/$ICONFILE; \
+done; \
+for icon in ; do \
+	THEME=`echo $icon | cut -d_ -f1`; \
+	CONTEXT=`echo $icon | cut -d_ -f2`; \
+	SIZE=`echo $icon | cut -d_ -f3`; \
+	ICONFILE=`echo $icon | cut -d_ -f4`; \
+	mkdir -p /usr/share/gparted/icons/$THEME/$SIZE/$CONTEXT; \
+	/usr/bin/install -c -m 644 ./$icon /usr/share/gparted/icons/$THEME/$SIZE/$CONTEXT/$ICONFILE; \
+done
+mkdir -p /usr/share/pixmaps; \
+/usr/bin/install -c -m 644 ./hicolor_apps_16x16_gparted.png /usr/share/pixmaps/gparted.png
+Updating Gtk icon cache.
+make[3]: Leaving directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/data/icons'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/data'
+make[3]: Entering directory '/sources/7.9/gparted-0.25.0/data'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gparted-0.25.0/data'
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/data'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/data'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/doc'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 gparted.8 '/usr/share/man/man8'
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/doc'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/doc'
+Making install in include
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/include'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/include'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/include'
+Making install in po
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/po'
+linguas="ar bg br bs ca ca@valencia cs da de dz el en_CA en_GB eo es et eu fa fi fr gd gl gu he hu id is it ja kk ko lt lv mk ml nb ne nl nn oc pa pl pt pt_BR ro ru rw si sk sl sr sr@latin sv te th tr uk vi zh_CN zh_HK zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/gparted-0.25.0/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/gparted.mo; \
+    echo "installing $lang.gmo as $dir/gparted.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/gparted.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/gparted.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/gparted.mo.m; \
+    echo "installing $lang.gmo.m as $dir/gparted.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/gparted.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/gparted.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/gparted.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/gparted.mo
+installing br.gmo as /usr/share/locale/br/LC_MESSAGES/gparted.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/gparted.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/gparted.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/gparted.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/gparted.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/gparted.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/gparted.mo
+installing dz.gmo as /usr/share/locale/dz/LC_MESSAGES/gparted.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/gparted.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/gparted.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/gparted.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/gparted.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/gparted.mo
+installing et.gmo as /usr/share/locale/et/LC_MESSAGES/gparted.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/gparted.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/gparted.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/gparted.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/gparted.mo
+installing gd.gmo as /usr/share/locale/gd/LC_MESSAGES/gparted.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/gparted.mo
+installing gu.gmo as /usr/share/locale/gu/LC_MESSAGES/gparted.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/gparted.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/gparted.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/gparted.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/gparted.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/gparted.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/gparted.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/gparted.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/gparted.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/gparted.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/gparted.mo
+installing mk.gmo as /usr/share/locale/mk/LC_MESSAGES/gparted.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/gparted.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/gparted.mo
+installing ne.gmo as /usr/share/locale/ne/LC_MESSAGES/gparted.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/gparted.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/gparted.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/gparted.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/gparted.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/gparted.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/gparted.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/gparted.mo
+installing ro.gmo as /usr/share/locale/ro/LC_MESSAGES/gparted.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/gparted.mo
+installing rw.gmo as /usr/share/locale/rw/LC_MESSAGES/gparted.mo
+installing si.gmo as /usr/share/locale/si/LC_MESSAGES/gparted.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/gparted.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/gparted.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/gparted.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/gparted.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/gparted.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/gparted.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/gparted.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/gparted.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/gparted.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/gparted.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/gparted.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/gparted.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/gparted.mo
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/po'
+Making install in src
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0/src'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0/src'
+ /bin/mkdir -p '/usr/sbin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gpartedbin '/usr/sbin'
+libtool: install: /usr/bin/install -c gpartedbin /usr/sbin/gpartedbin
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0/src'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0/src'
+make[1]: Entering directory '/sources/7.9/gparted-0.25.0'
+make[2]: Entering directory '/sources/7.9/gparted-0.25.0'
+ /bin/mkdir -p '/usr/sbin'
+ /usr/bin/install -c gparted '/usr/sbin'
+ /bin/mkdir -p '/usr/share/appdata'
+ /usr/bin/install -c -m 644 gparted.appdata.xml '/usr/share/appdata'
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 gparted.desktop '/usr/share/applications'
+make[2]: Leaving directory '/sources/7.9/gparted-0.25.0'
+make[1]: Leaving directory '/sources/7.9/gparted-0.25.0'

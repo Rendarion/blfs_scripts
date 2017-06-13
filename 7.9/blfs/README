@@ -1,0 +1,18 @@
+This file contains a collection of scripts to automatically build and install packages from the BLFS 7.9 book.
+
+A standard script directory contains the following scripts:
+setting.script
+build.script
+check.script (if a test suit exists)
+porg.script
+install.script
+
+Results are logged to
+install.log (for the complete installation run by the master script "install.script" in this folder)
+check.log (if a test suit is run)
+
+Some directories which have different scripts as install.script are:
+
+* the one where the test are done after installing
+xorg_build_environment
+xorg_protocol_headers

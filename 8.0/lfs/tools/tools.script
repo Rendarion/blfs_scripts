@@ -1,0 +1,34 @@
+# set up variables from settings.script
+
+source ../settings.script
+
+as_root()
+{
+  if   [ $EUID = 0 ];        then $*
+  elif [ -x /usr/bin/sudo ]; then sudo $*
+  else                            su -c \\"$*\\"
+  fi
+}
+
+# clean up leftover toolchain
+
+if [ -a "$LFS/tools" ]
+  then
+    as_root rm -rf "$LFS/tools"
+  fi
+
+# create /tools directory and symlink on the host and set permissions
+
+as_root mkdir -v $LFS/tools
+
+as_root ln -sfnv $LFS/tools /
+
+as_root chown -vR lfs $LFS/tools
+
+# move settings script to lfs-home
+
+cp ../settings.script /home/lfs/
+
+# start install.withlfs.script in a login shell for "lfs" user
+
+as_root su - lfs -s /sources/scripts/$LFSVS/lfs/tools/tools.withlfs.script

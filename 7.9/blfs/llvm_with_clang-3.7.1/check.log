@@ -1,0 +1,19 @@
+llvm[0]: Running test suite
+make[1]: Entering directory '/sources/7.9/llvm_with_clang-3.7.1/build/test'
+Making LLVM 'lit.site.cfg' file...
+Making LLVM unittest 'lit.site.cfg' file...
+make -C /sources/7.9/llvm_with_clang-3.7.1/build/test/../tools/clang/test lit.site.cfg Unit/lit.site.cfg
+make[2]: Entering directory '/sources/7.9/llvm_with_clang-3.7.1/build/tools/clang/test'
+Making Clang 'lit.site.cfg' file...
+Making Clang 'Unit/lit.site.cfg' file...
+make[2]: Leaving directory '/sources/7.9/llvm_with_clang-3.7.1/build/tools/clang/test'
+( ulimit -t 1200 ; ulimit -d 512000 ; ulimit -m 512000 ; ulimit -s 8192 ; \
+  /usr/bin/python /sources/7.9/llvm_with_clang-3.7.1/utils/lit/lit.py -s -v . /sources/7.9/llvm_with_clang-3.7.1/build/test/../tools/clang/test )
+GNU ld (GNU Binutils) 2.26.20160125
+-- Testing: 22592 tests, 2 threads --
+Testing: 0 .. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+Testing Time: 353.93s
+  Expected Passes    : 17134
+  Expected Failures  : 54
+  Unsupported Tests  : 5404
+make[1]: Leaving directory '/sources/7.9/llvm_with_clang-3.7.1/build/test'

@@ -1,0 +1,5 @@
+sed -e '/^libdocdir =/ s/$(book_name)/glibmm-2.46.3/' \
+    -i docs/Makefile.in
+
+./configure --prefix=/usr &&
+make

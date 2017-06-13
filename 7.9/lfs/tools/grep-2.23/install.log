@@ -1,0 +1,1526 @@
+checking for a BSD-compatible install... /tools/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /tools/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gawk... (cached) gawk
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether gcc understands -c and -o together... yes
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of gcc... gcc3
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... fn_grep
+checking for egrep... (cached) fn_grep
+checking for Minix Amsterdam compiler... no
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for ar... (cached) ar
+checking for ranlib... ranlib
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for ranlib... (cached) ranlib
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for size_t... yes
+checking for an ANSI C-conforming const... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether <wchar.h> uses 'inline' correctly... yes
+checking for btowc... yes
+checking for _set_invalid_parameter_handler... no
+checking for fchdir... yes
+checking for fdopendir... yes
+checking for strerror_r... yes
+checking for fcntl... yes
+checking for symlink... yes
+checking for mempcpy... yes
+checking for isblank... yes
+checking for iswctype... yes
+checking for mbsrtowcs... yes
+checking for wmemchr... yes
+checking for wmemcpy... yes
+checking for wmempcpy... yes
+checking for fstatat... yes
+checking for openat... yes
+checking for fstatfs... yes
+checking for getdtablesize... yes
+checking for gettimeofday... yes
+checking for iswcntrl... yes
+checking for iswblank... yes
+checking for lstat... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for mbrlen... yes
+checking for mbslen... no
+checking for mprotect... yes
+checking for nl_langinfo... yes
+checking for strdup... yes
+checking for strtoimax... yes
+checking for strtoumax... yes
+checking for pipe... yes
+checking for wcrtomb... yes
+checking for wctob... yes
+checking for wcwidth... yes
+checking for newlocale... yes
+checking for setenv... yes
+checking for snprintf... yes
+checking for vasnprintf... no
+checking for isascii... yes
+checking for setlocale... yes
+checking for nl_langinfo and CODESET... yes
+checking for a traditional french locale... none
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for sys/socket.h... yes
+checking for dirent.h... yes
+checking for wctype.h... yes
+checking for stdio_ext.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/vfs.h... yes
+checking for getopt.h... yes
+checking for sys/time.h... yes
+checking for iconv.h... yes
+checking for wchar.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for langinfo.h... yes
+checking for xlocale.h... yes
+checking for sys/mman.h... yes
+checking for malloc.h... yes
+checking for features.h... yes
+checking whether the preprocessor supports include_next... yes
+checking whether system header files limit the line length... no
+checking how gcc reports undeclared, standard C functions... error
+checking whether // is distinct from /... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking whether strerror_r returns char *... yes
+checking whether fchdir is declared... yes
+checking for working fcntl.h... yes
+checking for pid_t... yes
+checking for mode_t... yes
+checking for promoted mode_t type... mode_t
+checking for mbstate_t... yes
+checking whether stat file-mode macros are broken... no
+checking for nlink_t... yes
+checking whether fchmodat is declared without a macro... yes
+checking whether fstat is declared without a macro... yes
+checking whether fstatat is declared without a macro... yes
+checking whether futimens is declared without a macro... yes
+checking whether lchmod is declared without a macro... yes
+checking whether lstat is declared without a macro... yes
+checking whether mkdirat is declared without a macro... yes
+checking whether mkfifo is declared without a macro... yes
+checking whether mkfifoat is declared without a macro... yes
+checking whether mknod is declared without a macro... yes
+checking whether mknodat is declared without a macro... yes
+checking whether stat is declared without a macro... yes
+checking whether utimensat is declared without a macro... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether getcwd (NULL, 0) allocates memory for result... yes
+checking for getcwd with POSIX signature... yes
+checking whether getdtablesize is declared... yes
+checking for getopt.h... (cached) yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... yes
+checking for working GNU getopt_long function... yes
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict
+checking for struct timeval... yes
+checking for wide-enough struct timeval.tv_sec member... yes
+checking whether gettimeofday is declared without a macro... yes
+checking for ld used by gcc... /tools/bin/ld
+checking if the linker (/tools/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for inline... inline
+checking for unsigned long long int... yes
+checking for long long int... yes
+checking whether stdint.h conforms to C99... yes
+checking whether imaxabs is declared without a macro... yes
+checking whether imaxdiv is declared without a macro... yes
+checking whether strtoimax is declared without a macro... yes
+checking whether strtoumax is declared without a macro... yes
+checking for inttypes.h... (cached) yes
+checking whether the inttypes.h PRIxNN macros are broken... no
+checking for wint_t... yes
+checking whether iswcntrl works... yes
+checking for towlower... yes
+checking for wctype_t... yes
+checking for wctrans_t... yes
+checking whether wctype is declared without a macro... yes
+checking whether iswctype is declared without a macro... yes
+checking whether wctrans is declared without a macro... yes
+checking whether towctrans is declared without a macro... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library >= 2.1 or uClibc... yes
+checking for wchar_t... yes
+checking for max_align_t... yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether imported symbols can be declared weak... yes
+checking for pthread.h... yes
+checking for multithread API to use... posix
+checking for a sed that does not truncate output... /bin/sed
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for stdlib.h... yes
+checking for GNU libc compatible malloc... yes
+checking for a traditional japanese locale... none
+checking for a transitional chinese locale... none
+checking for a french Unicode locale... none
+checking whether mbrtowc handles incomplete characters... guessing yes
+checking whether mbrtowc works as well as mbtowc... guessing yes
+checking whether mbrtowc handles a NULL pwc argument... guessing yes
+checking whether mbrtowc handles a NULL string argument... guessing yes
+checking whether mbrtowc has a correct return value... guessing yes
+checking whether mbrtowc returns 0 when parsing a NUL character... guessing yes
+checking whether mbrtowc works on empty input... (cached) assume yes
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking whether memchr works... yes
+checking whether memrchr is declared... yes
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... yes
+checking whether alarm is declared... yes
+checking for ssize_t... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking whether strdup is declared... yes
+checking whether strerror(0) succeeds... yes
+checking whether ffsl is declared without a macro... yes
+checking whether ffsll is declared without a macro... yes
+checking whether memmem is declared without a macro... yes
+checking whether mempcpy is declared without a macro... yes
+checking whether memrchr is declared without a macro... yes
+checking whether rawmemchr is declared without a macro... yes
+checking whether stpcpy is declared without a macro... yes
+checking whether stpncpy is declared without a macro... yes
+checking whether strchrnul is declared without a macro... yes
+checking whether strdup is declared without a macro... yes
+checking whether strncat is declared without a macro... yes
+checking whether strndup is declared without a macro... yes
+checking whether strnlen is declared without a macro... yes
+checking whether strpbrk is declared without a macro... yes
+checking whether strsep is declared without a macro... yes
+checking whether strcasestr is declared without a macro... yes
+checking whether strtok_r is declared without a macro... yes
+checking whether strerror_r is declared without a macro... yes
+checking whether strsignal is declared without a macro... yes
+checking whether strverscmp is declared without a macro... yes
+checking whether strnlen is declared... (cached) yes
+checking whether strstr works... yes
+checking whether strtoimax is declared... (cached) yes
+checking whether strtoumax is declared... (cached) yes
+checking for struct timespec in <time.h>... yes
+checking whether clearerr_unlocked is declared... yes
+checking whether feof_unlocked is declared... yes
+checking whether ferror_unlocked is declared... yes
+checking whether fflush_unlocked is declared... yes
+checking whether fgets_unlocked is declared... yes
+checking whether fputc_unlocked is declared... yes
+checking whether fputs_unlocked is declared... yes
+checking whether fread_unlocked is declared... yes
+checking whether fwrite_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking if environ is properly declared... yes
+checking for off_t... yes
+checking for LC_MESSAGES... yes
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether setenv is declared... yes
+checking for search.h... yes
+checking for tsearch... yes
+checking whether snprintf returns a byte count as in C99... yes
+checking whether snprintf is declared... yes
+checking whether unsetenv is declared... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking for snprintf... (cached) yes
+checking for strnlen... yes
+checking for wcslen... yes
+checking for wcsnlen... yes
+checking for mbrtowc... (cached) yes
+checking for wcrtomb... (cached) yes
+checking whether _snprintf is declared... no
+checking for alloca as a compiler built-in... yes
+checking whether btowc(0) is correct... yes
+checking whether btowc(EOF) is correct... guessing yes
+checking whether this system has an arbitrary file name length limit... yes
+checking for closedir... yes
+checking whether isblank is declared without a macro... yes
+checking for d_ino member in directory struct... yes
+checking for d_type member in directory struct... yes
+checking whether alphasort is declared without a macro... yes
+checking whether closedir is declared without a macro... yes
+checking whether dirfd is declared without a macro... yes
+checking whether fdopendir is declared without a macro... yes
+checking whether opendir is declared without a macro... yes
+checking whether readdir is declared without a macro... yes
+checking whether rewinddir is declared without a macro... yes
+checking whether scandir is declared without a macro... yes
+checking for dirfd... yes
+checking whether dirfd is declared... (cached) yes
+checking whether dirfd is a macro... no
+checking whether // is distinct from /... (cached) no
+checking whether dup works... yes
+checking whether dup2 works... yes
+checking for error_at_line... yes
+checking whether fcntl handles F_DUPFD correctly... yes
+checking whether fcntl understands F_DUPFD_CLOEXEC... needs runtime check
+checking whether fcntl is declared without a macro... yes
+checking whether openat is declared without a macro... yes
+checking whether fdopendir is declared... (cached) yes
+checking whether fdopendir works... yes
+checking for flexible array member... yes
+checking for working POSIX fnmatch... yes
+checking for __fpending... yes
+checking whether __fpending is declared... yes
+checking whether fstatat (..., 0) works... yes
+checking for struct statfs.f_type... yes
+checking whether getdtablesize works... yes
+checking for getpagesize... yes
+checking whether getpagesize is declared... yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking for gettimeofday with POSIX signature... almost
+checking whether the compiler generally respects inline... yes
+checking whether INT32_MAX < INTMAX_MAX... yes
+checking whether INT64_MAX == LONG_MAX... yes
+checking whether UINT32_MAX < UINTMAX_MAX... yes
+checking whether UINT64_MAX == ULONG_MAX... yes
+checking whether iswblank is declared... yes
+checking whether langinfo.h defines CODESET... yes
+checking whether langinfo.h defines T_FMT_AMPM... yes
+checking whether langinfo.h defines ERA... yes
+checking whether langinfo.h defines YESEXPR... yes
+checking whether nl_langinfo is declared without a macro... yes
+checking whether locale.h conforms to POSIX:2001... yes
+checking whether locale.h defines locale_t... yes
+checking whether struct lconv is properly defined... yes
+checking whether setlocale is declared without a macro... yes
+checking whether duplocale is declared without a macro... yes
+checking for pthread_rwlock_t... yes
+checking whether lseek detects pipes... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether mbrtowc handles a NULL pwc argument... (cached) guessing yes
+checking whether mbrtowc handles a NULL string argument... (cached) guessing yes
+checking whether mbrtowc has a correct return value... (cached) guessing yes
+checking whether mbrtowc returns 0 when parsing a NUL character... (cached) guessing yes
+checking whether mbrtowc works on empty input... (cached) assume yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether mbsrtowcs works... guessing yes
+checking for mempcpy... (cached) yes
+checking for memrchr... yes
+checking whether YESEXPR works... yes
+checking for obstacks that work with any size object... no
+checking whether open recognizes a trailing slash... yes
+checking for opendir... yes
+checking for perl5.005 or newer... yes
+checking whether program_invocation_name is declared... yes
+checking whether program_invocation_short_name is declared... yes
+checking for readdir... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for working re_compile_pattern... yes
+checking for ssize_t... (cached) yes
+checking whether stat handles trailing slashes on directories... yes
+checking whether stat handles trailing slashes on files... yes
+checking for working stdalign.h... yes
+checking for va_copy... yes
+checking for max_align_t... (cached) yes
+checking whether NULL can be used in arbitrary expressions... (cached) yes
+checking which flavor of printf attribute matches inttypes macros... system
+checking whether dprintf is declared without a macro... yes
+checking whether fpurge is declared without a macro... no
+checking whether fseeko is declared without a macro... yes
+checking whether ftello is declared without a macro... yes
+checking whether getdelim is declared without a macro... yes
+checking whether getline is declared without a macro... yes
+checking whether gets is declared without a macro... no
+checking whether pclose is declared without a macro... yes
+checking whether popen is declared without a macro... yes
+checking whether renameat is declared without a macro... yes
+checking whether snprintf is declared without a macro... yes
+checking whether tmpfile is declared without a macro... yes
+checking whether vdprintf is declared without a macro... yes
+checking whether vsnprintf is declared without a macro... yes
+checking whether _Exit is declared without a macro... yes
+checking whether atoll is declared without a macro... yes
+checking whether canonicalize_file_name is declared without a macro... yes
+checking whether getloadavg is declared without a macro... yes
+checking whether getsubopt is declared without a macro... yes
+checking whether grantpt is declared without a macro... yes
+checking whether initstate is declared without a macro... yes
+checking whether initstate_r is declared without a macro... yes
+checking whether mkdtemp is declared without a macro... yes
+checking whether mkostemp is declared without a macro... yes
+checking whether mkostemps is declared without a macro... yes
+checking whether mkstemp is declared without a macro... yes
+checking whether mkstemps is declared without a macro... yes
+checking whether posix_openpt is declared without a macro... yes
+checking whether ptsname is declared without a macro... yes
+checking whether ptsname_r is declared without a macro... yes
+checking whether random is declared without a macro... yes
+checking whether random_r is declared without a macro... yes
+checking whether realpath is declared without a macro... yes
+checking whether rpmatch is declared without a macro... yes
+checking whether secure_getenv is declared without a macro... yes
+checking whether setenv is declared without a macro... yes
+checking whether setstate is declared without a macro... yes
+checking whether setstate_r is declared without a macro... yes
+checking whether srandom is declared without a macro... yes
+checking whether srandom_r is declared without a macro... yes
+checking whether strtod is declared without a macro... yes
+checking whether strtoll is declared without a macro... yes
+checking whether strtoull is declared without a macro... yes
+checking whether unlockpt is declared without a macro... yes
+checking whether unsetenv is declared without a macro... yes
+checking for stpcpy... yes
+checking for working strerror function... yes
+checking for working strnlen... yes
+checking whether strstr works in linear time... yes
+checking whether strstr works... (cached) yes
+checking whether strtoimax works... yes
+checking for strtoll... yes
+checking for strtoull... yes
+checking for nlink_t... (cached) yes
+checking whether fchmodat is declared without a macro... (cached) yes
+checking whether fstat is declared without a macro... (cached) yes
+checking whether fstatat is declared without a macro... (cached) yes
+checking whether futimens is declared without a macro... (cached) yes
+checking whether lchmod is declared without a macro... (cached) yes
+checking whether lstat is declared without a macro... (cached) yes
+checking whether mkdirat is declared without a macro... (cached) yes
+checking whether mkfifo is declared without a macro... (cached) yes
+checking whether mkfifoat is declared without a macro... (cached) yes
+checking whether mknod is declared without a macro... (cached) yes
+checking whether mknodat is declared without a macro... (cached) yes
+checking whether stat is declared without a macro... (cached) yes
+checking whether utimensat is declared without a macro... (cached) yes
+checking whether chdir is declared without a macro... yes
+checking whether chown is declared without a macro... yes
+checking whether dup is declared without a macro... yes
+checking whether dup2 is declared without a macro... yes
+checking whether dup3 is declared without a macro... yes
+checking whether environ is declared without a macro... yes
+checking whether euidaccess is declared without a macro... yes
+checking whether faccessat is declared without a macro... yes
+checking whether fchdir is declared without a macro... yes
+checking whether fchownat is declared without a macro... yes
+checking whether fdatasync is declared without a macro... yes
+checking whether fsync is declared without a macro... yes
+checking whether ftruncate is declared without a macro... yes
+checking whether getcwd is declared without a macro... yes
+checking whether getdomainname is declared without a macro... yes
+checking whether getdtablesize is declared without a macro... yes
+checking whether getgroups is declared without a macro... yes
+checking whether gethostname is declared without a macro... yes
+checking whether getlogin is declared without a macro... yes
+checking whether getlogin_r is declared without a macro... yes
+checking whether getpagesize is declared without a macro... yes
+checking whether getusershell is declared without a macro... yes
+checking whether setusershell is declared without a macro... yes
+checking whether endusershell is declared without a macro... yes
+checking whether group_member is declared without a macro... yes
+checking whether isatty is declared without a macro... yes
+checking whether lchown is declared without a macro... yes
+checking whether link is declared without a macro... yes
+checking whether linkat is declared without a macro... yes
+checking whether lseek is declared without a macro... yes
+checking whether pipe is declared without a macro... yes
+checking whether pipe2 is declared without a macro... yes
+checking whether pread is declared without a macro... yes
+checking whether pwrite is declared without a macro... yes
+checking whether readlink is declared without a macro... yes
+checking whether readlinkat is declared without a macro... yes
+checking whether rmdir is declared without a macro... yes
+checking whether sethostname is declared without a macro... yes
+checking whether sleep is declared without a macro... yes
+checking whether symlink is declared without a macro... yes
+checking whether symlinkat is declared without a macro... yes
+checking whether ttyname_r is declared without a macro... yes
+checking whether unlink is declared without a macro... yes
+checking whether unlinkat is declared without a macro... yes
+checking whether usleep is declared without a macro... yes
+checking whether btowc is declared without a macro... yes
+checking whether wctob is declared without a macro... yes
+checking whether mbsinit is declared without a macro... yes
+checking whether mbrtowc is declared without a macro... yes
+checking whether mbrlen is declared without a macro... yes
+checking whether mbsrtowcs is declared without a macro... yes
+checking whether mbsnrtowcs is declared without a macro... yes
+checking whether wcrtomb is declared without a macro... yes
+checking whether wcsrtombs is declared without a macro... yes
+checking whether wcsnrtombs is declared without a macro... yes
+checking whether wcwidth is declared without a macro... yes
+checking whether wmemchr is declared without a macro... yes
+checking whether wmemcmp is declared without a macro... yes
+checking whether wmemcpy is declared without a macro... yes
+checking whether wmemmove is declared without a macro... yes
+checking whether wmemset is declared without a macro... yes
+checking whether wcslen is declared without a macro... yes
+checking whether wcsnlen is declared without a macro... yes
+checking whether wcscpy is declared without a macro... yes
+checking whether wcpcpy is declared without a macro... yes
+checking whether wcsncpy is declared without a macro... yes
+checking whether wcpncpy is declared without a macro... yes
+checking whether wcscat is declared without a macro... yes
+checking whether wcsncat is declared without a macro... yes
+checking whether wcscmp is declared without a macro... yes
+checking whether wcsncmp is declared without a macro... yes
+checking whether wcscasecmp is declared without a macro... yes
+checking whether wcsncasecmp is declared without a macro... yes
+checking whether wcscoll is declared without a macro... yes
+checking whether wcsxfrm is declared without a macro... yes
+checking whether wcsdup is declared without a macro... yes
+checking whether wcschr is declared without a macro... yes
+checking whether wcsrchr is declared without a macro... yes
+checking whether wcscspn is declared without a macro... yes
+checking whether wcsspn is declared without a macro... yes
+checking whether wcspbrk is declared without a macro... yes
+checking whether wcsstr is declared without a macro... yes
+checking whether wcstok is declared without a macro... yes
+checking whether wcswidth is declared without a macro... yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether wcrtomb return value is correct... guessing yes
+checking whether wctob works... guessing yes
+checking whether wctob is declared... (cached) yes
+checking whether iswcntrl works... (cached) yes
+checking for towlower... (cached) yes
+checking for wctype_t... (cached) yes
+checking for wctrans_t... (cached) yes
+checking whether wctype is declared without a macro... (cached) yes
+checking whether iswctype is declared without a macro... (cached) yes
+checking whether wctrans is declared without a macro... (cached) yes
+checking whether towctrans is declared without a macro... (cached) yes
+checking whether wcwidth is declared... (cached) yes
+checking whether wcwidth works reasonably in UTF-8 locales... yes
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a traditional french locale... (cached) none
+checking for a turkish Unicode locale... none
+checking whether fdopen sets errno... yes
+checking whether conversion from 'int' to 'long double' works... yes
+checking for setlocale... (cached) yes
+checking for uselocale... yes
+checking for getlocalename_l... no
+checking for a turkish Unicode locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a traditional japanese locale... (cached) none
+checking for a transitional chinese locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a transitional chinese locale... (cached) none
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for putenv compatible with GNU and SVID... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether setenv validates arguments... yes
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a traditional japanese locale... (cached) none
+checking for a transitional chinese locale... (cached) none
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... (cached) yes
+checking whether snprintf respects a size of 1... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking for mmap... (cached) yes
+checking for MAP_ANONYMOUS... yes
+checking whether symlink handles trailing slash correctly... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking whether unsetenv obeys POSIX... yes
+checking for ptrdiff_t... yes
+checking for a traditional french locale... (cached) none
+checking for a french Unicode locale... (cached) none
+checking for a traditional japanese locale... (cached) none
+checking for a transitional chinese locale... (cached) none
+checking for stdint.h... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether closedir returns void... no
+checking whether NLS is requested... yes
+checking for msgfmt... /tools/bin/msgfmt
+checking for gmsgfmt... /tools/bin/msgfmt
+checking for xgettext... /tools/bin/xgettext
+checking for msgmerge... /tools/bin/msgmerge
+checking for CFPreferencesCopyAppValue... (cached) no
+checking for CFLocaleCopyCurrent... (cached) no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+configure: WARNING: Included lib/regex.c not used
+checking for PCRE... yes
+checking for pcre_compile... no
+configure: WARNING: GNU grep will be built without pcre support.
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating po/Makefile.in
+config.status: creating doc/Makefile
+config.status: creating gnulib-tests/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/grep-2.23'
+Making all in po
+make[2]: Entering directory '/sources/7.9/grep-2.23/po'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/grep-2.23/po'
+Making all in lib
+make[2]: Entering directory '/sources/7.9/grep-2.23/lib'
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+  GEN      alloca.h
+  GEN      configmake.h
+  GEN      c++defs.h
+  GEN      warn-on-use.h
+  GEN      arg-nonnull.h
+  GEN      unused-parameter.h
+  GEN      sys/types.h
+  GEN      time.h
+  GEN      unistd.h
+  GEN      unistr.h
+  GEN      unitypes.h
+  GEN      uniwidth.h
+  GEN      wchar.h
+  GEN      wctype.h
+  GEN      ctype.h
+  GEN      dirent.h
+  GEN      fcntl.h
+  GEN      iconv.h
+  GEN      inttypes.h
+  GEN      langinfo.h
+  GEN      locale.h
+  GEN      stdio.h
+  GEN      stdlib.h
+  GEN      string.h
+  GEN      sys/stat.h
+  GEN      sys/time.h
+make  all-am
+make[3]: Entering directory '/sources/7.9/grep-2.23/lib'
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+  CC       argmatch.o
+  CC       binary-io.o
+  CC       bitrotate.o
+  CC       c-ctype.o
+  CC       c-strcasecmp.o
+  CC       c-strncasecmp.o
+  CC       cloexec.o
+  CC       close-stream.o
+  CC       closeout.o
+  CC       cycle-check.o
+  CC       opendir-safer.o
+  CC       dirname-lgpl.o
+  CC       basename-lgpl.o
+  CC       stripslash.o
+  CC       exclude.o
+  CC       exitfail.o
+  CC       creat-safer.o
+  CC       open-safer.o
+  CC       fd-hook.o
+  CC       filenamecat-lgpl.o
+  CC       hash.o
+  CC       i-ring.o
+  CC       localcharset.o
+  CC       malloca.o
+  CC       mbchar.o
+  CC       mbiter.o
+  CC       mbscasecmp.o
+  CC       mbslen.o
+  CC       mbsstr.o
+  CC       mbuiter.o
+  CC       memchr2.o
+  CC       openat-die.o
+  CC       openat-safer.o
+  CC       progname.o
+  CC       propername.o
+  CC       quotearg.o
+  CC       safe-read.o
+  CC       save-cwd.o
+  CC       striconv.o
+  CC       strnlen1.o
+  CC       glthread/threadlib.o
+  CC       trim.o
+  CC       unistd.o
+  CC       dup-safer.o
+  CC       fd-safer.o
+  CC       pipe-safer.o
+  CC       version-etc.o
+  CC       version-etc-fsf.o
+  CC       wctype-h.o
+  CC       xmalloc.o
+  CC       xalloc-die.o
+  CC       xstriconv.o
+  CC       xstrtoimax.o
+  CC       xstrtol.o
+  CC       xstrtoul.o
+  CC       xstrtol-error.o
+  CC       chdir-long.o
+  CC       fcntl.o
+  CC       fts.o
+  CC       obstack.o
+  CC       openat-proc.o
+  GEN      charset.alias
+  GEN      ref-add.sed
+  GEN      ref-del.sed
+  CC       glthread/lock.o
+  CC       unistr/u8-mbtoucr.o
+  CC       unistr/u8-uctomb.o
+  CC       unistr/u8-uctomb-aux.o
+  CC       uniwidth/width.o
+  CC       colorize.o
+  AR       libgreputils.a
+make[3]: Leaving directory '/sources/7.9/grep-2.23/lib'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/lib'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/grep-2.23/doc'
+  GEN      grep.1
+  GEN      fgrep.1
+  GEN      egrep.1
+make[2]: Leaving directory '/sources/7.9/grep-2.23/doc'
+Making all in src
+make[2]: Entering directory '/sources/7.9/grep-2.23/src'
+  CC       grep.o
+  CC       searchutils.o
+  CC       dfa.o
+  CC       dfasearch.o
+  CC       kwset.o
+  CC       kwsearch.o
+  CC       pcresearch.o
+  GEN      egrep
+  GEN      fgrep
+  CCLD     grep
+make[2]: Leaving directory '/sources/7.9/grep-2.23/src'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/grep-2.23/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/sources/7.9/grep-2.23/tests'
+Making all in gnulib-tests
+make[2]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+  GEN      arg-nonnull.h
+  GEN      c++defs.h
+  GEN      unused-parameter.h
+  GEN      warn-on-use.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+Making all in .
+make[4]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[3]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[2]: Entering directory '/sources/7.9/grep-2.23'
+make[2]: Leaving directory '/sources/7.9/grep-2.23'
+make[1]: Leaving directory '/sources/7.9/grep-2.23'
+  GEN      public-submodule-commit
+Making check in po
+make[1]: Entering directory '/sources/7.9/grep-2.23/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/grep-2.23/po'
+Making check in lib
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+make[1]: Entering directory '/sources/7.9/grep-2.23/lib'
+make  check-am
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+make[2]: Entering directory '/sources/7.9/grep-2.23/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/grep-2.23/lib'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/lib'
+Making check in doc
+make[1]: Entering directory '/sources/7.9/grep-2.23/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/grep-2.23/doc'
+Making check in src
+make[1]: Entering directory '/sources/7.9/grep-2.23/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/grep-2.23/src'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/grep-2.23/tests'
+make  get-mb-cur-max dfa-match-aux
+  GEN      check_executable_TESTS
+make[2]: Entering directory '/sources/7.9/grep-2.23/tests'
+  CC       get-mb-cur-max.o
+  CC       dfa-match-aux.o
+  CCLD     get-mb-cur-max
+  CCLD     dfa-match-aux
+make[2]: Leaving directory '/sources/7.9/grep-2.23/tests'
+make  check-TESTS
+make[2]: Entering directory '/sources/7.9/grep-2.23/tests'
+make[3]: Entering directory '/sources/7.9/grep-2.23/tests'
+XFAIL: backref-alt
+PASS: backref
+backref-multibyte-slow: skipped test: en_US.UTF-8 locale not found
+SKIP: backref-multibyte-slow
+PASS: backref-word
+backslash-s-and-repetition-operators: skipped test: en_US.UTF-8 locale not found
+SKIP: backslash-s-and-repetition-operators
+backslash-s-vs-invalid-multitype: skipped test: en_US.UTF-8 locale not found
+SKIP: backslash-s-vs-invalid-multitype
+big-hole: skipped test: expensive: disabled by default
+SKIP: big-hole
+big-match: skipped test: expensive: disabled by default
+SKIP: big-match
+PASS: bogus-wctob
+PASS: case-fold-backref
+PASS: case-fold-backslash-w
+PASS: case-fold-char-class
+PASS: bre
+PASS: case-fold-char-range
+PASS: case-fold-char-type
+case-fold-titlecase: skipped test: en_US.UTF-8 locale not found
+SKIP: case-fold-titlecase
+char-class-multibyte: skipped test: en_US.UTF-8 locale not found
+SKIP: char-class-multibyte
+char-class-multibyte2: skipped test: en_US.UTF-8 locale not found
+SKIP: char-class-multibyte2
+PASS: context-0
+dfa-coverage: skipped test: en_US.UTF-8 locale not found
+SKIP: dfa-coverage
+PASS: dfa-heap-overrun
+PASS: count-newline
+PASS: dfa-match
+PASS: dfaexec-multibyte
+PASS: empty
+PASS: empty-line
+empty-line-mb: skipped test: en_US.UTF-8 locale not found
+encoding-error: skipped test: en_US.UTF-8 locale not found
+SKIP: encoding-error
+SKIP: empty-line-mb
+equiv-classes: skipped test: en_US.UTF-8 locale not found
+SKIP: equiv-classes
+PASS: epipe
+euc-mb: skipped test: en_US.UTF-8 locale not found
+SKIP: euc-mb
+PASS: fedora
+fgrep-infloop: skipped test: en_US.UTF-8 locale not found
+SKIP: fgrep-infloop
+PASS: file
+fmbtest: skipped test: this system lacks the cs_CZ.UTF-8 locale
+SKIP: fmbtest
+PASS: ere
+grep-dev-null: skipped test: en_US.UTF-8 locale not found
+SKIP: grep-dev-null
+PASS: grep-dir
+PASS: foad1
+PASS: high-bit-range
+PASS: help-version
+PASS: in-eq-out-infloop
+PASS: inconsistent-range
+PASS: include-exclude
+invalid-multibyte-infloop: skipped test: en_US.UTF-8 locale not found
+PASS: invalid-char-class
+SKIP: invalid-multibyte-infloop
+PASS: khadafy
+PASS: kwset-abuse
+long-line-vs-2GiB-read: skipped test: expensive: disabled by default
+long-pattern-perf: skipped test: expensive: disabled by default
+SKIP: long-line-vs-2GiB-read
+SKIP: long-pattern-perf
+PASS: max-count-overread
+PASS: match-lines
+PASS: max-count-vs-context
+PASS: mb-dot-newline
+mb-non-UTF8-overrun: skipped test:  locale not found
+SKIP: mb-non-UTF8-overrun
+mb-non-UTF8-performance: skipped test: expensive: disabled by default
+SKIP: mb-non-UTF8-performance
+multibyte-white-space: skipped test: en_US.UTF-8 locale not found
+SKIP: multibyte-white-space
+PASS: multiple-begin-or-end-line
+PASS: options
+pcre: skipped test: no PCRE support
+SKIP: pcre
+pcre-abort: skipped test: no PCRE support
+SKIP: pcre-abort
+pcre-context: skipped test: no PCRE support
+SKIP: pcre-context
+pcre-count: skipped test: no PCRE support
+SKIP: pcre-count
+pcre-infloop: skipped test: en_US.UTF-8 locale not found
+SKIP: pcre-infloop
+pcre-invalid-utf8-infloop: skipped test: en_US.UTF-8 locale not found
+SKIP: pcre-invalid-utf8-infloop
+pcre-invalid-utf8-input: skipped test: en_US.UTF-8 locale not found
+SKIP: pcre-invalid-utf8-input
+pcre-jitstack: skipped test: no PCRE support
+SKIP: pcre-jitstack
+pcre-o: skipped test: no PCRE support
+SKIP: pcre-o
+pcre-utf8: skipped test: en_US.UTF-8 locale not found
+SKIP: pcre-utf8
+PASS: null-byte
+pcre-w: skipped test: no PCRE support
+SKIP: pcre-w
+pcre-wx-backref: skipped test: no PCRE support
+SKIP: pcre-wx-backref
+pcre-z: skipped test: no PCRE support
+SKIP: pcre-z
+PASS: posix-bracket
+prefix-of-multibyte: skipped test: en_US.UTF-8 locale not found
+SKIP: prefix-of-multibyte
+PASS: repetition-overflow
+PASS: r-dot
+sjis-mb: skipped test: en_US.UTF-8 locale not found
+SKIP: sjis-mb
+PASS: reversed-range-endpoints
+PASS: skip-device
+PASS: spencer1
+PASS: status
+surrogate-pair: skipped test: en_US.UTF-8 locale not found
+SKIP: surrogate-pair
+PASS: symlink
+XFAIL: triple-backref
+turkish-I: skipped test: en_US.UTF-8 locale not found
+SKIP: turkish-I
+turkish-I-without-dot: skipped test: tr_TR.UTF-8 locale not found
+SKIP: turkish-I-without-dot
+turkish-eyes: skipped test: en_US.UTF-8 locale not found
+SKIP: turkish-eyes
+PASS: two-files
+PASS: unibyte-binary
+unibyte-bracket-expr: skipped test: ru_RU.KOI8-R locale not found
+SKIP: unibyte-bracket-expr
+PASS: unibyte-negated-circumflex
+utf8-bracket: skipped test: en_US.UTF-8 locale not found
+SKIP: utf8-bracket
+PASS: warn-char-classes
+word-delim-multibyte: skipped test: en_US.UTF-8 locale not found
+SKIP: word-delim-multibyte
+PASS: word-multi-file
+word-multibyte: skipped test: en_US.UTF-8 locale not found
+SKIP: word-multibyte
+PASS: yesno
+PASS: spencer1-locale
+============================================================================
+Testsuite summary for GNU grep 2.23
+============================================================================
+# TOTAL: 99
+# PASS:  52
+# SKIP:  45
+# XFAIL: 2
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/sources/7.9/grep-2.23/tests'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/tests'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/tests'
+Making check in gnulib-tests
+make[1]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+Making check in .
+make[3]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make  libtests.a test-alignof test-alloca-opt test-argmatch test-binary-io test-bitrotate test-btowc test-c-ctype test-c-strcasecmp test-c-strncasecmp test-chdir test-cloexec test-close test-ctype test-dirent-safer test-dirent test-dup test-dup2 test-environ test-errno test-exclude test-fchdir test-fcntl-h test-fcntl-safer test-fcntl test-fdopen test-fdopendir test-fgetc test-float test-fnmatch test-fpending test-fputc test-fread test-fstat test-fstatat test-fwrite test-getcwd-lgpl test-getdtablesize test-getopt test-gettimeofday test-hash test-i-ring test-iconv-h test-iconv test-ignore-value test-intprops test-inttostr test-inttypes test-isatty test-isblank test-iswblank test-langinfo test-locale test-localeconv test-localename test-lseek test-lstat test-malloc-gnu test-malloca test-mbscasecmp test-mbsinit test-mbsrtowcs test-mbsstr1 test-mbsstr2 test-mbsstr3 test-memchr test-memchr2 test-memrchr test-nl_langinfo test-open test-openat-safer test-openat test-pathmax test-pipe test-quotearg-simple test-read test-realloc-gnu test-regex test-setenv test-setlocale1 test-setlocale2 test-snprintf test-stat test-stdalign test-stdbool test-stddef test-stdint test-stdio test-stdlib test-strerror test-striconv test-string test-strnlen test-strstr test-strtoimax test-strtoll test-strtoull test-strtoumax test-symlink test-sys_stat test-sys_time test-sys_types test-time test-dup-safer test-unistd test-u8-mbtoucr test-u8-uctomb test-uc_width test-uc_width2 test-unsetenv test-vasnprintf test-verify test-version-etc test-wchar test-wcrtomb test-wcrtomb-w32 test-wctype-h test-wcwidth test-xalloc-die test-xstrtoimax test-xstrtol test-xstrtoul
+make[4]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+  CC       fd-safer-flag.o
+  CC       dup-safer-flag.o
+  CC       hash-pjw.o
+  CC       imaxtostr.o
+  CC       inttostr.o
+  CC       offtostr.o
+  CC       uinttostr.o
+  CC       umaxtostr.o
+  CC       localename.o
+  CC       xsize.o
+  CC       asnprintf.o
+  CC       printf-args.o
+  CC       printf-parse.o
+  CC       vasnprintf.o
+  CC       test-alignof.o
+  CC       test-alloca-opt.o
+  CC       test-argmatch.o
+  CC       test-binary-io.o
+  CC       test-bitrotate.o
+  CC       test-btowc.o
+  CC       test-c-ctype.o
+  CC       test-c-strcasecmp.o
+  CC       test-c-strncasecmp.o
+  CC       test-chdir.o
+  CC       test-cloexec.o
+  CC       test-close.o
+  CC       test-ctype.o
+  CC       test-dirent-safer.o
+  CC       test-dirent.o
+  CC       test-dup.o
+  CC       test-dup2.o
+  CC       test-environ.o
+  CC       test-errno.o
+  CC       test-exclude.o
+  CC       test-fchdir.o
+  CC       test-fcntl-h.o
+  CC       test-fcntl-safer.o
+  CC       test-fcntl.o
+  CC       test-fdopen.o
+  CC       test-fdopendir.o
+  CC       test-fgetc.o
+  CC       test-float.o
+  CC       test-fnmatch.o
+  CC       test-fpending.o
+  CC       test-fputc.o
+  CC       test-fread.o
+  CC       test-fstat.o
+  CC       test-fstatat.o
+  CC       test-fwrite.o
+  CC       test-getcwd-lgpl.o
+  CC       test-getdtablesize.o
+  CC       test-getopt.o
+  CC       test-gettimeofday.o
+  CC       test-hash.o
+  CC       test-i-ring.o
+  CC       test-iconv-h.o
+  CC       test-iconv.o
+  CC       test-ignore-value.o
+  CC       test-intprops.o
+  CC       test-inttostr.o
+  CC       test-inttypes.o
+  CC       test-isatty.o
+  CC       test-isblank.o
+  CC       test-iswblank.o
+  CC       test-langinfo.o
+  CC       test-locale.o
+  CC       test-localeconv.o
+  CC       test-localename.o
+  CC       test-lseek.o
+  CC       test-lstat.o
+  CC       test-malloc-gnu.o
+  CC       test-malloca.o
+  CC       test-mbscasecmp.o
+  CC       test-mbsinit.o
+  CC       test-mbsrtowcs.o
+  CC       test-mbsstr1.o
+  CC       test-mbsstr2.o
+  CC       test-mbsstr3.o
+  CC       test-memchr.o
+  CC       test-memchr2.o
+  CC       test-memrchr.o
+  CC       test-nl_langinfo.o
+  CC       test-open.o
+  CC       test-openat-safer.o
+  CC       test-openat.o
+  CC       test-pathmax.o
+  CC       test-pipe.o
+  CC       test-quotearg-simple.o
+  CC       test-read.o
+  CC       test-realloc-gnu.o
+  CC       test-regex.o
+  CC       test-setenv.o
+  CC       test-setlocale1.o
+  CC       test-setlocale2.o
+  CC       test-snprintf.o
+  CC       test-stat.o
+  CC       test-stdalign.o
+  CC       test-stdbool.o
+  CC       test-stddef.o
+  CC       test-stdint.o
+  CC       test-stdio.o
+  CC       test-stdlib.o
+  CC       test-strerror.o
+  CC       test-striconv.o
+  CC       test-string.o
+  CC       test-strnlen.o
+  CC       test-strstr.o
+  CC       test-strtoimax.o
+  CC       test-strtoll.o
+  CC       test-strtoull.o
+  CC       test-strtoumax.o
+  CC       test-symlink.o
+  CC       test-sys_stat.o
+  CC       test-sys_time.o
+  CC       test-sys_types.o
+  CC       test-time.o
+  CC       test-dup-safer.o
+  CC       test-unistd.o
+  CC       test-unsetenv.o
+  CC       test-vasnprintf.o
+  CC       test-verify.o
+  CC       test-version-etc.o
+  CC       test-wchar.o
+  CC       test-wcrtomb.o
+  CC       test-wcrtomb-w32.o
+  CC       test-wctype-h.o
+  CC       test-wcwidth.o
+  CC       test-xalloc-die.o
+  CC       test-xstrtoimax.o
+  CC       test-xstrtol.o
+  CC       test-xstrtoul.o
+  AR       libtests.a
+  CC       unistr/test-u8-mbtoucr.o
+  CC       unistr/test-u8-uctomb.o
+  CC       uniwidth/test-uc_width.o
+  CC       uniwidth/test-uc_width2.o
+  CCLD     test-unsetenv
+  CCLD     test-vasnprintf
+  CCLD     test-verify
+  CCLD     test-version-etc
+  CCLD     test-wchar
+  CCLD     test-wcrtomb
+  CCLD     test-wcrtomb-w32
+  CCLD     test-wctype-h
+  CCLD     test-wcwidth
+  CCLD     test-xstrtoimax
+  CCLD     test-xalloc-die
+  CCLD     test-xstrtoul
+  CCLD     test-xstrtol
+  CCLD     test-alloca-opt
+  CCLD     test-alignof
+  CCLD     test-argmatch
+  CCLD     test-binary-io
+  CCLD     test-bitrotate
+  CCLD     test-btowc
+  CCLD     test-c-ctype
+  CCLD     test-c-strcasecmp
+  CCLD     test-c-strncasecmp
+  CCLD     test-chdir
+  CCLD     test-cloexec
+  CCLD     test-close
+  CCLD     test-ctype
+  CCLD     test-dirent-safer
+  CCLD     test-dirent
+  CCLD     test-dup
+  CCLD     test-dup2
+  CCLD     test-environ
+  CCLD     test-exclude
+  CCLD     test-errno
+  CCLD     test-fchdir
+  CCLD     test-fcntl-h
+  CCLD     test-fcntl-safer
+  CCLD     test-fcntl
+  CCLD     test-fdopen
+  CCLD     test-fdopendir
+  CCLD     test-fgetc
+  CCLD     test-float
+  CCLD     test-fnmatch
+  CCLD     test-fpending
+  CCLD     test-fputc
+  CCLD     test-fread
+  CCLD     test-fstat
+  CCLD     test-fstatat
+  CCLD     test-fwrite
+  CCLD     test-getcwd-lgpl
+  CCLD     test-getdtablesize
+  CCLD     test-getopt
+  CCLD     test-gettimeofday
+  CCLD     test-hash
+  CCLD     test-i-ring
+  CCLD     test-iconv-h
+  CCLD     test-iconv
+  CCLD     test-ignore-value
+  CCLD     test-intprops
+  CCLD     test-inttostr
+  CCLD     test-inttypes
+  CCLD     test-isatty
+  CCLD     test-isblank
+  CCLD     test-iswblank
+  CCLD     test-langinfo
+  CCLD     test-localeconv
+  CCLD     test-locale
+  CCLD     test-localename
+  CCLD     test-lseek
+  CCLD     test-lstat
+  CCLD     test-malloc-gnu
+  CCLD     test-mbscasecmp
+  CCLD     test-malloca
+  CCLD     test-mbsinit
+  CCLD     test-mbsrtowcs
+  CCLD     test-mbsstr2
+  CCLD     test-mbsstr1
+  CCLD     test-mbsstr3
+  CCLD     test-memchr
+  CCLD     test-memchr2
+  CCLD     test-memrchr
+  CCLD     test-open
+  CCLD     test-nl_langinfo
+  CCLD     test-openat-safer
+  CCLD     test-openat
+  CCLD     test-pipe
+  CCLD     test-pathmax
+  CCLD     test-quotearg-simple
+  CCLD     test-read
+  CCLD     test-realloc-gnu
+  CCLD     test-regex
+  CCLD     test-setenv
+  CCLD     test-setlocale1
+  CCLD     test-setlocale2
+  CCLD     test-snprintf
+  CCLD     test-stat
+  CCLD     test-stdalign
+  CCLD     test-stdbool
+  CCLD     test-stddef
+  CCLD     test-stdint
+  CCLD     test-stdio
+  CCLD     test-strerror
+  CCLD     test-stdlib
+  CCLD     test-string
+  CCLD     test-striconv
+  CCLD     test-strnlen
+  CCLD     test-strstr
+  CCLD     test-strtoimax
+  CCLD     test-strtoll
+  CCLD     test-strtoull
+  CCLD     test-strtoumax
+  CCLD     test-symlink
+  CCLD     test-sys_stat
+  CCLD     test-sys_time
+  CCLD     test-sys_types
+  CCLD     test-time
+  CCLD     test-dup-safer
+  CCLD     test-unistd
+  CCLD     test-u8-mbtoucr
+  CCLD     test-uc_width
+  CCLD     test-u8-uctomb
+  CCLD     test-uc_width2
+make[4]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[5]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+PASS: test-alignof
+PASS: test-alloca-opt
+PASS: test-argmatch
+PASS: test-bitrotate
+PASS: test-binary-io.sh
+SKIP: test-btowc2.sh
+SKIP: test-btowc1.sh
+PASS: test-c-ctype
+PASS: test-c-strcase.sh
+PASS: test-chdir
+PASS: test-cloexec
+PASS: test-ctype
+PASS: test-close
+PASS: test-dirent-safer
+PASS: test-dirent
+PASS: test-dup
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno
+PASS: test-exclude2.sh
+PASS: test-exclude1.sh
+PASS: test-exclude3.sh
+PASS: test-exclude4.sh
+PASS: test-exclude5.sh
+PASS: test-exclude6.sh
+PASS: test-exclude7.sh
+PASS: test-exclude8.sh
+PASS: test-fcntl-h
+PASS: test-fchdir
+PASS: test-fcntl-safer
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fdopendir
+PASS: test-float
+PASS: test-fgetc
+PASS: test-fnmatch
+PASS: test-fpending.sh
+PASS: test-fputc
+PASS: test-fread
+PASS: test-fstat
+PASS: test-fstatat
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getdtablesize
+PASS: test-getopt
+PASS: test-gettimeofday
+PASS: test-i-ring
+PASS: test-iconv-h
+PASS: test-iconv
+PASS: test-ignore-value
+PASS: test-intprops
+PASS: test-inttostr
+PASS: test-inttypes
+PASS: test-isatty
+PASS: test-isblank
+PASS: test-iswblank
+PASS: test-langinfo
+PASS: test-locale
+PASS: test-localeconv
+PASS: test-localename
+PASS: test-lseek.sh
+PASS: test-lstat
+PASS: test-malloc-gnu
+PASS: test-malloca
+SKIP: test-mbscasecmp.sh
+SKIP: test-mbsinit.sh
+SKIP: test-mbsrtowcs1.sh
+SKIP: test-mbsrtowcs2.sh
+SKIP: test-mbsrtowcs3.sh
+SKIP: test-mbsrtowcs4.sh
+PASS: test-mbsstr1
+SKIP: test-mbsstr2.sh
+SKIP: test-mbsstr3.sh
+PASS: test-memchr
+PASS: test-memchr2
+PASS: test-memrchr
+PASS: test-nl_langinfo.sh
+PASS: test-open
+PASS: test-openat-safer
+PASS: test-openat
+PASS: test-pathmax
+PASS: test-pipe
+PASS: test-quotearg-simple
+PASS: test-read
+PASS: test-realloc-gnu
+PASS: test-regex
+PASS: test-setenv
+SKIP: test-setlocale1.sh
+PASS: test-setlocale2.sh
+PASS: test-snprintf
+PASS: test-stat
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-stdlib
+PASS: test-strerror
+PASS: test-hash
+PASS: test-striconv
+PASS: test-string
+PASS: test-strnlen
+PASS: test-strtoimax
+PASS: test-strtoll
+PASS: test-strstr
+PASS: test-strtoumax
+PASS: test-strtoull
+PASS: test-sys_stat
+PASS: test-symlink
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-time
+PASS: test-dup-safer
+PASS: test-unistd
+PASS: test-u8-mbtoucr
+PASS: test-u8-uctomb
+PASS: test-uc_width
+PASS: uniwidth/test-uc_width2.sh
+PASS: test-unsetenv
+PASS: test-init.sh
+PASS: test-vasnprintf
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-vc-list-files-git.sh
+PASS: test-version-etc.sh
+PASS: test-wchar
+PASS: test-wcrtomb.sh
+SKIP: test-wcrtomb-w32-1.sh
+SKIP: test-wcrtomb-w32-2.sh
+SKIP: test-wcrtomb-w32-3.sh
+SKIP: test-wcrtomb-w32-4.sh
+SKIP: test-wcrtomb-w32-5.sh
+PASS: test-wctype-h
+PASS: test-wcwidth
+PASS: test-xalloc-die.sh
+PASS: test-xstrtoimax.sh
+PASS: test-xstrtol.sh
+PASS: test-verify.sh
+============================================================================
+Testsuite summary for GNU grep 2.23
+============================================================================
+# TOTAL: 138
+# PASS:  121
+# SKIP:  17
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[4]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[3]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[1]: Entering directory '/sources/7.9/grep-2.23'
+make[1]: Leaving directory '/sources/7.9/grep-2.23'
+Making install in po
+make[1]: Entering directory '/sources/7.9/grep-2.23/po'
+installing af.gmo as /tools/share/locale/af/LC_MESSAGES/grep.mo
+installing be.gmo as /tools/share/locale/be/LC_MESSAGES/grep.mo
+installing bg.gmo as /tools/share/locale/bg/LC_MESSAGES/grep.mo
+installing ca.gmo as /tools/share/locale/ca/LC_MESSAGES/grep.mo
+installing cs.gmo as /tools/share/locale/cs/LC_MESSAGES/grep.mo
+installing da.gmo as /tools/share/locale/da/LC_MESSAGES/grep.mo
+installing de.gmo as /tools/share/locale/de/LC_MESSAGES/grep.mo
+installing el.gmo as /tools/share/locale/el/LC_MESSAGES/grep.mo
+installing eo.gmo as /tools/share/locale/eo/LC_MESSAGES/grep.mo
+installing es.gmo as /tools/share/locale/es/LC_MESSAGES/grep.mo
+installing et.gmo as /tools/share/locale/et/LC_MESSAGES/grep.mo
+installing eu.gmo as /tools/share/locale/eu/LC_MESSAGES/grep.mo
+installing fi.gmo as /tools/share/locale/fi/LC_MESSAGES/grep.mo
+installing fr.gmo as /tools/share/locale/fr/LC_MESSAGES/grep.mo
+installing ga.gmo as /tools/share/locale/ga/LC_MESSAGES/grep.mo
+installing gl.gmo as /tools/share/locale/gl/LC_MESSAGES/grep.mo
+installing he.gmo as /tools/share/locale/he/LC_MESSAGES/grep.mo
+installing hr.gmo as /tools/share/locale/hr/LC_MESSAGES/grep.mo
+installing hu.gmo as /tools/share/locale/hu/LC_MESSAGES/grep.mo
+installing id.gmo as /tools/share/locale/id/LC_MESSAGES/grep.mo
+installing it.gmo as /tools/share/locale/it/LC_MESSAGES/grep.mo
+installing ja.gmo as /tools/share/locale/ja/LC_MESSAGES/grep.mo
+installing ko.gmo as /tools/share/locale/ko/LC_MESSAGES/grep.mo
+installing ky.gmo as /tools/share/locale/ky/LC_MESSAGES/grep.mo
+installing lt.gmo as /tools/share/locale/lt/LC_MESSAGES/grep.mo
+installing nb.gmo as /tools/share/locale/nb/LC_MESSAGES/grep.mo
+installing nl.gmo as /tools/share/locale/nl/LC_MESSAGES/grep.mo
+installing pa.gmo as /tools/share/locale/pa/LC_MESSAGES/grep.mo
+installing pl.gmo as /tools/share/locale/pl/LC_MESSAGES/grep.mo
+installing pt.gmo as /tools/share/locale/pt/LC_MESSAGES/grep.mo
+installing pt_BR.gmo as /tools/share/locale/pt_BR/LC_MESSAGES/grep.mo
+installing ro.gmo as /tools/share/locale/ro/LC_MESSAGES/grep.mo
+installing ru.gmo as /tools/share/locale/ru/LC_MESSAGES/grep.mo
+installing sk.gmo as /tools/share/locale/sk/LC_MESSAGES/grep.mo
+installing sl.gmo as /tools/share/locale/sl/LC_MESSAGES/grep.mo
+installing sr.gmo as /tools/share/locale/sr/LC_MESSAGES/grep.mo
+installing sv.gmo as /tools/share/locale/sv/LC_MESSAGES/grep.mo
+installing th.gmo as /tools/share/locale/th/LC_MESSAGES/grep.mo
+installing tr.gmo as /tools/share/locale/tr/LC_MESSAGES/grep.mo
+installing uk.gmo as /tools/share/locale/uk/LC_MESSAGES/grep.mo
+installing vi.gmo as /tools/share/locale/vi/LC_MESSAGES/grep.mo
+installing zh_CN.gmo as /tools/share/locale/zh_CN/LC_MESSAGES/grep.mo
+installing zh_TW.gmo as /tools/share/locale/zh_TW/LC_MESSAGES/grep.mo
+if test "grep" = "gettext-tools"; then \
+  /tools/bin/mkdir -p /tools/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /tools/bin/install -c -m 644 ./$file \
+		    /tools/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tools/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/grep-2.23/po'
+Making install in lib
+make[1]: Entering directory '/sources/7.9/grep-2.23/lib'
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+make  install-am
+make[2]: Entering directory '/sources/7.9/grep-2.23/lib'
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+make[3]: Entering directory '/sources/7.9/grep-2.23/lib'
+Makefile:1684: target '.deps/alloca.Po' given more than once in the same rule
+if test yes = no; then \
+  case 'linux-gnu' in \
+    darwin[56]*) \
+      need_charset_alias=true ;; \
+    darwin* | cygwin* | mingw* | pw32* | cegcc*) \
+      need_charset_alias=false ;; \
+    *) \
+      need_charset_alias=true ;; \
+  esac ; \
+else \
+  need_charset_alias=false ; \
+fi ; \
+if $need_charset_alias; then \
+  /bin/sh /sources/7.9/grep-2.23/build-aux/install-sh -d /tools/lib ; \
+fi ; \
+if test -f /tools/lib/charset.alias; then \
+  sed -f ref-add.sed /tools/lib/charset.alias > /tools/lib/charset.tmp ; \
+  /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+  rm -f /tools/lib/charset.tmp ; \
+else \
+  if $need_charset_alias; then \
+    sed -f ref-add.sed charset.alias > /tools/lib/charset.tmp ; \
+    /tools/bin/install -c -m 644 /tools/lib/charset.tmp /tools/lib/charset.alias ; \
+    rm -f /tools/lib/charset.tmp ; \
+  fi ; \
+fi
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/grep-2.23/lib'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/lib'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/lib'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/grep-2.23/doc'
+make[2]: Entering directory '/sources/7.9/grep-2.23/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /tools/bin/mkdir -p '/tools/share/man/man1'
+ /tools/bin/mkdir -p '/tools/share/info'
+ /tools/bin/install -c -m 644 ./grep.info '/tools/share/info'
+ /tools/bin/install -c -m 644 grep.1 fgrep.1 egrep.1 '/tools/share/man/man1'
+ install-info --info-dir='/tools/share/info' '/tools/share/info/grep.info'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/doc'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/doc'
+Making install in src
+make[1]: Entering directory '/sources/7.9/grep-2.23/src'
+make[2]: Entering directory '/sources/7.9/grep-2.23/src'
+make[2]: Nothing to be done for 'install-data-am'.
+ /tools/bin/mkdir -p '/tools/bin'
+ /tools/bin/mkdir -p '/tools/bin'
+  /tools/bin/install -c grep '/tools/bin'
+ /tools/bin/install -c egrep fgrep '/tools/bin'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/src'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/src'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/grep-2.23/tests'
+make[2]: Entering directory '/sources/7.9/grep-2.23/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/grep-2.23/tests'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/tests'
+Making install in gnulib-tests
+make[1]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+Making install in .
+make[3]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[4]: Entering directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[3]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[2]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[1]: Leaving directory '/sources/7.9/grep-2.23/gnulib-tests'
+make[1]: Entering directory '/sources/7.9/grep-2.23'
+make[2]: Entering directory '/sources/7.9/grep-2.23'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/grep-2.23'
+make[1]: Leaving directory '/sources/7.9/grep-2.23'

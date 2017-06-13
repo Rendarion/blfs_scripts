@@ -1,0 +1,224 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for EBML... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libmatroska.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+make  all-am
+make[1]: Entering directory '/sources/7.9/libmatroska-1.4.4'
+depbase=`echo src/FileKax.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/FileKax.lo -MD -MP -MF $depbase.Tpo -c -o src/FileKax.lo src/FileKax.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/FileKax.lo -MD -MP -MF src/.deps/FileKax.Tpo -c src/FileKax.cpp  -fPIC -DPIC -o src/.libs/FileKax.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/FileKax.lo -MD -MP -MF src/.deps/FileKax.Tpo -c src/FileKax.cpp -o src/FileKax.o >/dev/null 2>&1
+depbase=`echo src/KaxAttached.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxAttached.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxAttached.lo src/KaxAttached.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxAttached.lo -MD -MP -MF src/.deps/KaxAttached.Tpo -c src/KaxAttached.cpp  -fPIC -DPIC -o src/.libs/KaxAttached.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxAttached.lo -MD -MP -MF src/.deps/KaxAttached.Tpo -c src/KaxAttached.cpp -o src/KaxAttached.o >/dev/null 2>&1
+depbase=`echo src/KaxAttachments.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxAttachments.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxAttachments.lo src/KaxAttachments.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxAttachments.lo -MD -MP -MF src/.deps/KaxAttachments.Tpo -c src/KaxAttachments.cpp  -fPIC -DPIC -o src/.libs/KaxAttachments.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxAttachments.lo -MD -MP -MF src/.deps/KaxAttachments.Tpo -c src/KaxAttachments.cpp -o src/KaxAttachments.o >/dev/null 2>&1
+depbase=`echo src/KaxBlock.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxBlock.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxBlock.lo src/KaxBlock.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxBlock.lo -MD -MP -MF src/.deps/KaxBlock.Tpo -c src/KaxBlock.cpp  -fPIC -DPIC -o src/.libs/KaxBlock.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxBlock.lo -MD -MP -MF src/.deps/KaxBlock.Tpo -c src/KaxBlock.cpp -o src/KaxBlock.o >/dev/null 2>&1
+depbase=`echo src/KaxBlockData.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxBlockData.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxBlockData.lo src/KaxBlockData.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxBlockData.lo -MD -MP -MF src/.deps/KaxBlockData.Tpo -c src/KaxBlockData.cpp  -fPIC -DPIC -o src/.libs/KaxBlockData.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxBlockData.lo -MD -MP -MF src/.deps/KaxBlockData.Tpo -c src/KaxBlockData.cpp -o src/KaxBlockData.o >/dev/null 2>&1
+depbase=`echo src/KaxCluster.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxCluster.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxCluster.lo src/KaxCluster.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCluster.lo -MD -MP -MF src/.deps/KaxCluster.Tpo -c src/KaxCluster.cpp  -fPIC -DPIC -o src/.libs/KaxCluster.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCluster.lo -MD -MP -MF src/.deps/KaxCluster.Tpo -c src/KaxCluster.cpp -o src/KaxCluster.o >/dev/null 2>&1
+depbase=`echo src/KaxContexts.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxContexts.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxContexts.lo src/KaxContexts.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxContexts.lo -MD -MP -MF src/.deps/KaxContexts.Tpo -c src/KaxContexts.cpp  -fPIC -DPIC -o src/.libs/KaxContexts.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxContexts.lo -MD -MP -MF src/.deps/KaxContexts.Tpo -c src/KaxContexts.cpp -o src/KaxContexts.o >/dev/null 2>&1
+depbase=`echo src/KaxCues.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxCues.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxCues.lo src/KaxCues.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCues.lo -MD -MP -MF src/.deps/KaxCues.Tpo -c src/KaxCues.cpp  -fPIC -DPIC -o src/.libs/KaxCues.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCues.lo -MD -MP -MF src/.deps/KaxCues.Tpo -c src/KaxCues.cpp -o src/KaxCues.o >/dev/null 2>&1
+depbase=`echo src/KaxCuesData.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxCuesData.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxCuesData.lo src/KaxCuesData.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCuesData.lo -MD -MP -MF src/.deps/KaxCuesData.Tpo -c src/KaxCuesData.cpp  -fPIC -DPIC -o src/.libs/KaxCuesData.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxCuesData.lo -MD -MP -MF src/.deps/KaxCuesData.Tpo -c src/KaxCuesData.cpp -o src/KaxCuesData.o >/dev/null 2>&1
+depbase=`echo src/KaxInfoData.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxInfoData.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxInfoData.lo src/KaxInfoData.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxInfoData.lo -MD -MP -MF src/.deps/KaxInfoData.Tpo -c src/KaxInfoData.cpp  -fPIC -DPIC -o src/.libs/KaxInfoData.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxInfoData.lo -MD -MP -MF src/.deps/KaxInfoData.Tpo -c src/KaxInfoData.cpp -o src/KaxInfoData.o >/dev/null 2>&1
+depbase=`echo src/KaxSeekHead.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxSeekHead.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxSeekHead.lo src/KaxSeekHead.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSeekHead.lo -MD -MP -MF src/.deps/KaxSeekHead.Tpo -c src/KaxSeekHead.cpp  -fPIC -DPIC -o src/.libs/KaxSeekHead.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSeekHead.lo -MD -MP -MF src/.deps/KaxSeekHead.Tpo -c src/KaxSeekHead.cpp -o src/KaxSeekHead.o >/dev/null 2>&1
+depbase=`echo src/KaxSegment.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxSegment.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxSegment.lo src/KaxSegment.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSegment.lo -MD -MP -MF src/.deps/KaxSegment.Tpo -c src/KaxSegment.cpp  -fPIC -DPIC -o src/.libs/KaxSegment.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSegment.lo -MD -MP -MF src/.deps/KaxSegment.Tpo -c src/KaxSegment.cpp -o src/KaxSegment.o >/dev/null 2>&1
+depbase=`echo src/KaxSemantic.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxSemantic.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxSemantic.lo src/KaxSemantic.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSemantic.lo -MD -MP -MF src/.deps/KaxSemantic.Tpo -c src/KaxSemantic.cpp  -fPIC -DPIC -o src/.libs/KaxSemantic.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxSemantic.lo -MD -MP -MF src/.deps/KaxSemantic.Tpo -c src/KaxSemantic.cpp -o src/KaxSemantic.o >/dev/null 2>&1
+depbase=`echo src/KaxTracks.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxTracks.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxTracks.lo src/KaxTracks.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxTracks.lo -MD -MP -MF src/.deps/KaxTracks.Tpo -c src/KaxTracks.cpp  -fPIC -DPIC -o src/.libs/KaxTracks.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxTracks.lo -MD -MP -MF src/.deps/KaxTracks.Tpo -c src/KaxTracks.cpp -o src/KaxTracks.o >/dev/null 2>&1
+depbase=`echo src/KaxVersion.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/sh ./libtool  --tag=CXX   --mode=compile g++ -DHAVE_CONFIG_H -I.  -I.   -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -MT src/KaxVersion.lo -MD -MP -MF $depbase.Tpo -c -o src/KaxVersion.lo src/KaxVersion.cpp &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxVersion.lo -MD -MP -MF src/.deps/KaxVersion.Tpo -c src/KaxVersion.cpp  -fPIC -DPIC -o src/.libs/KaxVersion.o
+libtool: compile:  g++ -DHAVE_CONFIG_H -I. -I. -Wall -Wextra -Wno-unknown-pragmas -Wshadow -g -O2 -MT src/KaxVersion.lo -MD -MP -MF src/.deps/KaxVersion.Tpo -c src/KaxVersion.cpp -o src/KaxVersion.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CXX   --mode=link g++ -Wall -Wextra -Wno-unknown-pragmas -Wshadow   -g -O2 -version-info 6:0:0 -no-undefined  -o libmatroska.la -rpath /usr/lib src/FileKax.lo src/KaxAttached.lo src/KaxAttachments.lo src/KaxBlock.lo src/KaxBlockData.lo src/KaxCluster.lo src/KaxContexts.lo src/KaxCues.lo src/KaxCuesData.lo src/KaxInfoData.lo src/KaxSeekHead.lo src/KaxSegment.lo src/KaxSemantic.lo src/KaxTracks.lo src/KaxVersion.lo -lebml 
+libtool: link: g++  -fPIC -DPIC -shared -nostdlib /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crti.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtbeginS.o  src/.libs/FileKax.o src/.libs/KaxAttached.o src/.libs/KaxAttachments.o src/.libs/KaxBlock.o src/.libs/KaxBlockData.o src/.libs/KaxCluster.o src/.libs/KaxContexts.o src/.libs/KaxCues.o src/.libs/KaxCuesData.o src/.libs/KaxInfoData.o src/.libs/KaxSeekHead.o src/.libs/KaxSegment.o src/.libs/KaxSemantic.o src/.libs/KaxTracks.o src/.libs/KaxVersion.o   -Wl,-rpath -Wl,/usr/lib/../lib64 -Wl,-rpath -Wl,/usr/lib/../lib64 /usr/lib/libebml.so -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../.. /usr/lib/../lib64/libstdc++.so -lm -lc -lgcc_s /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/crtendS.o /usr/lib/gcc/x86_64-unknown-linux-gnu/5.3.0/../../../../lib64/crtn.o  -g -O2   -Wl,-soname -Wl,libmatroska.so.6 -o .libs/libmatroska.so.6.0.0
+libtool: link: (cd ".libs" && rm -f "libmatroska.so.6" && ln -s "libmatroska.so.6.0.0" "libmatroska.so.6")
+libtool: link: (cd ".libs" && rm -f "libmatroska.so" && ln -s "libmatroska.so.6.0.0" "libmatroska.so")
+libtool: link: ar cru .libs/libmatroska.a  src/FileKax.o src/KaxAttached.o src/KaxAttachments.o src/KaxBlock.o src/KaxBlockData.o src/KaxCluster.o src/KaxContexts.o src/KaxCues.o src/KaxCuesData.o src/KaxInfoData.o src/KaxSeekHead.o src/KaxSegment.o src/KaxSemantic.o src/KaxTracks.o src/KaxVersion.o
+libtool: link: ranlib .libs/libmatroska.a
+libtool: link: ( cd ".libs" && rm -f "libmatroska.la" && ln -s "../libmatroska.la" "libmatroska.la" )
+make[1]: Leaving directory '/sources/7.9/libmatroska-1.4.4'
+make[1]: Entering directory '/sources/7.9/libmatroska-1.4.4'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libmatroska.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libmatroska.so.6.0.0 /usr/lib/libmatroska.so.6.0.0
+libtool: install: (cd /usr/lib && { ln -s -f libmatroska.so.6.0.0 libmatroska.so.6 || { rm -f libmatroska.so.6 && ln -s libmatroska.so.6.0.0 libmatroska.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libmatroska.so.6.0.0 libmatroska.so || { rm -f libmatroska.so && ln -s libmatroska.so.6.0.0 libmatroska.so; }; })
+libtool: install: /usr/bin/install -c .libs/libmatroska.lai /usr/lib/libmatroska.la
+libtool: install: /usr/bin/install -c .libs/libmatroska.a /usr/lib/libmatroska.a
+libtool: install: chmod 644 /usr/lib/libmatroska.a
+libtool: install: ranlib /usr/lib/libmatroska.a
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include'
+ /bin/mkdir -p '/usr/include/matroska'
+ /usr/bin/install -c -m 644  matroska/FileKax.h matroska/KaxAttached.h matroska/KaxAttachments.h matroska/KaxBlockData.h matroska/KaxBlock.h matroska/KaxChapters.h matroska/KaxClusterData.h matroska/KaxCluster.h matroska/KaxConfig.h matroska/KaxContentEncoding.h matroska/KaxContexts.h matroska/KaxCuesData.h matroska/KaxCues.h matroska/KaxDefines.h matroska/KaxInfoData.h matroska/KaxInfo.h matroska/KaxSeekHead.h matroska/KaxSegment.h matroska/KaxSemantic.h matroska/KaxTag.h matroska/KaxTags.h matroska/KaxTrackAudio.h matroska/KaxTrackEntryData.h matroska/KaxTracks.h matroska/KaxTrackVideo.h matroska/KaxTypes.h matroska/KaxVersion.h '/usr/include/matroska'
+ /bin/mkdir -p '/usr/include/matroska/c'
+ /usr/bin/install -c -m 644  matroska/c/libmatroska.h matroska/c/libmatroska_t.h '/usr/include/matroska/c'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libmatroska.pc '/usr/lib/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/libmatroska-1.4.4'

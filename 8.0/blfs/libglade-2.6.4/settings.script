@@ -1,0 +1,13 @@
+URL=(
+"http://ftp.gnome.org/pub/gnome/sources/libglade/2.6/libglade-2.6.4.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxml2-2.9.4"
+"gtk+-2.24.31"
+)

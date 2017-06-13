@@ -1,0 +1,21 @@
+if [ ! -e "/var/log/porg/$PKG" ]
+  then
+    as_root install -v -m755 -d /etc/pam.d &&
+
+cat > other << "EOF"
+auth     required       pam_deny.so
+account  required       pam_deny.so
+password required       pam_deny.so
+session  required       pam_deny.so
+EOF
+
+    as_root mv other /etc/pam.d/
+
+  fi
+
+make check
+
+if [ ! -e "/var/log/porg/$PKG" ]
+  then
+    as_root rm -fv /etc/pam.d/*
+  fi

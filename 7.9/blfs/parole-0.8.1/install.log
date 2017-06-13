@@ -1,0 +1,999 @@
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking how to print strings... printf
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking whether NLS is requested... yes
+checking for intltool >= 0.35... 0.51.0 found
+checking for intltool-update... /usr/bin/intltool-update
+checking for intltool-merge... /usr/bin/intltool-merge
+checking for intltool-extract... /usr/bin/intltool-extract
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for perl... /usr/bin/perl
+checking for perl >= 5.8.1... 5.22.1
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: creating ./config.lt
+config.lt: creating libtool
+checking for ANSI C header files... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for LC_MESSAGES... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking for ngettext in libc... yes
+checking for dgettext in libc... yes
+checking for bind_textdomain_codeset... yes
+checking for msgfmt... (cached) /usr/bin/msgfmt
+checking for dcgettext... yes
+checking if msgfmt accepts -c... yes
+checking for gmsgfmt... (cached) /usr/bin/msgfmt
+checking for xgettext... (cached) /usr/bin/xgettext
+checking for catalogs to be installed...  ar ast bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pl pt_BR pt ru sk sr sv te th tr ug uk zh_CN zh_TW
+checking for bind_textdomain_codeset... (cached) yes
+checking for locales directory... ${datarootdir}/locale
+checking for additional xgettext flags... --keyword=Q_ --from-code=UTF-8
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for glib-2.0 >= 2.32.0... 2.46.2
+checking GLIB_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GLIB_LIBS... -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gobject-2.0 >= 2.32.0... 2.46.2
+checking GOBJECT_CFLAGS... -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GOBJECT_LIBS... -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gthread-2.0 >= 2.32.0... 2.46.2
+checking GTHREAD_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTHREAD_LIBS... -lgthread-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gmodule-2.0 >= 2.32.0... 2.46.2
+checking GMODULE_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GMODULE_LIBS... -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gio-2.0 >= 2.32.0... 2.46.2
+checking GIO_CFLAGS... -pthread -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GIO_LIBS... -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for dbus-1 >= 0.60... 1.10.6
+checking DBUS_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include
+checking DBUS_LIBS... -ldbus-1
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for dbus-glib-1 >= 0.70... 0.106
+checking DBUS_GLIB_CFLAGS... -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking DBUS_GLIB_LIBS... -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4util-1.0 >= 4.10.0... 4.12.1
+checking LIBXFCE4UTIL_CFLAGS... -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UTIL_LIBS... -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfconf-0 >= 4.10.0... 4.12.0
+checking XFCONF_CFLAGS... -I/usr/include/xfce4/xfconf-0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking XFCONF_LIBS... -lxfconf-0 -ldbus-glib-1 -ldbus-1 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libxfce4ui-2 >= 4.11.0... 4.12.1
+checking LIBXFCE4UI_CFLAGS... -pthread -I/usr/include/xfce4/libxfce4ui-2 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/xfce4 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBXFCE4UI_LIBS... -lxfce4ui-2 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lxfce4util -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gtk+-3.0 >= 3.2.0... 3.18.7
+checking GTK_CFLAGS... -pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GTK_LIBS... -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gstreamer-1.0 >= 1.0.0... 1.6.3
+checking GST_CFLAGS... -pthread -I/usr/include/gstreamer-1.0 -I/usr/lib/gstreamer-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GST_LIBS... -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gstreamer-base-1.0 >= 1.0.0... 1.6.3
+checking GST_BASE_CFLAGS... -pthread -I/usr/include/gstreamer-1.0 -I/usr/lib/gstreamer-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GST_BASE_LIBS... -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gstreamer-video-1.0 >= 1.0.0... 1.6.3
+checking GST_VIDEO_CFLAGS... -pthread -I/usr/include/gstreamer-1.0 -I/usr/lib/gstreamer-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GST_VIDEO_LIBS... -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gstreamer-pbutils-1.0 >= 1.0.0... 1.6.3
+checking GST_PBUTILS_CFLAGS... -pthread -I/usr/include/gstreamer-1.0 -I/usr/lib/gstreamer-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking GST_PBUTILS_LIBS... -lgstpbutils-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for main in -lX11... yes
+checking whether XF86XK_AudioPlay is declared... yes
+checking whether to build the clutter backend... no
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for taglib >= 1.4... 1.10
+checking TAGLIB_CFLAGS... -I/usr/include/taglib
+checking TAGLIB_LIBS... -ltag
+checking for taglib_file_new in -ltag_c... yes
+checking taglib/tag_c.h usability... yes
+checking taglib/tag_c.h presence... yes
+checking for taglib/tag_c.h... yes
+checking whether to build the notification plugin... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for libnotify >= 0.4.1... 0.7.6
+checking LIBNOTIFY_CFLAGS... -pthread -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include
+checking LIBNOTIFY_LIBS... -lnotify -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+checking whether to build the system tray plugin... yes
+checking whether to build the mpris2 plugin... yes
+checking whether to build with debugging support... minimum
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating data/Makefile
+config.status: creating data/pixmaps/Makefile
+config.status: creating data/interfaces/Makefile
+config.status: creating data/icons/Makefile
+config.status: creating data/icons/16x16/Makefile
+config.status: creating data/icons/24x24/Makefile
+config.status: creating data/icons/32x32/Makefile
+config.status: creating data/icons/48x48/Makefile
+config.status: creating data/icons/64x64/Makefile
+config.status: creating data/icons/128x128/Makefile
+config.status: creating data/icons/scalable/Makefile
+config.status: creating data/mime/Makefile
+config.status: creating data/desktop/Makefile
+config.status: creating data/appdata/Makefile
+config.status: creating src/Makefile
+config.status: creating src/misc/Makefile
+config.status: creating src/misc/parole.h
+config.status: creating src/common/Makefile
+config.status: creating src/gst/Makefile
+config.status: creating src/dbus/Makefile
+config.status: creating src/plugins/Makefile
+config.status: creating src/plugins/sample/Makefile
+config.status: creating src/plugins/notify/Makefile
+config.status: creating src/plugins/tray/Makefile
+config.status: creating src/plugins/mpris2/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/plugin-api/version.xml
+config.status: creating docs/plugin-api/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing default-1 commands
+config.status: executing po/stamp-it commands
+
+------------------------------------------------------
+            Parole Media Player 0.8.1
+        ====================================
+
+        Installation:
+        =============
+        prefix:                         /usr
+        pixmapsdir:                     /usr/share/parole/pixmaps
+        Debug:                          minimum
+        Building plugin api docs:       no
+        GStreamer API version:          1.0
+        GTK+ version:                   GTK+-3
+
+        Optional dependencies:
+        ======================
+        Clutter Backend:                no
+        Taglib:                         yes
+
+        Plugins to build:
+        =================
+        Notify:                         yes
+        System Tray icon:               yes
+        MPRIS2:                         yes
+
+------------------------------------------------------
+
+Configuration finished, type make to compile
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/parole-0.8.1'
+Making all in data
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data'
+Making all in interfaces
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make  all-am
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/interfaces'
+Making all in pixmaps
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+Making all in icons
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+Making all in scalable
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+Making all in 16x16
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+Making all in 24x24
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+Making all in 32x32
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+Making all in 48x48
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+Making all in 64x64
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+Making all in 128x128
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+Making all in mime
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/mime'
+./mime-type-include.sh ./mime-type-list.txt     \
+> parole-mime-types.h
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/mime'
+Making all in desktop
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/desktop'
+head -n9 ./parole.desktop.in.in > parole.desktop.in &&\
+/bin/sh ./desktop.sh ../../data/mime/mime-type-list.txt >> parole.desktop.in
+  ITMRG  parole.desktop
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/desktop'
+Making all in appdata
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/appdata'
+  ITMRG  parole.appdata.xml
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/appdata'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data'
+Making all in src
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/src'
+( cd . && glib-mkenums \
+	--fhead "#include \"enum-gtypes.h\"\n\n" \
+	--fhead "#include \"parole-conf.h\"\n\n" \
+	--fhead "#include \"parole-button.h\"\n\n" \
+	--fprod "\n/* enumerations from \"@filename@\" */" \
+	--vhead "GType\n@enum_name@_get_type (void)\n{\n  static GType etype = 0;\n  if (etype == 0) {\n    static const G@Type@Value values[] = {" \
+	--vprod "      { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \
+	--vtail "      { 0, NULL, NULL }\n    };\n    etype = g_@type@_register_static (\"@EnumName@\", values);\n  }\n  return etype;\n}\n" \
+	parole-conf.h parole-button.h ) >> xgen-enum.c \
+&& cp xgen-enum.c enum-gtypes.c \
+&& rm -f xgen-enum.c
+( cd . && glib-mkenums \
+	--fhead "#ifndef __ENUM_GTYPES_H__\n#define __ENUM_GTYPES_H__\n#include <glib-object.h>\nG_BEGIN_DECLS\n" \
+	--fprod "/* enumerations from \"@filename@\" */\n" \
+	--vhead "GType @enum_name@_get_type (void);\n#define ENUM_GTYPE_@ENUMSHORT@ (@enum_name@_get_type())\n" \
+	--ftail "G_END_DECLS\n\n#endif /* __ENUM_GTYPES_H__ */" \
+	parole-conf.h parole-button.h ) > xgen-enum.h \
+&& (cmp -s xgen-enum.h enum-gtypes.h || cp xgen-enum.h enum-gtypes.h) \
+&& rm -f xgen-enum.h \
+&& echo timestamp > stamp-enum-gtypes.h
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src'
+Making all in misc
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/misc'
+( cd . && glib-mkenums \
+	--fhead "#include \"parole-enum-types.h\"\n\n" \
+	--fhead "#include \"parole-stream.h\"\n\n" \
+	--fhead "#include \"parole-provider-player.h\"\n\n" \
+	--fhead "#include \"parole-pl-parser.h\"\n\n" \
+	--fprod "\n/* enumerations from \"@filename@\" */" \
+	--vhead "GType\n@enum_name@_get_type (void)\n{\n  static GType etype = 0;\n  if (etype == 0) {\n    static const G@Type@Value values[] = {" \
+	--vprod "      { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \
+	--vtail "      { 0, NULL, NULL }\n    };\n    etype = g_@type@_register_static (\"@EnumName@\", values);\n  }\n  return etype;\n}\n" \
+	parole-stream.h parole-provider-player.h parole-pl-parser.h ) >> xgen-enum.c \
+&& cp xgen-enum.c parole-enum-types.c \
+&& rm -f xgen-enum.c
+( cd . && glib-mkenums \
+	--fhead "#ifndef __PAROLE_ENUM_TYPE_H__\n#define __PAROLE_ENUM_TYPE_H__\n#include <glib-object.h>\nG_BEGIN_DECLS\n" \
+	--fprod "/* enumerations from \"@filename@\" */\n" \
+	--vhead "GType @enum_name@_get_type (void);\n#define PAROLE_ENUM_TYPE_@ENUMSHORT@ (@enum_name@_get_type())\n" \
+	--ftail "G_END_DECLS\n\n#endif /* __PAROLE_ENUM_TYPE_H__ */" \
+	parole-stream.h parole-provider-player.h parole-pl-parser.h ) > xgen-enum.h \
+&& (cmp -s xgen-enum.h parole-enum-types.h || cp xgen-enum.h parole-enum-types.h) \
+&& rm -f xgen-enum.h \
+&& echo timestamp > stamp-enum-types.h
+make  all-am
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/misc'
+  CC       libparole_la-parole-marshal.lo
+  CC       libparole_la-parole-enum-types.lo
+  CC       libparole_la-parole-provider-plugin.lo
+  CC       libparole_la-parole-provider-player.lo
+  CC       libparole_la-parole-file.lo
+  CC       libparole_la-parole-stream.lo
+  CC       libparole_la-parole-pl-parser.lo
+  CC       libparole_la-parole-filters.lo
+  CC       libparole_la-parole-debug.lo
+  CCLD     libparole.la
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/misc'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/misc'
+Making all in common
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/common'
+  CC       libparolecommon_la-parole-common.lo
+  CC       libparolecommon_la-parole-rc-utils.lo
+  CCLD     libparolecommon.la
+  CC       libparolescreensaver_la-parole-screensaver.lo
+  CCLD     libparolescreensaver.la
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/common'
+Making all in gst
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/gst'
+( cd . && glib-mkenums \
+	--fhead "#include \"gst-enum-types.h\"\n\n" \
+	--fhead "#include \"parole-gst.h\"\n\n" \
+	--fprod "\n/* enumerations from \"@filename@\" */" \
+	--vhead "GType\n@enum_name@_get_type (void)\n{\n  static GType etype = 0;\n  if (etype == 0) {\n    static const G@Type@Value values[] = {" \
+	--vprod "      { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \
+	--vtail "      { 0, NULL, NULL }\n    };\n    etype = g_@type@_register_static (\"@EnumName@\", values);\n  }\n  return etype;\n}\n" \
+	parole-gst.h ) >> xgen-enum.c \
+&& cp xgen-enum.c gst-enum-types.c \
+&& rm -f xgen-enum.c
+( cd . && glib-mkenums \
+	--fhead "#ifndef __GST_ENUM_TYPE_H__\n#define __GST_ENUM_TYPE_H__\n#include <glib-object.h>\nG_BEGIN_DECLS\n" \
+	--fprod "/* enumerations from \"@filename@\" */\n" \
+	--vhead "GType @enum_name@_get_type (void);\n#define GST_ENUM_TYPE_@ENUMSHORT@ (@enum_name@_get_type())\n" \
+	--ftail "G_END_DECLS\n\n#endif /* __GST_ENUM_TYPE_H__ */" \
+	parole-gst.h ) > xgen-enum.h \
+&& (cmp -s xgen-enum.h gst-enum-types.h || cp xgen-enum.h gst-enum-types.h) \
+&& rm -f xgen-enum.h \
+&& echo timestamp > stamp-enum-types.h
+make  all-am
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/gst'
+  CC       libparolegst_la-gstmarshal.lo
+  CC       libparolegst_la-gst-enum-types.lo
+  CC       libparolegst_la-parole-gst.lo
+  CCLD     libparolegst.la
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/gst'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/gst'
+Making all in dbus
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/dbus'
+  CC       libparoledbus_la-parole-dbus.lo
+  CCLD     libparoledbus.la
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/dbus'
+Making all in plugins
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins'
+Making all in sample
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+  CC       sample_plugin_la-sample-plugin.lo
+  CC       sample_plugin_la-sample-provider.lo
+  CCLD     sample-plugin.la
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+Making all in tray
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+  CC       tray_icon_la-tray-plugin.lo
+  CC       tray_icon_la-tray-provider.lo
+  CCLD     tray-icon.la
+  ITMRG  system-tray.desktop
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+Making all in notify
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+  CC       parole_notify_la-notify-plugin.lo
+  CC       parole_notify_la-notify-provider.lo
+  CCLD     parole-notify.la
+  ITMRG  notify.desktop
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+Making all in mpris2
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+  CC       parole_mpris2_la-mpris2-plugin.lo
+  CC       parole_mpris2_la-mpris2-provider.lo
+  CCLD     parole-mpris2.la
+  ITMRG  mpris2.desktop
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src'
+  CC       gmarshal.o
+  CC       enum-gtypes.o
+  CC       main.o
+  CC       parole-player.o
+  CC       parole-vis.o
+  CC       parole-medialist.o
+  CC       parole-mediachooser.o
+  CC       parole-conf.o
+  CC       parole-conf-dialog.o
+  CC       parole-disc.o
+  CC       parole-utils.o
+  CC       parole-plugins-manager.o
+  CC       parole-module.o
+  CC       parole-about.o
+  CC       parole-builder.o
+  CC       parole-subtitle-encoding.o
+  CC       parole-open-location.o
+  CC       parole-button.o
+  CC       parole-plugin-player.o
+  CCLD     parole
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/docs'
+Making all in plugin-api
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/docs'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/docs'
+Making all in po
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/po'
+  MSGFMT ar.gmo
+  MSGFMT ast.gmo
+  MSGFMT bg.gmo
+  MSGFMT ca.gmo
+  MSGFMT cs.gmo
+  MSGFMT da.gmo
+  MSGFMT de.gmo
+  MSGFMT el.gmo
+  MSGFMT en_AU.gmo
+  MSGFMT en_GB.gmo
+  MSGFMT es.gmo
+  MSGFMT eu.gmo
+  MSGFMT fi.gmo
+  MSGFMT fr.gmo
+  MSGFMT gl.gmo
+  MSGFMT he.gmo
+  MSGFMT hr.gmo
+  MSGFMT hu.gmo
+  MSGFMT id.gmo
+  MSGFMT is.gmo
+  MSGFMT it.gmo
+  MSGFMT ja.gmo
+  MSGFMT kk.gmo
+  MSGFMT ko.gmo
+  MSGFMT lt.gmo
+  MSGFMT lv.gmo
+  MSGFMT ms.gmo
+  MSGFMT nb.gmo
+  MSGFMT nl.gmo
+  MSGFMT nn.gmo
+  MSGFMT oc.gmo
+  MSGFMT pl.gmo
+  MSGFMT pt_BR.gmo
+  MSGFMT pt.gmo
+  MSGFMT ru.gmo
+  MSGFMT sk.gmo
+  MSGFMT sr.gmo
+  MSGFMT sv.gmo
+  MSGFMT te.gmo
+  MSGFMT th.gmo
+  MSGFMT tr.gmo
+  MSGFMT ug.gmo
+  MSGFMT uk.gmo
+  MSGFMT zh_CN.gmo
+  MSGFMT zh_TW.gmo
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/po'
+make[2]: Entering directory '/sources/7.9/parole-0.8.1'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1'
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1'
+Making install in data
+make[1]: Entering directory '/sources/7.9/parole-0.8.1/data'
+Making install in interfaces
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make  install-am
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/interfaces'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/interfaces'
+Making install in pixmaps
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/parole/pixmaps'
+ /usr/bin/install -c -m 644 parole.png no-cover.png '/usr/share/parole/pixmaps'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/pixmaps'
+Making install in icons
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+Making install in scalable
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/scalable/apps'
+ /usr/bin/install -c -m 644 parole.svg '/usr/share/icons/hicolor/scalable/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/scalable'
+Making install in 16x16
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/16x16/apps'
+ /usr/bin/install -c -m 644 parole.png parole-extension.png parole-extension-symbolic.svg '/usr/share/icons/hicolor/16x16/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/16x16'
+Making install in 24x24
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/24x24/apps'
+ /usr/bin/install -c -m 644 parole.png '/usr/share/icons/hicolor/24x24/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/24x24'
+Making install in 32x32
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/32x32/apps'
+ /usr/bin/install -c -m 644 parole.png '/usr/share/icons/hicolor/32x32/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/32x32'
+Making install in 48x48
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/48x48/apps'
+ /usr/bin/install -c -m 644 parole.png parole-extension.png '/usr/share/icons/hicolor/48x48/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/48x48'
+Making install in 64x64
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/64x64/apps'
+ /usr/bin/install -c -m 644 parole.png '/usr/share/icons/hicolor/64x64/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/64x64'
+Making install in 128x128
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/icons/hicolor/128x128/apps'
+ /usr/bin/install -c -m 644 parole.png '/usr/share/icons/hicolor/128x128/apps'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons/128x128'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+make[4]: Nothing to be done for 'install-exec-am'.
+make  install-data-hook
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/data/icons'
+Updating Gtk icon cache.
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/icons'
+Making install in mime
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/mime'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/mime'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/mime'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/mime'
+Making install in desktop
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/desktop'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/desktop'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/applications'
+ /usr/bin/install -c -m 644 parole.desktop '/usr/share/applications'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/desktop'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/desktop'
+Making install in appdata
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data/appdata'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data/appdata'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/appdata'
+ /usr/bin/install -c -m 644 parole.appdata.xml '/usr/share/appdata'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data/appdata'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data/appdata'
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/data'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/data'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/data'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/data'
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1/data'
+Making install in src
+make[1]: Entering directory '/sources/7.9/parole-0.8.1/src'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/src'
+Making install in misc
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src/misc'
+make  install-am
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/misc'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/misc'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/include/parole'
+ /usr/bin/install -c -m 644 parole.h parole-file.h parole-stream.h parole-provider-player.h parole-provider-plugin.h parole-filters.h parole-debug.h parole-pl-parser.h '/usr/include/parole'
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/misc'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/misc'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src/misc'
+Making install in common
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src/common'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/common'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/common'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src/common'
+Making install in gst
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src/gst'
+make  install-am
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/gst'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/gst'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/gst'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/gst'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src/gst'
+Making install in dbus
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src/dbus'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/dbus'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/dbus'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src/dbus'
+Making install in plugins
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins'
+Making install in sample
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/sample'
+Making install in tray
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/parole/parole-plugins-0'
+ /usr/bin/install -c -m 644 system-tray.desktop '/usr/share/parole/parole-plugins-0'
+ /bin/mkdir -p '/usr/lib/parole-0'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   tray-icon.la '/usr/lib/parole-0'
+libtool: install: /usr/bin/install -c .libs/tray-icon.so /usr/lib/parole-0/tray-icon.so
+libtool: install: /usr/bin/install -c .libs/tray-icon.lai /usr/lib/parole-0/tray-icon.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/parole-0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/parole-0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/tray'
+Making install in notify
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/parole/parole-plugins-0'
+ /usr/bin/install -c -m 644 notify.desktop '/usr/share/parole/parole-plugins-0'
+ /bin/mkdir -p '/usr/lib/parole-0'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   parole-notify.la '/usr/lib/parole-0'
+libtool: install: /usr/bin/install -c .libs/parole-notify.so /usr/lib/parole-0/parole-notify.so
+libtool: install: /usr/bin/install -c .libs/parole-notify.lai /usr/lib/parole-0/parole-notify.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/parole-0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/parole-0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/notify'
+Making install in mpris2
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/share/parole/parole-plugins-0'
+ /usr/bin/install -c -m 644 mpris2.desktop '/usr/share/parole/parole-plugins-0'
+ /bin/mkdir -p '/usr/lib/parole-0'
+ /bin/sh ../../../libtool   --mode=install /usr/bin/install -c   parole-mpris2.la '/usr/lib/parole-0'
+libtool: install: /usr/bin/install -c .libs/parole-mpris2.so /usr/lib/parole-0/parole-mpris2.so
+libtool: install: /usr/bin/install -c .libs/parole-mpris2.lai /usr/lib/parole-0/parole-mpris2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/parole-0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/parole-0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins/mpris2'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[5]: Entering directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src/plugins'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/src'
+make[4]: Entering directory '/sources/7.9/parole-0.8.1/src'
+ /bin/mkdir -p '/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c parole '/usr/bin'
+libtool: install: /usr/bin/install -c parole /usr/bin/parole
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1/src'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/parole-0.8.1/docs'
+Making install in plugin-api
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/docs/plugin-api'
+make[2]: Entering directory '/sources/7.9/parole-0.8.1/docs'
+make[3]: Entering directory '/sources/7.9/parole-0.8.1/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/parole-0.8.1/docs'
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1/docs'
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1/docs'
+Making install in po
+make[1]: Entering directory '/sources/7.9/parole-0.8.1/po'
+linguas="ar ast bg ca cs da de el en_AU en_GB es eu fi fr gl he hr hu id is it ja kk ko lt lv ms nb nl nn oc pl pt_BR pt ru sk sr sv te th tr ug uk zh_CN zh_TW "; \
+for lang in $linguas; do \
+  dir=/usr/share/locale/$lang/LC_MESSAGES; \
+  /bin/sh /sources/7.9/parole-0.8.1/install-sh -d $dir; \
+  if test -r $lang.gmo; then \
+    /usr/bin/install -c -m 644 $lang.gmo $dir/parole.mo; \
+    echo "installing $lang.gmo as $dir/parole.mo"; \
+  else \
+    /usr/bin/install -c -m 644 ./$lang.gmo $dir/parole.mo; \
+    echo "installing ./$lang.gmo as" \
+	 "$dir/parole.mo"; \
+  fi; \
+  if test -r $lang.gmo.m; then \
+    /usr/bin/install -c -m 644 $lang.gmo.m $dir/parole.mo.m; \
+    echo "installing $lang.gmo.m as $dir/parole.mo.m"; \
+  else \
+    if test -r ./$lang.gmo.m ; then \
+      /usr/bin/install -c -m 644 ./$lang.gmo.m \
+	$dir/parole.mo.m; \
+      echo "installing ./$lang.gmo.m as" \
+	   "$dir/parole.mo.m"; \
+    else \
+      true; \
+    fi; \
+  fi; \
+done
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/parole.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/parole.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/parole.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/parole.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/parole.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/parole.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/parole.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/parole.mo
+installing en_AU.gmo as /usr/share/locale/en_AU/LC_MESSAGES/parole.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/parole.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/parole.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/parole.mo
+installing fi.gmo as /usr/share/locale/fi/LC_MESSAGES/parole.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/parole.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/parole.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/parole.mo
+installing hr.gmo as /usr/share/locale/hr/LC_MESSAGES/parole.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/parole.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/parole.mo
+installing is.gmo as /usr/share/locale/is/LC_MESSAGES/parole.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/parole.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/parole.mo
+installing kk.gmo as /usr/share/locale/kk/LC_MESSAGES/parole.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/parole.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/parole.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/parole.mo
+installing ms.gmo as /usr/share/locale/ms/LC_MESSAGES/parole.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/parole.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/parole.mo
+installing nn.gmo as /usr/share/locale/nn/LC_MESSAGES/parole.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/parole.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/parole.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/parole.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/parole.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/parole.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/parole.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/parole.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/parole.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/parole.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/parole.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/parole.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/parole.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/parole.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/parole.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/parole.mo
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1/po'
+make[1]: Entering directory '/sources/7.9/parole-0.8.1'
+make[2]: Entering directory '/sources/7.9/parole-0.8.1'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/parole-0.8.1'
+make[1]: Leaving directory '/sources/7.9/parole-0.8.1'

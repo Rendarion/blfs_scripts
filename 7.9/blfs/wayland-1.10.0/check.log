@@ -1,0 +1,86 @@
+make  check-recursive
+make[1]: Entering directory '/sources/7.9/wayland-1.10.0'
+make[2]: Entering directory '/sources/7.9/wayland-1.10.0'
+make  libtest-runner.la array-test client-test display-test connection-test event-loop-test fixed-test list-test map-test os-wrappers-test sanity-test socket-test queue-test signal-test resources-test message-test headers-test cpp-compile-test exec-fd-leak-checker
+make[3]: Entering directory '/sources/7.9/wayland-1.10.0'
+  CC       tests/array-test.o
+  CCLD     array-test
+  CC       tests/client-test.o
+  CCLD     client-test
+  CC       tests/display-test.o
+  CCLD     display-test
+  CC       tests/connection-test.o
+  CCLD     connection-test
+  CC       tests/event-loop-test.o
+  CCLD     event-loop-test
+  CC       tests/fixed-test.o
+  CCLD     fixed-test
+  CC       tests/list-test.o
+  CCLD     list-test
+  CC       tests/map-test.o
+  CCLD     map-test
+  CC       tests/os-wrappers-test.o
+  CCLD     os-wrappers-test
+  CC       tests/sanity-test.o
+  CCLD     sanity-test
+  CC       tests/socket-test.o
+  CCLD     socket-test
+  CC       tests/queue-test.o
+  CCLD     queue-test
+  CC       tests/signal-test.o
+  CCLD     signal-test
+  CC       tests/resources-test.o
+  CCLD     resources-test
+  CC       tests/message-test.o
+  CCLD     message-test
+  CC       tests/headers-test.o
+  CC       tests/headers-protocol-test.o
+  CC       tests/headers-protocol-core-test.o
+  CCLD     headers-test
+  CXX      tests/cpp-compile-test.o
+  CXXLD    cpp-compile-test
+  CC       tests/exec-fd-leak-checker.o
+  CCLD     exec-fd-leak-checker
+make[3]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/wayland-1.10.0'
+make[4]: Entering directory '/sources/7.9/wayland-1.10.0'
+PASS: array-test
+PASS: client-test
+PASS: display-test
+PASS: connection-test
+PASS: event-loop-test
+PASS: fixed-test
+PASS: list-test
+PASS: map-test
+PASS: os-wrappers-test
+PASS: sanity-test
+PASS: socket-test
+PASS: queue-test
+PASS: signal-test
+PASS: resources-test
+PASS: message-test
+PASS: headers-test
+PASS: cpp-compile-test
+make[5]: Entering directory '/sources/7.9/wayland-1.10.0'
+make  all-recursive
+make[6]: Entering directory '/sources/7.9/wayland-1.10.0'
+make[7]: Entering directory '/sources/7.9/wayland-1.10.0'
+make[7]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make[6]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make[5]: Leaving directory '/sources/7.9/wayland-1.10.0'
+============================================================================
+Testsuite summary for wayland 1.10.0
+============================================================================
+# TOTAL: 17
+# PASS:  17
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make[3]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make[2]: Leaving directory '/sources/7.9/wayland-1.10.0'
+make[1]: Leaving directory '/sources/7.9/wayland-1.10.0'

@@ -1,0 +1,4 @@
+./configure --prefix=/usr \
+            --libexecdir=/usr/lib/vte \
+            --disable-static  &&
+make

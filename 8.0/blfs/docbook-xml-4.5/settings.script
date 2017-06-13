@@ -1,0 +1,14 @@
+URL=(
+"http://www.docbook.org/xml/4.5/docbook-xml-4.5.zip"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libxml2-2.9.4"
+"sgml-common-0.6.3"
+"unzip-6.0"
+)

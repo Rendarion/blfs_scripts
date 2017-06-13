@@ -1,0 +1,14 @@
+URL=(
+"https://bitbucket.org/multicoreware/x265/downloads/x265_2.3.tar.gz"
+"http://www.linuxfromscratch.org/patches/blfs/8.0/x265_2.3-enable_static-1.patch"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+"yasm-1.3.0"
+)

@@ -1,0 +1,79 @@
+# set up varibales from setting.script
+
+source settings.script
+
+# set up bash environment
+
+set +h
+umask 022
+LFS=/mnt/lfs
+LC_ALL=POSIX
+LFS_TGT=$(uname -m)-lfs-linux-gnu
+PATH=/tools/bin:/bin:/usr/bin
+export LFS LC_ALL LFS_TGT PATH
+
+# activate parallel make
+
+export MAKEFLAGS='-j 2'
+
+# construct temporary system
+
+echo ""
+echo "Installing $LFSVS tools!"
+echo "(check build.log in package-folders for results.)"
+echo ""
+
+LFSTOOLSPATH="/sources/scripts/"$LFSVS"/lfs/tools/"
+
+PKGDIR=(
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "binutils*p1"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "gcc*p1"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "linux-api-headers*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "glibc*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "libstdc++*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "binutils*p2"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "gcc*p2"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "tcl-core*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "expect*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "dejagnu*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "check*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "ncurses*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "bash*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "bison*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "bzip2*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "coreutils*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "diffutils*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "file*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "findutils*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "gawk*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "gettext*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "grep*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "gzip*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "m4*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "make*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "patch*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "perl*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "sed*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "tar*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "texinfo*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "util-linux*"))"
+"$(basename $(find "$LFSTOOLSPATH" -maxdepth 1 -type d -name "xz*"))"
+)
+
+#unset LFSTOOLSPATH
+
+export LFSVS
+
+for i in "${PKGDIR[@]}"
+  do :
+    printf "%s" "Installing $i"
+    cd "/sources/scripts/$LFSVS/lfs/tools/$i"
+    touch install.log
+    ../../install.script > install.log 2>&1 
+    echo " ... done!"
+  done
+
+strip --strip-debug /tools/lib/*
+/usr/bin/strip --strip-unneeded /tools/{,s}bin/*
+
+rm -rf /tools/{,share}/{info,man,doc}

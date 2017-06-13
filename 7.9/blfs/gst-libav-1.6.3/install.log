@@ -1,0 +1,2257 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking nano version... 0 (release)
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen in -ldl... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... no
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for ORC... no
+configure: Using GStreamer Libav Plugins 1.6.3 BLFS as package name
+configure: Using http://www.linuxfromscratch.org/blfs/view/svn/ as package origin
+checking whether byte ordering is bigendian... no
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking for valgrind... /usr/bin/valgrind
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for python... /usr/bin/python
+checking for python version... 2.7
+checking for python platform... linux2
+checking for python script directory... ${prefix}/lib/python2.7/site-packages
+checking for python extension module directory... ${exec_prefix}/lib/python2.7/site-packages
+checking whether to build plugin documentation... no (gtk-doc disabled or not available)
+checking for cos in -lm... yes
+checking for ANSI C header files... (cached) yes
+checking for GST... yes
+configure: using GStreamer tools in /usr/bin
+configure: using GStreamer plug-ins in /usr/lib/gstreamer-1.0
+checking for GST_BASE... yes
+checking for GST_PLUGINS_BASE... yes
+configure: using GStreamer Base Plugins in /usr/lib/gstreamer-1.0
+checking for GST_CHECK... yes
+configure: Using GStreamer Core Plugins in /usr/lib/gstreamer-1.0
+configure: Using GStreamer Base Plugins in /usr/lib/gstreamer-1.0
+configure: Using /usr/lib/gstreamer-1.0 as the plugin install location
+checking whether to build static plugins or not... no
+checking to see if compiler understands -Wall... yes
+checking to see if compiler understands -Wdeclaration-after-statement... yes
+checking to see if compiler understands -Wvla... yes
+checking to see if compiler understands -Wpointer-arith... yes
+checking to see if compiler understands -Wmissing-declarations... yes
+checking to see if compiler understands -Wmissing-prototypes... yes
+checking to see if compiler understands -Wredundant-decls... yes
+checking to see if compiler understands -Wundef... yes
+checking to see if compiler understands -Wwrite-strings... yes
+checking to see if compiler understands -Wformat-nonliteral... yes
+checking to see if compiler understands -Wformat-security... yes
+checking to see if compiler understands -Wold-style-definition... yes
+checking to see if compiler understands -Winit-self... yes
+checking to see if compiler understands -Wmissing-include-dirs... yes
+checking to see if compiler understands -Waddress... yes
+checking to see if compiler understands -Waggregate-return... yes
+checking to see if compiler understands -Wno-multichar... yes
+checking to see if compiler understands -Wnested-externs... yes
+configure: set WARNING_CFLAGS to  -Wall -Wdeclaration-after-statement -Wvla -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wformat-nonliteral -Wformat-security -Wold-style-definition -Winit-self -Wmissing-include-dirs -Waddress -Waggregate-return -Wno-multichar -Wnested-externs
+configure: set ERROR_CFLAGS to 
+checking for BZ2_bzlibVersion in -lbz2... yes
+checking for lzma_version_string in -llzma... yes
+configure: Using local Libav snapshot
+configure: Using included Libav code
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating common/Makefile
+config.status: creating common/m4/Makefile
+config.status: creating gst-libav.spec
+config.status: creating ext/Makefile
+config.status: creating ext/libav/Makefile
+config.status: creating ext/libswscale/Makefile
+config.status: creating gst-libs/Makefile
+config.status: creating gst-libs/ext/Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/plugins/Makefile
+config.status: creating docs/version.entities
+config.status: creating tests/Makefile
+config.status: creating tests/check/Makefile
+config.status: creating tests/files/Makefile
+config.status: creating pkgconfig/Makefile
+config.status: creating pkgconfig/gstreamer-plugins-libav-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing configure-embedded-libav commands
+Configuring included Libav instance with args --prefix=/usr         --enable-static --enable-pic         --disable-avdevice --disable-postproc --disable-avfilter         --disable-programs --disable-ffserver --disable-ffplay --disable-ffprobe --disable-ffmpeg         --disable-encoder=flac --disable-protocols --disable-devices         --disable-network --disable-hwaccels --disable-dxva2 --disable-vdpau         --disable-filters --disable-doc --disable-vda --disable-d3d11va --disable-dxva2         --disable-iconv --enable-optimizations --ar="$AR" --as="$CC" --cc="$CC" --ld="$CC" --nm="$NM" --disable-ffmpeg 
+install prefix            /usr
+source path               .
+C compiler                gcc
+C library                 glibc
+ARCH                      x86 (generic)
+big-endian                no
+runtime cpu detection     yes
+yasm                      yes
+MMX enabled               yes
+MMXEXT enabled            yes
+3DNow! enabled            yes
+3DNow! extended enabled   yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AVX enabled               yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             yes
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    yes
+shared                    no
+postprocessing support    no
+new filter support        no
+network support           no
+threading support         pthreads
+safe bitstream reader     yes
+SDL support               no
+opencl enabled            no
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          yes
+makeinfo supports HTML    yes
+
+Enabled programs:
+
+External libraries:
+bzlib			libxcb_shm		xlib
+libxcb			libxcb_xfixes		zlib
+libxcb_shape		lzma
+
+Enabled decoders:
+aac			ayuv			frwu
+aac_fixed		bethsoftvid		g2m
+aac_latm		bfi			g723_1
+aasc			bink			g729
+ac3			binkaudio_dct		gif
+ac3_fixed		binkaudio_rdft		gsm
+adpcm_4xm		bintext			gsm_ms
+adpcm_adx		bmp			h261
+adpcm_afc		bmv_audio		h263
+adpcm_ct		bmv_video		h263i
+adpcm_dtk		brender_pix		h263p
+adpcm_ea		c93			h264
+adpcm_ea_maxis_xa	cavs			hap
+adpcm_ea_r1		ccaption		hevc
+adpcm_ea_r2		cdgraphics		hnm4_video
+adpcm_ea_r3		cdxl			hq_hqa
+adpcm_ea_xas		cinepak			hqx
+adpcm_g722		cljr			huffyuv
+adpcm_g726		cllc			iac
+adpcm_g726le		comfortnoise		idcin
+adpcm_ima_amv		cook			idf
+adpcm_ima_apc		cpia			iff_byterun1
+adpcm_ima_dk3		cscd			iff_ilbm
+adpcm_ima_dk4		cyuv			imc
+adpcm_ima_ea_eacs	dca			indeo2
+adpcm_ima_ea_sead	dds			indeo3
+adpcm_ima_iss		dfa			indeo4
+adpcm_ima_oki		dirac			indeo5
+adpcm_ima_qt		dnxhd			interplay_dpcm
+adpcm_ima_rad		dpx			interplay_video
+adpcm_ima_smjpeg	dsd_lsbf		jacosub
+adpcm_ima_wav		dsd_lsbf_planar		jpeg2000
+adpcm_ima_ws		dsd_msbf		jpegls
+adpcm_ms		dsd_msbf_planar		jv
+adpcm_sbpro_2		dsicinaudio		kgv1
+adpcm_sbpro_3		dsicinvideo		kmvc
+adpcm_sbpro_4		dss_sp			lagarith
+adpcm_swf		dvbsub			loco
+adpcm_thp		dvdsub			mace3
+adpcm_thp_le		dvvideo			mace6
+adpcm_vima		dxa			mdec
+adpcm_xa		dxtory			metasound
+adpcm_yamaha		eac3			microdvd
+aic			eacmv			mimic
+alac			eamad			mjpeg
+alias_pix		eatgq			mjpegb
+als			eatgv			mlp
+amrnb			eatqi			mmvideo
+amrwb			eightbps		motionpixels
+amv			eightsvx_exp		movtext
+anm			eightsvx_fib		mp1
+ansi			escape124		mp1float
+ape			escape130		mp2
+apng			evrc			mp2float
+ass			exr			mp3
+asv1			ffv1			mp3adu
+asv2			ffvhuff			mp3adufloat
+atrac1			ffwavesynth		mp3float
+atrac3			fic			mp3on4
+atrac3p			flac			mp3on4float
+aura			flashsv			mpc7
+aura2			flashsv2		mpc8
+avrn			flic			mpeg1video
+avrp			flv			mpeg2video
+avs			fourxm			mpeg4
+avui			fraps			mpeg_xvmc
+mpegvideo		prores_lgpl		tscc2
+mpl2			ptx			tta
+msa1			qcelp			twinvq
+msmpeg4v1		qdm2			txd
+msmpeg4v2		qdraw			ulti
+msmpeg4v3		qpeg			utvideo
+msrle			qtrle			v210
+mss1			r10k			v210x
+mss2			r210			v308
+msvideo1		ra_144			v408
+mszh			ra_288			v410
+mts2			ralf			vb
+mvc1			rawvideo		vble
+mvc2			realtext		vc1
+mxpeg			rl2			vc1image
+nellymoser		roq			vcr1
+nuv			roq_dpcm		vima
+on2avc			rpza			vmdaudio
+opus			rv10			vmdvideo
+paf_audio		rv20			vmnc
+paf_video		rv30			vorbis
+pam			rv40			vp3
+pbm			s302m			vp5
+pcm_alaw		sami			vp6
+pcm_bluray		sanm			vp6a
+pcm_dvd			sgi			vp6f
+pcm_f32be		sgirle			vp7
+pcm_f32le		shorten			vp8
+pcm_f64be		sipr			vp9
+pcm_f64le		smackaud		vplayer
+pcm_lxf			smacker			vqa
+pcm_mulaw		smc			wavpack
+pcm_s16be		smvjpeg			webp
+pcm_s16be_planar	snow			webvtt
+pcm_s16le		sol_dpcm		wmalossless
+pcm_s16le_planar	sonic			wmapro
+pcm_s24be		sp5x			wmav1
+pcm_s24daud		srt			wmav2
+pcm_s24le		ssa			wmavoice
+pcm_s24le_planar	stl			wmv1
+pcm_s32be		subrip			wmv2
+pcm_s32le		subviewer		wmv3
+pcm_s32le_planar	subviewer1		wmv3image
+pcm_s8			sunrast			wnv1
+pcm_s8_planar		svq1			ws_snd1
+pcm_u16be		svq3			xan_dpcm
+pcm_u16le		tak			xan_wc3
+pcm_u24be		targa			xan_wc4
+pcm_u24le		targa_y216		xbin
+pcm_u32be		tdsc			xbm
+pcm_u32le		text			xface
+pcm_u8			theora			xl
+pcm_zork		thp			xsub
+pcx			tiertexseqvideo		xwd
+pgm			tiff			y41p
+pgmyuv			tmv			yop
+pgssub			truehd			yuv4
+pictor			truemotion1		zero12v
+pjs			truemotion2		zerocodec
+png			truespeech		zlib
+ppm			tscc			zmbv
+prores
+
+Enabled encoders:
+a64multi		jpegls			prores
+a64multi5		ljpeg			prores_aw
+aac			mjpeg			prores_ks
+ac3			movtext			qtrle
+ac3_fixed		mp2			r10k
+adpcm_adx		mp2fixed		r210
+adpcm_g722		mpeg1video		ra_144
+adpcm_g726		mpeg2video		rawvideo
+adpcm_ima_qt		mpeg4			roq
+adpcm_ima_wav		msmpeg4v2		roq_dpcm
+adpcm_ms		msmpeg4v3		rv10
+adpcm_swf		msvideo1		rv20
+adpcm_yamaha		nellymoser		s302m
+alac			pam			sgi
+alias_pix		pbm			snow
+amv			pcm_alaw		sonic
+apng			pcm_f32be		sonic_ls
+ass			pcm_f32le		srt
+asv1			pcm_f64be		ssa
+asv2			pcm_f64le		subrip
+avrp			pcm_mulaw		sunrast
+avui			pcm_s16be		svq1
+ayuv			pcm_s16be_planar	targa
+bmp			pcm_s16le		tiff
+cinepak			pcm_s16le_planar	tta
+cljr			pcm_s24be		utvideo
+comfortnoise		pcm_s24daud		v210
+dca			pcm_s24le		v308
+dnxhd			pcm_s24le_planar	v408
+dpx			pcm_s32be		v410
+dvbsub			pcm_s32le		vorbis
+dvdsub			pcm_s32le_planar	wavpack
+dvvideo			pcm_s8			webvtt
+eac3			pcm_s8_planar		wmav1
+ffv1			pcm_u16be		wmav2
+ffvhuff			pcm_u16le		wmv1
+flashsv			pcm_u24be		wmv2
+flashsv2		pcm_u24le		xbm
+flv			pcm_u32be		xface
+g723_1			pcm_u32le		xsub
+gif			pcm_u8			xwd
+h261			pcx			y41p
+h263			pgm			yuv4
+h263p			pgmyuv			zlib
+huffyuv			png			zmbv
+jpeg2000		ppm
+
+Enabled hwaccels:
+
+Enabled parsers:
+aac			dvdsub			mpegvideo
+aac_latm		flac			opus
+ac3			g729			png
+adx			gsm			pnm
+bmp			h261			rv30
+cavsvideo		h263			rv40
+cook			h264			tak
+dca			hevc			vc1
+dirac			mjpeg			vorbis
+dnxhd			mlp			vp3
+dpx			mpeg4video		vp8
+dvbsub			mpegaudio		vp9
+dvd_nav
+
+Enabled demuxers:
+aa			g723_1			mpjpeg
+aac			g729			mpl2
+ac3			gif			mpsub
+act			gsm			msnwc_tcp
+adf			gxf			mtv
+adp			h261			mv
+adx			h263			mvi
+aea			h264			mxf
+afc			hevc			mxg
+aiff			hls			nc
+amr			hnm			nistsphere
+anm			ico			nsv
+apc			idcin			nut
+ape			idf			nuv
+apng			iff			ogg
+aqtitle			ilbc			oma
+asf			image2			paf
+asf_o			image2_alias_pix	pcm_alaw
+ass			image2_brender_pix	pcm_f32be
+ast			image2pipe		pcm_f32le
+au			image_bmp_pipe		pcm_f64be
+avi			image_dds_pipe		pcm_f64le
+avr			image_dpx_pipe		pcm_mulaw
+avs			image_exr_pipe		pcm_s16be
+bethsoftvid		image_j2k_pipe		pcm_s16le
+bfi			image_jpeg_pipe		pcm_s24be
+bfstm			image_jpegls_pipe	pcm_s24le
+bink			image_pictor_pipe	pcm_s32be
+bintext			image_png_pipe		pcm_s32le
+bit			image_qdraw_pipe	pcm_s8
+bmv			image_sgi_pipe		pcm_u16be
+boa			image_sunrast_pipe	pcm_u16le
+brstm			image_tiff_pipe		pcm_u24be
+c93			image_webp_pipe		pcm_u24le
+caf			ingenient		pcm_u32be
+cavsvideo		ipmovie			pcm_u32le
+cdg			ircam			pcm_u8
+cdxl			iss			pjs
+cine			iv8			pmp
+concat			ivf			pva
+data			jacosub			pvf
+daud			jv			qcp
+dfa			latm			r3d
+dirac			live_flv		rawvideo
+dnxhd			lmlm4			realtext
+dsf			loas			redspark
+dsicin			lrc			rl2
+dss			lvf			rm
+dts			lxf			roq
+dtshd			m4v			rpl
+dv			matroska		rsd
+dvbsub			mgsts			rso
+dxa			microdvd		sami
+ea			mjpeg			sbg
+ea_cdata		mlp			sdr2
+eac3			mlv			segafilm
+epaf			mm			shorten
+ffm			mmf			siff
+ffmetadata		mov			sln
+filmstrip		mp3			smacker
+flac			mpc			smjpeg
+flic			mpc8			smush
+flv			mpegps			sol
+fourxm			mpegts			sox
+frm			mpegtsraw		spdif
+g722			mpegvideo		srt
+stl			tty			webm_dash_manifest
+str			txd			webvtt
+subviewer		vc1			wsaud
+subviewer1		vc1t			wsvqa
+sup			vivo			wtv
+swf			vmd			wv
+tak			vobsub			xa
+tedcaptions		voc			xbin
+thp			vplayer			xmv
+tiertexseq		vqf			xwma
+tmv			w64			yop
+truehd			wav			yuv4mpegpipe
+tta			wc3
+
+Enabled muxers:
+a64			image2pipe		pcm_s24be
+ac3			ipod			pcm_s24le
+adts			ircam			pcm_s32be
+adx			ismv			pcm_s32le
+aiff			ivf			pcm_s8
+amr			jacosub			pcm_u16be
+apng			latm			pcm_u16le
+asf			lrc			pcm_u24be
+asf_stream		m4v			pcm_u24le
+ass			matroska		pcm_u32be
+ast			matroska_audio		pcm_u32le
+au			md5			pcm_u8
+avi			microdvd		psp
+avm2			mjpeg			rawvideo
+bit			mkvtimestamp_v2		rm
+caf			mlp			roq
+cavsvideo		mmf			rso
+crc			mov			rtp
+dash			mp2			rtp_mpegts
+data			mp3			segment
+daud			mp4			singlejpeg
+dirac			mpeg1system		smjpeg
+dnxhd			mpeg1vcd		smoothstreaming
+dts			mpeg1video		sox
+dv			mpeg2dvd		spdif
+eac3			mpeg2svcd		spx
+f4v			mpeg2video		srt
+ffm			mpeg2vob		stream_segment
+ffmetadata		mpegts			swf
+filmstrip		mpjpeg			tee
+flac			mxf			tg2
+flv			mxf_d10			tgp
+framecrc		mxf_opatom		truehd
+framemd5		null			uncodedframecrc
+g722			nut			vc1
+g723_1			oga			vc1t
+gif			ogg			voc
+gxf			oma			w64
+h261			opus			wav
+h263			pcm_alaw		webm
+h264			pcm_f32be		webm_chunk
+hds			pcm_f32le		webm_dash_manifest
+hevc			pcm_f64be		webp
+hls			pcm_f64le		webvtt
+ico			pcm_mulaw		wtv
+ilbc			pcm_s16be		wv
+image2			pcm_s16le		yuv4mpegpipe
+
+Enabled protocols:
+
+Enabled filters:
+
+Enabled bsfs:
+aac_adtstoasc		imx_dump_header		mpeg4_unpack_bframes
+chomp			mjpeg2jpeg		noise
+dump_extradata		mjpega_dump_header	remove_extradata
+h264_mp4toannexb	mov2textsub		text2movsub
+hevc_mp4toannexb	mp3_header_decompress
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+Creating config.mak, config.h, and doc/config.texi...
+configure: *** Orc acceleration disabled.  Requires Orc >= 0.4.16, which was
+               not found.  Slower code paths will be used.
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+Making all in gst-libs
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making all in ext
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[4]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+cd libav && make
+make[5]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext/libav'
+CC	libavformat/4xm.o
+CC	libavformat/a64.o
+CC	libavformat/aacdec.o
+CC	libavformat/aadec.o
+CC	libavformat/ac3dec.o
+CC	libavformat/act.o
+CC	libavformat/adp.o
+CC	libavformat/adtsenc.o
+CC	libavformat/adxdec.o
+CC	libavformat/aea.o
+CC	libavformat/afc.o
+CC	libavformat/aiffdec.o
+CC	libavformat/aiffenc.o
+CC	libavformat/allformats.o
+CC	libavformat/amr.o
+CC	libavformat/anm.o
+CC	libavformat/apc.o
+CC	libavformat/ape.o
+CC	libavformat/apetag.o
+CC	libavformat/apngdec.o
+CC	libavformat/apngenc.o
+CC	libavformat/aqtitledec.o
+CC	libavformat/asf.o
+CC	libavformat/asfcrypt.o
+CC	libavformat/asfdec_f.o
+CC	libavformat/asfdec_o.o
+CC	libavformat/asfenc.o
+CC	libavformat/assdec.o
+CC	libavformat/assenc.o
+CC	libavformat/ast.o
+CC	libavformat/astdec.o
+CC	libavformat/astenc.o
+CC	libavformat/au.o
+CC	libavformat/audiointerleave.o
+CC	libavformat/avc.o
+CC	libavformat/avidec.o
+CC	libavformat/avienc.o
+CC	libavformat/avio.o
+CC	libavformat/aviobuf.o
+CC	libavformat/avlanguage.o
+CC	libavformat/avr.o
+CC	libavformat/avs.o
+CC	libavformat/bethsoftvid.o
+CC	libavformat/bfi.o
+CC	libavformat/bink.o
+CC	libavformat/bintext.o
+CC	libavformat/bit.o
+CC	libavformat/bmv.o
+CC	libavformat/boadec.o
+CC	libavformat/brstm.o
+CC	libavformat/c93.o
+CC	libavformat/caf.o
+CC	libavformat/cafdec.o
+CC	libavformat/cafenc.o
+CC	libavformat/cavsvideodec.o
+CC	libavformat/cdg.o
+CC	libavformat/cdxl.o
+CC	libavformat/cinedec.o
+CC	libavformat/concatdec.o
+CC	libavformat/crcenc.o
+CC	libavformat/cutils.o
+CC	libavformat/dashenc.o
+CC	libavformat/dauddec.o
+CC	libavformat/daudenc.o
+CC	libavformat/dfa.o
+CC	libavformat/diracdec.o
+CC	libavformat/dnxhddec.o
+CC	libavformat/dsfdec.o
+CC	libavformat/dsicin.o
+CC	libavformat/dss.o
+CC	libavformat/dtsdec.o
+CC	libavformat/dtshddec.o
+CC	libavformat/dump.o
+CC	libavformat/dv.o
+CC	libavformat/dvbsub.o
+CC	libavformat/dvenc.o
+CC	libavformat/dxa.o
+CC	libavformat/eacdata.o
+CC	libavformat/electronicarts.o
+CC	libavformat/epafdec.o
+CC	libavformat/ffmdec.o
+CC	libavformat/ffmenc.o
+CC	libavformat/ffmetadec.o
+CC	libavformat/ffmetaenc.o
+CC	libavformat/filmstripdec.o
+CC	libavformat/filmstripenc.o
+CC	libavformat/flac_picture.o
+CC	libavformat/flacdec.o
+CC	libavformat/flacenc.o
+CC	libavformat/flacenc_header.o
+CC	libavformat/flic.o
+CC	libavformat/flvdec.o
+CC	libavformat/flvenc.o
+CC	libavformat/format.o
+CC	libavformat/framecrcenc.o
+CC	libavformat/framehash.o
+CC	libavformat/frmdec.o
+CC	libavformat/g722.o
+CC	libavformat/g723_1.o
+CC	libavformat/g729dec.o
+CC	libavformat/gif.o
+CC	libavformat/gifdec.o
+CC	libavformat/gsmdec.o
+CC	libavformat/gxf.o
+CC	libavformat/gxfenc.o
+CC	libavformat/h261dec.o
+CC	libavformat/h263dec.o
+CC	libavformat/h264dec.o
+CC	libavformat/hdsenc.o
+CC	libavformat/hevc.o
+CC	libavformat/hevcdec.o
+CC	libavformat/hls.o
+CC	libavformat/hlsenc.o
+CC	libavformat/hnm.o
+CC	libavformat/icodec.o
+CC	libavformat/icoenc.o
+CC	libavformat/id3v1.o
+CC	libavformat/id3v2.o
+CC	libavformat/id3v2enc.o
+CC	libavformat/idcin.o
+CC	libavformat/idroqdec.o
+CC	libavformat/idroqenc.o
+CC	libavformat/iff.o
+CC	libavformat/ilbc.o
+CC	libavformat/img2.o
+CC	libavformat/img2_alias_pix.o
+CC	libavformat/img2_brender_pix.o
+CC	libavformat/img2dec.o
+CC	libavformat/img2enc.o
+CC	libavformat/ingenientdec.o
+CC	libavformat/ipmovie.o
+CC	libavformat/ircam.o
+CC	libavformat/ircamdec.o
+CC	libavformat/ircamenc.o
+CC	libavformat/isom.o
+CC	libavformat/iss.o
+CC	libavformat/iv8.o
+CC	libavformat/ivfdec.o
+CC	libavformat/ivfenc.o
+CC	libavformat/jacosubdec.o
+CC	libavformat/jacosubenc.o
+CC	libavformat/jvdec.o
+CC	libavformat/latmenc.o
+CC	libavformat/lmlm4.o
+CC	libavformat/loasdec.o
+CC	libavformat/lrc.o
+CC	libavformat/lrcdec.o
+CC	libavformat/lrcenc.o
+CC	libavformat/lvfdec.o
+CC	libavformat/lxfdec.o
+CC	libavformat/m4vdec.o
+CC	libavformat/matroska.o
+CC	libavformat/matroskadec.o
+CC	libavformat/matroskaenc.o
+CC	libavformat/md5enc.o
+CC	libavformat/metadata.o
+CC	libavformat/mgsts.o
+CC	libavformat/microdvddec.o
+CC	libavformat/microdvdenc.o
+CC	libavformat/mkvtimestamp_v2.o
+CC	libavformat/mlvdec.o
+CC	libavformat/mm.o
+CC	libavformat/mmf.o
+CC	libavformat/mov.o
+CC	libavformat/mov_chan.o
+CC	libavformat/movenc.o
+CC	libavformat/movenchint.o
+CC	libavformat/mp3dec.o
+CC	libavformat/mp3enc.o
+CC	libavformat/mpc.o
+CC	libavformat/mpc8.o
+CC	libavformat/mpeg.o
+CC	libavformat/mpegenc.o
+CC	libavformat/mpegts.o
+CC	libavformat/mpegtsenc.o
+CC	libavformat/mpegvideodec.o
+CC	libavformat/mpjpeg.o
+CC	libavformat/mpjpegdec.o
+CC	libavformat/mpl2dec.o
+CC	libavformat/mpsubdec.o
+CC	libavformat/msnwc_tcp.o
+CC	libavformat/mtv.o
+CC	libavformat/mux.o
+CC	libavformat/mvdec.o
+CC	libavformat/mvi.o
+CC	libavformat/mxf.o
+CC	libavformat/mxfdec.o
+CC	libavformat/mxfenc.o
+CC	libavformat/mxg.o
+CC	libavformat/ncdec.o
+CC	libavformat/nistspheredec.o
+CC	libavformat/nsvdec.o
+CC	libavformat/nullenc.o
+CC	libavformat/nut.o
+CC	libavformat/nutdec.o
+CC	libavformat/nutenc.o
+CC	libavformat/nuv.o
+CC	libavformat/oggdec.o
+CC	libavformat/oggenc.o
+CC	libavformat/oggparsecelt.o
+CC	libavformat/oggparsedirac.o
+CC	libavformat/oggparseflac.o
+CC	libavformat/oggparseogm.o
+CC	libavformat/oggparseopus.o
+CC	libavformat/oggparseskeleton.o
+CC	libavformat/oggparsespeex.o
+CC	libavformat/oggparsetheora.o
+CC	libavformat/oggparsevorbis.o
+CC	libavformat/oggparsevp8.o
+CC	libavformat/oma.o
+CC	libavformat/omadec.o
+CC	libavformat/omaenc.o
+CC	libavformat/options.o
+CC	libavformat/os_support.o
+CC	libavformat/paf.o
+CC	libavformat/pcm.o
+CC	libavformat/pcmdec.o
+CC	libavformat/pcmenc.o
+CC	libavformat/pjsdec.o
+CC	libavformat/pmpdec.o
+CC	libavformat/psxstr.o
+CC	libavformat/pva.o
+CC	libavformat/pvfdec.o
+CC	libavformat/qcp.o
+CC	libavformat/r3d.o
+CC	libavformat/rawdec.o
+CC	libavformat/rawenc.o
+CC	libavformat/rawvideodec.o
+CC	libavformat/realtextdec.o
+CC	libavformat/redspark.o
+CC	libavformat/replaygain.o
+CC	libavformat/riff.o
+CC	libavformat/riffdec.o
+CC	libavformat/riffenc.o
+CC	libavformat/rl2.o
+CC	libavformat/rm.o
+CC	libavformat/rmdec.o
+CC	libavformat/rmenc.o
+CC	libavformat/rmsipr.o
+CC	libavformat/rpl.o
+CC	libavformat/rsd.o
+CC	libavformat/rso.o
+CC	libavformat/rsodec.o
+CC	libavformat/rsoenc.o
+CC	libavformat/rtp.o
+CC	libavformat/rtpenc.o
+CC	libavformat/rtpenc_aac.o
+CC	libavformat/rtpenc_amr.o
+CC	libavformat/rtpenc_chain.o
+CC	libavformat/rtpenc_h261.o
+CC	libavformat/rtpenc_h263.o
+CC	libavformat/rtpenc_h263_rfc2190.o
+CC	libavformat/rtpenc_h264_hevc.o
+CC	libavformat/rtpenc_jpeg.o
+CC	libavformat/rtpenc_latm.o
+CC	libavformat/rtpenc_mpegts.o
+CC	libavformat/rtpenc_mpv.o
+CC	libavformat/rtpenc_vp8.o
+CC	libavformat/rtpenc_xiph.o
+CC	libavformat/samidec.o
+CC	libavformat/sauce.o
+CC	libavformat/sbgdec.o
+CC	libavformat/sdp.o
+CC	libavformat/sdr2.o
+CC	libavformat/segafilm.o
+CC	libavformat/segment.o
+CC	libavformat/sierravmd.o
+CC	libavformat/siff.o
+CC	libavformat/smacker.o
+CC	libavformat/smjpeg.o
+CC	libavformat/smjpegdec.o
+CC	libavformat/smjpegenc.o
+CC	libavformat/smoothstreamingenc.o
+CC	libavformat/smush.o
+CC	libavformat/sol.o
+CC	libavformat/soxdec.o
+CC	libavformat/soxenc.o
+CC	libavformat/spdif.o
+CC	libavformat/spdifdec.o
+CC	libavformat/spdifenc.o
+CC	libavformat/srtdec.o
+CC	libavformat/srtenc.o
+CC	libavformat/stldec.o
+CC	libavformat/subtitles.o
+CC	libavformat/subviewer1dec.o
+CC	libavformat/subviewerdec.o
+CC	libavformat/supdec.o
+CC	libavformat/swf.o
+CC	libavformat/swfdec.o
+CC	libavformat/swfenc.o
+CC	libavformat/takdec.o
+CC	libavformat/tedcaptionsdec.o
+CC	libavformat/tee.o
+CC	libavformat/thp.o
+CC	libavformat/tiertexseq.o
+CC	libavformat/tmv.o
+CC	libavformat/tta.o
+CC	libavformat/tty.o
+CC	libavformat/txd.o
+CC	libavformat/uncodedframecrcenc.o
+CC	libavformat/url.o
+CC	libavformat/utils.o
+CC	libavformat/vc1test.o
+CC	libavformat/vc1testenc.o
+CC	libavformat/vivo.o
+CC	libavformat/voc.o
+CC	libavformat/vocdec.o
+CC	libavformat/vocenc.o
+CC	libavformat/vorbiscomment.o
+CC	libavformat/vplayerdec.o
+CC	libavformat/vqf.o
+CC	libavformat/w64.o
+CC	libavformat/wavdec.o
+CC	libavformat/wavenc.o
+CC	libavformat/wc3movie.o
+CC	libavformat/webm_chunk.o
+CC	libavformat/webmdashenc.o
+CC	libavformat/webpenc.o
+CC	libavformat/webvttdec.o
+CC	libavformat/webvttenc.o
+CC	libavformat/westwood_aud.o
+CC	libavformat/westwood_vqa.o
+CC	libavformat/wtv_common.o
+CC	libavformat/wtvdec.o
+CC	libavformat/wtvenc.o
+CC	libavformat/wv.o
+CC	libavformat/wvdec.o
+CC	libavformat/wvenc.o
+CC	libavformat/xa.o
+CC	libavformat/xmv.o
+CC	libavformat/xwma.o
+CC	libavformat/yop.o
+CC	libavformat/yuv4mpegdec.o
+CC	libavformat/yuv4mpegenc.o
+AR	libavformat/libavformat.a
+CC	libavcodec/012v.o
+CC	libavcodec/4xm.o
+CC	libavcodec/8bps.o
+CC	libavcodec/8svx.o
+CC	libavcodec/a64multienc.o
+CC	libavcodec/aac_ac3_parser.o
+CC	libavcodec/aac_adtstoasc_bsf.o
+CC	libavcodec/aac_parser.o
+CC	libavcodec/aacadtsdec.o
+CC	libavcodec/aaccoder.o
+CC	libavcodec/aacdec.o
+CC	libavcodec/aacdec_fixed.o
+CC	libavcodec/aacenc.o
+CC	libavcodec/aacenc_is.o
+CC	libavcodec/aacenc_pred.o
+CC	libavcodec/aacenc_tns.o
+CC	libavcodec/aacenctab.o
+CC	libavcodec/aacps_fixed.o
+CC	libavcodec/aacps_float.o
+CC	libavcodec/aacpsdsp_fixed.o
+CC	libavcodec/aacpsdsp_float.o
+CC	libavcodec/aacpsy.o
+CC	libavcodec/aacsbr.o
+CC	libavcodec/aacsbr_fixed.o
+CC	libavcodec/aactab.o
+CC	libavcodec/aandcttab.o
+CC	libavcodec/aasc.o
+CC	libavcodec/ac3.o
+CC	libavcodec/ac3_parser.o
+CC	libavcodec/ac3dec_data.o
+CC	libavcodec/ac3dec_fixed.o
+CC	libavcodec/ac3dec_float.o
+CC	libavcodec/ac3dsp.o
+CC	libavcodec/ac3enc.o
+CC	libavcodec/ac3enc_fixed.o
+CC	libavcodec/ac3enc_float.o
+CC	libavcodec/ac3tab.o
+CC	libavcodec/acelp_filters.o
+CC	libavcodec/acelp_pitch_delay.o
+CC	libavcodec/acelp_vectors.o
+CC	libavcodec/adpcm.o
+CC	libavcodec/adpcm_data.o
+CC	libavcodec/adpcmenc.o
+CC	libavcodec/adx.o
+CC	libavcodec/adx_parser.o
+CC	libavcodec/adxdec.o
+CC	libavcodec/adxenc.o
+CC	libavcodec/aic.o
+CC	libavcodec/alac.o
+CC	libavcodec/alac_data.o
+CC	libavcodec/alacenc.o
+CC	libavcodec/aliaspixdec.o
+CC	libavcodec/aliaspixenc.o
+CC	libavcodec/allcodecs.o
+CC	libavcodec/alsdec.o
+CC	libavcodec/amrnbdec.o
+CC	libavcodec/amrwbdec.o
+CC	libavcodec/anm.o
+CC	libavcodec/ansi.o
+CC	libavcodec/apedec.o
+CC	libavcodec/ass.o
+CC	libavcodec/ass_split.o
+CC	libavcodec/assdec.o
+CC	libavcodec/assenc.o
+CC	libavcodec/asv.o
+CC	libavcodec/asvdec.o
+CC	libavcodec/asvenc.o
+CC	libavcodec/atrac.o
+CC	libavcodec/atrac1.o
+CC	libavcodec/atrac3.o
+CC	libavcodec/atrac3plus.o
+CC	libavcodec/atrac3plusdec.o
+CC	libavcodec/atrac3plusdsp.o
+CC	libavcodec/audio_frame_queue.o
+CC	libavcodec/audioconvert.o
+CC	libavcodec/audiodsp.o
+CC	libavcodec/aura.o
+CC	libavcodec/avdct.o
+CC	libavcodec/avfft.o
+CC	libavcodec/avpacket.o
+CC	libavcodec/avpicture.o
+CC	libavcodec/avrndec.o
+CC	libavcodec/avs.o
+CC	libavcodec/avuidec.o
+CC	libavcodec/avuienc.o
+CC	libavcodec/bethsoftvideo.o
+CC	libavcodec/bfi.o
+CC	libavcodec/bgmc.o
+CC	libavcodec/bink.o
+CC	libavcodec/binkaudio.o
+CC	libavcodec/binkdsp.o
+CC	libavcodec/bintext.o
+CC	libavcodec/bitstream.o
+CC	libavcodec/bitstream_filter.o
+CC	libavcodec/blockdsp.o
+CC	libavcodec/bmp.o
+CC	libavcodec/bmp_parser.o
+CC	libavcodec/bmpenc.o
+CC	libavcodec/bmvaudio.o
+CC	libavcodec/bmvvideo.o
+CC	libavcodec/brenderpix.o
+CC	libavcodec/bswapdsp.o
+CC	libavcodec/c93.o
+CC	libavcodec/cabac.o
+CC	libavcodec/canopus.o
+CC	libavcodec/cavs.o
+CC	libavcodec/cavs_parser.o
+CC	libavcodec/cavsdata.o
+CC	libavcodec/cavsdec.o
+CC	libavcodec/cavsdsp.o
+CC	libavcodec/ccaption_dec.o
+CC	libavcodec/cdgraphics.o
+CC	libavcodec/cdxl.o
+CC	libavcodec/celp_filters.o
+CC	libavcodec/celp_math.o
+CC	libavcodec/cga_data.o
+CC	libavcodec/chomp_bsf.o
+CC	libavcodec/cinepak.o
+CC	libavcodec/cinepakenc.o
+CC	libavcodec/cljrdec.o
+CC	libavcodec/cljrenc.o
+CC	libavcodec/cllc.o
+CC	libavcodec/cngdec.o
+CC	libavcodec/cngenc.o
+CC	libavcodec/codec_desc.o
+CC	libavcodec/cook.o
+CC	libavcodec/cook_parser.o
+CC	libavcodec/cpia.o
+CC	libavcodec/cscd.o
+CC	libavcodec/cyuv.o
+CC	libavcodec/dca.o
+CC	libavcodec/dca_exss.o
+CC	libavcodec/dca_parser.o
+CC	libavcodec/dca_xll.o
+CC	libavcodec/dcadata.o
+CC	libavcodec/dcadec.o
+CC	libavcodec/dcadsp.o
+CC	libavcodec/dcaenc.o
+CC	libavcodec/dct.o
+CC	libavcodec/dct32_fixed.o
+CC	libavcodec/dct32_float.o
+CC	libavcodec/dds.o
+CC	libavcodec/dfa.o
+CC	libavcodec/dirac.o
+CC	libavcodec/dirac_arith.o
+CC	libavcodec/dirac_dwt.o
+CC	libavcodec/dirac_parser.o
+CC	libavcodec/diracdec.o
+CC	libavcodec/diracdsp.o
+CC	libavcodec/dnxhd_parser.o
+CC	libavcodec/dnxhddata.o
+CC	libavcodec/dnxhddec.o
+CC	libavcodec/dnxhdenc.o
+CC	libavcodec/dpcm.o
+CC	libavcodec/dpx.o
+CC	libavcodec/dpx_parser.o
+CC	libavcodec/dpxenc.o
+CC	libavcodec/dsddec.o
+CC	libavcodec/dsicinaudio.o
+CC	libavcodec/dsicinvideo.o
+CC	libavcodec/dss_sp.o
+CC	libavcodec/dump_extradata_bsf.o
+CC	libavcodec/dv.o
+CC	libavcodec/dv_profile.o
+CC	libavcodec/dvbsub.o
+CC	libavcodec/dvbsub_parser.o
+CC	libavcodec/dvbsubdec.o
+CC	libavcodec/dvd_nav_parser.o
+CC	libavcodec/dvdata.o
+CC	libavcodec/dvdec.o
+CC	libavcodec/dvdsub_parser.o
+CC	libavcodec/dvdsubdec.o
+CC	libavcodec/dvdsubenc.o
+CC	libavcodec/dvenc.o
+CC	libavcodec/dxa.o
+CC	libavcodec/dxtory.o
+CC	libavcodec/eac3_data.o
+CC	libavcodec/eac3enc.o
+CC	libavcodec/eacmv.o
+CC	libavcodec/eaidct.o
+CC	libavcodec/eamad.o
+CC	libavcodec/eatgq.o
+CC	libavcodec/eatgv.o
+CC	libavcodec/eatqi.o
+CC	libavcodec/elbg.o
+CC	libavcodec/elsdec.o
+CC	libavcodec/error_resilience.o
+CC	libavcodec/escape124.o
+CC	libavcodec/escape130.o
+CC	libavcodec/evrcdec.o
+CC	libavcodec/exif.o
+CC	libavcodec/exr.o
+CC	libavcodec/faandct.o
+CC	libavcodec/faanidct.o
+CC	libavcodec/faxcompr.o
+CC	libavcodec/fdctdsp.o
+CC	libavcodec/fft_fixed.o
+CC	libavcodec/fft_fixed_32.o
+CC	libavcodec/fft_float.o
+CC	libavcodec/fft_init_table.o
+CC	libavcodec/ffv1.o
+CC	libavcodec/ffv1dec.o
+CC	libavcodec/ffv1enc.o
+CC	libavcodec/ffwavesynth.o
+CC	libavcodec/fic.o
+CC	libavcodec/flac.o
+CC	libavcodec/flac_parser.o
+CC	libavcodec/flacdata.o
+CC	libavcodec/flacdec.o
+CC	libavcodec/flacdsp.o
+CC	libavcodec/flashsv.o
+CC	libavcodec/flashsv2enc.o
+CC	libavcodec/flashsvenc.o
+CC	libavcodec/flicvideo.o
+CC	libavcodec/flvdec.o
+CC	libavcodec/flvenc.o
+CC	libavcodec/fmtconvert.o
+CC	libavcodec/frame_thread_encoder.o
+CC	libavcodec/fraps.o
+CC	libavcodec/frwu.o
+CC	libavcodec/g2meet.o
+CC	libavcodec/g722.o
+CC	libavcodec/g722dec.o
+CC	libavcodec/g722dsp.o
+CC	libavcodec/g722enc.o
+CC	libavcodec/g723_1.o
+CC	libavcodec/g726.o
+CC	libavcodec/g729_parser.o
+CC	libavcodec/g729dec.o
+CC	libavcodec/g729postfilter.o
+CC	libavcodec/gif.o
+CC	libavcodec/gifdec.o
+CC	libavcodec/golomb.o
+CC	libavcodec/gsm_parser.o
+CC	libavcodec/gsmdec.o
+CC	libavcodec/gsmdec_data.o
+CC	libavcodec/h261.o
+CC	libavcodec/h261_parser.o
+CC	libavcodec/h261data.o
+CC	libavcodec/h261dec.o
+CC	libavcodec/h261enc.o
+CC	libavcodec/h263.o
+CC	libavcodec/h263_parser.o
+CC	libavcodec/h263data.o
+CC	libavcodec/h263dec.o
+CC	libavcodec/h263dsp.o
+CC	libavcodec/h264.o
+CC	libavcodec/h264_cabac.o
+CC	libavcodec/h264_cavlc.o
+CC	libavcodec/h264_direct.o
+CC	libavcodec/h264_loopfilter.o
+CC	libavcodec/h264_mb.o
+CC	libavcodec/h264_mp4toannexb_bsf.o
+CC	libavcodec/h264_parser.o
+CC	libavcodec/h264_picture.o
+CC	libavcodec/h264_ps.o
+CC	libavcodec/h264_refs.o
+CC	libavcodec/h264_sei.o
+CC	libavcodec/h264_slice.o
+CC	libavcodec/h264chroma.o
+CC	libavcodec/h264dsp.o
+CC	libavcodec/h264idct.o
+CC	libavcodec/h264pred.o
+CC	libavcodec/h264qpel.o
+CC	libavcodec/hap.o
+CC	libavcodec/hapdec.o
+CC	libavcodec/hevc.o
+CC	libavcodec/hevc_cabac.o
+CC	libavcodec/hevc_data.o
+CC	libavcodec/hevc_filter.o
+CC	libavcodec/hevc_mp4toannexb_bsf.o
+CC	libavcodec/hevc_mvs.o
+CC	libavcodec/hevc_parse.o
+CC	libavcodec/hevc_parser.o
+CC	libavcodec/hevc_ps.o
+CC	libavcodec/hevc_refs.o
+CC	libavcodec/hevc_sei.o
+CC	libavcodec/hevcdsp.o
+CC	libavcodec/hevcpred.o
+CC	libavcodec/hnm4video.o
+CC	libavcodec/hpeldsp.o
+CC	libavcodec/hq_hqa.o
+CC	libavcodec/hq_hqadata.o
+CC	libavcodec/hq_hqadsp.o
+CC	libavcodec/hqx.o
+CC	libavcodec/hqxdsp.o
+CC	libavcodec/hqxvlc.o
+CC	libavcodec/huffman.o
+CC	libavcodec/huffyuv.o
+CC	libavcodec/huffyuvdec.o
+CC	libavcodec/huffyuvdsp.o
+CC	libavcodec/huffyuvenc.o
+CC	libavcodec/huffyuvencdsp.o
+CC	libavcodec/idcinvideo.o
+CC	libavcodec/idctdsp.o
+CC	libavcodec/iff.o
+CC	libavcodec/iirfilter.o
+CC	libavcodec/imc.o
+CC	libavcodec/imdct15.o
+CC	libavcodec/imgconvert.o
+CC	libavcodec/imx_dump_header_bsf.o
+CC	libavcodec/indeo2.o
+CC	libavcodec/indeo3.o
+CC	libavcodec/indeo4.o
+CC	libavcodec/indeo5.o
+CC	libavcodec/intelh263dec.o
+CC	libavcodec/interplayvideo.o
+CC	libavcodec/intrax8.o
+CC	libavcodec/intrax8dsp.o
+CC	libavcodec/ituh263dec.o
+CC	libavcodec/ituh263enc.o
+CC	libavcodec/ivi.o
+CC	libavcodec/ivi_dsp.o
+CC	libavcodec/j2kenc.o
+CC	libavcodec/jacosubdec.o
+CC	libavcodec/jfdctfst.o
+CC	libavcodec/jfdctint.o
+CC	libavcodec/jpeg2000.o
+CC	libavcodec/jpeg2000dec.o
+CC	libavcodec/jpeg2000dsp.o
+CC	libavcodec/jpeg2000dwt.o
+CC	libavcodec/jpegls.o
+CC	libavcodec/jpeglsdec.o
+CC	libavcodec/jpeglsenc.o
+CC	libavcodec/jpegtables.o
+CC	libavcodec/jrevdct.o
+CC	libavcodec/jvdec.o
+CC	libavcodec/kbdwin.o
+CC	libavcodec/kgv1dec.o
+CC	libavcodec/kmvc.o
+CC	libavcodec/lagarith.o
+CC	libavcodec/lagarithrac.o
+CC	libavcodec/latm_parser.o
+CC	libavcodec/lcldec.o
+CC	libavcodec/lclenc.o
+CC	libavcodec/ljpegenc.o
+CC	libavcodec/loco.o
+CC	libavcodec/lossless_audiodsp.o
+CC	libavcodec/lossless_videodsp.o
+CC	libavcodec/lpc.o
+CC	libavcodec/lsp.o
+CC	libavcodec/lzw.o
+CC	libavcodec/lzwenc.o
+CC	libavcodec/mace.o
+CC	libavcodec/mathtables.o
+CC	libavcodec/mdct_fixed.o
+CC	libavcodec/mdct_fixed_32.o
+CC	libavcodec/mdct_float.o
+CC	libavcodec/mdec.o
+CC	libavcodec/me_cmp.o
+CC	libavcodec/metasound.o
+CC	libavcodec/metasound_data.o
+CC	libavcodec/microdvddec.o
+CC	libavcodec/mimic.o
+CC	libavcodec/mjpeg2jpeg_bsf.o
+CC	libavcodec/mjpeg_parser.o
+CC	libavcodec/mjpega_dump_header_bsf.o
+CC	libavcodec/mjpegbdec.o
+CC	libavcodec/mjpegdec.o
+CC	libavcodec/mjpegenc.o
+CC	libavcodec/mjpegenc_common.o
+CC	libavcodec/mlp.o
+CC	libavcodec/mlp_parser.o
+CC	libavcodec/mlpdec.o
+CC	libavcodec/mlpdsp.o
+CC	libavcodec/mmvideo.o
+CC	libavcodec/motion_est.o
+CC	libavcodec/motionpixels.o
+CC	libavcodec/movsub_bsf.o
+CC	libavcodec/movtextdec.o
+CC	libavcodec/movtextenc.o
+CC	libavcodec/mp3_header_decompress_bsf.o
+CC	libavcodec/mpc.o
+CC	libavcodec/mpc7.o
+CC	libavcodec/mpc8.o
+CC	libavcodec/mpeg12.o
+CC	libavcodec/mpeg12data.o
+CC	libavcodec/mpeg12dec.o
+CC	libavcodec/mpeg12enc.o
+CC	libavcodec/mpeg4_unpack_bframes_bsf.o
+CC	libavcodec/mpeg4audio.o
+CC	libavcodec/mpeg4video.o
+CC	libavcodec/mpeg4video_parser.o
+CC	libavcodec/mpeg4videodec.o
+CC	libavcodec/mpeg4videoenc.o
+CC	libavcodec/mpeg_er.o
+CC	libavcodec/mpegaudio.o
+CC	libavcodec/mpegaudio_parser.o
+CC	libavcodec/mpegaudiodata.o
+CC	libavcodec/mpegaudiodec_fixed.o
+CC	libavcodec/mpegaudiodec_float.o
+CC	libavcodec/mpegaudiodecheader.o
+CC	libavcodec/mpegaudiodsp.o
+CC	libavcodec/mpegaudiodsp_data.o
+CC	libavcodec/mpegaudiodsp_fixed.o
+CC	libavcodec/mpegaudiodsp_float.o
+CC	libavcodec/mpegaudioenc_fixed.o
+CC	libavcodec/mpegaudioenc_float.o
+CC	libavcodec/mpegpicture.o
+CC	libavcodec/mpegutils.o
+CC	libavcodec/mpegvideo.o
+CC	libavcodec/mpegvideo_enc.o
+CC	libavcodec/mpegvideo_motion.o
+CC	libavcodec/mpegvideo_parser.o
+CC	libavcodec/mpegvideodata.o
+CC	libavcodec/mpegvideodsp.o
+CC	libavcodec/mpegvideoencdsp.o
+CC	libavcodec/mpl2dec.o
+CC	libavcodec/mqc.o
+CC	libavcodec/mqcdec.o
+CC	libavcodec/mqcenc.o
+CC	libavcodec/msgsmdec.o
+CC	libavcodec/msmpeg4.o
+CC	libavcodec/msmpeg4data.o
+CC	libavcodec/msmpeg4dec.o
+CC	libavcodec/msmpeg4enc.o
+CC	libavcodec/msrle.o
+CC	libavcodec/msrledec.o
+CC	libavcodec/mss1.o
+CC	libavcodec/mss12.o
+CC	libavcodec/mss2.o
+CC	libavcodec/mss2dsp.o
+CC	libavcodec/mss3.o
+CC	libavcodec/mss34dsp.o
+CC	libavcodec/mss4.o
+CC	libavcodec/msvideo1.o
+CC	libavcodec/msvideo1enc.o
+CC	libavcodec/mvcdec.o
+CC	libavcodec/mxpegdec.o
+CC	libavcodec/nellymoser.o
+CC	libavcodec/nellymoserdec.o
+CC	libavcodec/nellymoserenc.o
+CC	libavcodec/noise_bsf.o
+CC	libavcodec/nuv.o
+CC	libavcodec/on2avc.o
+CC	libavcodec/on2avcdata.o
+CC	libavcodec/options.o
+CC	libavcodec/opus.o
+CC	libavcodec/opus_celt.o
+CC	libavcodec/opus_parser.o
+CC	libavcodec/opus_silk.o
+CC	libavcodec/opusdec.o
+CC	libavcodec/pafaudio.o
+CC	libavcodec/pafvideo.o
+CC	libavcodec/pamenc.o
+CC	libavcodec/parser.o
+CC	libavcodec/pcm-bluray.o
+CC	libavcodec/pcm-dvd.o
+CC	libavcodec/pcm.o
+CC	libavcodec/pcx.o
+CC	libavcodec/pcxenc.o
+CC	libavcodec/pgssubdec.o
+CC	libavcodec/pictordec.o
+CC	libavcodec/pixblockdsp.o
+CC	libavcodec/png.o
+CC	libavcodec/png_parser.o
+CC	libavcodec/pngdec.o
+CC	libavcodec/pngdsp.o
+CC	libavcodec/pngenc.o
+CC	libavcodec/pnm.o
+CC	libavcodec/pnm_parser.o
+CC	libavcodec/pnmdec.o
+CC	libavcodec/pnmenc.o
+CC	libavcodec/proresdata.o
+CC	libavcodec/proresdec2.o
+CC	libavcodec/proresdec_lgpl.o
+CC	libavcodec/proresdsp.o
+CC	libavcodec/proresenc_anatoliy.o
+CC	libavcodec/proresenc_kostya.o
+CC	libavcodec/psymodel.o
+CC	libavcodec/pthread.o
+CC	libavcodec/pthread_frame.o
+CC	libavcodec/pthread_slice.o
+CC	libavcodec/ptx.o
+CC	libavcodec/qcelpdec.o
+CC	libavcodec/qdm2.o
+CC	libavcodec/qdrw.o
+CC	libavcodec/qpeg.o
+CC	libavcodec/qpeldsp.o
+CC	libavcodec/qsv_api.o
+CC	libavcodec/qtrle.o
+CC	libavcodec/qtrleenc.o
+CC	libavcodec/r210dec.o
+CC	libavcodec/r210enc.o
+CC	libavcodec/ra144.o
+CC	libavcodec/ra144dec.o
+CC	libavcodec/ra144enc.o
+CC	libavcodec/ra288.o
+CC	libavcodec/ralf.o
+CC	libavcodec/rangecoder.o
+CC	libavcodec/ratecontrol.o
+CC	libavcodec/raw.o
+CC	libavcodec/rawdec.o
+CC	libavcodec/rawenc.o
+CC	libavcodec/rdft.o
+CC	libavcodec/realtextdec.o
+CC	libavcodec/remove_extradata_bsf.o
+CC	libavcodec/resample.o
+CC	libavcodec/resample2.o
+CC	libavcodec/rl.o
+CC	libavcodec/rl2.o
+CC	libavcodec/rle.o
+CC	libavcodec/roqaudioenc.o
+CC	libavcodec/roqvideo.o
+CC	libavcodec/roqvideodec.o
+CC	libavcodec/roqvideoenc.o
+CC	libavcodec/rpza.o
+CC	libavcodec/rtjpeg.o
+CC	libavcodec/rv10.o
+CC	libavcodec/rv10enc.o
+CC	libavcodec/rv20enc.o
+CC	libavcodec/rv30.o
+CC	libavcodec/rv30dsp.o
+CC	libavcodec/rv34.o
+CC	libavcodec/rv34_parser.o
+CC	libavcodec/rv34dsp.o
+CC	libavcodec/rv40.o
+CC	libavcodec/rv40dsp.o
+CC	libavcodec/s302m.o
+CC	libavcodec/s302menc.o
+CC	libavcodec/samidec.o
+CC	libavcodec/sanm.o
+CC	libavcodec/sbrdsp.o
+CC	libavcodec/sbrdsp_fixed.o
+CC	libavcodec/sgidec.o
+CC	libavcodec/sgienc.o
+CC	libavcodec/sgirledec.o
+CC	libavcodec/shorten.o
+CC	libavcodec/simple_idct.o
+CC	libavcodec/sinewin.o
+CC	libavcodec/sinewin_fixed.o
+CC	libavcodec/sipr.o
+CC	libavcodec/sipr16k.o
+CC	libavcodec/smacker.o
+CC	libavcodec/smc.o
+CC	libavcodec/smvjpegdec.o
+CC	libavcodec/snappy.o
+CC	libavcodec/snow.o
+CC	libavcodec/snow_dwt.o
+CC	libavcodec/snowdec.o
+CC	libavcodec/snowenc.o
+CC	libavcodec/sonic.o
+CC	libavcodec/sp5xdec.o
+CC	libavcodec/srtdec.o
+CC	libavcodec/srtenc.o
+CC	libavcodec/startcode.o
+CC	libavcodec/subviewerdec.o
+CC	libavcodec/sunrast.o
+CC	libavcodec/sunrastenc.o
+CC	libavcodec/svq1.o
+CC	libavcodec/svq13.o
+CC	libavcodec/svq1dec.o
+CC	libavcodec/svq1enc.o
+CC	libavcodec/svq3.o
+CC	libavcodec/synth_filter.o
+CC	libavcodec/tak.o
+CC	libavcodec/tak_parser.o
+CC	libavcodec/takdec.o
+CC	libavcodec/targa.o
+CC	libavcodec/targa_y216dec.o
+CC	libavcodec/targaenc.o
+CC	libavcodec/tdsc.o
+CC	libavcodec/textdec.o
+CC	libavcodec/texturedsp.o
+CC	libavcodec/tiertexseqv.o
+CC	libavcodec/tiff.o
+CC	libavcodec/tiff_common.o
+CC	libavcodec/tiff_data.o
+CC	libavcodec/tiffenc.o
+CC	libavcodec/tmv.o
+CC	libavcodec/tpeldsp.o
+CC	libavcodec/truemotion1.o
+CC	libavcodec/truemotion2.o
+CC	libavcodec/truespeech.o
+CC	libavcodec/tscc.o
+CC	libavcodec/tscc2.o
+CC	libavcodec/tta.o
+CC	libavcodec/ttadata.o
+CC	libavcodec/ttadsp.o
+CC	libavcodec/ttaenc.o
+CC	libavcodec/twinvq.o
+CC	libavcodec/twinvqdec.o
+CC	libavcodec/txd.o
+CC	libavcodec/ulti.o
+CC	libavcodec/utils.o
+CC	libavcodec/utvideo.o
+CC	libavcodec/utvideodec.o
+CC	libavcodec/utvideoenc.o
+CC	libavcodec/v210dec.o
+CC	libavcodec/v210enc.o
+CC	libavcodec/v210x.o
+CC	libavcodec/v308dec.o
+CC	libavcodec/v308enc.o
+CC	libavcodec/v408dec.o
+CC	libavcodec/v408enc.o
+CC	libavcodec/v410dec.o
+CC	libavcodec/v410enc.o
+CC	libavcodec/vaapi.o
+CC	libavcodec/vb.o
+CC	libavcodec/vble.o
+CC	libavcodec/vc1.o
+CC	libavcodec/vc1_block.o
+CC	libavcodec/vc1_loopfilter.o
+CC	libavcodec/vc1_mc.o
+CC	libavcodec/vc1_parser.o
+CC	libavcodec/vc1_pred.o
+CC	libavcodec/vc1data.o
+CC	libavcodec/vc1dec.o
+CC	libavcodec/vc1dsp.o
+CC	libavcodec/vcr1.o
+CC	libavcodec/videodsp.o
+CC	libavcodec/vima.o
+CC	libavcodec/vmdaudio.o
+CC	libavcodec/vmdvideo.o
+CC	libavcodec/vmnc.o
+CC	libavcodec/vorbis.o
+CC	libavcodec/vorbis_data.o
+CC	libavcodec/vorbis_parser.o
+CC	libavcodec/vorbisdec.o
+CC	libavcodec/vorbisdsp.o
+CC	libavcodec/vorbisenc.o
+CC	libavcodec/vp3.o
+CC	libavcodec/vp3_parser.o
+CC	libavcodec/vp3dsp.o
+CC	libavcodec/vp5.o
+CC	libavcodec/vp56.o
+CC	libavcodec/vp56data.o
+CC	libavcodec/vp56dsp.o
+CC	libavcodec/vp56rac.o
+CC	libavcodec/vp6.o
+CC	libavcodec/vp6dsp.o
+CC	libavcodec/vp8.o
+CC	libavcodec/vp8_parser.o
+CC	libavcodec/vp8dsp.o
+CC	libavcodec/vp9.o
+CC	libavcodec/vp9_parser.o
+CC	libavcodec/vp9dsp.o
+CC	libavcodec/vp9dsp_10bpp.o
+CC	libavcodec/vp9dsp_12bpp.o
+CC	libavcodec/vp9dsp_8bpp.o
+CC	libavcodec/vqavideo.o
+CC	libavcodec/wavpack.o
+CC	libavcodec/wavpackenc.o
+CC	libavcodec/webp.o
+CC	libavcodec/webvttdec.o
+CC	libavcodec/webvttenc.o
+CC	libavcodec/wma.o
+CC	libavcodec/wma_common.o
+CC	libavcodec/wma_freqs.o
+CC	libavcodec/wmadec.o
+CC	libavcodec/wmaenc.o
+CC	libavcodec/wmalosslessdec.o
+CC	libavcodec/wmaprodec.o
+CC	libavcodec/wmavoice.o
+CC	libavcodec/wmv2.o
+CC	libavcodec/wmv2dec.o
+CC	libavcodec/wmv2dsp.o
+CC	libavcodec/wmv2enc.o
+CC	libavcodec/wnv1.o
+CC	libavcodec/ws-snd1.o
+YASM	libavcodec/x86/aacpsdsp.o
+STRIP	libavcodec/x86/aacpsdsp.o
+CC	libavcodec/x86/aacpsdsp_init.o
+YASM	libavcodec/x86/ac3dsp.o
+STRIP	libavcodec/x86/ac3dsp.o
+CC	libavcodec/x86/ac3dsp_init.o
+YASM	libavcodec/x86/audiodsp.o
+STRIP	libavcodec/x86/audiodsp.o
+CC	libavcodec/x86/audiodsp_init.o
+YASM	libavcodec/x86/blockdsp.o
+STRIP	libavcodec/x86/blockdsp.o
+CC	libavcodec/x86/blockdsp_init.o
+YASM	libavcodec/x86/bswapdsp.o
+STRIP	libavcodec/x86/bswapdsp.o
+CC	libavcodec/x86/bswapdsp_init.o
+CC	libavcodec/x86/cavsdsp.o
+CC	libavcodec/x86/constants.o
+YASM	libavcodec/x86/dcadsp.o
+STRIP	libavcodec/x86/dcadsp.o
+CC	libavcodec/x86/dcadsp_init.o
+YASM	libavcodec/x86/dct32.o
+STRIP	libavcodec/x86/dct32.o
+CC	libavcodec/x86/dct_init.o
+YASM	libavcodec/x86/deinterlace.o
+STRIP	libavcodec/x86/deinterlace.o
+CC	libavcodec/x86/dirac_dwt.o
+CC	libavcodec/x86/diracdsp_mmx.o
+YASM	libavcodec/x86/diracdsp_yasm.o
+STRIP	libavcodec/x86/diracdsp_yasm.o
+YASM	libavcodec/x86/dnxhdenc.o
+STRIP	libavcodec/x86/dnxhdenc.o
+CC	libavcodec/x86/dnxhdenc_init.o
+YASM	libavcodec/x86/dwt_yasm.o
+STRIP	libavcodec/x86/dwt_yasm.o
+CC	libavcodec/x86/fdct.o
+CC	libavcodec/x86/fdctdsp_init.o
+YASM	libavcodec/x86/fft.o
+STRIP	libavcodec/x86/fft.o
+CC	libavcodec/x86/fft_init.o
+YASM	libavcodec/x86/flacdsp.o
+STRIP	libavcodec/x86/flacdsp.o
+CC	libavcodec/x86/flacdsp_init.o
+YASM	libavcodec/x86/fmtconvert.o
+STRIP	libavcodec/x86/fmtconvert.o
+CC	libavcodec/x86/fmtconvert_init.o
+YASM	libavcodec/x86/fpel.o
+STRIP	libavcodec/x86/fpel.o
+YASM	libavcodec/x86/g722dsp.o
+STRIP	libavcodec/x86/g722dsp.o
+CC	libavcodec/x86/g722dsp_init.o
+YASM	libavcodec/x86/h263_loopfilter.o
+STRIP	libavcodec/x86/h263_loopfilter.o
+CC	libavcodec/x86/h263dsp_init.o
+YASM	libavcodec/x86/h264_chromamc.o
+STRIP	libavcodec/x86/h264_chromamc.o
+YASM	libavcodec/x86/h264_chromamc_10bit.o
+STRIP	libavcodec/x86/h264_chromamc_10bit.o
+YASM	libavcodec/x86/h264_deblock.o
+STRIP	libavcodec/x86/h264_deblock.o
+YASM	libavcodec/x86/h264_deblock_10bit.o
+STRIP	libavcodec/x86/h264_deblock_10bit.o
+YASM	libavcodec/x86/h264_idct.o
+STRIP	libavcodec/x86/h264_idct.o
+YASM	libavcodec/x86/h264_idct_10bit.o
+STRIP	libavcodec/x86/h264_idct_10bit.o
+YASM	libavcodec/x86/h264_intrapred.o
+STRIP	libavcodec/x86/h264_intrapred.o
+YASM	libavcodec/x86/h264_intrapred_10bit.o
+STRIP	libavcodec/x86/h264_intrapred_10bit.o
+CC	libavcodec/x86/h264_intrapred_init.o
+CC	libavcodec/x86/h264_qpel.o
+YASM	libavcodec/x86/h264_qpel_10bit.o
+STRIP	libavcodec/x86/h264_qpel_10bit.o
+YASM	libavcodec/x86/h264_qpel_8bit.o
+STRIP	libavcodec/x86/h264_qpel_8bit.o
+YASM	libavcodec/x86/h264_weight.o
+STRIP	libavcodec/x86/h264_weight.o
+YASM	libavcodec/x86/h264_weight_10bit.o
+STRIP	libavcodec/x86/h264_weight_10bit.o
+CC	libavcodec/x86/h264chroma_init.o
+CC	libavcodec/x86/h264dsp_init.o
+YASM	libavcodec/x86/hevc_deblock.o
+STRIP	libavcodec/x86/hevc_deblock.o
+YASM	libavcodec/x86/hevc_idct.o
+STRIP	libavcodec/x86/hevc_idct.o
+YASM	libavcodec/x86/hevc_mc.o
+STRIP	libavcodec/x86/hevc_mc.o
+YASM	libavcodec/x86/hevc_res_add.o
+STRIP	libavcodec/x86/hevc_res_add.o
+YASM	libavcodec/x86/hevc_sao.o
+STRIP	libavcodec/x86/hevc_sao.o
+CC	libavcodec/x86/hevcdsp_init.o
+YASM	libavcodec/x86/hpeldsp.o
+STRIP	libavcodec/x86/hpeldsp.o
+CC	libavcodec/x86/hpeldsp_init.o
+YASM	libavcodec/x86/huffyuvdsp.o
+STRIP	libavcodec/x86/huffyuvdsp.o
+CC	libavcodec/x86/huffyuvdsp_init.o
+CC	libavcodec/x86/huffyuvencdsp_mmx.o
+YASM	libavcodec/x86/idctdsp.o
+STRIP	libavcodec/x86/idctdsp.o
+CC	libavcodec/x86/idctdsp_init.o
+YASM	libavcodec/x86/imdct36.o
+STRIP	libavcodec/x86/imdct36.o
+YASM	libavcodec/x86/jpeg2000dsp.o
+STRIP	libavcodec/x86/jpeg2000dsp.o
+CC	libavcodec/x86/jpeg2000dsp_init.o
+YASM	libavcodec/x86/lossless_audiodsp.o
+STRIP	libavcodec/x86/lossless_audiodsp.o
+CC	libavcodec/x86/lossless_audiodsp_init.o
+YASM	libavcodec/x86/lossless_videodsp.o
+STRIP	libavcodec/x86/lossless_videodsp.o
+CC	libavcodec/x86/lossless_videodsp_init.o
+CC	libavcodec/x86/lpc.o
+YASM	libavcodec/x86/me_cmp.o
+STRIP	libavcodec/x86/me_cmp.o
+CC	libavcodec/x86/me_cmp_init.o
+YASM	libavcodec/x86/mlpdsp.o
+STRIP	libavcodec/x86/mlpdsp.o
+CC	libavcodec/x86/mlpdsp_init.o
+CC	libavcodec/x86/mpegaudiodsp.o
+CC	libavcodec/x86/mpegvideo.o
+CC	libavcodec/x86/mpegvideodsp.o
+CC	libavcodec/x86/mpegvideoenc.o
+YASM	libavcodec/x86/mpegvideoencdsp.o
+STRIP	libavcodec/x86/mpegvideoencdsp.o
+CC	libavcodec/x86/mpegvideoencdsp_init.o
+YASM	libavcodec/x86/pixblockdsp.o
+STRIP	libavcodec/x86/pixblockdsp.o
+CC	libavcodec/x86/pixblockdsp_init.o
+YASM	libavcodec/x86/pngdsp.o
+STRIP	libavcodec/x86/pngdsp.o
+CC	libavcodec/x86/pngdsp_init.o
+YASM	libavcodec/x86/proresdsp.o
+STRIP	libavcodec/x86/proresdsp.o
+CC	libavcodec/x86/proresdsp_init.o
+YASM	libavcodec/x86/qpel.o
+STRIP	libavcodec/x86/qpel.o
+YASM	libavcodec/x86/qpeldsp.o
+STRIP	libavcodec/x86/qpeldsp.o
+CC	libavcodec/x86/qpeldsp_init.o
+YASM	libavcodec/x86/rv34dsp.o
+STRIP	libavcodec/x86/rv34dsp.o
+CC	libavcodec/x86/rv34dsp_init.o
+YASM	libavcodec/x86/rv40dsp.o
+STRIP	libavcodec/x86/rv40dsp.o
+CC	libavcodec/x86/rv40dsp_init.o
+YASM	libavcodec/x86/sbrdsp.o
+STRIP	libavcodec/x86/sbrdsp.o
+CC	libavcodec/x86/sbrdsp_init.o
+CC	libavcodec/x86/simple_idct.o
+CC	libavcodec/x86/snowdsp.o
+YASM	libavcodec/x86/svq1enc.o
+STRIP	libavcodec/x86/svq1enc.o
+CC	libavcodec/x86/svq1enc_init.o
+YASM	libavcodec/x86/ttadsp.o
+STRIP	libavcodec/x86/ttadsp.o
+CC	libavcodec/x86/ttadsp_init.o
+CC	libavcodec/x86/v210-init.o
+YASM	libavcodec/x86/v210.o
+STRIP	libavcodec/x86/v210.o
+YASM	libavcodec/x86/v210enc.o
+STRIP	libavcodec/x86/v210enc.o
+CC	libavcodec/x86/v210enc_init.o
+YASM	libavcodec/x86/vc1dsp.o
+STRIP	libavcodec/x86/vc1dsp.o
+CC	libavcodec/x86/vc1dsp_init.o
+CC	libavcodec/x86/vc1dsp_mmx.o
+YASM	libavcodec/x86/videodsp.o
+STRIP	libavcodec/x86/videodsp.o
+CC	libavcodec/x86/videodsp_init.o
+YASM	libavcodec/x86/vorbisdsp.o
+STRIP	libavcodec/x86/vorbisdsp.o
+CC	libavcodec/x86/vorbisdsp_init.o
+YASM	libavcodec/x86/vp3dsp.o
+STRIP	libavcodec/x86/vp3dsp.o
+CC	libavcodec/x86/vp3dsp_init.o
+YASM	libavcodec/x86/vp6dsp.o
+STRIP	libavcodec/x86/vp6dsp.o
+CC	libavcodec/x86/vp6dsp_init.o
+YASM	libavcodec/x86/vp8dsp.o
+STRIP	libavcodec/x86/vp8dsp.o
+CC	libavcodec/x86/vp8dsp_init.o
+YASM	libavcodec/x86/vp8dsp_loopfilter.o
+STRIP	libavcodec/x86/vp8dsp_loopfilter.o
+CC	libavcodec/x86/vp9dsp_init.o
+YASM	libavcodec/x86/vp9intrapred.o
+STRIP	libavcodec/x86/vp9intrapred.o
+YASM	libavcodec/x86/vp9itxfm.o
+STRIP	libavcodec/x86/vp9itxfm.o
+YASM	libavcodec/x86/vp9lpf.o
+STRIP	libavcodec/x86/vp9lpf.o
+YASM	libavcodec/x86/vp9mc.o
+STRIP	libavcodec/x86/vp9mc.o
+YASM	libavcodec/x86/xvididct.o
+STRIP	libavcodec/x86/xvididct.o
+CC	libavcodec/x86/xvididct_init.o
+CC	libavcodec/xan.o
+CC	libavcodec/xbmdec.o
+CC	libavcodec/xbmenc.o
+CC	libavcodec/xface.o
+CC	libavcodec/xfacedec.o
+CC	libavcodec/xfaceenc.o
+CC	libavcodec/xiph.o
+CC	libavcodec/xl.o
+CC	libavcodec/xsubdec.o
+CC	libavcodec/xsubenc.o
+CC	libavcodec/xvididct.o
+CC	libavcodec/xwddec.o
+CC	libavcodec/xwdenc.o
+CC	libavcodec/xxan.o
+CC	libavcodec/y41pdec.o
+CC	libavcodec/y41penc.o
+CC	libavcodec/yop.o
+CC	libavcodec/yuv4dec.o
+CC	libavcodec/yuv4enc.o
+CC	libavcodec/zerocodec.o
+CC	libavcodec/zmbv.o
+CC	libavcodec/zmbvenc.o
+AR	libavcodec/libavcodec.a
+CC	libswresample/audioconvert.o
+CC	libswresample/dither.o
+CC	libswresample/options.o
+CC	libswresample/rematrix.o
+CC	libswresample/resample.o
+CC	libswresample/resample_dsp.o
+CC	libswresample/swresample.o
+CC	libswresample/swresample_frame.o
+YASM	libswresample/x86/audio_convert.o
+STRIP	libswresample/x86/audio_convert.o
+CC	libswresample/x86/audio_convert_init.o
+YASM	libswresample/x86/rematrix.o
+STRIP	libswresample/x86/rematrix.o
+CC	libswresample/x86/rematrix_init.o
+YASM	libswresample/x86/resample.o
+STRIP	libswresample/x86/resample.o
+CC	libswresample/x86/resample_init.o
+AR	libswresample/libswresample.a
+CC	libswscale/alphablend.o
+CC	libswscale/gamma.o
+CC	libswscale/hscale.o
+CC	libswscale/hscale_fast_bilinear.o
+CC	libswscale/input.o
+CC	libswscale/options.o
+CC	libswscale/output.o
+CC	libswscale/rgb2rgb.o
+CC	libswscale/slice.o
+CC	libswscale/swscale.o
+CC	libswscale/swscale_unscaled.o
+CC	libswscale/utils.o
+CC	libswscale/vscale.o
+CC	libswscale/x86/hscale_fast_bilinear_simd.o
+YASM	libswscale/x86/input.o
+STRIP	libswscale/x86/input.o
+YASM	libswscale/x86/output.o
+STRIP	libswscale/x86/output.o
+CC	libswscale/x86/rgb2rgb.o
+YASM	libswscale/x86/scale.o
+STRIP	libswscale/x86/scale.o
+CC	libswscale/x86/swscale.o
+CC	libswscale/x86/yuv2rgb.o
+CC	libswscale/yuv2rgb.o
+AR	libswscale/libswscale.a
+CC	libavutil/adler32.o
+CC	libavutil/aes.o
+CC	libavutil/audio_fifo.o
+CC	libavutil/avstring.o
+CC	libavutil/base64.o
+CC	libavutil/blowfish.o
+CC	libavutil/bprint.o
+CC	libavutil/buffer.o
+CC	libavutil/camellia.o
+CC	libavutil/cast5.o
+CC	libavutil/channel_layout.o
+CC	libavutil/color_utils.o
+CC	libavutil/cpu.o
+CC	libavutil/crc.o
+CC	libavutil/des.o
+CC	libavutil/dict.o
+CC	libavutil/display.o
+CC	libavutil/downmix_info.o
+CC	libavutil/error.o
+CC	libavutil/eval.o
+CC	libavutil/fifo.o
+CC	libavutil/file.o
+CC	libavutil/file_open.o
+CC	libavutil/fixed_dsp.o
+CC	libavutil/float_dsp.o
+CC	libavutil/frame.o
+CC	libavutil/hash.o
+CC	libavutil/hmac.o
+CC	libavutil/imgutils.o
+CC	libavutil/intmath.o
+CC	libavutil/lfg.o
+CC	libavutil/lls.o
+CC	libavutil/log.o
+CC	libavutil/log2_tab.o
+CC	libavutil/lzo.o
+CC	libavutil/mathematics.o
+CC	libavutil/md5.o
+CC	libavutil/mem.o
+CC	libavutil/murmur3.o
+CC	libavutil/opt.o
+CC	libavutil/parseutils.o
+CC	libavutil/pixdesc.o
+CC	libavutil/pixelutils.o
+CC	libavutil/random_seed.o
+CC	libavutil/rational.o
+CC	libavutil/rc4.o
+CC	libavutil/reverse.o
+CC	libavutil/ripemd.o
+CC	libavutil/samplefmt.o
+CC	libavutil/sha.o
+CC	libavutil/sha512.o
+CC	libavutil/stereo3d.o
+CC	libavutil/tea.o
+CC	libavutil/threadmessage.o
+CC	libavutil/time.o
+CC	libavutil/timecode.o
+CC	libavutil/tree.o
+CC	libavutil/twofish.o
+CC	libavutil/utils.o
+CC	libavutil/x86/cpu.o
+YASM	libavutil/x86/cpuid.o
+STRIP	libavutil/x86/cpuid.o
+YASM	libavutil/x86/float_dsp.o
+STRIP	libavutil/x86/float_dsp.o
+CC	libavutil/x86/float_dsp_init.o
+YASM	libavutil/x86/lls.o
+STRIP	libavutil/x86/lls.o
+CC	libavutil/x86/lls_init.o
+CC	libavutil/xga_font_data.o
+CC	libavutil/xtea.o
+AR	libavutil/libavutil.a
+make[5]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext/libav'
+make[4]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making all in ext
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making all in libav
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+  CC       libgstlibav_la-gstav.lo
+  CC       libgstlibav_la-gstavprotocol.lo
+  CC       libgstlibav_la-gstavcodecmap.lo
+  CC       libgstlibav_la-gstavutils.lo
+  CC       libgstlibav_la-gstavaudenc.lo
+  CC       libgstlibav_la-gstavvidenc.lo
+  CC       libgstlibav_la-gstavauddec.lo
+  CC       libgstlibav_la-gstavviddec.lo
+  CC       libgstlibav_la-gstavcfg.lo
+  CC       libgstlibav_la-gstavdemux.lo
+  CC       libgstlibav_la-gstavmux.lo
+  CC       libgstlibav_la-gstavdeinterlace.lo
+  CCLD     libgstlibav.la
+
+*** Warning: Linking the shared library libgstlibav.la against the
+*** static library ../../gst-libs/ext/libav/libavformat/libavformat.a is not portable!
+
+*** Warning: Linking the shared library libgstlibav.la against the
+*** static library ../../gst-libs/ext/libav/libavcodec/libavcodec.a is not portable!
+
+*** Warning: Linking the shared library libgstlibav.la against the
+*** static library ../../gst-libs/ext/libav/libswresample/libswresample.a is not portable!
+
+*** Warning: Linking the shared library libgstlibav.la against the
+*** static library ../../gst-libs/ext/libav/libavutil/libavutil.a is not portable!
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making all in docs
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making all in plugins
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making all in common
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+Making all in m4
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making all in check
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+Making all in files
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making all in pkgconfig
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+  CP     gstreamer-plugins-libav-1.0-uninstalled.pc
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3'
+Making check in gst-libs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making check in ext
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+cd libav && make
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making check in ext
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making check in libav
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making check in docs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making check in plugins
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making check in common
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+Making check in m4
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making check in check
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make  generic/plugin-test generic/libavcodec-locking elements/avdec_adpcm elements/avdemux_ape
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+  CC       generic/plugin-test.o
+  CCLD     generic/plugin-test
+  CC       generic/libavcodec-locking.o
+  CCLD     generic/libavcodec-locking
+  CC       elements/avdec_adpcm.o
+  CCLD     elements/avdec_adpcm
+  CC       elements/avdemux_ape.o
+  CCLD     elements/avdemux_ape
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make  check-TESTS
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[4]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+PASS: generic/plugin-test
+PASS: generic/libavcodec-locking
+PASS: elements/avdec_adpcm
+PASS: elements/avdemux_ape
+============================================================================
+Testsuite summary for GStreamer libav 1.6.3
+============================================================================
+# TOTAL: 4
+# PASS:  4
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+Making check in files
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making check in pkgconfig
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3'
+Making install in gst-libs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making install in ext
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+cd libav && make
+make[4]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs/ext'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/gst-libs'
+Making install in ext
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making install in libav
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/usr/lib/gstreamer-1.0'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libgstlibav.la '/usr/lib/gstreamer-1.0'
+libtool: install: /usr/bin/install -c .libs/libgstlibav.so /usr/lib/gstreamer-1.0/libgstlibav.so
+libtool: install: /usr/bin/install -c .libs/libgstlibav.lai /usr/lib/gstreamer-1.0/libgstlibav.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib/gstreamer-1.0
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/gstreamer-1.0
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext/libav'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/ext'
+Making install in docs
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making install in plugins
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[3]: Nothing to be done for 'install-exec-am'.
+(installfiles=`echo ./html/*.sgml ./html/*.html ./html/*.png ./html/*.css`; \
+if test "$installfiles" = './html/*.sgml ./html/*.html ./html/*.png ./html/*.css'; \
+then echo '-- Nothing to install' ; \
+else \
+  /bin/sh /sources/7.9/gst-libav-1.6.3/install-sh -d /usr/share/gtk-doc/html/gst-libav-plugins-1.0; \
+  for i in $installfiles; do \
+    echo '-- Installing '$i ; \
+    /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gst-libav-plugins-1.0; \
+  done; \
+  pngfiles=`echo ./html/*.png`; \
+  if test "$pngfiles" != './html/*.png'; then \
+    for i in $pngfiles; do \
+      echo '-- Installing '$i ; \
+      /usr/bin/install -c -m 644 $i /usr/share/gtk-doc/html/gst-libav-plugins-1.0; \
+    done; \
+  fi; \
+  echo '-- Installing ./html/gst-libav-plugins-1.0.devhelp2' ; \
+  if test -e ./html/gst-libav-plugins-1.0.devhelp2; then \
+            /usr/bin/install -c -m 644 ./html/gst-libav-plugins-1.0.devhelp2 \
+            /usr/share/gtk-doc/html/gst-libav-plugins-1.0/gst-libav-plugins-1.0.devhelp2; \
+  fi; \
+  true --relative --dest-dir= --html-dir=/usr/share/gtk-doc/html/gst-libav-plugins-1.0 || true ; \
+fi)
+-- Installing ./html/index.sgml
+-- Installing ./html/ch01.html
+-- Installing ./html/ch02.html
+-- Installing ./html/ch03.html
+-- Installing ./html/gst-libav-plugins-gstavcfg.html
+-- Installing ./html/gst-libav-plugins-gstavcodecmap.html
+-- Installing ./html/gst-libav-plugins-gstav.html
+-- Installing ./html/gst-libav-plugins-gstavprotocol.html
+-- Installing ./html/gst-libav-plugins-gstavutils.html
+-- Installing ./html/gst-libav-plugins-GstFFMpegAudDec.html
+-- Installing ./html/gst-libav-plugins-GstFFMpegAudEnc.html
+-- Installing ./html/gst-libav-plugins-GstFFMpegVidDec.html
+-- Installing ./html/gst-libav-plugins-GstFFMpegVidEnc.html
+-- Installing ./html/gst-libav-plugins-plugin-libav.html
+-- Installing ./html/index.html
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/style.css
+-- Installing ./html/home.png
+-- Installing ./html/left-insensitive.png
+-- Installing ./html/left.png
+-- Installing ./html/right-insensitive.png
+-- Installing ./html/right.png
+-- Installing ./html/up-insensitive.png
+-- Installing ./html/up.png
+-- Installing ./html/gst-libav-plugins-1.0.devhelp2
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs/plugins'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/docs'
+Making install in common
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+Making install in m4
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common/m4'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/common'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/common'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making install in check
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/check'
+Making install in files
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests/files'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[3]: Entering directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/tests'
+Making install in pkgconfig
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3/pkgconfig'
+make[1]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+make[2]: Entering directory '/sources/7.9/gst-libav-1.6.3'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/gst-libav-1.6.3'
+make[1]: Leaving directory '/sources/7.9/gst-libav-1.6.3'

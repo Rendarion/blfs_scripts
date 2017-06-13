@@ -1,0 +1,5 @@
+curl --trace-ascii debugdump.txt http://www.example.com/
+curl --trace-ascii d.txt --trace-time http://example.com/
+
+cat debugdump.txt
+cat d.txt

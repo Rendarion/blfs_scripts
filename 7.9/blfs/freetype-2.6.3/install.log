@@ -1,0 +1,487 @@
+
+FreeType build system -- automatic system detection
+
+The following settings are used:
+
+  platform                    unix
+  compiler                    cc
+  configuration directory     ./builds/unix
+  configuration rules         ./builds/unix/unix.mk
+
+If this does not correspond to your system or settings please remove the file
+`config.mk' from this directory then read the INSTALL file for help.
+
+Otherwise, simply type `make' again to build the library,
+or `make refdoc' to build the API reference (this needs python >= 2.6).
+
+Generating modules list in ./objs/ftmodule.h...
+* module: truetype  (Windows/Mac font files with extension *.ttf or *.ttc)
+* module: type1     (Postscript font files with extension *.pfa or *.pfb)
+* module: cff       (OpenType fonts with extension *.otf)
+* module: cid       (Postscript CID-keyed fonts, no known extension)
+* module: pfr       (PFR/TrueDoc font files with extension *.pfr)
+* module: type42    (Type 42 font files with no known extension)
+* module: winfnt    (Windows bitmap fonts with extension *.fnt or *.fon)
+* module: pcf       (pcf bitmap fonts)
+* module: bdf       (bdf bitmap fonts)
+* module: sfnt      (helper module for TrueType & OpenType formats)
+* module: autofit   (automatic hinting module)
+* module: pshinter  (Postscript hinter module)
+* module: raster    (monochrome bitmap renderer)
+* module: smooth    (anti-aliased bitmap renderer)
+* module: smooth    (anti-aliased bitmap renderer for LCDs)
+* module: smooth    (anti-aliased bitmap renderer for vertical LCDs)
+* module: gxvalid   (TrueTypeGX/AAT validation module)
+* module: otvalid   (OpenType validation module)
+* module: psaux     (Postscript Type 1 & Type 2 helper module)
+* module: psnames   (Postscript & Unicode Glyph name handling)
+done.
+cd builds/unix; \
+        ./configure  '--prefix=/usr' '--disable-static'
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.24... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... gawk
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking size of int... 4
+checking size of long... 8
+checking whether cpp computation of bit length in ftconfig.in works... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether munmap is declared... yes
+checking for munmap's first parameter type... void *
+checking for memcpy... yes
+checking for memmove... yes
+checking gcc compiler flag -pedantic to assure ANSI C works correctly... ok, add it to XX_ANSIFLAGS
+checking gcc compiler flag -ansi to assure ANSI C works correctly... ok, add it to XX_ANSIFLAGS
+checking for ZLIB... yes
+checking for BZIP2... no
+checking for BZ2_bzDecompress in -lbz2... yes
+checking bzlib.h usability... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for LIBPNG... yes
+checking for HARFBUZZ... yes
+configure: creating ./config.status
+config.status: creating unix-cc.mk
+config.status: creating unix-def.mk
+config.status: creating ftconfig.h
+config.status: executing libtool commands
+configure:
+
+Library configuration:
+  external zlib: yes (pkg-config)
+  bzip2:         yes (autoconf test)
+  libpng:        yes (pkg-config)
+  harfbuzz:      yes (pkg-config)
+
+make: Nothing to be done for 'unix'.
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftsystem.lo builds/unix/ftsystem.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" builds/unix/ftsystem.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftsystem.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftdebug.lo /sources/7.9/freetype-2.6.3/src/base/ftdebug.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftdebug.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftdebug.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftinit.lo /sources/7.9/freetype-2.6.3/src/base/ftinit.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftinit.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftinit.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftbase.lo /sources/7.9/freetype-2.6.3/src/base/ftbase.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftbase.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftbase.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftbbox.lo /sources/7.9/freetype-2.6.3/src/base/ftbbox.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftbbox.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftbbox.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftbdf.lo /sources/7.9/freetype-2.6.3/src/base/ftbdf.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftbdf.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftbdf.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftbitmap.lo /sources/7.9/freetype-2.6.3/src/base/ftbitmap.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftbitmap.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftbitmap.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftcid.lo /sources/7.9/freetype-2.6.3/src/base/ftcid.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftcid.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftcid.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftfntfmt.lo /sources/7.9/freetype-2.6.3/src/base/ftfntfmt.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftfntfmt.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftfntfmt.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftfstype.lo /sources/7.9/freetype-2.6.3/src/base/ftfstype.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftfstype.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftfstype.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftgasp.lo /sources/7.9/freetype-2.6.3/src/base/ftgasp.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftgasp.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftgasp.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftglyph.lo /sources/7.9/freetype-2.6.3/src/base/ftglyph.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftglyph.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftglyph.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftgxval.lo /sources/7.9/freetype-2.6.3/src/base/ftgxval.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftgxval.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftgxval.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftlcdfil.lo /sources/7.9/freetype-2.6.3/src/base/ftlcdfil.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftlcdfil.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftlcdfil.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftmm.lo /sources/7.9/freetype-2.6.3/src/base/ftmm.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftmm.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftmm.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftotval.lo /sources/7.9/freetype-2.6.3/src/base/ftotval.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftotval.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftotval.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftpatent.lo /sources/7.9/freetype-2.6.3/src/base/ftpatent.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftpatent.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftpatent.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftpfr.lo /sources/7.9/freetype-2.6.3/src/base/ftpfr.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftpfr.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftpfr.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftstroke.lo /sources/7.9/freetype-2.6.3/src/base/ftstroke.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftstroke.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftstroke.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftsynth.lo /sources/7.9/freetype-2.6.3/src/base/ftsynth.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftsynth.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftsynth.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/fttype1.lo /sources/7.9/freetype-2.6.3/src/base/fttype1.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/fttype1.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/fttype1.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftwinfnt.lo /sources/7.9/freetype-2.6.3/src/base/ftwinfnt.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/base -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/base/ftwinfnt.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftwinfnt.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/truetype -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/truetype.lo /sources/7.9/freetype-2.6.3/src/truetype/truetype.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/truetype -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/truetype/truetype.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/truetype.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/type1 -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/type1.lo /sources/7.9/freetype-2.6.3/src/type1/type1.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/type1 -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/type1/type1.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/type1.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cff -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/cff.lo /sources/7.9/freetype-2.6.3/src/cff/cff.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cff -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/cff/cff.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/cff.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/type1cid.lo /sources/7.9/freetype-2.6.3/src/cid/type1cid.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/cid/type1cid.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/type1cid.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pfr -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/pfr.lo /sources/7.9/freetype-2.6.3/src/pfr/pfr.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pfr -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/pfr/pfr.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/pfr.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/type42 -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/type42.lo /sources/7.9/freetype-2.6.3/src/type42/type42.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/type42 -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/type42/type42.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/type42.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/winfonts -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/winfnt.lo /sources/7.9/freetype-2.6.3/src/winfonts/winfnt.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/winfonts -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/winfonts/winfnt.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/winfnt.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pcf -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/pcf.lo /sources/7.9/freetype-2.6.3/src/pcf/pcf.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pcf -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/pcf/pcf.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/pcf.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/bdf -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/bdf.lo /sources/7.9/freetype-2.6.3/src/bdf/bdf.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/bdf -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/bdf/bdf.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/bdf.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/sfnt -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/sfnt.lo /sources/7.9/freetype-2.6.3/src/sfnt/sfnt.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/sfnt -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/sfnt/sfnt.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/sfnt.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/autofit -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/autofit.lo /sources/7.9/freetype-2.6.3/src/autofit/autofit.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/autofit -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/autofit/autofit.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/autofit.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pshinter -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/pshinter.lo /sources/7.9/freetype-2.6.3/src/pshinter/pshinter.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/pshinter -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/pshinter/pshinter.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/pshinter.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/raster -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/raster.lo /sources/7.9/freetype-2.6.3/src/raster/raster.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/raster -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/raster/raster.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/raster.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/smooth -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/smooth.lo /sources/7.9/freetype-2.6.3/src/smooth/smooth.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/smooth -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/smooth/smooth.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/smooth.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cache -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftcache.lo /sources/7.9/freetype-2.6.3/src/cache/ftcache.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/cache -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/cache/ftcache.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftcache.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/gxvalid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/gxvalid.lo /sources/7.9/freetype-2.6.3/src/gxvalid/gxvalid.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/gxvalid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/gxvalid/gxvalid.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/gxvalid.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftgzip.lo /sources/7.9/freetype-2.6.3/src/gzip/ftgzip.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/gzip/ftgzip.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftgzip.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/lzw -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftlzw.lo /sources/7.9/freetype-2.6.3/src/lzw/ftlzw.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/lzw -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/lzw/ftlzw.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftlzw.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/ftbzip2.lo /sources/7.9/freetype-2.6.3/src/bzip2/ftbzip2.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/bzip2/ftbzip2.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/ftbzip2.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/otvalid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/otvalid.lo /sources/7.9/freetype-2.6.3/src/otvalid/otvalid.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/otvalid -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/otvalid/otvalid.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/otvalid.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/psaux -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/psaux.lo /sources/7.9/freetype-2.6.3/src/psaux/psaux.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/psaux -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/psaux/psaux.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/psaux.o
+./builds/unix/libtool --mode=compile gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/psnames -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include  -c -Wall -g -O2  -DFT_CONFIG_OPTION_SYSTEM_ZLIB  -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ -DFT_CONFIG_CONFIG_H="<ftconfig.h>" -DFT2_BUILD_LIBRARY -DFT_CONFIG_MODULES_H="<ftmodule.h>"  -o /sources/7.9/freetype-2.6.3/objs/psnames.lo /sources/7.9/freetype-2.6.3/src/psnames/psnames.c
+libtool: compile:  gcc -pedantic -ansi -I/sources/7.9/freetype-2.6.3/src/psnames -I/sources/7.9/freetype-2.6.3/objs -I./builds/unix -I/sources/7.9/freetype-2.6.3/include -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -I/usr/include/libpng16 -DFT_CONFIG_OPTION_USE_PNG -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -DFT_CONFIG_OPTION_USE_HARFBUZZ "-DFT_CONFIG_CONFIG_H=<ftconfig.h>" -DFT2_BUILD_LIBRARY "-DFT_CONFIG_MODULES_H=<ftmodule.h>" /sources/7.9/freetype-2.6.3/src/psnames/psnames.c  -fPIC -DPIC -o /sources/7.9/freetype-2.6.3/objs/.libs/psnames.o
+gcc		  -o /sources/7.9/freetype-2.6.3/objs/apinames /sources/7.9/freetype-2.6.3/src/tools/apinames.c 
+/sources/7.9/freetype-2.6.3/objs/apinames -o/sources/7.9/freetype-2.6.3/objs/ftexport.sym  /sources/7.9/freetype-2.6.3/include/freetype/tttables.h /sources/7.9/freetype-2.6.3/include/freetype/ftfntfmt.h /sources/7.9/freetype-2.6.3/include/freetype/ftstroke.h /sources/7.9/freetype-2.6.3/include/freetype/t1tables.h /sources/7.9/freetype-2.6.3/include/freetype/fterrors.h /sources/7.9/freetype-2.6.3/include/freetype/ftlzw.h /sources/7.9/freetype-2.6.3/include/freetype/ftglyph.h /sources/7.9/freetype-2.6.3/include/freetype/ftcid.h /sources/7.9/freetype-2.6.3/include/freetype/ftbitmap.h /sources/7.9/freetype-2.6.3/include/freetype/ftmodapi.h /sources/7.9/freetype-2.6.3/include/freetype/ftsystem.h /sources/7.9/freetype-2.6.3/include/freetype/ftttdrv.h /sources/7.9/freetype-2.6.3/include/freetype/ftautoh.h /sources/7.9/freetype-2.6.3/include/freetype/ftsynth.h /sources/7.9/freetype-2.6.3/include/freetype/ftlcdfil.h /sources/7.9/freetype-2.6.3/include/freetype/ftpfr.h /sources/7.9/freetype-2.6.3/include/freetype/ftsizes.h /sources/7.9/freetype-2.6.3/include/freetype/ftrender.h /sources/7.9/freetype-2.6.3/include/freetype/ftmm.h /sources/7.9/freetype-2.6.3/include/freetype/ftoutln.h /sources/7.9/freetype-2.6.3/include/freetype/ftsnames.h /sources/7.9/freetype-2.6.3/include/freetype/ftbzip2.h /sources/7.9/freetype-2.6.3/include/freetype/ftlist.h /sources/7.9/freetype-2.6.3/include/freetype/ftchapters.h /sources/7.9/freetype-2.6.3/include/freetype/ftbdf.h /sources/7.9/freetype-2.6.3/include/freetype/fterrdef.h /sources/7.9/freetype-2.6.3/include/freetype/ftcache.h /sources/7.9/freetype-2.6.3/include/freetype/ftgxval.h /sources/7.9/freetype-2.6.3/include/freetype/ftgzip.h /sources/7.9/freetype-2.6.3/include/freetype/ftmac.h /sources/7.9/freetype-2.6.3/include/freetype/fttypes.h /sources/7.9/freetype-2.6.3/include/freetype/ftwinfnt.h /sources/7.9/freetype-2.6.3/include/freetype/freetype.h /sources/7.9/freetype-2.6.3/include/freetype/ftotval.h /sources/7.9/freetype-2.6.3/include/freetype/ftbbox.h /sources/7.9/freetype-2.6.3/include/freetype/ftadvanc.h /sources/7.9/freetype-2.6.3/include/freetype/ftcffdrv.h /sources/7.9/freetype-2.6.3/include/freetype/ftmoderr.h /sources/7.9/freetype-2.6.3/include/freetype/ftgasp.h /sources/7.9/freetype-2.6.3/include/freetype/tttags.h /sources/7.9/freetype-2.6.3/include/freetype/ttunpat.h /sources/7.9/freetype-2.6.3/include/freetype/ftincrem.h /sources/7.9/freetype-2.6.3/include/freetype/fttrigon.h /sources/7.9/freetype-2.6.3/include/freetype/ftimage.h /sources/7.9/freetype-2.6.3/include/freetype/ttnameid.h
+./builds/unix/libtool --mode=link gcc -o /sources/7.9/freetype-2.6.3/objs/libfreetype.la  /sources/7.9/freetype-2.6.3/objs/ftsystem.lo /sources/7.9/freetype-2.6.3/objs/ftdebug.lo /sources/7.9/freetype-2.6.3/objs/ftinit.lo /sources/7.9/freetype-2.6.3/objs/ftbase.lo /sources/7.9/freetype-2.6.3/objs/ftbbox.lo /sources/7.9/freetype-2.6.3/objs/ftbdf.lo /sources/7.9/freetype-2.6.3/objs/ftbitmap.lo /sources/7.9/freetype-2.6.3/objs/ftcid.lo /sources/7.9/freetype-2.6.3/objs/ftfntfmt.lo /sources/7.9/freetype-2.6.3/objs/ftfstype.lo /sources/7.9/freetype-2.6.3/objs/ftgasp.lo /sources/7.9/freetype-2.6.3/objs/ftglyph.lo /sources/7.9/freetype-2.6.3/objs/ftgxval.lo /sources/7.9/freetype-2.6.3/objs/ftlcdfil.lo /sources/7.9/freetype-2.6.3/objs/ftmm.lo /sources/7.9/freetype-2.6.3/objs/ftotval.lo /sources/7.9/freetype-2.6.3/objs/ftpatent.lo /sources/7.9/freetype-2.6.3/objs/ftpfr.lo /sources/7.9/freetype-2.6.3/objs/ftstroke.lo /sources/7.9/freetype-2.6.3/objs/ftsynth.lo /sources/7.9/freetype-2.6.3/objs/fttype1.lo /sources/7.9/freetype-2.6.3/objs/ftwinfnt.lo /sources/7.9/freetype-2.6.3/objs/truetype.lo /sources/7.9/freetype-2.6.3/objs/type1.lo /sources/7.9/freetype-2.6.3/objs/cff.lo /sources/7.9/freetype-2.6.3/objs/type1cid.lo /sources/7.9/freetype-2.6.3/objs/pfr.lo /sources/7.9/freetype-2.6.3/objs/type42.lo /sources/7.9/freetype-2.6.3/objs/winfnt.lo /sources/7.9/freetype-2.6.3/objs/pcf.lo /sources/7.9/freetype-2.6.3/objs/bdf.lo /sources/7.9/freetype-2.6.3/objs/sfnt.lo /sources/7.9/freetype-2.6.3/objs/autofit.lo /sources/7.9/freetype-2.6.3/objs/pshinter.lo /sources/7.9/freetype-2.6.3/objs/raster.lo /sources/7.9/freetype-2.6.3/objs/smooth.lo /sources/7.9/freetype-2.6.3/objs/ftcache.lo /sources/7.9/freetype-2.6.3/objs/gxvalid.lo /sources/7.9/freetype-2.6.3/objs/ftgzip.lo /sources/7.9/freetype-2.6.3/objs/ftlzw.lo /sources/7.9/freetype-2.6.3/objs/ftbzip2.lo /sources/7.9/freetype-2.6.3/objs/otvalid.lo /sources/7.9/freetype-2.6.3/objs/psaux.lo /sources/7.9/freetype-2.6.3/objs/psnames.lo -rpath /usr/lib -version-info 18:3:12 -lz -lbz2 -lpng16 -lharfbuzz -no-undefined 
+libtool: link: gcc -shared  -fPIC -DPIC  /sources/7.9/freetype-2.6.3/objs/.libs/ftsystem.o /sources/7.9/freetype-2.6.3/objs/.libs/ftdebug.o /sources/7.9/freetype-2.6.3/objs/.libs/ftinit.o /sources/7.9/freetype-2.6.3/objs/.libs/ftbase.o /sources/7.9/freetype-2.6.3/objs/.libs/ftbbox.o /sources/7.9/freetype-2.6.3/objs/.libs/ftbdf.o /sources/7.9/freetype-2.6.3/objs/.libs/ftbitmap.o /sources/7.9/freetype-2.6.3/objs/.libs/ftcid.o /sources/7.9/freetype-2.6.3/objs/.libs/ftfntfmt.o /sources/7.9/freetype-2.6.3/objs/.libs/ftfstype.o /sources/7.9/freetype-2.6.3/objs/.libs/ftgasp.o /sources/7.9/freetype-2.6.3/objs/.libs/ftglyph.o /sources/7.9/freetype-2.6.3/objs/.libs/ftgxval.o /sources/7.9/freetype-2.6.3/objs/.libs/ftlcdfil.o /sources/7.9/freetype-2.6.3/objs/.libs/ftmm.o /sources/7.9/freetype-2.6.3/objs/.libs/ftotval.o /sources/7.9/freetype-2.6.3/objs/.libs/ftpatent.o /sources/7.9/freetype-2.6.3/objs/.libs/ftpfr.o /sources/7.9/freetype-2.6.3/objs/.libs/ftstroke.o /sources/7.9/freetype-2.6.3/objs/.libs/ftsynth.o /sources/7.9/freetype-2.6.3/objs/.libs/fttype1.o /sources/7.9/freetype-2.6.3/objs/.libs/ftwinfnt.o /sources/7.9/freetype-2.6.3/objs/.libs/truetype.o /sources/7.9/freetype-2.6.3/objs/.libs/type1.o /sources/7.9/freetype-2.6.3/objs/.libs/cff.o /sources/7.9/freetype-2.6.3/objs/.libs/type1cid.o /sources/7.9/freetype-2.6.3/objs/.libs/pfr.o /sources/7.9/freetype-2.6.3/objs/.libs/type42.o /sources/7.9/freetype-2.6.3/objs/.libs/winfnt.o /sources/7.9/freetype-2.6.3/objs/.libs/pcf.o /sources/7.9/freetype-2.6.3/objs/.libs/bdf.o /sources/7.9/freetype-2.6.3/objs/.libs/sfnt.o /sources/7.9/freetype-2.6.3/objs/.libs/autofit.o /sources/7.9/freetype-2.6.3/objs/.libs/pshinter.o /sources/7.9/freetype-2.6.3/objs/.libs/raster.o /sources/7.9/freetype-2.6.3/objs/.libs/smooth.o /sources/7.9/freetype-2.6.3/objs/.libs/ftcache.o /sources/7.9/freetype-2.6.3/objs/.libs/gxvalid.o /sources/7.9/freetype-2.6.3/objs/.libs/ftgzip.o /sources/7.9/freetype-2.6.3/objs/.libs/ftlzw.o /sources/7.9/freetype-2.6.3/objs/.libs/ftbzip2.o /sources/7.9/freetype-2.6.3/objs/.libs/otvalid.o /sources/7.9/freetype-2.6.3/objs/.libs/psaux.o /sources/7.9/freetype-2.6.3/objs/.libs/psnames.o   /usr/lib/libharfbuzz.so -L/usr/lib /usr/lib/libglib-2.0.so /usr/lib/libpcre.so -lpthread /usr/lib/libfreetype.so -lbz2 /usr/lib/libpng16.so -lz -lm    -Wl,-soname -Wl,libfreetype.so.6 -o /sources/7.9/freetype-2.6.3/objs/.libs/libfreetype.so.6.12.3
+libtool: link: (cd "/sources/7.9/freetype-2.6.3/objs/.libs" && rm -f "libfreetype.so.6" && ln -s "libfreetype.so.6.12.3" "libfreetype.so.6")
+libtool: link: (cd "/sources/7.9/freetype-2.6.3/objs/.libs" && rm -f "libfreetype.so" && ln -s "libfreetype.so.6.12.3" "libfreetype.so")
+libtool: link: ( cd "/sources/7.9/freetype-2.6.3/objs/.libs" && rm -f "libfreetype.la" && ln -s "../libfreetype.la" "libfreetype.la" )
+rm -f builds/unix/freetype-config builds/unix/freetype-config.tmp
+sed -e 's|%LIBSSTATIC_CONFIG%|-lfreetype -lz -lbz2 -lpng16 -lm -lz -lm -lharfbuzz -lglib-2.0 -pthread -lpcre|'   \
+    -e 's|%build_libtool_libs%||' \
+    -e 's|%exec_prefix%|/usr|'               \
+    -e 's|%ft_version%|18.3.12|'                 \
+    -e 's|%includedir%|/usr/include|'                 \
+    -e 's|%libdir%|/usr/lib|'                         \
+    -e 's|%prefix%|/usr|'                         \
+    /sources/7.9/freetype-2.6.3/builds/unix/freetype-config.in                                                 \
+    > builds/unix/freetype-config.tmp
+chmod +x builds/unix/freetype-config.tmp
+chmod a-w builds/unix/freetype-config.tmp
+mv builds/unix/freetype-config.tmp builds/unix/freetype-config
+rm -f builds/unix/freetype2.pc builds/unix/freetype2.pc.tmp
+sed -e 's|%REQUIRES_PRIVATE%|zlib, libpng, harfbuzz >= 0.9.21|'     \
+    -e 's|%LIBS_PRIVATE%|-lbz2|'             \
+    -e 's|%build_libtool_libs%||' \
+    -e 's|%exec_prefix%|/usr|'             \
+    -e 's|%ft_version%|18.3.12|'                 \
+    -e 's|%includedir%|/usr/include|'               \
+    -e 's|%libdir%|/usr/lib|'                       \
+    -e 's|%prefix%|/usr|'                       \
+    /sources/7.9/freetype-2.6.3/builds/unix/freetype2.in                                                 \
+    > builds/unix/freetype2.pc.tmp
+chmod a-w builds/unix/freetype2.pc.tmp
+mv builds/unix/freetype2.pc.tmp builds/unix/freetype2.pc
+rm -rf /usr/include/freetype2
+rm -f /usr/include/ft2build.h
+/bin/mkdir -p /usr/lib                               \
+                         /usr/lib/pkgconfig                     \
+                         /usr/include/freetype2/freetype/config \
+                         /usr/bin                               \
+                         /usr/share/aclocal                      \
+                         /usr/share/man/man1
+./builds/unix/libtool --mode=install /usr/bin/install -c                             \
+                                  /sources/7.9/freetype-2.6.3/objs/libfreetype.la /usr/lib
+libtool: install: /usr/bin/install -c /sources/7.9/freetype-2.6.3/objs/.libs/libfreetype.so.6.12.3 /usr/lib/libfreetype.so.6.12.3
+libtool: install: (cd /usr/lib && { ln -s -f libfreetype.so.6.12.3 libfreetype.so.6 || { rm -f libfreetype.so.6 && ln -s libfreetype.so.6.12.3 libfreetype.so.6; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libfreetype.so.6.12.3 libfreetype.so || { rm -f libfreetype.so && ln -s libfreetype.so.6.12.3 libfreetype.so; }; })
+libtool: install: /usr/bin/install -c /sources/7.9/freetype-2.6.3/objs/.libs/libfreetype.lai /usr/lib/libfreetype.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+for P in /sources/7.9/freetype-2.6.3/include/freetype/tttables.h /sources/7.9/freetype-2.6.3/include/freetype/ftfntfmt.h /sources/7.9/freetype-2.6.3/include/freetype/ftstroke.h /sources/7.9/freetype-2.6.3/include/freetype/t1tables.h /sources/7.9/freetype-2.6.3/include/freetype/fterrors.h /sources/7.9/freetype-2.6.3/include/freetype/ftlzw.h /sources/7.9/freetype-2.6.3/include/freetype/ftglyph.h /sources/7.9/freetype-2.6.3/include/freetype/ftcid.h /sources/7.9/freetype-2.6.3/include/freetype/ftbitmap.h /sources/7.9/freetype-2.6.3/include/freetype/ftmodapi.h /sources/7.9/freetype-2.6.3/include/freetype/ftsystem.h /sources/7.9/freetype-2.6.3/include/freetype/ftttdrv.h /sources/7.9/freetype-2.6.3/include/freetype/ftautoh.h /sources/7.9/freetype-2.6.3/include/freetype/ftsynth.h /sources/7.9/freetype-2.6.3/include/freetype/ftlcdfil.h /sources/7.9/freetype-2.6.3/include/freetype/ftpfr.h /sources/7.9/freetype-2.6.3/include/freetype/ftsizes.h /sources/7.9/freetype-2.6.3/include/freetype/ftrender.h /sources/7.9/freetype-2.6.3/include/freetype/ftmm.h /sources/7.9/freetype-2.6.3/include/freetype/ftoutln.h /sources/7.9/freetype-2.6.3/include/freetype/ftsnames.h /sources/7.9/freetype-2.6.3/include/freetype/ftbzip2.h /sources/7.9/freetype-2.6.3/include/freetype/ftlist.h /sources/7.9/freetype-2.6.3/include/freetype/ftchapters.h /sources/7.9/freetype-2.6.3/include/freetype/ftbdf.h /sources/7.9/freetype-2.6.3/include/freetype/fterrdef.h /sources/7.9/freetype-2.6.3/include/freetype/ftcache.h /sources/7.9/freetype-2.6.3/include/freetype/ftgxval.h /sources/7.9/freetype-2.6.3/include/freetype/ftgzip.h /sources/7.9/freetype-2.6.3/include/freetype/ftmac.h /sources/7.9/freetype-2.6.3/include/freetype/fttypes.h /sources/7.9/freetype-2.6.3/include/freetype/ftwinfnt.h /sources/7.9/freetype-2.6.3/include/freetype/freetype.h /sources/7.9/freetype-2.6.3/include/freetype/ftotval.h /sources/7.9/freetype-2.6.3/include/freetype/ftbbox.h /sources/7.9/freetype-2.6.3/include/freetype/ftadvanc.h /sources/7.9/freetype-2.6.3/include/freetype/ftcffdrv.h /sources/7.9/freetype-2.6.3/include/freetype/ftmoderr.h /sources/7.9/freetype-2.6.3/include/freetype/ftgasp.h /sources/7.9/freetype-2.6.3/include/freetype/tttags.h /sources/7.9/freetype-2.6.3/include/freetype/ttunpat.h /sources/7.9/freetype-2.6.3/include/freetype/ftincrem.h /sources/7.9/freetype-2.6.3/include/freetype/fttrigon.h /sources/7.9/freetype-2.6.3/include/freetype/ftimage.h /sources/7.9/freetype-2.6.3/include/freetype/ttnameid.h ; do                           \
+          /usr/bin/install -c -m 644                                    \
+            $P /usr/include/freetype2/freetype ; \
+        done
+for P in /sources/7.9/freetype-2.6.3/include/freetype/config/ftstdlib.h /sources/7.9/freetype-2.6.3/include/freetype/config/ftconfig.h /sources/7.9/freetype-2.6.3/include/freetype/config/ftmodule.h /sources/7.9/freetype-2.6.3/include/freetype/config/ftoption.h /sources/7.9/freetype-2.6.3/include/freetype/config/ftheader.h  /sources/7.9/freetype-2.6.3/objs/ftmodule.h  ; do                                  \
+          /usr/bin/install -c -m 644                                           \
+            $P /usr/include/freetype2/freetype/config ; \
+        done
+/usr/bin/install -c -m 644 /sources/7.9/freetype-2.6.3/include/ft2build.h  \
+          /usr/include/freetype2/ft2build.h
+/usr/bin/install -c -m 644 ./builds/unix/ftconfig.h                        \
+          /usr/include/freetype2/freetype/config/ftconfig.h
+/usr/bin/install -c -m 644 /sources/7.9/freetype-2.6.3/objs/ftmodule.h                          \
+          /usr/include/freetype2/freetype/config/ftmodule.h
+/usr/bin/install -c -m 755 ./builds/unix/freetype-config \
+          /usr/bin/freetype-config
+/usr/bin/install -c -m 644 ./builds/unix/freetype2.m4 \
+          /usr/share/aclocal/freetype2.m4
+/usr/bin/install -c -m 644 ./builds/unix/freetype2.pc \
+          /usr/lib/pkgconfig/freetype2.pc
+/usr/bin/install -c -m 644 /sources/7.9/freetype-2.6.3/docs/freetype-config.1 \
+          /usr/share/man/man1/freetype-config.1
+'docs/CHANGES' -> '/usr/share/doc/freetype-2.6.3/CHANGES'
+'docs/CMAKE' -> '/usr/share/doc/freetype-2.6.3/CMAKE'
+'docs/css/freetype2_60.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_60.css'
+'docs/css/freetype2_-90.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_-90.css'
+'docs/css/freetype2_30.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_30.css'
+'docs/css/freetype2.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2.css'
+'docs/css/freetype2_90.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_90.css'
+'docs/css/freetype2_-60.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_-60.css'
+'docs/css/freetype2_-30.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype2_-30.css'
+'docs/css/freetype.css' -> '/usr/share/doc/freetype-2.6.3/css/freetype.css'
+'docs/CUSTOMIZE' -> '/usr/share/doc/freetype-2.6.3/CUSTOMIZE'
+'docs/DEBUG' -> '/usr/share/doc/freetype-2.6.3/DEBUG'
+'docs/design/library-model.png' -> '/usr/share/doc/freetype-2.6.3/design/library-model.png'
+'docs/design/detailed-design.png' -> '/usr/share/doc/freetype-2.6.3/design/detailed-design.png'
+'docs/design/simple-model.png' -> '/usr/share/doc/freetype-2.6.3/design/simple-model.png'
+'docs/design/basic-design.png' -> '/usr/share/doc/freetype-2.6.3/design/basic-design.png'
+'docs/design/design-5.html' -> '/usr/share/doc/freetype-2.6.3/design/design-5.html'
+'docs/design/design-6.html' -> '/usr/share/doc/freetype-2.6.3/design/design-6.html'
+'docs/design/index.html' -> '/usr/share/doc/freetype-2.6.3/design/index.html'
+'docs/design/design-3.html' -> '/usr/share/doc/freetype-2.6.3/design/design-3.html'
+'docs/design/design-4.html' -> '/usr/share/doc/freetype-2.6.3/design/design-4.html'
+'docs/design/design-2.html' -> '/usr/share/doc/freetype-2.6.3/design/design-2.html'
+'docs/design/design-1.html' -> '/usr/share/doc/freetype-2.6.3/design/design-1.html'
+'docs/documentation.html' -> '/usr/share/doc/freetype-2.6.3/documentation.html'
+'docs/formats.txt' -> '/usr/share/doc/freetype-2.6.3/formats.txt'
+'docs/freetype-config.1' -> '/usr/share/doc/freetype-2.6.3/freetype-config.1'
+'docs/ft2faq.html' -> '/usr/share/doc/freetype-2.6.3/ft2faq.html'
+'docs/FTL.TXT' -> '/usr/share/doc/freetype-2.6.3/FTL.TXT'
+'docs/glyphs/twlewis2.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/twlewis2.png'
+'docs/glyphs/up_flow.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/up_flow.png'
+'docs/glyphs/clipping.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/clipping.png'
+'docs/glyphs/body_comparison.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/body_comparison.png'
+'docs/glyphs/bravo_kerned.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/bravo_kerned.png'
+'docs/glyphs/down_flow.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/down_flow.png'
+'docs/glyphs/points_cubic.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/points_cubic.png'
+'docs/glyphs/Image1.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/Image1.png'
+'docs/glyphs/Image3.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/Image3.png'
+'docs/glyphs/points_conic.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/points_conic.png'
+'docs/glyphs/bbox1.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/bbox1.png'
+'docs/glyphs/points_segment.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/points_segment.png'
+'docs/glyphs/points_conic2.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/points_conic2.png'
+'docs/glyphs/Image2.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/Image2.png'
+'docs/glyphs/Image4.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/Image4.png'
+'docs/glyphs/bbox2.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/bbox2.png'
+'docs/glyphs/bravo_unkerned.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/bravo_unkerned.png'
+'docs/glyphs/twlewis1.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/twlewis1.png'
+'docs/glyphs/grid_1.png' -> '/usr/share/doc/freetype-2.6.3/glyphs/grid_1.png'
+'docs/glyphs/glyphs-5.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-5.html'
+'docs/glyphs/glyphs-4.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-4.html'
+'docs/glyphs/glyphs-2.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-2.html'
+'docs/glyphs/index.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/index.html'
+'docs/glyphs/glyphs-3.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-3.html'
+'docs/glyphs/glyphs-1.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-1.html'
+'docs/glyphs/glyphs-6.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-6.html'
+'docs/glyphs/glyphs-7.html' -> '/usr/share/doc/freetype-2.6.3/glyphs/glyphs-7.html'
+'docs/GPLv2.TXT' -> '/usr/share/doc/freetype-2.6.3/GPLv2.TXT'
+'docs/image/fond3_-90.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_-90.png'
+'docs/image/BlendingExamples.png' -> '/usr/share/doc/freetype-2.6.3/image/BlendingExamples.png'
+'docs/image/freetype.jpg' -> '/usr/share/doc/freetype-2.6.3/image/freetype.jpg'
+'docs/image/fond3_30.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_30.png'
+'docs/image/freetype-262-new-old-filter-thumbnail.jpg' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-new-old-filter-thumbnail.jpg'
+'docs/image/freetype-262-autohinter-stem-darkening-demo2.png' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-autohinter-stem-darkening-demo2.png'
+'docs/image/fond3_-60.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_-60.png'
+'docs/image/favicon_-30.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_-30.ico'
+'docs/image/freetype-262-autohinter-stem-darkening-demo2-thumbnail.jpg' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-autohinter-stem-darkening-demo2-thumbnail.jpg'
+'docs/image/favicon_90.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_90.ico'
+'docs/image/BlendingExamples-thumbnail.jpg' -> '/usr/share/doc/freetype-2.6.3/image/BlendingExamples-thumbnail.jpg'
+'docs/image/freetype-262-autohinter-stem-darkening-demo1.png' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-autohinter-stem-darkening-demo1.png'
+'docs/image/favicon.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon.ico'
+'docs/image/top.gif' -> '/usr/share/doc/freetype-2.6.3/image/top.gif'
+'docs/image/fond3_60.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_60.png'
+'docs/image/favicon_-90.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_-90.ico'
+'docs/image/fond3.jpg' -> '/usr/share/doc/freetype-2.6.3/image/fond3.jpg'
+'docs/image/favicon_30.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_30.ico'
+'docs/image/fond2-small.png' -> '/usr/share/doc/freetype-2.6.3/image/fond2-small.png'
+'docs/image/fond2.png' -> '/usr/share/doc/freetype-2.6.3/image/fond2.png'
+'docs/image/freetype-262-autohinter-stem-darkening-demo1-thumbnail.jpg' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-autohinter-stem-darkening-demo1-thumbnail.jpg'
+'docs/image/fond3_-30.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_-30.png'
+'docs/image/freetype-262-new-old-filter.png' -> '/usr/share/doc/freetype-2.6.3/image/freetype-262-new-old-filter.png'
+'docs/image/favicon_-60.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_-60.ico'
+'docs/image/fond3_90.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3_90.png'
+'docs/image/favicon_60.ico' -> '/usr/share/doc/freetype-2.6.3/image/favicon_60.ico'
+'docs/image/fond3.png' -> '/usr/share/doc/freetype-2.6.3/image/fond3.png'
+'docs/index.html' -> '/usr/share/doc/freetype-2.6.3/index.html'
+'docs/INSTALL' -> '/usr/share/doc/freetype-2.6.3/INSTALL'
+'docs/INSTALL.ANY' -> '/usr/share/doc/freetype-2.6.3/INSTALL.ANY'
+'docs/INSTALL.CROSS' -> '/usr/share/doc/freetype-2.6.3/INSTALL.CROSS'
+'docs/INSTALL.GNU' -> '/usr/share/doc/freetype-2.6.3/INSTALL.GNU'
+'docs/INSTALL.MAC' -> '/usr/share/doc/freetype-2.6.3/INSTALL.MAC'
+'docs/INSTALL.UNIX' -> '/usr/share/doc/freetype-2.6.3/INSTALL.UNIX'
+'docs/INSTALL.VMS' -> '/usr/share/doc/freetype-2.6.3/INSTALL.VMS'
+'docs/js/freetype2.js' -> '/usr/share/doc/freetype-2.6.3/js/freetype2.js'
+'docs/js/jquery-1.11.0.min.js' -> '/usr/share/doc/freetype-2.6.3/js/jquery-1.11.0.min.js'
+'docs/js/jquery.ba-resize.min.js' -> '/usr/share/doc/freetype-2.6.3/js/jquery.ba-resize.min.js'
+'docs/LICENSE.TXT' -> '/usr/share/doc/freetype-2.6.3/LICENSE.TXT'
+'docs/MAKEPP' -> '/usr/share/doc/freetype-2.6.3/MAKEPP'
+'docs/PROBLEMS' -> '/usr/share/doc/freetype-2.6.3/PROBLEMS'
+'docs/raster.txt' -> '/usr/share/doc/freetype-2.6.3/raster.txt'
+'docs/reference/README' -> '/usr/share/doc/freetype-2.6.3/reference/README'
+'docs/reference/ft2-toc.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-toc.html'
+'docs/reference/ft2-index.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-index.html'
+'docs/reference/ft2-winfnt_fonts.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-winfnt_fonts.html'
+'docs/reference/ft2-glyph_stroker.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-glyph_stroker.html'
+'docs/reference/ft2-ot_validation.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-ot_validation.html'
+'docs/reference/ft2-base_interface.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-base_interface.html'
+'docs/reference/ft2-system_interface.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-system_interface.html'
+'docs/reference/ft2-tt_driver.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-tt_driver.html'
+'docs/reference/ft2-cache_subsystem.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-cache_subsystem.html'
+'docs/reference/ft2-sfnt_names.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-sfnt_names.html'
+'docs/reference/ft2-incremental.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-incremental.html'
+'docs/reference/ft2-user_allocation.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-user_allocation.html'
+'docs/reference/ft2-basic_types.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-basic_types.html'
+'docs/reference/ft2-bdf_fonts.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-bdf_fonts.html'
+'docs/reference/ft2-multiple_masters.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-multiple_masters.html'
+'docs/reference/ft2-glyph_management.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-glyph_management.html'
+'docs/reference/ft2-truetype_engine.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-truetype_engine.html'
+'docs/reference/ft2-version.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-version.html'
+'docs/reference/ft2-gx_validation.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-gx_validation.html'
+'docs/reference/ft2-glyph_variants.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-glyph_variants.html'
+'docs/reference/ft2-font_formats.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-font_formats.html'
+'docs/reference/ft2-type1_tables.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-type1_tables.html'
+'docs/reference/ft2-quick_advance.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-quick_advance.html'
+'docs/reference/ft2-cff_driver.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-cff_driver.html'
+'docs/reference/ft2-bitmap_handling.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-bitmap_handling.html'
+'docs/reference/ft2-outline_processing.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-outline_processing.html'
+'docs/reference/ft2-bzip2.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-bzip2.html'
+'docs/reference/ft2-cid_fonts.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-cid_fonts.html'
+'docs/reference/ft2-gzip.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-gzip.html'
+'docs/reference/ft2-header_file_macros.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-header_file_macros.html'
+'docs/reference/ft2-module_management.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-module_management.html'
+'docs/reference/ft2-gasp_table.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-gasp_table.html'
+'docs/reference/ft2-raster.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-raster.html'
+'docs/reference/ft2-truetype_tables.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-truetype_tables.html'
+'docs/reference/ft2-computations.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-computations.html'
+'docs/reference/ft2-error_enumerations.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-error_enumerations.html'
+'docs/reference/ft2-sizes_management.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-sizes_management.html'
+'docs/reference/ft2-mac_specific.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-mac_specific.html'
+'docs/reference/ft2-pfr_fonts.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-pfr_fonts.html'
+'docs/reference/ft2-lcd_filtering.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-lcd_filtering.html'
+'docs/reference/ft2-error_code_values.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-error_code_values.html'
+'docs/reference/ft2-auto_hinter.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-auto_hinter.html'
+'docs/reference/ft2-header_inclusion.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-header_inclusion.html'
+'docs/reference/ft2-lzw.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-lzw.html'
+'docs/reference/ft2-list_processing.html' -> '/usr/share/doc/freetype-2.6.3/reference/ft2-list_processing.html'
+'docs/release' -> '/usr/share/doc/freetype-2.6.3/release'
+'docs/TODO' -> '/usr/share/doc/freetype-2.6.3/TODO'
+'docs/tutorial/example4.pro' -> '/usr/share/doc/freetype-2.6.3/tutorial/example4.pro'
+'docs/tutorial/example1.c' -> '/usr/share/doc/freetype-2.6.3/tutorial/example1.c'
+'docs/tutorial/metrics2.png' -> '/usr/share/doc/freetype-2.6.3/tutorial/metrics2.png'
+'docs/tutorial/example4.cpp' -> '/usr/share/doc/freetype-2.6.3/tutorial/example4.cpp'
+'docs/tutorial/example2.cpp' -> '/usr/share/doc/freetype-2.6.3/tutorial/example2.cpp'
+'docs/tutorial/example3.cpp' -> '/usr/share/doc/freetype-2.6.3/tutorial/example3.cpp'
+'docs/tutorial/metrics.png' -> '/usr/share/doc/freetype-2.6.3/tutorial/metrics.png'
+'docs/tutorial/index.html' -> '/usr/share/doc/freetype-2.6.3/tutorial/index.html'
+'docs/tutorial/step2.html' -> '/usr/share/doc/freetype-2.6.3/tutorial/step2.html'
+'docs/tutorial/step3.html' -> '/usr/share/doc/freetype-2.6.3/tutorial/step3.html'
+'docs/tutorial/step1.html' -> '/usr/share/doc/freetype-2.6.3/tutorial/step1.html'
+'docs/VERSION.DLL' -> '/usr/share/doc/freetype-2.6.3/VERSION.DLL'

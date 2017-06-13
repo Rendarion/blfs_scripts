@@ -1,0 +1,13 @@
+URL=(
+"http://ftp.x.org/pub/individual/driver/xf86-input-synaptics-1.9.0.tar.bz2"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"libevdev-1.5.6"
+"xorg-server-1.19.1"
+)

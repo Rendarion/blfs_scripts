@@ -1,0 +1,1119 @@
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking whether make supports nested variables... yes
+checking whether UID '1000' is supported by ustar format... yes
+checking whether GID '1000' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking dependency style of gcc... gcc3
+checking whether make supports nested variables... (cached) yes
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking for library containing strerror... none required
+checking for an ANSI C-conforming const... yes
+checking for _Static_assert... yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-unknown-linux-gnu file names to x86_64-unknown-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-unknown-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: creating ./config.lt
+config.lt: creating libtool
+checking for cos in -lm... yes
+checking if building for some Win32 platform... no
+checking OpenGL/gl.h usability... no
+checking OpenGL/gl.h presence... no
+checking for OpenGL/gl.h... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for supported compiler flags...  -Wall -Wcast-align -Wformat -Wformat-security -Werror=uninitialized -Werror=empty-body -Werror=init-self -Werror=undef -Werror=declaration-after-statement -Werror=vla -Werror=pointer-arith -Werror=missing-declarations -Werror=maybe-uninitialized
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.16... yes
+checking for GLIB - version >= 2.32.0... yes (version 2.46.2)
+checking for DUMMY... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for linguas... an ar as ast be bg bs ca ca@valencia cs da de el en_CA en_GB eo es eu fa fr gl he hi hu id it ja km kn ko lt lv ml nb nl oc or pa pl pt pt_BR ru sk sl sr sr@latin sv ta te th tr ug uk vi zh_CN zh_HK zh_TW 
+checking for COGL_DEP... yes
+checking for COGL_DEP_GL... yes
+checking for COGL_PANGO_DEP... yes
+checking for gobject-introspection... yes
+checking for X... libraries , headers 
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking endian.h usability... yes
+checking endian.h presence... yes
+checking for endian.h... yes
+checking whether __FLOAT_WORD_ORDER is declared... yes
+checking for ffs... yes
+checking for memmem... yes
+checking for sincos... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating README
+config.status: creating config.h.win32
+config.status: creating build/Makefile
+config.status: creating build/win32/Makefile
+config.status: creating build/win32/vs9/Makefile
+config.status: creating build/win32/vs10/Makefile
+config.status: creating deps/Makefile
+config.status: creating deps/glib/Makefile
+config.status: creating deps/gmodule/Makefile
+config.status: creating deps/gmodule/gmoduleconf.h
+config.status: creating test-fixtures/Makefile
+config.status: creating cogl/Makefile
+config.status: creating cogl/cogl-1.0.pc
+config.status: creating cogl/cogl-2.0-experimental.pc
+config.status: creating cogl/cogl-defines.h
+config.status: creating cogl/cogl-defines.h.win32
+config.status: creating cogl/cogl-defines.h.win32_SDL
+config.status: creating cogl/cogl-gl-header.h
+config.status: creating cogl/cogl-egl-defines.h
+config.status: creating cogl/cogl.rc
+config.status: creating cogl-pango/Makefile
+config.status: creating cogl-pango/cogl-pango-1.0.pc
+config.status: creating cogl-pango/cogl-pango-2.0-experimental.pc
+config.status: creating cogl-pango/cogl-pango.rc
+config.status: creating cogl-path/Makefile
+config.status: creating cogl-path/cogl-path-1.0.pc
+config.status: creating cogl-path/cogl-path-2.0-experimental.pc
+config.status: creating cogl-gst/Makefile
+config.status: creating cogl-gst/cogl-gst-1.0.pc
+config.status: creating cogl-gst/cogl-gst-2.0-experimental.pc
+config.status: creating cogl-gles2/Makefile
+config.status: creating cogl-gles2/cogl-gles2-1.0.pc
+config.status: creating cogl-gles2/cogl-gles2-2.0-experimental.pc
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/cogl/Makefile
+config.status: creating doc/reference/cogl/cogl-docs.xml
+config.status: creating doc/reference/cogl-2.0-experimental/Makefile
+config.status: creating doc/reference/cogl-2.0-experimental/cogl-2.0-experimental-docs.xml
+config.status: creating doc/reference/cogl-gst/Makefile
+config.status: creating doc/reference/cogl-gst/cogl-gst-docs.xml
+config.status: creating examples/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/config.env
+config.status: creating tests/conform/Makefile
+config.status: creating tests/unit/Makefile
+config.status: creating tests/micro-perf/Makefile
+config.status: creating tests/data/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+
+Cogl - 1.22.0/2.0.0 (git)
+
+ • Global:
+        Prefix: /usr
+
+ • Features:
+        Drivers:  gles1 gles2 gl
+        Library name for GLES1: libGLESv1_CM.so
+        Library name for GLES2: libGLESv2.so
+        Library name for GL: libGL.so.1
+        GL Window System APIs: glx egl
+        EGL Platforms: xlib
+        Wayland compositor support: no
+        Building for emscripten environment: no
+        Build libcogl-gles2 GLES 2.0 frontend api: yes
+        Image backend: gdk-pixbuf
+        Cogl Pango: yes
+        Cogl Gstreamer: no
+        Cogl Path: yes
+
+ • Build options:
+        Debugging: yes
+        Profiling: no
+        Enable deprecated symbols: no
+        Compiler flags: -g -O2  -DCOGL_GL_DEBUG -DCOGL_OBJECT_DEBUG -DCOGL_ENABLE_DEBUG -Wall -Wcast-align -Wformat -Wformat-security -Werror=uninitialized -Werror=empty-body -Werror=init-self -Werror=undef -Werror=declaration-after-statement -Werror=vla -Werror=pointer-arith -Werror=missing-declarations -Werror=maybe-uninitialized -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES
+        Linker flags:  
+
+ • Extra:
+        Build API reference: no
+        Build introspection data: auto
+        Build unit tests: yes
+        Enable internationalization: yes
+
+make  all-recursive
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0'
+Making all in deps
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+Making all in test-fixtures
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+  CC       libtest_fixtures_la-test-utils.lo
+  CCLD     libtest-fixtures.la
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+Making all in cogl
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+  GEN      stamp-enum-types
+  GEN      cogl-enum-types.c
+make  all-recursive
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+  CC       driver/nop/cogl-driver-nop.lo
+  CC       driver/nop/cogl-framebuffer-nop.lo
+  CC       driver/nop/cogl-attribute-nop.lo
+  CC       driver/nop/cogl-clip-stack-nop.lo
+  CC       driver/nop/cogl-texture-2d-nop.lo
+  CC       driver/gl/cogl-util-gl.lo
+  CC       driver/gl/cogl-framebuffer-gl.lo
+  CC       driver/gl/cogl-texture-gl.lo
+  CC       driver/gl/cogl-texture-2d-gl.lo
+  CC       driver/gl/cogl-attribute-gl.lo
+  CC       driver/gl/cogl-clip-stack-gl.lo
+  CC       driver/gl/cogl-buffer-gl.lo
+  CC       driver/gl/cogl-pipeline-opengl.lo
+  CC       driver/gl/cogl-pipeline-fragend-glsl.lo
+  CC       driver/gl/gl/cogl-pipeline-fragend-arbfp.lo
+  CC       driver/gl/gl/cogl-pipeline-progend-fixed-arbfp.lo
+  CC       driver/gl/cogl-pipeline-fragend-fixed.lo
+  CC       driver/gl/cogl-pipeline-vertend-glsl.lo
+  CC       driver/gl/cogl-pipeline-vertend-fixed.lo
+  CC       driver/gl/cogl-pipeline-progend-fixed.lo
+  CC       driver/gl/cogl-pipeline-progend-glsl.lo
+  CC       driver/gl/gl/cogl-driver-gl.lo
+  CC       driver/gl/gl/cogl-texture-driver-gl.lo
+  CC       driver/gl/gles/cogl-driver-gles.lo
+  CC       driver/gl/gles/cogl-texture-driver-gles.lo
+  CC       winsys/cogl-winsys.lo
+  CC       cogl-gpu-info.lo
+  CC       cogl-context.lo
+  CC       cogl-renderer.lo
+  CC       cogl-swap-chain.lo
+  CC       cogl-onscreen-template.lo
+  CC       cogl-display.lo
+  CC       cogl.lo
+  CC       cogl-object.lo
+  CC       cogl-util.lo
+  CC       cogl-bitmap.lo
+  CC       cogl-bitmap-conversion.lo
+  CC       cogl-primitives.lo
+  CC       cogl-bitmap-pixbuf.lo
+  CC       cogl-clip-stack.lo
+  CC       cogl-feature-private.lo
+  CC       cogl-color.lo
+  CC       cogl-buffer.lo
+  CC       cogl-pixel-buffer.lo
+  CC       cogl-index-buffer.lo
+  CC       cogl-attribute-buffer.lo
+  CC       cogl-indices.lo
+  CC       cogl-attribute.lo
+  CC       cogl-primitive.lo
+  CC       cogl-matrix.lo
+  CC       cogl-vector.lo
+  CC       cogl-euler.lo
+  CC       cogl-quaternion.lo
+  CC       cogl-matrix-stack.lo
+  CC       cogl-depth-state.lo
+  CC       cogl-node.lo
+  CC       cogl-pipeline.lo
+  CC       cogl-pipeline-layer.lo
+  CC       cogl-pipeline-state.lo
+  CC       cogl-pipeline-layer-state.lo
+  CC       cogl-pipeline-debug.lo
+  CC       cogl-glsl-shader.lo
+  CC       cogl-pipeline-snippet.lo
+  CC       cogl-pipeline-cache.lo
+  CC       cogl-pipeline-hash-table.lo
+  CC       cogl-sampler-cache.lo
+  CC       cogl-blend-string.lo
+  CC       cogl-debug.lo
+  CC       cogl-sub-texture.lo
+  CC       cogl-texture.lo
+  CC       cogl-texture-2d.lo
+  CC       cogl-texture-2d-sliced.lo
+  CC       cogl-texture-3d.lo
+  CC       cogl-texture-rectangle.lo
+  CC       cogl-rectangle-map.lo
+  CC       cogl-atlas.lo
+  CC       cogl-atlas-texture.lo
+  CC       cogl-meta-texture.lo
+  CC       cogl-primitive-texture.lo
+  CC       cogl-blit.lo
+  CC       cogl-spans.lo
+  CC       cogl-journal.lo
+  CC       cogl-frame-info.lo
+  CC       cogl-framebuffer.lo
+  CC       cogl-onscreen.lo
+  CC       cogl-output.lo
+  CC       cogl-profile.lo
+  CC       cogl-bitmask.lo
+  CC       cogl-gtype.lo
+  CC       cogl-point-in-poly.lo
+  CC       cogl-list.lo
+  CC       winsys/cogl-winsys-stub.lo
+  CC       cogl-config.lo
+  CC       cogl-boxed-value.lo
+  CC       cogl-snippet.lo
+  CC       cogl-poll.lo
+  CC       cogl-memory-stack.lo
+  CC       cogl-magazine.lo
+  CC       cogl-gles2-context.lo
+  CC       cogl-error.lo
+  CC       cogl-closure-list.lo
+  CC       cogl-fence.lo
+  CC       deprecated/cogl-clip-state.lo
+  CC       deprecated/cogl-fixed.lo
+  CC       deprecated/cogl-vertex-buffer.lo
+  CC       deprecated/cogl-material-compat.lo
+  CC       deprecated/cogl-program.lo
+  CC       deprecated/cogl-auto-texture.lo
+  CC       deprecated/cogl-shader.lo
+  CC       deprecated/cogl-clutter.lo
+  CC       deprecated/cogl-framebuffer-deprecated.lo
+  CC       deprecated/cogl-texture-deprecated.lo
+  CC       cogl-glib-source.lo
+  CC       cogl-xlib-renderer.lo
+  CC       cogl-xlib.lo
+  CC       winsys/cogl-texture-pixmap-x11.lo
+  CC       winsys/cogl-winsys-glx.lo
+  CC       winsys/cogl-winsys-egl-x11.lo
+  CC       winsys/cogl-winsys-egl.lo
+  CC       cogl-enum-types.lo
+  CCLD     libcogl.la
+  GISCAN   Cogl-1.0.gir
+  GISCAN   Cogl-2.0.gir
+  GEN      cogl-gl-1.0.pc
+  GICOMP   Cogl-1.0.gir
+  GICOMP   Cogl-2.0.gir
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+Making all in cogl-path
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+  GEN      stamp-enum-types
+  GEN      cogl-path-enum-types.c
+make  all-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+  CC       tesselator/libcogl_path_la-dict.lo
+  CC       tesselator/libcogl_path_la-geom.lo
+  CC       tesselator/libcogl_path_la-mesh.lo
+  CC       tesselator/libcogl_path_la-normal.lo
+  CC       tesselator/libcogl_path_la-priorityq.lo
+  CC       tesselator/libcogl_path_la-render.lo
+  CC       tesselator/libcogl_path_la-sweep.lo
+  CC       tesselator/libcogl_path_la-tess.lo
+  CC       tesselator/libcogl_path_la-tessmono.lo
+  CC       libcogl_path_la-cogl1-path.lo
+  CC       libcogl_path_la-cogl-path.lo
+  CC       libcogl_path_la-cogl-path-enum-types.lo
+  CCLD     libcogl-path.la
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+Making all in cogl-pango
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+  CC       libcogl_pango_la-cogl-pango-display-list.lo
+  CC       libcogl_pango_la-cogl-pango-fontmap.lo
+  CC       libcogl_pango_la-cogl-pango-render.lo
+  CC       libcogl_pango_la-cogl-pango-glyph-cache.lo
+  CC       libcogl_pango_la-cogl-pango-pipeline-cache.lo
+  CCLD     libcogl-pango.la
+  GISCAN   CoglPango-1.0.gir
+  GISCAN   CoglPango-2.0.gir
+  GICOMP   CoglPango-1.0.gir
+  GICOMP   CoglPango-2.0.gir
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+Making all in cogl-gles2
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+  CC       cogl-gles2-api.lo
+  CCLD     libcogl-gles2.la
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+Making all in tests
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+Making all in conform
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+  GEN    test-pipeline-user-matrix
+  GEN    test-blend-strings
+  GEN    test-blend
+  GEN    test-premult
+  GEN    test-path
+  GEN    test-path-clip
+  GEN    test-depth-test
+  GEN    test-color-mask
+  GEN    test-backface-culling
+  GEN    test-layer-remove
+  GEN    test-sparse-pipeline
+  GEN    test-npot-texture
+  GEN    test-sub-texture
+  GEN    test-pixel-buffer-map
+  GEN    test-pixel-buffer-set-data
+  GEN    test-pixel-buffer-sub-region
+  GEN    test-texture-3d
+  GEN    test-wrap-modes
+  GEN    test-texture-get-set-data
+  GEN    test-atlas-migration
+  GEN    test-read-texture-formats
+  GEN    test-write-texture-formats
+  GEN    test-alpha-textures
+  GEN    test-wrap-rectangle-textures
+  GEN    test-primitive
+  GEN    test-just-vertex-shader
+  GEN    test-pipeline-uniforms
+  GEN    test-snippets
+  GEN    test-custom-attributes
+  GEN    test-offscreen
+  GEN    test-framebuffer-get-bits
+  GEN    test-point-size
+  GEN    test-point-size-attribute
+  GEN    test-point-size-attribute-snippet
+  GEN    test-point-sprite
+  GEN    test-point-sprite-orientation
+  GEN    test-point-sprite-glsl
+  GEN    test-version
+  GEN    test-alpha-test
+  GEN    test-map-buffer-range
+  GEN    test-primitive-and-journal
+  GEN    test-copy-replace-texture
+  GEN    test-pipeline-cache-unrefs-texture
+  GEN    test-pipeline-shader-state
+  GEN    test-gles2-context
+  GEN    test-gles2-context-fbo
+  GEN    test-gles2-context-copy-tex-image
+  GEN    test-euler-quaternion
+  GEN    test-color-hsl
+  GEN    test-fence
+  GEN    test-texture-no-allocate
+  GEN    test-texture-rg
+make  all-am
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+  CC       test_conformance-test-conform-main.o
+  CC       test_conformance-test-atlas-migration.o
+  CC       test_conformance-test-blend-strings.o
+  CC       test_conformance-test-blend.o
+  CC       test_conformance-test-depth-test.o
+  CC       test_conformance-test-color-hsl.o
+  CC       test_conformance-test-color-mask.o
+  CC       test_conformance-test-backface-culling.o
+  CC       test_conformance-test-just-vertex-shader.o
+  CC       test_conformance-test-pipeline-user-matrix.o
+  CC       test_conformance-test-pipeline-uniforms.o
+  CC       test_conformance-test-pixel-buffer.o
+  CC       test_conformance-test-premult.o
+  CC       test_conformance-test-snippets.o
+  CC       test_conformance-test-wrap-modes.o
+  CC       test_conformance-test-sub-texture.o
+  CC       test_conformance-test-custom-attributes.o
+  CC       test_conformance-test-offscreen.o
+  CC       test_conformance-test-primitive.o
+  CC       test_conformance-test-texture-3d.o
+  CC       test_conformance-test-sparse-pipeline.o
+  CC       test_conformance-test-read-texture-formats.o
+  CC       test_conformance-test-write-texture-formats.o
+  CC       test_conformance-test-point-size.o
+  CC       test_conformance-test-point-size-attribute.o
+  CC       test_conformance-test-point-sprite.o
+  CC       test_conformance-test-no-gl-header.o
+  CC       test_conformance-test-version.o
+  CC       test_conformance-test-gles2-context.o
+  CC       test_conformance-test-euler-quaternion.o
+  CC       test_conformance-test-layer-remove.o
+  CC       test_conformance-test-alpha-test.o
+  CC       test_conformance-test-map-buffer-range.o
+  CC       test_conformance-test-npot-texture.o
+  CC       test_conformance-test-alpha-textures.o
+  CC       test_conformance-test-wrap-rectangle-textures.o
+  CC       test_conformance-test-texture-get-set-data.o
+  CC       test_conformance-test-framebuffer-get-bits.o
+  CC       test_conformance-test-primitive-and-journal.o
+  CC       test_conformance-test-copy-replace-texture.o
+  CC       test_conformance-test-pipeline-cache-unrefs-texture.o
+  CC       test_conformance-test-texture-no-allocate.o
+  CC       test_conformance-test-pipeline-shader-state.o
+  CC       test_conformance-test-texture-rg.o
+  CC       test_conformance-test-fence.o
+  CC       test_conformance-test-path.o
+  CC       test_conformance-test-path-clip.o
+  CCLD     test-conformance
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Making all in unit
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+  CC       test_unit-test-unit-main.o
+  CCLD     test-unit
+. ../../cogl/libcogl.la ; \
+  /usr/bin/nm -B ../../cogl/.libs/"$dlname"| \
+  grep '[DR] _\?unit_test_'|sed 's/.\+ [DR] _\?//' > unit-tests
+  GEN    check-bitmask-api
+  GEN    check-blend-constant-ancestry
+  GEN    check-gl-blend-enable
+  GEN    check-mesa-driver-package-parser
+  GEN    check-pipeline-pruning
+  GEN    check-point-size-shader
+  GEN    check-uniform-ancestry
+make  all-am
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+Making all in micro-perf
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+  CC       test-journal.o
+  CCLD     test-journal
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+Making all in data
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Making all in examples
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/examples'
+  CC       cogl-info.o
+  CCLD     cogl-info
+  CC       cogl-hello.o
+  CCLD     cogl-hello
+  CC       cogl-msaa.o
+  CCLD     cogl-msaa
+  CC       cogl-gles2-context.o
+  CCLD     cogl-gles2-context
+  CC       cogl-point-sprites.o
+  CCLD     cogl-point-sprites
+  CC       cogl-stereo.o
+  CCLD     cogl-stereo
+  CC       cogl_crate-cogl-crate.o
+  CCLD     cogl-crate
+  CC       cogl-x11-foreign.o
+  CCLD     cogl-x11-foreign
+  CC       cogl-x11-tfp.o
+  CCLD     cogl-x11-tfp
+  CC       cogl_gles2_gears-cogl-gles2-gears.o
+  CCLD     cogl-gles2-gears
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/examples'
+Making all in doc
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/doc'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/doc'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/doc'
+Making all in po
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/po'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/po'
+Making all in build
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/build'
+Making all in win32
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32'
+Making all in vs9
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+Making all in vs10
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/build'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0'
+Making check in deps
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+Making check in test-fixtures
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+Making check in cogl
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make  check-recursive
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+Making check in cogl-path
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make  check-am
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+Making check in cogl-pango
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+Making check in cogl-gles2
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+Making check in tests
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+Making check in conform
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make  check-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Making check in unit
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make  check-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+Making check in micro-perf
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+Making check in data
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+make  check-local
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+( cd ./conform && make  test ) || exit $?
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Key:
+ok = Test passed
+n/a = Driver is missing a feature required for the test
+FAIL = Unexpected failure
+FIXME = Test failed, but it was an expected failure
+PASS! = Unexpected pass
+
+                               Test  GL+FF GL+ARBFP GL+GLSL GL-NPT    GL3    ES2 ES2-NPT
+
+         test_pipeline_user_matrix:     ok       ok      ok     ok     ok     ok      ok
+                test_blend_strings:     ok       ok      ok     ok     ok     ok      ok
+                        test_blend:     ok       ok      ok     ok     ok     ok      ok
+                      test_premult:  PASS!    PASS!   PASS!  FIXME  PASS!  PASS!   PASS!
+                         test_path:     ok       ok      ok     ok     ok     ok      ok
+                    test_path_clip:     ok       ok      ok     ok     ok     ok      ok
+                   test_depth_test:     ok       ok      ok     ok     ok     ok      ok
+                   test_color_mask:     ok       ok      ok     ok     ok     ok      ok
+             test_backface_culling:     ok       ok      ok  FIXME     ok     ok   FIXME
+                 test_layer_remove:     ok       ok      ok     ok     ok     ok      ok
+              test_sparse_pipeline:     ok       ok      ok     ok     ok     ok      ok
+                 test_npot_texture:     ok       ok      ok     ok     ok     ok      ok
+                  test_sub_texture:     ok       ok      ok     ok     ok     ok      ok
+             test_pixel_buffer_map:     ok       ok      ok     ok     ok     ok      ok
+        test_pixel_buffer_set_data:     ok       ok      ok     ok     ok     ok      ok
+      test_pixel_buffer_sub_region:     ok       ok      ok     ok     ok     ok      ok
+                   test_texture_3d:     ok       ok      ok     ok     ok   FAIL    FAIL
+                   test_wrap_modes:     ok       ok      ok     ok     ok     ok      ok
+         test_texture_get_set_data:     ok       ok      ok     ok     ok     ok      ok
+              test_atlas_migration:     ok       ok      ok     ok     ok     ok      ok
+         test_read_texture_formats:  FIXME    FIXME   FIXME  FIXME  FIXME  PASS!   PASS!
+        test_write_texture_formats:     ok       ok      ok     ok     ok     ok      ok
+               test_alpha_textures:     ok       ok      ok     ok     ok     ok      ok
+      test_wrap_rectangle_textures:  FIXME    FIXME   FIXME  FIXME  FIXME    n/a     n/a
+                    test_primitive:     ok       ok      ok     ok     ok     ok      ok
+           test_just_vertex_shader:    n/a       ok      ok     ok     ok     ok      ok
+            test_pipeline_uniforms:    n/a       ok      ok     ok     ok     ok      ok
+                     test_snippets:    n/a       ok      ok     ok     ok     ok      ok
+            test_custom_attributes:    n/a       ok      ok     ok     ok     ok      ok
+                    test_offscreen:     ok       ok      ok     ok     ok     ok      ok
+         test_framebuffer_get_bits:     ok       ok      ok     ok     ok    n/a     n/a
+                   test_point_size:     ok       ok      ok     ok     ok     ok      ok
+         test_point_size_attribute:    n/a       ok      ok     ok     ok     ok      ok
+ test_point_size_attribute_snippet:    n/a       ok      ok     ok     ok     ok      ok
+                 test_point_sprite:     ok       ok      ok     ok     ok     ok      ok
+     test_point_sprite_orientation:  FIXME    FIXME   FIXME  FIXME  FIXME  FIXME   FIXME
+            test_point_sprite_glsl:    n/a       ok      ok     ok     ok     ok      ok
+                      test_version:     ok       ok      ok     ok     ok     ok      ok
+                   test_alpha_test:     ok       ok      ok     ok     ok     ok      ok
+             test_map_buffer_range:     ok       ok      ok     ok     ok     ok      ok
+        test_primitive_and_journal:     ok       ok      ok     ok     ok     ok      ok
+         test_copy_replace_texture:     ok       ok      ok     ok     ok     ok      ok
+test_pipeline_cache_unrefs_texture:     ok       ok      ok     ok     ok     ok      ok
+        test_pipeline_shader_state:    n/a       ok      ok     ok     ok     ok      ok
+                test_gles2_context:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+            test_gles2_context_fbo:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+ test_gles2_context_copy_tex_image:    n/a      n/a     n/a    n/a    n/a    n/a     n/a
+             test_euler_quaternion:     ok       ok      ok     ok     ok     ok      ok
+                    test_color_hsl:     ok       ok      ok     ok     ok     ok      ok
+                        test_fence:     ok       ok      ok     ok     ok     ok      ok
+          test_texture_no_allocate:     ok       ok      ok     ok     ok     ok      ok
+                   test_texture_rg:     ok       ok      ok     ok     ok     ok      ok
+Makefile:1793: recipe for target 'test' failed
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Makefile:870: recipe for target 'test' failed
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:745: recipe for target 'check-am' failed
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:597: recipe for target 'check-recursive' failed
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Makefile:597: recipe for target 'check-recursive' failed
+Making install in deps
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/deps'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/deps'
+Making install in test-fixtures
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/test-fixtures'
+Making install in cogl
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make  install-recursive
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/cogl'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcogl.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcogl.so.20.4.1 /usr/lib/libcogl.so.20.4.1
+libtool: install: (cd /usr/lib && { ln -s -f libcogl.so.20.4.1 libcogl.so.20 || { rm -f libcogl.so.20 && ln -s libcogl.so.20.4.1 libcogl.so.20; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcogl.so.20.4.1 libcogl.so || { rm -f libcogl.so && ln -s libcogl.so.20.4.1 libcogl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcogl.lai /usr/lib/libcogl.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/cogl/cogl/gl-prototypes'
+ /usr/bin/install -c -m 644 gl-prototypes/cogl-gles2-functions.h gl-prototypes/cogl-core-functions.h gl-prototypes/cogl-in-gles-core-functions.h gl-prototypes/cogl-in-gles2-core-functions.h gl-prototypes/cogl-glsl-functions.h '/usr/include/cogl/cogl/gl-prototypes'
+ /bin/mkdir -p '/usr/include/cogl/cogl/deprecated'
+ /usr/bin/install -c -m 644 deprecated/cogl-clip-state.h deprecated/cogl-fixed.h deprecated/cogl-material-compat.h deprecated/cogl-vertex-buffer.h deprecated/cogl-shader.h deprecated/cogl-clutter.h deprecated/cogl-type-casts.h deprecated/cogl-framebuffer-deprecated.h deprecated/cogl-texture-deprecated.h deprecated/cogl-auto-texture.h deprecated/cogl-clutter-xlib.h '/usr/include/cogl/cogl/deprecated'
+ /bin/mkdir -p '/usr/include/cogl/cogl'
+ /usr/bin/install -c -m 644 deprecated/cogl-clip-state.h deprecated/cogl-fixed.h deprecated/cogl-material-compat.h deprecated/cogl-vertex-buffer.h deprecated/cogl-shader.h deprecated/cogl-clutter.h deprecated/cogl-type-casts.h deprecated/cogl-framebuffer-deprecated.h deprecated/cogl-texture-deprecated.h deprecated/cogl-auto-texture.h deprecated/cogl-clutter-xlib.h cogl1-context.h cogl-bitmap.h cogl-color.h cogl-matrix.h cogl-offscreen.h cogl-primitives.h cogl-texture.h cogl-types.h cogl.h cogl-xlib-renderer.h cogl-deprecated.h cogl-pango.h cogl-object.h cogl-renderer.h cogl-swap-chain.h cogl-onscreen-template.h cogl-display.h cogl-context.h cogl-pipeline.h cogl-pipeline-state.h cogl-pipeline-layer-state.h cogl-snippet.h cogl-gles2.h cogl-gles2-types.h cogl-index-buffer.h cogl-attribute-buffer.h cogl-indices.h cogl-attribute.h cogl-primitive.h '/usr/include/cogl/cogl'
+ /usr/bin/install -c -m 644 cogl-framebuffer.h cogl-onscreen.h cogl-frame-info.h cogl-vector.h cogl-euler.h cogl-output.h cogl-quaternion.h cogl-matrix-stack.h cogl-poll.h cogl-texture-3d.h cogl-texture-2d.h cogl-texture-2d-gl.h cogl-texture-rectangle.h cogl-texture-2d-sliced.h cogl-sub-texture.h cogl-atlas-texture.h cogl-meta-texture.h cogl-primitive-texture.h cogl-depth-state.h cogl-buffer.h cogl-pixel-buffer.h cogl2-experimental.h cogl-macros.h cogl-fence.h cogl-version.h cogl-error.h cogl-glib-source.h winsys/cogl-texture-pixmap-x11.h cogl-xlib.h cogl-glx.h cogl-egl.h '/usr/include/cogl/cogl'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 Cogl-1.0.gir Cogl-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/include/cogl/cogl'
+ /usr/bin/install -c -m 644 cogl-egl-defines.h cogl-defines.h cogl-enum-types.h '/usr/include/cogl/cogl'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 cogl-1.0.pc cogl-gl-1.0.pc cogl-2.0-experimental.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 Cogl-1.0.typelib Cogl-2.0.typelib '/usr/lib/girepository-1.0'
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl'
+Making install in cogl-path
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make  install-am
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-path'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcogl-path.la '/usr/lib'
+libtool: install: (cd /sources/7.9/cogl-1.22.0/cogl-path; /bin/sh /sources/7.9/cogl-1.22.0/libtool  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libdrm -DCOGL_GL_DEBUG -DCOGL_OBJECT_DEBUG -DCOGL_ENABLE_DEBUG -Wall -Wcast-align -Wformat -Wformat-security -Werror=uninitialized -Werror=empty-body -Werror=init-self -Werror=undef -Werror=declaration-after-statement -Werror=vla -Werror=pointer-arith -Werror=missing-declarations -Werror=maybe-uninitialized -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -g -O2 -export-dynamic -export-symbols-regex "^(cogl|cogl2)_(framebuffer|path|is|clip|[sg]et)_.*" -no-undefined -version-info 24:1:4 -rpath /usr/lib -o libcogl-path.la -rpath /usr/lib tesselator/libcogl_path_la-dict.lo tesselator/libcogl_path_la-geom.lo tesselator/libcogl_path_la-mesh.lo tesselator/libcogl_path_la-normal.lo tesselator/libcogl_path_la-priorityq.lo tesselator/libcogl_path_la-render.lo tesselator/libcogl_path_la-sweep.lo tesselator/libcogl_path_la-tess.lo tesselator/libcogl_path_la-tessmono.lo libcogl_path_la-cogl1-path.lo libcogl_path_la-cogl-path.lo libcogl_path_la-cogl-path-enum-types.lo ../cogl/libcogl.la -lcairo -lgmodule-2.0 -pthread -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lEGL -lX11 -lXext -lXdamage -lXfixes -lXcomposite -lXrandr )
+libtool: install: /usr/bin/install -c .libs/libcogl-path.so.20.4.1T /usr/lib/libcogl-path.so.20.4.1
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-path.so.20.4.1 libcogl-path.so.20 || { rm -f libcogl-path.so.20 && ln -s libcogl-path.so.20.4.1 libcogl-path.so.20; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-path.so.20.4.1 libcogl-path.so || { rm -f libcogl-path.so && ln -s libcogl-path.so.20.4.1 libcogl-path.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcogl-path.lai /usr/lib/libcogl-path.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/cogl/cogl-path'
+ /usr/bin/install -c -m 644 cogl-path.h cogl-path-types.h cogl1-path-functions.h cogl2-path-functions.h '/usr/include/cogl/cogl-path'
+ /bin/mkdir -p '/usr/include/cogl/cogl-path'
+ /usr/bin/install -c -m 644 cogl-path-enum-types.h '/usr/include/cogl/cogl-path'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 cogl-path-1.0.pc cogl-path-2.0-experimental.pc '/usr/lib/pkgconfig'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-path'
+Making install in cogl-pango
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcogl-pango.la '/usr/lib'
+libtool: install: (cd /sources/7.9/cogl-1.22.0/cogl-pango; /bin/sh /sources/7.9/cogl-1.22.0/libtool  --silent --tag CC --mode=relink gcc -pthread -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libdrm -I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libpng16 -DCOGL_GL_DEBUG -DCOGL_OBJECT_DEBUG -DCOGL_ENABLE_DEBUG -Wall -Wcast-align -Wformat -Wformat-security -Werror=uninitialized -Werror=empty-body -Werror=init-self -Werror=undef -Werror=declaration-after-statement -Werror=vla -Werror=pointer-arith -Werror=missing-declarations -Werror=maybe-uninitialized -DG_DISABLE_DEPRECATED -DG_DISABLE_SINGLE_INCLUDES -g -O2 -export-dynamic -export-symbols-regex "^cogl_pango_.*" -no-undefined -version-info 24:1:4 -o libcogl-pango.la -rpath /usr/lib libcogl_pango_la-cogl-pango-display-list.lo libcogl_pango_la-cogl-pango-fontmap.lo libcogl_pango_la-cogl-pango-render.lo libcogl_pango_la-cogl-pango-glyph-cache.lo libcogl_pango_la-cogl-pango-pipeline-cache.lo ../cogl/libcogl.la -lcairo -lgmodule-2.0 -pthread -lgdk_pixbuf-2.0 -lgobject-2.0 -lglib-2.0 -lEGL -lX11 -lXext -lXdamage -lXfixes -lXcomposite -lXrandr -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lcairo )
+libtool: install: /usr/bin/install -c .libs/libcogl-pango.so.20.4.1T /usr/lib/libcogl-pango.so.20.4.1
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-pango.so.20.4.1 libcogl-pango.so.20 || { rm -f libcogl-pango.so.20 && ln -s libcogl-pango.so.20.4.1 libcogl-pango.so.20; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-pango.so.20.4.1 libcogl-pango.so || { rm -f libcogl-pango.so && ln -s libcogl-pango.so.20.4.1 libcogl-pango.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcogl-pango.lai /usr/lib/libcogl-pango.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/cogl/cogl-pango'
+ /usr/bin/install -c -m 644 cogl-pango.h '/usr/include/cogl/cogl-pango'
+ /bin/mkdir -p '/usr/share/gir-1.0'
+ /usr/bin/install -c -m 644 CoglPango-1.0.gir CoglPango-2.0.gir '/usr/share/gir-1.0'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 cogl-pango-1.0.pc cogl-pango-2.0-experimental.pc '/usr/lib/pkgconfig'
+ /bin/mkdir -p '/usr/lib/girepository-1.0'
+ /usr/bin/install -c -m 644 CoglPango-1.0.typelib CoglPango-2.0.typelib '/usr/lib/girepository-1.0'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-pango'
+Making install in cogl-gles2
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+ /bin/mkdir -p '/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcogl-gles2.la '/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcogl-gles2.so.20.4.1 /usr/lib/libcogl-gles2.so.20.4.1
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-gles2.so.20.4.1 libcogl-gles2.so.20 || { rm -f libcogl-gles2.so.20 && ln -s libcogl-gles2.so.20.4.1 libcogl-gles2.so.20; }; })
+libtool: install: (cd /usr/lib && { ln -s -f libcogl-gles2.so.20.4.1 libcogl-gles2.so || { rm -f libcogl-gles2.so && ln -s libcogl-gles2.so.20.4.1 libcogl-gles2.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcogl-gles2.lai /usr/lib/libcogl-gles2.la
+libtool: finish: PATH="/bin:/usr/ucb:/usr/bin:/usr/sbin:/sbin:/usr/etc:/etc:/sbin" ldconfig -n /usr/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/include/cogl/cogl-gles2/GLES2'
+ /usr/bin/install -c -m 644 GLES2/gl2.h GLES2/gl2ext.h GLES2/gl2platform.h '/usr/include/cogl/cogl-gles2/GLES2'
+ /bin/mkdir -p '/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 cogl-gles2-1.0.pc cogl-gles2-2.0-experimental.pc '/usr/lib/pkgconfig'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/cogl-gles2'
+Making install in tests
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+Making install in conform
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make  install-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/conform'
+Making install in unit
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make  install-am
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/unit'
+Making install in micro-perf
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/micro-perf'
+Making install in data
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests/data'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/tests'
+Making install in examples
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/examples'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/examples'
+ /bin/mkdir -p '/usr/share/cogl/examples-data'
+ /usr/bin/install -c -m 644 crate.jpg '/usr/share/cogl/examples-data'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/examples'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/examples'
+Making install in doc
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/doc'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/doc'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/doc'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/doc'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/doc'
+Making install in po
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/po'
+/bin/mkdir -p /usr/share
+installing an.gmo as /usr/share/locale/an/LC_MESSAGES/cogl.mo
+installing ar.gmo as /usr/share/locale/ar/LC_MESSAGES/cogl.mo
+installing as.gmo as /usr/share/locale/as/LC_MESSAGES/cogl.mo
+installing ast.gmo as /usr/share/locale/ast/LC_MESSAGES/cogl.mo
+installing be.gmo as /usr/share/locale/be/LC_MESSAGES/cogl.mo
+installing bg.gmo as /usr/share/locale/bg/LC_MESSAGES/cogl.mo
+installing bs.gmo as /usr/share/locale/bs/LC_MESSAGES/cogl.mo
+installing ca.gmo as /usr/share/locale/ca/LC_MESSAGES/cogl.mo
+installing ca@valencia.gmo as /usr/share/locale/ca@valencia/LC_MESSAGES/cogl.mo
+installing cs.gmo as /usr/share/locale/cs/LC_MESSAGES/cogl.mo
+installing da.gmo as /usr/share/locale/da/LC_MESSAGES/cogl.mo
+installing de.gmo as /usr/share/locale/de/LC_MESSAGES/cogl.mo
+installing el.gmo as /usr/share/locale/el/LC_MESSAGES/cogl.mo
+installing en_CA.gmo as /usr/share/locale/en_CA/LC_MESSAGES/cogl.mo
+installing en_GB.gmo as /usr/share/locale/en_GB/LC_MESSAGES/cogl.mo
+installing eo.gmo as /usr/share/locale/eo/LC_MESSAGES/cogl.mo
+installing es.gmo as /usr/share/locale/es/LC_MESSAGES/cogl.mo
+installing eu.gmo as /usr/share/locale/eu/LC_MESSAGES/cogl.mo
+installing fa.gmo as /usr/share/locale/fa/LC_MESSAGES/cogl.mo
+installing fr.gmo as /usr/share/locale/fr/LC_MESSAGES/cogl.mo
+installing gl.gmo as /usr/share/locale/gl/LC_MESSAGES/cogl.mo
+installing he.gmo as /usr/share/locale/he/LC_MESSAGES/cogl.mo
+installing hi.gmo as /usr/share/locale/hi/LC_MESSAGES/cogl.mo
+installing hu.gmo as /usr/share/locale/hu/LC_MESSAGES/cogl.mo
+installing id.gmo as /usr/share/locale/id/LC_MESSAGES/cogl.mo
+installing it.gmo as /usr/share/locale/it/LC_MESSAGES/cogl.mo
+installing ja.gmo as /usr/share/locale/ja/LC_MESSAGES/cogl.mo
+installing km.gmo as /usr/share/locale/km/LC_MESSAGES/cogl.mo
+installing kn.gmo as /usr/share/locale/kn/LC_MESSAGES/cogl.mo
+installing ko.gmo as /usr/share/locale/ko/LC_MESSAGES/cogl.mo
+installing lt.gmo as /usr/share/locale/lt/LC_MESSAGES/cogl.mo
+installing lv.gmo as /usr/share/locale/lv/LC_MESSAGES/cogl.mo
+installing ml.gmo as /usr/share/locale/ml/LC_MESSAGES/cogl.mo
+installing nb.gmo as /usr/share/locale/nb/LC_MESSAGES/cogl.mo
+installing nl.gmo as /usr/share/locale/nl/LC_MESSAGES/cogl.mo
+installing oc.gmo as /usr/share/locale/oc/LC_MESSAGES/cogl.mo
+installing or.gmo as /usr/share/locale/or/LC_MESSAGES/cogl.mo
+installing pa.gmo as /usr/share/locale/pa/LC_MESSAGES/cogl.mo
+installing pl.gmo as /usr/share/locale/pl/LC_MESSAGES/cogl.mo
+installing pt.gmo as /usr/share/locale/pt/LC_MESSAGES/cogl.mo
+installing pt_BR.gmo as /usr/share/locale/pt_BR/LC_MESSAGES/cogl.mo
+installing ru.gmo as /usr/share/locale/ru/LC_MESSAGES/cogl.mo
+installing sk.gmo as /usr/share/locale/sk/LC_MESSAGES/cogl.mo
+installing sl.gmo as /usr/share/locale/sl/LC_MESSAGES/cogl.mo
+installing sr.gmo as /usr/share/locale/sr/LC_MESSAGES/cogl.mo
+installing sr@latin.gmo as /usr/share/locale/sr@latin/LC_MESSAGES/cogl.mo
+installing sv.gmo as /usr/share/locale/sv/LC_MESSAGES/cogl.mo
+installing ta.gmo as /usr/share/locale/ta/LC_MESSAGES/cogl.mo
+installing te.gmo as /usr/share/locale/te/LC_MESSAGES/cogl.mo
+installing th.gmo as /usr/share/locale/th/LC_MESSAGES/cogl.mo
+installing tr.gmo as /usr/share/locale/tr/LC_MESSAGES/cogl.mo
+installing ug.gmo as /usr/share/locale/ug/LC_MESSAGES/cogl.mo
+installing uk.gmo as /usr/share/locale/uk/LC_MESSAGES/cogl.mo
+installing vi.gmo as /usr/share/locale/vi/LC_MESSAGES/cogl.mo
+installing zh_CN.gmo as /usr/share/locale/zh_CN/LC_MESSAGES/cogl.mo
+installing zh_HK.gmo as /usr/share/locale/zh_HK/LC_MESSAGES/cogl.mo
+installing zh_TW.gmo as /usr/share/locale/zh_TW/LC_MESSAGES/cogl.mo
+if test "cogl" = "gettext-tools"; then \
+  /bin/mkdir -p /usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/po'
+Making install in build
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0/build'
+Making install in win32
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32'
+Making install in vs9
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs9'
+Making install in vs10
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32/vs10'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[4]: Entering directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/build/win32'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0/build'
+make[3]: Entering directory '/sources/7.9/cogl-1.22.0/build'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/sources/7.9/cogl-1.22.0/build'
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0/build'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0/build'
+make[1]: Entering directory '/sources/7.9/cogl-1.22.0'
+make[2]: Entering directory '/sources/7.9/cogl-1.22.0'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/sources/7.9/cogl-1.22.0'
+make[1]: Leaving directory '/sources/7.9/cogl-1.22.0'

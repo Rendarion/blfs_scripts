@@ -1,0 +1,4 @@
+gzip -cd ../libpng-1.6.21-apng.patch.gz | patch -p0
+
+./configure --prefix=/usr --disable-static &&
+make

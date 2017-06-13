@@ -1,0 +1,15 @@
+URL=(
+"http://download.kde.org/stable/phonon/4.9.1/phonon-4.9.1.tar.xz"
+)
+
+for i in "${URL[@]}"
+  do :
+    ARC[${#ARC[@]}]=$(basename "$i")
+  done
+
+DEP=(
+"cmake-3.7.2"
+"extra-cmake-modules-5.31.0"
+"glib-2.50.3"
+"qt-5.8.0"
+)

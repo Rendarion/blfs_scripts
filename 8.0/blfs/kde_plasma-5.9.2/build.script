@@ -1,0 +1,50 @@
+cd ../kde
+
+cat > plasma-5.9.2.md5 << "EOF"
+73bc77af6f711c06d6d3f1ef45f10160  kde-cli-tools-5.9.2.tar.xz
+626a33ac01151206d3253e8c29d435ad  kdecoration-5.9.2.tar.xz
+c9b35833c8d7c393d1bbb3dabc70f0d5  libkscreen-5.9.2.tar.xz
+78dc80f2ea85bc819a232a8aa8179c69  libksysguard-5.9.2.tar.xz
+5c276dcbe1d9ed7884246a34f6a3707a  breeze-5.9.2.tar.xz
+f31d99fffcf1d8b339ae4a9cfec67856  breeze-gtk-5.9.2.tar.xz
+153146a388091bf167ada1f436394d11  kscreenlocker-5.9.2.tar.xz
+54e1676160447f7c8bc56b62242809d2  oxygen-5.9.2.tar.xz
+09c1336a19629f9f2b64885b4104d23e  kinfocenter-5.9.2.tar.xz
+abc2bb29f5e72c04840f24085b84a48c  ksysguard-5.9.2.tar.xz
+35a815b1de64c4feb1670d21b85484e3  kwin-5.9.2.tar.xz
+d711cf51ca3b21f1bed3ec367d6fbea8  systemsettings-5.9.2.tar.xz
+0ab5467630ac11bcfe9d134449811641  plasma-workspace-5.9.2.tar.xz
+9b5ea9445306520190a54e1e72b25d81  bluedevil-5.9.2.tar.xz
+f5a8d06f99eacb828d5476001f21481c  kde-gtk-config-5.9.2.tar.xz
+f9949eee01af23cf7e5c940ae24e815a  khotkeys-5.9.2.tar.xz
+0183785beb44a066907c4d7a0025ba00  kmenuedit-5.9.2.tar.xz
+8c4d6b9c36d8943a4c6d29313285d5d6  kscreen-5.9.2.tar.xz
+77c383d9f4f38d962b0bfaf97740fc00  kwallet-pam-5.9.2.tar.xz
+bd8b2ccb3feef5556e54134c48dcb4cd  kwayland-integration-5.9.2.tar.xz
+1eb7128d2133ba378e2d816a75241f40  kwrited-5.9.2.tar.xz
+f060f64201f77190902ceb0b2970a854  milou-5.9.2.tar.xz
+fe07081e243c21a881e74811e21e5699  plasma-nm-5.9.2.tar.xz
+843b66f9c01373a5f9e706bb0ed6857f  plasma-pa-5.9.2.tar.xz
+96b3bce05e95880f2d971f0e50ddc997  plasma-workspace-wallpapers-5.9.2.tar.xz
+3b83e658f8a3d8ca163f7f386204f7c8  polkit-kde-agent-1-5.9.2.tar.xz
+0fbed265a6e2ddc201951d686c60a6c9  powerdevil-5.9.2.tar.xz
+189bca8e52a9aa49e07979a73c2027ea  plasma-desktop-5.9.2.tar.xz
+7d5bcc25bb81464e4d0a48cfcd88e4d0  kdeplasma-addons-5.9.2.tar.xz
+0bd92b511f5cf038e3d2cdb3603079e1  kgamma5-5.9.2.tar.xz
+6f7b588292a1a9b8dcf9b71bb14d7db2  ksshaskpass-5.9.2.tar.xz
+#db4a5d3fba916641d011fce81cd62491  plasma-sdk-5.9.2.tar.xz
+e9b418da105db2afd0174d4c0055e82b  sddm-kcm-5.9.2.tar.xz
+54aa86277d27b2a7d10945375f46e781  user-manager-5.9.2.tar.xz
+fc31095f62beb97e5794190f37f9723d  discover-5.9.2.tar.xz
+#4eff8049e19ca87cab6c94d208089f62  breeze-grub-5.9.2.tar.xz
+#6ff3b8b9d178c17f7b760d5da34b4eb7  breeze-plymouth-5.9.2.tar.xz
+e64bd0bc6d95847e24b37335c4071483  kactivitymanagerd-5.9.2.tar.xz
+777a8590c34777d0e9f5c40a6226b91a  plasma-integration-5.9.2.tar.xz
+9bcb2aa6e73acc860389c0dfac76c242  plasma-tests-5.9.2.tar.xz
+EOF
+
+url=http://download.kde.org/stable/plasma/5.9.2/
+
+mkdir plasma
+cd plasma
+#wget -r -nH --cut-dirs=3 -A '*.xz' -np $url

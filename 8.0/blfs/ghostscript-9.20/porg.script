@@ -1,0 +1,13 @@
+make install
+
+#make soinstall &&
+#install -v -m644 base/*.h /usr/include/ghostscript &&
+#ln -v -s ghostscript /usr/include/ps
+
+ln -sfvn ../ghostscript/9.20/doc /usr/share/doc/ghostscript-9.20
+
+tar -xvf ../ghostscript-fonts-std-8.11.tar.gz -C /usr/share/ghostscript --no-same-owner &&
+fc-cache -v /usr/share/ghostscript/fonts/
+
+tar -xvf ../gnu-gs-fonts-other-6.0.tar.gz -C /usr/share/ghostscript --no-same-owner &&
+fc-cache -v /usr/share/ghostscript/fonts/
